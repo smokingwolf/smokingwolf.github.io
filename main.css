@@ -1,0 +1,587 @@
+/* 2025-05-16版 */
+
+*{margin:0px;padding:0px;}
+
+html{
+}
+
+#cm_pos{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  height: 0px;
+  text-align:center;
+  line-height:9px;
+}
+
+
+#resultname{
+	padding-left: 8px;
+	padding-top: 14px;
+	padding-bottom: 8px;
+	background-color: #9f9fdd;
+	color:#ffffff;
+	
+  background: -moz-linear-gradient( top , #333399, #aaaaff);
+  background: -webkit-gradient(linear, center top, center bottom, from(#333399), to(#aaaaff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF333399', endColorstr='#FFaaaaff');
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+
+body{
+	width:690px;
+	margin:20px auto;
+	padding: 10px 0px;
+    text-align:left;
+    font-size:13px;
+    color:#666686;
+    background-color: #FFFFFF;
+    border: 0;
+    line-height: 150%;
+    font-family:'Meiryo','ＭＳ Ｐゴシック', sans-serif;
+
+  SCROLLBAR-FACE-COLOR:#c3c3d5;
+  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
+  SCROLLBAR-SHADOW-COLOR: #fafaff;
+
+  SCROLLBAR-3DLIGHT-COLOR:#535385;
+  SCROLLBAR-ARROW-COLOR: #535385;
+
+  SCROLLBAR-TRACK-COLOR: #8383c5;
+
+  SCROLLBAR-DARKSHADOW-COLOR: #535385;
+}
+
+
+
+
+A:LINK,A:VISITED{color:#ef486c;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #ff688c;text-decoration : underline;}
+
+A.text:LINK,A.text:VISITED{color:#666686;text-decoration:none;}
+A.text:HOVER,A.text:ACTIVE{color:#666686;text-decoration:none;}
+
+A.white:LINK,A.white:VISITED{color:#ffffff;text-decoration:none;}
+A.white:HOVER,A.white:ACTIVE{color:#ffffff;text-decoration:underline;}
+
+A.g:LINK,A.g:VISITED{color:#38b68c;text-decoration:underline;}
+A.g:HOVER,A.g:ACTIVE{color:#68d6ac;text-decoration:underline;}
+
+/* 青部分に存在するリンク用カラー */
+A.rred:LINK,A.rred:VISITED{color:#af385c;text-decoration : underline;}
+A.rred:HOVER,A.rred:ACTIVE{color : #bf688c;text-decoration : underline;}
+
+
+A.rred2:LINK,A.rred2:VISITED{color:#ef486c;text-decoration:none;}
+A.rred2:HOVER,A.rred2:ACTIVE{color : #ef486c;text-decoration:none;}
+
+A.blue:LINK,A.blue:VISITED{color:#486cef;text-decoration : underline;}
+A.blue:HOVER,A.blue:ACTIVE{color : #688cff;text-decoration : underline;}
+
+
+a img:hover{
+  opacity:0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=0)"; 
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7; 
+  zoom:1;
+}
+
+
+img{
+	/*border:0;*/
+}
+
+
+H1,H2,H3{
+	font-weight: bold;
+
+}
+
+H1{
+	background-image: url(image/h1.png);
+	font-size: 28px;
+}
+
+H1 a{
+	display: block;
+	height:60px;
+	padding-top: 20px;
+	padding-left: 14px;
+	color: #ffffff;
+	text-decoration:none;
+	text-shadow: 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F;
+}
+
+B.x {
+	font-size: 14px;
+	color: #ff4444;
+
+}
+
+H1 a:hover{
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+
+H2{
+	font-size: 160%;
+	margin:10px 0px;
+	color:#385cff;
+	padding:3px;
+	border-bottom:1px solid #a3a3e5;
+	padding-left:6px;
+	
+  background: -moz-linear-gradient( top , #ffffff, #eeeeff);
+  background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#eeeeff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFffffff', endColorstr='#FFeeeeff');
+}
+
+
+/* indexは右に作品一覧が入るので線を減らす */
+H2.index{
+	font-size: 120%;
+	margin:10px 170px 10px 0px;
+	padding:3px;
+	border-bottom:1px solid #a3a3e5;
+}
+
+
+
+H3{
+	font-size: 100%;
+	color: #336699;
+}
+
+.big{
+    line-height: 180%;
+	font-size: 18px;
+	border-top:6px;
+}
+
+.close{
+    line-height: 120%;
+}
+
+HR{
+	clear: both;
+	margin-bottom: 12px;
+}
+
+TABLE{
+	border-top:1px solid #a3a3e5;
+	border-left:1px solid #a3a3e5;
+}
+
+
+TD{
+	border-right:1px solid #a3a3e5;
+	border-bottom:1px solid #a3a3e5;
+	font-size: 12px;
+	padding:4px 10px;
+}
+
+TD.vote{
+	border-right:1px solid #a3a3e5;
+	border-bottom:1px solid #a3a3e5;
+	padding:1px 2px;
+	font-size: 11px;
+}
+
+TABLE.noborder{
+	border-top:0px hidden;
+	border-right:0px hidden;
+	border-left:0px hidden;
+	border-bottom:0px hidden;
+}
+
+TD.noborder{
+	border-right:0px hidden;
+	border-bottom:0px hidden;
+	padding:0px 0px;
+}
+
+TABLE.x{
+	border-top:0px hidden;
+	border-right:0px hidden;
+	border-left:0px hidden;
+	border-bottom:0px hidden;
+	border-top:1px solid #a3a3e5;
+	border-left:1px solid #a3a3e5;
+}
+TD.x{
+	border-right:0px hidden;
+	border-bottom:0px hidden;
+	border-right:1px solid #a3a3e5;
+	border-bottom:1px solid #a3a3e5;
+	padding:0px 0px;
+}
+
+
+
+TD.topentry{
+	margin:2px;
+	padding:3px;
+	word-wrap: break-word;
+}
+
+.sn{
+	float: left;
+	width: 320px;
+	height: 260px;
+	position: relative;/*縦中央揃えにしようとしたけどうまくいかなかった残骸*/
+}
+
+.sn_inner{  /*縦中央揃えにしようとしたけどうまくいかなかった残骸*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.sn IMG{
+	max-width: 320px;
+	max-height: 240px;
+
+}
+
+IMG.pvanime{
+	width: 17px;
+	height: 14px;
+}
+
+IMG.banner{
+	 filter: drop-shadow(0 0 1.5px #f44) drop-shadow(0 0 5px rgba(255, 70, 70, 0.5)) drop-shadow(4px 4px 2px rgba(70, 70, 190, 0.3)) ;
+}
+
+
+.snr{
+	float: right;
+	height: 260px;
+	position: relative;top: -15px;
+}
+
+
+.snr IMG{
+	width: 320px;
+	height: 240px;
+	margin-right: 320px;
+	float:left;
+}
+
+B.rank{
+	font-size:18px;
+}
+
+B.high{
+	color: #dd4444;
+}
+
+B.high2{
+	color: #4444ff;
+}
+
+
+
+.fmmg{
+	color: #bbbbee;
+}
+
+DL.entry{
+	height:250px;
+	padding:5px;
+	overflow: auto;
+	margin-bottom:12px;
+	padding:0px 4px 0px 9px;
+}
+
+
+.game_title{
+  background: -moz-linear-gradient( top , #eeeeff, #ffffff);
+  background: -webkit-gradient(linear, center top, center bottom, from(#eeeeff), to(#ffffff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFeeeeff', endColorstr='#FFffffff');
+  border-radius: 6px;
+  padding:5px;
+  margin:0px 5px 9px -1px;
+  border-bottom:1px solid #aaaadd;
+  text-shadow: 0 -1px 2px #FFF,
+    	-1px 0 2px #FFF,
+    	1px 0 2px #FFF,
+    	0 1px 2px #FFF;
+}
+
+/* 作品一覧を出してるときはwidth:480px;なければwidth:550px; */
+
+DL.whatnew{
+	height:230px;
+	width:480px;
+	padding:5px;
+	overflow: auto;
+	margin-bottom: 12px;
+	border:1px #ddddff solid;
+}
+
+DL.result{
+	
+	height:228px;
+	padding:8px;
+	overflow: auto;
+	margin-bottom: 10px;
+	border:1px #aaaadd dashed;
+}
+
+DL.comment{
+	height:180px;
+	width:650px;
+	overflow: auto;
+	border:1px #ddddff solid;
+}
+
+
+
+
+DT{
+	color: #9999aa;
+}
+
+
+DT B{
+	color: #666686;
+	padding-left: 4px;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 130%;
+}
+
+
+DD{
+	padding-left: 4px;
+}
+
+a{
+	text-decoration:underline;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+
+#head{
+	clear: both;
+}
+
+#middle{
+	clear: both;
+	height: 100%;
+	padding: 10px;
+	border-left: 1px solid #a3a3e5;
+	border-right: 1px solid #a3a3e5;
+}
+
+
+
+
+#foot{
+	clear: both;
+	height: 70px;
+	background-color: #a3a3e5;
+}
+
+
+
+UL.menu{
+    list-style:none;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.menu LI{
+	display:;
+	width:20%;
+	margin:0px;
+	float:left;
+	text-align:center;
+}
+
+
+.menu1 {
+	background-color: #a3a3e5;
+	background: -moz-linear-gradient( top , #6363c5, #a3a3e5);
+	background: -webkit-gradient(linear, center top, center bottom, from(#6363c5), to(#a3a3e5));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF6363c5', endColorstr='#FFa3a3e5');
+
+}
+.menu2 {
+	background-color: #b4b4fa;
+	background: -moz-linear-gradient( top , #8484ca, #b4b4fa);
+	background: -webkit-gradient(linear, center top, center bottom, from(#8484ca), to(#b4b4fa));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF8484ca', endColorstr='#FFb4b4fa');
+}
+.menu3 {
+	background-color: #fa9494;
+	background: -moz-linear-gradient( top , #ff5454, #fa9494);
+	background: -webkit-gradient(linear, center top, center bottom, from(#ff5454), to(#fa9494));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFff5454', endColorstr='#FFfa9494');
+}
+.menu4 {
+	background-color: #5454ff;
+	background: -moz-linear-gradient( top , #1414ff, #9494ff);
+	background: -webkit-gradient(linear, center top, center bottom, from(#1414ff), to(#9494ff));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF1414ff', endColorstr='#FF9494ff');
+}
+
+.menu a{
+	text-decoration:none;
+	display:block;
+	padding:4px 0px;
+	color: #ffffff;
+/*	background-color: #a3a3e5;  */
+}
+
+.menu a:hover{
+	text-decoration:none;
+	color: #333333;
+	display:block;
+	background-color: #ceceff;
+}
+
+.fred{color:#ef486c;}
+
+.fwhite{color:#ffffff;}
+
+
+
+.sn2 IMG{
+	width: 120px;
+	height: 90px;
+	float:left;
+	padding:2px;
+	margin:2px;
+}
+
+DL.result2{
+	height:102px;
+	width:318px;
+	padding:2px;
+	overflow: auto;
+	margin-bottom: 2px;
+	border:1px #aaaadd dashed;
+	line-height:110%;
+}
+DL.comment2{
+	height:90px;
+	width:100%;
+	overflow: auto;
+	border:1px #ddddff solid;
+	margin-bottom: 10px;
+	line-height:110%;
+}
+
+
+.list_table{
+	border-left: 1px solid #a3a3e5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  background: -moz-linear-gradient(left top, #555599, #9f9fdd);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#9f9fdd));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF9f9fdd');
+  background: linear-gradient(to right, #559, #aae);
+}
+
+.list_title{
+	padding: 4px;
+	color:#ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.list_content{
+	background-color: #fefeff;
+}
+
+#resultname2{
+	padding: 4px;
+	background-color: #9f9fdd;
+	color:#ffffff;
+  background: -moz-linear-gradient(left top, #555599, #9f9fdd);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#9f9fdd));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF9f9fdd');
+  background: linear-gradient(to right, #559, #aae);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.pos1{
+	position: relative;left: 35px;top: -12px;text-align:left;height:12px;
+	color:#33f;
+
+	text-shadow: 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC;
+}
+.pos2{
+	position: relative;left: 165px;top:-12px;text-align:left;height:12px;
+	color:#33f;
+	text-shadow: 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC;
+}
+.pos3{
+	position: relative;left: 295px;top:-12px;text-align:left;height:12px;
+	color:#33f;
+	text-shadow: 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC;
+}
+.pos4{
+	position: relative;left: 435px;top: -12px;text-align:left;height:12px;
+	color:#33f;
+	text-shadow: 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC;
+}
+.pos5{
+	position: relative;left: 575px;top: -12px;text-align:left;height:12px;
+	color:#33f;
+	text-shadow: 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC, 0 0 9px #FFC;
+}
+
+.cm_navi { display: inline-block;  }
+
+@media only screen and (max-width: 900px) {
+    .cm_navi { display: none; }
+}
+
+
+/* スクロールバーの幅 */
+::-webkit-scrollbar {  width: 15px; } 
+
+/* スクロールバーのトラック（背景部分）をスタイリング */
+::-webkit-scrollbar-track {  background: #F1F1F8;  }
+
+/* スクロールバーのハンドル（動かす部分）をスタイリング */
+::-webkit-scrollbar-thumb {  background: #CCD; border-radius: 3px;  }
+
+/* ハンドルをホバーしたときのスタイリング */
+::-webkit-scrollbar-thumb:hover {  background: #AAB; /* ホバー時のハンドルの色 */  border-radius: 3px; /* 角の丸み */}
+
+/* スクロールバーのボタン（上下の▲▼部分） */
+::-webkit-scrollbar-button {
+  background-color: #CCC; /* ボタンの背景色 */
+  height: 15px; /* ボタンの高さ */
+  width: 15px; /* ボタンの幅 */
+}
+
+/* ボタンの上部 */
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background: url('./image/Scroll_UpArrow.png') center no-repeat; /* 上向き矢印の画像を指定 */
+}
+
+/* ボタンの下部 */
+::-webkit-scrollbar-button:vertical:end:increment {
+  background: url('./image/Scroll_DownArrow.png') center no-repeat; /* 下向き矢印の画像を指定 */
+}
