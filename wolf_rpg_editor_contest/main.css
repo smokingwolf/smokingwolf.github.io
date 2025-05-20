@@ -77,8 +77,15 @@ A.rred:HOVER,A.rred:ACTIVE{color : #bf688c;text-decoration : underline;}
 A.rred2:LINK,A.rred2:VISITED{color:#ef486c;text-decoration:none;}
 A.rred2:HOVER,A.rred2:ACTIVE{color : #ef486c;text-decoration:none;}
 
-A.blue:LINK,A.blue:VISITED{color:#486cef;text-decoration : underline;}
+A.blue:LINK,A.blue:VISITED{color:#486cff;text-decoration : underline;}
 A.blue:HOVER,A.blue:ACTIVE{color : #688cff;text-decoration : underline;}
+
+
+.fblue{  color:#486cff;  }
+.fgreen{  color:#38b68c;  }
+.fred{color:#ef486c;}
+
+.fwhite{color:#ffffff;}
 
 
 a img:hover{
@@ -131,7 +138,7 @@ H1 a:hover{
 H2{
 	font-size: 160%;
 	margin:10px 0px;
-	color:#385cff;
+	color:#585caa;
 	padding:3px;
 	border-bottom:1px solid #a3a3e5;
 	padding-left:6px;
@@ -454,9 +461,6 @@ UL.menu{
 	background-color: #ceceff;
 }
 
-.fred{color:#ef486c;}
-
-.fwhite{color:#ffffff;}
 
 
 
