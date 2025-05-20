@@ -1,122 +1,349 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Silver Second -シルバーセカンド 思い出の部屋 -</title>
-  <style>
-    body {
-      font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-      background-color: #f8f8ff;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #3a5fcd;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 1.6rem;
-    }
-    main {
-      padding: 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    section {
-      background-color: #e6f0ff;
-      border-radius: 8px;
-      margin-bottom: 1.2rem;
-      padding: 1rem;
-    }
-    section h2 {
-      font-size: 1.3rem;
-      margin-top: 0;
-      color: #2b4d9c;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      margin: 0.4rem 0;
-    }
-    a {
-      color: #2b4d9c;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 1rem;
-      background-color: #dce6f7;
-      color: #666;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Silver Second -シルバーセカンド- 思い出の部屋</h1>
-    <p>～ ゲーム開発者SmokingWOLFのアーカイブ ～</p>
-  </header>
-  <main>
-    <section>
-      <h2>🎨 イラスト・テキスト集</h2>
-      <ul>
-        <li><a href="#">イラスト展示</a></li>
-        <li><a href="#">テキスト集</a></li>
-      </ul>
-    </section>
+<HEAD>
+<meta charset="UTF-8">
+<HEAD prefix="og:http://ogp.me/ns#">
+<META http-equiv="Content-Style-Type" content="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <section>
-      <h2>🎮 フリーゲーム集</h2>
-      <ul>
-        <li><a href="#">片道勇者</a></li>
-        <li><a href="#">シルフェイド幻想譚</a></li>
-      </ul>
-    </section>
+<META NAME="keywords" CONTENT="Wolf RPGエディター,ウディタ,フリーゲーム">
+<META NAME="description" CONTENT="ウディタで制作されたフリーゲームのコンテスト『ウディコン』ページのアーカイブページです">
 
-    <section>
-      <h2>💿 有料ゲーム作品</h2>
-      <ul>
-        <li><a href="#">片道勇者プラス</a></li>
-        <li><a href="#">シルフェイド学院物語</a></li>
-        <li><a href="#">シルエットノート</a></li>
-      </ul>
-    </section>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ウディコン - WOLF RPGエディターコンテスト 静かな思い出" />
+<meta name="twitter:description" content="ここはWOLF RPGエディターで開発されたフリーゲームのコンテスト『ウディコン』の結果発表保存ページです。" />
+<!--<meta name="twitter:image" content="http://www.silversecond.com/WolfRPGEditor/Contest/TwitterIcon.jpg" />-->
 
-    <section>
-      <h2>📚 書籍・出版物</h2>
-      <ul>
-        <li><a href="#">小説版『片道勇者』</a></li>
-        <li><a href="#">ゲーム開発者の地図</a></li>
-        <li><a href="#">片道勇者開発記</a></li>
-      </ul>
-    </section>
+<meta name="og:title" content="ウディコン - WOLF RPGエディターコンテスト" />
+<meta name="og:description" content="ここはWOLF RPGエディターで開発されたフリーゲームのコンテスト『ウディコン』の結果発表保存ページです。" />
+<!--<meta name="og:image" content="http://www.silversecond.com/WolfRPGEditor/Contest/TwitterIcon.jpg" />-->
 
-    <section>
-      <h2>🎲 TRPG・リプレイ資料</h2>
-      <ul>
-        <li><a href="#">旅団世界TRPGリプレイシリーズ</a></li>
-        <li><a href="#">TRPGリプレイ</a></li>
-      </ul>
-    </section>
+<TITLE>WOLF RPGエディターコンテスト(ウディコン) 歴史資料館</TITLE>
+<LINK REL="stylesheet" HREF="main.css" TYPE="text/css">
+<script src="./smoothscroll.js" type="text/javascript"></script> 
+<style>
+/* 画像を半透明にするCSSクラス */
+.trans {
+  opacity: 0.6; /* 透明度を指定 (0.0 から 1.0 の範囲) */
+  border-radius:16px;
+  max-width:140px;
+}
+.trans2 {
+  opacity: 0.6; /* 透明度を指定 (0.0 から 1.0 の範囲) */
+  border-radius:16px;
+  max-width:120px;
+}
+</style>
+</HEAD>
 
-    <section>
-      <h2>🏆 ウディコン結果アーカイブページへ</h2>
+<BODY><a id="top"></a>
 
-    </section>
-  </main>
+<DIV ID="head">
+<H1><A href="../wolf_rpg_editor_contest/" class="white" style="text-shadow: 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F;">WOLF RPGエディターコンテスト 歴史資料館</A></H1>
 
-  <footer>
-    <p>Copyright &copy; SmokingWOLF / Silver Second. 本ページはアーカイブ目的で制作されています。</p>
-  </footer>
-</body>
-</html>
+
+<DIV ID="middle">
+
+　このサイトは『WOLF RPGエディターコンテスト』の記録が長く残ることを願い、思い出や創作の歴史を振り返るために作られた資料ページです。
+<BR>　
+
+
+<!-- ●ベース内容（消さない）● -->
+<H2 id="first"><a id="first"></a>◆ WOLF RPGエディターコンテスト（ウディコン）とは？</H2>
+
+　『ウディコン』は、WOLF RPGエディター（ウディタ）製のゲームを対象にした年一回開催のコンテストです。<BR>
+　主催はウディタの開発者・SmokingWOLF（スモーキングウルフ）です。<BR>
+　本コンテストは、参加者による自由な発想と情熱により、多くの名作が生まれてきました。<BR>
+<BR>
+　『WOLF RPGエディター』は2008年に正式公開され、『ウディコン』はその翌年の2009年からスタート。以降、毎年7～8月頃に開催され、夏のフリーゲームの祭典として多くのユーザーに親しまれてきました。<BR>
+　コンテストは第3回までは「審査員審査＋一般投票」の混合形式で行われ、第4回以降は「一般投票のみ」に移行。すべてのプレイヤーの声が評価に直結する、プレイヤー参加型のコンテストとなっています。<BR>
+<BR>
+　このページでは、そんな『ウディコン』の記録が長く残ることを願い、毎年の結果発表ページを資料として保管しています。<BR>
+　作り手と遊び手、すべての参加者の情熱が詰まった記録の数々──<BR>
+　そのあふれる熱量の跡を、どうぞごゆっくりお楽しみください。<BR>
+<BR>　
+
+
+
+<H2>◆ 注意書き</H2>
+<B>●【このページ内にある作品がすべてではありません！】</B><BR>
+　各結果発表へのリンクには、「１～３位作品」ないし「３位と得点が僅差だった作品」のみ掲載されています。エントリー作品すべての詳細な順位発表や投票コメントは、各結果発表のリンク先をご覧ください。<BR>
+<BR>
+<B>●【リンク切れもありますが、一部ゲームデータはダウンロード可能です】</B><BR>
+　リンク先の結果発表ページには作品ごとの【ダウンロード】リンクや『作者サイト』へのリンクがありますが、それらは<B class="fred">コンテスト当時のもの</B>ですのでリンク切れしている場合がございます。<BR>
+　ただし、一部の上位作品のゲームデータは運営のミラーによる保管がおこなわれており、ダウンロードが可能です。<BR>　
+<BR>
+<B>●【当時のページに興味がある方へ】</B><BR>
+　開催当時のウディコン公式のアドレスは「 <B>https://silversecond.com/WolfRPGEditor/Contest/</B> 」です<SMALL>（現在のsilversecond.comドメインが有害なサイトに使われている可能性を考え、直接リンクはしていません。URLを開く際はご注意ください）</SMALL><BR>
+　<A href="https://web.archive.org/web/29990000000000*/https://silversecond.com/WolfRPGEditor/Contest/" target="_blank">『インターネットアーカイブのWayback Machine(ウディコン公式URL)』(別ｳｨﾝﾄﾞｳ)</A>より、開催当時の内容を閲覧できます。<BR>　
+<BR>　
+
+<H2>● 第16回コンテスト　2024年開催</H2>
+　<A href="../wolf_rpg_editor_contest16_2024/">クリックで結果発表ページへ<BR>
+<img src="./Entry16/CMbanner.png" border="0" title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="../wolf_rpg_editor_contest16_2024/#15"><img class="trans" src="./Entry16/15_mini.jpg" border="1"></a> 
+<A href="../wolf_rpg_editor_contest16_2024/#61"><img class="trans" src="./Entry16/61_mini.jpg" border="1"></a> 
+<A href="../wolf_rpg_editor_contest16_2024/#51"><img class="trans" src="./Entry16/51_mini.jpg" border="1"></a> 
+<A href="../wolf_rpg_editor_contest16_2024/#54"><img class="trans" src="./Entry16/54_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="../wolf_rpg_editor_contest16_2024/#15">箱庭ドールメーカー</A></B>』<font class="fmmg">176.7点</font>　作：こよる <BR>
+　準優勝『<B><A href="../wolf_rpg_editor_contest16_2024/#61">やけくそ料理人と不良債権</A></B>』<font class="fmmg">168.7点</font>　作：なす太郎<BR>
+　第３位『<B><A href="../wolf_rpg_editor_contest16_2024/#51">迷宮郷まよろば</A></B>』<font class="fmmg">163.2点</font>　作：そぞろ豆腐<BR>
+　第４位『<B><A href="../wolf_rpg_editor_contest16_2024/#54">放浪者セレナ～少女を救うため、闘技場で戦う女～</A></B>』<font class="fmmg">160.8点</font>　作：カザ＆ソロー<BR>
+　　■運営者の記事 → <a href="https://ci-en.dlsite.com/creator/15966/article/1218444" target="_blank">第16回ウディコン上位4作品紹介+個人ピックアップ</a><SMALL>(新ウィンドウ/年齢確認が出ます)</SMALL> <BR>
+　　　　　　　　 　→ <a href="https://ci-en.dlsite.com/creator/15966/article/948111" target="_blank">ウディコン：ゲームコンテストの裏側と改善の歴史</a><SMALL>(新ウィンドウ/年齢確認が出ます)</SMALL><BR>
+　
+<H2>第15回コンテスト　2023年開催</H2>
+　<A href="result15.shtml">クリックで結果発表ページへ<BR>
+<img src="Entry15/CMbanner.png" border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result15.shtml#22"><img class="trans" src="Entry15/22_mini.jpg" border="1"></a> 
+<A href="result15.shtml#55"><img class="trans" src="Entry15/55_mini.jpg" border="1"></a> 
+<A href="result15.shtml#12"><img class="trans" src="Entry15/12_mini.jpg" border="1"></a> 
+<A href="result15.shtml#18"><img class="trans" src="Entry15/18_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result15.shtml#22">SIBLINGS</A></B>』<font class="fmmg">188.3点</font>　作：九乃頭虫（ここのずむし） <BR>
+　準優勝『<B><A href="result15.shtml#55">文無し行商人の遺跡探索</A></B>』<font class="fmmg">163.7点</font>　作：なす太郎<BR>
+　第３位『<B><A href="result15.shtml#12">不屈のスペラ</A></B>』<font class="fmmg">158.5点</font>　作：テイク<BR>
+　第４位『<B><A href="result15.shtml#18">ビャッコーギャモン</A></B>』<font class="fmmg">157.9点</font>　作：こげ（ヒワイロボ）<BR>
+　　■運営者の記事 → <a href="https://ci-en.dlsite.com/creator/15966/article/936274" target="_blank">第15回ウディコン上位4作品紹介+個人ピックアップ</a><SMALL>(新ウィンドウ/年齢確認が出ます)</SMALL> <BR>
+　
+
+<H2>第14回コンテスト　2022年開催</H2>
+　<A href="result14.shtml">クリックで結果発表ページへ<BR>
+<img src="Entry14/CMbanner.png" border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result14.shtml#51"><img class="trans2" src="Entry14/51_mini.jpg" border="1"> 
+<A href="result14.shtml#17"><img class="trans2" src="Entry14/17_mini.jpg" border="1"></a> 
+<A href="result14.shtml#71"><img class="trans2" src="Entry14/71_mini.jpg" border="1"></a> 
+<A href="result14.shtml#1"><img class="trans2" src="Entry14/01_mini.jpg" border="1"></a>
+<A href="result14.shtml#3"><img class="trans2" src="Entry14/03_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result14.shtml#51">脳筋魔法使いは進学したい</A></B>』<font class="fmmg">166.4点</font>　作：なす太郎 <BR>
+　準優勝『<B><A href="result14.shtml#17">雲間からレグルス</A></B>』<font class="fmmg">162.3点</font>　作：SEPTET<BR>
+　第３位『<B><A href="result14.shtml#71">メトロノームファイト</A></B>』<font class="fmmg">142.5点</font>　作：二六千里<BR>
+　第４位『<B><A href="result14.shtml#1">天上奥義伝</A></B>』<font class="fmmg">142.2点</font>　作：LAKO<BR>
+　第５位『<B><A href="result14.shtml#3">オトリズム</A></B>』<font class="fmmg">140.1点</font>　作：ひげ<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-768.html" target="_blank">第14回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第13回コンテスト　2021年開催</H2>
+　<A href="result13.shtml">クリックで結果発表ページへ<BR>
+<img src="Entry13/CMbanner.png" border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result13.shtml#2"><img class="trans" src="Entry13/02_mini.jpg" border="1"> 
+<A href="result13.shtml#28"><img class="trans" src="Entry13/28_mini.jpg" border="1"></a> 
+<A href="result13.shtml#48"><img class="trans" src="Entry13/48_mini.jpg" border="1"></a> 
+<A href="result13.shtml#54"><img class="trans" src="Entry13/54_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result13.shtml#2">銀竜奥義伝</A></B>』<font class="fmmg">162.8点</font>　作：LAKO<BR>
+　準優勝『<B><A href="result13.shtml#28">色は黒に包まれて</A></B>』<font class="fmmg">154.3点</font>　作：すたーあいす＊<BR>
+　第３位『<B><A href="result13.shtml#48">独立理想国家アヴァロン</A></B>』<font class="fmmg">145.5点</font>　作：CUSTOM BRAIN<BR>
+　第４位『<B><A href="result13.shtml#54">黄泉廻道</A></B>』<font class="fmmg">142.7点</font>　作：戸塚<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-738.html" target="_blank">第13回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第12回コンテスト　2020年開催</H2>
+　<A href="result12.shtml">クリックで結果発表ページへ<BR>
+<img src="Entry12/CMbanner.png" border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result12.shtml#15"><img class="trans" src="Entry12/15_mini.jpg" border="1"> 
+<A href="result12.shtml#9"><img class="trans" src="Entry12/09_mini.jpg" border="1"></a> 
+<A href="result12.shtml#46"><img class="trans" src="Entry12/46_mini.jpg" border="1"></a> 
+<A href="result12.shtml#19"><img class="trans" src="Entry12/19_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result12.shtml#15">DAY:0</A></B>』<font class="fmmg">151.7点</font>　作：PANO<BR>
+　準優勝『<B><A href="result12.shtml#9">怪異探偵委員会</A></B>』<font class="fmmg">148.6点</font>　作：茸沢しめじ<BR>
+　第３位『<B><A href="result12.shtml#46">ゲー製ゲーム</A></B>』<font class="fmmg">147.8点</font>　作：南天<BR>
+　第４位『<B><A href="result12.shtml#19">扉は君の鍵で開く</A></B>』<font class="fmmg">147.0点</font>　作：暗闇行灯<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-712.html" target="_blank">第12回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第11回コンテスト　2019年開催</H2>
+　<A href="result11.shtml">クリックで結果発表ページへ<BR>
+<img src=Entry11/CMbanner.png border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result11.shtml#35"><img class="trans" src="Entry11/35_mini.jpg" border="1"></a> 
+<A href="result11.shtml#38"><img class="trans" src="Entry11/38_mini.jpg" border="1"></a> 
+<A href="result11.shtml#13"><img class="trans" src="Entry11/13_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result11.shtml#35">エディの人間大砲</A></B>』<font class="fmmg">170.7点</font>　作：Dot蜥蜴<BR>
+　準優勝『<B><A href="result11.shtml#38">ヴァーミリオンの青空</A></B>』<font class="fmmg">146.2点</font>　作：秋月ねこ柳<BR>
+　第３位『<B><A href="result11.shtml#13">PRESS START</A></B>』<font class="fmmg">143.4点</font>　作：初<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-679.html" target="_blank">第11回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+
+　
+<H2>第10回コンテスト　2018年開催</H2>
+　<A href="result10.shtml">クリックで結果発表ページへ<BR>
+<img src=Entry10/CMbanner.png border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　　<A href="result10.shtml#10"><img class="trans" src="Entry10/10_mini.jpg" border="1"></a> 
+<A href="result10.shtml#11"><img class="trans" src="Entry10/11_mini.jpg" border="1"></a> 
+<A href="result10.shtml#57"><img class="trans" src="Entry10/57_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result10.shtml#10">未完のエリザ</A></B>』<font class="fmmg">175.0点</font>　作：ナイデン内田<BR>
+　準優勝『<B><A href="result10.shtml#11">コトダマッスル</A></B>』<font class="fmmg">174.3点</font>　作：ダブリス竈<BR>
+　第３位『<B><A href="result10.shtml#57">エウレカ・クラン</A></B>』<font class="fmmg">147.5点</font>　作：カザ＆ソロー<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-638.html" target="_blank">第10回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第９回コンテスト　2017年開催</H2>
+　<A href="result09.shtml">クリックで結果発表ページへ<BR>
+<img src=Entry09/CMbanner.png border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　<A href="result09.shtml#35"><img class="trans" src="Entry09/35_mini.jpg" border="1"></a> 
+<A href="result09.shtml#33"><img class="trans" src="Entry09/33_mini.jpg" border="1"></a> 
+<A href="result09.shtml#16"><img class="trans" src="Entry09/16_mini.jpg" border="1"></a> 
+<A href="result09.shtml#58"><img class="trans" src="Entry09/58_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result09.shtml#35">夏雲の島の宝船</A></B>』<font class="fmmg">166.4点</font>　作：halky<BR>
+　準優勝『<B><A href="result09.shtml#33">箱の中のバーディ</A></B>』<font class="fmmg">163.8点</font>　作：おぬ原晃<BR>
+　同率３位『<B><A href="result09.shtml#16">夢遊猫イミテイション</A></B>』<font class="fmmg">163.7点</font>　作：明野＆a<BR>
+　同率３位『<B><A href="result09.shtml#58">ひとりぼっちの竜の神話</A></B>』<font class="fmmg">163.7点</font>　作：仔竜<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-585.html" target="_blank">第9回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第８回コンテスト　2016年開催</H2>
+　<A href="result08.shtml">クリックで結果発表ページへ<BR>
+<img src=Entry08/CMbanner.gif border=1 title="画像：SmokingWOLF" class="banner"></A><BR><BR>
+　<A href="result08.shtml#8"><img class="trans" src="Entry08/08_mini.jpg" border="1"></a> 
+<A href="result08.shtml#16"><img class="trans" src="Entry08/16_mini.jpg" border="1"></a> 
+<A href="result08.shtml#65"><img class="trans" src="Entry08/65_mini.jpg" border="1"></a> 
+<A href="result08.shtml#45"><img class="trans" src="Entry08/45_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result08.shtml#8">収穫機道ろぼふぁーむ</A></B>』<font class="fmmg">168.5点</font>　作：ぴけ<BR>
+　準優勝『<B><A href="result08.shtml#16">箱庭フロンティア</A></B>』<font class="fmmg">162.7点</font>　作：こよる<BR>
+　第３位『<B><A href="result08.shtml#65">電子ゲームブック　自由落下</A></B>』<font class="fmmg">153.0点</font>　作：なべのひと＆ＭＡ－ＧＵＮ<BR>
+　第４位『<B><A href="result08.shtml#45">ウルファールのサンプルゲーム(仮)</A></B>』<font class="fmmg">150.9点</font>　作：ハトヤ<BR>
+
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-533.html" target="_blank">第8回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第７回コンテスト　2015年開催</H2>
+　<A href="result07.shtml">クリックで結果発表ページへ<BR><img src=Entry07/CMbanner.gif border=1 title="画像：アマニア様" class="banner"></A><BR><BR>
+　<A href="result07.shtml#47"><img class="trans" src="Entry07/47_mini.jpg" border="1"></a> 
+<A href="result07.shtml#6"><img class="trans" src="Entry07/06_mini.jpg" border="1"></a> 
+<A href="result07.shtml#42"><img class="trans" src="Entry07/42_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result07.shtml#47">キャンディリミット</A></B>』<font class="fmmg">168.5点</font>　作：sunori<BR>
+　準優勝『<B><A href="result07.shtml#6">fairy song ～歌う革命～</A></B>』<font class="fmmg">142.8点</font>　作：じゃ。<BR>
+　第３位『<B><A href="result07.shtml#42">WALL+ACCELERATION</A></B>』<font class="fmmg">140.0点</font>　作：kinokaze<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-479.html" target="_blank">第7回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第６回コンテスト　2014年開催</H2>
+　<A href="result06.shtml">クリックで結果発表ページへ<BR><img src=Entry06/CMbanner.gif border=1 title="画像：アマニア様" class="banner"></A><BR><BR>
+　<A href="result06.shtml#2"><img class="trans" src="Entry06/02_mini.jpg" border="1"></a> 
+<A href="result06.shtml#65"><img class="trans" src="Entry06/65_mini.jpg" border="1"></a> 
+<A href="result06.shtml#10"><img class="trans" src="Entry06/10_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result06.shtml#2">RainyTower</A></B>』<font class="fmmg">174.0点</font>　作：標準誤差StR<BR>
+　準優勝『<B><A href="result06.shtml#65">召喚指揮候補生</A></B>』<font class="fmmg">162.6点</font>　作：早川 雪子<BR>
+　第３位『<B><A href="result06.shtml#10">ロードライト・フェイス</A></B>』<font class="fmmg">153.2点</font>　作：ud<BR>
+　　■運営者の記事 → <a href="https://sils.fc2.net/blog-entry-428.html" target="_blank">第6回ウディコン上位作品紹介</a><SMALL>(新ウィンドウ)</SMALL> <BR>
+　
+<H2>第５回コンテスト　2013年開催</H2>
+　<A href="result05.shtml">クリックで結果発表ページへ<BR><img src=Entry05/CMbanner.gif border=1 title="画像：いなかかえる様" class="banner"></A><BR><BR>
+　<A href="result05.shtml#42"><img class="trans" src="Entry05/42_mini.jpg" border="1"></a> 
+<A href="result05.shtml#44"><img class="trans" src="Entry05/44_mini.jpg" border="1"></a> 
+<A href="result05.shtml#12"><img class="trans" src="Entry05/12_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result05.shtml#42">帝国魔導院決闘科</A></B>』<font class="fmmg">181.9点</font>　作：早川 雪子（川崎部）<BR>
+　準優勝『<B><A href="result05.shtml#44">アクアリウムス</A></B>』<font class="fmmg">177.2点</font>　作：クリロウ<BR>
+　第３位『<B><A href="result05.shtml#12">影明かし</A></B>』<font class="fmmg">155.7点</font>　作：Foomal<BR>
+
+<H2>第４回コンテスト　2012年開催</H2>
+　<A href="result04.shtml">クリックで結果発表ページへ<BR><img src=Entry04/CMbanner.gif border=1 title="画像：アマニア様" class="banner"></A><BR><BR>
+　<A href="result04.shtml#43"><img class="trans2" src="Entry04/43_mini.jpg" border="1"> 
+<A href="result04.shtml#38"><img class="trans2" src="Entry04/38_mini.jpg" border="1"></a> 
+<A href="result04.shtml#51"><img class="trans2" src="Entry04/51_mini.jpg" border="1"></a> 
+<A href="result04.shtml#34"><img class="trans2" src="Entry04/34_mini.jpg" border="1"></a> 
+<A href="result04.shtml#9"><img class="trans2" src="Entry04/09_mini.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result04.shtml#43">悠遠物語～空の大陸とアイテム屋さん～</A></B>』<font class="fmmg">188.0点</font>　作：らむらむ<BR>
+　準優勝『<B><A href="result04.shtml#38">暗闇の迷宮</A></B>』<font class="fmmg">170.1点</font>　作：あとらそふと<BR>
+　第３位『<B><A href="result04.shtml#51">COSMOSカードゲーム</A></B>』<font class="fmmg">157.1点</font>　作：佑り (げーむふぁくとりぃ)<BR>
+　第４位『<B><A href="result04.shtml#34">ダンジョンズ・オブ・アドヴェンチャラーズ!</A></B>』<font class="fmmg">156.8点</font>　作：皐月紫龍<BR>
+　第５位『<B><A href="result04.shtml#9">Princess Saviour</A></B>』<font class="fmmg">153.5点</font>　作：あなす<BR>
+　
+<H2>第３回コンテスト　2011年開催</H2>
+　<A href="result03.shtml">クリックで結果発表ページへ<BR><img src=Entry03/CMbanner.gif border=1 title="画像：たまご様" class="banner"></A><BR><BR>
+　<A href="result03.shtml#21"><img class="trans" src="Entry03/21.jpg" border="1"></a> 
+<A href="result03.shtml#10"><img class="trans" src="Entry03/10.jpg" border="1"></a> 
+<A href="result03.shtml#31"><img class="trans" src="Entry03/31.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result03.shtml#21">マッドプリンセス ～ディオデラの野望～</A></B>』作：あとらそふと<BR>
+　準優勝『<B><A href="result03.shtml#10">武神の目覚め</A></B>』作：Foomal<BR>
+　第３位『<B><A href="result03.shtml#31">魔界王伝Ⅱ－異界の十二騎士－</A></B>』作：メガネ<BR>　
+　
+<H2>第２回コンテスト　2010年開催</H2>
+　<A href="result02.shtml">クリックで結果発表ページへ<BR><img src=Entry02/CMbanner.gif border=1 title="画像：渡部サキ様" class="banner"></A><BR><BR>
+　<A href="result02.shtml#9"><img class="trans" src="Entry02/09.jpg" border="1"></a> 
+<A href="result02.shtml#21"><img class="trans" src="Entry02/21.jpg" border="1"></a> 
+<A href="result02.shtml#5"><img class="trans" src="Entry02/05.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result02.shtml#9">Gravity</A></B>』作：ぽり０６５５<BR>
+　準優勝『<B><A href="result02.shtml#21">魔人封印伝</A></B>』作：あとらそふと<BR>
+　第３位『<B><A href="result02.shtml#5">Belsena Special Force</A></B>』作：Laineus<BR>　
+　
+<H2>第１回コンテスト　2009年開催</H2>
+　<A href="result01.shtml">クリックで結果発表ページへ<BR><img src=Entry01/CMbanner01.gif border=1 title="画像：氷野様" class="banner"></A><BR><BR>
+　<A href="result01.shtml#8"><img class="trans" src="Entry01/08.jpg" border="1"></a> 
+<A href="result01.shtml#16"><img class="trans" src="Entry01/16.jpg" border="1"></a> 
+<A href="result01.shtml#1"><img class="trans" src="Entry01/01.jpg" border="1"></a><BR>
+　優勝作品『<B><A href="result01.shtml#8">魔界王伝</A></B>』作：メガネ<BR>
+　準優勝『<B><A href="result01.shtml#16">Final war to invite Freedom</A></B>』作：FlowingWind<BR>
+　第３位『<B><A href="result01.shtml#1">SteelRabbit</A></B>』作：標準誤差StR<BR>　
+
+
+　
+<H2>◆ 運営からの感謝の言葉</H2>
+　このページをここまでご覧くださったすべての方へ。<BR>
+　<BR>
+　もしかしたら、この中のどこかに――<BR>
+　ウディコンに投稿してくださったあなたの作品や、あるいはあなたの投票コメントがあるかもしれません。<BR>
+　もしそうでしたら、長年にわたるご参加、ご投票、ご感想、そして応援、本当にありがとうございました。<BR>
+　ウディコンは、まさに皆さまの情熱に支えられてここまで歩んでくることができました。<BR>
+　すべての素晴らしい出会いと関わりに、心から感謝いたします。<BR>
+<BR>
+　そしてここからは、私の個人的なお話です。<BR>
+　<BR>
+　結果発表の夜。<BR>
+　10分ごとに順位が一つずつ発表されていく、あの緊張感あふれる時間は、<BR>
+　私にとって、ずっと忘れられない特別な記憶となっています。<BR>
+<BR>
+　作品参加された皆さまからの悔しさ、喜び、感謝。<BR>
+　そして、「十分すぎるほど上位だったのに、まだもっと上を取りたかった」と語る複雑な気持ち……<BR>
+　そういった多くの感情が、毎年、SNS上にあふれ出していました。<BR>
+<BR>
+　主催として、そこまで真剣に一喜一憂してくださった皆さまに、感謝の念は尽きません。<BR>
+　でもゲーム開発者である自分としては、一生懸命になってしまうその気持ちも分かるつもりです。<BR>
+　だって、作られたゲームはまちがいなく、その人の『魂の結晶』なのですから。<BR>
+<BR>
+　そしてまた、もしこのコンテスト自体も、誰かの思い出にいつまでも残るような<BR>
+　『ゲーム』の一つとして存在できていたのなら……<BR>
+　主催者として、そしてひとりのゲーム開発者として、これほど幸せなことはありません。<BR>
+　運営である私にとっても、ウディコンは、いくらかの命を割いて、<BR>
+　みんなと一緒に作り上げた、まぎれもない『魂の結晶』なのですから。<BR>
+<BR>
+　もし、あなたがこの文章を読んでいるときにウディコンがすでに幕を下ろしていたとしても……<BR>
+　きっとまた、どこかで、わくわくするゲームのお祭りは続いているはずです。<BR>
+<BR>
+　ウディコンが、そのバトンのひとつになれていたなら、<BR>
+　私にとって、これ以上に幸いなことはありません。<BR>
+<BR>
+<BR>
+　ウディコンを楽しんでくださったすべての皆さまへ。<BR>
+　重ね重ね、これまで本当にありがとうございました。<BR>
+　<BR>
+　そして今、こうしてこの記録をたどってくださっているあなたにも、心より深い感謝を。<BR>
+<BR>
+　<BR>
+　この記録が、また誰かの「創作の炎」につながることを願って。<BR>
+　<BR>
+　　　ウディコン運営　SmokingWOLF より
+　<BR><BR>
+　
+</DIV>
+
+
+<DIV ID="foot">
+<table class="noborder"><tr><td class="noborder">　</td><td class="noborder">　
+<!--
+<a href=https://www.silversecond.com/WolfRPGEditor/ target="_top" class=rred>WOLF RPGエディター公式<BR>
+<img src=https://www.silversecond.net/banner/editor_banner.gif border=1></a>
+</td>
+
+<td class=noborder>　</td>
+-->
+<td class="noborder">
+<a href="https://www.silversecond.net/" target="_top" class="white"><U>(画像ともに未設定)SilverSecond 思い出の部屋(開発者ｻｲﾄ)</U><BR><img border="1" src="https://www.silversecond.net/banner/a.pngXX"></a></td>
+<td class="noborder">　
+　<font class="fwhite">Copyright © SmokingWOLF / Silver Second<BR>
+<SMALL>このページは「CC BY-ND 4.0」(改変禁止 + 再配布可能)ライセンスのもとで公開されています。</SMALL></font>
+</td>
+
+</tr></table>
+<BR>
+
+</DIV>
+
+
+
+
+
+
+<a href="" class=rred2></a>
+</BODY>
+</HTML>
