@@ -265,7 +265,7 @@ IMG.pvanime{
 }
 
 IMG.banner{
-	 filter: drop-shadow(0 0 1.5px #f44) drop-shadow(0 0 5px rgba(255, 70, 70, 0.5)) drop-shadow(4px 4px 2px rgba(70, 70, 190, 0.3)) ;
+	 filter: drop-shadow(0 0 1.5px #44f) drop-shadow(0 0 5px rgba( 70, 190,255, 0.5)) drop-shadow(4px 4px 2px rgba(70, 70, 190, 0.3)) ;
 }
 
 
