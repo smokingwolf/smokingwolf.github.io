@@ -58,6 +58,47 @@ body{
 
 
 
+#fixed-buttons {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse; /* トップページ→一番上 の順にしたい場合 */
+  gap: 6px; /* ボタン同士の間隔 */
+  z-index: 9999;
+}
+
+
+
+A.floatbtn1:LINK,A.floatbtn1:VISITED{color:#FFF;text-decoration:none;}
+A.floatbtn2:LINK,A.floatbtn2:VISITED{color:#FFF;text-decoration:none;}
+
+.floatbtn1 {
+  background-color: #7A7;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  box-shadow: 2px 2px 4px #aaa;
+  text-decoration: none;
+  width: 64px;
+}
+
+.floatbtn2 {
+  background-color: #77A;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  box-shadow: 2px 2px 4px #aaa;
+  text-decoration: none;
+  width: 64px;
+}
+
 
 
 A:LINK,A:VISITED{color:#ef486c;text-decoration : underline;}

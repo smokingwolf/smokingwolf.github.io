@@ -43,22 +43,38 @@
     sessionStorage.setItem('scrollPos', window.scrollY);
   });
 
+  // 毎秒スクロール位置を保存
+  setInterval(() => {
+    sessionStorage.setItem('scrollPos', window.scrollY);
+  }, 1000); // 1秒ごとに保存
+
   // ページ読み込み時に復元（ただし reload や back のときは除外）
   window.addEventListener('load', () => {
-    const navType = performance.getEntriesByType("navigation")[0]?.type;
-    if (navType === "navigate") {
+    const navEntry = performance.getEntriesByType("navigation")[0];
+    const legacyType = performance.navigation.type;
+
+    const isNavigate =
+      (navEntry && navEntry.type === "navigate") ||
+      (legacyType === 0);
+
+    if (isNavigate) {
       const scrollY = sessionStorage.getItem('scrollPos');
       if (scrollY) window.scrollTo(0, parseInt(scrollY));
     }
-    // navigate: 通常のリンク遷移
-    // reload: F5やリロード
-    // back_forward: 戻る・進む
   });
+  // navigate: 通常のリンク遷移
+  // reload: F5やリロード
+  // back_forward: 戻る・進む
+
 </script>
 
 </HEAD>
 
 <BODY><a id="top"></a>
+<div id="fixed-buttons">
+  <a href="#top" class="floatbtn1">↑ 一番上<br>へ移動</a>
+</div>
+
 
 <DIV ID="head">
 <H1><A href="../wolf_rpg_editor_contest/" class="white" style="text-shadow: 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F;">WOLF RPGエディターコンテスト 歴史資料館</A></H1>
@@ -95,7 +111,7 @@
   <br>
   <b><span style="font-size : 120%;">●【この先のページではリンク切れがある可能性がございます】</span></b><br>
   　リンク先の結果発表ページには作品ごとの<b>【ダウンロード】リンクや『作者サイト』へのリンク</b>がありますが、それらは<B>コンテスト当時のもの</B>ですのでリンク切れや、ドメインが別の所有者になっている場合がございます。<BR>
-　特に<B class="fred">『赤色のリンク』</B>は「<b>外部リンク</b>」ですので移動の際には注意が必要です！　もしリンク移動時に<b><span style="color : #cc0000;">ブラウザの警告</span></b>などが出た場合は開かないようにしてください。<BR>
+  　特に<B class="fred">『赤色のリンク』</B>は「<b>外部リンク</b>」ですので移動の際には注意が必要です！　もしリンク移動時に<b><span style="color : #cc0000;">ブラウザの警告</span></b>などが出た場合は開かないようにしてください。<BR>
 　<B class="fgreen">『緑色のリンク』</B>と<B class="fblue">『青色のリンク』</B>はそれぞれ「ページ内リンク」と「同サーバー内へのリンク」なので安全です。<BR>
   <br>
   <BR>
@@ -105,10 +121,17 @@
   <BR>
 <B><span style="font-size : 120%;">●【当時のページに興味がある方へ】</span></B><BR>
 　開催当時のウディコン公式のアドレスは「 <B>https://silversecond.com/WolfRPGEditor/Contest/</B> 」です<SMALL>（現在のsilversecond.comドメインが有害なサイトに使われている可能性を考え、直接リンクはしていません。URLを開く際はご注意ください）</SMALL><BR>
-　<A href="https://web.archive.org/web/29990000000000*/https://silversecond.com/WolfRPGEditor/Contest/" target="_blank">『インターネットアーカイブの<b>Wayback Machine</b>(ウディコン公式URL)』(別ｳｨﾝﾄﾞｳ)</A>より、開催当時の内容を閲覧できます。<BR>　
-<BR>　<id="results"><a id="results"></a>
+　<A href="https://web.archive.org/web/29990000000000*/https://silversecond.com/WolfRPGEditor/Contest/" target="_blank">『インターネットアーカイブの<b>Wayback Machine</b>(ウディコン公式URL)』(別ｳｨﾝﾄﾞｳ)</A>より、開催当時の内容を閲覧できます。<BR>
+  　
+<br>
+  <BR>
 
-<H2>● 第16回コンテスト　2024年開催</H2>
+<H2 id="results"><a id="results"></a>◆ 各年のコンテスト結果発表</H2>
+  　ここからは、毎年のウディコンの結果発表ページ資料が掲載されています。<br>
+  　たくさんの情熱あふれる作品群、そして膨大な感想……それらから伝わる、ほとばしる熱の跡をお楽しみ下さい。<br>
+  　<span style="font-size : 80%;">　※</span><b class="fred"><span style="font-size : 80%;">『赤色のリンク』</span></b><span style="font-size : 80%;">は外部サイトですのでご注意ください。</span><br>
+  <br>
+  <H2> 第16回コンテスト　2024年開催</H2>
 　<a class="blue" href="../wolf_rpg_editor_contest16_2024/">クリックで結果発表ページへ<BR>
 <img src="Entry16/CMbanner.png" border="0" title="画像：SmokingWOLF" class="banner"></A><BR><BR>
 　　<a class="blue" href="../wolf_rpg_editor_contest16_2024/#15"><img class="trans" src="Entry16/15_mini.jpg" border="1"></a> 
@@ -379,15 +402,15 @@
 
 
 <DIV ID="foot">
-<table class="noborder"><tr><td class="noborder">　</td><td class="noborder">　
-<td class="noborder" nowrap>
-<a href="https://smokingwolf.github.io/" target="_top" class="white"><U>Silver Second 思い出の部屋(運営者ｻｲﾄ)</U><BR><img border="1" src="https://www.silversecond.net/banner/a.pngXX"></a></td>
-<td class="noborder">　
-　<font class="fwhite">Copyright © SmokingWOLF / Silver Second<BR>
-<SMALL>このページは「CC BY-ND 4.0」(改変禁止 + 再配布可能)ライセンスのもとで公開されています。</SMALL></font>
-</td>
+<table class="noborder" width="100%"><tr><td class="noborder">　</td><td class="noborder">　
 
-</tr></table>
+      <td class="noborder" nowrap style="text-align : center;">
+<a href="https://smokingwolf.github.io/" target="_top" class="white"><U>Silver Second 思い出の部屋(運営者ｻｲﾄ)</U><BR><img border="1" src="https://www.silversecond.net/banner/a.pngXX"></a></td>
+      <td class="noborder" style="text-align : center;"><font class="fwhite">Copyright © SmokingWOLF / Silver Second<BR>
+<SMALL>このページは「CC BY-ND 4.0」(改変禁止 + 再配布可能)<br>
+      ライセンスのもとで公開されています。</SMALL></font>
+</td>
+    </tr></table>
 <BR>
 
 </DIV>
