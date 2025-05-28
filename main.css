@@ -1,9 +1,36 @@
-/* 2025-05-16î≈ */
+/* 2025-05-20î≈ */
 
 *{margin:0px;padding:0px;}
 
 html{
 }
+
+body{
+  max-width: 690px;
+  width: 100%;
+	margin:20px auto;
+	padding: 10px 0px;
+    text-align:left;
+    font-size:13px;
+    color:#666686;
+    background-color: #FFFFFF;
+    border: 0;
+    line-height: 150%;
+    font-family:'Meiryo','ÇlÇr ÇoÉSÉVÉbÉN', sans-serif;
+
+  SCROLLBAR-FACE-COLOR:#c3c3d5;
+  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
+  SCROLLBAR-SHADOW-COLOR: #fafaff;
+
+  SCROLLBAR-3DLIGHT-COLOR:#535385;
+  SCROLLBAR-ARROW-COLOR: #535385;
+
+  SCROLLBAR-TRACK-COLOR: #8383c5;
+
+  SCROLLBAR-DARKSHADOW-COLOR: #535385;
+}
+
+
 
 #cm_pos{
   position: absolute;
@@ -30,30 +57,47 @@ html{
 }
 
 
-body{
-	width:690px;
-	margin:20px auto;
-	padding: 10px 0px;
-    text-align:left;
-    font-size:13px;
-    color:#666686;
-    background-color: #FFFFFF;
-    border: 0;
-    line-height: 150%;
-    font-family:'Meiryo','ÇlÇr ÇoÉSÉVÉbÉN', sans-serif;
 
-  SCROLLBAR-FACE-COLOR:#c3c3d5;
-  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
-  SCROLLBAR-SHADOW-COLOR: #fafaff;
-
-  SCROLLBAR-3DLIGHT-COLOR:#535385;
-  SCROLLBAR-ARROW-COLOR: #535385;
-
-  SCROLLBAR-TRACK-COLOR: #8383c5;
-
-  SCROLLBAR-DARKSHADOW-COLOR: #535385;
+#fixed-buttons {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse; /* ÉgÉbÉvÉyÅ[ÉWÅ®àÍî‘è„ ÇÃèáÇ…ÇµÇΩÇ¢èÍçá */
+  gap: 6px; /* É{É^ÉììØémÇÃä‘äu */
+  z-index: 9999;
 }
 
+
+
+A.floatbtn1:LINK,A.floatbtn1:VISITED{color:#FFF;text-decoration:none;}
+A.floatbtn2:LINK,A.floatbtn2:VISITED{color:#FFF;text-decoration:none;}
+
+.floatbtn1 {
+  background-color: #7A7;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  box-shadow: 2px 2px 4px #aaa;
+  text-decoration: none;
+  width: 64px;
+}
+
+.floatbtn2 {
+  background-color: #77A;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  box-shadow: 2px 2px 4px #aaa;
+  text-decoration: none;
+  width: 64px;
+}
 
 
 
@@ -77,16 +121,23 @@ A.rred:HOVER,A.rred:ACTIVE{color : #bf688c;text-decoration : underline;}
 A.rred2:LINK,A.rred2:VISITED{color:#ef486c;text-decoration:none;}
 A.rred2:HOVER,A.rred2:ACTIVE{color : #ef486c;text-decoration:none;}
 
-A.blue:LINK,A.blue:VISITED{color:#486cef;text-decoration : underline;}
+A.blue:LINK,A.blue:VISITED{color:#486cff;text-decoration : underline;}
 A.blue:HOVER,A.blue:ACTIVE{color : #688cff;text-decoration : underline;}
 
 
+.fblue{  color:#486cff;  }
+.fgreen{  color:#38b68c;  }
+.fred{color:#ef486c;}
+
+.fwhite{color:#ffffff;}
+
+
 a img:hover{
-  opacity:0.7;
-  filter: alpha(opacity=70);
-  -ms-filter: "alpha(opacity=0)"; 
-  -moz-opacity:0.7;
-  -khtml-opacity: 0.7; 
+  opacity:0.85;
+  filter: alpha(opacity=85);
+  -ms-filter: "alpha(opacity=0.85)"; 
+  -moz-opacity:0.85;
+  -khtml-opacity: 0.85; 
   zoom:1;
 }
 
@@ -131,7 +182,7 @@ H1 a:hover{
 H2{
 	font-size: 160%;
 	margin:10px 0px;
-	color:#385cff;
+	color:#585caa;
 	padding:3px;
 	border-bottom:1px solid #a3a3e5;
 	padding-left:6px;
@@ -255,7 +306,7 @@ IMG.pvanime{
 }
 
 IMG.banner{
-	 filter: drop-shadow(0 0 1.5px #f44) drop-shadow(0 0 5px rgba(255, 70, 70, 0.5)) drop-shadow(4px 4px 2px rgba(70, 70, 190, 0.3)) ;
+	 filter: drop-shadow(0 0 1.5px #44f) drop-shadow(0 0 5px rgba( 70, 190,255, 0.5)) drop-shadow(4px 4px 2px rgba(70, 70, 190, 0.3)) ;
 }
 
 
@@ -454,9 +505,6 @@ UL.menu{
 	background-color: #ceceff;
 }
 
-.fred{color:#ef486c;}
-
-.fwhite{color:#ffffff;}
 
 
 
