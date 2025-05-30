@@ -1,0 +1,2026 @@
+<!doctype html>
+<html lang="ja">
+<HEAD>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<meta name="viewport" content="width=700">
+
+<META NAME="keywords" CONTENT="Wolf RPGエディター,ウディタ,フリーゲーム">
+<META NAME="description" CONTENT="ウディタで制作されたフリーゲームのコンテスト『ウディコン』ページのアーカイブページです">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ウディコン - WOLF RPGエディターコンテスト歴史資料館" />
+<meta name="twitter:description" content="ここはWOLF RPGエディターで開発されたフリーゲームのコンテスト『ウディコン』の結果発表保存ページです。" />
+<!--<meta name="twitter:image" content="http://www.silversecond.com/WolfRPGEditor/Contest/TwitterIcon.jpg" />-->
+
+<meta name="og:title" content="ウディコン - WOLF RPGエディターコンテスト歴史資料館" />
+<meta name="og:description" content="ここはWOLF RPGエディターで開発されたフリーゲームのコンテスト『ウディコン』の結果発表保存ページです。" />
+<!--<meta name="og:image" content="http://www.silversecond.com/WolfRPGEditor/Contest/TwitterIcon.jpg" />-->
+
+<TITLE>ウディコン歴史資料館　投票体験コーナー</TITLE>
+<LINK REL="stylesheet" HREF="main.css" TYPE="text/css">
+<script src="smoothscroll.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<STYLE TYPE="text/css">
+<!--
+body{
+color:#444464;
+}
+-->
+</STYLE>
+
+	<SCRIPT language=JavaScript>
+<!--
+function allcount(){
+	var num = 0;
+	for ( i=1 ; i<72 ; i++ ){ 
+		targetID = "box" + i;
+		if(document.getElementById(targetID) != null){
+			tmpID=document.getElementById(targetID)
+			if(tmpID.checked == true){ num++; }
+		}
+	}
+	if(typeof counter.textContent != "undefined") {
+		counter.textContent= num;
+		counter2.textContent= num;
+	} else {
+		counter.innerText= num;
+		counter2.innerText= num;
+	}
+	
+}
+
+function changebgX(targetID){
+MyID=document.getElementById(targetID);
+	if(MyID != null){
+		if(MyID.checked == true){MyID.parentNode.parentNode.parentNode.style.backgroundColor = '#FFFFCC';}
+		else{MyID.parentNode.parentNode.parentNode.style.backgroundColor = '#aaaabb';}
+	}
+}
+
+// 1個ずつ処理する用はこっち
+function changebg(targetID){
+	MyID=document.getElementById(targetID);
+	if(MyID != null){
+		if(MyID.checked == true){MyID.parentNode.parentNode.parentNode.style.backgroundColor = '#FFFFCC';}
+		else{MyID.parentNode.parentNode.parentNode.style.backgroundColor = '#aaaabb';}
+		allcount();
+	}
+}
+
+function allchebg(){
+	for ( i=1 ; i<72 ; i++ ){ 
+		targetID = "box" + i;
+		changebgX(targetID);
+	}
+	allcount();
+	initLightbox();
+}
+// -->
+</SCRIPT>
+
+<!--★以下はボタン押し時の保存処理★-->
+<script>
+// 保存ボタンのイベントに設定する関数
+function saveVoteData() {
+  const inputs = document.querySelectorAll('select, textarea, input[type="checkbox"]');
+  inputs.forEach(input => {
+    const name = input.name;
+    if (!name) return;
+
+    if (input.type === "checkbox") {
+      localStorage.setItem(name, input.checked ? "1" : "0");
+    } else {
+      localStorage.setItem(name, input.value);
+    }
+  });
+
+  alert("ブラウザのキャッシュに投票内容を保存しました！\n次にここに来たとき、また続きから投票できます");
+}
+
+
+
+// 投票IDを生成する
+function generateVoteID(length = 12) {
+  const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let id = '';
+  for (let i = 0; i < length; i++) {
+    id += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return id;
+}
+
+// もし投票IDが空だったら自動生成
+function handleVoteCode() {
+  const voteCodeInput = document.querySelector('input[name="votecode"]');
+  if (!voteCodeInput) return;
+
+  // localStorageに保存されたコードを探す
+  let savedCode = localStorage.getItem("voteCode");
+
+  // フィールドが空かつ保存されたコードがない場合は自動生成
+  if (!voteCodeInput.value && !savedCode) {
+    savedCode = generateVoteID();
+    localStorage.setItem("voteCode", savedCode);
+  }
+
+  // 表示欄が空なら保存された値をセット
+  if (!voteCodeInput.value && savedCode) {
+    voteCodeInput.value = savedCode;
+  }
+}
+
+
+// ページ読み込み時に保存されたデータを復元する
+function loadVoteData() {
+  const inputs = document.querySelectorAll('select, textarea, input[type="checkbox"]');
+  inputs.forEach(input => {
+    const name = input.name;
+    if (!name) return;
+
+    const savedValue = localStorage.getItem(name);
+    if (savedValue === null) return;
+
+    if (input.type === "checkbox") {
+      input.checked = savedValue === "1";
+    } else {
+      input.value = savedValue;
+    }
+  });
+  handleVoteCode();
+}
+
+window.addEventListener("load", loadVoteData);
+</script>
+
+
+
+</HEAD>
+
+<BODY onLoad="allchebg()"><a id="top"></a>
+<div id="fixed-buttons">
+  <a href="#top" class="floatbtn1">↑ 一番上<br>へ移動</a>
+</div>
+
+
+<DIV ID="head">
+<H1><A href="../wolf_rpg_editor_contest/" class="white" style="text-shadow: 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F, 0 0 19px #77F;">WOLF RPGエディターコンテスト 歴史資料館</A></H1>
+<UL class="menu">
+<LI class="menu1"><A href="./" class=white>トップページへ</A></LI>
+<LI class="menu2"><font class=white>　</font></LI>
+<LI class="menu2"><font class=white>　</font></LI>
+<LI class="menu2"><font class=white>　</font></LI>
+<LI class="menu2"><font class=white>　</font></LI>
+</UL>
+</DIV>
+
+<DIV ID="middle">
+<SMALL>　ここはウディコンの<B>『一般投票ページ』</B>を体験できるコーナーです。<BR>
+　どんなページから投票が行われて過去の結果が出たのか、想像する材料にしてみてください。<BR>
+　　※投票対象の作品として、第1回から第15回までのウディコンの1位作品が掲載されています。<BR>
+　　※「保存する」ボタンを押すとブラウザ内に記入内容が保存され、次回、続きから入力可能です。当時の機能を再現しています。<BR>
+　
+<HR>
+<H2>投票コーナー</H2>
+<FORM method=POST action=./contestVote2.cgi?load>投票ID <INPUT type=text size=18 name="votecode" value=> <button type="button">ロード</button> <font color="#aaaaff">(この体験コーナーでは押しても何も起きません)</font><BR>　<font color=#9999aa>※投票後に表示されるIDを入力して「ロード」すると、前回投票時の続きから書き込みができます。<BR>　　まだIDを持たない場合は空欄のまま以下を入力してください。Cookieオンなら自動でIDが読み込まれます。</font><BR></FORM><HR><B>＜評価項目について＞</B><BR>
+　【熱中度】あなたがそのゲーム全体にどれだけ熱中できたか、思ったままに選んでください。<BR>
+　【斬新さ】あなたがそのゲーム全体にどれだけ目新しさを感じたか、思ったままに選んでください。<BR>
+　【物語性】シナリオやキャラクター、総合的な雰囲気や、ゲーム内で感じられたあらゆる<BR>
+　　　　　　ストーリー的/ゲーム的感動や驚きを加味した物語性のクオリティを、思ったままに選んでください。<BR>
+　【画像/音声】画像や音楽素材の新鮮さや統一感、使い方のうまさを、思ったままに選んで下さい。<BR>
+　【遊びやすさ】遊び方の理解しやすさや理不尽さの有無、感じた難易度などを加味して選んでください。<BR>
+　【その他加点】上記項目で評価できない「良い点」があれば加点してください。<BR>
+　　　　　　　　ただし【＋１】以上にした場合は、どこがよかったか必ずコメントに説明を入れてください。<BR>
+<BR>
+
+<!--<small><font color="#8888cc">　※部門別「平均点」として、ある特定の部門に伝説級に優れた作品で【8】点、部門トップ5位内で【7】点、部門トップ10～15位あたりで【6】点くらいが付き、大部分は【5】点前後の評価が付く想定になっています。</font></small><BR>-->
+<HR>
+<FORM method=POST action=""><INPUT type=hidden name=logtarget value=0>　　<button type="button" onclick="saveVoteData()"> 保存する 　 </button>　　評価済み作品数　<font size=+2><B><font id=counter color=#ff4444>？</font></B></font><font size=-1>/15</font>　　最低 <B><font color=#ff4444>4</font></B> 作品を評価してください / 現在の平均評価数 <B><font color=#ff4444>7.2</font></B> 作品<font size=-1><BR>　
+
+　　<font color="#aaaaff">( ↑ この体験コーナーではあなたのブラウザ内にデータが保存されます！)</font><BR>
+　　
+<HR><font color=#ff0000>※「評価する」にチェックを入れると、枠内が黄色く表示されます(JavaScriptオンの場合のみ)。<BR>　 チェックが入っていないものは未評価扱いとなりますので、<BR>　 評価するときは必ず「評価する」にチェックを入れてください。<BR><B>　↓</B></font><BR>　<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_1_FLAG" id="box1" onclick="changebg('box1')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【1】『<B>魔界王伝</B>』<!--</span>--><br>作者：メガネ<BR>
+<A href="./Entry01/08_big.jpg" rel="lightbox[A]"><img src="./Entry01/08.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_1_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_1_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_1_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_1_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_1_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_1_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_1_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_2_FLAG" id="box2" onclick="changebg('box2')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【2】『<B>Gravity</B>』<!--</span>--><br>作者：ぽり０６５５<BR>
+<A href="./Entry02/09_big.jpg" rel="lightbox[A]"><img src="./Entry02/09.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_2_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_2_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_2_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_2_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_2_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_2_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_2_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_3_FLAG" id="box3" onclick="changebg('box3')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【3】『<B>マッドプリンセス ～ディオデラの野望～</B>』<!--</span>--><br>作者：あとらそふと<BR>
+<A href="./Entry03/21_big.jpg" rel="lightbox[A]"><img src="./Entry03/21.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_3_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_3_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_3_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_3_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_3_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_3_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_3_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_4_FLAG" id="box4" onclick="changebg('box4')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【4】『<B>悠遠物語～空の大陸とアイテム屋さん～</B>』<!--</span>--><br>作者：らむらむ<BR>
+<A href="./Entry04/43_big.jpg" rel="lightbox[A]"><img src="./Entry04/43_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_4_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_4_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_4_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_4_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_4_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_4_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_4_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_5_FLAG" id="box5" onclick="changebg('box5')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【5】『<B>帝国魔導院決闘科</B>』<!--</span>--><br>作者：早川 雪子（川崎部）<BR>
+<A href="./Entry05/42_big.jpg" rel="lightbox[A]"><img src="./Entry05/42_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_5_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_5_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_5_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_5_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_5_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_5_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_5_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_6_FLAG" id="box6" onclick="changebg('box6')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【6】『<B>RainyTower</B>』<!--</span>--><br>作者：標準誤差StR<BR>
+<A href="./Entry06/02_big.jpg" rel="lightbox[A]"><img src="./Entry06/02_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_6_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_6_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_6_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_6_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_6_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_6_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_6_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_7_FLAG" id="box7" onclick="changebg('box7')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【7】『<B>キャンディリミット</B>』<!--</span>--><br>作者：sunori<BR>
+<A href="./Entry07/47_big.jpg" rel="lightbox[A]"><img src="./Entry07/47_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_7_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_7_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_7_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_7_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_7_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_7_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_7_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_8_FLAG" id="box8" onclick="changebg('box8')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【8】『<B>収穫機道ろぼふぁーむ</B>』<!--</span>--><br>作者：ぴけ<BR>
+<A href="./Entry08/08_big.jpg" rel="lightbox[A]"><img src="./Entry08/08_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_8_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_8_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_8_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_8_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_8_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_8_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_8_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_9_FLAG" id="box9" onclick="changebg('box9')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【9】『<B>夏雲の島の宝船</B>』<!--</span>--><br>作者：halky<BR>
+<A href="./Entry09/35_big.jpg" rel="lightbox[A]"><img src="./Entry09/35_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_9_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_9_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_9_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_9_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_9_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_9_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_9_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_10_FLAG" id="box10" onclick="changebg('box10')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【10】『<B>未完のエリザ</B>』<!--</span>--><br>作者：ナイデン内田<BR>
+<A href="./Entry10/10_big.jpg" rel="lightbox[A]"><img src="./Entry10/10_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_10_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_10_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_10_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_10_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_10_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_10_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_10_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_11_FLAG" id="box11" onclick="changebg('box11')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【11】『<B>エディの人間大砲</B>』<!--</span>--><br>作者：エディの人間大砲<BR>
+<A href="./Entry11/35_big.jpg" rel="lightbox[A]"><img src="./Entry11/35_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_11_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_11_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_11_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_11_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_11_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_11_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_11_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_12_FLAG" id="box12" onclick="changebg('box12')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【12】『<B>DAY:0</B>』<!--</span>--><br>作者：PANO<BR>
+<A href="./Entry12/15_big.jpg" rel="lightbox[A]"><img src="./Entry12/15_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_12_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_12_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_12_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_12_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_12_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_12_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_12_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_13_FLAG" id="box13" onclick="changebg('box13')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【13】『<B>銀竜奥義伝</B>』<!--</span>--><br>作者：LAKO<BR>
+<A href="./Entry13/02_big.jpg" rel="lightbox[A]"><img src="./Entry13/02_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_13_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_13_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_13_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_13_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_13_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_13_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_13_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_14_FLAG" id="box14" onclick="changebg('box14')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【14】『<B>脳筋魔法使いは進学したい</B>』<!--</span>--><br>作者：なす太郎<BR>
+<A href="./Entry14/51_big.jpg" rel="lightbox[A]"><img src="./Entry14/51_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_14_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_14_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_14_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_14_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_14_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_14_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_14_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE cellpadding="1" cellspacing="1" width="643"><TBODY><TR>
+<TD rowspan="7" width="20">評<BR>価<BR>す<BR>る<BR><INPUT type="checkbox" name="Game_15_FLAG" id="box15" onclick="changebg('box15')"></TD>
+<TD rowspan="6" class=vote width=140><center><!--<span style="background-color:#ffffff;">-->【15】『<B>SIBLINGS</B>』<!--</span>--><br>作者：九乃頭虫（ここのずむし）<BR>
+<A href="./Entry15/22_big.jpg" rel="lightbox[A]"><img src="./Entry15/22_mini.jpg" width=140 height=105></A></center></TD>
+      <TD width="399" class="vote" nowrap><FONT size="-2">熱中度</font>
+      <SELECT name="Game_15_PT1">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 最初から最後まで完全に熱中した</OPTION>
+        <OPTION value="9">【９】★★★★★ ほとんど熱中して遊んでいた</OPTION>
+        <OPTION value="8">【８】★★★★ ８割ほど、熱中して遊ぶことができた</OPTION>
+        <OPTION value="7">【７】★★★★ ７割くらいは熱中して遊べた</OPTION>
+        <OPTION value="6">【６】★★★ ６割くらいは熱中して遊んでいた</OPTION>
+        <OPTION value="5">【５】★★★ 熱中できたところとそれ以外が半々だ</OPTION>
+        <OPTION value="4">【４】★★ 熱中できてない時間の方が多かった</OPTION>
+        <OPTION value="3">【３】★★ 楽しめる部分も多少はあった</OPTION>
+        <OPTION value="2">【２】★ ほとんど楽しめなかった</OPTION>
+        <OPTION value="1">【１】★ すぐやめてしまった</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">斬新さ</FONT>
+      <SELECT name="Game_15_PT2">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ こんなゲーム今まで一度も見たことない</OPTION>
+        <OPTION value="9">【９】★★★★★ 記憶の中でもほとんど見ないゲームだ</OPTION>
+        <OPTION value="8">【８】★★★★ なかなか見ない新しさだと思う</OPTION>
+        <OPTION value="7">【７】★★★★ 自分にとって非常に新鮮だった</OPTION>
+        <OPTION value="6">【６】★★★ 十分な個性と目新しさがあった</OPTION>
+        <OPTION value="5">【５】★★★ そこそこの目新しさを感じる</OPTION>
+        <OPTION value="4">【４】★★ 個性やひとひねりを加えていると感じる</OPTION>
+        <OPTION value="3">【３】★★ 少しは他と違う部分もある</OPTION>
+        <OPTION value="2">【２】★ 既存のものとまったく同じではない</OPTION>
+        <OPTION value="1">【１】★ 目新しさはどこにもない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">物語性</FONT>
+      <SELECT name="Game_15_PT3">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ これ以上の物語性にはそうそう出会えない</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に質が高い物語性を生み出せている</OPTION>
+        <OPTION value="8">【８】★★★★ 他と比べてもハイレベルな物語性を感じる</OPTION>
+        <OPTION value="7">【７】★★★★ しっかりとした物語性を生み出せている</OPTION>
+        <OPTION value="6">【６】★★★ 十分以上の物語性を生み出せている</OPTION>
+        <OPTION value="5">【５】★★★ ほどほどの物語性を感じる</OPTION>
+        <OPTION value="4">【４】★★ 多少の物語性/雰囲気を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 物語や雰囲気づくりへの努力は感じられる</OPTION>
+        <OPTION value="2">【２】★ 物語性や雰囲気をほぼ排除した造りだ</OPTION>
+        <OPTION value="1">【１】★ 物語性も特有の雰囲気も全く感じられない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">画像/音声</FONT>
+      <SELECT name="Game_15_PT4">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 間違いなく最高の素材と使われ方だ</OPTION>
+        <OPTION value="9">【９】★★★★★ 非常に優れた素材と使われ方だ</OPTION>
+        <OPTION value="8">【８】★★★★ ハイレベルの目新しい素材と使われ方だ</OPTION>
+        <OPTION value="7">【７】★★★★ 素材は目新しく､使い方も全く不満がない</OPTION>
+        <OPTION value="6">【６】★★★ 素材の統一感も新鮮さも程々で、安心できる</OPTION>
+        <OPTION value="5">【５】★★★ 素材への新鮮さや統一感を多少は感じられる</OPTION>
+        <OPTION value="4">【４】★★ 未熟だが素材に対する努力を感じられる</OPTION>
+        <OPTION value="3">【３】★★ 素材に対してしっくり感じない点がある</OPTION>
+        <OPTION value="2">【２】★ 素材への努力はしているが良い印象を持てない</OPTION>
+        <OPTION value="1">【１】★ 素材にこだわった印象を全く感じない</OPTION>
+      </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">遊びやすさ</FONT>
+      <SELECT name="Game_15_PT5">
+        <OPTION value="0" selected>【以下から選択してください】</OPTION>
+        <OPTION value="10">【10】★★★★★ 全てに渡って完全に快適に遊べた</OPTION>
+        <OPTION value="9">【９】★★★★★ ほぼ全てに渡って快適で、不満もない</OPTION>
+        <OPTION value="8">【８】★★★★ プレイヤーへの配慮が多く感じられた</OPTION>
+        <OPTION value="7">【７】★★★★ かすかに不満があるが､十分適切だと思う</OPTION>
+        <OPTION value="6">【６】★★★ ほんの少し遊びにくい点もあるが許容範囲だ</OPTION>
+        <OPTION value="5">【５】★★★ 遊びにくい点は結構あるが気にはならない</OPTION>
+        <OPTION value="4">【４】★★ 理不尽･難解な部分が多いが、慣れた</OPTION>
+        <OPTION value="3">【３】★★ ぎりぎり我慢できる理不尽さ/難解さだ</OPTION>
+        <OPTION value="2">【２】★ 慣れないこともないが厳しい理不尽さ/難解さだ</OPTION>
+        <OPTION value="1">【１】★ 許せないほどの理不尽さや難解さを感じる</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="399" class="vote" nowrap><FONT size="-2">その他加点</FONT>
+      <SELECT name="Game_15_PT6">
+        <OPTION value="0" selected>【＋０】上記の内容で、十分に評価できている</OPTION>
+        <OPTION value="1">【＋１】★ 上記の他に良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="2">【＋２】★ 上記の他にとても良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="3">【＋３】★★ 上記の他に極めて良い点がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="4">【＋４】★★ 上記で説明できない魅力がある ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="5">【＋５】★★★ 上記で説明できない魅力が多い ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="6">【＋６】★★★ 上記で説明できない魅力が多すぎる ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="7">【＋７】★★★★ 上記では良さをほぼ評価できてない ※要ｺﾒﾝﾄ説明</OPTION>
+        <OPTION value="8">【＋８】★★★★ 上記では何一つ良さを説明できてない ※要ｺﾒ説明</OPTION>
+        <OPTION value="9">【＋９】★★★★★ 上記以外の全てが凄まじく良い ※要ｺﾒ説明</OPTION>
+        <OPTION value="10">【＋10】★★★★★ 上記以外の全てが伝説級に良い ※要ｺﾒ説明</OPTION>
+       </SELECT>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">【コメント（任意/面白かった点・特徴的な部分・感じたことなど）】 ※改行は無視されます<BR>
+      <TEXTAREA rows="4" cols="70" name="Game_15_Com"></TEXTAREA>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+
+	<BR>　<HR><BR>
+◆ <INPUT type="checkbox" name="showflag" value="1"> <B><font color="#ff0000"><BIG>現在のコメントを作者に届ける。</BIG></font></B><font color="#aaaaff">(この体験コーナーでは誰にも届きません)</font><BR><BR>
+<BR>
+　各作品の作者の人に、<B>あなたが書いた最新のコメントを見てもらっても問題ない</B>場合はオンにしてください。<BR>
+　修正に役立てられる場合があります。<BR>
+　これが「オフ」の場合、作者からはあなたの最新コメントは見えません。<BR>
+<font color="#AAAAFF">　　※作者側で見られるコメントは毎日朝6時に更新されます。<BR>
+　　※審査終了後にメールで送られる分は、このチェックと関係なく作者の人に送信されます。<BR>
+　　</font>
+
+　<BR>
+<HR>
+　<BR>
+◆<B><font color="#ff0000">あなたがゲーム全般を遊ぶとき、どういった点をどれだけ重視するか選んでください。</font></B><BR>
+　<font color="#AAAAFF">※この結果は総合グランプリ評価の算出時に使用されます（「その他加点」は自動的に「50％」になります）</font><BR><BR>
+　◆ 熱中度の重視度 <SELECT name="all_1">
+        <OPTION value="0" selected>【一つ選んでください】</OPTION>
+        <OPTION value="10">【100％】熱中できないゲームは遊べない</OPTION>
+        <OPTION value="9">【90％】熱中度はかなり重視する</OPTION>
+        <OPTION value="8">【80％】熱中度はだいぶ重視する</OPTION>
+        <OPTION value="7">【70％】熱中度はまあまあ重視する</OPTION>
+        <OPTION value="6">【60％】熱中度はほどほどに重視する</OPTION>
+        <OPTION value="5">【50％】熱中できるゲームの方がうれしい</OPTION>
+        <OPTION value="4">【40％】あるに越したことはない</OPTION>
+        <OPTION value="3">【30％】熱中できないゲームの方が好みだ</OPTION>
+        <OPTION value="2">【20％】なくてもよい</OPTION>
+        <OPTION value="1">【10％】あってもなくても評価は完全に同じだと断言できる</OPTION>
+       </SELECT><BR>
+　◆ 斬新さの重視度 <SELECT name="all_2">
+        <OPTION value="0" selected>【一つ選んでください】</OPTION>
+        <OPTION value="10">【100％】目新しさのないゲームは遊ばない</OPTION>
+        <OPTION value="9">【90％】ありきたりなゲームはあまり遊ばない</OPTION>
+        <OPTION value="8">【80％】斬新さをかなり重視する</OPTION>
+        <OPTION value="7">【70％】斬新さをだいぶ重視する</OPTION>
+        <OPTION value="6">【60％】斬新さはほどほどに重視する</OPTION>
+        <OPTION value="5">【50％】どちらかというと新しいゲームに触れる方が好き</OPTION>
+        <OPTION value="4">【40％】普通のゲームでも多少違えば十分</OPTION>
+        <OPTION value="3">【30％】ないよりはあった方がいい</OPTION>
+        <OPTION value="2">【20％】なくてもよい</OPTION>
+        <OPTION value="1">【10％】あってもなくても評価は完全に同じだと断言できる</OPTION>
+       </SELECT><BR>
+　◆ 物語性の重視度 <SELECT name="all_3">
+        <OPTION value="0" selected>【一つ選んでください】</OPTION>
+        <OPTION value="10">【100％】物語性やキャラ性の薄いゲームは無理</OPTION>
+        <OPTION value="9">【90％】かなり重視する</OPTION>
+        <OPTION value="8">【80％】だいぶ重視する</OPTION>
+        <OPTION value="7">【70％】まあまあ重視する</OPTION>
+        <OPTION value="6">【60％】ほどほどに重視する</OPTION>
+        <OPTION value="5">【50％】物語性･キャラ性が多めの方が好きだ</OPTION>
+        <OPTION value="4">【40％】なくても我慢できるが少しは欲しい</OPTION>
+        <OPTION value="3">【30％】ないよりはあった方がいい</OPTION>
+        <OPTION value="2">【20％】なくてもよい</OPTION>
+        <OPTION value="1">【10％】あってもなくても評価は完全に同じだと断言できる</OPTION>
+       </SELECT><BR>
+　◆ 素材の重視度 <SELECT name="all_4">
+        <OPTION value="0" selected>【一つ選んでください】</OPTION>
+        <OPTION value="10">【100％】美しい画面や気に入る音楽がないと無理</OPTION>
+        <OPTION value="9">【90％】普通の見ばえのゲームはほとんど遊ばない</OPTION>
+        <OPTION value="8">【80％】かなり重視する</OPTION>
+        <OPTION value="7">【70％】だいぶ重視する</OPTION>
+        <OPTION value="6">【60％】まあまあ重視する</OPTION>
+        <OPTION value="5">【50％】素材クオリティは高いに越したことはない</OPTION>
+        <OPTION value="4">【40％】普通でも我慢できるが少しは目新しさが欲しい</OPTION>
+        <OPTION value="3">【30％】ないよりはあった方がいい</OPTION>
+        <OPTION value="2">【20％】なくてもよい</OPTION>
+        <OPTION value="1">【10％】あってもなくても評価は完全に同じだと断言できる</OPTION>
+       </SELECT><BR>
+　◆ 遊びやすさの重視度 <SELECT name="all_5">
+        <OPTION value="0" selected>【一つ選んでください】</OPTION>
+        <OPTION value="10">【100％】不親切だと思うとすぐゲームをやめてしまう</OPTION>
+        <OPTION value="9">【90％】遊びにくいとストレスがたまりやすい</OPTION>
+        <OPTION value="8">【80％】かなり重視する</OPTION>
+        <OPTION value="7">【70％】だいぶ重視する</OPTION>
+        <OPTION value="6">【60％】まあまあ重視する</OPTION>
+        <OPTION value="5">【50％】遊びやすさは良いに越したことはない</OPTION>
+        <OPTION value="4">【40％】多少遊びにくくても我慢できるが限度はある</OPTION>
+        <OPTION value="3">【30％】遊びにくいよりは遊びやすい方がいい</OPTION>
+        <OPTION value="2">【20％】遊びにくいゲームもだいたい最後まで遊ぶ</OPTION>
+        <OPTION value="1">【10％】あってもなくても評価は完全に同じだと断言できる</OPTION>
+       </SELECT><BR>　<BR>　
+<HR>
+<font color=#ff4444 size=+1><B>【必ず保存してください！】</B></font><BR>
+<BR>　お疲れさまでした。「保存する」ボタンを押すと投票が完了します。<BR>
+　次の画面で表示される「投票ID」をメモしておけば、内容の修正や追記が可能です。<BR>
+　<font color="#aaaaff">(この体験コーナーでは次のページは出ません)</font><BR>
+<br>
+ 
+	　　<button type="button" onclick="saveVoteData()"> 保存する 　 </button><!--<input type=submit value=　保存する　>-->　　　　　　評価済み作品数　<font size=+2><B><font id=counter2 color=#ff4444>？</font></B></font><font size=-1>/15</font>　　最低 <B><font color=#ff4444>4</font></B> 作品を評価してください<font size=-1>　<BR>
+　　<font color="#aaaaff">( ↑ この体験コーナーではあなたのブラウザ内にデータが保存されます！)</font><BR>
+
+
+</FORM>
+<BR><font color="#ff0000">【確認】各作品の←側にある「<B>評価する</B>」のチェックを入れましたか？<BR>
+　　　　ここにチェックを入れないと作品が評価されませんので、ご注意ください。</font><BR>
+　
+<HR>
+<TABLE border="0" cellpadding="1" cellspacing="1">
+<TBODY><TR><TD>
+<font color=#ff4444><B>＜Ｑ＆Ａ＞</B></font><BR>
+<BR>
+<small><B><font color="#0000ff">Ｑ.作者さんにコメントを送りたいだけなのですが、その場合でも4作品以上評価しないと届きませんか？</font></B><BR>
+Ａ.いいえ、コメントに関しては1作品だけの評価でも受理されます。<BR>
+　作者様が「メールによる全ての感想送付」をオンにしていた場合は、審査終了時に<BR>
+　そのコメントが得点と共に作者様に届くようになっていますのでご安心ください（たとえ未選択の評価があっても）。<BR>
+　<BR>
+　<BR>
+<B><font color="#0000ff">Ｑ.極端な採点をすると最終評価に反映されなくなると聞いたのですが本当ですか？</font></B><BR>
+Ａ.はい。得点操作が疑われる票を弾く目的で、10点や1点が割合的に多すぎるなど<BR>
+　極端な採点をしている方の投票は「最終得点」に反映されません。<BR>
+　ただし、通常は極端な採点をしている「上位数％」だけが無視されるので、<BR>
+　自然に投票してくださっている95％以上の方には影響はございません。その判定も一律、自動で行われます。<BR>
+　<BR>
+　なお、これにより得点が反映されなかった場合でも、「コメント」の方は結果発表で採用されますし、<BR>
+　作者様にも届くようになっておりますのでご安心ください。<BR>
+　結果発表でたまにオール10点やオール1点に近いコメントも挙がりますが、<BR>
+　そういった方の投票は得点の方には反映されていない場合が多いです。<BR>
+　<BR>
+　<BR>
+<B><font color="#0000ff">Ｑ.最終発表に載らないコメントってどんな感じのものですか？</font></B><BR>
+Ａ.最終発表に「載りにくいコメント」の種類を以下に列挙します。最終発表への掲載を狙う場合は、<BR>
+　以下を避けてくださることでいくらか掲載される確率が上がると思います。<BR>
+<BR>
+　・他作品の名が挙がっている場合。特に他作品と比較している内容が含まれるとあまり掲載されません。<BR>
+　・他のコメントと比べ、攻撃的、悪感情的なニュアンスが感じられる場合。<BR>
+　・プレイのモチベーションや興味度が下がってしまう内容の場合。<BR>
+　・文章がものすごく長い場合（1作品あたり数本くらいは長文コメントが載る可能性がありますが、<BR>
+　　たくさんあるとランダム選抜になります）。<BR>
+　
+</small></TD></TR></TBODY></TABLE>
+	</DIV>
+
+<DIV ID="foot">
+<CENTER>
+<TABLE><TR><TD align="center"><font class="fwhite">Copyright © SmokingWOLF / Silver Second<BR>
+<SMALL>このページは「CC BY-ND 4.0」(改変禁止 + 再配布可能)ライセンスのもとで公開されています。</SMALL></font></TD></TR></TABLE></CENTER>
+</DIV>
+
+</BODY>
+</HTML>

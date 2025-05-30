@@ -476,18 +476,21 @@ UL.menu{
 	background: -moz-linear-gradient( top , #8484ca, #b4b4fa);
 	background: -webkit-gradient(linear, center top, center bottom, from(#8484ca), to(#b4b4fa));
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF8484ca', endColorstr='#FFb4b4fa');
+	padding:4px 0px;
 }
 .menu3 {
 	background-color: #fa9494;
 	background: -moz-linear-gradient( top , #ff5454, #fa9494);
 	background: -webkit-gradient(linear, center top, center bottom, from(#ff5454), to(#fa9494));
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFff5454', endColorstr='#FFfa9494');
+	padding:4px 0px;
 }
 .menu4 {
 	background-color: #5454ff;
 	background: -moz-linear-gradient( top , #1414ff, #9494ff);
 	background: -webkit-gradient(linear, center top, center bottom, from(#1414ff), to(#9494ff));
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF1414ff', endColorstr='#FF9494ff');
+	padding:4px 0px;
 }
 
 .menu a{
