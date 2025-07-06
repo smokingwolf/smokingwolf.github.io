@@ -84,8 +84,8 @@
 
 <DIV ID="middle">
 　このサイトは『WOLF RPGエディターコンテスト(ウディコン)』の記録が長く残ることを願い、創作の歴史を振り返るために作られたアーカイブページです。<BR>
-<div id="wodicon-status">　<span style="color:#ccf;"> (ウディコン公式の存在確認中……)</span></div>
-<BR>　
+<div id="wodicon-status">　</div>
+　
 
 
 <!-- ●ベース内容（消さない）● --><br>
@@ -448,11 +448,11 @@
       if (text.trim() === 'WODICON_ALIVE!') {
         statusDiv.innerHTML = '　<a href="https://silversecond.com/WolfRPGEditor/Contest/" target="_blank" class="blue"><B>現在のウディコン公式ページはこちら</B></a>です！';
       } else {
-        statusDiv.textContent = '　ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
+        statusDiv.textContent = '　';
       }
     })
     .catch(error => {
-      statusDiv.textContent = '　ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
+      statusDiv.textContent = '　';
       console.error('ウディコンチェック失敗:', error);
     });
 </script>
