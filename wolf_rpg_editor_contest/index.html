@@ -70,31 +70,6 @@
 
 
 
-<script>
-  // ウディコンのドメインに接続し、サイト存在確認用のTXT(WODICON_ALIVE!と書かれている)があれば存在する扱いにする
-  const statusDiv = document.getElementById('wodicon-status');
-  const checkUrl = 'https://silversecond.com/WolfRPGEditor/Contest/WODICON_SITE_ALIVE_FLAG.txt';
-
-  fetch(checkUrl, { cache: 'no-store' })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('ネットワークエラー');
-      }
-      return response.text();
-    })
-    .then(text => {
-      if (text.trim() === 'WODICON_ALIVE!') {
-        statusDiv.innerHTML = '<a href="https://silversecond.com/WolfRPGEditor/Contest/" target="_blank" class="blue"><B>現在のウディコン公式ページはこちら</B></a>です！';
-      } else {
-        statusDiv.textContent = 'ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
-      }
-    })
-    .catch(error => {
-      statusDiv.textContent = 'ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
-      console.error('ウディコンチェック失敗:', error);
-    });
-</script>
-
 </HEAD>
 
 <BODY><a id="top"></a>
@@ -456,6 +431,31 @@
 </DIV>
 
 
+
+<script>
+  // ウディコンのドメインに接続し、サイト存在確認用のTXT(WODICON_ALIVE!と書かれている)があれば存在する扱いにする
+  const statusDiv = document.getElementById('wodicon-status');
+  const checkUrl = 'https://silversecond.com/WolfRPGEditor/Contest/WODICON_SITE_ALIVE_FLAG.txt';
+
+  fetch(checkUrl, { cache: 'no-store' })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('ネットワークエラー');
+      }
+      return response.text();
+    })
+    .then(text => {
+      if (text.trim() === 'WODICON_ALIVE!') {
+        statusDiv.innerHTML = '<a href="https://silversecond.com/WolfRPGEditor/Contest/" target="_blank" class="blue"><B>現在のウディコン公式ページはこちら</B></a>です！';
+      } else {
+        statusDiv.textContent = 'ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
+      }
+    })
+    .catch(error => {
+      statusDiv.textContent = 'ウディコン公式サイトはすでに運営を終了したか、サーバーダウン中です。';
+      console.error('ウディコンチェック失敗:', error);
+    });
+</script>
 
 
 
