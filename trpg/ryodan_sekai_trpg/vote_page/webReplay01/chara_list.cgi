@@ -1,0 +1,9 @@
+TITLE<>旅団世界TRPG『チュートリアル回』<>
+1<>リゼット<>chara01.jpg<>半獣人の騎士（PC）<>
+2<>ブリンク<>chara02.jpg<>カガクの魔術師（PC）<>
+3<>オーボス<>chara03.jpg<>ドワーフの大工（PC）<>
+4<>ノエル<>chara04.jpg<>人間の薬師（PC）<>
+5<>ギリアム<>npc_gillium.jpg<>亡くなった団長<>
+6<>テレサ<>npc_teresa.jpg<>団長の妻<>
+7<>ＧＭ<>icon_hatena.jpg<>ゲームマスター<>
+8<>その他<>icon_hatena.jpg<>誰でも<>

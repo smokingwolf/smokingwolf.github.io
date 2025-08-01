@@ -1,0 +1,40 @@
+BODY{background-color : #9a9acf;
+  font-size : 10pt;
+  color : #ffffff;
+}
+
+A:LINK{color:#6363f5;text-decoration : underline;}
+A:VISITED{color:#834355;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #8c8c9e;text-decoration : underline;}
+A.red:LINK,A.red:VISITED{color:#a6385c;}
+A.red:HOVER,A.red:ACTIVE{color : #d6688c;text-decoration : underline;}
+A.blue:LINK,A.blue:VISITED{color:#463886;}
+A.blue:HOVER,A.blue:ACTIVE{color : #8678c6;text-decoration : underline;}
+A.siro:LINK,A.siro:VISITED{color:#ffffff;}
+A.siro:HOVER,A.siro:ACTIVE{color : #b5b5bf;text-decoration : underline;}
+A{text-decoration : none;}
+
+/*--√∞ÃﬁŸ--*/
+.black{background-color:#000000;}
+.gray{background:#535365;}
+.white{background:#fafaff;}
+.mwhite{background:#fefeff;}
+.veryusui{background:#f0f0fa;}
+.mgray{background:#636375;}
+.mmgray{background:#838395;}
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#d2d2dd;}
+.fg{color:#434355;}
+.fmg{color:#636375;}
+.flink{color:#737385;}
+.fmmg{color:#9393a5;}
+.ten{font-size:10pt;}
+.elev{font-size:11pt;}
+.plus{font-size:14pt;}
+
+/*--ê¸êF--*/
+.line{color:#898cc7;}
+.dline{color:#60609b;}
