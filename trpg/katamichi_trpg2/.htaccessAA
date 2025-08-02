@@ -1,4 +1,0 @@
-AuthType     Basic
-AuthName     "SmokingWOLF File"
-AuthUserFile /home/silversecond/www/silversecond.net/Security_page/.htpasswd
-require valid-user
