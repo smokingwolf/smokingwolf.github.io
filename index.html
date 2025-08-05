@@ -1,0 +1,3110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+<TITLE>Silver Second 思い出の部屋　- SmokingWOLFのアーカイブサイト -</TITLE>
+<script src="./smoothscroll_up.js" type="text/javascript"></script> 
+
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<style>
+html {
+  /* スマホ時は1倍フォントで表示 */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: #fafaff;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 2em;
+  font-size:13px;
+  color:#558;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-left:10px;
+}
+
+.game-card {
+  width: 200px;
+  border-radius: 120px 120px 9px 9px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background: #ffffff;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start; 
+  border: 1px solid #999;
+}
+
+
+.game-card2 {
+  width: 180px;
+  border-radius: 90px 90px 4px 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background: #ffffff;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start;
+  border: 1px solid #999;
+}
+
+
+.screenshot-wrapper {
+  position: relative;
+  height: 144px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.screenshot-wrapper img.screenshot {
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.screenshot-wrapper img.active {
+  opacity: 1;
+}
+
+
+.screenshot-wrapper:hover{
+  outline: 2px solid #20c997; /* 青緑のアウトライン */
+
+}
+
+
+.logo-overlay {
+  position: absolute;
+  top:124px;
+  text-align:center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+
+.game-title-mini{
+  font-size:0.7em;
+  color: #aaf;
+}
+
+
+.game-description a:hover {
+  text-decoration: underline;
+  color: #ddf;
+}
+
+.game-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(150,200,255,1); /* 光る感じ */
+  border: 1px solid #aaf;
+  box-shadow: inset 0 0 10px rgba(0, 0, 255, 0.5)
+}
+
+
+
+
+.game-title a{
+  display: block;
+  padding: 4px;
+  text-decoration-color: #ccf; /* アンダーラインの色だけ変更！ */
+}
+
+.game-title A:LINK,.game-title A:VISITED{
+  color: #55f;
+
+}
+
+.game-title A:HOVER,.game-title A:ACTIVE{
+  text-decoration: underline;
+  color: #33f;
+  box-shadow: inset 0 0 5px rgba(0,  255,0, 0.5)
+  display:block;
+  background-color:#cff;
+}
+
+
+
+
+.game-title-red { /* 外枠だけ有料の赤色、リンク文字は青 */
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(150,200,255,1); /* 光る感じ */
+  border: 1px solid #aaf;
+  box-shadow: inset 0 0 10px rgba( 255,0, 0, 0.5)
+}
+.game-title-red a{
+  display: block;
+  padding: 4px;
+  text-decoration-color: #ccf; /* アンダーラインの色だけ変更！ */
+}
+
+.game-title-red A:LINK,.game-title-red A:VISITED{
+  color: #55f;
+
+}
+
+.game-title-red A:HOVER,.game-title-red A:ACTIVE{
+  text-decoration: underline;
+  color: #33a;
+  box-shadow: inset 0 0 5px rgba(255,0,  0, 0.5);
+  display:block;
+  background-color:#fcc;
+}
+
+
+
+.game-title-redred { /* 外枠は有料の赤色、リンク文字も赤（外部リンク） */
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(255,150,200,1); /* 光る感じ */
+  border: 1px solid #aaf;
+  box-shadow: inset 0 0 10px rgba( 255,0, 0, 0.5)
+}
+.game-title-redred a{
+  display: block;
+  padding: 4px;
+  text-decoration-color: #fcc; /* アンダーラインの色だけ変更！ */
+}
+
+.game-title-redred A:LINK,.game-title-redred A:VISITED{
+  color: #c33;
+
+}
+
+.game-title-redred A:HOVER,.game-title-redred A:ACTIVE{
+  text-decoration: underline;
+  color: #a37;
+  box-shadow: inset 0 0 5px rgba(255,0,  0, 0.5)
+  display:block;
+  background-color:#fcc;
+}
+
+
+
+.game-title-bluered { /* 外枠は有料の赤色、リンク文字も赤（外部リンク） */
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(255,150,200,1); /* 光る感じ */
+  border: 1px solid #aaf;
+  box-shadow: inset 0 0 10px rgba(0, 0,  255,0.5)
+}
+.game-title-bluered a{
+  display: block;
+  padding: 4px;
+  text-decoration-color: #ccf; /* アンダーラインの色だけ変更！ */
+}
+
+.game-title-bluered A:LINK,.game-title-bluered A:VISITED{
+  color: #c33;
+
+}
+
+.game-title-bluered A:HOVER,.game-title-bluered A:ACTIVE{
+  text-decoration: underline;
+  color: #a37;
+  box-shadow: inset 0 0 5px rgba(0,  255,0, 0.5)
+  display:block;
+  background-color:#cff;
+}
+
+
+
+.game-description {
+  padding: 10px;
+  background: linear-gradient(to bottom, #77a 0%, #335 100%);
+  color: #ddf;
+  font-size:12px;
+}
+
+
+.game-description-red {
+  padding: 10px;
+  background: linear-gradient(to bottom, #733 0%, #300 100%);
+  color: #edd;
+  font-size:12px;
+}
+
+
+.TopTitle{
+  width:515px;
+  font-weight:bold;
+  font-size:16pt;
+  color: #ffffff;
+  background-color:#535365 ;
+  border-width: 0px;
+  border-color:#535365;
+  border-style:solid;
+  background: -moz-linear-gradient(left top, #42435f, #fafaff);
+  background: -webkit-gradient(linear, left top, right bottom, from(#42435f), to(#fafaff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#DD42425f', endColorstr='#FFfafaff');
+  
+  text-align:left;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.header3{
+	color:#555588;
+	margin-bottom:16px;
+}
+
+
+h1 {
+  background: #fff;
+  margin-top:35px;
+  padding: 6px 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #2233cc; /* 青系 */
+  background-image: linear-gradient(to bottom, #ffffff, #e0eaff);
+  border-radius: 4px;
+  border-left: 4px solid #3366ff;
+  display: block;
+  width:100%;
+  
+}
+
+/* インジケーター用 */
+.screenshot-wrapper {
+  position: relative; /* 絶対配置の基準に */
+}
+.screenshot-indicator {
+  position: absolute;
+  bottom: 4px; right: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 8px;
+  padding: 2px 4px;
+  border-radius: 7px;
+  line-height: 1;
+  white-space: nowrap;
+  z-index: 3;           
+  pointer-events: none;  
+}
+
+
+
+
+.illust-card {
+  width: 80px;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start; 
+  margin-bottom:15px;
+  margin-top:8px;
+}
+
+.illust-card:hover{
+  opacity:0.7;
+}
+
+.illust-wrapper {
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  background: #ffffff;
+}
+
+.illust-wrapper img.illust_image {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+
+.illust-wrapper2 {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  background: #ffffff;
+}
+
+.illust-wrapper2 img.illust_image {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.name-overlay {
+  font-size:11px;
+  line-height:1em;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  z-index: 3;
+  text-align:center;
+  color:#fff;
+  text-shadow: 0 -1px 8px rgba(0,155,155,1),0 3px 6px rgba(0,0,155,1), 0 3px 6px rgba(121,0,255,1);
+}
+
+
+/* 折りたたみ用部分 */
+.content-group {
+  display: block;
+}
+/* container に show-more が付いたら contents で展開 */
+.container.show-more .more-content {
+  display: contents;
+}
+
+.more-content {
+  max-width: 0px;
+  max-height: 0px;
+  opacity: 0.6;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;         /* 折り返しON */
+  gap: 10px;               /* カード間の余白 */
+  padding:0px;
+  margin-top:10px;
+}
+.more-content.open {
+  max-width: 100%;
+  max-height: 4000px;  /* 展開時の最大高さ（適当に大きめでOK） */
+  opacity: 1;
+  display: flex;           /* flex コンテナ化 */
+  flex-wrap: wrap;         /* 折り返しON */
+  padding:15px 0px 15px 8px;
+  border-radius:10px;
+  box-shadow:0 0 10px #d8e1cc;
+  border:1px solid #a8dfac;
+  margin-top:10px;
+}
+
+.toggle-more {
+  display:block;
+  width:200px;
+  margin:0px;
+  margin-top:15px;
+  margin-bottom:15px;
+  font-size:15px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align:center;
+}
+
+A.toggle-more:LINK,A.toggle-more:VISITED{
+  color:#38a49c;
+  background-color:#cef;
+}
+A.toggle-more:HOVER,A.toggle-more:ACTIVE{
+  color: #002233;
+  background-color:#aaf;
+}
+/* 折りたたみ用ここまで */
+
+.content-card {
+  width: 180px;
+  border-radius: 60px 60px 9px 9px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 0 10px rgba(120,120,255,1);
+  background: #ffffff;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start; 
+  border:3px solid rgba(51, 60, 250, 0.6);
+}
+
+
+.content-card:hover{
+  opacity:0.7;
+}
+
+.content-card2 {
+  width: 120px;
+  border-radius: 60px 60px 4px 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 0 10px rgba(120,120,255,1);
+  background: #ffffff;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start;
+  
+  border:3px solid rgba(51, 60, 250, 0.6);
+}
+
+
+.content-card2:hover{
+  opacity:0.7;
+}
+
+.content-card-red {
+  width: 120px;
+  border-radius: 60px 60px 4px 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 0 10px rgba(120,120,255,1);
+  background: #ffffff;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start;
+  
+  border:3px solid rgba(250,11, 30,  0.6);
+}
+
+.content-card-red:hover{
+  opacity:0.7;
+}
+
+
+
+
+.content-screenshot-wrapper {
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.content-screenshot-wrapper img.content-screenshot {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* スクショ枠の下に半透明グラデーション入れる */
+.content-screenshot-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;  /* グラデーションの高さ */
+  background: linear-gradient(to top, rgba(100, 90, 150, 0.7), rgba(0,0,0,0));
+  z-index: 2; /* 画像の上、文字の下 */
+  pointer-events: none; /* クリック無効 */
+}
+
+.content-screenshot-wrapper img.active {
+  opacity: 1;
+}
+
+
+.content-title a{
+  display: block;
+  text-decoration-color: #ccf; /* アンダーラインの色だけ変更！ */
+}
+
+.content-title-mini{
+  font-size:0.7em;
+  color: #aaf;
+}
+
+
+.content-title A:LINK,.content-title A:VISITED{
+  color: #338;
+
+}
+
+.content-title A:HOVER,.content-title A:ACTIVE{
+  text-decoration: underline;
+  color: #37a;
+}
+.content-description a:hover {
+  text-decoration: underline;
+  color: #ddf;
+}
+
+.content-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(150,200,255,1); /* 光る感じ */
+}
+
+.content-description {
+  padding: 7px;
+  background: linear-gradient(to bottom, #557 0%, #99a 100%);
+  color: #fff;
+  font-size:12px;
+}
+
+
+.content-description2 {
+  padding: 7px;
+  background: linear-gradient(to bottom, #a99 0%,#400 100%);
+  color: #fff;
+  font-size:12px;
+}
+
+.content-sub{
+  color:#88a;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:11px;
+}
+
+
+
+
+A.dl:LINK,A.dl:VISITED{
+  color: #abF;
+  font-size:12px;
+  text-shadow: 0 0 16px rgba(205,235,255,1); /* 光る感じ */
+  display:inline-block;
+  border-radius:9px;
+  border:1px solid #88a;
+  text-decoration: none;
+  margin-top:4px;
+  padding:2px;
+}
+
+A.dl:HOVER,A.dl:ACTIVE{
+  text-decoration: underline;
+  color: #77F;
+  font-size:12px;
+  display:inline-block;
+  border-radius:9px;
+  background-color:#cff;
+  text-decoration: none;
+  margin-top:4px;
+  padding:2px;
+}
+
+
+A.dl2:LINK,A.dl2:VISITED{
+  color: #FaF;
+  font-size:12px;
+  text-shadow: 0 0 16px rgba(255,255,155,1); /* 光る感じ */
+  display:inline-block;
+  border-radius:9px;
+  border:1px solid #f88;
+  text-decoration: none;
+  margin-top:4px;
+  padding:2px;
+}
+
+A.dl2:HOVER,A.dl2:ACTIVE{
+  text-decoration: underline;
+  color: #c7c;
+  font-size:12px;
+  display:inline-block;
+  border-radius:9px;
+  background-color:#fcc;
+  text-decoration: none;
+  margin-top:4px;
+  padding:2px;
+}
+
+
+
+
+
+A.blue:LINK,A.blue:VISITED{
+	color:#5868ff;
+	text-decoration: underline; 
+	display:inline-block;
+	border-radius:8px; 
+	padding:4px;
+	text-shadow:0 0 6px #79f;
+}
+
+A.blue:HOVER,A.blue:ACTIVE{
+      background-color: #aacfff;
+      color : #444477;
+      text-decoration: none;
+      display:inline-block;
+      border-radius:8px; 
+      padding:4px;
+}
+
+
+A.red:LINK,A.red:VISITED{
+	color:#cf484c;
+	text-decoration: underline;
+	display:inline-block;
+	border-radius:8px;
+	padding:4px;
+}
+A.red:HOVER,A.red:ACTIVE{
+      background-color: #ffaaaa;
+      color : #774444;
+      text-decoration: none;
+      display:inline-block;
+      border-radius:8px;
+      padding:4px;
+}
+      
+
+/* ページ名用ルビ */
+ruby.title,rt.title  {
+  font-size: 0.5em;
+  color: #ccf;
+  padding-bottom:0.2em;
+}
+
+
+/* 背景に混ざらないようにするための背面ホワイトぼんやり */
+.backlight{
+	text-shadow:0 0 5px #fff,0 0 5px #fff,0 0 5px #fff;,0 0 9px #fff;
+}
+
+</style>
+
+
+
+
+<style>
+
+/* 上部固定ナビゲーション */
+.fixed-menu {
+  background: rgba(240, 240, 255, 0.9); /* 半透明系の淡いクール色 */
+  top: 0;
+  left:150px;
+  width:calc(100%-150px);
+
+   /* ★＠＠＠＠ 左のフローメニューの分 アーカイブ時は100％に */
+  box-sizing: border-box;
+  position: fixed;
+  padding: 6px 14px;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: inline-block;
+  line-height: 1.4;
+  flex-wrap: wrap; 
+  min-width:350px;
+}
+
+.fixed-menu a {
+  display: inline-block; /* ブロック化して折り返せるようにする */
+  white-space: nowrap;   /* 1項目内の改行は防ぐ */
+  text-decoration: none;
+  font-weight: bold;
+  color: #004466;
+  font-size: 14px;
+  padding: 2px 8px;
+  transition: all 0.2s;
+  border-radius: 6px;
+}
+
+.fixed-menu a:hover {
+  background-color: #a5e5c6;
+  color: #002233;
+}
+
+.fixed-menu A.g:LINK,.fixed-menu A.g:VISITED{color:#48c4ac;text-decoration: none;}
+.fixed-menu A.g:HOVER,.fixed-menu A.g:ACTIVE{color: #002233;text-decoration: none;}
+
+.fixed-menu A.g2:LINK,.fixed-menu A.g2:VISITED{color:#1894ac;text-decoration: none;}
+.fixed-menu A.g2:HOVER,.fixed-menu A.g2:ACTIVE{color: #002253;text-decoration: none;}
+
+.fixed-menu A.blue:LINK,.fixed-menu A.blue:VISITED{color:#789cff;text-decoration: none;}
+.fixed-menu A.blue:HOVER,.fixed-menu A.blue:ACTIVE{
+  background-color: #aacfff;color : #444477;text-decoration: none;}
+
+</style>
+
+
+
+<!--●さらに開く、で開くためのJS●-->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.content-group').forEach(function(group) {
+    // 1) ユニークキーを取得／自動生成
+    var key = group.getAttribute('data-storage-key') ||
+              'content-group-' + Math.random().toString(36).substr(2, 9);
+    group.setAttribute('data-storage-key', key);
+
+    var toggle = group.querySelector('.toggle-more');
+    var more   = group.querySelector('.more-content');
+
+    // 2) セッションストレージから状態を復元
+    if (sessionStorage.getItem(key) === 'open') {
+      more.classList.add('open');
+      toggle.textContent = '▲ 閉じる ▲';
+    } else {
+      more.classList.remove('open');
+      toggle.textContent = '▼ 他のも見る ▼';
+    }
+
+    // 3) クリック時に開閉＆保存
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      more.classList.toggle('open');
+      var isOpen = more.classList.contains('open');
+      toggle.textContent = isOpen ? '▲ 閉じる ▲' : '▼  他のも見る ▼';
+      sessionStorage.setItem(key, isOpen ? 'open' : 'closed');
+    });
+  });
+});
+</script>
+
+
+
+<script type="text/javascript">
+  // beforeunload でスクロール位置を保存
+  window.addEventListener('beforeunload', () => {
+    sessionStorage.setItem('scrollPos_silsecindex', window.scrollY);
+  });
+
+  // 毎秒スクロール位置を保存
+  setInterval(() => {
+    sessionStorage.setItem('scrollPos', window.scrollY);
+  }, 1000); // 1秒ごとに保存
+
+  // ページ読み込み時に復元（ただし reload や back のときは除外）
+  window.addEventListener('load', () => {
+    const navEntry = performance.getEntriesByType("navigation")[0];
+    const legacyType = performance.navigation.type;
+
+    const isNavigate =
+      (navEntry && navEntry.type === "navigate") ||
+      (legacyType === 0);
+
+    if (isNavigate) {
+      const scrollY = sessionStorage.getItem('scrollPos_silsecindex');
+      if (scrollY) window.scrollTo(0, parseInt(scrollY));
+    }
+  });
+  // navigate: 通常のリンク遷移
+  // reload: F5やリロード
+  // back_forward: 戻る・進む
+
+</script>
+
+</HEAD>
+<BODY onload="initLightbox()">
+
+<a id="top"></a>
+    <!-- 上部固定メニュー -->
+  <nav class="fixed-menu"><CENTER>
+  <a href="#top" class="g2" style="padding:0px;display:inline-block;font-size:10px;line-height:11px;">ｼﾙﾊﾞｰｾｶﾝﾄﾞ<BR>思い出の部屋</a>
+    <a href="#diary" class="g">開発日誌</a>
+    <a href="#game" class="g">ゲーム作品</a>
+    <a href="#tool" class="g">開発ツール</a>
+    <a href="#gamedevbook" class="g">ゲーム開発本</a>
+    <a href="#mini" class="g">ミニ作品</a>
+    
+    <a href="#illust" class="g">イラスト</a>
+    <a href="#text" class="g">テキスト</a>
+    <a href="#movie" class="g">動画</a>
+    <a href="#april" class="g">ｴｲﾌﾟﾘﾙﾌｰﾙ</a>
+    <a href="#trpg" class="g">TRPG</a>
+    <a href="#gift" class="g">いただきもの</a>
+    <a href="#final" class="g">最後に</a>
+
+    </CENTER>
+  </nav>
+  <!-- 上部固定メニューここまで -->
+
+
+<BR><BR><BR>　
+
+<div class="TopTitle" style="margin-top:15px; width:600px;">　　<ruby>Silver Second<rt class="title">シルバーセカンド</rt></ruby>
+　思い出の部屋</div>
+<div class="header3 backlight" style="margin-top:6px;">　ここはゲーム開発者SmokingWOLF(スモーキングウルフ)が作成したコンテンツや、いただいたものをアーカイブしたページです。<BR>
+　元のシルバーセカンドのサイトがなくなったときも、ここに来れば過去の作品にふれられたり、当時のできごとを思い出すことができるでしょう。<BR>
+<div id="silsec-status">　</div>
+　※<span style="color:#FC4864"><B>赤リンク</B></span>：外部リンク　/　<span style="color:#4864FF"><B>青リンク</B></span>：サイト内リンク　/　<span style="color:#48c4ac"><B>緑リンク</B></span>：ページ内リンク
+</div>
+
+
+<a id="diary"></a>
+<h1>　開発日誌　- Devlog -</h1>
+
+<span class="backlight">
+　<a href="https://smokingwolf.github.io/dev_blog/archive/top/" class="blue"><span style="font-size:20px;"><strong>● シルバーセカンド開発日誌へ</strong></span><BR><img loading="lazy" src="top_image/devlog_top.jpg" style="border-radius:32px;box-shadow:0 0 8px #22f;" border="2" height="140"></a><BR>
+<p>　2003年8月から20年以上、毎月書き続けてきた開発日誌です。開発と関係ない内容もあります。<BR>
+　これまで開発してきたゲームの試行錯誤、WOLF RPGエディター(ウディタ)の話、ゲーム開発のノウハウ、落書き、人生のイベント……。<BR>
+　私の人生のたくさんの足跡がここに詰まっています。</p>
+</span>
+　<BR>
+
+<a id="game"></a>
+<h1>　ゲーム作品　- Games -</h1>
+<span class="backlight">
+<span style="color:#55a;">　SmokingWOLFが開発した、フリーゲーム(無料ゲーム)、有料作品を含む主要なゲーム作品です。<BR>　ダウンロード版はすべてWindows用ですが、一部はブラウザ版もあります。</span><BR><BR>
+　←↑ New (代表作/人気作優先)　　↓→ Old<BR>
+　　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[ゲーム名]クリックで詳細ページに移動します。</span>
+</span>　　　
+<BR><BR>
+　
+<div class="container">
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/oneway_hecoics_plus_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_plus_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_plus_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_plus_sc04.jpg" alt="SS4">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_plus_sc05.jpg" alt="SS5">
+      <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">人気作！ / 有料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title-red">
+      <a href="./game_one_way_heroics_plus/" style="line-height:1em;">片道勇者プラス<BR><span style="font-size:0.7em" class="game-title-mini">[ 強制スクロールRPG ]</span></a>
+    </div>
+    <div class="game-description-red">
+　強制横スクロールRPG『片道勇者』の大幅強化版！<BR>
+　プレイアビリティの向上や、より判断が重要になるバランス修正、新たなシナリオやエンディング追加が行われています。アルバートも登場！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2014/10/24公開]</B><BR>WOLF RPGエディター作品<BR>プレイ時間：<B>1周30分～、全クリア20時間以上</B>
+
+<BR><B><a href="https://store.steampowered.com/bundle/827/One_Way_Heroics__Plus_Edition/" target="_blank" class="dl2">【Steam販売ページ(￥900)】</a></B>
+</div>
+    </div>
+  </div>
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/oneway_hecoics_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_sc04.jpg" alt="SS4">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_sc05.jpg" alt="SS5">
+
+      <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">代表作！ / </B><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_one_way_heroics/" style="line-height:1em;">片道勇者<BR><span style="font-size:0.7em" class="game-title-mini">[ 強制スクロールRPG ]</span></a>
+    </div>
+    <div class="game-description">
+　無限に生成される世界を舞台とした強制横スクロールRPG！<BR>
+　ランダムなアイテムや敵、地形が出現するローグライク(不思議のダンジョン系)ゲーム！<BR>
+　『闇(スクロール)』にのまれぬよう、考えて動くことが求められる一作！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2012/8/5公開]</B> WOLF RPGエディター作品<BR>プレイ時間：<B>1周30分ほど</B>
+<BR><B><a href="https://github.com/smokingwolf/game_one_way_heroics/releases/download/one_way_heroics2.02/OneWayHeroics_2.02.zip" class="dl">【直接ダウンロード(32MB)】</a></B>
+</div>
+
+    </div>
+  </div>
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/silfade_gensou_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gensou_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gensou_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gensou_sc04.jpg" alt="SS4">
+      <div class="screenshot-indicator"></div>
+      <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">代表作！ / </B><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_silfade_gensoutan/" style="line-height:1em;">シルフェイド<ruby>幻想譚<rt>げんそうたん</rt></ruby><BR><span style="font-size:0.7em" class="game-title-mini">[ 半フリーシナリオRPG ]</span></a>
+    </div>
+    <div class="game-description">
+　15日後に起こる『災い』を阻止するため、あなたが天空島をめぐる半フリーシナリオRPG！<BR>　1歩ごとに時が進む中、時間経過で状況が変化していく世界を冒険しよう！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[<!--2003/9～2005/1開発<BR>-->2005/4/16公開<BR>2021/5/21 リファイン]</B><BR> RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>5時間ほど</B>
+<BR><B><a href="https://github.com/smokingwolf/game_silfade_gensoutan/releases/download/v1.34/SilfadeGensoutan1.34.zip" class="dl" style="font-size:11px;">【直接ダウンロード(3.5MB)】</a></B>
+ 
+<BR><B><a href="./game_silfade_gensoutan/playgame/player-js/" target="_blank" class="dl" style="font-size:11px;">【ブラウザ版で遊ぶ(スマホ可)】</a></B>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/planethowl_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/planethowl_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/planethowl_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/planethowl_sc04.jpg" alt="SS4">
+
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_planet_howl/" style="line-height:1em;">プラネットハウル<BR><span style="font-size:0.7em" class="game-title-mini">[ 変則操作マウスアクション ]</span></a>
+    </div>
+    <div class="game-description">
+　変な操作の機体で任務をこなしていく2Dアクションゲーム！<BR>
+　1シナリオごとに操作方法が大きく変わる中、果たしてあなたは機体を乗りこなすことができるのか！？<BR>
+　そして獣人だけしかいない衛星にやってきた謎の少女の正体とは……！？<BR>
+<div align="center" style="font-size:8px;margin-top:4px;"><B>[2015/9～12連載(完結)]</B><BR>WOLF RPGエディター作品<BR>プレイ時間：<B>3～6時間ほど</B>
+<BR><B><a href="https://www.gamemaga.jp/planethowl/download.html" target="_blank" class="dl2" style="font-size:9.4px;">【DLページへ(129MB/ｹﾞｰﾑﾏｶﾞｼﾞﾝ)】</a></B>
+</div>
+</div>
+</div>
+
+
+
+  
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/silfade_gakuin_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc04.jpg" alt="SS4">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc05.jpg" alt="SS5">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc06.jpg" alt="SS6">
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">有料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title-red">
+      <a href="game_silfade_gakuin/" style="line-height:1em;">シルフェイド<ruby>学院<rt>がくいん</rt></ruby>物語<BR><span style="font-size:0.7em" class="game-title-mini">[ 育成シミュレーション ]</span></a>
+    </div>
+    <div class="game-description-red" style="font-size:10.5px;">
+　シルフェイド幻想譚のコンセプトを踏襲した育成シミュレーションゲーム！
+　武術部、公安部、地歴部から選んで1年の学院生活を過ごし、みんなと仲良くなり、起きる災いを防ごう！　アルバートやロベルト教頭(シル見キャラ)と同居したり、ウリユ(シル幻キャラ)の住む雑貨店で暮らせる一作！<BR>
+<div align="center" style="font-size:8px;margin-top:4px;"><B>[2011/4/25公開]</B> WOLF RPGエディター改<BR>プレイ時間：<B style="font-size:10px;">1周5時間×3ｼﾅﾘｵ<BR>(+ユーザーデータシナリオ)</B>
+<BR><B><a href="silfade_gakuin/Silfade_Gakuin_Trial127.zip" class="dl">【体験版を直接DL(37MB)】</a>
+<BR><a href="https://silversecond.net/contents/game/silfade_gakuin/#dl2" class="dl2" style="font-size:9.4px;">【ライセンス購入は運営中サイトより】</a></B></div>
+
+    </div>
+  </div>
+
+  
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/sylph_dragoon_zero_sc01.gif" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/sylph_dragoon_zero_sc02.gif" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/sylph_dragoon_zero_sc03.gif" alt="SS3">
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_sylph_dragoon_zero/" style="line-height:1em;">シルフドラグーンゼロ<BR><span style="font-size:0.6em" class="game-title-mini">[ マウス+キーボード全方位STG ]</span></a>
+    </div>
+    <div class="game-description">
+　マウスとキーボードを併用する、カスタマイズ性が高い全方位シューティング！<BR>
+　3種のドラグーンで侵略ナノマシンMIDASと戦い抜く物語！<BR>
+　限られたフィールドですばやく敵を撃墜し続けよう！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2010/4/1公開]</B><BR>WOLF RPGエディター作品<BR>プレイ時間：<B>2時間ほど</B>
+<BR><B><a href="https://github.com/smokingwolf/game_sylph_dragoon_zero/releases/download/v1.11/SylphDragoonZero1.11.zip" class="dl">【直接ダウンロード(27MB)】</a></B>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/monolith_sphere_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/monolith_sphere_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/monolith_sphere_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/monolith_sphere_sc04.jpg" alt="SS4">
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_monolith_sphere/" style="line-height:1em;">モノリスフィア<BR><span style="font-size:0.7em" class="game-title-mini">[ マウスアクションゲーム ]</span></a>
+    </div>
+    <div class="game-description">
+　5つの世界と5人の女神たちが織りなす、マウスだけで遊べるハイスピードアクションゲーム！<BR>
+　破壊されたモノリスフィアのかけらを探し、セクシー女神モノリスの冒険が繰り広げられる！<BR>
+<div align="center" style="font-size:8px;margin-top:4px;"><B>[2008/3/8公開]</B> WOLF RPGエディターα<BR>プレイ時間：<B style="font-size:10px;">5時間ほど</B>
+<BR><B><a href="https://github.com/smokingwolf/game_monolith_sphere/releases/download/monolith_sphere1.01/MonolithSphere_1.01.zip" class="dl">【直接ダウンロード(62MB)】</a></B>
+</div>
+
+
+    </div>
+  </div>
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/silhouette_note_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc04.jpg" alt="SS4">
+      <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc05.jpg" alt="SS5">
+      <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc06.jpg" alt="SS6">
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">有料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title-red">
+      <a href="game_silhouette_note/" style="line-height:1em;">シルエットノート<BR><span style="font-size:0.7em" class="game-title-mini">[ コマンド選択ADV ]</span></a>
+    </div>
+    <div class="game-description-red" style="font-size:10.5px;">
+　シルフェイド見聞録の精神的続編アドベンチャーゲーム。<BR>
+　2017年の近未来(※すでに過去)の海上都市、アクアフロートを舞台に繰り広げられる魔法少女(男子高校生)の物語！　シルフェイド見聞録、幻想譚のキャラクターも複数出演！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2005/11/30公開]</B> RPGツクールXP作品<BR>プレイ時間：<B>10時間～</B>
+<BR><B><a href="https://github.com/smokingwolf/game_silhouette_note/releases/download/v1.12/Silhouette_Note_Trial_1.12.zip" class="dl">【体験版を直接DL(11MB)】</a>
+<BR><B><a href="https://www.dlsite.com/home/dlaf/=/link/work/aid/silver_second/id/RJ225551.html" target="_blank" class="dl2" style="font-size:11px;">【DLsite販売ページ(￥1,650)】</a></B>
+</B></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/silfade_kenbun_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_kenbun_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_kenbun_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/silfade_kenbun_sc04.jpg" alt="SS4">
+      <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="./game_silfade_kenbunroku/" style="line-height:1em;">シルフェイド<ruby>見聞録<rt>けんぶんろく</rt></ruby><BR><span style="font-size:0.7em" class="game-title-mini">[ コマンド選択式ADV ]</span></a>
+    </div>
+    <div class="game-description">
+　医者を目指す主人公、エシュターが繰り広げる、不健全要素満載のコマンド選択式ADV！<br>
+　シークエンス6で連載中断。いつかリメイクすることを検討中です。<br>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2001/4/6～2006/3/15 開発/連載]</B><BR>
+RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
+<BR><B><a href="https://github.com/smokingwolf/game_silfade_kenbunroku/releases/download/v1.62/SllfadeKenbunroku1.62.zip" class="dl">【直接ダウンロード(3MB)】</a></B>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<a id="tool"></a>
+<h1>　ゲーム開発ツール　- Game Development Software -</h1>
+<span class="backlight">SmokingWOLFが開発した、ゲーム開発ツールや支援ツール、その関連コンテンツです。<BR><BR>
+　←↑ New　　↓→ Old　<BR>
+　　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。</span>
+</span>　　　
+<BR><BR>
+
+<div class="container">
+
+
+  
+
+<div class="game-card">
+<div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+  <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_sc01.jpg" alt="SS1">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_sc02.jpg" alt="SS2">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_sc03.jpg" alt="SS3">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_sc04.jpg" alt="SS4">
+  <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+  <div class="screenshot-indicator"></div>
+</div>
+<div class="game-title">
+  <a href="./tool_wolf_rpg_editor/" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR><span style="font-size:0.6em" class="game-title-mini">[ ゲーム開発ツール ] ｱｰｶｲﾌﾞﾍﾟｰｼﾞへ</span></a>
+</div>
+<div class="game-description" style="font-size:11px;">
+　無料のゲーム開発ツールで、略称は『ウディタ』。高度なRPGやその他の2Dゲームが日本語コマンドだけで作成可能です！　作者もこれでゲームを開発しています。<BR>
+　上級者向けの有料プロ版も発売中！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2006/02 開発開始]<BR>[2008/03/15 Ver1.00公開]</B>
+<BR><B><a href="https://github.com/smokingwolf/wolf_rpg_editor/releases" class="dl" style="font-size:11px;">【DLページへ(無料/GitHub)】</a></B>
+<BR><B><a href="https://silversecond.booth.pm/items/4302198" target="_blank" class="dl2" style="font-size:11px;">【ウディタプロ版 販売ページ】<BR>(BOOTH/￥5000)</a></B>
+</div>
+</div>
+
+</div>
+
+
+<div class="game-card">
+<div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+  <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_translation_tool_sc01.jpg" alt="SS1">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_translation_tool_sc02.jpg" alt="SS2">
+  <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+  <div class="screenshot-indicator"></div>
+</div>
+<div class="game-title-redred">
+  <a href="./tool_wolf_rpg_editor_translation/" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR>翻訳サポートツール<BR><span style="font-size:0.7em" class="game-title-mini">[ ウディタ支援ツール ] 説明書へ</span></a>
+</div>
+<div class="game-description-red">
+　ウディタ製の自作ソフトを一気に多言語に翻訳可能な翻訳サポートツールです。ただし翻訳はご自分で行う必要がございます。<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2022/11/21 Ver3.00初公開]</B>
+<BR><B><a href="https://silversecond.booth.pm/items/4302198" target="_blank" class="dl2" style="font-size:11px;">【翻訳サポートツール販売ページ(BOOTH/￥1000～)】</a></B>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="game-card">
+<div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+  <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_contest_sc01.jpg" alt="SS1">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_contest_sc02.jpg" alt="SS2">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_contest_sc03.jpg" alt="SS3">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_contest_sc04.jpg" alt="SS4">
+  <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_contest_sc05.jpg" alt="SS5">
+  <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+  <div class="screenshot-indicator"></div>
+</div>
+<div class="game-title">
+  <a href="./wolf_rpg_editor_contest" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR>コンテスト歴史資料館<BR><span style="font-size:0.7em" class="game-title-mini">[ ウディタ作品コンテストの記録 ]</span></a>
+</div>
+<div class="game-description">
+　ウディタ製の新作無料ゲームが集まる、毎年夏に行われるコンテストのアーカイブ（バックアップ）ページです！　一般投票のみで部門別順位、総合順位が決定されます。<BR>
+　毎年熱気にあふれていたコンテストです。<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2009/03/15サイト設立～年1回開催]</B>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<a id="gamedevbook"></a>
+<h1>　ゲーム開発にかかわる電子書籍　- Game Development eBooks -</h1>
+
+<span class="backlight">SmokingWOLFが執筆した、ゲーム開発にかかわる電子書籍です。<BR>どれもAmazon Kindleで販売されています。<BR><BR>
+　←↑ New　　↓→ Old　<BR>
+　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。</span>
+</span>
+<BR>
+　
+<div class="container">
+
+  
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/map_of_game_dev_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/map_of_game_dev_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/map_of_game_dev_sc03.jpg" alt="SS3">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title-red">
+      <a href="./ebook_map_of_game_dev/" style="line-height:1em;">ゲーム開発者の地図 <BR><span style="font-size:0.6em">～20年の個人開発から学んだこと～</span><BR><span style="font-size:0.6em" class="game-title-mini">[ ゲーム開発ノウハウ本 ] 紹介へ</span></a>
+    </div>
+    <div class="game-description-red" style="font-size:11px;">
+　個人ゲーム開発者SmokingWOLF（スモーキングウルフ）が、20年に渡る個人開発の経験から学んだ「ゲームを開発する際の意図」や「考え方」、「効果的だと考えている手段」の数々について記した一冊！<BR>
+　初～中級レベルの人にとっては失敗を回避するための情報があり、上級者の方には復習になるかも？　というレベルの内容です！<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2017/10/26発売]</B> Amazon Kindle作品
+
+<BR><B><a href="https://www.amazon.co.jp/gp/product/B076VM4ZMS/" target="_blank" class="dl2" style="font-size:11px;">【Amazon販売ページ(￥1,080)】</a></B>
+</div>
+
+    </div>
+  </div>
+  
+  
+  <div class="game-card">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/oneway_heroic_making_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_heroic_making_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_heroic_making_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/oneway_heroic_making_sc04.jpg" alt="SS4">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title-red">
+      <a href="./ebook_one_way_heroics_making/" style="line-height:1em;">片道勇者 開発記<BR><span style="font-size:0.8em">～四年の<ruby>旅<rt>たび</rt></ruby><ruby>路<rt>じ</rt></ruby>～</span><BR><span style="font-size:0.6em" class="game-title-mini">[ 片道勇者に関わる記録集 ] 紹介へ</span></a>
+    </div>
+    <div class="game-description-red" style="font-size:11px;">　『片道勇者』『片道勇者プラス』開発の裏側や、ボツになった構想、コンシューマリメイク作である『不思議のクロニクル　振リ返リマセン勝ツマデハ（フリカツ）』の誕生秘話が記されています。<BR>
+　おまけとして、劇中の仲間の一人、フリーダ王女とその友の少女のサイドストーリーも掲載！
+　<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2016/4/30発売]</B> Amazon Kindle作品
+
+<BR><B><a href="https://www.amazon.co.jp/gp/product/B01FDKCKJU/" target="_blank" class="dl2">【Amazon販売ページ(￥500)】</a></B></div>
+    </div>
+  </div>
+  
+
+  
+
+
+</div>
+
+
+
+
+
+
+
+
+<a id="mini"></a>
+<h1>　ミニ作品 (公開終了含む)　- Mini Games -</h1>
+
+<span class="backlight">SmokingWOLFが開発した小さなゲームや、Windows以外の作品です。公開終了作品も含みます。<BR><BR>
+　←↑ New　　↓→ Old<BR>
+　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。<BR>
+　　「直接ダウンロード」の作品はすべてWindows用ゲームです。<BR>　</span>
+</span>　
+<div class="container">
+
+  
+  <div class="game-card2">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/cliff_abyss_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_abyss_sc02.gif" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_abyss_sc03.gif" alt="SS2">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="etc_games/Cliff_Abyss.html" style="line-height:1em;">クリフ深淵録 <BR><span style="font-size:0.6em" class="game-title-mini">携帯アプリ[公開終了] / 紹介へ</span></a>
+    </div>
+    <div class="game-description" style="font-size:11px;">
+『クリフ迷宮録』原作のファンタジーノベルゲーム！<BR>
+　神のあり方に疑問を抱く神官騎士クリフが無実の罪を着せられ、『願いを叶える秘宝』があるという無人島に追放されてしまう。ところが、助けた奴隷の少女が密航して島までついてきていて……！？<BR>
+　全4話、公開終了。<BR>
+<div align="center" style="font-size:8px;margin-top:4px;"><B>[2010/9開発～2012/6連載]</B><BR>docomo FOMAアプリ<BR>プレイ時間：<B>1話30分×4話</B></div>
+    </div>
+  </div>
+  
+  
+  <div class="game-card2">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/shephard_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/shephard_sc02.jpg" alt="SS2">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title">
+      <a href="etc_games/shephard.html" style="line-height:1em;font-size:0.9em;">シェパード捜査録<BR><span style="font-size:0.65em" class="game-title-mini">携帯アプリ[公開終了] / 紹介へ</span></a>
+    </div>
+    <div class="game-description">　動物顔の人々が暮らす近代的な街ピースタウンを舞台に、犬顔の刑事シェパードとワニ顔のドン・ゲーターが繰り広げるアクションコメディーノベル！<BR>
+　全2話、公開終了。<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2007/3～開発 2007/4/10～5/15公開]</B> docomo FOMAアプリ<BR>プレイ時間：<B>1話30分×2話</B></div>
+    </div>
+  </div>
+
+
+  <div class="game-card2">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/cliff_dungeon_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc04.jpg" alt="SS4">
+      <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc05.jpg" alt="SS5">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title" style="padding:5px 0 5px 0";>
+      <div class="game-title-mini" style="line-height:1em;font-size:15px;">クリフ迷宮録<BR><span style="font-size:0.7em;line-height:0.5em;">[ウディタのデモRPG]<small> ページなし</small></span></div>
+    </div>
+    <div class="game-description">
+　WOLF RPGエディター(ウディタ)、アルファ版のデモ用RPG。神官騎士クリフが無人島の迷宮を少しだけ探索できるゲーム。<BR>　戦闘は『シルフェイド見聞録』方式です（戦闘の説明はほぼありませんので注意！）<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[2007/2/4公開]</B><BR>WOLF RPGエディターα作品<BR>プレイ時間：<B>15分ほど</B>
+
+<BR><B><a href="etc_games/Cliff_Meikyu_20250629.zip" class="dl" style="font-size:11px;">【直接ダウンロード(5MB)】</a></B>
+</div>
+    </div>
+  </div>
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-mini_game-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+  <div class="game-card2">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/legend_of_restor2_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor2_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor2_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor2_sc04.jpg" alt="SS4">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title" style="padding:5px 0 5px 0";>
+      <div class="game-title-mini" style="line-height:1em;font-size:15px;">レジェンドオブ<BR>レストール2<BR><span style="font-size:0.7em;line-height:0.5em;">[コマンド選択ADV]<small> ページなし</small></span></div>
+    </div>
+    <div class="game-description">
+　レジェンドオブレストールの続編コメディアドベンチャー！<BR>
+　前作同様レストールがハチャメチャな状況に巻き込まれるのは変わらず！<BR>
+　相手が強くなっていく戦闘システムなどにも挑戦しています。<BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[1999/2/10公開]</B><BR>ｼﾐｭﾚｰｼｮﾝRPGﾂｸｰﾙ95<BR>プレイ時間：<B>20～30分</B>
+<BR><B><a href="etc_games/Legend_of_Restore2_1.00.zip" class="dl" style="font-size:11px;">【直接ダウンロード(1MB)】</a></B>
+</div>
+
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="game-card2">
+    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+      <img loading="lazy" class="screenshot active" src="top_image/legend_of_restor1_sc01.jpg" alt="SS1">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor1_sc02.jpg" alt="SS2">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor1_sc03.jpg" alt="SS3">
+      <img loading="lazy" class="screenshot" src="top_image/legend_of_restor1_sc04.jpg" alt="SS4">
+      <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
+      <div class="screenshot-indicator"></div>
+    </div>
+    <div class="game-title" style="padding:5px 0 5px 0";>
+      <div class="game-title-mini" style="line-height:1em;font-size:15px;">レジェンドオブ<BR>レストール<BR><span style="font-size:0.7em;line-height:0.5em;">[コマンド選択ADV]<small> ページなし</small></span></div>
+    </div>
+    <div class="game-description">
+　SmokingWOLFの処女作。<BR>
+　やたら濃いシミュレーションRPGツクールのサンプル顔グラフィックで繰り広げられるコメディでカオスなストーリーのコマンド選択式ADV！<BR>
+<small>　※非常に荒々しい発言や暴力的ツッコミのシーンが含まれますのでご注意ください。</small><BR>
+<div align="center" style="font-size:9px;margin-top:4px;"><B>[1998/10～ 開発<BR>1998/12 サイト設立時掲載]</B><BR>
+ｼﾐｭﾚｰｼｮﾝRPGﾂｸｰﾙ95作品<BR>プレイ時間：<B>20～30分</B>
+
+<BR><B><a href="etc_games/Legend_of_Restore_1.03.zip" class="dl" style="font-size:11px;">【直接ダウンロード(1MB)】</a></B>
+  </div>
+ </div>
+    
+</div>
+
+
+
+
+</div></div></div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<a id="illust"></a>
+<h1>　イラスト　- Illustrations -</h1>
+<span class="backlight">
+<span style="color:#55a;">　SmokingWOLFが描いた落書きや記念イラストです。<BR>
+　まとめページ内には、二次創作用に用意されたキャラクターのイラスト資料集もあります。
+</span><BR><BR>
+　←↑ New　　↓→ Old　　<span style="color:#aaf;">イラストクリックで拡大します。</span><BR>
+　
+</span>
+<div class="container">
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2025年 年賀絵</B><BR>2025/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2025_01.jpg" rel="lightbox[A]" title="2025年は巳(ヘビ)年！　白蛇と着物っぽい女の子">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2025_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">26周年記念！</B><BR>2024/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2024_12.jpg" rel="lightbox[A]" title="26周年イラスト！　ウディタ3.5を公開したのでサンタ風ウルファールと夕一(後ろ)！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2024_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2024年 年賀絵</B><BR>2024/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2024_01.jpg" rel="lightbox[A]" title="2024年お正月！　辰(たつ)年なので和風スケイル！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2024_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">25周年記念！</B><BR>2023/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2023_12.jpg" rel="lightbox[A]" title="25周年イラスト！　シルフェイドシリーズよりウリユ＆エシュター・アルバート・グラップラーナナシ・ウルファール・ネムリ・ラッシー">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2023_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2023年 年賀絵</B><BR>2023/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2023_01.jpg" rel="lightbox[A]" title="2023年お正月！　ウサギっ子！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2023_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">24周年記念！</B><BR>2022/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2022_12.jpg" rel="lightbox[A]" title="24周年！　ウディタVer3がでたのでウルファール＆右下に旅団世界TRPGリプレイより天使っ子＆パピオリア！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2022_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2022年 年賀絵</B><BR>2022/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2022_01.jpg" rel="lightbox[A]" title="2022年お正月！　トラ！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2022_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">23周年記念！</B><BR>2021/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2021_12.jpg" rel="lightbox[A]" title="23周年！　シルフェイド幻想譚よりスケイル＆旅団世界のクバ！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2021_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2021年 年賀絵</B><BR>2021/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2021_01.jpg" rel="lightbox[A]" title="2021年お正月！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2021_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">22周年記念！</B><BR>2020/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2020_12.jpg" rel="lightbox[A]" title="22周年！　旅団世界TRPGリプレイよりリゼット＆ブリンク！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2020_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">21周年記念！</B><BR>2019/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2019_12.jpg" rel="lightbox[A]" title="21周年！　片道勇者ノベライズよりフリーダとネムリ！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2019_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">20周年記念！</B><BR>2018/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2018_12.jpg" rel="lightbox[A]" title="20周年！　過去のキャラクターたち！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2018_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+
+
+<div style="display:flex;
+  position: relative;
+  align-items: center;  /* ← 縦方向中央 */
+  justify-content: center;  /* ← 横方向中央 */
+  flex-shrink: 0;
+  align-self: flex-start;
+  height:80px;
+  margin-top:5px;
+  padding:5px;
+  color:#fff;
+  background-color:#bbd;
+  border-radius:24px 8px 8px 24px;">
+<B>まとめ<BR>
+ページ<BR>
+集→
+</B>
+</div>
+
+<div class="content-card2">
+<a href="etc_data/chara_reference.html" target="_blank">
+ <div class="name-overlay"><B>キャライラスト資料集<BR>(全作品/二次創作用)</B></div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/reference/reference.jpg">
+</div>
+<div class="content-description"></div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="illust_image/illust_junk3.htm" target="_blank">
+ <div class="name-overlay"><B>落書きｲﾗｽﾄ集3(50枚)</B><BR>2013～2016年分</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="illust_image/junk3/illust_junk3.jpg">
+</div>
+<div class="content-description"></div>
+</a>
+</div>
+
+<div class="content-card2">
+<a href="illust_image/illust_junk2.htm" target="_blank">
+ <div class="name-overlay"><B>落書きｲﾗｽﾄ集2(32枚)</B><BR>2009～2013年分</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="illust_image/junk2/illust_junk2.jpg">
+</div>
+<div class="content-description"></div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="illust_image/illust_junk.htm" target="_blank">
+ <div class="name-overlay"><B>落書きｲﾗｽﾄ集1(46枚)</B><BR>2003～2009年分</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="illust_image/junk1/illust_junk1.jpg">
+</div>
+<div class="content-description"></div>
+</a>
+</div>
+
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-illust-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">浴衣シーナ</B><BR>2018/07/10</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2018_08.jpg" rel="lightbox[A]" title="浴衣シーナ">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2018_08mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">ウディタ10周年！</B><BR>2018/03/15</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2018_03.jpg" rel="lightbox[A]" title="WOLF RPGエディター10周年！ ウディタのマスコットキャラ、ウルファール">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2018_03mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">19周年記念！</B><BR>2017/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2017_12.jpg" rel="lightbox[A]" title="19周年！ 『片道勇者TRPG（アペンド）』よりネムリと開発日誌のマスコットキャラ、ラッシー">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2017_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">18周年記念！</B><BR>2016/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2016_12.jpg" rel="lightbox[A]" title="18周年！ 『片道勇者TRPG（プラス）』よりアルバートとフリーダ王女">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2016_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">片道勇者ｵﾝﾗｲﾝ</B><BR>2016/06/13</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2016_06.jpg" rel="lightbox[A]" title="片道勇者オンライン用の種族紹介イラスト">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2016_06mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">17周年記念！</B><BR>2015/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2015_12.jpg" rel="lightbox[A]" title="17周年！ 『プラネットハウル』よりスノウとウォー、『不思議のクロニクル 振リ返リマセン勝ツマデハ』からメモリアとネムリ">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2015_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">片道勇者+ 1周年</B><BR>2015/10/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2015_10.jpg" rel="lightbox[A]" title="片道勇者プラス1周年">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2015_10mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2015年 年賀状</B><BR>2015/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2015_01.jpg" rel="lightbox[A]" title="2015年の年賀状">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2015_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">16周年記念！</B><BR>2014/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2014_12.jpg" rel="lightbox[A]" title="16周年！ 片道勇者プラスよりネムリほか">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2014_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">15周年記念！</B><BR>2013/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2013_12.jpg" rel="lightbox[A]" title="15周年！ 片道勇者よりフリーダ王女ほか">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2013_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2000万ﾋｯﾄ記念</B><BR>2012/11/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2012_11.jpg" rel="lightbox[A]" title="片道勇者よりイーリス">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2012_11mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2012年　年賀状</B><BR>2012/01/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2012_01.jpg" rel="lightbox[A]" title="2012年の年賀状、辰！">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2012_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">シル学ｱﾝｹｰﾄ画像</B><BR>2011/09/13</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2011_09.jpg" rel="lightbox[A]" title="人間化アウルとプチフェザー">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2011_09mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">キツネ耳和風</B><BR>2011/08/02</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2011_08.jpg" rel="lightbox[A]" title="本当に何も考えずに描いてしまった一枚、キツネ耳">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2011_08mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">エイプリル画像</B><BR>2011/04/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2011_04.jpg" rel="lightbox[A]" title="日本全国でがんばっておられる若い方、大人の方、全ての方への応援の気持ちを込めて">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2011_04mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">12周年記念画像</B><BR>2010/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2010_12.jpg" rel="lightbox[A]" title="2010年はシルフドラグーンゼロ公開に公式ウディコン、モバイルデビューの年でした">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2010_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">11周年記念画像</B><BR>2009/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2009_12.jpg" rel="lightbox[A]" title="2009年は公式ウディコンなど、WOLF RPGエディター活躍の年でした">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2009_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">10周年記念画像</B><BR>2008/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2008_12.jpg" rel="lightbox[A]" title="サンタ風モノリスさん＆ウルファール、結構お気に入りな一枚">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2008_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">ﾓﾉﾘｽﾌｨｱ ｱﾝｹｰﾄ画像 2008/08/16</B><BR></div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2008_08.jpg" rel="lightbox[A]" title="らぶらぶプチさん×アクさん">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2008_08mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">2008年賀正+9周年 2008/01/01</B><BR></div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2008_01.jpg" rel="lightbox[A]" title="2008年はネーズミー">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2008_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">天使とたんぱく源</B><BR>2007/06/08</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2007_06.jpg" rel="lightbox[A]" title="おいしそう">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2007_06mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">1000万Hit記念</B><BR>2007/02/14</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2007_02_10Mhit.jpg" rel="lightbox[A]" title="スケイル＋フェザー＋クロウの落書き">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2007_02_10Mhitmini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">7周年記念画像</B><BR>2005/12/24</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2005_12.jpg" rel="lightbox[A]" title="このサイトはクリスマスイヴ生まれです">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2005_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">ｼﾙ幻ｱﾝｹｰﾄ用</B><BR>2005/03/14</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2005_03.jpg" rel="lightbox[A]" title="スケさん">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2005_03mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">リクレール</B><BR>2004/12/27</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2004_12.jpg" rel="lightbox[A]" title="6周年記念">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2004_12mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">雪</B><BR>2004/07/18</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2004_07.jpg" rel="lightbox[A]" title="鶴の恩返しは、夫婦間の秘密を無理に知ろうとすると破局しますよという教訓が（略）">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2004_07mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">暑中お見舞い</B><BR>2003/07/31</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2003_07.jpg" rel="lightbox[A]" title="文字通り暑中お見舞い用">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2003_07mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">アンケート画像</B><BR>2003/05/09</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_silfade03.jpg" rel="lightbox[A]" title="アンケートのお礼用の絵です。右がシーナ、左が主人公">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_silfade03mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">あけました画像</B><BR>2003/01/08</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2003_01.jpg" rel="lightbox[A]" title="あけましておめでとう画像です">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2003_01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">ｼﾙﾌｪｲﾄﾞ探求紀行ｲﾒｰｼﾞ絵</B><BR>2002/06/16</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_silfade01.jpg" rel="lightbox[A]" title="だいぶ前に描いた妄想絵">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_silfade01mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">犬と婦女子</B><BR>2002/05/11</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_original02.jpg" rel="lightbox[A]" title="ワンコと女の子">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_original02mini.jpg">
+    </a>
+  </div>
+</div>
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">紅葉・落葉</B><BR>2001/10/08</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/illust_2001_10.jpg" rel="lightbox[A]" title="HDDの奥底に落ちてたので掲載！　当時は名前がありませんでしたが今は「ラッシー」という名でマスコットキャラとして採用されています">
+      <img loading="lazy" class="illust_image" src="illust_image/illust_2001_10mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+
+
+</div>
+
+ 
+<!-- ここまで昔のイラストとか文章 -->
+</div> 
+</div>
+
+
+
+<a id="text"></a>
+<h1>　テキスト作品　- Text -</h1>
+<span class="backlight">
+<span style="color:#55a;">　SmokingWOLFが作成したテキストコンテンツやゲームのアンケート結果です。</span><BR><BR>
+　←↑ New　　↓→ Old　
+　　<span style="color:#aaf;">項目をクリックするとテキストページに移動します。</span>
+</span>
+　　<BR>　
+
+
+<div class="container">
+
+
+<div class="content-card">
+<a href="event/2017_albert_katamichi_online/2017_albert_katamichi_online.html" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:13px;line-height:1.1em;">片道勇者オンライン<BR>『アルバート片道冒険記』</B><BR>2017/03/15</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2017_albert_katamichi_online/201703_albert_banner.jpg">
+</div>
+
+<div class="content-description" style="padding-top:35px;">
+　片道勇者の世界で繰り広げられる新たなアルバートの冒険！『片道勇者TRPG』の販促用Twitterゲームの、アルバート主観のプレイログ。</small>
+</div>
+</a>
+</div>
+
+
+
+
+
+<div class="content-card">
+<a href="etc_data/syldra_making.htm" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:14px;line-height:1.1em;">シルフドラグーンゼロ<BR>開発記</B><BR>2011/10/24</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/syldra_making.jpg">
+</div>
+
+<div class="content-description" style="padding-top:35px;">
+『シルフドラグーンゼロ』の開発記録！　意図したこと、悩んだこと、試行錯誤の連続がここにあります。
+</div>
+</a>
+</div>
+
+
+
+
+
+<div class="content-card">
+<a href="etc_data/silfade_gensou_secret.htm" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:14px;line-height:1.1em;">シルフェイド幻想譚<BR>シークレットファイル</B><BR>2008/05/05</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/silfade_gensou_secret.jpg">
+</div>
+
+<div class="content-description" style="padding-top:35px;">
+『シルフェイド幻想譚』の裏設定資料集！　作中で語られるレアな話や、語られなかった話、1ターンの時間やステータスの値の目安まで紹介！　
+</div>
+</a>
+</div>
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+
+
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-text-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+
+
+
+<div class="content-card">
+<a href="etc_data/monolith_analyze.htm" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:14px;line-height:1.1em;">モノリスフィア<BR>強さ分析記録</B><BR>2009/02/21</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/monolith_analyze.jpg">
+</div>
+
+<div class="content-description" style="padding-top:35px;">
+『モノリスフィア』の女神たちが戦ったらいったい誰が勝つのか！？　そんな質問が届いたのでお応えしていきます。
+</div>
+</a>
+</div>
+
+
+
+
+
+
+<div class="content-card">
+<a href="etc_data/silfade_data01.htm" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:14px;line-height:1.1em;">シルフェイド世界<BR>設定資料集</B><BR>2003/07/12</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/silfade_data01.jpg">
+</div>
+
+<div class="content-description" style="padding-top:35px;">
+『シルフェイド見聞録』シークエンス5時点の世界・キャラ設定資料集！　キャラ絵もあります。
+</div>
+</a>
+</div>
+
+
+<div class="content-card">
+<a href="etc_data/report_kensaku.htm" style="text-decoration:none;">
+<div class="name-overlay"><B style="font-size:14px;line-height:1.1em;">検索エンジン伝説</B><BR>2000/08/29</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="etc_data/report_kensaku.jpg">
+</div>
+
+<div class="content-description" style="padding-top:25px;">
+　2000年のネット普及早期に、検索エンジンGoogleで色んな言葉を検索してそのヒット数で遊んだ記録！　「パーーーーーーーーーーーーーーーーーーーーーーンチ！」
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="ank/silgaku_ank.htm" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>シルフェイド学院物語<BR>アンケート結果</B><BR>2011/09/13</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="ank/silgaku_ank.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+
+<div class="content-card2">
+   <a href="ank/monolith_ank.htm" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>モノリスフィア<BR>アンケート結果</B><BR>2008/08/15</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="ank/monolith_ank.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="ank/silnote_ank.htm" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>シルエットノート<BR>アンケート結果</B><BR>2006/1/9 +<BR>追加ｼﾅﾘｵ 2007/9/4</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="ank/silnote_ank.jpg">
+   </div>
+<div class="content-description" style=""><BR>
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="ank/gensou_ank.htm" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>ｼﾙﾌｪｲﾄﾞ幻想譚<BR>アンケート結果</B><BR>2005/05/03</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="ank/gensou_ank.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="ank/silken_ank.htm" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>ｼﾙﾌｪｲﾄﾞ見聞録<BR>アンケート結果<BR>(2,4,5話)</B><BR>2001/09/09～<BR>2003/05/16</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="ank/silken_ank.jpg">
+   </div>
+<div class="content-description" style="">　
+</div>
+</a>
+</div>
+
+
+
+
+  
+
+
+</div>
+
+<!-- ここまで昔のイラストとか文章 -->
+</div> 
+</div>
+
+
+
+<a id="movie"></a>
+<h1>　動画作品　- Movies -</h1>
+<span class="backlight">　SmokingWOLFが作成した動画作品です。<BR><BR>
+　←↑ New　　↓→ Old　　<span style="color:#aaf;">項目をクリックで、新たに動画ページを開きます。<BR>　
+　Youtube版とニコニコ動画版は同じ内容です、お好きな方をご覧ください。</span>
+</span>
+<BR>　
+
+
+<div class="container">
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/@SilSecCh/featured" class="content-sub" style="font-size:11px;color:#f00;">[Youtube]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">Youtube<BR>チャンネル</B><BR>(常に更新)</div>
+  <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f00;">
+    <a href="https://www.youtube.com/@SilSecCh/featured">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_youtube.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.nicovideo.jp/user/82686/video" class="content-sub" style="font-size:11px;color:#c84;" target="_blank">[ニコニコ動画]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">ニコニコ動画<BR>全作品</B><BR>(常に更新)</div>
+  <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
+    <a href="https://www.nicovideo.jp/user/82686/video" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_niconico.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/playlist?list=PLZdkTZhyqNddwBf0DUAhfMy35nmNRWg--" class="content-sub" style="font-size:11px;color:#f00;" target="_blank">[Youtube]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">片道勇者ノベライズ 裏資料<BR>(全8話ﾘｽﾄへ)</B><BR>2020/09/25</div>
+  <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f00;">
+    <a href="https://www.youtube.com/playlist?list=PLZdkTZhyqNddwBf0DUAhfMy35nmNRWg--" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.nicovideo.jp/user/82686/mylist/68392787" class="content-sub" style="font-size:11px;color:#c84;" target="_blank">[ニコニコ動画]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">片道勇者ノベライズ 裏資料<BR>(全8話ﾘｽﾄへ)</B><BR>2020/09/25</div>
+  <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
+    <a href="https://www.nicovideo.jp/user/82686/mylist/68392787" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/watch?v=RFYK-im1Pcs" class="content-sub" style="font-size:11px;color:#f00;" target="_blank">[Youtube]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">開発者が遊ぶ<BR>Switch版<BR>片道勇者プラス<BR>(全2回)</B><BR>2020/07/03</div>
+  <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
+    <a href="https://www.youtube.com/watch?v=RFYK-im1Pcs" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.nicovideo.jp/watch/sm37124790" class="content-sub" style="font-size:11px;color:#c84;" target="_blank">[ニコニコ動画]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">開発者が遊ぶ<BR>Switch版<BR>片道勇者プラス<BR>(全2回)</B><BR>2020/07/03</div>
+  <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
+    <a href="https://www.nicovideo.jp/watch/sm37124790" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/watch?v=hPU82rk68FI" class="content-sub" style="font-size:11px;color:#f00;" target="_blank">[Youtube]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">原作者が遊ぶ<BR>『振リ返リマセン勝ツマデハ』<BR>(全3回)</B><BR>2015/07/26</div>
+  <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
+    <a href="https://www.youtube.com/watch?v=hPU82rk68FI" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.nicovideo.jp/watch/sm26794526" class="content-sub" style="font-size:11px;color:#c84;" target="_blank">[ニコニコ動画]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">原作者が遊ぶ<BR>『振リ返リマセン勝ツマデハ』<BR>(全3回)</B><BR>2015/07/26</div>
+  <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
+    <a href="https://www.nicovideo.jp/watch/sm26794526" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/watch?v=lOQ-b0xtnYI" class="content-sub" style="font-size:11px;color:#f00;" target="_blank">[Youtube]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">隠しボス攻略動画 『モノリス様ブチ切れ物語』</B><BR>2009/05/14</div>
+  <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
+    <a href="https://www.youtube.com/watch?v=lOQ-b0xtnYI" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="illust-card">
+  <div align="center"><a href="http://www.nicovideo.jp/watch/sm6921898" class="content-sub" style="font-size:11px;color:#c84;" target="_blank">[ニコニコ動画]</a></div>
+  <div class="name-overlay">
+  <B style="display: block; margin-bottom:-8px;">隠しボス攻略動画 『モノリス様ブチ切れ物語』</B><BR>2009/05/14</div>
+  <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
+    <a href="http://www.nicovideo.jp/watch/sm6921898" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+
+
+
+</div>
+
+
+<a id="april"></a>
+<h1>　エイプリルフール集　- April fool -</h1>
+<span class="backlight">
+　これまでに行った4/1のエイプリルイベントページ集！　でも半分くらいは本当ネタです。<BR><BR>
+　←↑ New　　↓→ Old　　<span style="color:#aaf;">項目クリックで企画ページに移動します。</span>
+</span>
+<BR>　
+　
+<div class="container">
+
+
+
+<div class="content-card2">
+<a href="event/2023_april/2023_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>コミック<BR>『うでぃこんっ！』</B><BR>2023/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2023_april/2023_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　女子校生2人がウディコンへの参加を目指すコミック『うでぃこんっ！　君と私のゲーム開発ライフ』のウソ紹介動画！
+</div>
+</a>
+</div>
+
+<div class="content-card2">
+<a href="event/2022_april/2022_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>強制横ｽｸﾛｰﾙ系<BR>Vtuberｽﾓｰｷﾝｸﾞｳﾙﾌ<BR>爆誕！</B> 2022/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2022_april/2022_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　まさかのスモーキングウルフが強制横スクロールVtuberに！？　という一発ネタ！　動画があります！
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="event/2021_april/2021_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>旅団世界TRPG<BR>リプレイ2巻！</B><BR>2021/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2021_april/2021_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　ウソじゃない『旅団世界TRPGリプレイ』2巻の発売告知！　『片道勇者TRPG』世界の後で展開される物語！
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="event/2020_april/2020_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>旅団世界TRPG<BR>リプレイ開始！</B><BR>2020/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2020_april/2020_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　今回もウソじゃないエイプリル！　『旅団世界TRPGリプレイ』シリーズを今年から刊行！(Kindleで販売中です)
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+<a href="event/2017_april/2017_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>エイプリルヒストリー！ (まとめ)</B><BR>2017/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2017_april/2017_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　2007年～2017年までのエイプリルフール企画をまとめて振り返り！　全体をあっさり確認したい人におすすめ！
+</div>
+</a>
+</div>
+
+
+
+
+<div class="content-card2">
+<a href="event/2016_april/2016_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>冒険企画局さまより<BR>『片道勇者TRPG』<BR>発売！</B><BR>2016/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2016_april/2016_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:37px;">　なんと『片道勇者』が冒険企画局さまの手でまさかの市販TRPGとして発売されます！　ウソじゃないエイプリル！
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+<a href="event/2015_april/2015_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>片道勇者ついに<BR>コンシューマ進出！</B><BR>2015/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2015_april/2015_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　なんとスパイク・チュンソフトさんから家庭用ゲーム機に『片道勇者』原案の『不思議のクロニクル 振リ返リマセン勝ツマデハ』が発売！　ウソじゃないエイプリル！　
+</div>
+</a>
+</div>
+
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-april-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+<div class="content-card2">
+<a href="event/2014_april/2014_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>TRPGファンの<BR>スペシャルサイト！</B><BR>2014/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2014_april/2014_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　今回は忍者の就職活動編リプレイ！　片道勇者TRPGのみんなが1日だけツイッターでつぶやく企画も！
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="./trpg/katamichi_trpg/Replay00.shtml" style="text-decoration:none;">
+ <div class="name-overlay"><B>(自家製)片道勇者<BR>TRPGリプレイ！</B><BR>2013/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2013_april/2013_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　自前で作った片道勇者のTRPGのプレイログ！　『闇』を復活させられてしまったロイスたちの運命は…！？
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="event/2012_april/2012_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>同人誌<BR>『シルモノ夢奇行』</B><BR>2012/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2012_april/2012_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　シルフェイド、モノリスフィアの同人誌発売！　というネタ！　3ページくらい見本もあります！
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="event/2010_april/2010_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>WOLF RPG<BR>エディターDS発売！</B><BR>2010/04/01</div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2010_april/2010_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　DS用ソフト、ウディタDS発売！　というエイプリル企画！
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+<a href="event/2007_april/2007_april.html" style="text-decoration:none;">
+ <div class="name-overlay"><B>じょっぱれ！<BR>シルフェイド学院物語</B><BR>2007/04/01</B></div>
+<div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+  <img loading="lazy" class="content-screenshot" src="event/2007_april/2007_april.jpg">
+</div>
+<div class="content-description" style="font-size:10px;padding-top:29px;">　まだ開発予定がなかった頃の『シルフェイド学院物語』エイプリル企画！
+</div>
+</a>
+</div>
+
+
+
+
+<!--●折りたたみここまで●-->
+</div>
+
+ </div>
+</div>
+
+
+
+
+
+<a id="trpg"></a>
+<h1>　TRPG＆リプレイ集  - TRPG & Replay -</h1>
+
+<span class="backlight">
+　SmokingWOLFがゲームマスターをしたTRPGリプレイ集やルールページです。赤項目はKindle書籍です。<BR>
+<BR>
+　←↑ New(代表作優先)　　↓→ Old　　<span style="color:#aaf;">クリックで各ページに移動。<BR>
+</span>
+<BR>　</span>
+
+<div class="container">
+
+
+<div class="content-card-red" style="width:130px;">
+   <a href="https://www.amazon.co.jp/dp/B0977PKMPW" target="_blank" style="text-decoration:none;">
+   <div class="screenshot-wrapper" onclick="advancecontent-screenshot(this)" style="height:130px;">
+      <img loading="lazy" class="screenshot active" src="etc_data/ryodan_replay_sc01.jpg" alt="SS1" style="height:130px;">
+      <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc02.jpg" alt="SS2"style="height:130px;">
+      <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc03.jpg" alt="SS3"style="height:130px;">
+      <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc04.jpg" alt="SS4"style="height:130px;">
+      <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc05.jpg" alt="SS5"style="height:130px;">
+      <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc06.jpg" alt="SS6"style="height:130px;">
+
+   </div>
+<div class="content-description2" style="font-size:10px; padding-top:43px;">
+　生の人間たちがお送りする、ボリュームたっぷりのKindle本TRPGリプレイ物語！<BR>
+　少しダークで後味すっきりなスモーキングウルフ味たっぷりのシナリオが展開されます。薬師ネムリやアルバートなども登場！
+
+</div>
+   <div class="name-overlay" style="top:115px;"><B>[Amazonへ]<BR>旅団世界TRPG<BR>Kindleリプレイ集<BR>(全3巻 / 各￥924)</B><BR>2020/04/01～</div>
+</a>
+</div>
+
+
+
+
+<div class="content-card2">
+   <a href="./trpg/ryodan_sekai_trpg/replay01.html" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>旅団世界TRPG<BR>リプレイ1話</B><BR>2020/04/01</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="etc_data/ryodan_replay1.jpg">
+   </div>
+<div class="content-description" style="font-size:10px; padding-top:20px;">
+　旅団世界TRPGのルール説明のためのお話であり、Kindleリプレイ書籍の第1話でもあるリプレイ！<BR>　ただのあいさつと模擬試合をするだけと思いきや、なんとそこでサイコロのせいで大事件が起きてしまい……！？
+</div>
+</a>
+</div>
+
+<div class="content-card2">
+   <a href="./trpg/katamichi_trpg2/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>片道勇者TRPGﾘﾌﾟﾚｲ<BR>『灰の少女とヨルムンガンド』(全10話)</B><BR>2016/09/30～2017/02/10</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="etc_data/owh_trpg_replay2.jpg">
+   </div>
+<div class="content-description" style="font-size:10px; padding-top:40px;">
+　冒険企画局版『片道勇者TRPG』によるTRPGリプレイ物語！<BR>　普通に魔王を倒す冒険をこなしたかと思いきや、次に目覚めた場所はあまりに過酷すぎる場所だった。<BR>　謎の世界に落とされた4人の勇者たちが見るものとは、そして半獣人の少女シースの運命は……！？
+</div>
+</a>
+</div>
+
+
+
+
+<div class="content-card2">
+   <a href="./trpg/katamichi_trpg/Replay00.shtml" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>&lt;自家製&gt;片道勇者TRPGリプレイ<BR>(全15話)</B><BR>2013/04/01～12/21</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="etc_data/owh_trpg_replay1.jpg">
+   </div>
+<div class="content-description" style="font-size:10px; padding-top:40px;">
+　エイプリルフール企画で作られた『＜自家製＞片道勇者TRPG』によるTRPGリプレイ物語！<BR>　『闇』を解放してしまった彼らは、果てなく広がる『闇』から逃げながら旅を続けることに！　笑いあり、過酷な運命ありのストーリー！　ただし終わりは打ち切り風です。
+</div>
+</a>
+</div>
+
+
+
+
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-trpg-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+
+
+
+<div>
+<div class="illust-card">
+  <div align="center"><a href="https://www.youtube.com/watch?v=vHI5hz1L15s" class="content-sub" style="font-size:11px;color:#f00;" target="_blank">[Youtube]</a></div>
+  <div class="name-overlay" style="display: block; margin-top:-10px;">
+  <B>旅団世界ﾘﾌﾟﾚｲ 『見習いたちの旅団講習』</B><BR>(動画/全2回)<BR>2022/08/20～</div>
+  <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f85;">
+    <a href="https://www.youtube.com/watch?v=vHI5hz1L15s" target="_blank">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009_trpg.jpg" target="_blank">
+    </a>
+  </div>
+</div>
+<div class="content-description" style="font-size:10px;width:82px;padding:4px; padding-top:8px; border-radius:5px;">
+↑ 動画でお送りする、見習い旅団員たちのリプレイ物語！<BR>
+　ライセンス取得のための講習のはずが、人に入れ替わる魔物に潜入され……！？　果たして彼らは生き残ることができるのか！？
+</div>
+</div>
+
+
+<div class="content-card2">
+   <a href="./trpg/ryodan_sekai_trpg/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>旅団世界TRPG<BR>基本ルール</B><BR>2020/04/01</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="etc_data/ryodan_rule.jpg">
+   </div>
+<div class="content-description" style="font-size:10px; padding-top:20px;">
+　旅団世界TRPGのルール説明ページ！　このTRPGルールは無料で公開されています。<BR>　データの書き換えが少なく済み、参加頻度がまちまちでもなるべく他の人と差が付きにくくなるルールを意識して作られています。
+</div>
+</a>
+</div>
+
+
+
+</div></div></div>
+
+
+</div>
+
+
+
+<a id="gift"></a>
+<h1>　いただきものイラスト集  - Gift Illustrations -</h1>
+<span class="backlight">
+　みなさまからお絵かき掲示板などでいただいた素晴らしいイラストです。<BR>
+　素敵なイラストの数々、本当にありがとうございます！<BR>
+　<BR>
+　←↑ New　　↓→ Old　　<span style="color:#aaf;">項目クリックで各イラストページに移動します。</span>
+</span>
+<BR>
+　
+<div class="container">
+
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2019_05/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2011/11～2019/05</B><BR>お絵かき掲示板集 [18]<BR>(99枚/最終回)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2019_05/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2010_11/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2009/09～2010/10</B><BR>お絵かき掲示板集 [17]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2010_11/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2009_08/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2009/04～2009/08</B><BR>お絵かき掲示板集 [16]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2009_08/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2009_02/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2008/07～2009/03</B><BR>お絵かき掲示板集 [15]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2009_02/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2008_06/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2008/01～2008/06</B><BR>お絵かき掲示板集 [14]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2008_06/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/kikaku_gallery200709_11/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2007/09/01</B><BR>人気ｷｬﾗお絵かき企画<BR>(約60枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/kikaku_gallery200709_11/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2007_12/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2007/08～2007/12</B><BR>お絵かき掲示板集 [13]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2007_12/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2007_08/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2007/06～2007/08</B><BR>お絵かき掲示板集 [12]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2007_08/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div style="flex-basis: 100%;height:0;"></div>  <!-- これが改行 -->
+<!-- data-strage-keyをユニークな名前に設定すること-->
+<div class="content-group" data-storage-key="older-gift_illust-1">
+  <a href="#" class="toggle-more">▼ 他のも見る ▼</a>
+  <div class="more-content" nowrap>
+    <!-- ここに昔のイラストとか文章とか -->
+
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2007_05/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2007/03～2007/05</B><BR>お絵かき掲示板集 [11]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2007_05/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2007_02/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2006/12～2007/02</B><BR>お絵かき掲示板集 [10]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2007_02/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2006_11/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2006/08～2006/11</B><BR>お絵かき掲示板集 [9]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2006_11/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2006_07/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2006/04～2006/07</B><BR>お絵かき掲示板集 [8]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2006_07/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2006_03/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2006/01～2006/03</B><BR>お絵かき掲示板集 [7]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2006_03/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2005_12/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2005/10～2005/12</B><BR>お絵かき掲示板集 [6]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2005_12/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2005_09/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2005/08～2005/09</B><BR>お絵かき掲示板集 [5]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2005_09/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2005_07/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2005/04～2005/07</B><BR>お絵かき掲示板集 [4]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2005_07/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2004_01_08/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2004/09～2005/03</B><BR>お絵かき掲示板集 [3]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2004_01_08/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2005_03/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2004/01～2004/08</B><BR>お絵かき掲示板集 [2]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2005_03/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+<div class="content-card2">
+   <a href="gift_illust/illust_gallery2003/" style="text-decoration:none;">
+   <div class="name-overlay" style="top:60px;"><B>2003/01～2003/12</B><BR>お絵かき掲示板集 [1]<BR>(100枚)</div>
+   <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
+   <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2003/thumb.jpg">
+   </div>
+<div class="content-description" style="">
+</div>
+</a>
+</div>
+
+
+
+
+
+
+<div class="illust-card">
+  <div class="name-overlay"><B style="display: block; margin-bottom:-8px;">ﾂｸｰﾙｶﾚﾝﾀﾞｰｲﾗｽﾄ<BR>(氷野さま)</B><BR>2007/05/01</div>
+  <div class="illust-wrapper">
+    <a href="illust_image/hino_illust_2007_03.jpg" rel="lightbox[gift]" title="氷野 様に描いていただいた、ツクールスクールカレンダー合同企画用のシルフェイド幻想譚イラスト（１月用カレンダー画像）です。かわいいイラスト誠にありがとうございました！　困った顔のシズナが好きです">
+      <img loading="lazy" class="illust_image" src="illust_image/hino_illust_2007_03mini.jpg">
+    </a>
+  </div>
+</div>
+
+
+</div></div>
+
+</div>
+
+
+
+<a id="final"></a>
+<h1>　最後に  　- Afterword -</h1>
+<div class="header3" style="margin-top:6px;text-shadow:0 0 5px #fff,0 0 5px #fff,0 0 5px #fff;,0 0 9px #fff;">
+　西暦1998年12月24日に、まだ少年だった私は、初めて自分のサイトを設立しました。<BR>
+　インターネットの世界にこぎ出したその日、私は『SmokingWOLF（スモーキングウルフ）』というハンドルネームを名乗ることにしました。<BR>
+　由来は、煙で情報を遠くに伝える「狼煙（のろし）」を逆さにして「煙・狼」にし、それを英語にしたもの。<BR>
+　単純な語呂合わせのようでいて、今思えば、インターネットの世界で何かを伝えたいという気持ちがすでに心の奥底にあったのかもしれません。<BR>
+<BR>
+　サイト名は最初、「Willfull SmokingWOLF's Room（気ままなスモーキングウルフのお部屋）」という名前でしたが、数年後に「Silver Second（シルバーセカンド）」という名前に改名しました。<BR>
+　それは「銀メダルの二等賞」──すなわち「シルバーのセカンド」を目指すという意味で、この名前を選びました。<BR>
+　その当時から、一番を目指す必要はないと思っていました。<BR>
+　インターネットで数年過ごした中で、この広すぎる世界で一番になるのは現実的ではないと理解し、それでも二番手を目指す心意気を持って、全てのすばらしい人々から学び、糧にしていきたいという意志と願いが込められています。<BR>
+　そしてまた、自分が一番だと思い込むことは危険をまねくぞ、という自戒も込められていたのでしょう。<BR>
+　<BR>
+　当時はまだインターネットの<ruby>黎明<rt>れいめい</rt></ruby>期でしたが、これらの命名には、これから飛び込む広い世界への夢と願いが込められていたように思います。<BR>
+　私のハンドルネームとサイトの名前は、20年以上たった今でも、とてもしっくり来る名前だと思っています。<BR>
+　<BR>
+　<BR>
+　インターネットの世界への夢と憧れを持ち続けながら、私はずっとここで生きてきました。<BR>
+　<BR>
+　私は少年時代から体が弱くて、遠くに行ったり、力強さで誰かの役に立ったり、色々なところへ行って多くの人と出会うことはできませんでした。<BR>
+　けれど、このインターネットの世界では、どこにでも行けて、たくさんの人と出会えて、自分の『考える力』や『夢想する力』さえも誰かの役に立てることができました。<BR>
+　この世界では、心の中で描く世界や夢を、無限に広げることができました。<BR>
+　作ったゲームは、本当に、たくさんの人に遊んでもらえました。<BR>
+　それまでずっと、自分の気持ちや伝えたいことを押し殺しながら生きてきた私ですが、<BR>
+　自分の意志だけで始めたゲーム開発は、生まれて初めて、自分に存在価値があると感じさせてくれました。<BR>
+　<BR>
+　最初には考えられなかったほどの数々の試練にも出会いましたが、<BR>
+　「今日も少しだけ誰かの役に立てたかもしれない」<BR>
+　「誰かに喜んでもらえるものを作れたかもしれない」<BR>
+　そう思える瞬間だけが、何度も私を前へ進ませてくれました。<BR>
+　歩き続けるうちに、たくさんの、問題に対処する力や心構えも身につけることができました。<BR>
+　さらにはみなさまから、想像もできなかったほどの、本当にたくさんのものをいただきました。<BR>
+　<BR>
+　このインターネットの世界がなければ、私の人生はとても小さな世界のままで終わっていたかもしれません。<BR>
+　この世界で出会えた全ての人々、友達、協力者の方々、応援してくださった皆さま……<BR>
+　そして、インターネット上で出会ったたくさんの作品やコンテンツ。<BR>
+　それらの全てが私を育ててくれました。<BR>
+　そして、たくさんの感情を教えてくれました。<BR>
+　悲しいことも楽しいことも、複雑な気持ちも悔しかったことも全部です。<BR>
+<BR>
+　だから……このインターネットの世界で出会った全ての人たちと、出会った全てのコンテンツに、心から感謝を申し上げたいと思います。<BR>
+　私の人生に多くのいろどりを与えてくださって、そしてたくさんのことを教えてくださって、本当にありがとうございました。<BR>
+<BR>
+<HR style="width:80%; border: 0;
+    height: 1px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #eef, #446, #eef);
+    background-image:    -moz-linear-gradient(left, #eef, #446, #eef);
+    background-image:     -ms-linear-gradient(left, #eef, #446, #eef);
+    background-image:      -o-linear-gradient(left, #eef, #446, #eef);">
+<BR>
+<BR>
+　これを書いている時点では、私は今もこのインターネットの世界で歩き続けています。<BR>
+　時代が変わり、新たなものが生まれていく中で、それにどうやって適応していこうかと考え続けています。<BR>
+　<BR>
+　ただゲームを作るだけでなく、<BR>
+　時にはみんなが交われる場所を作れるようにとサーバープログラムの作り方を学んだり、<BR>
+　もっとみんなに見てもらうために動画の作り方を学んだり、<BR>
+　AIみたいな新技術のよりよい使い方を考えたり……。<BR>
+　<BR>
+　新しい仕組みを知ることはいつも楽しく、ワクワクします。<BR>
+　適応を求められる世界の変化は、いつも楽しいと思っています。<BR>
+　もちろん大変なこともたくさんありますけれど、動かない世界よりは、動く世界のほうが大好きです。<BR>
+　変わり続ける世界にいかに適応するか……それはどんなときも、私にとって楽しい挑戦でした。<BR>
+　<BR>
+　<BR>
+　いつか私が眠りについたとき、『楽しかった』と思えるよう、私は今日も全力で生きています。<BR>
+　このアーカイブサイトにあるのは、すべて、その道のりで生まれた足跡です。<BR>
+　これからも、足跡は一つずつ増えていくでしょう。<BR>
+　<BR>
+　そしてある日、その歩みが止まって、静けさが訪れるときが来てしまうかもしれません。<BR>
+　けれどその日が来ても……このアーカイブに、小さなともしびのように残る成果物たちが、<BR>
+　これから歩き出す誰かにとって、静かな道しるべになってくれるかもしれません。<BR>
+　もしくはあなたが私を知っていて、私のことをなつかしく思いながら見てくれているかもしれません。<BR>
+　そんな願いを込めて、私はここにアーカイブを残しています。<BR>
+　このアーカイブは、私が生きた<ruby>証<rt>あかし</rt></ruby>を残す墓標として、きっと役目を果たしてくれるでしょう。<BR>
+　<BR>
+<BR>
+　……ふと目を閉じれば、1998年の冬の自分が、今も胸の奥にいます。<BR>
+　夢だけを抱えて、ただ前を向いていたあの少年に、今の私は誇れるだろうか？<BR>
+　そう問いかけながら、私は今も、前に向かって歩き続けています。<BR>
+<BR>
+<BR>
+　　<B>『明日の自分が、今日の自分より強くありますように』</B><BR>
+<BR>
+<BR>
+　まだ少年だったときから<ruby>唱<rt>とな</rt></ruby>え続けてきた、この愛すべき祈りと共に。<BR>
+<BR>
+<BR>
+　<BR>
+　　　　　　　<span style="color:#aac">ゲーム開発者　SmokingWOLFより<span><BR>
+<BR>
+
+</div>
+
+<BR><BR><BR><BR>
+
+<CENTER>
+<HR>
+<img loading="lazy" src="banner.png"><BR>
+ <span style="font-size:9px;color:#aac;">サイトURL: <B>https://smokingwolf.github.io/</B><BR>
+ バナーURL(直リンク可): <B>https://smokingwolf.github.io/banner.png</B></span>
+
+<HR>
+Copyright © SmokingWOLF / Silver Second
+<HR>
+</CENTER>　
+　
+
+<script>
+  // シルバーセカンド公式のドメインに接続し、サイト存在確認用のTXT(SILVERSECOND_ALIVE!と書かれている)があれば存在する扱いにする
+  const statusDiv = document.getElementById('silsec-status');
+  const checkUrl = 'https://silversecond.net/SILVERSECOND_SITE_ALIVE_FLAG.txt';
+
+  fetch(checkUrl, { cache: 'no-store' })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('ネットワークエラー');
+      }
+      return response.text();
+    })
+    .then(text => {
+      if (text.trim() === 'SILVERSECOND_ALIVE!') {
+        statusDiv.innerHTML = '　<a href="https://silversecond.net/" class="blue" style="font-size:16px;"><B>現在運営中のシルバーセカンド公式サイトはこちら</B></a> です！<span style="color:#ccf;"><BR>　（いま開いているこのサイトは、GitHub内に作られたバックアップページです）</span><BR><BR>';
+      } else {
+        statusDiv.textContent = '　';
+      }
+    })
+    .catch(error => {
+      statusDiv.textContent = '　';
+      console.error('シルバーセカンド公式サイトチェック失敗:', error);
+    });
+</script>
+
+
+
+<script>
+// スクリーンショット自動切り替え
+window.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.screenshot-wrapper').forEach(wrapper => {
+    // ● 各 wrapper に独自の intervalId を持たせる
+    wrapper._intervalId = setInterval(() => advanceScreenshot(wrapper), 3000);
+
+    // ● マウスが乗ったらタイマー停止
+    wrapper.addEventListener('mouseenter', () => {
+      clearInterval(wrapper._intervalId);
+    });
+    // ● マウスが離れたらタイマー再開
+    wrapper.addEventListener('mouseleave', () => {
+      // 念のため既存タイマーをクリア
+      clearInterval(wrapper._intervalId);
+      // 新しく再スタート
+      wrapper._intervalId = setInterval(() => advanceScreenshot(wrapper), 3000);
+    });
+
+    // ● 初回インジケーター更新
+    const indicator = wrapper.querySelector('.screenshot-indicator');
+    updateIndicator(wrapper, indicator);
+  });
+});
+
+function resetScreenshotInterval() {
+  clearInterval(screenshotInterval);
+  screenshotInterval = setInterval(changeAllScreenshots, 3000);
+}
+
+// スクリーンショットを次に切り替える関数（クリック時）
+// 初期化：ページ読み込み時に全 wrappers にインジケーター作成＆１回目表示
+window.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.screenshot-wrapper').forEach(wrapper => {
+    // indicator要素を確実に取得
+    const indicator = wrapper.querySelector('.screenshot-indicator');
+    updateIndicator(wrapper, indicator);
+  });
+});
+
+// advanceScreenshotの最後に indicator更新を入れる
+function advanceScreenshot(wrapper) {
+  const imgs = wrapper.querySelectorAll('img.screenshot');
+  let index = [...imgs].findIndex(img => img.classList.contains('active'));
+  imgs[index].classList.remove('active');
+  const nextIndex = (index + 1) % imgs.length;
+  imgs[nextIndex].classList.add('active');
+
+  // インジケーター更新
+  const indicator = wrapper.querySelector('.screenshot-indicator');
+  updateIndicator(wrapper, indicator);
+
+  // クリックや自動切り替え時にも “独自タイマー” をリスタートさせたい場合は以下を追加
+  if (!wrapper.matches(':hover')) {
+    clearInterval(wrapper._intervalId);
+    wrapper._intervalId = setInterval(() => advanceScreenshot(wrapper), 3000);
+  }
+  // グローバルリセットは不要なのでコメントアウト or 削除
+  // resetScreenshotInterval();
+}
+
+// インジケーター更新関数
+function updateIndicator(wrapper, indicator) {
+  const count = wrapper.querySelectorAll('img.screenshot').length;
+  // アクティブなインデックスを取得
+  const imgs = wrapper.querySelectorAll('img.screenshot');
+  const activeIndex = [...imgs].findIndex(img =>
+    img.classList.contains('active')
+  );
+
+  // ●○○○ 文字列を作成
+  let dots = '';
+  for (let i = 0; i < count; i++) {
+    dots += i === activeIndex ? '◆' : '○';
+  }
+  indicator.textContent = dots;
+}
+
+</script>
+
+</body>
+</html>
