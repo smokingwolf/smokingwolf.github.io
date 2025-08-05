@@ -1,0 +1,2193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>片道勇者TRPGリプレイ　2話『剣士と詩人』</title>
+
+
+<link rel="stylesheet" href="replay2.css" type="text/css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+<div id="flowmenu"><a href="../../" class=red><B>←ホームへ戻る</B></a><BR>　
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap>
+<B>片道勇者TRPG</B><BR>&nbsp;<small><small>灰の少女とﾖﾙﾑﾝｶﾞﾝﾄﾞ</small></small>
+<BR><a href="index.shtml#S0" class=red>◆トップページ</a><BR>
+<a href="Replay_KatamichiTRPG_01.shtml#S0" class=red>◆1話『<small>騎士と狩人</small>』</a><BR>
+  <BR><a href="#S0">◆2話『<small>剣士と詩人</small>』</a><BR>
+    　<a href="#S1">- 人気投票結果</a><BR>
+  　<a href="#S2">- 冒険の準備</a><BR>
+  　<a href="#S3">- 最初の城</a><BR>
+  　<a href="#S4">- １日目　遺跡群</a><BR>
+  　<a href="#S5">- ２日目　雪原</a><BR>
+  　<a href="#S6">- ３日目　草原</a><BR>
+  　<a href="#S7">- ４日目　火山</a><BR>
+  　<a href="#S8">- 終わりに</a><BR>
+  <BR><a href="Replay_KatamichiTRPG_03.shtml#S0" class=red>◆3話『<small>闇と勇者</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_04.shtml#S0" class=red>◆4話『<small>王女と獣</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_05.shtml#S0" class=red>◆5話『<small>転生と邪悪</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_06.shtml#S0" class=red title="◆6話『少女と真実』">◆6</a> 
+<a href="Replay_KatamichiTRPG_07.shtml#S0" class=red title="◆7話『ﾖﾙﾑﾝｶﾞﾝﾄﾞ』">◆7</a> 
+<a href="Replay_KatamichiTRPG_08.shtml#S0" class=red title="◆ED話『ｴﾝﾃﾞｨﾝｸﾞ』">◆<small>ED</small></a> 
+<a href="Replay_KatamichiTRPG_09.shtml#S0" class=red title="◆ｵﾏｹ『お疲れ様会』">◆<small>α</small></a> 
+<BR><a href="Replay_KatamichiTRPG_P01.shtml#S0" class=red title="◆外伝『よみがえる闇』">◆<small>外伝</small></a> 
+
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+<TR>		    
+		    <TD class="white" nowrap align="center"><small class=c3><small class=close><B>剣士<BR>マリー</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_03_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_03_icon.png border=1 width=50 height=60></a>
+		    </TD>
+		    
+		    <TD class="white" nowrap align="center"><small class=c4><small class=close><B>詩人<BR>ワイズマン</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_04_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_04_icon.png border=1 width=50 height=60></a>
+		    </TD>
+</TR><TR>		    
+		    <TD class="white" nowrap align="center"><small class=c0><small class=close><B>イーリス<BR>NPC</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_10_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_10_icon.png border=1 width=50 height=60></a>
+		    </TD>
+<TD class=white></TD>	    </TABLE>
+</div></BODY></HTML><div id=com_hira>　</div>
+<div id=com_hira><a name="S0"></a>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>片道勇者ＴＲＰＧ　第２話　『剣士と詩人』</H1>
+<div id=com_hira>　</div>
+<div id=com_hira>　今回は１話と違い、第２世界の新たな２人が主人公となります。彼らもまた、自分の世界を救うために魔王討伐に出発するのですが……？　</div>
+<div id=com_hira>　</div>
+<a name=S1></a><H1 class=gradientA>人気投票結果</H1>
+<DIV id="com">以下は皆さまからお寄せいただいた、前話の各プレイヤー・ＮＰＣへの人気投票結果です！<BR>
+たくさんのコメント、いつも本当にありがとうございます！</DIV>
+<DIV id="com">　</DIV>
+<DIV id="com"><TABLE class="gray" cellpadding="3" cellspacing="1" width=592>
+  <TBODY>
+    <TR>
+      <TD class="whiteblue" align="center">順位</TD>
+      <TD class="whiteblue" align="center" colspan="2">名前・コメント（※ＰＬ分は本人コメント）</TD>
+      <TD class="whiteblue" align="center" colspan="2">寄せられたコメント（抜粋）</TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">１位</FONT></B><BR>
+      （４１票）</TD>
+      <TD class="white" align="center" nowrap>騎士<BR>ロリア<BR>
+      <IMG src="image_newkatamichi/PC_01_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>ロリア<BR>
+      「おかしい、半獣人は迫害されているはず。それにしてはなぜかタクーシとよく似た感想が目立つような……。ともかく、そこのタヌキに毒されないよう頑張っていきたいと思います、はい」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「うぉぉぉぉおおおケモ耳ィィィィ！ ロリぃぃぃぃ！ フルプレートぉぉぉ…!! おまけにミニスカで懸命に戦うカッコ可愛い女騎士とか殺す気ですか！ヤられましたよ！」<BR>
+「可愛い(耳舐めたい)」「かわいい！　カッコいい！　あざとい！　と三拍子そろったヒロインですね！」<BR>
+「戦闘で輝く主人公力とセクハラまみれの旅の思い出が印象的です」<BR>
+「個人的に片道勇者の世界観でストーリーを作るならばシリアスであるほど面白くなりそうだと思っているので、今後のシリアス枠としてのご活躍を期待しております」「主人公補正健在ですね！　大変いい仕事をされなさる」「ダイス判定などで絶好調だったのにどういうわけかフビンなかほりを醸し出すロリア……次回の伝説も楽しみにしています！」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">２位</FONT></B><BR>
+      （３１票）</TD>
+      <TD class="white" align="center" nowrap>狩人<BR>クスクル<BR>
+      <IMG src="image_newkatamichi/PC_02_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>クスクル<BR>
+      「『投票してくれてアリガトウ！』とでも言うと思った！？　カワイイで有名なクスクルなのに票が足りないよ！？（机バンバンバン）　ボクの顔に泥を塗った責任は誰が……っていうかＮＰＣのタクーシと僅差すぎだよっ！！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「エロイグマいい！いいよエロイグマ!! あまりにもあざとい」<BR>
+「今回もさすがのプレイングでした、次もカワイイ(?)伝説を残してくださいね!! 」<BR>
+「そこだ！やれ、いけ！めくれ！下ろせ！引っぺがs」「ツッコまれ役、お疲れ様です！」<BR>
+「や　り　す　ぎ　で　す（褒め言葉）。旅の仲間(ＮＰＣ)に死人が出てすら全くシリアスな雰囲気にならないのは何というかもう、凄まじいの一言です」「解放した特徴【エッチな】の効果にも期待！」「いっしょにロリアをモフモフしようぜ！」「他のキャラのいいところを引き出したり、GMが進めやすい心配りはさすがの一言です」</small></small></TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">３位</FONT></B><BR>
+      （２９票）</TD>
+      <TD class="white" align="center" nowrap><small>エッチな<BR>騎士<BR>タクーシ<BR></small>
+      <IMG src="image_newkatamichi/PC_20_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>タクーシ<BR>
+      「おおお、こんなに票をいただけて幸いですぞ！　もちろん上位はクスクル殿にゆずりますとも！　いつか地獄から帰ってきますぞーアイルビーバック！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「タクーシお前がナンバーワンだ！」「ただでさえエッチなのにクルクスとの絡みで、なおさら印象的だった」
+「タクーシさんが親指を立てながら魔王の炎に焼かれていくシーンは涙無しには見られなかったです！」
+「ＰＣよりもキャラの立つＮＰＣ！　ロリア殿の尻尾くんかくんか！」<BR>
+「もっと長生きして欲しかった！　惜しい人をなくしたものだ……」「タクーシが燃えたシーンが今日のハイライトですね」　「君のエッチさとインパクトは忘れない…(敬礼)」</small></small></TD>
+    </TR>
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+1">４位</FONT></B><BR>
+      （１２票）</TD>
+      <TD class="white" align="center" nowrap><small>ＧＭ<BR>(ゲーム<BR>マスター)<BR></small>
+      <IMG src="image_newkatamichi/PC_99_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>ＧＭ<BR>
+      「皆さまのコメント、誠にありがとうございます！　面白さがアップしたのはひとえにＰＬの皆さまのおかげです！　たまにはシリアス回もありますので、そういうのが楽しみな方もぜひご期待ください」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「ＰＣこそ異なりますが、またあの面子での旅が見れるとあって今からワクワクしております」<BR>
+「今回は世間的な目もあるので少しおとなしい感じの表現になるかと思いきや、いきなり飛ばして来ましたねー。笑いあり、涙あり(←笑いすぎて)、最後のどんでん返しありとよく練られていて面白かったです」<BR>
+「ちょっぴりダークとコミカルの緩急さは他ではなかなか見られない！　次回も超期待！」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap rowspan="2"><B><FONT size="+1">同率<BR>５位</FONT></B><BR>
+      （１１票）</TD>
+      <TD class="white" align="center" nowrap><small>半獣の<BR>理術士<BR>シース<BR></small>
+      <IMG src="image_newkatamichi/PC_11_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>シース<BR>
+      “いつものように不幸系半獣ポジションですががんばります……あ、ちなみに今回も出ますが百合じゃないので……”</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「シースさんからあふれ出すメインヒロインちからを感じます……報われてほしいけれど、はてさて」<BR>
+      「物憂げな顔…華奢な肩…ケモ耳と尻尾…イイ…触りたい…。触っちゃダメですかダメですねそうですよね隙あr――」→ロリア(ランスの先に焦げ付いた肉片を振り落としながら)「大丈夫だった？」<BR>
+      「水かけたクスクルにプンプンしましたが、“水責めはゆるしてください…”の台詞が頭から離れません。…ありがとうございました。」「百合展開なんですかね。たくましい体とか言ってたし、完全に狙ってますよね」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap>妖精<BR>イーリス<BR>
+      <IMG src="image_newkatamichi/PC_10_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>イーリス<BR>
+      「今回は空気じゃないよ！　ルールブックにもわたしのアドバイスが載りまくりだし色んな意味でいっぱい出てるからね！　あと共食いしてないからー！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「イーリスが空気じゃないだなんて！」<BR>
+      「今さらですが改めてＴＲＰＧ版の世界線でのイーリスは量産化に成功してるんですね（中略）。細かいことはこの際置いて、今度は(今度も？)幸せになってくれれば。なってね！絶対だよ！絶対だからね！！」<BR>
+      「イーリスかわいい！そしてメタい！」「量産型になっただけでなく、ついに共食いまで…」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+1">７位</FONT></B><BR>
+      （５票）</TD>
+      <TD class="white" align="center" nowrap>魔王<BR>
+      <IMG src="image_newkatamichi/PC_30_icon.png" border="1"></TD>
+      <TD class="white" align="left"><small>魔王<BR>
+      「変態、滅ぶべし！　応援はうれしいが、負け役なので勝つことは期待しないでくれ」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>
+      「貴女のおかげで変態は滅しました(1匹残ったけど)。原作と同じ設定であれば、闇が止まらなかった事から無駄死に感が酷い事になっている彼女に、合掌」<BR>「食料から攻めていくという正しい戦略の魔王が見れるのはここだけ！」<BR>
+      「くだりが面白すぎました」「次は倒してー！勇者たちを」</small></small></TD>
+    </TR>
+
+    
+<!--★その他のキャラがいた場合はここ★-->
+    <TR>
+      <TD class="white" align="center" nowrap><B>その他</B></TD>
+      <TD class="white" align="left" colspan="4"><small>
+      船頭へ「二回もクスクル先輩に洗われて、きっとシワも伸ばしてもらったことでしょう。アンチエイジング ビフォーアフター。今日のお風呂代が浮いたね。やったね」<BR><BR>
+      大きな石をくれた道具屋へ「１票！」<BR><BR>
+      ワイズマンへ「まさかのケモくない暗黒軍師様の活躍、今から楽しみにしています！」
+      </small></TD>
+    </TR>
+
+  </TBODY>
+</TABLE></DIV>
+<BR>
+<a name=S2></a><H1 class=gradientA>冒険の準備</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>本日もお集まりいただきありがとうございまーす！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>イエーイ、よろしくお願いします！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>よろしくおねがいしまーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、今回は１話とは別の世界にいる２人の勇者が物語の主人公です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>前回同様、クエストのみ事前にＰＬそれぞれにお送りしております。公開しちゃダメよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、今回は最初に初期ボーナスの話からやりまーす。</div>
+<div class="box"><B>＜初期ボーナス＞</B>
+<BR>
+<BR>　前回と同じく、このセッションの前にやったテストプレイの獲得物をキャンペーン内容に影響しない範囲で引き継ぎ可能とすることにしています。
+<BR>　以下の中から欲しいものを１つ選んでください。
+<BR>
+<BR><B>　Ａ.「２０伝説Ｐ」を獲得
+<BR>　Ｂ.「５０伝説Ｐ以下の特徴１つ」を獲得
+<BR>　Ｃ.その他、ＧＭと相談の上で許可が出たものをテストから引き継ぎ</B></div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで、テストプレイで拾ったアイテムは持ち込めませんのでご了承ください！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こっちの２人は【クレセントアクス】とか極上アイテム拾ってたので「アﾞアﾞアﾞアﾞー！！」って感じだと思いますが、テストでいいもの拾っちゃう辺りが「出目悪いチーム」っぽくていいと思います。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>大丈夫です、反動が来るのはわかってるんです。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>大丈夫です、私がついてます（すごくいい笑顔で）。
+<BR>
+<BR>ちなみに中の人のダイスの期待値は５です。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダメだこの２人……最初から幸運をあきらめてる。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで欲しい＜初期ボーナス＞をそれぞれ宣言してくださーい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ふうむ、では「A」の「２０伝説Ｐ」にしておきます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>それでは、私は「C」！　初期クラスとして【詩人】を選択する権利を得させていただきます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、ワイズマンさんに関してはテスト時からクラス【詩人】を引き継ぐと宣言されておりまーす！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【詩人】は【理術士】より【ST】消費が激しい割に戦闘の決め手を持たないというハードコアなクラスなので許可しました。同じ【ST】が確保できるならどう考えても【理術士】のほうが……ウフフ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ぶっちゃけ縛りゲーですよね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、控えめに見てもそう思います。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【詩人】ってなんのために存在してるんですかね？</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>このクラスをクエストで解放しようと思うプレイヤーが何割いるんですかね？　マゾ用ですか？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>『人類には早過ぎる』プレイ用かと思います。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>原作の『片道勇者』無印版では【詩人】は実質的に縛りクラスだったので、そういう意味では再現度が高いかもですよ！　まだ我々が【詩人】を使いこなせていないだけかもしれませんけれど。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次いきますよー、お二人とも、名前・クラス・特徴・自己紹介を宣言してください！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>名前：ローズマリー（愛称　マリー）　　クラス：【剣士】　　特徴：【耳長】　【筋力＋】</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ローズマリーは金髪緑眼、巻き毛の耳長の少女です。１６歳前後くらいの見た目です。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>おーっほっほっほと高笑いすることが多く、自信満々な性格をしています。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>強さを誇示するのが好きで、空気であろうが魔王だろうが、なんでも壊したがります。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>他者のことは気にかけないように見えますが、そんなそぶりを見せるのがかっこわるい、弱い、そう見えるから相手にはあまり心配したようにみせません。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>自称最強の勇者です。世界最強を目指しています。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いいですね、高飛車系ブレイク耳長女子！　そしてちょっぴり戦闘狂なケもあると！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【耳長】はいい初期武器をもらえる都合上、【剣士】との相性がいいと思います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次、ワイズマンさん！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ＰＣ名：ワイズマン　　クラス：【詩人】　　特徴：【知力＋】　【知力＋】</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ワイズマンは壮年から中年に差し掛かった……一言でいえばオッサンの詩人です。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>住み慣れた故郷の町を離れ闇から逃げるために東へと向かっていましたが、</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>荒事に慣れた冒険者とは異なり基本的にはただの一般人。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>疲れ果てたところに魔物の襲撃を受け、</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>あわやここまでかというタイミングで</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>女剣士ローズマリーに命を救われたのでした。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、ローズマリーさんとの繋がりはもうできてる設定なんですね。
+<BR>
+<BR>ん！？　特徴がダブル【知力＋】！？　ダブル【筋力＋】じゃないんですか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【知力】なのはワイズマン（かしこい人）ですから。なあに必要なシーンがあれば【覚醒】します！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>了解しました、ということでおじさん詩人のワイズマンです！　あと【詩人】＝一般人同然になってるあたりがミソですね、はい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンとはなんやかんやで成り行きで助けちゃってそのまま知り合いみたいなかんじでしょうか！　たぶんおそらく！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>その辺はぜひオープニングでやっていただきましょう！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こちらのお二人は１話と違ってちょっとイロモノ系ＰＣですよね、先の展開が楽しみです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次、初期武装の確認をします！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ワイズマンは【詩人】の初期装備、【ダガー】と【旅人の服】です。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【ダガー】の攻撃力１Ｄ６－２って弱すぎぃ！　って始まる前に雑談してました。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>武器：【耳長の細い剣】（攻撃力 ２Ｄ６＋１　クリティカル時に＋１Ｄ６）</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>防具：【旅人の服】 （装甲１）</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>こちらは種族【耳長】であるため、初期装備が変わっています。剣士の初期装備【ショートソード】が余っているので、おそらくワイズマンさんに授与されます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>お、でしたら最初から【ショートブレイド】（攻撃力１Ｄ６＋１）をいただいてこれを初期武器にしておきます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　【ショートブレイド】化で攻撃力の期待値が１．５→４．５に！　これは大きい！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>で、次は所持金の算出です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>剣士マリーは２Ｄ６×１００シルバ、詩人ワイズマンは３Ｄ６×１００シルバ持ってます！　それぞれ振ってくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>３Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5＋1) </B>＝ <B class=dc>9</B>　　９００シルバ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>２Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) </B>＝ <B class=dc>9</B>　　９００シルバ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>おそろい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２人とも同じ９００シルバです！　２人ともロリア＋クスクルの所持金７００シルバより多いとは！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「高貴なわたくしが貧乏であるはずがないのですわー！　おーっほっほ！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>最後に、マリーとワイズマンはお互いにたいして【好意】を１ずつ結んでおいてください。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>キュッ……（むすんだ音）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>うっ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>物理的に何でどこを絞めたのか。けほん、結んだのか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なんかシメたような音がしましたがＯＫ！？　ではいよいよ物語の始まりです！</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Mary.jpg"></td>
+<td><B>マリー</B>　剣士　女
+<BR>
+<BR>最大ＬＩＦＥ　１１　　最大ＳＴ　１０　　
+<BR>所持金　９００シルバ　　所持重量　０／４
+<BR>能力値　筋力３ / 敏捷２ / 生命１ / 知力０ / 意志０ / 魅力０
+<BR>特徴　【耳長】　【筋力＋】
+<BR>
+<BR>装備　【耳長の細い剣】（攻撃力２Ｄ６＋１）
+<BR>　　　　【旅人の服】（装甲１）
+<BR>
+<BR>アイテム　【ダガー】</td></tr></table><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Weismann.jpg"></td>
+<td><B>ワイズマン</B>　詩人　男
+<BR>
+<BR>最大ＬＩＦＥ　９　　最大ＳＴ　１０　　
+<BR>所持金　９００シルバ　　所持重量　０／３
+<BR>能力値　筋力０ / 敏捷１ / 生命１ / 知力４ / 意志１ / 魅力３
+<BR>特徴　【知力＋】　【知力＋】
+<BR>
+<BR>装備　【ショートブレイド】（攻撃力１Ｄ６＋１）
+<BR>　　　　【旅人の服】（装甲１）
+<BR>
+<BR>アイテム　なし</td></tr></table><div id=com>　</div>
+<H2 class=gradientAmini>-　【オープニング】</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで前回と同じっぽく、各々のオープニングをやっていただきまーす！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ＧＭが合いの手を挟んだり、要所でＮＰＣのロールを入れますよー。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>思いつかなかったら仮で「とりあえずマリーがプシャーってやってポポーンする」とかでもいいですよ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>プシャー！？　ブラッディ・マリー！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC><B>【オープニング　：　剣士マリー】</B></font></div>
+<div id=com_hira>　</div>
+<div id=com_hira>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>耳長の少女、ローズマリーは１人で旅をしていた。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>どこに行くあてもない、目指すべき場所もない、そんな旅を。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>しかし、「どうなりたいのか」は決まっていた。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>世界で最強の存在になる。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ローズマリーは昔、自分の住んでいた村を</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>【最強のドラゴン】によって焼き滅ぼされた。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>村で生き延びたのは、ローズマリーただ１人。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>どうすることもできなかった自分を悔いて、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>彼女は『最強』になるための修行を詰んでいた。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>だから、わざとケンカをふっかけるような真似をしたり、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ついでに人を助けたり。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「魔王を倒す勇者を募集？　ふん、このわたくしに出来ないことなどありませんわ！！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ある日助けた旅のお供とともに、城に乗り込むのであった。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、いいですね！　強がりっぽさもありつつ悲しい過去もありつつ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてどう見ても特徴【最強の】狙いっぽいオープニング！　クエスト検討しておきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして「ある日助けた旅のお供」というのが……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では次、ワイズマンさん！　システム的にネタバレしない範囲ならクエストに関連した伏線もぜひ入れてください。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC><B>【オープニング　：　詩人ワイズマン】</B></font></div>
+<div id=com_hira>　</div>
+<div id=com_hira>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>詩人ワイズマンの眠りは浅い。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>警戒しているわけではなく、単純に夢見が悪いのだ。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>『闇』が迫る前は平和な日常ゆえの些細で大きな悩みの夢を。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして『闇』に追われるようになってからは</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>見知らぬ光景のなか、見知らぬ人物たちが展開する同じ夢を何度も何度も。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>実にくだらない笑い飛ばすべき内容の夢であるが、</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>仮眠をとるたびに何度も同じ夢を見るようになったとあってはいよいよ己の正気が怪しい。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ただでさえ十分に睡眠がとれない『闇』からの逃避行。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>旅慣れぬ身には過酷であり、そこに狂気の夢が追い打ちをかける。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ついに力尽きかけたところで魔物たちに遭遇。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>弱り目に祟り目で辞世の句を詠みかけたそのとき、</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>彼の命を救ったのが女剣士ローズマリーであった……。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（かっこいい……さすが詩人！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（なんだろう、ホラーＴＲＰＧのオープニングみたいになってる）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでワイズマンは最近よく眠れないうえによく同じ夢を見ます！　辛い！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あげくの果てに魔物に遭遇しちゃって辞世の句をよむ辺りが実に詩人ぽくていいですね！　って詩人ってそっちの詩人ー！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>“ああつらい　闇から逃げるの　ああつらい”</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ワイズマン心の一句。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンさんのオープニングのインパクト強い！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マリーがいなければそのまま骨になってましたから強がりありがたし！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではせっかくなのでワイズマンがマリーに救出されたシーンを演出しましょうか！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>わーい。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ある日、ワイズマンは３体の小鬼に追われていました！　相手は遠距離から大量に大きな石を投げてきてワイズマンは大ピンチ！　逃げようにも、今の隠れ場所から出ていけばきっとやられてしまうでしょう！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンのそんなピンチの中、小鬼の背後にさっそうと１人の耳長の少女が現れます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>↓この辺にマリーがプシャーってする描写をお願いします</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>では一匹を背面から切りつけます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ブシャーッ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>奇襲を受けた１体の小鬼がそのまま地面に崩れ落ちます！
+<BR>
+<BR>小鬼「ゴブッ！？　ゴブブ！？」　気付いた２体がマリーに振り返りました！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>そして剣をふって血を払い、</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ふん、他愛もありませんわね……来なさい！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>と二匹を相手取る姿勢で攻撃を再開します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>小鬼「「ゴブー！！」」
+<BR>
+<BR>小鬼は標的を変え、マリーに石を投げてきます！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>石を１つは回避、１つは左肩にぶつけてしまいますが、標的をかえることなく、まっすぐに狙った次の一匹を穿ちます！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ハァッ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>プシャー！　小鬼の１体は血を吹き出しながら倒れました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>残りの１体はなすすべくもなくマリーに追い込まれてしまいます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>小鬼「ご、ゴブブー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてそろそろワイズマンは助けが来ていることに気付いていいでしょう！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ヒッ！　仲間割れか！？」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そろーりと隠れ場所から頭を出してのぞいてみます。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>視線の先には返り血を浴びる剣士と血に倒れ伏す魔物が。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>怖い！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（本編が始まる前からブラッディ・マリーになってる！）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（魔物相手だと血をみますよね！　仕方ないですよね！　これでハートフルな展開ってどうすればいいのか、今の私には考えつきませんでしたごめんなさい！！）</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「くっ……」と左肩を押さえますが、「逃しませんわ！」と追撃します！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>小鬼の返り血に塗れたマリー、そのまま最後の１体をしとめます！
+<BR>
+<BR>小鬼「ゴブゥゥゥー！」　（ドサリ……）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>では目に見える範囲で魔物がいなくなったことを確かめるなり、隠れ場所から出ていきます。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンが出てきたことで剣を収めます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おおー！　なんたる身のこなし、剣の冴え！　あなたこそ命の恩人です！なんとお礼を言ったものか！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>血染めの人が怖いのでいつでも逃げられるようにしようと思っていますがもう足がガタガタです。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「おーっほっほ！ 一生恩に着てもよろしくってよ！」
+<BR>
+<BR>と甲高い声で高笑い。背筋をピンと伸ばして手の甲を顔のサイドラインにあてがうような、高笑い的ポージングなどしながら。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>痛みを我慢しながら元気にそう言うマリー。
+<BR>
+<BR>ワイズマンは一生じゃないにしろ、この人にしばらくついていくことにするわけですかね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（よかった、人間語が通じるな）　承知いたしました。このワイズマン、命燃え尽きるそのときまでお供して恩返しをさせていただきますぞ！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>どう見ても足手まといの人間を連れて歩いたりしたら得どころか完全に損になりますが。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでもきっと、マリーはきっと断れないのでしょう。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「そう、なら……」ばたん、とその場に倒れこみます。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ちょっと手当してくださると助かりますわ……」とお目目ぐるぐる状態です。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なんと！おまかせを！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ということで駆け寄って手製包帯で応急処置をします。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>わーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「だいぶ腕が立つようにお見受けしますがどのようにしてこのケガを？」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「さっきの小鬼に石をぶつけられたんですの。一発目は避けたのですけど、まあわたくしは強いからこの程度ですんだのですわ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「いずれにしても応急処置では不足。そして魔物の血も浴びている。ここから更に東へ行ったところに城があると聞いております。そこで手当を受けましょう」　的な流れで。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、その後マリーはワイズマンに手当てをされつつなんだかんだありつつ、２人はマリーの当初の目標である「最初の城」を目指すことになりました……。</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>最初の城</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/02_map00.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　王様からのお言葉</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということでいよいよ本編開始です！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>わーぱちぱちぱち！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、こちらもやっぱり西の方から闇がせまりつつある『セカンドワールド』の世界！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あなたがたは魔王討伐の勇者を求めるお触れを聞きつけ、魔王討伐の勇者として志願することになりました！　ワイズマンは完全に巻き添えです。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（きっと町の名前がセカンド村とかなんだこの世界……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（それ前も言ったから！）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて出発の日、２人が謁見の間にやってくると、そこにはすでに１人の勇者がいました！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>３人目！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>その人物にあいさつする間もなく、ヴィクター王が言います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「よくぞ参った！　剣士マリー、詩人ワイズマン、そして勇者アレンよ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「勇者！？　わたくし以上の勇者などいなくってよ！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター王「そうじゃったな、みんな勇者勇者！」（雑な対応）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、王様は現状について話をしてくれます。基本的には、東への旅を続け、その途中で出会うであろう「魔王」を倒すことで、闇はその「進行」を止め世界は救われるだろう、とのことです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王はそこまで話すと、３人の人工妖精イーリスを３人にそれぞれ渡します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「「「やっほー！　私は人工妖精のイーリス！　よろしくね！」」」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「これらは意識を共有している。離れた場所にいても汝らの情報交換を可能とするだろう」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「同じ顔がいっぱい！？　すごいですわね……！」　とイーリス（たち）に驚きます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（ですよねー、ＰＬはともかくＰＣは驚くよなー）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに、イーリスはこんな感じの顔です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Iris.jpg" border="1"></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター王「辛い旅になると思うが、魔王の討伐を頼んだぞ。わしもここを離れる。またどこかで会うこともあろう……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「そなたらのために物資も用意しておいた、存分に使うがよい！　では、ゆくのだ！　健闘を祈る！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言うとヴィクター王の周囲に理力がうずまき、彼は消えてしまいます……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうして、謁見の間は静かになりました。闇はそろそろ城を呑み込みつつあります！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、そばには３人目の勇者がいますね！　なんかもうすごい勇者臭がただよってます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>勇者アレンと呼ばれた人は、こんな感じの姿をしています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Allen.jpg" border="1"></div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>どうしよう完全にちゃんとした勇者だ……（カラーリング的にも原作歩行グラっぽい）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ちゃんとした勇者だと！　詐欺くさいぞ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあ、何か話したりしますか？　勇者としての意気込みを語ってもいいですよ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「はん、魔王だろうがなんだろうが蹴飛ばして差し上げますわ！　このローズマリーにお任せあれ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「しかし魔王か……実在するものなのですね」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>勇者アレン「ああ、その通り、魔王は実在する！　だが僕はまだ魔王と一度も会ったことがない……それでも僕はこの力で魔王を倒す、必ずだ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>一人称が僕だと！　おのれイケメン死すべし。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>でもショタじゃないので７０点くらいですかね！（中の人の好み情報）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「アレン様。わたくしどもはもとより２人連れでしたが、あなたも共に行かれますかな？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>勇者アレン「いや、残念だが僕は君たち２人と協力する気はないんだ。悪いけど、別の道を行こう」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なるほど。どうかご武運を」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「別に構いませんわよ、わたくしは１人でも倒せますわ！」（ワイズマンはノーカウント）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２人とも引き下がるのが早い！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレン「それと、僕の分の妖精は使わない、帰ってくれよ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス３「えっ！？　い、いいの？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレン「見て分かる通り、僕は装備も完璧。周回……じゃない、修行で得た力だって十分に強い。僕は１人でも魔王を倒せるんだ。君たちがわざわざ痛みを背負わなくても、ね」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>よく見ると、彼は全身、聖武具で武装しています！　しかも会話して分かりましたが、彼は【やたら硬くて強そうで優秀な最強の勇者アレン】でした。接頭辞が長すぎてウィンドウから溢れそうなレベルです！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マリーに向かってひそひそ声。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「（おそらくあちらの方は魔王討伐の手柄を独占する心づもりなのでしょう。であれば無理に手を組んで我々まで危ない橋を渡ることはありますまい）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おおっと、ワイズマンは楽する方向だー！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ワイズマンは一般人に毛が生えたようなものですから！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「（まあ、魔王が目の前に出てくれば倒しますけれど。あの人は凄く魔王を倒したいみたいですから、ゆずってさしあげなくもないですわ。魔王程度）」ボソボソ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（「魔王程度」とかマリーさん大物だ）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（大物すぎる）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（我ながらなんでこんな根拠の無い自信ばかりがあるんだろうマリーさん）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「フッ、話はまとまったかな？　ナチュラルボーン勇者、アレンとは僕のことさ……魔王に出会えれば絶対に負けない。そうだ、出会えさえすれば……！　では失礼するよ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>勇者アレンはそれだけ言うと勝手に行ってしまいました。残されたイーリス３がショボンとしてます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「イーリス君。ああ、私のじゃない。置いて行かれたそこの君だ。よければ我々と来るかね？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス３「う……うん！」　ではワイズマンは両手にイーリスになりました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンさんただのいいおじさんじゃね！？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>いい人だ……（あきらかな不審者っぽい格好を除けば）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>やだなー、ただの人のいい一般市民ですよ。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>けっしてイーリス３をいざというときの囮や最悪食料にしようとか考えていません。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>私も非常時に敵にぶつけるための武器かぁ。と思いました（『片道勇者開発記』を見た後の感想です）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス３は天真爛漫なのでそんな考えなんてつゆ知らず。
+<BR>あとシステム的にはイーリス２体持ちではなく１体と扱いますのでご了承ください。</div>
+<BR>
+<H2 class=gradientAmini>-　勇者への贈り物</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス１「えーと……さ、さあ、王様からの贈り物があるよ！　持っていこうよ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、２人の目の前には２つの箱が用意されています！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もともと１つの予定でしたが前回のセッションで２つに増殖しました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>開け方は、「戦闘で開ける」か、「開錠で開ける」かの２通りがあります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「戦闘」は成功すればノーコストですが、失敗すると【ST】－４のペナルティを負います。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「開錠」は、人によっては戦闘より開けやすくなりますが、判定者の【ST】１を消費します。こっちは失敗してもペナルティなし！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さあ、【勇者への贈り物】のパラメータは以下の通り、お二人、どうしますか！？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回の判定では「協力」はできません！</div>
+<div class="box"><B>宝箱【勇者への贈り物】</B>
+<BR>　【LIFE】１　【防御値】８　【開錠難度】７
+<BR>　【ドロップ】ドロップアイテム表×２</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではマリーさんからどうぞ。攻撃？　開錠？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>攻撃します。
+<BR>
+<BR>「さあブチ撒けますわよ！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では攻撃判定を振ってください！　目標値８！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>２Ｄ６＋３>＝８ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋2) ＋ 3 </B>＝ <B class=dc>7</B>　　<B id=dmis>-1失敗！</B></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>嘘だろ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>知ってた。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>オイオイヘイヘイ、神様よ。ちょっとま、待って。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>……冗談だろブラザー……（膝から崩れ落ちる）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さすが某ＴＲＰＧで全サイクル１回も判定成功できなかったことがある人だ！（※２Ｄ６で５以上が出なかったという意味）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いいんですよ、【覚醒】しても。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、【覚醒】は初期状態で２回分あります！　判定のサイコロ１個を振り直すことができ、今回だと３以上が出ればいいので使えば６６％の確率で成功になります！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【覚醒】します、うええええ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　では１Ｄ６どうぞ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>１Ｄ６ 知ってるよ、１か２になるんでしょ！
+<BR>
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アッー！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>運命は収束するようですね？　うわあああーん！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひどすぎて言葉も出ない！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>私ですからね中身が！！！！　並の不運じゃないですからね！！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もう１回【覚醒】しますか？　もういいですよね？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ﾓｳｲｲﾃﾞｽ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは能力値的に失敗する可能性があると思ったけどまさかマリーが……ああ……（頭痛）。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>マリーは木箱を破壊しようとしましたがたまたまじゅうたんですべってころんで剣の柄が自分の頭にあたって、もう一度起きてトライしようとしたら今度は服のすそをふんずけて転びました。どしゃあっ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なるほど。獅子は兎を追うにも全力を尽くすといいます。いくら剣に優れたマリー様でも油断してかかれば傷を負うという教訓を身をもって教えてくださるのですね。さすがはマリー様！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えーと、ではマリーは【勇者への贈り物】に完全敗北したので、マリーは「攻撃判定」失敗分の【ST】－２、と誰も攻撃判定に成功しなかったことによる【ST】－２です！　合計で【ST】－４してくださーい！</div>
+<div class="box"><B>◆攻撃失敗時の処理</B>
+<BR>
+<BR>　攻撃判定に失敗した場合、敵の【反撃ダメージ】を受け、【ST】も２減少してしまいます。
+<BR>　もしその戦闘に参加している「ＰＣ全員」が「攻撃判定に失敗」した場合、「戦闘に敗北」した処理となり、【ST】がさらに２減少します。逆に１人でも攻撃判定に成功していれば、（たとえ反撃で死んでも）「戦闘に勝利」したことになります。
+<BR>
+<BR>　ちなみに今回は相手がただの箱だったので、【反撃ダメージ】だけは受けずに済みました。</div><div id=com>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【ST】がいきなり１０→６になりました。やだこわい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これクリアできないかもしれない……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>やだ……兵士たちがこっちみながらひそひそしてる……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>兵士「（ヤバい……この勇者ヤバいよ……箱さえ壊せねえ……！）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なんなんですの！？　なんなんですの！？！？？！？！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なるほどマリー様の箱は硬いフェイク！　わかりました、このわたくしが全身全霊を持ってこの真実の贈り物を手に致しましましょう！　そーれ！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、気を取り直して、ワイズマンさんの方は「攻撃」しますか？　「開錠」しますか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「開錠」は【敏捷】判定でしたね。「開錠」します！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　【ST】－１してください。【好意】補正はなし！
+<BR>さて果たしてワイズマンは開けられるのかー！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋１>＝７ 【機敏】で解錠判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 1 </B>＝ <B class=dc>9</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>オォォー！　成功です！　ワイズマンだけが箱を開けてしまった！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>普通にふたに手をかけて箱を開きました。【ST】１０→９です。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「ご覧になりましたかマリー様！　わたくしだってやるときはやるのです！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「すごいですわワイズマン！　よくやりましたわ！　さすがわたくしの下僕ですわ！！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ワイズマンさんありがとうそしてありがとう……。そしてごめんなさい。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ん、あれ、そういえばこっちの攻撃判定、【好意】足してない？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、そもそも「攻撃判定」には【好意】は足せないんですよ。今回は「協力」なし扱いなので二重の意味で足せないんですけれどね。</div>
+<div class="box"><B>◆「攻撃判定」における【好意】について</B>
+<BR>
+<BR>　「攻撃判定」は【筋力】＋２Ｄ６で判定し、【防御値】以上が出れば攻撃が成功したことになります。このとき、【好意】による補正はかかりません。
+<BR>　その後の「ダメージ算出」のほうには、同じエリアにいるＰＣの【好意】が加算されます。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>しかしどうしよう、初期想定通りの流れに近づいていかない。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>序盤に悪い目が出たからあとでいい目が出ます、きっとそうです、きっと……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、【勇者への贈り物】を１個開けられたのでドロップ処理します！</div>
+<div class="box">手に入れたのは以下の２つでした。
+<BR>
+<BR>巻物　【周辺の地図】
+<BR>防具　【スケイルシールド】</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【周辺の地図】と【スケイルシールド】をゲットできました！　なかなかいいブツですね！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>おお、地図と盾。強いぞこれ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【スケイルシールド】は重量２ですが装甲２です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【周辺の地図】は遭遇表から好きなイベントを選べます！　強い！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでシールドはどっちが持ちます？　なぜかすぐ死にそうなマリーさん？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それとも本来なら先に死ぬ可能性が高いはずのワイズマンさん？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンさんの許可が降りれば頂いておきたい！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>デフォルトの接頭辞に【不運な】がついていますからね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ささ、マリー様。こちらの盾を身につけてください。わたくしはこの地図を活用させていただきますゆえ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>わーい！！　やさしい！！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「悪くないですわね！」　内心涙目ですね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>兵士「大丈夫かなあ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そんな感じで見送られながら、２人は城を出発します。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>が、そのまえに道に詳しい老婆が１日目地点になにがあるか教えてくれます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道に詳しい老婆「あたしゃもうダメだけど、あんたたちはがんばるんだよ……」</div>
+<div class="box">【１日目】　地形：遺跡群
+<BR>　北：道具屋
+<BR>　中央：ランダムイベント
+<BR>　南：ゾンビ</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いきなり「道具屋」がある！　やさしいぞ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>まずは「道具屋」でお買い物ですね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「お金を一方に集めて片方がお買い物してもいいんだよ？　よく考えてね！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>お金を全額預けるのでワイズマンさんよろしくお願いします（使い走り）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ハハッ、仰せのままに」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンさんはマリーさんの９００シルバを受け取って計１８００シルバへ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１８００シルバ！　大金持ちや！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「よろしく頼みますわよ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「弱っていた頃の私であれば１人旅は無謀だったでしょう。しかしマリー様に随伴したおかげでずいぶんと鍛えられました。１日程度であれば単独行動も問題はないはずです」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンさんのいい子ちゃんオーラ、１３０％！　（ギュンギュンギュン……）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンさんいい人すぎる！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「イーリスを通じて情報が交換できるようですから、こちらを活用して連絡いたしましょう。１人で死ぬなんてわたくしは許可していませんから、そのこと重々忘れぬよう！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>こっちが死にそうだけど！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「はい。マリー様もどうかお気をつけて」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では行き先宣言！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>南のゾンビいくと死にそうな予感がしますがランダムイベントも場合によっては死にますね。屍を晒したらごめんなさい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「ゾンビ」はＰＣの数のゾンビか、失敗した場合にＰＣ＋２体だけゾンビが出ます。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>なら中央のランダムイベントで！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ワイズマンは北へ向かいます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>両者ＯＫ！</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>１日目　遺跡群</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/02_map01.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　１日目北エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではまず遺跡群を北に行くワイズマンから！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……フン、行ったか。我輩としたことがとんだハズレクジをひいたものだ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（ギャップー！）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「まあよい、力こそ正義だが我輩にとっては情報こそが力。この地図はありがたく使わせてもらうとしよう」
+<BR>
+<BR>「まったく、贈り物とやらでデカいだけの盾を手に入れたときはどうなるかと思ったが荷物持ちがいて助かった。ポンコツなりにせいぜい役に立ってくれよ……」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（ポンコツに何ひとつとして否定できない！ 箱さえ開けられない勇者ってなんなの）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（実はワイズマンは黒かった、いいキャラですね！）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（一人称が変わる所もすばらしいですよね。しかしブツブツ言いながらも盾をくれた優しさ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、黒さをのぞかせるワイズマン、遺跡のそばに道具屋がすわっているのを見つけます！</div>
+<div class="box"><B>＜道具屋＞</B>
+<BR>
+<BR>　【道具屋】と遭遇した。すべてを悟ったような人物だ。
+<BR>判定：【知力】　ジャッジ：旅の思い出を語る。
+<BR>成功：【経験値】１獲得。アイテムを贈られ、その他ドロップ表（１６０ページ）を使用する。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。
+<BR>失敗：【経験値】１獲得。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>道具屋「おや……もしかして魔王を倒すために旅立ったっていう勇者かい？　そうか……よければ、君の旅の思い出を教えてくれないか。城に来るまで色々あったんだろう？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジ：旅の思い出を語る！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「親父。我輩はかくかくしかじかでポンコツと手を組まされておるのだ。哀れなこの我輩に何か恵んではくれんかね。どうせ逃げもせず諦めきっておるのだろう。生き延びようとしている我輩に全部よこしてもいいのではないか？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>道具屋「あー、かくかくしかじかのところをもう少し話してくれてもいいんじゃないかい？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「つまり簡単に言えば、歩くことと戦うこと以外はまるでなっちゃいない仲間ができてしまったというわけだ。このご時世にな」
+<BR>
+<BR>「そしてそんなポンコツに頼らねば生き延びられない我が悲哀！　分かってもらえるだろう！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いいですね、ジャッジＯＫ！　【知力】で目標値７＋１（日目）－１＝７を判定して下さい！</div>
+<div class="box"><B>◆このセッションでのジャッジ処理について</B>
+<BR>
+<BR>　「ジャッジ」成功時、厳密には<B>判定＋１</B>の処理を行いますが、このキャンペーンではミスやＰＬ負担を減らすためＧＭ側が<b>目標値－１</b>して処理しています。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋４>＝７ 【知力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋5) ＋ 4 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+6成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もう１回成功できそうな余りっぷり！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>傍若無人ズマン。略奪に成功しました。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>さすがですわ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（ズマンってすごい略称！）</div>
+<div class="box">成功：【経験値】１獲得。アイテムを贈られ、その他ドロップ表（１６０ページ）を使用する。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで【経験値】１を足してください！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道具屋「そうか、みんな大変なんだな……君の思い出話はなぐさめになるよ……せめてものお礼だ、これを渡そう。君は一般人みたいだが、なんとか生き延びるんだぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>成功報酬としてアイテムがもらえます！　その他ドロップ表で出しまーす。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　その他ドロップ表（Ｄ６６）　 (ｺﾛｺﾛ…)   ダイス <B>(3＋5) → ３５</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>３５　【試　練　の　腕　輪】</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>アッ。</div>
+<div class="box"><B>追加装備【試練の腕輪】</B>　重量０　　１２００シルバ
+<BR>　全ての判定に－４の修正がつく / 装備した状態でイベントや戦闘を行うと、獲得できる【経験値】が２倍になる</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これは道具屋さんがワイズマンを殺しにかかってますわ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道具屋「（ニヤリ）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【試練の腕輪】って、判定の内容を見てから付け外しできます？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>判定を見ながら付け外しはちょっとズルっこい気がするので今回はナシにしておきましょうか。直前にイベント内容を予想して付け外しするのは有り！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道具屋「フッ……これは、付けるとよりたくさんの経験が積めるようになる腕輪だ。君みたいな人には向いてるんじゃないかな？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「さすがは親父。話が分かる！　我輩が生き延びられたら親父のことを覚えておこう！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>シュッと腕輪を装備しました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、付ける！　では次からしばらく判定に－４です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そのあいだワイズマンさんは買い物を考えておいてくださーい。</div>
+<BR>
+<H2 class=gradientAmini>-　１日目中央エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次、遺跡群を中央に進んだマリー！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えーとランダムイベント！　まずはっと。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ランダムイベント　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　世界の旅Ｄ６６　 (ｺﾛｺﾛ…)   ダイス <B>(6＋4) → ４６</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>４６　＜疲れがたまっている＞！</div>
+<div class="box"><B>＜疲れがたまっている＞</B>
+<BR>
+<BR>　なんだか疲労がたまっている気がする……まあ、寝てないし。
+<BR>判定：【生命】　ジャッジ：健康法について語る。
+<BR>成功：【経験値】２獲得。健康法のおかげで元気だ！　【ST】が４回復する。
+<BR>失敗：【経験値】２獲得。さすがに休まなすぎだ……　【ST】が２減少する。</div><div id=com>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>けんこうほう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、このイベントはすごいラッキーなのでは！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>そうか、さっき箱で潰れた【ST】が回復できるかもしれない！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では遺跡群を歩くマリー、ちょっと疲れてます……っていうかまだ１日目なのに【ST】減ってるとかもうね！　いいんですけどぉ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジ：健康法について語る。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで耳長健康法について語ってください！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ふぅ……長らく歩いていると足がむくみますわね。とくにわたくしのようなレディだとむくみやすい！　そんな日常を送っているからこそ、マッサージは重要ですわ！　１日５０回片足ずつ両手で揉むことでむくみ予防と握力鍛錬を同時に行える……！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>というわけで、小顔ローラーころころしたりしながら健康法というか美容法について語ります！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、修行を兼ねた美容法だ！　ジャッジＯＫです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【生命】で目標値７＋１（日目）－１＝７を判定してください！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>はい！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６＋１>＝７ 【生命】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋1) ＋ 1 </B>＝ <B class=dc>3</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブーッ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>こいつぁひでえ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ちょ、ちょっとまって。待って待って！！！　なにこれ！？
+<BR>声にならないんですけど！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>私もマリーさんをクリアさせられる自信がなくなってきたんですけど！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>なんていったらいいのこのショック！！！　【ST】がメリメリ減るよ！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、しかし待ってください！　ファンブルでも【経験値】が増えたりします！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでファンブル表で１Ｄ６を振ってください！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>１Ｄ６　ファンブル表　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>６：【経験値】４を獲得する。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>あっ、よかった。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>パパラパーン！　【経験値】４をゲット！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>す、すべてはこの【経験値】を手に入れるための布石……（ﾌﾟﾙﾌﾟﾙ）。</div>
+<div class="box">失敗：【経験値】２獲得。さすがに休まなすぎだ……　【ST】が２減少する。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なので、さらに【経験値】＋２と【ST】－２してくださーい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>１日目も終わってないというのに【ST】が初期１０点から４点になりました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>すごい！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「草でもいいから食べたい……」になっていると思われます！　（原作準拠）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーは筋トレも兼ねた健康法を思い出しながら遺跡群を歩いてましたが、またまたずっこけたりして余計に疲れてしまいました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではそろそろワイズマンのお買い物は終わってますかなー？</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（買い物案を検討しながら）うわ、酷い手がある。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>見せてください、ひどい手を！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>まず、【癒しのアンプル】を２つ。５００シルバです。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>残りの１３００シルバで【サボテンの肉】を３２個買います。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ぶふ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>３２個持てる描写を考えろ！　っていわれたら諦めます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああっ、残念ながらシステム上、一度に持てるアイテムは６個までなんですよー。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あっ。</div>
+<div class="box"><B>◆アイテムの所持数制限</B>
+<BR>
+<BR>　片道勇者ＴＲＰＧではアイテムを『６つ』まで持つことができます。これがまた絶妙な数なんですよ！　ちなみに、装備中の武器・防具・追加装備は６つの枠にカウントされませんので、それらも含めれば最大９つまで持つことができます。</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>この後、ワイズマンは最適なお買い物リストを検討した果てに第五稿まで作りました。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【お買い物メモ最終稿】</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　癒しのアンプル×２　５００シルバ</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　ナユタの実×２　６００シルバ</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>これでお願いします！　うぉーリプレイでカットお願いしまーす！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　あとクエストにも関連しますが、【試練の腕輪】は付けっぱなしでよろしい！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えー、冷や汗が出てきますね。ヤバイ。この流れで自然に腕輪を外す理由ってなんだ。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>よし、道具屋を離れてしばらくして、</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「ヌオオオオ、この腕輪を着けていると妙に身体が重い！　重いぞクソオオオ！　これが文献に出てきた【試練の腕輪】かあの親父イイイイイイ！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>という流れで外します。ヤバい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>道具屋「（クックック、何も知らずに苦労するがいいさ一般人……）」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と思っていたとか思っていなかったとか……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>補正－４って、能力４の歴戦の勇者でも一般人並み（０）の能力になりますからね！　ヤバい！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いやいや、無理ですいやいや。</div>
+<BR>
+<H2 class=gradientAmini>-　１日目北エリア　夕暮れ</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、１日目の昼イベント終了！　ここでワイズマンのクエスト公開！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>バアアアアン！</div>
+<div class="box"><B>クエスト　『フォースの導き』</B>
+<BR>
+<BR>・公開条件：　１日目の昼行動後に即座に公開（夜行動を上書き）　【経験値】５
+<BR>
+<BR>・イベント：
+<BR>　旅に出る前、君は何度も不思議な夢を見た。危機に陥った少女を救ったら、そのツテをたどっていく末に君が理力を修得できてしまうという、幸せでいらだつ夢だ。１日目の夕暮れどき、君はまさにその状況の始まりに出くわした。遺跡でゴロツキ２人にからまれている、理術士とおぼしき少女を見つけたのだ！　君のよくまわる口を活かし、【魅力】で目標値１２の判定に成功すればゴロツキたちは退散する。失敗すればゴロツキ２人と戦闘になる。どんな結果でも感謝した少女はついてこようとして、【半獣の理術士シース】を入手する。彼女とは「交流」可能である。即座に次のクエストが与えられる。
+<BR>　ジャッジ：ゴロツキを言いくるめる会話。
+<BR>
+<BR>・クリア条件：　イベント終了する
+<BR>・報酬：　次のクエスト『続・フォースの導き』が即座に開始される。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【経験値】５点をまず加算しました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これで能力上がるかも！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>上がらないんですねこれが！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残念！　さて、ワイズマンが何度も見ていた夢というのは、なんと少女を助けたら色々うまくいった末にフォースを修得できてしまうというハッピーな夢でした！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンが夕暮れどきの遺跡を進んでいると２人の男の声が聞こえてきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ａ「ヒヒヒ、こんなところを１人で女が歩いてちゃいけねえなあ。道案内してほしいんだろ？　手取り足取りさぁ、グヘヘ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ｂ「アニキ、この女、ケモノ病だぜー、触らないほうがいいってマジでー」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ａ「ああん？　どうせ数日で世界がどうにかなっちまうんだ、そんなの知らねえなあ！　ほらよ、このケモノ臭い耳のにおいとか……クンカクンカ……ああたまんねえ！　ヘヘヘ……」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（Ａさんケモナーの素質ありますね）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは、２人のゴロツキにからまれて壁に追いつめられている半獣人の少女がいることに気付きます。少女の頭の横から獣の耳が生えていますね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どうやら少女は声を出せないようですが、耳のにおいをかがれたりしてすごくイヤそうにしてるのは明らかです！　このままだとエスカレートして全年齢でお見せできない展開になるかもしれません！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「まさかこれは……この風景はあの夢の……馬鹿な。あれはただの夢だったはず」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「（馬鹿な。このようなことが……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>基本目標値は……ゴゴゴ、【魅力】で目標値１２！！！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（さらに腕輪なんてつけてたら大変なことになってましたね！）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（いやいや、１２くらい出ますよ余裕余裕）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ジャッジは「ゴロツキを言いくるめること」です！　ワイズマンの行動は……！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（しかし、夢のなかで我輩は……我輩はこう言ったのだ……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（お！？）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ゴホン。そこの皆さん。よいお晩ですね」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>男Ａ「ああん！　なんだてめぇ！？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マントをバッサァとひるがえして出ていきます。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「私は旅のしがない者なのですが、１つ気になることがありまして」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ゴロツキーズはちょっとその堂々っぷりに少しだけおののきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ａ「な、なんだよ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ＡとＢに耳打ちするように、</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「そちらの娘さん、どうやら……『闇』に蝕まれているようですな。おやめなさい。『闇』は飛沫及び体液を通して感染します」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>男Ａ「（え！？　い、いや危ないことくらい何となく分かってる……分かってるけどよ……！）」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ｂ「（だから言ったじゃんアニキ危ないってー！）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（体液……あ、よかった、成人向けにならずにすんだ！）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「このあたり一帯が『闇』に呑まれるまでさほど時間はないでしょうが……免疫のないものが感染すれば地獄のような苦しみに襲われるでしょう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>男Ａ「ええ～！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ｂ「予想以上にヤバいっぽいぜアニキ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「あ、申し遅れました。わたくし理術研究者のワイズマンと申します。どうかあなたがたもお逃げください。彼女はわたくしは責任をもって採取いたしますので」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ゴロツキの目に迷いが生まれました！　ジャッジＯＫ！　【魅力】で目標値は１２→１１！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋４>＝１１ 【魅力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋3) ＋ 4 </B>＝ <B class=dc>8</B>　　<B id=dmis>-3失敗！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おおーっと失敗だー！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あらー、では【覚醒】を使用して、１のほうの出目を振り直します！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　成功率は……出目４～６の５０％！　どうぞ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ああ、ズマンさん！ なんてこった！
+<BR>こんな成功（させるしかない）フラグを立てまくって失敗するなんて！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あらー！　ではさらに【覚醒】！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　これでワイズマンの【覚醒】打ち止めです！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　<B id=dmis>失敗！</B></div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>あっ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブーッ！　ひどすぎる！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>不運は伝染しますか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>不運が飛沫感染したようです。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>おめでとうございます！！　ちくしょう！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>仮に【魅力＋】を２つ取って＋２にしてても失敗してるじゃないですかやだー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もう不運ーズいやだああああああああ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>不運ズに名前かえられた！　始まる前は「高貴っぽいーズ」って呼ばれてたのに！！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>とにかくワイズマンの判定は失敗です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンの説得は、どうやらゴロツキたちには伝わらなかったようです。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>さてどうしよう。ＴＲＰＧらしく力に訴えてもいいのですが。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>男Ａ「でもなんかこいついきなり出て来て嘘っぽくね……？　俺たちがどんだけ強いかこの女に見せつけてやるぜ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ｂ「あーあー、こんなオッサン襲ってしらねえよアニキ。手伝うけどさー」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シャキン！　２人はダガーを抜きました！　戦闘です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（そうだ。我輩は知っているはずだ。このダニどもは口先だけでどうにかできるわけではないと……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なるほど、すでにここまで夢で見ていたんですね、いい解釈！　敵能力は以下の通り！</div>
+<div class="box"><B>ＮＰＣ【ゴロツキ×２】</B>　※自作データ
+<BR>　【LIFE】８　【防御値】７　【反撃ダメージ】６　【経験値】４
+<BR>　【ドロップ】（１Ｄ６×１００シルバ）×２</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>しかし彼ら、２人でもあんまり強くありません！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーから授かった【ショートブレイド】の力があればあるいは……！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>※授かってませんでした。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>授けましたわよ。不運を。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ん？　あれ、キャラクターシートのアイテム情報がクラスの初期状態のままになってる！？　でもオープニングで申告してたんで、ちょっと運命ねじまげていいんで持ってていいですよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーの持ってた予備の【ショートブレイド】がなぜか【ダガー】になります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>一方、ワイズマンの【ダガー】は突然にょきにょきと伸びて【ショートブレイド】に！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ではありがたく【ショートブレイド】を手に取ります！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「（フハハ、なぜ我輩は夢通りに動いているのだ。そうだ。これは夢だ。悪い夢に違いない）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では攻撃判定をどうぞ！　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>目標値７ですが、ここで「温情ジャッジ：かっこいいセリフ」で目標値７→６にします！
+<BR>（普通は攻撃判定にジャッジは付きません）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……かかっておいでなさい悪党共。そして悪い夢を終わらせましょう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いいですね、ジャッジＯＫ！　では目標値７→６です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋０>＝６ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) </B>＝ <B class=dc>5</B>　　<B id=dmis>-1失敗！</B></div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　　</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>アッ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>失敗！　ここまでお膳立てしてもダメェ！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではワイズマンは【ショートブレイド】を持って果敢に応戦したものの、次第に追い込まれ、最終的にゴロツキ２人にダガーをプスプス刺されてしまい、降参します！　闇がすぐそばに迫ってきたあたりで見逃してもらいました！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（そうだ、そして我輩はこの社会のウジ虫どもに手ひどく……クソッ、現実だとここまで痛いものか……ッ）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>男Ｂ「アニキ、闇が来てる！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男Ａ「くっそぉ、邪魔しやがって、オッサンが！　覚えてろー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>すごい、一切私が想定している展開にならない！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>オフラインセッションだったらダイスの交換を提案してるような惨状！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは血を流しながらその場に膝をつきます！　でも致命傷ではありません。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ゴホッ、ゴホッ……だ、大丈夫かね……きみ……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>少女「……！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>少女が近寄ってきてワイズマンを心配します。どうもこの少女、しゃべることができないようです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【経験値】は敗北しても１００％もらえます！　【経験値】４を足してください！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これなら【試練の腕輪】を付けたままのほうがよかったですね、てへっ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>やったー！　レベルアップしましたが【反撃ダメージ】６点から装甲１だけ減らして【LIFE】１１→６です。死にそう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あと完全敗北したので【ST】も－４です！（攻撃判定失敗で－２、全員敗北で－２）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あーっ！　【ST】９→５！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして今更【防御】スキル（【レベル】３習得）を使っておけばいいことに気が付きましたハッハ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アーッ！　さて、このしゃべることのできない少女、闇が来る前にワイズマンが立てる程度には手当てをして肩を貸します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>彼女は何も言いませんがワイズマンをせいいっぱい助けてくれているのはよく分かります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なお少女の姿はこんなのです。もうおなじみです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Sheath.jpg" border="1"></div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「フッ……やはり夢の通りに口がきけぬか。正夢か、あるいは悪夢の続きか……よかろう。行くぞ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>少女はワイズマンの顔を見て、ほほえみながらうなずきます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「どうせいつかは死ぬのだ。ポンコツが１人増えて２人増えて３人になろうと変わりはないに違いない」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで、アイテム【半獣の理術士シース】を入手してください！　</div>
+<div class="box"><B>アイテム【半獣の理術士シース】　重さ０　売却不能</B>
+<BR>　時空の理力使い。装備中のもの以外のアイテム破壊を無効化できる。魔王戦が始まったとき、別ＰＣを同じエリアに呼ぶことができる。「交流」可能、能力値は全て１。受け渡しはできない。次元倉庫には入れられない。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【癒しのアンプル】を使ってシースをアイテム欄にシュート！　【LIFE】６→１１！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>いっぽうその頃……。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ねーイーリス、ワイズマンは大丈夫ですの？　１人で行動して……危険な目にあってないといいのですけれど（【ST】４でゼェゼェ息を切らしながら）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「大変だよ！　ワイズマンが死にそうになってるー！！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ちょ、えええ！？　大丈夫ですの！？　いまから向かって間に合いますの！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「もう終わったよ……とりあえず生きてる、いま女の子に助けられてるよ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ワイズマンは女の子に助けられる星のもとに生まれてきてるんですの？？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「ほんとだよねーマリーといい今回といいねー」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ワイズマンと少女が少し闇から離れた後、少女は上着の内側を積極的に見せてこようとします。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（上着の内側……いやん！　えってぃ！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（そういう意味じゃなーい！）　ワイズマンの反応は？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なんだねキミは。このようなときにそのようなフシダラなことを。親の顔が見てみたいわい」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>少女は顔を赤くします。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「まったく、どんな教育を受けたらそうなるのだ。度し難い。ほれ歩くぞ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ギャルゲ主人公みたいになってるズマン氏。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でも彼女が指さす場所をよく見ると、上着の裏に「シース」って縫ってありますね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>十分賢いワイズマンにはどうやらそれが彼女の名前だろうということが推測できます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……フン。キミの名前はシースか。わかったわかった。歩くぞシース。夜明けはもうすぐだ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あとクエスト報酬として、クエスト『続・フォースの導き』が即座に開始されます！　公開しちゃダメですよ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>はい！　まさかの連続クエストだ！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「（シース……どこまで夢の通りなのだ……くだらん……）」</div>
+<BR>
+<H2 class=gradientAmini>-　１日目　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次、ワイズマンはクエストで夜行動が上書きされてなくなりましたので、マリーさんの夜行動！
+<BR>
+<BR>夜行動は「偵察」「交流」「探索」「進行」の４つから選択可能です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「進行」です（ゼェゼェ）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　では２人は「進行」！　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>移動前に「進行」ルートだけ振りますので、各々【ST】処理してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　マリー　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　３：険しい岩山だ。【日数】に１を足して【生命】を引いただけ【ST】が減少する（最低０）「登山」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ワイズマン　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　５：川を泳ぐ。【日数】に１を足して【意志】を引いただけ【ST】が減少する（最低０）「水泳」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】＝１　です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>減少値は１＋１で【生命】も２、消費なし！ です！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「山生まれですもの、慣れておりますわ」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【意志】１なので【ST】１点減少！　【ST】５→４！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースも川を泳ぎます！　バシャバシャ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ハァハァ、泳ぎは達者だなキミは。フン……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはちょっと困ったような顔でうなずいています。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「いざというときは容赦なく置いていくぞ。覚悟しておくがいい」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>遅れているのはワイズマンです。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>しかし１話セッションがうそのような重い足取り！　１話組はタッタカターって鼻歌を歌いながらスキップしていたのに！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうなんですよ！　実は１話が終わったときに、もう片方に不運ーズをまとめてしまったことに気付いてＧＭの顔は青くなっていました。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>どうも、不運です！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、２日目エリアに移動中、いよいよ合流しそうという頃……夜明け頃に、少女の騎士が住人の避難誘導をしてる現場に出くわしたりしつつ、２人は道を進みます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その隣ではアライグマの獣人が踊っていたり、そのアライグマ獣人が少女騎士に頭をはたかれたりしていますね。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>１話組……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えっ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、この辺で移動先をセレクト！　２日目は雪原！　どこにいきますか？</div>
+<div class="box">【２日目】　地形：雪原
+<BR>　北：？？？
+<BR>　中央：？？？
+<BR>　南：？？？</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>うわー、情報が一切ないやアハハハハ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>こんなときこそ【周辺の地図】？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>実は【周辺の地図】は「遭遇表」を振るときに初めて効果を発揮するアイテムなんですよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そう、【周辺の地図】は次の日のイベントが分かったりはしないんですが、遭遇表での事故は減らせるという感じのアイテムです。
+<BR>
+<BR>……ん？　これどんな遭遇表でも好きに選べるのか！？　すごいな！</div>
+<div class="box"><B>アイテム【周辺の地図】</B>
+<BR>　遭遇表の前に使用でき、使用すると消費される。遭遇表の結果から好きなものを１つ選択できる。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>とりあえず中央にしておきますか、マリーさん？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>では中央で！</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>２日目　雪原</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/02_map02.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　２日目中央エリア　世界の旅</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、２日目エリアです！　お二人は雪原にやってきました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ここは【ST】減少時にさらに【ST】－１されるという恐怖の地形です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ここで魔王と戦うとエラいことになります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※魔王と戦うと一回の攻撃判定終了時に【ST】－1されるが雪原では－２ずつ減少</FONT></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（イベントを見て）あ、今回は【周辺の地図】は使えなさそうですね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えっ、使おうと思ってたんですが使えないとはいったい……ゴゴゴ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>実は、２日目中央のイベントは「世界の旅」でした！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そっかー、「世界の旅」表は遭遇表ではないのかー。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ってエエエーッ！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「世界の旅」は「遭遇表」って名前が付いてませんし、便利すぎるイベントも多いですから、たぶん遭遇表扱いではなさそうです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、雪原でようやく２人は合流しました！　ということで、アイテム交換していいですよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリー視点だと、ワイズマンの方に見知らぬ少女がくっついてますね。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「……ワイズマン、わたくし、人は買ってこいとはいいませんでしたわよ！？　イーリスに『女の子に助けられてる』とは聞きましたが！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（「１１００シルバで女の子１人買ってきたぞー！」）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ふ、ふけつですわ！！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おお、さすがマリー様です。人間が１人増えたことを見抜くとは、すばらしい洞察力をお持ちでいらっしゃいますね」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>すばらしい！？（ワイズマン氏のマリーへの評価よ……）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「さあ、マリー様の分です。どうぞどうぞ」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>【癒しのアンプル】と【ナユタの実】を１個ずつ渡します</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ナユもぐ！　ナユもぐ！！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ちなみにここにタヌキと獣耳騎士もいるんですよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もうそこは通り過ぎてしまいました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、「世界の旅」イベント振りまーす。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　世界の旅表Ｄ６６　 (ｺﾛｺﾛ…)   ダイス <B>(1＋3) → １３</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１３……これ前回も見たことあるぞ……。</div>
+<div class="box"><B>＜大荷物の商人＞</B>
+<BR>
+<BR>　大荷物の商人と遭遇した。あなたを盗賊ではないかと疑っている。
+<BR>判定：【魅力】　ジャッジ：盗賊ではないと説得する。
+<BR>成功：【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。
+<BR>失敗：どうも信用してもらえない。【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>雪原を歩いていると大荷物の商人と遭遇しました。商人は君たちに驚いています！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>商人「うわっ……女の子２人にオッサン……まさか盗賊！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どういう文脈で盗賊になるのか分かりませんが盗賊だと思われました！
+<BR>ジャッジ：盗賊ではないと説得する！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「こんな可憐なレディが盗賊なわけがありませんわ常識的に考えて！」　プンプン。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ここはおまかせをマリー様。落ち着いたら状況報告をいたしましょう」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「わかりましたわ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えーと、判定は【魅力】ですからワイズマンですかね（まあどっちとか問わずあいまいにジャッジしてますけど）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「商人、このボロボロの一般市民たちがどこをどう見たら盗賊に映るのですかな？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>商人「うーん、その怪盗っぽいファッションとか……」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（あっ否定できない）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>商人「君がタチの悪い人買いかもしれないじゃないか、ねえ？　悪いけど女の子は買わないからね！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「闇が迫ってるのに女の子を買う暇なんてないですわ」
+<BR>
+<BR>……シースをチラッ。　「……ないはずですわ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「（困った顔）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なんということだ。世が闇に覆われ、人心もまたそうなりつつある！　おおなんということだ！　そこここを歩く皆様方！　この商人殿はまことひどいことをおおせになる！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>詩人っぽい！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「この商人殿は哀れな人間をいたずらに傷つけるお方ですぞー！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>商人「こ、こら何を言ってるんだ！　まあそこまで弁が立つなら盗賊じゃない……かなあ？　分かったよ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジＯＫ！　では【魅力】で判定！　目標値は７＋２－１＝８です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【好意】を足してもいいんですよねフッフー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>です！　【好意】１なので、最大でマリーからの【魅力】１点が加算されます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋５＋１>＝８ 【魅力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋4) ＋ 6 </B>＝ <B class=dc>14</B>　<B id=dsuc>　+6成功！</B></div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>成功の文字が輝いて見える。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これがさっき出ていれば……。</div>
+<div class="box">成功：【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２人とも【経験値】２加算！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして忘れてましたが、ふたりとも単独で進行したので【経験値】４点を足しておきましょうマリーさん！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお！　いつも通り単独ボーナスを忘れてた！　【経験値】４点も足しておいてください。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>さてさて、さっきのお買い物の残りが７００シルバですので。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>まず【ダガー】を売り払いましょう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　【ダガー】を売って７７５シルバ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではお買い物ターイム！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>７７５シルバで何を買いましょう。買い物してからもう一度買い物するのはＮＧですよね？</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>これは【サボテンの肉】パーティーで全回復してからもう一度お買い物することを想定しています。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１種類１個までならアイテム使いながら買い物してもいいと思います！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１種類１個までなら！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ルールの「アイテム」の項目によると、「判定の途中でアイテムを使用したら判定が終わるまで同じアイテムは使えません」という感じなので、ショップ時も、買い物中にある種類のアイテムを使用したら買い物の終わりまで同じアイテムを使えないものとします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なので【枯れた草】とか【サボテンの肉】を片っ端から１個ずつ買ってムシャムシャしてとりあえず回復するという卑しいプレイができますよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「とりあえず【サボテンの肉】と【動物の肉】を買って、８０シルバで【LIFE】＋５、【ST】＋５は定番メニューかなー？　さらに２シルバの【枯れた草】と【こげた草】で【ST】＋１ずつできるよ？」（※）</div>
+<div class="box"><B>◆【枯れた草】【こげた草】は非売品になりました！</B> (2016/10/22追記)
+<BR>
+<BR>　2016/10/21にエラッタが追加されて【枯れた草】と【こげた草】が「非売品」になり、店では買えなくなりました。このキャンペーン中は古いバージョンで遊んでいたのでこの２つの草を買えていますが、今後の皆さまのプレイでは買えなくなりますのでご了承ください。</div><div id=com>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>じゃあ、【サボテンの肉】【動物の肉】【枯れた草】を８２シルバで購入して食べて【ST】全回復にしておきます。【ST】４→１０！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あ、じゃあそっちの人と同じ定食で。【ST】４→１０です。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>定食！（笑）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>新しく「サボテン動物肉枯れ草定食」という概念が生まれてしまった！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>７７５－１６４シルバで残り予算は６１１シルバです。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あれ、そして【枯れた草】って非売品じゃないのかこれ！　売ってるんだ……。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「非売品」ってかいてないですね！ もぐもぐ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<FONT class="cc">※非売品になってしまいました（2016/10/22）</FONT></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>（にしても酷い定食が生まれてしまった）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>きっとお新香的なものなのかも。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そして砂漠もないのに大量に輸入されている謎の【サボテンの肉】。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>この謎を追うだけで一冊書けそうな話だ……！</div>
+<div class="box">結局このあとの買い物で、２人は以下のアイテムで所持枠を埋めました。
+<BR>
+<BR>【癒しのアンプル】×２　５００シルバ
+<BR>【サボテンの肉】×２　８０シルバ
+<BR>【枯れた草】×１　２シルバ
+<BR>【こげた草】×１　２シルバ</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では振り分け後の所持金一覧を宣言してください。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>残り２７シルバを１４シルバと１３シルバに割りましょう。１３がワイズマンです。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>マリーさんは【枯れた草】か【こげた草】のどちらか１つを手に入れてください。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>じゃあ枯れた方で。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では最終的な所持品は以下の通りですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　マリー：【枯れた草】【ナユタの実】【癒しのアンプル】×２・【サボテンの肉】×２</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　ワイズマン：【周辺の地図】【癒しのアンプル】【ナユタの実】【こげた草】【試練の腕輪】【半獣の理術士シース】</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>商人「いやー君たち草とかサボテンの肉とか好きだねええ！　なんで私こげた草なんて売ってるんだろうねえええハッハ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>なんだこの買い物。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>すごく……和マンチです……（※和マンチ＝和マンチキンの略、意味は検索で調べてみよう）。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「とにかく無事でお会いできて何よりですマリー様」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「わたくしのほうは悪漢よりこれなる少女、シース君を救出した次第です」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースがマリーを見て頭を下げます。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なるほど、そうでしたの。みなおしましたわ、ワイズマン！　よろしくですわ、シース！　わたくしはローズマリーといいますの、マリー様とお呼びなさい！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「（呼べない……）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ん？　人見知りですの？」
+<BR>
+<BR>シースをじーっと見つめます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（口がきけぬのであれば我輩の演技に言及されることもあるまい）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ねぇちょっとー」　シースのほっぺをつんつん。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様、このシース君は口がきけないようでして」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ってあら、そうでしたの」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様が連れていけぬというのであれば……そのときは置いていくこともやぶさかではありませんが……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースが心配そうにワイズマンのマントのすそを握ります。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「いえ、連れていきましょう。かわいいですもの！　かわいいものは大好きですわ！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースは少し笑顔になりました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様ならそうおっしゃると信じておりました」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でもロリって感じじゃないよ１７歳くらいだよ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>女子の可愛いはつまりイイネ！　ってかんじですね！　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>オーイエス！</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　魔王遭遇</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、２日目の日が暮れようとしているこのタイミングで、強烈な威圧感が辺りを支配します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>皆さんの目の前で、空中に理力が渦巻き、長い金髪の若い女性が突然現れます！　黒い衣装をまとい、圧倒的な力のオーラを放つ彼女こそ、ヴィクターの言っていた「魔王」に違いありません！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「貴様らが『勇者』か……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王は空中から君たちを見下ろしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「……何人で来ようと同じこと。力をつける前に、ここで倒しておくとしよう！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、魔王が襲撃してきました！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ゲエッ！　アライグマの獣耳がついた騎士さん助けてー！　なんとかしてー！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>色々まじってる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリア「（聞こえなーい）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>本当にただ背景に出てきただけ！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＮＰＣロリアは「魔王が出ました！　避難してください！」と避難誘導してる感じです！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そんな魔王がクマ扱いみたいな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「フン、私が興味あるのは勇者だけだッ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「同じ勇者でも、あなたとデートしたい殿方がべつにいらっしゃるようですの」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「そんなヤツは知らんな！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>勇者アレンは今頃どこにいるんでしょうね……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さあ、戦闘開始です！　全員で「戦闘」するか「逃走」するか選んでください！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様！　戦いますか！　それとも！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「わたくしたちは！　とりあえずこの寒いところから逃げたい！　のですわ！！」
+<BR>（雪原だと【ST】がモリモリ減るのでプレイヤー的にここに長居したくない！）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「かしこまりました！　走るぞシース君！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではひとまず逃げるということで！　シースはうなずいて一緒に走り出します！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「魔王と戦うのは怖く無いですわ！！　でも寒いのがいや！！　せめて毛皮着たい！　というわけで！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>さっそうと立ち去ろうとします！！　というか逃げまーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「待てぇぇぇーい！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では逃走表！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　逃走表　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　５：背中を向ける勇気が出るか？　【意志】を使用する。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>スキル【ダッシュ】を使います！　このパーティー、【意志】０と【意志】１しかいない！</div>
+<div class="box"><B>スキル【ダッシュ】</B>　消費ST２
+<BR>　攻撃判定以外の判定の前に使用、３Ｄ６を振ってそのうち２つのサイコロを選べる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　ではワイズマンが判定！　【意志】で目標値８です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>まず【ST】１０→８にしてー。３Ｄ６から２つえらーぶ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ﾔｯﾀｰ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>３Ｄ６　 (ｺﾛｺﾛ…)   ダイス <B>(5＋5＋3) → ５、５を採用！</B></div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　 ダイス <B>(5＋5) ＋ 1 ＝ 11　<B id=dsuc>　+3成功！</B></B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功です！　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マリー様の【意志】も足しますぞブハハッ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー：【意志】０</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>０です。ありません。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ブハハハッ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【剣士】は脳筋だからしょうがない！　ではこのまま逃走していきます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「逃げるときはこのように走るのですマリー様！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なるほどためになりますわ！」</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　夜</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では今日の夜行動！　「魔王追撃表」を夜行動の前に振りますのでご注意ください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、マリーさんの夜行動は？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「進行」でー！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>こちらはちょっとリスクが高いですが、「交流」したいです。もう失敗は許されない！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうですね、クエスト条件に「交流」が必要だった場合、ここと３日目で２回失敗するとクエスト達成できない！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>これで全部失敗したら何のために刺されてまで獣耳を拾ったのか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では「交流」！　の前に魔王の追撃です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ドゥルルルルル……！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ところで「交流」相手は？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>はい、シースとおっさん的に「交流」します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、シースとワイズマンが手を取り合って一緒に走っています！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そこへ魔王からの追撃が！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　魔王追撃表　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　２：装備のうちＧＭ指定の１つが壊れる。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>咬み合わないＳＡＤＡＭＥなのかな？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えー、シースは「装備中以外のアイテム」しか守ってくれないので……ワイズマンの装備中の【ショートブレイド】を破壊しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「フハハハ、武器を破壊してやったぞ！　どうだ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「クソッ、ポンコツの剣はポンコツなりに盾になったか！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>文章の意味が意味不明！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>直喩と比喩が混ざりあって字面がカオスだ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>これで服が破壊されてたらもうどうしようもありません。全裸のオッサンなんて救いがありませんよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まったくです！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では２人は魔王から追われながらなんとか隠れられる狭そうな場所に来ました！　シースと息が届きそうな距離で向かい合って隠れてます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マリーさん、はぐれるの巻。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「あれっ、ワイズマーン？ どこですのー？」 すのー すのー…… のー……（こだまする声）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様、わたくしどもは無事でございます。また明日に落ちあいましょう」とイーリス通信。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「わかりましたわー！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では【ST】を－２して、「交流」会話テーマ！　今回は好きなテーマでもいいんですよ。なんか話したいことありますか？（あまりに判定に失敗するので温情のつもりだった）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>じゃあ「会話テーマ」の「３：家族の悩みごとについて話す。【生命】で判定」で……って【生命】かい！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>まあボーナス２点なら８点くらい出るだろう……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブッ。分かりました、あえて小さい能力値で判定する分には止めないッ！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ルールブックのリプレイによると、「交流」は内容に沿った会話ならジャッジが出るようです。【生命】判定の基本目標値は９！　ジャッジＯＫなら８とします！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では家族についての話！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「シース君とやら。こんなときですまないが１つ我輩の生い立ちを聞いてほしいのだ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはうなずきます！　シースは真剣な目で聞いていますね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「我輩は今でこそ詩人などと名乗っておるが、本当は学者なのだよ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはうなずいてます……以降エンドレス！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「理力の名門、ベクター一族と言ったら聞いたことはあるだろうか？」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ワイズマンの苗字です。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なんか聞いたことあるっぽくてシースはうなずいてますね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……フン、まあ知っていようといまいといい。もとよりひとり言のようなものだ。早い話が我輩はそこで落ちこぼれてな。理力などまるで使えんのだよ」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「どうにも持て余され学者などとして糊口（ここう）をしのいでいてな。言われるがままに妻をめとって子を成したが、これが酷い女でな。今では遠いところに行ってしまいおった」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「……続きはまた機会があれば話そう」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>とシーンを締めたいです。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ベクター一族はみんなフォースの使い手ですがワイズマンだけは特別に使えなかった！　と。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースは困ったような顔で聞いてます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これでジャッジＯＫ！　【生命】で目標値９→８をどうぞ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋２＋０>＝８ 【生命】判定！  　私は運がいいほうなんです。
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) ＋ 2 </B>＝ <B class=dc>8</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あぶなぁぁぁぁいギリギリで判定成功！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>スレスレで【好意】ゲット！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではそのとき、ワイズマンの頭に、急にどこからともなく少女の声が聞こえてきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>“あの……聞こえますか？”　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それが目の前２０ｃｍの少女から発せられた言葉であるとどうやって予想できようか！　彼女は口を動かさずにしゃべっています！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「これは『念話』の理力か！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（あ、普通に予想してた、はい）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（一応学者ですから）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “よかった……やっと『波長』が合いました……これでおはなしできます”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “私の名前はシースといいます……少し話をしてくれたおかげで、こうして念話で話ができるようになりました……”。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ひどい、表組は井戸から拾っただけで話ができていたのに。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>半獣同士は闇に侵された者同士でよく波長が似てるのですぐ連絡できたのです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “おっしゃるとおり、これは『念話』のフォースです。私は、理力の研究者なのです”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……信じよう、シース君」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “はい……あ、そのまえに、遅くなりましたが先日はありがとうございました。私、もうほんとうにダメかと思ってて……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “いきなりこんなことをいうのもなんですが、私、どうしても４日目エリアに行かねばならないんです。ある理術士の人に届けなければならないものがあって……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “その人はちょっと変わってて、「どんな素質のない人間にでも理力を習得させられる研究」をしているそうなんです。私は身を守る理力が使えないので、それが本当なら、届け物と引き替えになにか教えてもらうつもりで……”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「どこまでも夢の通り、か……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なおワイズマンはこれまで何十人もの師匠に師事してきましたが、本当に素質がないのか一度もフォースの習得に至っていません！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “お願いです、私は１人では身を守れません。一緒に、来てくれませんか……？　やっぱり、ダメでしょうか……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “あなたがどんなに悪い人でも構いません。与えられるものならなんでも差し上げます。だから……”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「気に食わん。まるで何者かの筋書きに乗せられているかのようだ。ヘドが出る」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>筋書きってＧＭの……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>夢のことですよ！　夢！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>というかこのダイス目群のどこが筋書き通りなんだッ！　もはや反乱でしょコレェェェ！！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>反乱！！！（笑）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、話を戻して……シースはワイズマンを不安そうな顔で見ています。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「構わん。その代わり約束したまえ。何があっても付いてこい。そして我輩が倒れてもマリーに付いて目的を果たせ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クエスト達成にならなくてもシースの目的は達成させようという心意気！　すばらしい！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “……はい！”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とシースも決意を固めた顔になります。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「あのポンコツは尋常ならぬポンコツだが、いないよりははるかにマシであろう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ぽ、ぽんこつ……”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「我輩として同じだ。あのポンコツにすがらねば到底旅を続けることなどできん。無様だと思えば笑え」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “いいえ、私もまったく一緒ですから……すがらせていただきます、ワイズマンさん”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「“ワイズマンさん”……か」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（シースちゃん、ワイズマンの演技については触れないんだなぁ……！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（「悪い人でも構いません」あたりにその意味を込めています！）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（あ、なるほど！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、シースの【好意】を１にしておいてくださーい！　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “私は時空の理力の研究をしていまして、念話や収納のフォースを使うことができます……ワイズマンさんのお荷物は私が守ります……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あとこれは予備情報ですが、並列世界の『ファーストワールド』と同じく、シースも迫害されています。半獣化した彼女がいずれ完全に獣化することを恐れた村人たちは、彼女ののどを焼き、しばって枯れ井戸の底に放置したのです。
+<BR>
+<BR>が、それを、旅立った直後の勇者が助けたそうです。でもその後は放置されました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>おのれなんか長い名前のイケメン僕ちゃんめ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【やたら硬くて強そうで優秀な最強の勇者アレン】ですよ！　覚えて下さい！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>やかつゆさゆア！　みんなも覚えよう！　</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「よし、行くぞ！夜明けはもうすぐそこだ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “はい！”
+<BR>
+<BR>シースはしっぽを振りながらついてきます！　……が、外に出ると魔王が待ってました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>出待ちだー！！！</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　夜明け</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では「進行」処理の前にも魔王追撃表を振ります！　お二人とも１Ｄ６を振ってください。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>１Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　５：【ST】が１Ｄ６点減少</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>１Ｄ６ 【ST】減少　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>【ST】１０から－３で【ST】７です！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！（※ちなみにここで雪原の「【ST】減少時、さらに【ST】－１」効果を適用するのを忘れていました）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーは魔王から必死に逃げてまたちょっとヘトヘトになってしまいました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では次、ワイズマンはー？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　２：装備のうちＧＭ指定の１つが壊れる</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>また！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>また装備が壊れるー！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンの壊せる装備ってもう一個しかない！ → 防具：【旅人の服】</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>うおおゼヌーラ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王の火弾攻撃はワイズマンの【旅人の服】を燃え上がらせます！！　ボオォォー！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ぐああああーーーー！！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>地面をごろごろ転がって消します。詩人消火ローリング！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースも上着でバタバタして消化を手伝います！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王はそれを見て高笑いしていましたが、その顔に疲れが出てきました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「フン……この勝負、あずけておくぞ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って魔王は雪原の地平に去っていきました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうして、ワイズマンの【旅人の服】はすっかり燃え尽きてしまいましたとさ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>防具がなくなりますが、この場合どんな見た目になるんでしょうね。マントは残りますかね。それとも帽子だけでしょうか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あとに残されたのは下着一丁のおっさんです。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>よかった、下着は残った……マントはだめだったよ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、せっかくですから帽子も残しましょうか。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>靴下は無事ですか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>どっちがいいですかマリーさん。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>マントと靴下でも、帽子と靴下でも犯罪臭さぱないですね！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>私は靴下あり派ですね。とりあえずＧＭ的には下着と帽子と靴下と靴だけの紳士にしておきます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>だるんだるんかつそこらへんの一般人より貧弱な足腰の中年ボディーが白日のもとにさらされました。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>どちらにしても丸裸は辛いのでマリーから布切れを借りたことにさせてください。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>あぁっわたくしの寝間着がっ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>寝間着！？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>多分予備で持ってるとしたら寝間着でしょう！　と思いました！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ひらっひらでふわっふわのレースだらけの寝間着です、どうぞ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>大変な旅になってしまった。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「マリー様、お世話になります」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「仕方ないですわね！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ワイズマン氏　女装する　のまき。</div>
+<BR>
+<H2 class=gradientAmini>-　２日目　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では夜行動が全員終了したので、お二人とも３日目へ「進行」します！　移動前に「進行」ルートだけ振りますので各々【ST】処理してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　マリー　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　５：川を泳ぐ。【日数】に１を足して【意志】を引いただけ【ST】が減少する（最低０）「水泳」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ワイズマン　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　４：山で迷った。【日数】に２を足して【知力】を引いただけ【ST】が減少する（最低０）「登山」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】＝２　です。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【ST】が３も減る……！！　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーは川を泳いでいます！　ゴボッゴボボ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「わたくし泳ぎうまッゲボッゴホッ」　ｻﾞﾊﾞｧｰ。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>【ST】７→４になりました……。（※またＧＭが雪原の【ST】－１効果を忘れています）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>こちらは【知力】でよかった！　【ST】消費ゼロ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは山に入りましたがその【知力】ですいすい進んでいきます！　シースが感心しています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “すごいんですね、ワイズマンさん……！”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「知識だけで経験が伴わねば役に立たないのは確かだが、無いよりはマシなものだな」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「さあ、手を出せ。引っ張ってやろう」　的なやりとりが。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ふふ……すみません、ミスター”　（でもワイズマン氏、マリーの寝間着姿）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「笑ったのか！　キミはいま笑ったのか！　おのれ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “すみません～！！”</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、どこへ移動しますか？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>この移動後タイミングでクエストが発生すると昼イベントが消滅するのでご注意ください。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>何かが起きるのかなー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあ、移動先チョイス！</div>
+<div class="box">【３日目】　地形：草原
+<BR>　北：？？？
+<BR>　中央：？？？
+<BR>　南：？？？</div><div id=com>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>じゃあ北！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>おっと。ついていったほうがいいですか？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ついてきてほしいかどうかは答えても問題ないですよ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>来てくれたほうが嬉しいです！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>じゃあついていきます。北へ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>わーい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>美しい友情！　マリーさんは詩人の【英雄の歌】で達成値に＋３できると強いですもんね（出目が３でも問題ないという意味で）。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ﾊｲ！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>最低限【ベルセルク】を覚えてくれるところまではきたので、【レベル】７まで達してくれなくても十分魔王をやっつけてくれるだろう的な計算をしています。</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>３日目　草原</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/02_map03.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　３日目北エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、では３日目エリアです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>雪原を抜けると徐々に草が生え始め、次第に景色は緑あふれる大地になっていきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>３日目北エリアは「野外遭遇」！　でしたが……！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、マリーのクエストがここで公開です！　バーン！　昼イベントは上書き！</div>
+<div class="box"><B>クエスト　『マリーと勇者』</B>
+<BR>
+<BR>・公開条件：　３日目に到達した時点で即座に公開（昼イベント上書き）　【経験値】１０
+<BR>
+<BR>・イベント
+<BR>　城で別れた３人目の勇者。旅の途中、君はその『勇者』の居場所を耳にした。行ってみるとそこには２体の【キラーハウンド】に追われる勇者がいた！　【筋力】で目標値１０の判定に成功すれば先制攻撃でそのうち１体をしとめることができ、戦闘する【キラーハウンド】が１体だけになる。この戦闘で攻撃すると、成否にかかわらず勇者から【チェインクロス】をゆずってもらえる。これを身に付けたまま魔王に勝つことができれば、君の『魂』は防御力の重要性を理解し、さらに強くなるだろう！
+<BR>　ジャッジ：すばやくキラーハウンドに奇襲をしかける描写。
+<BR>
+<BR>・クリア条件：　【チェインクロス】　を装備したまま魔王を倒す
+<BR>・報酬：　【伝説Ｐ】３０　＋　特徴【やたら硬い】をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まずマリーさん【経験値】＋１０しておいてくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>うおー、すごい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【経験値】２２になりまして、【レベル】が７に。つよい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【大激震】のダメージ忘れないようにしてくださいねー。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、丘を越えると勇者アレンが【キラーハウンド】２体に追われているのを発見します！　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様、あのお方は」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ん……あそこに見えるのは……あー、アラン？！」（間違いです）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレンは割と余裕そうな顔で逃げてます！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ほっといてもいい気はしますが、乗りかかった船ですわね」と剣を抜きます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「わたくしは知っております。あのまま集落へと魔物を引き連れて混乱を引き起こし、略奪する気なのでしょう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お、さすが！　言わなくても分かりましたか。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マジで！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マジです。アレンは装甲１５相当あります。【キラーハウンド】２体くらいどうにでもなります。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ふぁ？！　そんなことするのが勇者でいいの！？！！」（素が出てます）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「わたくしどももそのご相伴に預かるという手も……まあマリー様ならそのような選択はなさらないでしょうな」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「許すまじアラン！！　村人たちのため、（キラーハウンドを）成敗！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではジャッジタイーム！　今ならマリーは奇襲をしかけられそうです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジ：すばやく【キラーハウンド】に奇襲する描写！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>そのまま剣を引き抜いて標的を絞り込むように目を細め、片方の【キラーハウンド】に対し踊るように切り込みます！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーの視界に【キラーハウンド】のお尻が迫ります！　果たして一撃でしとめられるのか！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジＯＫです！　目標値１０→９！　マリーが【筋力】判定に成功すればキラーハウンドを１体即死させられます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>Ｑ.ワイズマンさん、詩人的な支援をいれますか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>まあさすがに【筋力】５＋【好意】１の基本値６で目標値９に届かないことはないでしょう。さすがに。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おっと、すでに出目３でＯＫだった！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様、そこです！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【好意】は足せるんでしたっけ？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、クエストの判定では【好意】による能力値加算ができます！　ワイズマンの【筋力】分＋１できますね、【筋力】で目標値は９です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ファンブルにならなければって言うとファンブルになる法則があって私怖いです！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もうさっき出たでしょおおお！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>２Ｄ６＋５＋１>＝９ 【筋力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 6 </B>＝ <B class=dc>16</B>　<B id=dsuc>　+7成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>出目１０！　うひょー過激！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ああああああ、怖かった！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではマリーは残像を残しそうなほどの駿足でキラーハウンドに追いつき、細剣を突き立てて１体を仕留めます！　プシャー！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「まだ来ます！　構えてください！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>そのまま迎撃の構えをとります！　「わかっていますわ、ワイズマン！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残り１体の【キラーハウンド】がマリーに気付きます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>キラーハウンドＡ「グルルル……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレン「おお君か！　２日ぶりだね！　一匹しとめるなんて思っていたよりやるじゃないか！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「あいさつより先にすることがあるのではなくて？！」　視線をむける余裕すらありません。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>マリーから見れば非戦闘員が２人ですからね、守らないと！</div>
+<div class="box">【キラーハウンド１体】
+<BR>　【LIFE】２０　【防御値】１０　【反撃ダメージ】５　【経験値】４
+<BR>　【ドロップ】　【ナユタの実】</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ダメージ５なら、マリーの装甲なら反撃されてもほぼ傷を受けませんよね。よかったよかった。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>この場合、ズマンが参戦しないことって可能なんですっけ。２Ｄ６＋１で１０に届かせるのはちょっと厳しい気がします。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>『片道勇者ＴＲＰＧ』の戦闘は基本的に強制参戦です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>よーし、やるかー！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>……でも【LIFE】２０はいけるのかしら。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>倒せるかどうかは、マリーがどこまで全力出すかにかかってますね。目安を計算しましょうか。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えーとまずマリーの１Ｄ６が２しか出ないと仮定すると、通常攻撃だけで</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【レベル】７＋武器（２Ｄ６＋１）＋【好意】１　＝　１３　ダメージになる計算ですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【強打】を入れれば＋３Ｄ６なので＋６！　合計１９！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「ほら、これでどうかな！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>いけそう！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>では先にこちらから攻撃します！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　さあ【防御値】１０を破れるか！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２Ｄ６＋１>＝１０ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 1 </B>＝ <B class=dc>9</B>　　<B id=dmis>-1失敗！</B></div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ズマンさああああん！！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残念、惜しくもワイズマン失敗！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “ワイズマンさぁあああーん！”</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>攻撃判定に【好意】は加算できないんですよねー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい！　ワイズマンはキラーハウンドにじゃれつかれて再び服がむかれていきます！
+<BR>ワイズマンさんは５ダメージと【ST】－２です。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「あーーーっ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>続けて攻撃！　【強打】もぶちこみます！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６＋５>＝１０ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 5 </B>＝ <B class=dc>15</B>　<B id=dsuc>　+5成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>攻撃は成功！　ダメージ算出をどうぞ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>２Ｄ６＋１＋７＋１ 【耳長の細い剣】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋1) ＋ 9 </B>＝ <B class=dc>11</B>　ダメージ！　（１ゾロ！）</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>オイ。こらちょっと。
+<BR>
+<BR>……待ってなにこれちょっとまって本当に待って欲しい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ギャアアー１ゾロ！？　ダイス１個あたり出目平均２ずつくらいはさすがに出るだろうと思ったらマリーさんがさらに想定の斜め下を突き破っていくゥゥゥー！！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>まだ【強打】があります！！！！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>３Ｄ６ 【強打】！　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3＋3) </B>＝ <B class=dc>10</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>【強打】に救われた……！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>合計２１ダメージ！　【LIFE】２０を突破！　残ったキラーハウンドも倒せました！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【強打】を使ったうえで薄氷の勝利！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>私このセッションで何回１が出たんだろう……【ST】２になりました！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、【大激震】を忘れてた！　どっちにしろ【強打】しないと足りなかったのでこれでＯＫです！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ああ、【大激震】って常にダメージ＋３なんですね？　複数じゃなくても！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イエス！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>今回はあってもなくても同じでしたが、次回から忘れないようにしましょう。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>はーい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>常駐スキルの効果を覚えておくのは意外と難しいですよねー。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてワイズマンが【防御】使い忘れている説。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いえいえ、ここで素通しにすることでサボテンを食べるとちょうどよくなるんですよ。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>別に【防御】スキルの存在を忘れていたわけでは、あります。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>……忘れないように、します。【防御】さん……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えーと、アクティブスキルは覚えておいてください……って【防御】は攻撃判定前に使うのか！　これは無理だ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ズマンの頭に枝をくっつけて「【防御】」と書いたお札を垂らしておこう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いやいや、これ【防御】の判断がかなり難しいですよ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ですよね、必ずダメージを受ける魔王戦ならいいんですけどね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひとまず、ワイズマンは再び半裸になった上で【反撃ダメージ】５と攻撃判定失敗の【ST】－２してくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ハァハァ、さすがですマリー様！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>【LIFE】１１→６、【ST】８→６に！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ワイズマンさん……何度もボロボロになって……”</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ワイズマン、シース、とくにケガはなくて？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー様のおかげでこの通り生きてはおりますぞ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「無事……無事ではありませんわね、わたくしの寝間着……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あと【ナユタの実】ゲットです！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>この【ナユタの実】はここで食べさせていただきます！　もぐ！　ナユもぐしたので【ST】が２→９に！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「マリー殿、差し支えなければ【サボテンの肉】をいただけますかな、ゴフッ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「しかたないですわねー！」と手渡し。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>刺さるサボテン！　食べて【LIFE】６→９、【ST】６→９になりました。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「えーい」　サボ肉の針でちくちく。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、マリーはキラーハウンドに【強打】を叩き込み、無事倒すことに成功します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>キラーハウンドＡ「キャウン！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレン「まさか君がこんなに強いとは……華奢な女の子だと思っていたけど、予想外だよ」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「世界一強いローズマリー様ですもの、あたりまえですわ！　おーっほっほ！　っていうかアナタは余裕で倒せたでしょうに、なんで倒さなかったんですの？」　改めて聞きます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「魔物による惑乱。まさかこの目で見ることになろうとは。それが『勇者』のすることですか。恥を知りなさい！」（ご相伴に預かるなどと言っていた口はどこかに置いてきた）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「まさか、誤解だよ！　倒せないことはないんだけど２体相手だと疲れるからね！」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>※２体だと攻撃力的に１人で倒しきれない、の意。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>という言い訳をしていますがやっぱり街にトレインする気だったんじゃないか説はぬぐい去れません！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「いけしゃあしゃあと！　キー！　これだから人間は！！」　毛を逆立ててそうな警戒度！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「でも……きみとはいいライバルになれそうだ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ライ、バル……？　え？　なんの？（わざと）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「フッ、まあいいさ。僕はね、この戦いが終わったら恋人と結婚するんだ。君には負けないぞ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「あ、それ死亡フラグっていうやつですわ！　きいたことがありますもの！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「ハハハ！　それじゃ！　また会おう！　魔王を倒すのは僕さ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「どうせなら本当に倒してくれたまえ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「もちろん！　そのつもりさーー！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ライバルっていうのでしたら、せめてもう少し条件を平等になさい。装備とか、装備とか、装備とか」
+<BR>（訳：クエストがクリアできなくなるから【チェインクロス】ください！！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ！　クエストに書いてあるのに完全に忘れてた！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>よかった！　そういう仕込みなのかと！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレン「ごめん完全に忘れてた！　装備くらい平等にっていったよね、これ余ってるからあげるよ！　僕には不要なものだからね！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>勇者アレンから【チェインクロス】をゆずってもらえます！　すみません、もう少しでバグでクエスト達成できなくなるところだった！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>（セリフで引き出せと試されているのかと思った！！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（見事に手順メモに書き忘れていたのとキラーハウンド戦で頭から抜けてしまいました）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「じゃあ受け取って差し上げますわ！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>というわけで装備装備。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ん？　じゃあマリーがこれまで着ていた【旅人の服】は……ワイズマンに！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>私はワイズマン。旅に来たりて女装をためらわない男。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>マリーのきていた、スカートとセットの、華美な刺繍の施された服を差し上げましょう。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ありがとうございますマリー様。これで人心地がつきました」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もうワイズマンの衣装がめちゃくちゃすぎてカオスなんですけど！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「色々突っ込みたいですわ。ウエストとかはちきれそうですわ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ワイズマンさん……なんだかその……立派なかたなんですね……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリスも吹き出しそうなのをこらえてます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「文献によれば男がスカートを履く地域というものも存在しているとのこと。それになにより、ぼろきれをまとうよりは遥かに人間的！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはうなずいています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリスがプホッ！　とか言ってますがワイズマンには聞こえなかったのでしょう。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>マリーはもう笑いを通り越してあきれています（ひときしり腹筋が痛くなるまで笑った後）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「宴会芸でこの手の変装と、それで笑いを取ることには慣れておりましてな。ブハハハッ」</div>
+<BR>
+<H2 class=gradientAmini>-　３日目北エリア　夜</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、魔王のいない３日目の平和な草原の夜です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では夜行動！　まずマリーさんから！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「進行」！　で！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　ワイズマンさん！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>許されるなら「探索」！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>んじゃ「探索」しましょうか！　ぱぱっとやりましょう！　ワイズマンのみ【ST】－２してくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【ST】９→７！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ６　ランダムイベント表　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　【日数】（３）以下なら世界の旅、超えていれば野外遭遇
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B>　　３超え！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】超え！　なので野外遭遇表！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>野外遭遇、つまり「遭遇表」ですね！　【周辺の地図】が使える！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イエス！　ここは幸い草原！　よかったね！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いでよ、なんかいいイベント……って野外遭遇って全部敵イベントじゃないかー！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>選べば「希少動物」とか「盗賊」の出現を狙うことが可能ですよ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ズマンさんなら希少動物ですよね！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>では【周辺の地図】を使用！　「希少動物表」をお願いします！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　４以上なら希少動物が出現してウハウハです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　希少動物表！　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　　はずれ</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>チクショオオオオオ！</div>
+<div class="box"><B>＜『緑の森』団員＞</B>
+<BR>
+<BR>　【『緑の森』団員】１体と遭遇する。今回のセッションで【雪ウサギ】【山岳ゴート】【遺跡白馬】【草原カワウソ】【砂漠キツネ】のいずれかを倒したことがあれば、戦闘が発生する。戦闘にならなかった場合はなごやかに別れる。</div><div id=com>　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>わあ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>５０％の確率でおいしいことが起きるはずだったのですが。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>団員「あら、こんにちは」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>団員「あなたたちからは……クンクン。希少動物を殺したにおいはしないわね！　ＯＫ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>匂いでわかるの凄い。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「どういたしまして。私はあいにく動物が苦手でしてな」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>団員「それがいいわ。もし希少動物を狩ったら……シャキーン（矢を抜く）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「たいした環境愛でいらっしゃる。ではどうかお気をつけて」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>団員「ええ、ではよい旅を！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでなごやかに別れました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【周辺の地図】を減らしておいてくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「あれが危険団体……フン、好かんにおいだ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>危険団体呼ばわりだー！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではこれで３日目の夜行動、終了です！　あっという間だった！</div>
+<BR>
+<H2 class=gradientAmini>-　３日目　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではお二人とも４日目へ「進行」します！　移動前に「進行」ルートだけ振りますので各々【ST】処理してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　マリー　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　４：山で迷った。【日数】に２を足して【知力】を引いただけ【ST】が減少する（最低０）「登山」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ワイズマン　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　１：少し荒れた地形が続く。【日数】から【筋力】を引いただけ【ST】が減少する（最低０）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　【日数】＝３です。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>きーんーりょーくー！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ちーりょーくー！！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>とりかえっこしたい！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>３－１で２点減少！　【ST】７→５！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>しかしこんなこともあろうかと、食べ物はたくさんあります。セーフセーフ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーさん直撃で【ST】－５か！　ヤベエ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ゲフゥ！　【ST】が９から４になりました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースもぜえぜえ言いながら荒れ地を歩きます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーは山で迷いました。すごく迷いました。出てくる頃にはボロボロでした……。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「山生まれなのに山で迷った……うう、違う山だから……？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「さすがに不眠不休では……厳しいな……！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>さて、個人的な都合で４日目は中央にいきたいです。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>じゃあ、合わせようかな。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マリーさんが同行するか否かは自由ですが、同行しても得はないです。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>魔王戦がはじまったらシースの力で合流できますからね。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>あ、そっか。どうしようかな。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>質問！　マリーさんのほうに魔王が現れたらシースの力で合流しにいけますか？</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>それともズマンのほうに来たときだけ引き寄せ可能ですか？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、後者の「ズマンのほうに来たときだけ引き寄せ可能」ですね。自主的な転移はできるとは書いてない！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんかシステム的に欠陥だぞこれ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ゲーム的にはそれでもいいんですがシナリオ的にはちとまずい。ではマリーさん、すみませんがぜひ中央へ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>はい、中央いきますね！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ありがとうございますマリー様。どうやら私の因縁を感じるのです」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２人とも中央で！　マリーが１人で魔王倒しちゃっても面白いんですけどね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ズマンが間抜けになっちゃう！</div>
+<BR>
+<a name=S7></a><H1 class=gradientA>４日目　火山</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/02_map04.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　４日目中央エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではお二人は４日目中央エリアにやってきました！　草原を抜けるとそこは草一本生えていない火山でした。できたてほやほやの溶岩だまりが見えたりするかもしれません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>火山を歩いていると中腹にぽつんと家がありました！　ここは「理術士の家」です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ここに何かあるんですの？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「私は、ずっと同じ夢を見ておりました。マリー様と出会うことも、シース君を助け出すことも、そしてここへたどり着くことも夢で見ていたのです」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「まるで予知夢ですわね」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「こうしてマリー様の服をいただくこともすべて……」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「いやそこまで！？！？！　服の予備もってればいいんじゃなかったんですの！？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「夢で見たことを変えてしまい、結末が変わってしまったら……私はそれを恐れたのです」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「女装するリスクをおかしてまで得たいものがあったんですのね？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お、おう……ではここでクエスト公開です！　ドドーン。</div>
+<div class="box"><B>クエスト　『続・フォースの導き』</B>
+<BR>
+<BR>・公開条件：　【半獣の理術士シース】からの【好意】を１以上にする。
+<BR>　　　　　　　　４日目の中央地点に到達する。　　【経験値】５
+<BR>・イベント：
+<BR>　理術士シースと話をしたところ、驚くべき事実が明らかになる。なんと、どんな素質のない者にでもフォースを扱えるようにできる研究をしている理術士が４日目中央地点に住んでいるというのだ。君は個人的な野望を叶えるべく、その理術士に会いに来た。イベント終了後、【火炎】を修得し、アイテム【達人の理力】を得る。この力で魔王を倒す手助けができたなら、理術士からさらなる導きを得られるだろう。
+<BR>
+<BR>・クリア条件：　ＰＣのいずれかが魔王撃破エンドをむかえる。
+<BR>・報酬：　【伝説Ｐ】４０　＋　クエスト『理術士への道』アンロック</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ヤー！　【レベル】７になりました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、お二人は理術士の小屋にやってきました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースによると、ここには「どんな素質がない者」にでも理力を習得させられる研究している理術士がいるそうです。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>扉をノックノック！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ノックして出て来たのは……１人の老人でした！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ズマンが知っている人ですかね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そこまでお見通しとは！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>理術士「おお……そなたは確か……ワイズマン君ではないかね？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そこにいたのは、なんとかつてのワイズマンの師匠、理術士ハキムでした！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こんな感じの人です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_Main_Hakim.jpg" border="1"></div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生……再びお目にかかることができるとは」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「うむ、わしと『同じ名』の生徒じゃったからな、よく覚えておるよ……」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「お知り合いですの？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「彼は、昔のわしの生徒じゃったんじゃよ……結局、何も教えることができんかったがな」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「いえ！　今となっては一族の道からは外れましたが！　この通り立派に生きております！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「それならよいのだが……まさか、わしの指導でまったくフォースを習得できん者がおるとは思わなかったのだ……あのときはすまんかったな、ワイズマン君」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おお先生、私の才能のなさこそが全て悪かったのです」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「逆じゃよ、ワイズマン、おぬしには『特別な素質』がある。それがまさにフォースの習得を困難にしていたのだ」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「『特別な素質』とは、一体」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「素質の話は長くなるので後で話そう。……今わしがやっている研究は、その『特別な素質』さえも乗り越えてフォースを修得させられる術なのだ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「この術こそ、まさに君のためのものなのだよ、ワイズマン」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生、私はフォースを自ら行使することへの未練を捨て去ったつもりです。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>これが何かの冗談であるならすぐに撤回していただきたい！</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>それなら私はすべて諦めたままでいることができる！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「無力な一般人でいることができる！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「いいや、あきらめてはいかん。そなたこそ真に理力を得るべき者なのじゃ。ワシは『努力』は教えたが『あきらめること』は教えておらんぞ？」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「（……さすがに黙ってたほうがいいですかしら？）」　イーリスにひそひそ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「（なんかシリアルだよねー）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「（それは食べ物ですわよー！？）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（私はさっきから「ハ」の字が「ム」に近くてムキムさんに見えて仕方がないんですよ！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ムキムキさん！？　それはそうと、ハキムは後ろにいるシースに声をかけます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「そのまえに……きみがシースかね。荷物を届けてくれたのだろう、預かろう」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースが亜空間から取り出したのは一本の杖でした。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「よし、これならばできるじゃろう。これが例の美人の占い師にもできん秘術だ……ワイズマン、そなたにフォースを授けてやろう！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>有無を言わさず、ハキムさんはワイズマンの頭に杖を置きました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「世界の終わりに来てくれてありがとう。いまこそ研究の成果を見せるときじゃ……これはそなたの『素質』の壁をも上回る力！　いつか『素質』を使いこなせるようになったとき、理力もまたそなたの身に付くだろう！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、ワイズマンの体の底から不思議な力が湧き上がります！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「これは……理力の流れを感じる！　いくら理論を学んでも体で感じることができなかった力が！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そう、これこそフォースの力！　ワイズマンは生まれて初めて【火炎】を修得できました！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「いいなー……（チラッ）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「だがこれは種火に過ぎぬ。ここから真の理力の道を歩むなら、そなたの『素質』を活かすための心の鍛錬が必要じゃ。今のままのおぬしでは道は開かれぬ」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「フッ……鍛錬ときましたか。このような世界の終わり際に鍛錬と」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「今は分からぬかもしれん。だが誰かを守るためにその力を使えば、自ずと理術士への道も開かれるはずじゃ！　『これから』のう！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「これから！　これからですって！　ハハハ！　これから先に何があるというのか！　どうせ夢の通りなら、もう世界は終わりなんですよ！　もうこの辺りを残して世界は『闇』に喰われてしまっているのでしょう！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「案ずるな、おぬしにはまだその『先』がある……」　ハキムはにやりと笑います。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……いいでしょう。あとどれだけ時間が残っているのか分かりませんがこの私に宿った力、無駄にはしないつもりです」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「（ワイズマンが見たことのない表情をしてて面白いですわ……なんか、やっと人生がはじまった、みたいな）」と微笑ましく見ています。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「うむ……あと、困ったことがあったら言いなさい」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、ワイズマンはアイテム【達人の理力】を取得します。どうぞー。</div>
+<div class="box"><B>アイテム【達人の理力】　重さ０　売却不能</B>
+<BR>　いつでも使用でき、使用すると消費される。使用すると、理術士ハキムが最後の力を振り絞り、フォースリストの中から【ST】消費なしで好きなフォースを１回だけ使うことができる。代償としてハキムは死亡する。次元倉庫には入れられない。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あ、次元倉庫には入れられないんですね。そりゃそうか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>一言目がそこ！？　ワイズマンっぽいですけどー。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ＰＬ的発言です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>使うとおじいちゃんが死んじゃうところが大事なのに！</div>
+<BR>
+<H2 class=gradientAmini>-　４日目中央エリア　魔王遭遇</H1>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なんだかよく事情はわかりませんが（【知力】０）、おめでとう、ワイズマン」とパチパチ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースもよく分からないなりにパチパチしてます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生……」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「わたしたちと共に、行きませんか。どうせこの世界が終わるのであれば、共に語らいたいものです。遠いあの日のように……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「行くならまずは一仕事終えてからじゃのう……おぬしはそのために来たんじゃろう？」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「先生！　私も理力は覚えられますか！」　シュビッ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「もちろん後ろのお嬢ちゃんたちも覚えられるぞ、どれ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と言った瞬間です。ハキムの家のドアがノックされます！　ドンドンドン！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えっ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「おや、また客か。今日は本当に客が多いのう」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ノックしてくるんだ。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「新聞なら間に合ってますわよ、魔王様」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーがそう言うと……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>バァン！　ドアが吹き飛ばされ、炎が吹き出します！　そこにいたのは……魔王でした！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「一度相対した気配は忘れませんわよ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「なら話は早い。隠れても無駄だぞ、勇者ども！　救済への希望、ここで断ち切ってくれよう！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちょっぴり演技っぽく言って魔王は剣を抜きました。さあ、決戦です！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「……わたくしたち以外の勇者とは会いまして？」
+<BR>
+<BR>と尋ねながら剣を抜きます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「貴様ら以外の勇者に会ったことはないぞ！　勇者っぽい気配すら感じなかったな！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「アレン何してるんですの……？　あのむかつくイケメンボーイは！　もう世界の果て、だというのに！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えーとちょっと待ってくださいねー。戦闘前に回復しまーす。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ここで回復タイムですと！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「くっ、早く回復しろ！」（正座）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【こげた草】を食べます！　【ST】５→６！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「先生、どうか隠れていてください！　シース君を頼みました！」　モッシャモッシャ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（セリフはかっこいいけどぉぉぉ！！）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「う、うむ……！　シースもこちらへ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「頼みましたわよ！」　といっしょにいっておこう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “どうか……負けないで……！”</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>こっちも【枯れた草】モシャしとこう！　減らします！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで決戦です！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ふぁふぉう！　ふぉふぉふぇふぃふぁふぁふぉふぁふぉす！」　モッシャモッシャ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うん、なんだろう、魔王の前で草ムシャムシャしてる２人。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンに至ってはウェストきつきつの女服だし。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>女装で徒手空拳！　しかし気合は十分です。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「一族の道を外れて～」って言葉、完全にハキムさんに別の意味で捉えられてないかな！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ホントだよ！　いろいろ道を外れすぎですよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ご覧ください、これが１話組との違いです、皆さん。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それではバトルスタート！　魔王のスペックは以下の通りです！</div>
+<div class="box"><B>モンスター【魔王】</B>
+<BR>　【LIFE】８０　【防御値】８　【反撃ダメージ】６＋火炎３
+<BR>　（毎ターン【ST】－１される）</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>攻撃判定の目標値は８！　逃げるも戦うも８！　もちろん戦います、よね！？</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>戦います！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【火炎】攻撃です！そして【防御】の使用も宣言します。【防御】で－３、【火炎】で－１で【ST】６→２！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>２Ｄ６＋５>＝８ 【知力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 5 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+3成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマン、早速【火炎】のフォース！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>よかった、頭から垂らした【防御】札が無駄にならなかったぞ。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>【火炎】は達成値が威力になるので１１点ダメージ！　さらに【レベル】７を追加！　さらに【好意】も足せるので、判定１１点＋【レベル】７点＋【好意】２点で合計ダメージ２０点！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【強打】します！　【ベルセルク】もします！　【ST】は５→３へ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６＋５>＝８ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋4) ＋ 5 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+5成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お二人とも普通に成功！　</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>２Ｄ６＋１＋７＋１ 【耳長の細い剣】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 9 </B>＝ <B class=dc>17</B>　ダメージ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>３Ｄ６ 【強打】　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋2＋3) </B>＝ <B class=dc>6</B>　ダメージ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６ 【ベルセルク】　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋5) </B>＝ <B class=dc>11</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>【大激震】でさらにプラス３！　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマン、２０ダメージ！　マリーのダメージは……１７＋６＋１１＋３で３７！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>で、合計５７ダメージ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーのすさまじい連撃で魔王の結界はバリバリ剥がれ、ワイズマンの【火炎】がさらにその結界をそぎ落とします！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「わたくしの剣術は誰にも負けない！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王の【LIFE】、残り２３点！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それでは魔王からの反撃が飛んできます！　お二人とも【反撃ダメージ】受けておいてくださーい。６＋火炎３のダメージと、毎攻撃ごとの【ST】－１です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【チェインクロス】なら【火炎】ダメージ－１できます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>反撃で物理１点＋火炎３点の４ダメージを受けます。【LIFE】９→５！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして【火炎】を浴びながら焼き【ナユタの実】をほおばる！　【ST】２→１になってからナユタで【ST】１→８です。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【反撃ダメージ】は１＋火炎の２と【ST】１かな。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>こちらもナユもぐして、【LIFE】１５→１２へ、【ST】は２→９へ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーさんは装甲のありがたさが分かる描写を、ワイズマンさんはフォースに感動する描写を入れてもいいんですよ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「いい防具があると、戦いやすさが違いますわね！　無駄に避ける必要がないぶん、攻撃に集中できるッ……！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「くっ、我が火弾さえ通りきらんとは……！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「これが、このほとばしる力が理力！！」（ムッシャムッシャ）</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「しかし猛烈な脱力感だ……これも理論通り！　素晴らしい、素晴らしい！　　例えるならば背中より新しく生えた翼で大空を飛翔したことによる心地良い疲労感！　素晴らしい！！」（ムッシャムッシャ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アアア戦闘中に食べる描写ァァー！！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なんだかよくわからないですけど（【知力】０）、よかったですわねワイズマン！　なんか楽しそうで！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次の攻撃判定！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【防御】を使用、【火炎】攻撃！　【ST】８ →４！</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>２Ｄ６＋５>＝８ 【火炎】で【知力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 5 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+3成功！</B></div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>達成値１１＋【レベル】７＋【好意】２でダメージは２０です！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンの放った燃えさかる火炎が激しく魔王の結界を破っていきます！　魔王、残り【LIFE】３！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「やるな……さあ、来い！　勇者の力を見せてみせろ！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【強打】！　は……いらないか。通常攻撃！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６＋５>＝８ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋2) ＋ 5 </B>＝ <B class=dc>8</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ぶほっ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>こわい！　出目３って！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>こわ！！！！！！　どんだけギリギリなの！！！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６＋１＋７＋１ 【耳長の細い剣】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 9 </B>＝ <B class=dc>14</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>２Ｄ６ 【ベルセルク】　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) </B>＝ <B class=dc>9</B>　ダメージ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>トドメヲサセー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではマリーの攻撃が２３ダメージ！　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>過剰火力が魔王を襲う！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ではマリーがとどめを！　「てぃやー！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２０＋２３ダメージで２０点分のオーバーキル！　魔王は、マリーのすばやく繰り出した細剣に結界ごと胸を貫かれました！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ふっ……やはり最強はこのわたくし……！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「（血を吐きながら）ゴフッ……そうだ……これで……いい……」
+<BR>
+<BR>それだけ言うと、魔王はドサリと床に倒れました。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「……？　どういう、意味ですの……？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>しかし、その言葉にこたえてくれる者は誰もいません……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これにて戦闘は終了です！　マリーさんは【ベルセルク】の反動受けておいてくださーい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>【ST】が９から３へ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ブシューッ。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあ、おめでとう、お二人は魔王を討伐しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>窓の外を見ると、これまで追いかけ続けてきていた『闇』は動きを止めています！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ご覧になりましたかマリー様！　わたくしだってやるときはやるのです！」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ええ、よかったですわね、ワイズマン！　これで……もう、わたくしが守る必要はありませんわね」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生！　シース君！　もう大丈夫です！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>隠れていたハキムとシースも出て来ます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「おお……おぬしら、世界を救ってしまったのか……？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “やっぱり、ワイズマンさんは勇者様だったんですね……！”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースは笑顔でワイズマンに抱きついてきたりします！　しっぽ振りまくりです！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>シースちゃんの声はマリーには届いてない、のかなたぶん！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まだ波長が合ってないので届いてませんが、明らかにうれしそうなことは分かります！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「なんだかちょっと心にしこりがありますが、ともかく……世界は救われたのですわね！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生、私に託した力を解放したら先に逝くつもりだったのでしょう。そのようなことをさせずに本当によかった」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「わしのやりたいことはやりきった、ここで散ってしまってもかっこよかったと思うんじゃが？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「先生ばかりに楽をさせてなるものですか。これから長く険しい復興の道が待っているというのに！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「マリー様。いや、マリー殿。今まで本当にありがとう……そしてこれからもどうかよろしく頼む」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「うむ、そこの耳長の子もよくやってくれた。そなたこそまことの勇者じゃ（火力的に）」</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ふふっいいんですのよ！　最強の剣士のつとめですわ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「これから、長い復興の時間が始まるじゃろう。そのときこそ、君たちみたいな若者が……」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>※若くありません。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おじいちゃんに比べたら若い若い！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そのときです。突然、マリーとワイズマンの頭の中におぞましい声が聞こえます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>“ミツケタゾ……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それは『闇』の中から聞こえてきたような気がしました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>慌てて、家の窓から『闇』の方を見てみると……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんと！　『闇』はこれまでより激しい勢いで大地を呑み込み始めているではありませんか！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まるで漆黒の壁のような闇の嵐は、みるみるうちにあなたがたの場所へ迫ってきます！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「……？！」　背筋がゾクリ、として思わず身震いをします。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（ここでもしあればラスト一言どうぞ！　途中で切れるやつ）</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「ワイズマン、危ない！」　ととっさにかばいます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「バカな！シー……」シースを抱えようとします。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ワイズマンさ……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ゴォォォォォ─── ッ！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンたちが言い切る前に、その場にいた全員は、魔王の遺体ごとあっけなく闇の嵐に呑まれてしまいました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうして、この『セカンドワールド』の世界もまた、完全に闇に包まれてしまいます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もはや人間もまともな動物も存在することのない、『ファーストワールド』と同じ世界……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もし次元を俯瞰して見ている者がいたとしたら、これも見慣れた風景の１つに過ぎないのでしょう。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてこの世界もまた、なぜか魔王を倒したのに救われることのなかった世界でした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２人の勇者の『魂』は謎の強い力に引きずられ、次元を越えてどこか別の世界へと吸い寄せられていきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そこにいたイーリスやハキム、シースの魂もです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリーとワイズマン、そして一同の運命は、果たしてどうなってしまうのでしょうか……。</div>
+<BR>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>－　第２話　終　－</div>
+<BR>
+<a name=S8></a><H1 class=gradientA>終わりに</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということでお疲れ様でしたー！！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>お疲れ様でした！　ありがとうございました！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>グレン……いったいどこへ行ってしまったんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アレンー！！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>アレン何者だったの……。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>彼は途中で飢え死にでもしたんですか！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ちなみにアレン君の特技は「絶対に魔王に会えない」です。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>かわいそう。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>アレンくんと一緒にいたら安全なんじゃ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>多分途中でトレインに巻き込まれ死します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>その場合アレン君がいきなり「む！こっちに魔王の気配がする！」といなくなり、その後に魔王が出現します。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ひどい属性だ！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>それにしても最初はどうなることかと思いましたがギリギリでなんとかなってよかった！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>いやほんとどうなるかと思いましたね！　ダイスが！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ほんとですよね！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>本当に酷かった！　１の目が何回出たんですかもう！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>危うくシースを拾いそこねることになるとは本当にもう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お二人ともさすがです。私の想定違いはたくさんありましたが特に以下の２つが印象的でした。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>＜ケース１＞</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　想定：最初の箱はマリーだけ開けられてワイズマンが開けられない可能性があるなー</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　実際：　真　逆</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>＜ケース２＞</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　想定：ワイズマンが判定に失敗してもゴロツキには勝てるだろう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　実際：ワイズマンは判定に失敗してゴロツキにも勝てない。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>かなしいけどこれ現実なのよね……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これが出目悪いーズの実力です！！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではクエスト報酬！</div>
+<div class="box">マリーの報酬：　【伝説Ｐ】３０Ｐ　＋　特徴【やたら硬い】をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーは装甲の大切さを身に染みて理解したので、特徴【やたら硬い】をアンロックです！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次は生まれた瞬間から肌がガッチガチになれます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ひざ枕しても全然うれしくない太もも！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「鉄壁のお肌ですわ！　おーっほっほ！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>きっと乾燥や肌荒れにも強い。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「鉄壁肌……これが自然淘汰か……」</div>
+<div class="box">ワイズマンの報酬：　【伝説Ｐ】４０Ｐ　＋　クエスト『理術士への道』をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは【特徴】をゲットしてないので、クエスト分を１０点増やしてます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>あー！　実質縛りプレイですもんね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンは、クエスト『理術士への道』アンロック、です！　これは（物語的に）理術士が取得可能になる道へ繋がります！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「まだまだ修行は始まったばかりじゃぞ、ワイズマン……」
+<BR>
+<BR>ワイズマンはそんな声を聞いた気がしました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>よし！次回から鍛錬鍛錬！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>しかし今回の更生度合いをどれだけ引き継げるのか。次回がはじまったらまたやさぐれているかもしれません。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あんなの夢だ夢！　ペッ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>言いそう。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次に【伝説Ｐ】を出しましょうか！</div>
+<div class="box">【ワイズマンの伝説Ｐ】　計１０１Ｐ 
+<BR>　レベル：７　　　　→２０Ｐ 
+<BR>　所持金：１３シルバ　→ ５Ｐ 
+<BR>　経過日数：４日　　→４Ｐ 
+<BR>　獲得好意：２Ｐ　　　→２Ｐ （シースの分も込み） 
+<BR>　世界の果て：× 
+<BR>　魔王を倒した：○　　→３０Ｐ 
+<BR>　クエスト達成：○　　→４０Ｐ</div><div id=com>　</div>
+<div class="box">【マリーの伝説Ｐ】　計９０Ｐ 
+<BR>　レベル：７　　　　→２０Ｐ 
+<BR>　所持金：１４シルバ　→ ５Ｐ 
+<BR>　経過日数：４日　　→４Ｐ 
+<BR>　獲得好意：１Ｐ　　　→１Ｐ
+<BR>　世界の果て：× 
+<BR>　魔王を倒した：○　　→３０Ｐ 
+<BR>　クエスト達成：○　　→３０Ｐ</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>はい、こちらも同じ計算結果になりました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひとまず、【伝説Ｐ】はワイズマンが１０１点、マリーさんは９０Ｐ＋２０で１１０点です！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、そんなわけで成長申告＋次元倉庫タイム！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どこか分からない謎空間を引きずられていく中、シースの白い手が伸びてきたような気がします。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【伝説Ｐ】の使用と一緒にアイテムも次元倉庫にあずけられますので、預けたいアイテムをシースに渡してくださーい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「特徴枠３つ」に拡張：８０点消費</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>　【伝説Ｐ】は１０１→２１Ｐ！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>次元倉庫には【試練の腕輪】、【癒しのアンプル】を入れます。今回の服はきっとサービスで引き継がれますよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さすがにワイズマンの元の服に戻ってますよ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>「次元倉庫拡張３つ」に拡張：２０点消費</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「特徴枠３つ」に拡張：８０点消費</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　【伝説Ｐ】は１１０→１０Ｐへ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>次元倉庫には、【耳長の細い剣】 【スケイルシールド】 【チェインクロス】を預けます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>【耳長人】、プレイする度に耳長剣を次元倉庫に入れて貯金できるのか。恐ろしい。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>これが耳長族の貯金箱です！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>各々了解です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では２人の魂がどことも知れぬ世界に引きずられていきながらも、シースはアイテムを謎空間に放り込みます……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>行き着く先は、果たして……？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、物語は次回へ続きます。お楽しみに！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで、これでひとまずセッション処理終わりですかね！　お疲れ様でしたー！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>やっぱりテキストのオンラインセッションで、２人で４日の旅は４時間３０分くらいですね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>でもダイスが腐りまくった割には余裕の勝利でしたよね。というか、４日も準備期間があって４日目の弱った魔王を倒すくらいならどんだけ縛っても楽勝というべきか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>この感じだと、４日プレイは２ターンもつか分からないボロボロ具合で魔王に挑む感じか、あるいは片方は死んでても行けるって想定ですかね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>いやーしかし今回はハードでしたねー。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>とにかくダイスがハードモードでしたねハッハ。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>本当ならもっと余裕を持たせて性格の悪さを発揮するつもりだったのに！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>めっちゃファンブル出た！　うわあああん！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>初手がひどかった。２日目も大変だった……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>終始傷だらけだし、服は剥がれるしでもう！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>運命的全自動ゼヌーラ！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ワイズマンさんは挿絵が入ったら大変なことになりますね！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>表組の軽やかなプレイングはなんだったんですか！　あっちは会話もポップでパステルな感じだったのに！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>こっちはダークでシリアスでしたねぇ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>泥と血にまみれたセッションでした！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＧＭとしてはこんなに失敗するなんて思わなかったんですよ！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>一体何があったんだ……（いま来たところ）。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>王様のくれた箱すらあけられませんでした！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そしていきなりファンブルをかましました！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーさんは出目がおいしかったです！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ありがとうございますちくしょうめー！！　なんであんなことになるんですかー！！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>人徳でしょうか。</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>誰に対する人徳ー！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダイスの女神様！</div>
+<div id=nm><font class=c3><B>マリー</B></font></div><div id=tx class=ct3>ダイスの女神様に好かれてるのか嫌われてるのか！！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>好かれているに決まってますよ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>間違いなく好かれていますねハッハ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>クリティカルだすくらいならファンブル出したい！！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そういえば途中でタヌキらしきなにかとロリアさんらしきヒトを見かけたのは一体なんだったのか、そのあたりは次回以降に期待ですかね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あれは魂が違う「ＰＣと同じ姿のＮＰＣ」もいますよって意図のデモンストレーションでした。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>なるほど！　モリモリワタワタしてなかったら絡みにいってもよかったかもしれませんね。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして気になる次回セッションのキャストは！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それは次回のお楽しみにです！　いよいよ次回からこのキャンペーンの本番、ご期待ください！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>　魔王を倒したのに、理不尽にも闇に呑まれてしまったマリーとワイズマン。果たして彼らは一体『何』に捕まってしまったのでしょうか……？
+<BR>　
+<BR>　次回から、１話のＰＣたちとも合流して新たな世界での冒険が繰り広げられます。お楽しみに！</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_02_icon.png"></td>
+<td><font class="ct2"><B>クスクルからＣＭコーナー</B>
+<BR>
+<BR>　はい、そんなわけで、今回の片道勇者ＴＲＰＧリプレイいかがでしたでしょうか？
+<BR>　おや？　イーリス、その手に持っているのはなんだい？
+<BR>　あ、それはいま巷で大人気の片道勇者プラス！！
+<BR>　そうだね片道勇者ＴＲＰＧプラスの発売前にプレイしておきたいよね！？
+<BR>　さぁ、気になったあなたもさっそくゲットしよう。お求めはコチラ！！→</font></TD><TD align="center"><a href="../../game_one_way_heroics_plus/" target=_blank class=red><img src="../../game_one_way_heroics_plus/title.jpg" border=2 width=80>
+<BR><small>片道勇者プラス</small></a></td></tr></table><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+
+<div id=com_hira>　</div>
+<div id=com_hira>続きはこちらから！ → <a href="Replay_KatamichiTRPG_03.shtml" class=red><font size=+2>第３話『闇と勇者』へ</font></a>　</div>
+<div id=com_hira>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com_hira>　</div>

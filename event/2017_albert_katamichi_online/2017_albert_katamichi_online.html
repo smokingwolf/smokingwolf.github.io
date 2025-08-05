@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=650">
+
+<title>『アルバート片道冒険記』片道勇者オンラインリプレイ</title>
+    <style type="text/css">
+    <!--
+.gray{background:#535375;}
+.ggray{background:#333355;}
+.bgray{background:#8888aa;}
+.white{background:#ffffff;}
+.whitesmall{background:#fafaff; font-size : 8pt;margin: 0px 0px 0px 0px;padding: 2px 1px 1px 2px;}
+.whitered{background:#ffdada;}
+.whiteblue{background:#ddddff;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#b2cccc;}
+.fr{color:#4343bb;}
+.fb{color:#bb4343;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+.sindan{color:#ff3333; font: bold;}
+.sindantop{color:#997777;}
+
+body{
+	background-color : #fffefe;
+	/*font-size: 12px;*/
+  line-height: 120%;
+  color : #654343;
+  margin: 0px 0px 0px 100px;
+
+}
+
+html , body {height:100%;}
+body{
+background-image : url(BG_border.png);
+background-repeat: repeat-y;
+background-attachment: fixed;
+}
+
+A:LINK,A:VISITED{color:#43c3b5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #98f8fe;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#c54343;text-decoration : underline;}
+A.red:HOVER,A.red:ACTIVE{color : #ce9898;text-decoration : underline;}
+
+A.blue:LINK,A.blue:VISITED{color:#4343c5;text-decoration : underline;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+/* 基本テキストはnmとtx */
+div#nm{text-align:right; width:120px;  position: relative;left: 0px;top: 0px;}
+div#tx{position: relative;left: 135px;top: -15px;text-align:left; width:540px;} /* 基本セリフ用 */
+
+
+div#main{
+	position: relative;left: 45px;top: -15px;text-align:left; width:550px;
+}
+
+div#flowmenu{
+    position: fixed; top:15px; left:7px;
+
+}
+
+.menu{
+  font-size : 10pt;
+  color : #434355;
+  line-height:120%;
+}
+
+hr { /* 線 */
+    border: 0;
+    width: 550px;
+    height: 1px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:    -moz-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:     -ms-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:      -o-linear-gradient(left, #fcc, #633, #fcc);
+    margin: 10px 0px 10px 0px;
+}
+.box{
+margin:7px; padding:5px; border:1px solid #4444ff;
+background-color:#fafaff;
+position: relative;left: 90px;top: 0px;
+width: 600px;
+color:#5050aa;
+}
+
+.boxMain{
+width: 530px;
+   border:1px solid #ccccff;
+   background-color : #fcfcff;
+   margin:5px;
+   padding:2px;
+   color: #555566;
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+
+}
+
+.day{
+	font-size: 150%;
+
+}
+
+.boxA{
+position: relative;
+left: 9px;top: 4px;
+   padding:6px;
+}
+
+.date_f{
+   color: #CCCCDD;
+}
+
+.imgradius{
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.gradientA{ 
+  font-size: 120%;
+	/*height: 26px;*/
+  padding: 7px 7px 7px 7px;
+  background-color: #c86464; 
+  background: -moz-linear-gradient(left top, #632121, #a66464);
+  background: -webkit-gradient(linear, left top, right bottom, from(#632121), to(#a66464));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF632121', endColorstr='#FFa66464');
+  
+color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+.gradientAmini{ 
+	font-size: 120%;
+	/*height: 26px;*/
+	padding: 7px 7px 7px 7px;
+  background-color: #d89494; 
+  background: -moz-linear-gradient(left top, #a34141, #f6c4c4);
+  background: -webkit-gradient(linear, left top, right bottom, from(#a34141), to(#f6c4c4));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FFa34141', endColorstr='#FFf6c4c4');
+  
+color:#fffef0;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+
+-->
+</style>
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+</head><BODY onload="initLightbox()">
+
+<div id="flowmenu"><small><a href="../../" class="blue"><B>←ホームに戻る</B></a></small><BR>　
+	<TABLE bgcolor="#666699" class="menu" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap>
+<B>片道勇者ｵﾝﾗｲﾝ</B>
+<BR>  <small><small>『ｱﾙﾊﾞｰﾄ片道冒険記』</small></small><BR>
+    　<a href="#op">- オープニング</a><BR>
+  　<a href="#day1">- １日目</a><BR>
+  　<a href="#day10">- １０日目</a><BR>
+  　<a href="#day20">- ２０日目</a><BR>
+  　<a href="#day30">- ３０日目</a><BR>
+  　<a href="#day40">- ４０日目</a><BR>
+  　<a href="#ED">- ｴﾝﾃﾞｨﾝｸﾞ</a><BR>
+  　<a href="#ED2">- 物語は続く…</a><BR>
+
+  
+</TD></tr></TABLE>
+<BR>
+</div>
+<div id=main>
+<a id="op"></a><BR>
+<H1 class=gradientA>　『アルバート片道冒険記』</H1>
+　このテキストはツイッターゲーム『<B><A href="https://web.archive.org/web/20230930024205/https://fujimi-trpg-online.jp/twittergame2/option.html" target="_blank" class="red">片道勇者オンライン</A></B>(ｳｪﾌﾞｱｰｶｲﾌﾞ)』におけるSmokingWOLFのプレイログ『<B><A href="https://togetter.com/li/991022" target="_blank" class="red">アルバート片道冒険記(togetter)</A></B>』を再編集したものです。<BR>
+<BR>
+　ツイッターゲームとは、診断アプリで出たランダムイベントをこなし、サバイバルしたり物語を紡いでいくゲームです。<BR>
+　「診断」をすると、たとえば「アルバートは崖から落ちたが美人の耳長に救われた。仲良くなってＬＰ－５、伝説Ｐ＋３」といったランダムなイベント内容が出るので、それをツイッターに投稿して数値を反映し、描写を付けたりしてゲームを進めていきます。<BR>
+　<span style="opacity:0.5;">（2025/07/10追記：診断に使用していた『アプリメーカー』のサービス終了により、現在はプレイできません）</span><BR>
+<BR>
+　今回は、シルフェイドシリーズや片道勇者プラスなどでおなじみの『アルバート』というキャラクターで冒険を行います。異世界を巡るアルバートの物語、ぜひお楽しみください。<BR>
+<HR>
+<H1 class=gradientAmini>【はじめに】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　俺の名はアルバート。異世界から来た傭兵だ。元の世界に戻るための旅をしながら、なぜかたまに世界や人類を救う手伝いをしている。<BR>
+      　『片道勇者オンライン』のプレイ見本となるべくプレイしていくつもりだ、よろしく頼む！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【種族選択中】</small>
+      <div class=boxA>　片道勇者オンラインでは、まずキャラクターの種族を選ぶ。俺の種族は当然「人間」だが、突然『闇』の影響で「半獣人」になったという設定も面白いかもしれんな。<BR>
+      　「獣人」や「耳長人」になる理由があるとすれば……冒涜的な種族に脳を入れ替えられたとか、義体を換えたとか……ってそれ別のTRPGだぞ！　いちおうコレ片道勇者TRPGの販促用ゲームだからな！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+<a href="illust_race.jpg" rel="lightbox[race]"><small>◆クリックで拡大</small><IMG src="illust_race.jpg" border="2" width="550"></a><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　さて、ここからは俺の視点で物語が進んでいく。これらは、ツイッターに投稿していた内容を編集したものだ。<BR>
+      　ちなみに俺は、『片道勇者プラス』の冒険を終え、『時の扉』で飛んできた直後という設定で冒険が始まっている。それでは、楽しんでくれ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+<B>【始まり】</B><BR>
+<BR>
+　最後の『時の扉』を通り抜け、やって来た先はここだった。そこは前回と全く同じ、闇に覆われつつある世界だった。<BR>
+「最近の世界は闇に追われるのがトレンドなのか！？」<BR>
+　そうぼやきながら俺は武装を確認した。長銃の弾はもうなくなっている。手持ちの武器は短剣一本だけだ。<BR>
+<BR>
+　武器は貧弱だが命の心配はしていない、俺だって《◆強打》くらいは扱える。この技をよく使ったのは過去の浮遊島の冒険だ。今では遠い過去の記憶だ。<BR>
+　他には、地味だが機械いじりも得意だ。家の鍵をなくしても自力で鍵を開けられる程度には《◆開錠》能力もあるぞ。<BR>
+<BR>
+　……というようなことを酒場で話すと、ウェイトレスにこう言われた。<BR>
+「君、海賊？」　<BR>
+「眼帯を付けてるだけで海賊扱いとは偏見だぞ」<BR>
+「えー、強打ができて鍵開けもできるなら立派な海賊よ～」<BR>
+　マジか。だが郷に入れば郷に従えだ。こうして俺は何となく『海賊』を名乗ることになった。<BR>
+<BR>
+　『闇』は今も休むことなく、おおよそ人が歩くのと同じ速度で東へ進み続けている。俺はこの『闇』から逃げながら世界を旅し、そして同時に『闇』を何とかする手段を探し出さねばならない。それが勇者候補としての使命だ。<BR>
+　俺の他にも、たくさんの勇者候補の仲間たちがいる。時には、手助けし合う必要もあるだろう。
+<BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　ということで、これが『海賊』として始めることになった俺のキャラクターシートだ。年齢は覚えてないぞ！　中の人は片道勇者の原作者なので「イメージと違う」というツッコミは受け付けない！　では、冒険の始まりだ！</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+<BR>
+<IMG src="illust_sheet.jpg" border="1"><BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートのTIPS】</small>
+      <div class=boxA>　なお、開始時にはスタート地点となる初期大陸を選べるのだが、俺は「中央大陸」にした。<BR>
+      　今から始める場合は北大陸、中央大陸、南大陸の３つから選べるが、当時は中央大陸と南大陸しかなかったんだ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<HR>
+<a id="day1"></a><H1 class=gradientAmini>【1日目】</H1>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_04.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【中央／入手／探索1】</small><BR>
+      　アルバート＠中は静かな遺跡で妖精の亡骸を見つけた。君は短く祈りの言葉を唱え、その人物の形見を拾い上げた。《癒しの草》を取得してよい。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺が降り立った場所は「中央大陸」と呼ばれる大地だった。街から出ると、すぐに静かな遺跡群に入った。崩れかけた石の遺跡を少し進んだとき、俺の左目が何かを捉えた。人が落ちている……！？<BR>
+　うっかり見逃しそうになったほど小さい“それ”は、小さな「羽根の生えた人間」だった。<BR>
+
+<BR>
+「おい……大丈夫か？」<BR>
+　声をかけてみるが反応はない。恐る恐るその体を仰向けにしてみると、小さな少女はすでに息をしていないことが分かった。外傷はない。街まであと少しなのに、たどり着けずに力尽きたのだ……。<BR>
+　俺は遺跡の隅に、この少女のための小さな墓を作ってやることにした。<BR>
+
+<BR>
+「《癒しの草》、使わなかったのか……」<BR>
+　もしかしたら届け物だったのかもしれないそれは、最後まで使われることなく彼女の手元に残っていた。<BR>
+　俺は彼女の生真面目さを小さく嘆いて、その場を後にした。ここで出会った妖精の少女の記憶は、きっとこれからも俺の中で生き続けるだろう……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 形見を拾い上げて《癒しの草》を入手</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>50</B>　DK：<B>20</B>　伝説P：<B>0</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆開錠》　《癒しの草》 ←New!</small></div>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートのTIPS】</small>
+      <div class=boxA>　いきなり悲しい始まりになってしまったが、これが片道勇者オンラインの遊び方の例だ。ランダムで出てきた診断に従ってパラメータやオプション（アイテム）の増減を行い、さらにお好みに応じて「描写」を付けたりして楽しむわけだな。<BR>
+      　俺の場合は、主に描写部分を楽しんでもらうことになるだろう。<BR>
+      <BR>
+      　あと「アルバート＠中」というのは「俺が中央大陸にいる」ということを表した名前だ。ゲーム中はこれで自分の居場所を表明するわけだな。</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【2日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_04.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【中央／入手／探索1】</small><BR>
+      　若い旅人と話し、アルバート＠中は初心を思い出した。君のクラスの《初期オプション》の中から好きなものを1つだけ取得してよい。例：冒険家なら《◆ジャンプ》か《◆開錠》のどちらか1つ。</div></TD></TR></TABLE></DIV>
+<BR>
+「やあ、君も旅の人？」<BR>
+　夜空の下、冒険初心者といった風体の男が言った。俺より若い。この闇に追われ、旅に出ざるを得なくなったのだろうか。<BR>
+「これからなんとか生きる術を身に付けなきゃいけなくてね……大変だよ」<BR>
+　俺は……彼を手助けしてやりたくなった。<BR>
+<BR>
+　そこで俺は彼に一つの技を教えることにした。<BR>
+「強打とは！　こうやって放つのだ！」<BR>
+「いきなり無理だって！」<BR>
+　その後も彼に技の真髄を理解させようと必死になっているうちに、俺は傭兵になりたての頃を思い出した。あの頃もこうやって指導されていたな……。<BR>
+<BR>
+　俺は彼を疲れさせたおかげで《◆強打》の打ち方を思い出した。彼は疲れ損だ。すまん、若い旅人……！<BR>
+　そのせいでオプション（所持品）がいっぱいになったので、妖精の少女の形見のつもりで大事に持っていた《癒しの草》をむせび泣きながら食った。若い旅人にドン引きされた。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 　　※妖精の形見として持っていた《癒しの草》を泣く泣く使用してLP+5</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>50</B>→<B><FONT color=#44aa44>55</FONT></B>　DK：<B>20</B>　伝説P：<B>0</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆開錠》　《◆強打》←追加</small></div>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　ゲームの説明だが、LPは「生命力」、DKは「闇からの距離」を示している。LPかDKが0になると死亡した扱いとなる。もっとも、死亡しても伝説Ｐを10点減らせばそのまま次の日に転生することが可能だ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【3日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／入手／伝説Ｐ＋1】</small><BR>
+      　「わがはいは道具屋である、名前はまだない」　アルバート＠中は倒錯気味な道具屋に出会った。望むなら伝説Ｐ－3で、最後の商品である《周辺の地図》を取得できる。でなければＬＰ＋3。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺は2日ぶりに街へ来た。何となく道具屋に向かう。<BR>
+「フヒッ、この《周辺の地図》はよいものである。味も最高！（ベロベロベロ）　いる？」<BR>
+「すまん金がなかった」<BR>
+　俺は慌ててそう答え、売り物の舌触りを確かめている倒錯気味な道具屋と別れた。ダッシュで。<BR>
+<BR>
+　しかし街に来て何もしないというのも損だ。俺は人々に話を聞きつつ、体を休めることにした。<BR>
+　ちなみに「伝説Ｐ」は街に来ると勝手に増える。資産や名誉の増加だけでなく、交流で住人とのコネができることなども伝説Ｐに含まれるのだろう。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 商品を買わず、LP＋3。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>55</B>→<B><FONT color=#44aa44>58</FONT></B>　DK：<B>20</B>　伝説P：<B>0</B>→<B><FONT color=#44aa44>1</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆開錠》　《◆強打》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　今日は変な商人だったが、次はまともな者に出会いたいものだ。俺の主人公力なら「美しい少女」などとの出会いがあってもおかしくないはず……明日こそよき出会いに期待だな！　どちらかというと俺は女は苦手だがな！　しかし倒錯気味な道具屋よりはだいぶマシだぞ！　生きてる妖精でもいいんだ！　頼む神様！</div></TD></TR></TABLE></DIV>
+　
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　「片道勇者オンライン」ではイベント中、皆の診断で得た「探索点」の総量に応じて、定期的に大陸ごとの新たな事実が明らかになったり、物語が進むようになっている。<BR>
+      　さて、最初のレポートは……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+<FONT size="-1">https://twitter.com/owh_online/status/743812613599944704</FONT><BR>
+<IMG src="illust_01.jpg" border="1"><BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　見ろ、希望通り美少女が来たぞ！　違う、あれがフリーダ王女か！　少女といっていいのかやや悩むな！　中央大陸は南大陸より少し難易度が高いようだが、「北に見える謎の島影」というのは気になるところだ。</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+<BR>
+<BR>
+<FONT size="-1">https://twitter.com/owh_online/status/743813302795395072</FONT><BR>
+<IMG src="illust_02.jpg" border="1"><BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　南には行ってないから分からないが、主な危険はクモ程度らしいな。南はバランス面でやさしいらしいので、療養するならここだ！　不幸なヤツは知らん！<BR>
+      　あとネムリ嬢のたくましい尻尾に俺は興奮しているぞ！</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+<a id="day4"></a><HR><H1 class=gradientAmini>【4日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／交流／伝説Ｐ＋3】</small><BR>
+      　闇が迫る中、アルバート＠中は賭場を見つけた。そこで<B>君に恋した亡国の姫</B>と出会う。一緒に賭けを楽しんでいくならＤＫ－7、伝説Ｐ＋6。先を急ぐならＬＰ＋3、ＤＫ－1。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺は街にもう1日滞在することにした。歩いていると、薄暗い賭場の入口を見つけた。中は盛り上がっているようだ。もうすぐここも闇に呑まれるというのに呑気なものだ……いや、まもなく呑まれるからこそ、最後まで人生を楽しむつもりなのか。それはそれで感心だ。<BR>
+
+<BR>
+　そう思いながら眺めていると、賭場と俺を交互に見ている女を見つけた。美しく身なりもいい。<BR>
+「ここはキミが来るような場所じゃないぞ」<BR>
+「お願いがあるんです。その、一緒に、入っていただけませんか……？」<BR>
+　賭場に！？　聞けば彼女は西の国の姫だったという。<BR>
+<BR>
+「最後の思い出にと思ったのですが、一人では不安で…」<BR>
+　俺が人助けをする人間に見えるとでもいうのか。むろん俺は承諾した。捨てられた子犬のような瞳に負けた！　くそ！<BR>
+　結局、俺と姫は賭博を楽しんだ。姫は強かったが、それ以上に俺と話すことが楽しそうだった。<BR>
+
+<BR>
+　俺は薄々、気付いていた。この亡国の姫は、たぶん俺と話したいがために「賭場に入りたい」と言ったのだと。<BR>
+「ありがとう、いい思い出ができました……アルバート様、あなたの無事を祈っています」<BR>
+「……ああ」<BR>
+　それだけ言って俺たちは別れた。辛い、別れだった。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 賭けを楽しむ。伝説Ｐ＋9、ＤＫ－7</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>58</B>　DK：<B>20</B>→<B><FONT color=#CC4444>13</FONT></B>　伝説P：<B>1</B>→<B><FONT color=#44aa44>10</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆開錠》　《◆強打》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>ようやくまともな者と出会えた、しかも美女だ……でもな、別れる運命しかないんだ……くっ、うっ……。</div></TD></TR></TABLE></DIV>
+　・<BR>
+　・<BR>
+　・<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【さっきの姫について】</small>
+      <div class=boxA>　他のプレイヤーから「伝説Ｐでオプションを買って仲間にしたことにするのはどうか」という案をいただいた。なるほどそういうプレイをするのは素敵だな！<BR>
+      　だが俺の伝説Ｐ１０点だと姫を<B><FONT color="#ff0000">《仲間：頼れるペット》</FONT></B>にするしかなくて背徳感がかなりヤバいぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+　　<IMG src="illust_03.jpg" border="1"><BR>
+　・<BR>
+　・<BR>
+　・<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【２択アンケート】</small>
+      <div class=boxA>　俺の中ではいまだに葛藤が続いている。そこで「君に恋した亡国の姫」を《仲間：頼れるペット》として仲間に加えるか否か、皆にアンケートだ！　詳しい顛末を知りたければ、すぐ上の流れを見てくれ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+　　　↓　<B>アンケート結果</B><BR>
+<BR>
+　https://twitter.com/Albert_swolf/status/743851806439071744<BR>
+　<IMG src="illust_04.jpg" border="1"><BR>
+<BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【仲間にするかアンケート結果】</small>
+      <div class=boxA>　おまえら……姫をペットにしたいヤツが約80％って多すぎだろ！<BR>
+      　なに？　純粋に仲間にしたいって？　くそっ、俺は騙されんぞ、変態どもめ！<BR>
+      　しかしアンケート結果がこうなってしまってはしょうがないな！　その気はなかったが俺は姫を仲間（ペット）にするぞ！！</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+　<BR>
+【描写】<BR>
+<BR>
+　別れた後も、あの姫のことが気になった。彼女は闇に呑まれるだろう。<BR>
+　今の俺にだって、ペットを一匹仲間に引き入れるくらいの勇者的度量はある。だがそれ以上はない。<BR>
+　必死に考えた末、俺は名案をひらめいた。そうか、彼女を『ペット』にすればいいんだ！<BR>
+<BR>
+　3秒ほどして、姫をペットにするというよこしまな発想に後悔が押し寄せた。俺は一体何を考えているんだ……！<BR>
+　だが選択肢は二つ、素直にここで別れて彼女を失うか、ペット扱いでも連れていくか、だ……。<BR>
+　俺は腹を決めて歩き出した。そう、姫のいた場所へ。  <BR>
+<BR>
+　俺は姫の目の前に来ていた。<BR>
+「君を迎えに来た」<BR>
+「えっ……アルバート……様……！？」<BR>
+　姫は口を押さえて目をうるませた。いや待ってくれ、感動シーンじゃないんだ。<BR>
+　俺はゆっくりていねいに土下座をして、こう叫んだ。<BR>
+「俺のペットになってくれ！！！」　<BR>
+<BR>
+　空気が凍り付いた。通行人達が俺を見ている。違う、これは読者の民主的総意なんだッ！　と心の中で言い訳をしながら返事を待った。<BR>
+「……私がペットになれば、あなたと共にゆけるのですね？」<BR>
+　姫は俺にとって一番都合のよさそうな解釈をして、俺の手を取った。<BR>
+<BR>
+「私も、今では捨て犬のような弱き身……どうか私を拾ってください、アルバート様……」<BR>
+　こうして姫は、《仲間：頼れるペット》として同行することになった。いつか人間扱いするから、伝説Ｐがたまるまで待ってくれ、姫よ……！<BR>
+　なお、彼女の名はコナ王女というらしい。<BR>
+<BR>
+<A href="illust_princess.jpg" rel="lightbox[prin]">
+<IMG src="illust_princess.jpg" border="1" width="550"></A><BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《◆開錠》を捨てて、伝説Ｐ １０で《仲間：頼れるペット》（コナ王女）を獲得</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>58</B>　DK：<B>13</B>　伝説P：<B>10</B>→<B><FONT color=#CC4444>0</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　《◆開錠》廃棄……いや使用といった方がいいかもしれん。そう、開けてしまったのは俺の『常識の扉』だ！　俺は『常識』の向こう側へ行くぞ……！！<BR>
+      　それにしても、《仲間：頼れるペット》を「人間含む」としておけば、救いたい者を（ポイント的に）ペットにせざるを得ない者が現れて笑える展開になるだろうと思っていたが、まさかその早々の被害者が俺だったとはな！　ああ！</div></TD></TR></TABLE></DIV>
+<HR><H1 class=gradientAmini>【5日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_04.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【中央／交流／探索4】</small><BR>
+      　アルバート＠中は道に詳しい病弱な老婆に出会った。楽に進める道を教えてもらうことでき、ＤＫ＋4。誰かの支援を得られれば一度だけＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<BR>
+　闇がだいぶ近くなってきたので、俺たちは街を出た。ペットにしたコナ王女は足手まといになるのではと思ったが、予想に反して非常に健脚であった。彼女に足りなかったものは、ただ『生きる目的』だけだったのだ……。<BR>
+<BR>
+　道を進むと、道ばたに老婆が腰かけていた。 <BR>
+「ご老体、大丈夫か？」<BR>
+　コナ王女の前なのでいい格好をしたいのもあり、俺は老婆に声を掛けた。<BR>
+　老婆は病弱そうで、もう歩ける様子ではない。<BR>
+「あたしのことは気にせんでいいよ……道は分かるけどもう体がダメでねえ。道を教えてやるからお二人は先を急ぎなさい」 <BR>
+<BR>
+　続けて、老婆はコナ王女を見てこう言った。<BR>
+「おやおまえさん、もしかして高貴な出自かい？」<BR>
+「わ……私はアルバート様のペットだワン♪」<BR>
+　コナ王女のペットのロールプレイが炸裂し、俺と老婆は凍り付いた。両手を丸めてかわいく言ってもダメだ。この瞬間、俺は少し死にたくなった。<BR>
+<BR>
+「コナ王女……ペットになってくれといったがそこまでは求めてない」<BR>
+「ペット！？」<BR>
+　老婆が驚いた。<BR>
+「あ、ごめんなさい……こういう役を求められているのかと」<BR>
+「二人ともマニアックだねえ……あたしにもあったよ、素肌にエプロンとか」<BR>
+「話を膨らませるんじゃなーい！」<BR>
+
+<BR>
+　俺たちは老婆に別れを告げて歩き出した。<BR>
+「すごく……恥ずかしかったです……」<BR>
+　離れた後、コナ王女が消え入りそうな声で言った。そんな恥ずかしいのにやったのか！<BR>
+　だが俺もこういう状況下で変なことをしてしまった経験があるので、その気持ちはよく分かった……。<BR>
+<BR>
+　教えられた道を歩いていると、途中で別の勇者候補に出会った。行き先が同じということでしばらく一緒に進む。<BR>
+　途中で出会った障害を皆で協力して克服することができ、予定よりもだいぶ歩みがはかどった。次の地まであと少しだ！<BR>
+「感謝する！　また会えるといいな！」<BR>
+　俺はそう言って手伝ってくれた勇者候補の者と別れた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 支援をもらい、ＤＫ＋6</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>58</B>　DK：<B>13</B>→<B><FONT color=#44aa44>19</FONT></B>　伝説P：<B>0</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　コナ王女がペットのロールプレイしてて引く。俺が悪かった、許してくれ……。</div></TD></TR></TABLE></DIV>
+<HR><H1 class=gradientAmini>【6日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／交流／伝説Ｐ＋4】</small><BR>
+      　君に恋した老婆に誘われて入ったのは拳闘場だった。アルバート＠中も試合に参加するならＬＰ－7、ＤＫ－4して伝説Ｐ＋5し、老婆に感激される。見物だけならＤＫ－2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　また老婆だと……！？　しかも恋までされている！？<BR>
+      　なら、前回の老婆をそのまま連れてきたことにするか……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　昨日会った病弱な老婆だが、実はいま俺に背負われている。あの後、やはり見捨てられなくて老婆を助けてしまったのだ。闇に追われながら全ての人間を助けていては俺が持たない、と分かっていてもだ！　くそ！<BR>
+　コナ王女は俺の背の老婆をうらやましそうに見ていた。<BR>
+<BR>
+　老婆は道中、何度も下ろせと言ったが、街に着く頃にはなぜか俺に積極的にアプローチしてくるようになっていた。<BR>
+「死んだじいさんみたいだね、あんた……惚れてもいいかい？」<BR>
+「やめてくれ」<BR>
+　コナ王女のトゲトゲしい視線が突き刺さる。もうヤだこの状況……。<BR>
+<BR>
+「ねえ、あんたの戦う姿が見てみたいんだけどねえ」<BR>
+　街に着いて、老婆が指さした先は拳闘場だった。俺の路銀も『名誉』も完全に尽きている。悪くはない。<BR>
+「いいだろう、俺の強さを見せてやる！」<BR>
+　老婆のいいなりになる俺を、王女はやりきれない目で見ていた。<BR>
+
+<BR>
+　拳闘場では、二人の声援を受けながら次々と参加者を倒し、2位まで上り詰めたところで負けた。金的は反則だろ！　おムコに行けなくなっちゃう！<BR>
+　股間をおさえながら医務室から帰って来る頃には、老婆とコナ王女はいつの間にか仲良くなっていた。女はわからん……。<BR>
+
+<BR>
+　こうして俺達は拳闘場を出た。<BR>
+「じいさんとデートしたときを思い出して楽しかったよ……あたしは今度こそここでお別れさね。二人とも元気にやるんだよ」<BR>
+「ご老体……」<BR>
+「おばあさん……」<BR>
+　俺たちは三人で一度抱き合い、そして別れた。別れた後で、俺は泣いた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 拳闘場でＬＰ－7、ＤＫ－4、伝説Ｐ＋4＋5</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>58</B>→<B><FONT color=#CC4444>51</FONT></B>　DK：<B>19</B>→<B><FONT color=#CC4444>15</FONT></B>　伝説P：<B>0</B>→<B><FONT color=#44aa44>9</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》《◆強打》《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>必殺二連続老婆！　三連続老婆だけはやめてくれ、ランダムの神様！</div></TD></TR></TABLE></DIV>
+<HR>
+<H1 class=gradientAmini>【6日目 支援】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから解説】</small>
+      <div class=boxA>　片道勇者オンラインでは他のプレイヤーの診断に「支援を得られれば」といった文言があった場合、こちらから支援の手を差し伸べることができる（場合もある）！<BR>
+      　見ろ、どこかで見た気がする獣人の狩人が山賊に捕まったようなのでさっそく助けに行くぞ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+　　　　　　　　　　　　　　　　　　<B><FONT size="+2">↓</FONT></B><BR>
+<BR>
+<DIV class="boxMain">
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_04.jpg" class="imgradius"></TD>
+      <TD><!--<small class="sindan">診断結果</small><BR>-->
+      <div class=boxA><small class=sindantop>【中央／危機／探索3】</small> 　<FONT size="-1" color="#ff0000"><B>※これは猫獣人ンクの出した診断である</B></FONT><BR>
+      　目が醒めると、ンク＠中はまじめな山賊たちに拉致されていた。なんたる屈辱！　何とか脱出できるがＤＫ－５、伝説Ｐ＋３。海賊の支援を得られれば一度だけＤＫ減少を２軽減。</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_nku.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【診断結果に対するンクのコメント】</small>
+      <div class=boxA>　山越え中にうっかりブービートラップにひっかかってしまったけどこのヒトたち、指南書を見ながら拘束・尋問をしようとしてる！<BR>
+      　たどたどしくて見ていられない！<BR>
+<BR>
+      　縄抜けして「ちょっと！　尋問のやり方はそんなんじゃだめ！　教えてあげるからそこに座りなさい！」と一喝。<BR>
+<BR>
+      　成り行きでこのまじめ人間たちに拷問のイロハを教えることになってしまったけど、模擬とはいえこんな素人たち相手に荒っぽいことはしかねるよね。<BR>
+      　どこかに武術の心得があって色々試してもいいヒトはいないかなあ……。</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートからのメッセージ】</small>
+      <div class=boxA><B>＠ンクさんへ</B>：<BR>
+      　こちら（自称）海賊だ、支援します！<BR>
+      <BR>
+      「助けに来たぞ！」バァン！（ドアを蹴破る音）</div>
+      </TD>
+    </TR>
+  
+
+
+
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    <TR>
+      <TD><IMG src="icon_nku.jpg" class="imgradius"></TD>
+      <TD>&nbsp;　まさに天の助け。ペットとして女の子を連れ歩いている怪しいヒトが現れた！<BR>
+      <BR>
+      「ちょっとそこのお兄さん！　助けると思って模擬拷問に付き合ってください！　このひとたちまじめすぎて見てられないんです！</TD>
+    </TR>
+  
+
+
+
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>
+      <div class=boxA>「アーッ！！」<BR>
+      <BR>
+      　山賊に捕まっていた獣人女を支援してみたら、なぜかその女に拷問にかけられた。<BR>
+      　何を言ってるか分からないと思うが俺も何をされたのか分からなかった……少し興奮しちゃったとかそんなことは絶対にないぞ！　ないからな！</div>
+      </TD>
+    </TR>
+  
+
+
+
+
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    <TR>
+      <TD><IMG src="icon_nku.jpg" class="imgradius"></TD>
+      <TD>　こうして、意外に普通のヒトだったアルバートさんのおかげでマジメ山賊団たちに効果的な拷問の仕方を教えることができた。<BR>
+      　この大変な時代のなか、どうか世のため人のためになるような拷問をしていってほしい。彼らにはそれができるはずだ。<BR>
+      <BR>
+      「ありがとうアルバートさん。それに支援しに駆けつけてそのまま見学してくれたみんな！　拷問は清く正しく行うこと！　ンクとの約束だにゃー！」</TD>
+    </TR>
+  
+
+
+
+</TABLE>
+</DIV>
+<BR>
+　　　　　　　　　　　　　・<BR>
+　　　　　　　　　　　　　・<BR>
+　　　　　　　　　　　　　・<BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　ということで、こんな感じで他プレイヤーに支援を与えられたり、他プレイヤーから支援を受けたりできる。猫獣人ンクは俺や他プレイヤーの『海賊』の支援によって、診断に記載されてる通り「DK減少を２軽減」できたわけだ。<BR>
+      　こうやって助け合うのも片道勇者オンラインの醍醐味だ。そしてこれから先、俺はたびたび他プレイヤーから支援を受けている！　支援してくれたみんなにはとても感謝しているぞ！</div>
+      </TD>
+    </TR>
+  
+
+
+
+
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【7日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_04.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【中央／宝箱／探索2】</small><BR>
+      　誰もいない砦で、アルバート＠中は鉄の宝箱を発見した！　カギがかかっているようだ。開けるつもりならＤＫ－5し伝説Ｐ＋5。無視して先を急ぐならＬＰ＋2、ＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　宝箱をノーコストで開けられる《◆開錠》はコナ王女と引き替えに捨ててしまったぞ！　グオオ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　街を出てしばし歩くと砦を発見した。中は血の跡が散乱していたが、幸い敵も味方もいないようだ。鉄の宝箱が一つ放置されていた。<BR>
+「この状況だ、開けるぞ。鍵開けなら得意だ」<BR>
+　待てよ……そういえば《◆開錠》は俺の『常識の扉』をぶち破るのに使ってしまったぞ。<BR>
+<BR>
+「破壊するしかない……コナ王女、宝箱を破壊できる道具がないか探そう」<BR>
+「お手伝いしますワン！　くんくん」<BR>
+「ペットのロールプレイはもういいって！　地味に気に入ってるだろ！？」<BR>
+　……その後、俺は砦の中を探して戦斧を見つけた。いよいよ海賊っぽくなってきたな。<BR>
+<BR>
+「うおおおーッ！」<BR>
+　俺は鉄の宝箱に戦斧を叩きつける。箱はあっさり開き、中から出てきたのは銀貨袋と、家族の肖像が描かれた何枚かの紙だった。肖像の裏には文字が書いてあった。<BR>
+　“妻と娘に会ったら、父は旅立ったと伝えてください。愛していた、とも”<BR>
+　どれも似たような文言だった。<BR>
+
+ <BR>
+　砦の兵は最後まで戦ったのだろうか。それとも、まだどこかで生きているのだろうか。 <BR>
+「……行こう。これも、届けなければな」 <BR>
+　俺は銀貨袋と肖像の紙を大事にしまい込んで、砦を後にした。この砦で戦い抜いたのであろう父たちの願い、俺が届けてみせる……！ <BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 宝箱を開けてＤＫ－5、伝説Ｐ＋5</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>51</B>　DK：<B>15</B>→<B><FONT color=#CC4444>10</FONT></B>　伝説P：<B>9</B>→<B><FONT color=#44aa44>14</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》《◆強打》《仲間：頼れるペット》＝コナ王女</small></div>
+　<BR>
+<H1 class=gradientAmini>【大陸移動】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【北大陸、発見！】</small>
+      <div class=boxA>　フリーダ王女から新たな情報が出たぞ！　なんと『北大陸』が発見されたらしい！　厳しそうな大地だが、ＬＰやＤＫが有り余っている者はぜひ挑戦してみてくれ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+https://twitter.com/owh_online/status/745236561281720324<BR>
+<IMG src="illust_05.jpg" border="1"><BR>
+<BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　さっそく俺は北大陸へ向かってみるぞ！　伝説Ｐを5点支払って《大陸船のチケット》を購入し、そのまま北大陸へ出航だ！<BR>
+      　DKが10点しかなくて闇が近いまま北大陸に来てしまったのでちょっと興奮しているぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<div class=boxMain><small>　<B>◆選択</B> → 《大陸船のチケット》を購入し即使用、北大陸へ渡る</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>51</B>　DK：<B>10</B>　伝説P：<B>14</B>→<B><FONT color=#CC4444>9</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》＝コナ王女</small></div>
+<BR>
+【大陸移動の描写】<BR>
+<BR>
+「北大陸は危険らしい。それでも来るのか？」<BR>
+　俺は港でコナ王女に問うた。<BR>
+「いまの私は一人では生きられない身……そんな聞き方、ずるいです」<BR>
+「……」<BR>
+　そうだ。本当なら、王女はあの街で闇に呑まれていた。彼女の生きる目的は、俺自身に他ならない。<BR>
+<BR>
+「本当は、アルバート様には危険な場所に行って欲しくありません……でも、どうしても行くというなら、この身であなたを守ります」<BR>
+　ここまで言われて、それでも行く必要があるのだろうか……だが、俺が危険を背負うことで救われる人々がいるのなら、俺も行くべきだとも思う。<BR>
+<BR>
+「付きあわせてすまん……いや、ありがとう、コナ王女」<BR>
+「私は、生きるときも死ぬときも一緒です、アルバート様」<BR>
+　死ぬ方の「一緒」は一瞬否定したくなったが、何も言わなかった。俺も同じ立場なら、きっとそう言ったからだ。<BR>
+<BR>
+　そして俺達は乗船した。<BR>
+<a id="day8"></a><HR><H1 class=gradientAmini>【8日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／宝箱／探索3】</small><BR>
+      　アルバート＠北は捨てられた街で豪華な宝箱を発見した！　頑丈なカギがかかっている。時間はかかるが開けるならＤＫ－7、伝説Ｐ＋8。無視するならＬＰ＋3、ＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　また宝箱！？　たのむ！　《◆開錠》ちゃん帰ってきて！！　あやまるから！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　ついに北大陸に到着した。船が着いたのは、もう誰も住んでいないとおぼしき、捨てられた街だった。辺りを探索すると、屋敷に豪華な宝箱が放置されたままになっていた。<BR>
+　闇はかなり近い。開けるか非常に迷ったが……俺は宝のために北へ来たわけじゃない。先を急ぐ。<BR>
+<BR>
+　捨てられた街を進む途中、コナ王女と話をした。<BR>
+「そういえば……コナ王女は、俺のペットとして何をすべきと考えているのか教えてくれないか。どうも俺の意図とズレがある気がする」<BR>
+「えっと、そうですね……」<BR>
+　コナ王女はしばらく考え、次のように答えた。<BR>
+<BR>
+「首輪を付けてナワを引いていただいたり、四つん這いでお食事したり、私がほっぺたをおなめして『やめろよー』って言われたり、抱いてもらって夜の暖になったり、3日に一回アルバート様に体を洗っていただいたり……」<BR>
+「おい待て！　明らかにヤバいのがあるぞ！」<BR>
+
+<BR>
+「片道勇者オンラインは全年齢だからな！　というかそういうの全部いらないから！」<BR>
+「じゃあ私はどうペットであればいいんですか！？」<BR>
+「それはその……そう、ペットは家族だ」<BR>
+「家族……！？」<BR>
+　コナ王女が顔を赤らめた。マズい、また誤解されてる気がする！<BR>
+
+<BR>
+　そんな茶番を繰り広げながら、俺たちは捨てられた街を出た。外には果てしない銀世界が広がっている。<BR>
+「さあ……いよいよ北大陸の旅が始まるぞ。準備はいいか、コナ王女！」<BR>
+「はい！」<BR>
+　俺たちの戦いはこれからだ！　アルバート先生の次回作にご期待下さい！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 宝箱無視でＬＰ＋3、ＤＫ＋2</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>51</B>→<B><FONT color=#44aa44>54</FONT></B>　DK：<B>10</B>→<B><FONT color=#44aa44>12</FONT></B>　伝説P：<B>9</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》＝コナ王女</small></div>
+<HR><H1 class=gradientAmini>【9日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／休息／探索3】</small><BR>
+      　アルバート＠北は凍った街にじっと立ち尽くしている人物を見つけた。よく見ると……立ったまま凍っている癒し手だ！　君は鎮魂の祈りを捧げ、先へ進む……。ＬＰ＋2、ＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺たちは銀世界が広がる北大陸を歩き続け、ようやく次の街へたどりついた。だがそこもまた、誰もいない凍った街だった。<BR>
+「誰かいないか！」<BR>
+　帰って来るのはこだまだけ……そんな中、俺は街のある通りで立ち尽くす人影を見つけた。だがその人影は、不自然なほど動かない。<BR>
+<BR>
+　近付いて見ると、それは癒し手の青年だった。何かをかばうような立ち姿のままじっとしている……いや違う、全身が凍り付いているのだ！　凍った彼の表情は、脅威に立ち向かおうとする者特有の、勇気を感じさせる顔だった。<BR>
+　彼は、何かと戦ってこうなったのだろうか。<BR>
+
+<BR>
+　闇は近い。何もしてやることはできなかったが、俺は彼の指から、名前の刻まれた指輪を形見として預かった。彼を知る者がいれば、彼の勇姿を伝えてこれを渡そう。<BR>
+「もし彼が生まれ変わったなら、一度話をしたいものだ」<BR>
+　俺とコナ王女は、この勇気ある青年にしばし祈りを捧げ、その場を後にした……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 診断結果でＬＰ＋2、ＤＫ＋3</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>54</B>→<B><FONT color=#44aa44>56</FONT></B>　DK：<B>12</B>→<B><FONT color=#44aa44>15</FONT></B>　伝説P：<B>9</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　おい！　そろそろ10日目になろうというのにいまだに一回も戦闘してないぞ！　驚くことにスキルのオプションをまだ一回も使用できていなくて、見本プレイが怪しくなってきたところだ。北大陸の厳しい環境よ、俺に試練を与えたまえ！　クマとかでいいから！　頼む神様！</div></TD></TR></TABLE></DIV>
+<a id="day10"> </a><HR><H1 class=gradientAmini>【10日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／交流／伝説Ｐ＋3】</small><BR>
+      　暑苦しい理術士に、研究のためにアルバート＠北の体を<B>すみずみまで“分析”させてくれ</B>と頼み込まれた。覚悟して承諾するならＬＰ－3、ＤＫ－3し、伝説Ｐ＋4。断るならＤＫ－1。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　アッー！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　そろそろ、人に出会いたいものだが……そう思いながら氷の世界を進んだ末、俺はようやく街に着いた。ここも人はほとんど住んでいなさそうだ。煙突から煙が上がっていた建物があったので、そこを尋ねることにした。<BR>
+　ノックをして出てきたのは、暑苦しい理術士だった。<BR>
+
+<BR>
+「おお、ここまで来たとはスンバラシィー！　南の方からいらしたのかな！？　アッツゥイね！」<BR>
+　テンション高いな！　この寒さの中で、彼はすでに全身汗まみれだった。家に入らせてもらって分かったが、どうやらここに勝手に住みついているらしい。<BR>
+
+<BR>
+「ここまで来た生存力スッゴォイね！　君をくまなく分析させてくれ！　片目くんがダメなら後ろの女性だッ！！」<BR>
+「おい……」<BR>
+「アルバート様には指一本触れさせません！　私を調べて下さい！」<BR>
+「いやいや待て、想像がたくましくなってしまうからよせ！　俺がやる！」<BR>
+
+<BR>
+　俺は台に横になった。手足にベルトを締められ、理術士に服を一枚ずつ脱がされていく。<BR>
+「あ、ああアルバート様の肌が！　あああ～！」<BR>
+　コナ王女は手で顔を覆いながら、指の隙間から俺をくまなく見ている。この部屋のみんな俺に興味津々か！　やめろ！　見るな！<BR>
+<BR>
+　数分の診察が恐ろしく長く感じた。礼として部屋を借り、金ももらえたが……その日の夜、コナ王女が神妙な顔で言った。<BR>
+「アルバート様……私もあなたをくまなく調べたいです……！」<BR>
+「頼むやめろ！　もう俺をそっとしておいてくれー！」<BR>
+　夜は更けていった……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 覚悟して承諾し、分析させてＬＰ－3、ＤＫ－3、伝説Ｐ＋7</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>56</B>→<B><FONT color=#CC4444>53</FONT></B>　DK：<B>15</B>→<B><FONT color=#CC4444>12</FONT></B>　伝説P：<B>9</B>→<B><FONT color=#44aa44>16</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》　《◆強打》　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　北国まで来て……けがされちゃった……。</div></TD></TR></TABLE></DIV>
+<HR><H1 class=gradientAmini>【11日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／交流／探索4】</small><BR>
+      　静かな雪原にて、アルバート＠北は助けを求める暑苦しい妖精と出会った。助けるためにオプションを1つ譲渡するか、ＬＰ－8するなら伝説Ｐ＋5。でなければＬＰ＋2、ＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<BR>
+　汗まみれの理術士に体中を診断されてしまった俺だったが、めげずに旅を再会する。街を出ると、そこには静かな雪原が広がっていた。<BR>
+　少し前方を雪原グマが猛烈な勢いで横切っていく。あのクマ、何か追ってるのか？　……よく見るとクマが追っているのは妖精だ！<BR>
+
+<BR>
+　その妖精は俺に気付いて、叫んだ。<BR>
+「ねえ、どうしてそこの人たち助けてくれないの！？　もっと情熱的にッ！　さあレッツ熱血ヒーロー！」<BR>
+　レッツも何もこの場面でヒーローできるの俺だけだろ！　しかたなく、俺はまだ全然使っていない戦斧を取り出した。<BR>
+
+<BR>
+　妖精とクマがこちらへ一直線に迫ってくる！　俺は斧を構えクマに向かって突進した！<BR>
+「おおりゃあああーッ！！」<BR>
+　《◆強打》！　俺は斧を水平に振り雪原グマに叩きつけた！　ズドンと手応え十分！　まちがいなくホームランだ！<BR>
+<BR>
+　十分な手応えの一撃だったのだが、雪原グマは倒れることなく、そのまま逃げていった。北大陸の生物はなんと頑丈なんだ……。<BR>
+「ありがとうヒーロー！　熱い！　も、え、るー！　情熱ファイアー！」<BR>
+　逃げていたのは、全身汗まみれの暑苦しい妖精の少女だった。<BR>
+
+<BR>
+「お礼にすごいものあげる！　はい！」<BR>
+　渡されたのはいくらかの宝石だった。<BR>
+「これは助かる、すまんな」<BR>
+「また会えるといいねヒーロー！　じゃあねーバイバーイ！！」<BR>
+「え、おい……」<BR>
+　彼女は汗まみれのまま行ってしまった。妖精一人で大丈夫なのか……！？<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《◆強打》譲渡で伝説Ｐ＋5</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>53</B>　DK：<B>12</B>　伝説P：<B>16</B>→<B><FONT color=#44aa44>21</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《◆強打》《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　出会うヤツがみんな汗まみれだ…北大陸に適応すると汗まみれになるのか！？</div></TD></TR></TABLE></DIV>
+<HR><H1 class=gradientAmini>【12日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／戦闘／探索7】</small><BR>
+      　そんなまさか！　アルバート＠北は強そうな雪原クマの群れと遭遇してしまった！　無数の白い巨体が迫る！　戦うのならＬＰ－18、伝説Ｐ＋8。必死で逃げるならＬＰ－3、ＤＫ－4。</div></TD></TR></TABLE></DIV>
+<BR>
+「いやっほーヒーローさん熱血ぅぅー！！！」<BR>
+　あれは昨日会った暑苦しい妖精だ、その後ろにはまたクマが……いや待て、今度は無数のクマが妖精を追っているではないか！　一体何すればあんなに追われるんだ！<BR>
+「まあいい……望むところだ、ヒーローしてやる！」<BR>
+<BR>
+　冒険を始めてから12日目、俺はついに初【戦闘】に遭遇した。このときをどれほど待ちわびたことか！<BR>
+「コナ王女、戦えるか！？」<BR>
+「はい、微力ながら！」<BR>
+　俺たちはクマの群れに突入していく。だが必殺の《◆強打》さえもクマたちの勢いを止めきれない！<BR>
+<BR>
+　その後、俺たちは辛うじて雪原クマの群れを撃退した。コナ王女も俺も傷を負っている。<BR>
+　どこに隠れていたのか、妖精が出てきてえらそうに言った。<BR>
+「くくく、雪原クマ軍団などわれら四天王では最弱……」<BR>
+「なんだ四天王って！？」<BR>
+「いやその、本当ごめーん！」<BR>
+<BR>
+　汗まみれの暑苦しい妖精は、俺たちに再び謝りながら大量の宝石を差し出し、去っていった。<BR>
+「なんだったんだ……」<BR>
+「ところでアルバート様……私にもヒーローしてくださっていいんですよ？」<BR>
+「待て！　何を言ってるんだコナ王女！？」<BR>
+　王女はいつも通りだった。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《◆強打》《仲間：頼れるペット》でＬＰ減少11軽減、ＬＰ－7、伝説Ｐ＋8</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>53</B>→<B><FONT color=#CC4444>46</FONT></B>　DK：<B>12</B>　伝説P：<B>21</B>→<B><FONT color=#44aa44>29</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　うおおお伝説Pがたまってきたぞ！</div></TD></TR></TABLE></DIV>
+<a id="day13"></a><HR><H1 class=gradientAmini>【13日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／危機／探索4】</small><BR>
+      　アルバート＠北が遺跡に入ると入口が閉ざされてしまった！　脱出口を探すべく歩き回り、ＬＰ－3、ＤＫ－4、伝説Ｐ＋3。剣士か狩人の支援を得られれば一度だけＤＫ減少を2軽減。</div></TD></TR></TABLE></DIV>
+<BR>
+　クマを倒し、歩き続けた俺たちは地下遺跡を見つけた。入ってみると……その瞬間、入口が閉ざされてしまったではないか！<BR>
+「ノォォォー！！」<BR>
+　闇は近い、このままだとまずい！　俺とコナ王女は遺跡の中を走り回り、出口を探した。闇は刻一刻とこちらに迫ってくる。<BR>
+<BR>
+　必死に走り回る中、途中で俺は複数の狩人たちに助けられた。<BR>
+「向こうに出口があるよ」と指さす者、「借りを返すよ！」と導いてくれる者、「こっちに出口がありますよー！」と叫んでくれる者、キノコっぽい者、入口脇の壁のもろさを教えてくれる者……。<BR>
+<BR>
+　結局、四、五人程の狩人に助けられながら俺は迷宮を出た。<BR>
+「すまないみんな、あと一本、曲がり角を間違っていたら出られたか……ありがとう」<BR>
+「皆さま、本当にありがとうございました」<BR>
+　俺たちは救ってくれた狩人たちに感謝して、闇から逃れるように歩き出した。<BR>
+
+<BR>
+　俺は歩いている途中、あることに気付いてしまった。<BR>
+「待て、助けてくれた者に剣士が一人もいなかった！　これはミステリーだぞ、コナ王女！」<BR>
+「剣士が不人気なだけじゃないでしょうか……」<BR>
+　剣士たちには負けずに頑張ってただきたい、そう思った一日だった……。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 複数の狩人から支援を受けられ、ＬＰ－3、ＤＫ－2、伝説Ｐ＋3</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>46</B>→<B><FONT color=#CC4444>43</FONT></B>　DK：<B>12</B>→<B><FONT color=#CC4444>10</FONT></B>　伝説P：<B>29</B>→<B><FONT color=#44aa44>32</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　剣士は皆ＵＦＯにさらわれたんだ！　間違いないッ！</div></TD></TR></TABLE></DIV>
+<a id="day14"></a><HR>
+<H1 class=gradientAmini>【14日目】</H1>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_03.jpg" class="imgradius"></TD>
+      <TD><!--<small class="sindan">診断結果</small><BR>-->
+      <div class=boxA><small class=sindantop>【北／危機／探索5】</small><BR>
+      　凍った街にて、マゾな氷の精がアルバート＠北に話しかけてきた。「いい道を教えてあげる！」　氷の道を案内されＬＰ－２、ＤＫ＋６。海賊の支援を得られれば一度だけＤＫ＋３。</div>
+      </TD>
+    </TR>
+  
+</TABLE></DIV>
+<BR>
+　新たな街へ来たが、ここも完全に凍ってしまっていた。<BR>
+「また誰もいない街か……ん？」<BR>
+　ひらひらと小さな少女が寄ってきた。だがその姿はうつろで、小妖精とはまた違うようだった。実体がないからか服も着てない。目の毒だ。<BR>
+「うふふ、こんにちは、お兄さん」<BR>
+
+<BR>
+　その氷の精はいきなり俺に要求を突き付けてきた。<BR>
+「ハァハァ、ところでお願いよ、お兄さん！　私をいじめてよ！　いじめてくれたらいい道教えてあげるから！」<BR>
+「おいどうしてそうなる！？」<BR>
+　何か理由があるに違いないと思ったが、氷の精はただのマゾだった。<BR>
+<BR>
+　そこへ半獣人の海賊がやってきた。天の助けだ！<BR>
+「助けてくれ！　こいつをいじめるのに協力してくれ！」<BR>
+　コナ王女に白い目で見られる俺。興奮してきた――い、いやマゾじゃないぞ！<BR>
+　結局、俺たちは氷の精をいい具合にツンツンして道を教えてもらうことができた。<BR>
+
+<BR>
+　支援のおかげもあって氷の精はより興奮できたようで、だいぶ先まで案内してもらえた。<BR>
+「こんなことに付き合わせてしまってすまんな……助けに感謝する！」<BR>
+　俺は助けてくれた海賊に礼を言って先を急いだ。北大陸に来てから、人の手助けが身に染みる……。<BR>
+
+<BR>
+　しばらく歩いてコナ王女が言った。<BR>
+「ところでアルバート様、私もいじめてくださっていいんですよ！？」<BR>
+「なんでそうなる！　どちらかというと俺はいじめられる方が好きだ！」<BR>
+　その夜、俺は要望通りコナ王女に踏まれ続けた。総合的にはよかったと感じる。やっぱりマゾなのか、俺……！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 海賊の支援を受けられ、ＬＰ－2、ＤＫ＋9</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>43</B>→<B><FONT color=#CC4444>41</FONT></B>　DK：<B>10</B>→<B><FONT color=#44aa44>19</FONT></B>　伝説P：<B>32</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　コナ王女に踏まれてマゾの気持ちが少しだけ理解できた。これからは彼らを偏見の目で見ることはないだろう。</div></TD></TR></TABLE></DIV>
+<BR>
+<a id="day15"></a><HR>
+<H1 class=gradientAmini>【15日目のオプション購入】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【伝説Ｐがたまってるけれど】</small>
+      <div class=boxA>　伝説Ｐがたまってきたのでコナ王女をそろそろ人間扱いしたいと思っているのだが、コナ王女を人間に変えた場合、そこで余る《仲間：頼れるペット》を捨てるのがもったいないので何か新しくペットにできそうな者が出るまで待っているのだ。<BR>
+      　……ん？　あっ、雪原クマ！　俺は雪原クマを洗脳するぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「そういえば、コナ王女は癒しの技も知っているらしいな……今日からはペットをやめて、剣士か癒し手として働いて欲しいんだが……」<BR>
+「えっ！？」<BR>
+　コナ王女に予想外に驚かれて、俺はとまどった。俺はこのために伝説Ｐをためていたんだが……。<BR>
+<BR>
+「そんな……私はペットでいたいです！　どうしてペットのままではダメなんですか！？」<BR>
+「いやいや色々ダメだろ！？　というか代わりの奴もう連れてきちゃったし！」<BR>
+　俺は雪原クマを紹介した。先日逃した奴と再会したのだが、なぜか俺になついてきたのだ。　<BR>
+<BR>
+「ヴォー」<BR>
+　クマがしゃべった。俺は動物の言葉が分かる。それは衝撃の一言だった。<BR>
+「なんだと…おまえクマのくせに癒しの技が使えるだと！？　マジか！」<BR>
+「あ、よかった。それなら私のペットの立ち位置も安泰ですね」<BR>
+　俺は絶句した。だが二人とも喜んでる。<BR>
+<BR>
+　こうして、俺は《仲間：優しき癒し手》＝熊　を仲間にし、先へ進んだのであった……。<BR>
+　しかしどうやったらコナ王女はペットをやめてくれるんだ！　いやもういっそこのままでいいのか！？<BR>
+　俺は青い顔のまま、二人の後をフラフラとついていった……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 伝説Ｐを15消費し、《仲間：優しき癒し手》を購入。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>41</B>　DK：<B>19</B>　伝説P：<B>32</B>→<B><FONT color=#CC4444>17</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　<FONT color="#ff0000"><B>《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</B></FONT></small><BR>
+　　　　　　　　<small><B>誤植としか思えない</B>配役になった。</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　相手のためを思ってやっていたことが、実は相手に求められていなかった……読者のみんなもいつかそういう体験に出会うだろう。こうして人は少しずつ大人になっていくんだな……。</div></TD></TR></TABLE></DIV>
+<HR>
+<H1 class=gradientAmini>【15日目】</H1>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_03.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【北／休息／探索3】</small><BR>
+      　アルバート＠北は、凍える大氷原でスノークリスタ草という珍しい草を見つけた。食べると元気が出るが、高く売ることもできる。その場で食べるならＬＰ＋10。あとで売るなら伝説Ｐ＋6。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺の顔はまだ青いままだった。<BR>
+「あ、アルバート様、珍しい草がありますよ！　これを食べると元気が出るそうです」<BR>
+　そう言ってコナ王女はスノークリスタ草を摘んできた。<BR>
+「え……ああ……」<BR>
+　俺はうつろな目のまま、言われるままに草をそのまま食べてしまった。<BR>
+<BR>
+　そして食った後で気付いた。この草、売れば結構な金になるんだった！<BR>
+「ああーーー！」<BR>
+「ほら、アルバート様が元気になりましたよ、熊さん！」<BR>
+「ヴォー！」<BR>
+　なんということだ……まあ少し疲れていたし、ちょうどいいか……そう自分を納得させ、先を進む……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → スノークリスタ草を食べてLP+10</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>41</B>→<B><FONT color=#44aa44>51</FONT></B>　DK：<B>19</B>　伝説P：<B>17</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　LPもDKもそれぞれほぼ初期状態に近付いてきた。危ない場面もあったが意外と何とかなっているな！　仲間は何ともなってない！</div></TD></TR></TABLE></DIV>
+<a id="day16"></a>
+<HR>
+<H1 class=gradientAmini>【16日目】</H1>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_03.jpg" class="imgradius"></TD>
+      <TD><!--<small class="sindan">診断結果</small><BR>-->
+      <div class=boxA><small class=sindantop>【北／戦闘／探索7】</small><BR>
+      　そんなまさか！　アルバート＠北は凶悪な雪原クマの群れと遭遇してしまった！　無数の白い巨体が迫る！　戦うのならＬＰ－１８、伝説Ｐ＋８。必死で逃げるならＬＰ－３、ＤＫ－４。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　アッー！　またクマー！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="day16"></a><BR>
+　昨日、仲間にした雪原クマ――「彼女」は、どうやらクマ界のアイドルであることが判明した。自覚はしてないようだが。<BR>
+　そしてまさに今、俺はアイドルを雇ったツケを払うことになっていた。俺の目の前には、暴徒と化した狂暴なファンの雪原クマ軍団が迫っていたのだ！<BR>
+　<BR>
+「「「ヴォー！！」」」<BR>
+　ファンのクマたちが怒りの叫び声を上げる。<BR>
+「ヴォー！」<BR>
+　私のために争わないで！　と俺の側の「アイドル熊」が言った。だがファンたちは耳を貸さず、俺に襲いかかる！<BR>
+「ならばこの子を賭けて俺と勝負だ！　来い！」<BR>
+　俺はファンの熊軍団に突撃した！<BR>
+<BR>
+　長くに渡る壮絶な戦いの末、立っていたのは俺の方だった。<BR>
+「ヴォー！」<BR>
+　キャー素敵！　と言われ、アイドル熊から締め付けられる俺。グギギ…苦しい！<BR>
+　その後、俺はアイドル熊から傷やら体中をなめまわされて治療された。コナ王女がうらやましそうに見ている。<BR>
+<BR>
+「私、少しだけ癒し手になりたくなってきました！」<BR>
+「待て！　癒し手ってこんなにペロペロなめて癒したりしないから！　え？　ネムリとか言う女がそんなこと言ってた！？　しらんな！」<BR>
+　だが待てよ、コナ王女と熊が交代してくれれば俺のオプション欄はまともになる……。<BR>
+<BR>
+　それならばと、俺はこの方向性でコナ王女の人間への更正を狙っていくことを決めた。最終的に王女と熊が役割を交代してくれれば万々歳なんだが……。<BR>
+　そんなことを考えつつ、俺は熊にベロベロなめられながらしばし体を休めたのだった……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → スノークリスタ草を食べてLP+10</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>51</B>→<B><FONT color=#CC4444>35</FONT></B>　DK：<B>19</B>　伝説P：<B>17</B>→<B><FONT color=#44aa44>25</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　対人関係で悩んでいます。<BR>
+      <BR>
+      　ちなみに俺は過去の冒険で「翻訳指輪」というアイテムを手に入れていてな、動物の言葉も分かるんだ。浮遊島での冒険も楽しかったな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+https://twitter.com/owh_online/status/748498907940806656<BR>
+<IMG src="illust_06.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　そうかそうか、南大陸は安全なのか……ってネムリ嬢おまえが捕まってどうするー！！<BR>
+      　それにしても人間がクモにされているとは穏やかではないな。南大陸で大グモとの戦争でも始まりそうな雰囲気だ。<BR>
+      　だが北大陸にいるのも徐々に辛くなってきたし、次は南へ向かってみるのも面白そうだな！　よし、行くぞ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+【大陸移動】<BR>
+<BR>
+　ネムリ嬢が捕まったと聞いて、俺は南へと旅立つことにした。<BR>
+「あの少女らしい体格から生えるたくましいしっぽは国宝級だからな！」<BR>
+　などと言っていたらコナ王女に変なところをつねられた、や、やめろ！<BR>
+　そんな場面もありつつ、俺たちは船に乗り込む。<BR>
+<BR>
+　出航前、俺は船員にとがめられた。<BR>
+「おい……それマジで連れてくの？」<BR>
+　彼が指をさす先にはアイドル熊がいた。<BR>
+「すまんな、うちのパーティの癒し手なんだ」<BR>
+「いやし……は！？」<BR>
+「なおこっちの王女はペットだ」<BR>
+「ワン！」<BR>
+「えっ……逆じゃね！？」<BR>
+<BR>
+　こうして俺たちは凍り付く大地を離れ、南大陸へやってきた。暖かい、湿った風が俺のほおをなでる。<BR>
+「少しはゆっくりしたいが……どうなるかな」<BR>
+　南大陸では大グモとの戦いが活発になりつつあるはずだ。俺は気を引き締め、南大陸の大地に降り立った。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《大陸船のチケット》伝説Ｐ：５　を購入、消費して南大陸へ移動した</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>35</B>　DK：<B>19</B>　伝説P：<B>25</B>→<B><FONT color=#CC4444>20</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　ネムリ嬢、無事でいてくれ……！</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【17日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘／探索6】</small><BR>
+      　アルバート＠南が砂漠を歩いていると好色な鳥人の群れが飛んできた！　逃げ場がない！　撃退できるがＬＰ－7、ＤＫ－1。海賊か狩人の支援を得られれば一度だけＬＰ減少を3軽減。</div></TD></TR></TABLE></DIV>
+<BR>
+　船を下り、港を出るとそこは砂漠だった。暑い……。コナ王女はもともと暑い土地の住人らしく割と平然としているが、アイドル熊は雪原生まれゆえかすでに死にそうになっていた。<BR>
+　空を見ると、何もない空間に複数の黒い点が。鳥……？　違う、あれは鳥人の群れだ！<BR>
+<BR>
+　鳥人たちはなぜかいやらしい目でこちらを……いや、俺を見ている！？　俺の体が目当てなのか！？<BR>
+「コナ王女、このままだと俺が色々危ない！　援護を頼む！」<BR>
+「もちろんです！　アルバート様をいやらしい目で見る者は全て始末します……ウフフ！」<BR>
+　コナ王女恐い。<BR>
+
+<BR>
+　鳥人どもは何度も俺を捕まえて持ち帰ろうとしたが、そのたびにコナ王女がやつらの足を叩き斬ってくれた。<BR>
+　戦っているうちに、どこからともなく矢が飛んできて鳥人たちを貫いた。見ると、2人の狩人が支援をしてくれているではないか！<BR>
+「すまん、援護助かる！」<BR>
+<BR>
+　狩人達の助けも受けつつ、しばらくしてようやく戦いは終結した。<BR>
+「みんなのおかげで助かった、ありがとう」<BR>
+　俺は支援しにきてくれた皆に感謝を告げた。その手助けのおかげでなんとか撃退できたのはいいが、地面を見ると鳥人の足だらけになっていた。<BR>
+「うわ…」<BR>
+「大丈夫！　鳥人の足はみんな切り取りましたよ！」<BR>
+　俺が大丈夫じゃない。<BR>
+
+<BR>
+　その後、俺はアイドル雪原クマに治療をしてもらい、再び砂漠を進み始めた。<BR>
+「アルバート様、これっておいしいんでしょうか？」<BR>
+　コナ王女はさっきのヤツらの足を大量に背負っていた。食えるのかそれ…ああ、アイドル熊がうまそうに食ってる！　もう好きにしてくれ！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 支援をいただいた＋ペット＋癒し手使用で、ＬＰ－2、ＤＫ－1</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>35</B>→<B><FONT color=#CC4444>33</FONT></B>　DK：<B>19</B>→<B><FONT color=#CC4444>18</FONT></B>　伝説P：<B>20</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　南大陸での冒険がついに始まる！</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+　<BR>
+　その夜……。<BR>
+　<BR>
+<HR>
+　<BR>
+https://twitter.com/owh_online/status/748881750563041280<BR>
+<IMG src="illust_07.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【限定イベント開始】</small>
+      <div class=boxA>　魔王が来たぞ！　全大陸から1日1回、普通の診断とは別に挑戦可能とのことだ！　あと数十分で日が変わるので俺は魔王診断に突貫するぞ！　うおおおー！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+<HR>
+<BR>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【魔王／交流】</small><BR>
+      　アルバート＠南は魔王に襲われ、ひん死の勇者候補を発見。《癒やしの草》か《癒やしのアンプル》を使えば《仲間：気高き騎士》を取得できる。ない場合は看取ってＤＫ－1。どちらも伝説Ｐ＋3。</div></TD></TR></TABLE></DIV>
+<BR>
+「おい、死ぬな、ああああ！」<BR>
+　騎士の勇者候補は、俺の目の前で命の灯火を消そうとしていた。<BR>
+　彼は魔王に襲われ、もはや癒し手のアイドル熊にも手が付けられない重傷だった。彼の名は「ああああ」というらしい。名前表で1ゾロだったのか……って今はどうでもいいな！<BR>
+<BR>
+「あとは……頼む……ゴフッ」<BR>
+　俺たちが何もできないまま、騎士ああああは息を引き取った。墓を作る時間はなかった。<BR>
+「騎士様、安らかにお眠りください……」<BR>
+　コナ王女が別れ際に祈りを捧げる。俺も心の中で同じことをつぶやいた後、俺たちはその場を立ち去った……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → アイテムがないので看取ってＤＫ－1、伝説Ｐ＋3</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>33</B>　DK：<B>18</B>→<B><FONT color=#CC4444>17</FONT></B>　伝説P：<B>20</B>→<B><FONT color=#44aa44>23</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　騎士ああああの遺志は俺が継ぐぞ！　待っていろ魔王！</div></TD></TR></TABLE></DIV>
+<a id="day17"></a><HR><H1 class=gradientAmini>【18日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【魔王／戦闘】</small><BR>
+      　アルバート＠南は激戦の末、からくも魔王を撃退した。彼女が去った跡に、見たことのない装飾品を見つける。これが世界を救うヒントになるのだろうか？　ＬＰ－8、伝説Ｐ＋6。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　もう魔王を撃退！？　フラグ回収早すぎだろ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「貴様が騎士ああああを殺したのか…許せん！」<BR>
+　俺は魔王と対峙していた。騎士が死んだのがリアル時間で40分くらい前であることを考えるとフラグ回収が早すぎてヤバい。最終回が2ページでまとめられたマンガのような早さだ。<BR>
+「ならば来い、勇者候補ども！」<BR>
+　魔王が来る！<BR>
+
+<BR>
+　俺はコナ王女と共に、魔王と激戦を繰り広げた。<BR>
+　最終的に倒すことはできなかったものの、数時間後、なんとか魔王を撃退することに成功した。後は他の勇者候補たちに任せた……！<BR>
+　なお戦闘中、俺は魔王の下半身が気になってしょうがなかった。はいてるのか、あれ？<BR>
+<BR>
+　ふと地面を見ると、見たことのない装飾品を見つけた。それは魔王が落とした髪飾りだった。<BR>
+「ヴォー」<BR>
+　アイドル熊がそれを欲しそうにしていたので、俺はくれてやった。<BR>
+　しかし、代わりにコナ王女が少しむくれてしまった。こういう場合どうすればよかったんだ……！？<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → ペットと癒し手使用でＬＰ－6、伝説Ｐ＋6</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>33</B>→<B><FONT color=#CC4444>25</FONT></B>　DK：<B>17</B>　伝説P：<B>23</B>→<B><FONT color=#44aa44>29</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　騎士ああああの仇を取ったぞ！　第一部完！<BR>
+      <BR>
+      　なお魔王診断は通常診断とは別に引けるので、続けて通常の診断を引くぞ。</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+<BR>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／危機／伝説Ｐ＋3】</small><BR>
+      　アルバート＠南はセクシーな狩人と出会った。「動く的で練習がしたいんです！」　弓の標的になってあげるならＬＰ－5、ＤＫ－2、伝説Ｐ＋3。慌てて逃げるならＬＰ＋3、ＤＫ－1。</div></TD></TR></TABLE></DIV>
+<BR>
+「ねえ、お願い……私の的（まと）になって？」<BR>
+　街に行った俺は、セクシーな女狩人に突然声をかけられた。服の上からでも分かる悩殺的なボディ、男をたぶらかすことに特化した甘い声。強敵だ。<BR>
+「お、おい、的になれとはどういう意味だ」<BR>
+「アルバート様！　行きましょう！」<BR>
+<BR>
+「私……動く的で練習がしたいんです！」<BR>
+　セクシーな狩人はそう言って弓矢を取り出した。<BR>
+「そのままの意味だと！　一瞬期待しちゃっただろ！？」<BR>
+「もう！　そういった期待なら私が応えます！」<BR>
+　コナ王女は置いといて、どうする？　狩人に協力するか否か……。<BR>
+
+<BR>
+「……俺が一度でも人助けをしなかったことがあるか？」<BR>
+　俺はそう言って、結局、狩人の動く的になった。矢尻はつぶしてあったが、何本か命中して痛い目を見た。<BR>
+「ふう……ありがと、かっこいいお兄さん！」<BR>
+　セクシーな狩人は投げキス一つの礼をして去っていった。<BR>
+<BR>
+　あとでアイドル熊にケガを治療してもらおうと思ったら、<BR>
+「ヴォー（今日はもう疲れちゃった）」<BR>
+　と言われて放置されてしまった。そういえば仲間オプションの使用は1日1回だっけ……決してアイドル熊が嫉妬したり妬んだりしているからではないと信じたい。<BR>
+<BR>
+　俺は日が変わるまで宿で休むことにした。今日は痛い一日だった……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 標的になりＬＰ－5、ＤＫ－2、伝説Ｐ＋6</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>25</B>→<B><FONT color=#CC4444>20</FONT></B>　DK：<B>17</B>→<B><FONT color=#CC4444>15</FONT></B>　伝説P：<B>29</B>→<B><FONT color=#44aa44>35</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　さらに続けて女神像診断というのもやってみるぞ！　こちらはDK-4することでゲーム中1回だけいつでも引くことができるというものだ。何かいいものが出ればいいが……。</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+<BR>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【女神／入手】</small><BR>　女神に祈りを捧げると、妖しい光がアルバート＠北を包み込む。次の瞬間、手の中には《周辺の地図》があった。望むなら、このオプションを獲得して良い。</div></TD></TR></TABLE></DIV>
+<BR>
+　少しヤバくなってきた俺は女神像に祈ることにした。ＤＫが4点減るまで祈った頃、妖しいピンクの光が俺に降り注いだ……っておい、神々しい光じゃないのか！　こんなときまで大人の雰囲気を出さなくてもいいぞ女神様！<BR>
+　気付くと俺の手元には紙切れがあった。<BR>
+<BR>
+「これは……《周辺の地図》！」<BR>
+　ＤＫが減ってるこの状況ならこの地図は役に立つ！　問題は女神像に祈ったコストと同じくらいしか役に立たないことだ！<BR>
+「ないよりマシか……助かった、女神よ。もう会うことはないだろう……」<BR>
+　俺はその場を立ち去った。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 女神像に祈ってDK－4し、《周辺の地図》ゲット。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>20</B>　DK：<B>15</B>→<B><FONT color=#CC4444>11</FONT></B>　伝説P：<B>35</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《周辺の地図》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　《周辺の地図》はDK＋5しかできないからほとんど得した感がないぞ、女神様！</div></TD></TR></TABLE></DIV>
+<a id="day18"></a><HR><H1 class=gradientAmini>【19日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【魔王／交流】</small><BR>
+      　アルバート＠南は魔王に襲われ、ひん死の勇者候補を発見。《癒やしの草》か《癒やしのアンプル》を使えば《仲間：気高き騎士》を取得できる。なければ看取ってＤＫ－1。どちらも伝説Ｐ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　またァ！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「おい、死ぬないいいい！」<BR>
+　俺たちが街を出ると、また魔王に襲われたひん死の女騎士を発見した。彼女の名前は「いいいい」だという。<BR>
+「頼む、魔王を……ゴフ！」<BR>
+　何もできぬまま、女騎士は俺の目の前で息を引き取った……くそっ……！<BR>
+<BR>
+「分かった、俺が魔王を倒してやる！　安らかに眠れ……」<BR>
+「騎士様、安らかにお眠りください……」<BR>
+　あれ？　2日前にも似たようなことを言った気が……気のせいか？<BR>
+　しかし騎士ばかり魔王にやられているな！　無印だと弱いが、プラスだと強化されたんだぞ騎士！<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 看取ってＤＫ－1、伝説Ｐ＋3。【交流】なので《周辺の地図》を使用してＤＫ＋5！　</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>20</B>　DK：<B>11</B>→<B><FONT color=#CC4444>10</FONT></B>→15　伝説P：<B>35</B>→<B><FONT color=#44aa44>38</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　女騎士の仇、討ってみせる！</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+<BR>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／交流／探索3】</small><BR>
+      　アルバート＠南は、罠にかかった炎を吐く鳥人を見つけた。暴れている鳥人を助けるなら、後で飛んできて金品を落としてくれる、ＤＫ－3、伝説Ｐ＋2。始末するか無視するならＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　鳥人、だと……さすがに魔物を助けるつもりは……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「おまえ……俺が何でもかんでも助けると思うなよ」<BR>
+　目の前には罠にかかって飛べなくなっている鳥人がいた。それを見てコナ王女が言った。<BR>
+「アルバート様、闇も近いし無視してもよいのでは……」<BR>
+「いや、これは俺に対する『運命』からの挑戦だ……まちがいない！」<BR>
+
+<BR>
+　神は、困っている者なら俺がどこまで助けるのか見て笑っているに違いない。だって鳥人だぞ！？　いちおう魔物だぞ！　鳥人は俺を見て威嚇するように炎を吐いてきている。こいつを助ける道理などない！　あちっ！<BR>
+<BR>
+　――だが数十分後、俺は鳥人を解き放っていた……。<BR>
+　こんな状況でも鳥人を助けてしまう俺に、コナ王女もアイドル熊もあきれ顔になっていた。<BR>
+「……悪かったな」<BR>
+「いえ……そんなアルバート様だからついてきたんじゃないですか！　ね？」<BR>
+「ヴォー」<BR>
+「二人ともすまん……付き合ってくれてありがとう」<BR>
+<BR>
+　しばらく進むと、さっきの鳥人が飛んできて袋を落としてきた。あいつ……。<BR>
+　袋の中には銀貨と、それに混ざって銀の髪飾りが入っていた。<BR>
+「コナ王女、待たせた詫びだ、これを受け取ってくれ」<BR>
+　そう言って髪飾りをコナ王女に渡す。<BR>
+「あ…ありがとうございます！」<BR>
+<BR>
+　コナ王女は喜んで髪飾りを身に付けてくれた。そういえば、二週間ほど旅をしてコナ王女にプレゼントをしたのはこれが初めてかもしれない。癒し手の役はいらないと言われてしまったしな……。<BR>
+「俺より気がきく鳥人だったな、あいつ」<BR>
+　俺は笑って、再び歩き出した。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 鳥人を助けＤＫ－3、伝説Ｐ＋2</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>20</B>　DK：<B>15</B>→<B><FONT color=#CC4444>12</FONT></B>　伝説P：<B>38</B>→<B><FONT color=#44aa44>40</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　助けたのは見栄のためだからな！　ごご誤解するなよ！</div></TD></TR></TABLE></DIV>
+<a id="day20"></a><HR><H1 class=gradientAmini>【20日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【魔王／危機】</small><BR>
+      　魔物と戦うアルバート＠南の背後に魔王が迫る！　乱戦となり、ＬＰ－15、伝説Ｐ＋8。誰かの支援を得られれば1人あたりＬＰ減少を2軽減（最大3人分）。支援は全大陸から受けられる。</div></TD></TR></TABLE></DIV>
+<BR>
+　発見が遅れた！　いつの間にか俺たちの背後には魔王が迫っていた。もう再戦か！　フラグ回収早すぎだろ！<BR>
+「騎士いいいいの仇！　今度こそここで決着を付けてやる！」<BR>
+「フフ、やってみせろ！」<BR>
+　魔王はすばやい動きで俺たちを撹乱しながら火弾を放ってくる！<BR>
+<BR>
+　そのとき、数々の勇者候補たちが現れ、俺たちを援護してくれた！<BR>
+　矢で援護する者、手持ちの武器で攻撃してくれる者、魔王の尻に触る者、そして魔王の下着の色を調査せんとする者などなど――待て、そもそも魔王は下着付けてるのか！？　危険なことはやめろ！<BR>
+
+<BR>
+　こうして激戦の末、皆のおかげで何とか魔王を撃退することができた。今回も逃したが、女騎士いいいいの無念もこれでいくらか晴れただろう……。<BR>
+「支援感謝するぞ！　あとどさくさに紛れて魔王にセクハラしてたヤツが数名いただろ！？　まったく、いい加減にしろ！」<BR>
+
+<BR>
+　俺は来てくれたみんなをねぎらいながら、その場で休憩した。といっても主にアイドル熊にベロベロなめられまくっただけだがな！　これで実際に傷が治ってるんだから困る。<BR>
+　少しの休息の後、俺は支援にきてくれた者に別れを告げ、南大陸を再び歩き出した……。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 3人分の支援をもらいＬＰ6軽減、癒し手使用でＬＰ＋1でＬＰ－8</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>20</B>→<B><FONT color=#CC4444>13</FONT></B>　DK：<B>12</B>　伝説P：<B>40</B>→<B><FONT color=#44aa44>48</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　今回は仲間たちに助けられたな！　また会おう！</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+<BR>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘☆／探索5】</small><BR>
+      　アルバート＠南は大グモの巣で、首から下が繭に包まれた倒錯気味な中年男性を発見した。大グモの群れに襲われながら繭から救出するならＬＰ－7、伝説Ｐ＋5。逃げ出すならＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　ついに来た……！　やはり南大陸では大グモが人をさらっているのか！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　ようやく大グモの巣を見つけた俺たちは忍び足で内部を探索していた。そこで見つけてしまったのだ、首から下が繭に包まれた……中年男性を。<BR>
+「うひひひーあたしゃクモになりたいんでこのまま放っておいてくださいよーダンナー」<BR>
+　そのおっさんは倒錯していた。<BR>
+
+<BR>
+　そして不幸なことに、その声で敵に気付かれてしまったようだ。大グモたちが迫ってくる！<BR>
+「くそっ！　コナ王女、20秒でいい、敵の気を引いてくれ！」<BR>
+「はい！」<BR>
+　俺は急いで繭を引き裂き、倒錯気味な中年男性を引きずり出した。<BR>
+「よし、逃げるぞ！」<BR>
+
+<BR>
+　脱出の途中で大グモにやられてだいぶ傷を負ってしまったが、俺たちはなんとか安全な場所まで逃げ切ることができた。<BR>
+「いーひひひー助けなくてもよかったのにーウヒヒ」<BR>
+　なんかダメそうだぞ、このオッサン……俺たちは彼を近くの街に預け、先を急いだ……。<BR>
+<BR>
+　街に寄ったついでに俺は買い物をした。買ったのは《エルザイト爆弾》だ！<BR>
+「ば、爆弾……？」<BR>
+「ああ、今後も大グモと戦うだろうしな。火薬の扱いなら慣れてる、任せてくれ」<BR>
+　俺は爆弾を大事にしまった。なぜか二人が、俺から少し距離を開けるようになった。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → ペット使用でＬＰ1軽減、ＬＰ－6、伝説Ｐ＋8。爆弾購入で伝説Ｐ－15</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>13</B>→<B><FONT color=#CC4444>7</FONT></B>　DK：<B>12</B>　伝説P：<B>48</B>→<B><FONT color=#44aa44>56</FONT></B>→41　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+https://twitter.com/owh_online/status/749940544218894336<BR>
+<IMG src="illust_08.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【北大陸・新情報！】</small>
+      <div class=boxA>　伝説の武具が水中にあっただと…むやみに極寒の水の中に突っ込んでいったおかしな者たちの行動にも意味があったのか！　だがリアルではマネしちゃいけないぞ、絶対にだぞ！<BR>
+      　地下遺跡は楽しみだな。</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+<BR>
+https://twitter.com/owh_online/status/749941688957755393<BR>
+<IMG src="illust_09.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【南大陸・新情報！】</small>
+      <div class=boxA>　ネムリ嬢、クモにさらわれたままなのか！？<BR>
+      　「クモに捕らえられた前任者は反逆者でしたが、今度の私は完璧で幸福です！」などと言ってフラッと帰って来ることを祈りたいな……さすがにクモ化したネムリ嬢は見たくないぞ！</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【21日目】</H1>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA>【魔王／危機】魔王から必死で逃げるうち、アルバート＠南に闇が近づいてきていた。ここからすぐに離れなくては！　全力で走るならＬＰ－6。慌てないならＤＫ－5。どちらの場合も伝説Ｐ＋4。</div></TD></TR></TABLE></DIV>
+<BR>
+「ははは、どうした！　無様だな、勇者候補ども！」<BR>
+　魔王は空から火弾を連射してきた。さすがにこの状況は不利だ。俺たちは距離を離すべく、隠れながら逃走する。<BR>
+　そのおかげで魔王のターゲットは他の者に移り、無事俺たちは逃げ切れた。捕まった奴、すまん！<BR>
+
+<BR>
+　だが途中で、俺たちは逃げる方角を間違えていたことに気付いた。こっちは闇の方角だ！<BR>
+「まずい……！　どうする俺！？」<BR>
+　俺のＬＰは7、体力はほとんど残ってない。<BR>
+「なら慌てず急がず全力で……歩く！」<BR>
+　俺たちは競歩でその場を離れた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 癒し手使用でＬＰ＋1、慌てず行きＤＫ－5、伝説Ｐ＋4</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>7</B>→<B><FONT color=#44aa44>8</FONT></B>　DK：<B>12</B>→<B><FONT color=#CC4444>7</FONT></B>　伝説P：<B>41</B>→<B><FONT color=#44aa44>45</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　そろそろLPもDKもヤバいな……！</div></TD></TR></TABLE></DIV>
+<BR>
+<HR>
+<BR>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘／探索2】</small><BR>
+      　アルバート＠南は草原カワウソを発見！　だが動物保護団体の『緑の団』もいる。この元気な団員と戦って草原カワウソを狩るならＬＰ－15、伝説Ｐ＋7。無視するならＬＰ＋3、ＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　動物保護団体か！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「原作だと『緑の森』じゃなかったか……？」<BR>
+　俺は草原カワウソを守る、元気な『緑の団』狩人を見て言った。<BR>
+「オンライン版に出張してきた派生組織だからよ！　中の人が間違えたわけでも文字数の問題でもないわ！」<BR>
+　本当か！？　２文目の方が真実ぽいぞ！？<BR>
+
+<BR>
+「もしあなたが保護動物を狩るようなら私があなたを狩るわ！　狩人は狩人でも、私たちは人狩りなの！」<BR>
+　人狩り行こうぜ！　とか言って出発するんだろうか、こいつら。恐い。<BR>
+「分かった、恨みは買いたくない。保護動物たちのこと、大事に守ってくれ」<BR>
+「ええ！」<BR>
+
+<BR>
+　そんな話をして俺は『緑の団』の狩人と別れた。俺が保護動物を狩るわけがない…よほど腹が減ったときは別だぞ！？　俺の偽善的な倫理感だって食欲には勝てないんだ。<BR>
+「アルバート様、それなら私を食べ」<BR>
+「そういうのはもういいって！」<BR>
+　いつもの流れだった。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 無視してＬＰ＋3、ＤＫ＋2</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>8</B>→<B><FONT color=#44aa44>11</FONT></B>　DK：<B>7</B>→<B><FONT color=#44aa44>9</FONT></B>　伝説P：<B>45</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<a id="day21"></a><HR><H1 class=gradientAmini>【22日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘／探索2】</small><BR>
+      　アルバート＠南は実りあふれる山で元気なマッチョがゾンビに襲われているのを見つけた！　急いで救出するなら礼を言われ、ＬＰ－3、伝説Ｐ＋1。助けないならＬＰ＋4、ＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<BR>
+「そこの青年、助けてくれないか！　フゥン！！」<BR>
+　山の中、元気なマッチョの豪腕がゾンビを吹っ飛ばす。<BR>
+「おまえ助けいらないだろ！？」<BR>
+「腐った肉を触ってしまった！　このままだと病気になってしまう！　フンヌ！」<BR>
+　弾けるゾンビ！　散る肉片！　うわー！<BR>
+<BR>
+　仕方がないので洗えそうな場所を探し、案内することにした。幸いにも、近くに川が見つかった。<BR>
+「ありがとう青年！」<BR>
+　その場で脱ぎ出すマッチョ。そして無駄にポージングして俺たちに肉体美を見せつける。おまえそれがやりたかっただけだろ！　いい体してるな！<BR>
+<BR>
+　だがコナ王女もアイドル熊もマッチョには興味がなかったようで、後で聞くと俺だけがマッチョをガン見していたらしい。違う、そういう趣味はない！<BR>
+「私の体もガン見してもらって……いいんですよ！？」<BR>
+「そろそろ読者も飽きてきてるだろそのネタ！」<BR>
+<BR>
+「これは礼だ、また会おう！」<BR>
+　マッチョは礼として木彫りの小さい像を俺たちに渡し、去っていった。ああ見えて彫刻家だったのか……と、よく見ると像もマッチョだった。<BR>
+「肉体美、か……」<BR>
+　俺はそうつぶやいて山を歩き出した。この像、大事にしよう……。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → マッチョを助けてＬＰ－3、伝説Ｐ＋1</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>11</B>→<B><FONT color=#CC4444>8</FONT></B>　DK：<B>9</B>　伝説P：<B>45</B>→<B><FONT color=#44aa44>46</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　マッチョマッチョ！マッチョ！</div></TD></TR></TABLE></DIV>
+<a id="day22"></a><HR><H1 class=gradientAmini>【23日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／交流／探索3】</small><BR>
+      　アルバート＠南は月下の海岸で、山積みの腐ったナユタの実をほおばるまじめな女性と出会う。君も挑戦するなら腹を壊しＬＰ－4、伝説Ｐ＋3。遠慮するならＬＰ＋4、ＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　食えるのか、あれ…！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　夜の海岸を歩いていた俺たちが出会ったのは、黒い何かの山から塊を取り出し、口に運んでいる女だった。<BR>
+　女が振り向くと、その口元には黒ずんだ何かがべったり付いており、月明かりがさらに不気味さを加速させていた。<BR>
+「おまえ……何を食っている！？」<BR>
+
+<BR>
+「ナユタの実ですよ！　もったいないでしょ！」<BR>
+　一体どういう経緯で黒いナユタの実の山ができたのか気になるが、もったいないという言葉には俺も同意だった。<BR>
+　女は今もなおバクバク食っている。見た目はともかく……じつはこれ、普通に食えるのでは？<BR>
+
+<BR>
+「どれ……俺ももらうか。いいか？」<BR>
+「もちろん！」<BR>
+「ちょ、ちょっとアルバート様！？　やめません！？」<BR>
+　コナ王女が俺を制止したが、もったいない精神に負けた俺は黒い何かを食べ始めた。味は確かにナユタの実だった。口の中でヤバい感じにとろける……！<BR>
+
+<BR>
+　5分くらいして俺は後悔した。食事中の者に配慮して詳しくは話さないが、腹痛と下痢に襲われたりその過程で色々あったのだ。<BR>
+　今では代わりにアイドル熊が黒い塊を食ってる。まあ、やつの胃なら平気かな……。<BR>
+　結局、綺麗に食べきった後、俺たちは女と別れた。<BR>
+
+<BR>
+　その後、コナ王女がどこで買ってきたのか《癒しのアンプル》を渡してくれた。ＬＰ4で死ぬ寸前だったのでありがたく飲んだ。<BR>
+「コナ王女、助かった……」<BR>
+「アルバート様の無茶はもうお見通しですからね」<BR>
+　俺とコナ王女は互いにほほえんだ。頼りになる相棒だ。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 食って、《癒しのアンプル》購入＆使用して合計ＬＰ＋6、伝説Ｐ－12、ゴロロロピー</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>8</B>→<B><FONT color=#CC4444>4</FONT></B>→14（※）　DK：<B>9</B>　伝説P：<B>46</B>→<B><FONT color=#44aa44>49</FONT></B>→34　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　（※）LPが14まで回復したが、実は次の日にＬＰの更新だけ忘れ、ＬＰ8、ＤＫ9、伝説Ｐ34から処理をしてしまっているぞ！<BR>
+      　そのことに気付いたのが3日後だったので、コナ王女にもらった《癒しのアンプル》はLP10点でなくLP4点分しか効果がなかった扱いにしてそのまま続行している。コナ王女が買ってきたアンプルは正規品じゃなかったんだ……。</div></TD></TR></TABLE></DIV>
+<a id="day23"></a><HR><H1 class=gradientAmini>【24日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘／探索6】</small><BR>
+      　アルバート＠南が砂漠を歩いていると変な形の鳥人の群れが飛んできた！　逃げ場がない！　撃退できるがＬＰ－7、ＤＫ－1。冒険家か詩人の支援を得られれば一度だけＬＰ減少を3軽減。</div></TD></TR></TABLE></DIV>
+<BR>
+「なんだあれは！？」<BR>
+　空を見ると、名状しがたい冒涜的な形状をした鳥人の群れが飛んできていた。それを見た瞬間、俺は頭が真っ白になった。<BR>
+「いや、そんな！　あの鳥人は何だ！　うああ空に！　空に！」<BR>
+「アルバート様、正気をたもってください！」<BR>
+<BR>
+　俺が半狂乱になっている間に変な形の鳥人たちは迫ってきた！　俺の正気度がヤバい！<BR>
+「うわあああああ！　うわああああ！」<BR>
+　そのときだ、耳長人の詩人がやってきて戦いに加わってくれた！　その歌声が俺の正気を取り戻させた！<BR>
+「はっ……すまん、助かった！」<BR>
+<BR>
+　俺とコナ王女、そして詩人の支援で次々に倒されていく冒涜的な鳥人たち！　おれは　しょうきに　もどった！<BR>
+「なんだ、こいつら倒せたのか！　形状がヤバくて倒せないかと思ったぞ！」<BR>
+　そして数分の戦いの後、鳥人たちは退散していった……。<BR>
+<BR>
+　ふう…落ち着いて地面に落ちた名状しがたい冒涜的な形状の鳥人の死体を見ると、俺は再び発狂した。<BR>
+「うわあああああ！　アーッなんだこの形ー！」<BR>
+「アルバート様ー！　しっかりー！！」<BR>
+　俺は正気に戻るまでアイドル熊にベロベロされて、何とか立ち直った…。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 詩人の支援をもらい、頼れるペット、優しき癒し手効果でＬＰ－2、ＤＫ－1。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>8</B>→<B><FONT color=#CC4444>6</FONT></B>　DK：<B>9</B>→<B><FONT color=#CC4444>8</FONT></B>　伝説P：<B>34</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+https://twitter.com/owh_online/status/751393408111960065<BR>
+<IMG src="illust_10.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【北大陸の新情報】</small>
+      <div class=boxA>　北大陸の下には大陸サイズの超巨大迷宮が存在した……だと！　とんでもない事実が<B><FONT size="+1">判明判明</FONT></B>したな、傭兵パンティ！　大事なことなので二回言ったというやつか！<BR>
+      　超巨大迷宮、楽しみだ！　早速明日から行ってみるぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="day24"></a><HR><H1 class=gradientAmini>【25日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／戦闘／探索6】</small><BR>
+      　アルバート＠南は、変な形の鋼鉄の巨人の群れが生み出されている広間に出た。敵は無防備だ、徹底的に破壊して先へ進むならＬＰ－6、ＤＫ－9、伝説Ｐ＋8。去るならＬＰ＋2、ＤＫ＋1。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　ぐあああまた名状しがたい何かだと！！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+　超巨大迷宮に入った俺たち。そこに待ち受けていたのは、名状しがたき冒涜的な形状の鋼鉄の巨人の群れが生み出されている広間だった。<BR>
+「うわあああーッ！　……って待て、パーツの繋がりがグチャグチャだぞ！　変な形の生物ならまだしも、機械っぽいものならただの製造ミスだろ！」<BR>
+
+<BR>
+　この工場……というのか？　とおぼしき場所を徹底的に破壊してしまえば、他の勇者候補たちも楽になるだろう。だが俺にはもう、そんな体力も時間も残されていなかった。<BR>
+「しまったな、まず回復が必要か……二人とも、ここは退こう」<BR>
+「……はい」<BR>
+「ヴォー」<BR>
+
+<BR>
+　地上に出た俺は街で《癒しのアンプル》を買い、すぐ飲んだ。一日に購入できるオプションは空きスロット＋1個分なので今回の買い物はこれで終わりだ。<BR>
+　その後、ケガもしてないのにアイドル熊に治療を受けた。コナ王女が交代したいとうるさかった。こんな茶番もあと何日見られるのか。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 去る＋癒し手＋《癒しのアンプル》購入＆使用で、ＬＰ＋13、ＤＫ＋1、伝説Ｐ－15</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>6</B>→<B><FONT color=#44aa44>19</FONT></B>　DK：<B>8</B>→<B><FONT color=#44aa44>9</FONT></B>　伝説P：<B>34</B>→<B><FONT color=#CC4444>19</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：頼れるペット》＝コナ王女、《仲間：優しき癒し手》＝熊、《エルザイト爆弾》</small></div>
+<a id="day25"></a>
+<HR>
+<H1 class=gradientAmini>【26日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／入手／探索1】</small><BR>
+      　アルバート＠南は、戦いの中で急に調子を取り戻した！　君のクラスの《初期オプション》から好きなものを1つ取得してよい。　例：海賊なら《◆強打》か《◆開錠》のどちらか1つ。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　さらなるオプション入手……転機が来たか！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「コナ王女、今また、癒し手の役を頼みたいと考えてるんだが……」<BR>
+　俺は以前の話をもう一度切り出した。今ならどうだ！？<BR>
+「……実は私もそう考えていました。癒し手なら堂々とスキンシップができ――ゴホン！　ペットよりお役に立てる機会が増えますし……」<BR>
+<BR>
+「本当か！？　助かる、コナ王女！　となるとアイドル熊はペットに……」<BR>
+「ヴォー（ごめんなさい。私、やっぱりあなたのペットにはなれないみたい。それにこの南大陸は暑くて死にそうだったし、本当はそろそろ帰りたいなって思ってたところなの）」<BR>
+「……そうか」<BR>
+
+<BR>
+「ヴォー（気にしないで。ちょうどいいタイミングだし、ここで故郷に帰るわ。二人ともお幸せにね……冒険、楽しかったわよ）」<BR>
+　アイドル熊は去っていった。どこか寂しそうな、でも肩の荷が下りたような後ろ姿。知らぬ間に苦労をかけさせすぎていたのかもしれない。<BR>
+
+<BR>
+「ありがとう…おまえのこと、一生忘れないからな！」<BR>
+　アイドル熊は振り向いて一回うなずき、去っていった。<BR>
+　だがこれでよかったのだろうか？　その迷いを残したせいか、次の敵との戦いはどこかガムシャラになってしまった。あいつのことが忘れられなかったのだ。<BR>
+
+<BR>
+　戦いで己への憤りにも近い感情が湧いた瞬間、俺は《◆強打》の技を思い出した。そういえば、この猛々しい一撃をこの旅で最初にぶつけた相手こそ、まさにあのアイドル雪原クマだったのだ。<BR>
+「世界が平和になったらまた会おう……」<BR>
+　そう決意し、俺は歩を進めた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → コナ王女がついに癒し手になり、《仲間：頼れるペット》消滅。熊と別れ、彼女との思い出の《◆強打》を再び得た！</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>19</B>　DK：<B>9</B>　伝説P：<B>19</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》、《◆強打》</small></div>
+<BR>
+<BR>
+<a href="illust_bear.jpg" rel="lightbox[bear]"><IMG src="illust_bear.jpg" border="2" width="550"></a><BR>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　アイドル雪原クマとの2週間ほどの冒険……道中は治療と称してなめられまくった記憶しかないが、楽しかったぞ、アイドル雪原クマ……！　</div></TD></TR></TABLE></DIV>
+<a id="day27"></a><HR><H1 class=gradientAmini>【27日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘☆／探索5】</small><BR>
+      　アルバート＠南は大グモの巣で、首から下が繭に包まれた元気な亡国の姫を発見した。大グモの群れに襲われながら繭から救出するならＬＰ－7、伝説Ｐ＋5。逃げ出すならＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　20日ぶりに亡国の姫！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺がコナ王女とはぐれてから5時間が経とうとしていた。途中までコナ王女の足跡を追跡したが、それさえも見失ってしまった。だが、敵が大グモであることに気付けばその先の目星を付けるのは容易だった。<BR>
+　クモの足跡を辿って着いたのは、やはり大グモの巣だった。<BR>
+<BR>
+　俺は大グモの巣に慎重に忍び込んだ。その深部に、首から下が繭に包まれたコナ王女がいた。<BR>
+　あの繭に包まれたまま時間が経つと、体が変異し、大グモの仲間にされてしまうという。コナ王女をそんな目に遭わせてたまるか……！<BR>
+　俺はコナ王女に駆け寄った。<BR>
+<BR>
+「大丈夫か、コナ王女！」<BR>
+「あっ、アルバート様！　助けに来てくださると信じていました！　フンンン！！」<BR>
+　捕まっている割にコナ王女は猛烈に元気だった。<BR>
+「すぐ助ける！　腕さえ出せれば……よし！」<BR>
+　俺が慎重に繭を切り裂くと、コナ王女の腕が露出した。<BR>
+<BR>
+「あとは自力で裂いてくれ！　俺は客の相手をする！」<BR>
+　俺はコナ王女の手に短剣を持たせ、後ろに向き直った。すでに大グモの群れが俺たちを取り囲んでいた。<BR>
+「これでも喰らえ、《◆強打》！」<BR>
+　俺は斧を振り回し、コナ王女が繭から抜け出すまでの時間を稼いだ。<BR>
+
+<BR>
+　その後、俺たちはなんとか大グモの巣から脱出できた。今日から癒し手となったコナ王女に回復を頼む。<BR>
+「最初の治療が、私のせいでできてしまった傷なんて……」<BR>
+「いやいやケガはしてないから！　だがまあ……頼む」<BR>
+　茶目っ気を出す気分でないのか、今日の処置は普通だった。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《◆強打》使用でＬＰ減を10軽減し無傷、伝説Ｐ＋5、癒し手でＬＰ＋1</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>19</B>→<B><FONT color=#44aa44>20</FONT></B>　DK：<B>9</B>　伝説P：<B>19</B>→<B><FONT color=#44aa44>24</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　この際だ、最後まで生き残るぞ！</div></TD></TR></TABLE></DIV>
+<a id="day28"></a><HR><H1 class=gradientAmini>【28日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／危機／探索4】</small><BR>
+      　敵に追われ、アルバート＠南と好色な詩人は暗くて狭い部屋に逃げ込んだ。息を殺して敵が去るのを待つ。少し待って包囲網を突破するならＬＰ－4。完全に去るのを待つならＤＫ－3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　むむ、好色だと……！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちが敵の群れから逃げ回っていると、途中でイケメンの男詩人を発見した。彼も連れて、暗くて狭すぎる部屋に逃げ込む。詩人が言った。<BR>
+「ンーこういう状況になると大人向けの展開が来そうな雰囲気になりません！？」<BR>
+「ならん！　おまえコナ王女から離れろ！」<BR>
+
+<BR>
+「私は眼帯のあなたの方にも興味があるんですよ！？」<BR>
+「マジか！　おまえ男だろ！　好きになった男ならまだ許すが好きでもない男に言い寄られるのはアウトだ！」<BR>
+「アルバート様……男でも許しちゃうんですか！？　実はそっち系なんですか！？」<BR>
+「うおお違う！！」<BR>
+
+<BR>
+「実はそっち系でしたら、アルバート様が私に女としての興味をお持ちでなさそうなのも納得です！」<BR>
+「だから違うって言ってるだろ！」<BR>
+「オーこれは男の私も相思相愛のチャンス！？」<BR>
+「やめろ！　こんなところにいられるか！　俺は廊下に帰るぞ！」<BR>
+
+<BR>
+　俺はほんの少し待っただけで部屋を抜け出し、薄くなった包囲網を強行突破した。<BR>
+「ンー残念ですねー、脱出できてしまいましたー」<BR>
+「よかったな！　じゃあな！」<BR>
+　俺は性別を問わない好色な男詩人に別れを告げ、逃げるように去った。コナ王女がぽつりと言った。<BR>
+
+<BR>
+「アルバート様、私が今度生まれ変わるときは男になりますね……」<BR>
+「違う！　コナ王女に対してはその……照れてるだけなんだ、信じてくれ！　俺は平均程度には女性に興味がある！」<BR>
+「……本当にー？」<BR>
+　くっ、このままだと俺が男好きだと思われる……考えねば！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 包囲網突破でＬＰ－4、癒し手でＬＰ＋1し、計ＬＰ－3</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>20</B>→<B><FONT color=#CC4444>17</FONT></B>　DK：<B>9</B>　伝説P：<B>19</B>→<B><FONT color=#44aa44>24</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　俺は男好きではないぞ！　本当なんだ、信じてくれ！</div></TD></TR></TABLE></DIV>
+<a id="day29"></a><HR><H1 class=gradientAmini>【29日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／宝箱／探索2】</small><BR>
+      　アルバート＠南は、牢に捕まっている毛深い老婆を見つけた！　鍵を開け、助け出すならＤＫ－5し、お礼に《ナユタの実》を取得。助けないならＬＰ＋2、ＤＫ＋1。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　毛深い……老婆……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちが超巨大迷宮を進んでいると、牢を発見した。誰かいるだろうか……そう思いながら中を見ると、そこには人間サイズの毛玉のような物体があった。<BR>
+「……生き物なのか、アレ？」<BR>
+　そうつぶやくと、毛玉はもそもそ動き出した。うわっ生きてる！<BR>
+
+<BR>
+「おやおや、やっと救助が来てくれたんだねえ」<BR>
+　しわがれた声。<BR>
+「その声……ご老体か？」<BR>
+「そうだよ。あたしゃここに連れてこられて、それはもうひどいことされちまったんだよ」<BR>
+「まさか、そんな毛玉みたいになったのも……？」<BR>
+「これは元々だよ」<BR>
+　マジか。<BR>
+
+<BR>
+「助ける……しかないだろうな」<BR>
+　闇が非常に近くまで迫っていたが、それでも、ここで助けなければ俺はずっと後悔するだろう。<BR>
+「分かった、すぐ開ける。待っていてくれ」<BR>
+　俺は鍵の破壊に着手した。しばらくして、牢の鍵は無事に開いた。<BR>
+<BR>
+「ありがとね、これをやるよ。最後の飯だけどもういらないからね」<BR>
+　毛玉の中から、モコモコの手がニュッと出て《ナユタの実》を渡された。<BR>
+「あ、ああ……助かる」<BR>
+「じゃあね、がんばるんだよ」<BR>
+　老婆は毛を引きずって歩いて行った。種族さえ分からなかった。<BR>
+
+<BR>
+　帰り道、コナ王女が聞いた。<BR>
+「アルバート様は、どうしてご自分が辛いときでも人助けができるのですか？」<BR>
+「目の前にいる者を助けられなかったら、俺の心がもっと辛くなる。それだけだ。これは、俺の弱さゆえなんだ」<BR>
+　俺たちは超巨大迷宮の探索を続けた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 助け出しＤＫ－5、《ナユタの実》入手</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>17</B>　DK：<B>9</B>→<B><FONT color=#CC4444>4</FONT></B>　伝説P：<B>24</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》、《ナユタの実》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　そろそろDKが本格的にまずくなってきたな！　興奮してきたぞ！</div></TD></TR></TABLE></DIV>
+<a id="day30"></a><HR><H1 class=gradientAmini>【30日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／宝箱／探索2】</small><BR>
+      　アルバート＠南は武器庫らしい場所を見つけた。しかし扉には頑丈な鍵がかかっている。扉をなんとか開けるならＤＫ－8し、《伝説の武具の断片》を取得。無視するならＬＰ＋2、ＤＫ＋1。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　DK残り4では無理か……！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちが超巨大迷宮を進んでいると、武器庫らしい場所を発見した。だが闇は近い。この扉を破る頃には、俺たちは闇に呑まれてしまうだろう……。<BR>
+「《伝説の武具の断片》が手に入りそうな気がするのに……くっ！」<BR>
+「そんなことまで分かるんですか！？」<BR>
+
+<BR>
+　残念ながらコナ王女にはシステムメッセージのことを話しても分からないだろう。俺は武器庫を後にし、先へ進んだ。少しでも闇との距離を離さなければ。<BR>
+「まあ、たまにはこういう日があってもいいか……」<BR>
+　そう、ただ健康と余裕を取り戻すだけの日があってもいい。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 無視してＬＰ＋2、ＤＫ＋1。早く「ナユもぐ」したいぞ！</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>17</B>→<B><FONT color=#44aa44>19</FONT></B>　DK：<B>4</B>→<B><FONT color=#44aa44>5</FONT></B>　伝説P：<B>24</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》、《ナユタの実》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>※「ナユもぐ」とは：『片道勇者』原案のＰＳ移植ゲーム、『不思議のクロニクル　振リ返リマセン勝ツマデハ』のネムリ嬢にナユタの実を食わせたとき、ボイスを飛ばすと主観で「ナユ、も、ぐ」と聞こえる気がするので「ナユもぐ」とは俺的にナユタの実をモグモグすることなのだ！　本当にどうでもいいな！</div></TD></TR></TABLE></DIV>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【30日経過】</small>
+      <div class=boxA>　そしてついに開始から約30日が経ったぞ！　プレイしてくれているみんな、本当にありがとう！　あと10日ちょっとで最終イベント公開とのことなので、残りを何とか生き延びたいものだな。<BR>
+      　俺のことだから、転生するとうっかり女になったりしかねん！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="day31"></a><HR><H1 class=gradientAmini>【31日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／交流／探索4】</small><BR>
+      　アルバート＠南は、骨が散る通路で以前にも会った癒し手の亡骸を見つけた。短く祈りを捧げ、先に進む……。ＬＰ＋4、ＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　なんだと……！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちは、骨が散る通路に出くわした。超巨大迷宮の中はこんな場所ばかりだ。<BR>
+　だがそこに、血にまみれた白い毛の巨体が倒れていた。なぜか雪原クマが倒れていたのだ。<BR>
+「まさか……！」<BR>
+　俺は慌てて近づいた。見慣れた顔、そして首には「魔王の髪飾り」……。<BR>
+<BR>
+　それはどう考えても数日前に別れた仲間の癒し手――アイドル雪原クマだった。<BR>
+「嘘……だろ……」<BR>
+　俺はその場にひざを付いた。そうか。アイドル雪原クマは迷宮を通って北大陸に帰ろうとしたのだ。だが途中で……。<BR>
+　クマは、目を見開いたまま死んでいた。<BR>
+
+<BR>
+　アイドル雪原クマを一人で帰さなければよかった……俺は何ということをしてしまったんだ……！<BR>
+「ああ……クマ！　クマァァ！」<BR>
+　俺はむせび泣いた。こんなことになるなら責任をもって北大陸まで船で連れていけばよかった……だがもう手遅れだ……。<BR>
+<BR>
+　俺は見開いたままのアイドル雪原クマの目を閉じさせて、少し祈り、髪飾りを形見として預かった。<BR>
+「行こう……時間がない」<BR>
+　しばらくの後、コナ王女が言った。<BR>
+「私が死んだら……きっと生まれ変わってアルバート様に会いに来ます。約束ですから」<BR>
+「……ああ」<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 祈りを捧げ、ＬＰ＋4、ＤＫ＋3。泣きながら《ナユタの実》を食べ、さらにＬＰ＋8、ＤＫ＋2。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>19</B>→<B><FONT color=#44aa44>23</FONT></B>→<B><FONT color=#44aa44>31</FONT></B>　DK：<B>5</B>→<B><FONT color=#44aa44>8</FONT></B>→<B><FONT color=#44aa44>10</FONT></B>　伝説P：<B>24</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》、《ナユタの実》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　これがこの世界の有り様なのか……すまん、熊……。<BR>
+      　こんな日に食うナユタの実はすっぱいな……。</div></TD></TR></TABLE></DIV>
+<a id="day32"></a><HR><H1 class=gradientAmini>【32日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／危機☆／探索6】</small><BR>
+      　アルバート＠南は凍った湖で大グモの巣へ乗り込むフリーダ王女を発見！　覚悟して同行するならＬＰ－7、ＤＫ－2、伝説Ｐ＋6。無事を願うならＤＫ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　南大陸にフリーダ王女も来てるのか！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　アイドル雪原クマを失った失意の中、俺たちはなんと大グモの巣へ単身乗り込もうとしているフリーダ王女に出会った。<BR>
+「あなたも勇者候補の方ですね。よければご助力をお願いします」<BR>
+　フリーダ王女は返事も聞かずに先に行ってしまった。コナ王女がこちらを見る。<BR>
+「えーと……どうしましょう？」<BR>
+<BR>
+「俺は人助けをしなかったことは一度もない……それにネムリ嬢がいるかもしれん、行こう！」<BR>
+「そういえば以前、たくましい尻尾が国宝級だとおっしゃってましたね。私、次は尻尾を生やします！」<BR>
+「次ってなんだ！？　変なキャラメイク成分を溜めるんじゃあない！」<BR>
+
+<BR>
+　俺たちはフリーダ王女についていくことになり、大グモの巣から囚われの者たちを救助した。敵の中には強力な人面グモもいたが、すでに一流の大グモスレイヤーと化していたフリーダ王女の前では敵ではなかったらしい。<BR>
+　俺の仕事は、脇の大グモを排除するだけだった。<BR>
+
+<BR>
+「ありがとうございます、おかげで多くの人を助けられました。それでは、また……」<BR>
+　フリーダ王女は俺たちに礼を言うと、次の獲物を探して去っていった。<BR>
+「ネムリさん、ここにはいませんでしたね……」<BR>
+「ああ。まだ間に合うのか、それとも……いや、何でもない」<BR>
+
+<BR>
+「それはそうと、気になることがある」<BR>
+　俺は南大陸にしてはあまりに珍しすぎる、巣のそばの「凍った湖」を指した。<BR>
+「これ……ランダム地形をミスって入力してるんじゃ――」<BR>
+「しーっ！！」<BR>
+　俺は運営の人に修正依頼することを決意し、その場を離れた。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 同行＋癒し手でＬＰ－6、ＤＫ－2、伝説Ｐ＋6</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>31</B>→<B><FONT color=#CC4444>25</FONT></B>　DK：<B>10</B>→<B><FONT color=#CC4444>8</FONT></B>　伝説P：<B>24</B>→<B><FONT color=#44aa44>30</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　割とギリギリの状態だが人助けは欠かしていないぞ！　ランダム地形の設定が怪しい件に関しては運営の人にきっちり報告しておいた。</div></TD></TR></TABLE></DIV>
+<BR>
+　　　↓<BR>
+<BR>
+https://twitter.com/owh_online/status/754318361522151424<BR>
+<IMG src="illust_11.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【担当者更新のお知らせ】</small>
+      <div class=boxA>　そんなつもりはなかったのにまた担当者が犠牲になってしまったのか！　片道勇者オンライン公式運営は大変だな……次の担当者は完璧で幸福であることを祈ろう。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="day33"></a><HR><H1 class=gradientAmini>【33日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／休息】</small><BR>
+      　アルバート＠南は酒場で休むことにした。マゾな女衛兵が隣に座ってきて、話をした末にいい雰囲気になった。ＬＰ＋6、ＤＫ－1、伝説Ｐ＋3。どんな会話をしたか描写するとさらにＬＰ＋1。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺は昨日の大グモたちとの戦いの疲れを癒すため、街に来ていた。コナ王女と酒場のカウンターに座ってミルクを飲んでいると、俺の隣に女衛兵が座って言った。<BR>
+「ねえ……お願いがあるんだけど」<BR>
+「あ～、手短に頼む」<BR>
+　コナ王女は露骨にイヤそうな顔をしていた。<BR>
+<BR>
+　女傭兵の願いはこうだった。<BR>
+「私を罵倒して欲しいの」<BR>
+「え？　いや待て！　俺がそんなに罵倒が好きそうに見えるのか！？」<BR>
+　いや、何か理由があるに違いない……そう俺は考えたが、この女衛兵はただのマゾだった。<BR>
+「うーん……罵倒か……うーん……！」<BR>
+
+<BR>
+　俺は罵倒が得意ではない。そもそも罵倒語は文化にひも付くものだ。ただの鶏という呼び方が「臆病者」を意味する土地さえある。だがここの知識は俺にはなかった。<BR>
+「うーん……そんな要求をしてくる女にムコは来んぞ！　とか」<BR>
+「えー、30点」<BR>
+「くっ、ダメか！」<BR>
+<BR>
+　コナ王女が立ち上がった。<BR>
+「分かりました……私がやりましょう。耳を貸していただけますか？」<BR>
+　コナ王女がドＭな女衛兵に何やら耳打ちすると、女衛兵は徐々に恍惚とした表情になった。<BR>
+「あ、ああ……いいわ、最高ッ……人間としての尊厳が崩壊しそう……！」<BR>
+
+<BR>
+　一体何と言って罵倒したんだコナ王女は……だがそれを確認する勇気は俺にはなかった。<BR>
+「あー、コナ王女、助かった」<BR>
+「いいえ、アルバート様のためですから」<BR>
+　ああ、これでいい。女同士の本気の罵倒なんて聞きたくない。俺は綺麗な言葉だけで生きていくんだ！！<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 描写してＬＰ＋7、ＤＫ－1、伝説Ｐ＋3。<BR>
+　　　　　　　　さらに《周辺の地図》も買って使い、ＤＫ＋5、伝説Ｐ－10</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>25</B>→<B><FONT color=#44aa44>32</FONT></B>　DK：<B>8</B>→<B><FONT color=#CC4444>7</FONT></B>→<B><FONT color=#44aa44>12</FONT></B>　伝説P：<B>30</B>→<B><FONT color=#44aa44>33</FONT></B>→<B><FONT color=#CC4444>23</FONT></B><BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<a id="day34"></a><HR><H1 class=gradientAmini>【34日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／戦闘／探索5】</small><BR>
+      　アルバート＠南が部屋を覗くと、賞金首のガイコツの群れが踊っていた。奥には宝が！　全滅させるならＬＰ－7、ＤＫ－2し《癒しのアンプル》を取得。去るならＬＰ＋2、ＤＫ＋1。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　普通に戦闘だ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　こっそり部屋を覗くと、そこには賞金首どものガイコツが踊っていた。誰が誰かまったくわからんが、壁に生前のものとおぼしき数々の指名手配ポスターが貼ってあったのでたぶんそうだろう。奥には宝箱があった。<BR>
+「やるか……コナ王女、後で治療を頼む」<BR>
+「はい！」<BR>
+<BR>
+　俺だって一人の傭兵であり冒険家だ、宝を狙って何が悪い。俺は斧を持ってガイコツどもの群れに斬り込んだ！<BR>
+「うおおおーっ！！」<BR>
+「ホネーッ！」<BR>
+　その後、五分と経たずに骨の群れは全てバラバラになった。まだクモの方が歯ごたえがあったかもな。<BR>
+
+<BR>
+　守られていた宝箱の中にあったのは《癒しのアンプル》だった。<BR>
+「疲れたし、もらうとするか……ゴクッ。うむ、ファイト一発な感じだな！」<BR>
+　俺は成果に満足して部屋を出た。コナ王女に治療してもらい、迷宮の探索を続ける。ああ、これこそ普通の冒険だ……いい！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 戦って、癒し手を使用しＬＰ－6、ＤＫ－2、入手した《癒しのアンプル》をすぐ使用しＬＰ＋10</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>32</B>→<B><FONT color=#CC4444>26</FONT></B>→36　DK：<B>12</B>→<B><FONT color=#CC4444>10</FONT></B>　伝説P：<B>23</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<a id="day35"></a><HR><H1 class=gradientAmini>【35日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／戦闘／探索2】</small><BR>
+      　アルバート＠南は月下の海岸でイカした野犬を発見した！　相手はたかが犬、たいした相手じゃない！　戦って突破するならＬＰ－3、ＤＫ＋2。迂回するならＬＰ＋4、ＤＫ－2。</div></TD></TR></TABLE></DIV>
+<BR>
+「ガルルル……」<BR>
+　目の前には鎖をジャラジャラ身に付けたパンクな野犬がいた。少し防御力が高そうだ。避けることもできそうだが、俺たちには時間がない。<BR>
+「行くぞ野犬！」<BR>
+　俺は野犬に斬りかかる。決着は一瞬だった。立っていたのは、もちろん俺の方だ。<BR>
+
+<BR>
+　野犬を倒した俺は少し先へ進んでから、コナ王女に治療してもらうことにした。軽く傷を負ってしまったのだ。<BR>
+「アルバート様……この旅は、いつまで続くのでしょう」<BR>
+「さあな。だが、そう長くは続かないと思う」<BR>
+「……」<BR>
+　俺たちの間に、妙な沈黙が降りた。<BR>
+<BR>
+　二人とも、別れの時が近いことを予感していた。<BR>
+「ずっと旅していたい……というのは、ワガママでしょうか」<BR>
+「……こんな旅だ、いつ別れが来るか分からない。だから今を大事にするんだ。俺は今に満足しているぞ」<BR>
+　俺は笑った。コナ王女も、つられてほほえんだ。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 戦って、癒し手を使用しＬＰ－2、ＤＫ＋2</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>36</B>→<B><FONT color=#CC4444>34</FONT></B>　DK：<B>10</B>→<B><FONT color=#44aa44>12</FONT></B>　伝説P：<B>23</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　実はこの頃に強力になった魔王イベントも開催中だったんだが、俺はリソースとリアル時間がなかったのでやらなかったんだ。<BR>
+      　終了後の今でも開催中なので、気になる者はぜひ挑戦してくれ！</div></TD></TR></TABLE></DIV>
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+https://twitter.com/owh_online/status/755380774061211653<BR>
+<IMG src="illust_12.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【超巨大迷宮・新情報！】</small>
+      <div class=boxA>　一人だけ生きて帰ったとかこの老人やるな……そして超巨大迷宮には『コア』があるらしいぞ！　俺も状態を見つつ迷宮を探索してみる！<BR>
+      　そしてネムリ嬢は一体どうなってしまったんだ！　クモ化したのか！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="day36"></a><HR><H1 class=gradientAmini>【36日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／戦闘☆／探索4】</small><BR>
+      　アルバート＠南は、暗い拷問部屋で鋼鉄の巨人と戦うヴィクターを発見！　共に戦うならＬＰ－8。軍師役を務めるならＤＫ－4。どちらも伝説Ｐ＋7。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　こんなところにヴィクター王だと！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちが入ったのは、血に塗れたベッドと刺々しい様々な器具が置いてある拷問部屋だった。そこではヴィクター王が廊下から侵入してこようとする鋼鉄の巨人に応戦していた。<BR>
+「おお、勇者候補の者か！　力を貸してくれんか！」<BR>
+「もちろんだ！」<BR>
+
+<BR>
+　俺は斧を振り上げ、廊下から伸びる巨人の腕に一撃を加えた！　手を叩き斬った…と思ったら手だけがそのまま部屋に侵入し、俺たちに襲いかかる！<BR>
+「くそ、これは切っても動くやつか！」<BR>
+「外のは任せるんじゃ、入ってきたのを頼む！」<BR>
+　俺は手の排除を担当した。<BR>
+
+<BR>
+　結局、外の鋼鉄の巨人の装甲が溶けるまでヴィクターは火炎を撃ち続け、俺は動き回る手をバラバラにしてようやく戦いは終わった。<BR>
+「ふー、なんとかなったの。すまぬな」<BR>
+「いや……俺が邪魔しただけみたいだったぞ」<BR>
+　俺はそう言ったが、王は感謝して礼をくれた。<BR>
+
+<BR>
+　コナ王女に傷を治療してもらい、先へ進む。礼としてもらった袋を見ると、中には銀貨とフリーダ王女の小さな肖像画が入っていた。<BR>
+「……この肖像画も報酬……なのか？」<BR>
+「すまんすまん！　その中に銀貨以外も入っておったので返してくれんか」<BR>
+「ああ、これだな」<BR>
+　俺は肖像画をヴィクター王に返した。<BR>
+<BR>
+　ヴィクター王と別れ、歩き始めたときにコナ王女が言った。<BR>
+「あの……この戦いが終わったら私の肖像を描いてもらって、アルバート様に持っていただくのはどうでしょう」<BR>
+「え？　あ、ああ、そうだな、嬉しいかもな」<BR>
+　コナ王女にしては控えめなお願いだったので、俺は戸惑った。<BR>
+　だが確かに、これからもずっと一緒にいることはできないのだ……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 戦って、癒し手を使用しＬＰ－7、伝説Ｐ＋7</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>34</B>→<B><FONT color=#CC4444>27</FONT></B>　DK：<B>12</B>　伝説P：<B>23</B>→<B><FONT color=#44aa44>30</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　旅の終わりも近い。別れのときのことも考えないとな……。</div></TD></TR></TABLE></DIV>
+<a id="day37"></a><HR><H1 class=gradientAmini>【37日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／危機／探索5】</small><BR>
+      　共に歩いていた毛深い騎士がスライムに飲み込まれた！　服だけ溶かすスライムだ！　アルバート＠南の手で助け出すならＤＫ－3、伝説Ｐ＋4。自力で何とかしてもらうならＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　なにこの嬉しくない展開……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺は迷宮で出会った獣人の男騎士と歩いていた。その瞬間、騎士が何かに包まれた！　これは……服だけ溶かすスライムだ！<BR>
+「でも鎧は溶かさないし、おまえ毛皮があるから服が溶けても別にそんな問題ないよな」<BR>
+「えっ、ひどいぞ、この海賊め！」<BR>
+<BR>
+「俺たちは人間だからな……うっかり触って服が溶けると困るんだ。特に隣の女性は」<BR>
+　俺はコナ王女を指した。<BR>
+「くそおおお！　獣人差別だぞ！」<BR>
+「分かった！　ここで見ててやるから何とか抜け出してくれ！　まずそうなら助けるから！」　<BR>
+「薄情者ー！」<BR>
+<BR>
+「だが私は負けぬ！　ぬおー！！　あっ」<BR>
+　獣人の騎士ががんばると、驚くほどあっけなくスライムから抜けてしまった。<BR>
+「おお、すばらしい働きだな！」<BR>
+「さすがですね騎士様！」<BR>
+「え……そ、そうだろう！　うむ！　では先へ進むぞ」<BR>
+　獣人の騎士は扱いやすかった。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 自力で何とかしてもらいＤＫ＋2、癒し手でＬＰ＋1</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>27</B>→<B><FONT color=#44aa44>28</FONT></B>　DK：<B>12</B>→<B><FONT color=#44aa44>14</FONT></B>　伝説P：<B>30</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　女性がスライムに包まれたなら大至急助けました、本当です。</div></TD></TR></TABLE></DIV>
+<a id="day38"></a><HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【新情報、ネムリ嬢が帰ってきた！】</small>
+      <div class=boxA>　うおおお、みんなの探索のおかげでネムリ嬢が無事帰還したぞ！　たくましい国宝級の尻尾は守られたのだ！　今後は南大陸でボスらしき女王グモと戦えるようだな、みな気をつけてくれ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+https://twitter.com/owh_online/status/756085713179807745<BR>
+<IMG src="illust_13.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【ネムリ嬢について】</small>
+      <div class=boxA>　しかし原作では（ピー）になったりオンラインでは人面グモにされかけたりと、ネムリ嬢はやたら体型変化系の不幸に巻き込まれるな！　クモになったネムリ嬢なんて一部の人は大喜びかもしれんが、俺は喜ばないぞ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<HR>
+<H1 class=gradientAmini>【38日目】</H1>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／入手☆／探索1】</small><BR>
+      　アルバート＠南は暗い拷問部屋にて、壊れた鋼鉄の巨人から《覚醒の石》を発見！　望むならこのオプションを取得できる。取得しないなら伝説Ｐ＋6。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　おお、ここに来ていいものが出たな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺は超巨大迷宮で道に迷ったあげく、拷問部屋へたどりついた。<BR>
+「コナ王女……『拷問してくださってもいいんですよ』とか言うのはナシだからな」<BR>
+「そんなこと言いません！」<BR>
+　言いそうだ。それはそうと、拷問部屋には装甲が溶けかけた鋼鉄の巨人が倒れていた。<BR>
+<BR>
+「ヴィクター王が倒したのか？　王は拷問部屋で戦うのがお好きなようだ……ん？」<BR>
+　鋼鉄の巨人の内部を見ると、　輝く石を見つけた、これは……。<BR>
+「《覚醒の石》か！」　<BR>
+　生き物の新たな力を目覚めさせるとかそんな石だった気がする。まさか実際にこの目で見られるとは。<BR>
+<BR>
+　俺は早速コナ王女に《覚醒の石》を使ってもらうことにした。<BR>
+「それはいいんですが……変な方向に目覚めちゃったらどうしましょう……」<BR>
+「変な方向ってどっちの方向だ！？」<BR>
+<BR>
+　コナ王女が念じると《覚醒の石》が輝き出し、光がコナ王女を包み込んだ。<BR>
+　覚醒したコナ王女は一見何の変化も起きなかったように見えたが、触るだけで治療が可能になっていた。理力に目覚めたのだろうか。<BR>
+　早速試しに治療を頼んでみたら、加減を失敗したのか俺は鼻血を出した。べ、別にコナ王女にベタベタ触られて興奮したわけではないぞ！　本当だ！<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《覚醒の石》を入手、すぐ使い《仲間：優しき癒し手＋1》に</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>28</B>　DK：<B>14</B>　伝説P：<B>30</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　治療を行う演出が入ったが、この診断結果は【戦闘】でも【危機】でもないので数値には変化はないぞ。《仲間：優しき癒し手》は【戦闘】か【危機】のときだけ使えるオプションなんだ。</div></TD></TR></TABLE></DIV>
+<a id="day39"></a><HR><H1 class=gradientAmini>【39日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_06.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【超／交流／探索6】</small><BR>
+      　アルバート＠南は、静かな通路で病弱な海賊と遭遇。どうやら隠し通路を探しているようだ。一緒に探すならＤＫ－3、伝説Ｐ＋5。先を急ぐならＬＰ＋2、ＤＫ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　病弱な海賊……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+「ゴホゴホッ、よおそこの同類さんよ、一緒に隠し通路探さねえかい？」<BR>
+　見ると、病弱な海賊が静かな通路で壁を探っていた。同類って……ああ、そういえば俺もいま海賊だっけ。<BR>
+「闇も近いので迷うが……いいか、手伝おう。宝は山分けだぞ」<BR>
+「それでいいぜ……ゴホゴホ！」<BR>
+<BR>
+　一緒に壁を探っている最中、海賊から昔話を聞かされた。<BR>
+「俺……国に帰ったら女が待っててよぉゴホゴホ」<BR>
+「おまえもう死にそうなのにそんなフラグ立てたら死ぬぞ！」<BR>
+「ところがその国がもう呑まれちまってよぉ」<BR>
+「そ、そうなのか……それは悲しすぎるな……」<BR>
+
+<BR>
+「おまえはそこの子を大事にしろよな、ゴホゴホ……」<BR>
+「い、いや、そういう関係ではない！」<BR>
+「そういうのじゃなくても、お互いに思いやりがあるなら大事にすべきだぜ……おっと、出たぜ」<BR>
+　海賊がレンガを1つ外すと、隠し通路のレバーが出てきた。<BR>
+<BR>
+　隠し通路の先にあったのは、迷宮内で死んだ旅人から回収したのであろう、荷物の山だった。<BR>
+「山分けだ。俺はおまえのいらない物をもらうぜゴホッゴホ」<BR>
+「それ山分けって言わないぞ、いいのか？」<BR>
+「いいさ、俺も長くはもたねえしさ……話、聞いてくれてありがとよ」<BR>
+<BR>
+　そうは言っても持てる分には限度がある。俺たちは価値のありそうな武具や貴重品をいくらかもらい、そこで別れた。<BR>
+「せめていいものを食えよ、海賊！　元気でな」<BR>
+「ああ、その子を大事にしろよ、眼帯！　ゴホッ」<BR>
+　コナ王女は笑顔でうんうんとうなずいていた。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 隠し通路を探してＤＫ－3、伝説Ｐ＋5</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>28</B>　DK：<B>14</B>→<B><FONT color=#CC4444>11</FONT></B>　伝説P：<B>30</B>→<B><FONT color=#44aa44>35</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　コナ王女の＋1が活かせないまま終わりそうな気がしてきたぞ！</div></TD></TR></TABLE></DIV>
+<a id="day40"></a><HR><H1 class=gradientAmini>【40日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／交流】</small><BR>
+      　闇が迫る中、アルバート＠南は賭場を見つけた。そこでセクシーな癒し手と出会う。一緒に賭けを楽しんでいくならＤＫ－7、伝説Ｐ＋9。先を急ぐならＬＰ＋3、ＤＫ－1、伝説Ｐ＋3。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　おお、懐かしい展開だな！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　休息のために街にやってくると、賭場の入口で癒し手に出会った。癒し手といっても、スカートのすそは短いし胸元もだらしないしで、本当に癒し手か怪しいのだが。<BR>
+「あのぉ、一緒に遊んでいきませんか？」<BR>
+　癒し手が賭場を指さして言うが、コナ王女が前に出た。<BR>
+<BR>
+「すみませんが、今は遊ぶ時間がないのです」<BR>
+「私は後ろのお兄さんに聞いてるんですぅ～」<BR>
+　イヤな状態だなおい。だが時間がないのは確かだった。<BR>
+「悪いが、お楽しみには困ってないんだ」<BR>
+「やだーそういう遊びしてるんですかぁ！？　不潔ぅー」<BR>
+「違ーう！」<BR>
+<BR>
+　なんとかやり過ごし、先へ進む。<BR>
+「賭場といえばコナ王女と初めて会ったときを思い出すな」<BR>
+「……あのときはすみません、話す口実ができるとついお誘いしてしまって」<BR>
+　だがそうしていなければ出会いもなかっただろうし、コナ王女も人生を終わらせていたはずだ。<BR>
+
+<BR>
+「しかし、なぜあのとき俺を誘ったんだ？　明らかにカタギではなさそうな見た目だぞ、俺」<BR>
+「えっ、それは……私に言わせないでください！　アルバート様ならお分かりに……は、ならないですよね、たぶん……」<BR>
+　まあ、表面上は朴念仁のつもりだからな、俺。<BR>
+<BR>
+「私は、強い人に憧れていたのかもしれません。たとえ、少し道を外したような人でもよくて……それでいて、根は優しそうな人に」<BR>
+　それで俺を狙ったのなら、人を見る目はあるのかもしれない。<BR>
+「と理由を付けることはできますが……」<BR>
+<BR>
+　コナ王女は俺をうるんだ瞳で見ていた。<BR>
+「単純に言うと……ときめいてしまったんです……！」<BR>
+「そ、そうか。俺も結局、無視はできなかった」<BR>
+　だが、こうした出会いが最終的に幸福に繋がらないこともある。別れのときがまもなく来るはずだ。そのとき、俺は……。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 先を急いでＬＰ＋3、ＤＫ－1、伝説Ｐ＋3</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>28</B>→<B><FONT color=#44aa44>31</FONT></B>　DK：<B>11</B>→<B><FONT color=#CC4444>10</FONT></B>　伝説P：<B>35</B>→<B><FONT color=#44aa44>38</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　ついに明日、最終イベントが公開される……。</div></TD></TR></TABLE></DIV>
+<a id="day41"></a><HR><H1 class=gradientAmini>【41日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_05.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【南／入手☆／探索1】</small><BR>
+      　アルバート＠南は草原の野営地にて、大グモだらけの洞窟で《覚醒の石》を発見！　望むならこのオプションを取得できる。取得しないなら伝説Ｐ＋6。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　最後の最後がこれか、もう記念品だな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<BR>
+　俺たちは草原の野営地にあった大グモの洞窟に入った。ネムリ嬢はすでに助かったとはいえ、まだ困っている者がいるはずだ……そう考えてクモと戦いながら洞窟を進んだが、要救助者は見つからなかった。しかし代わりに一つのものを発見した。以前も見た《覚醒の石》だ。<BR>
+<BR>
+　使ってみようとしたが、残念ながら俺をアルバート＋1にはできないようだ。<BR>
+「この《覚醒の石》、俺には使えないな……だが、記念にもらっていこう。この世界のなごりが一つくらいあってもいい」<BR>
+「なごり、ですか……」<BR>
+　それは、俺がこの世界を離れる前提の言葉だった。<BR>
+
+<BR>
+「アルバート様……この戦いが終わったら、次の地へ行かれてしまうのですか？　私は、ご一緒することはできませんか？」<BR>
+「……できないだろうな。他者と共に世界の移動ができないか以前にも試したんだが、残念ながらうまくいかなかった」<BR>
+「世界の、移動？」<BR>
+<BR>
+「そもそも俺は、異世界から『時の扉』を越えてやってきた。一つ前にいた闇に呑まれつつある世界にも『時の扉』があったし、通ってきた全ての世界にあった。となると、飛ばされた先であるこの世界にもきっと『時の扉』があるんだろう」<BR>
+<BR>
+　俺は話を続けた。<BR>
+「俺は過去に一度、複数人で『時の扉』を通れないかと、試しに犬を抱いて『時の扉』を通ったんだ。そうしたら、犬だけいなくなっていた。つまるところ、『時の扉』は2つの命を同時に運ぶことはできないのだろう。俺の服や紙だって、元は命の一部なのにな……」<BR>
+<BR>
+「アルバート様は元の世界に帰りたいのですね……再会したい人がいらっしゃるのですか？」<BR>
+「ああ、いる。ここにとどまるのも悪くないという感情もあるが、戻るのを諦めるにはまだ早すぎるんだ」<BR>
+　コナ王女はうつむいた。俺に、今の表情を見せたくないようだった。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《覚醒の石》を入手。</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>31</B>　DK：<B>10</B>　伝説P：<B>38</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》、《覚醒の石》</small></div>
+<BR>
+<HR>
+<H1 class=gradientAmini>【探索レポート】</H1>
+https://twitter.com/owh_online/status/757550821978484740
+<IMG src="illust_14.jpg" border="1"><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【最終イベント公開！】</small>
+      <div class=boxA> 　ついに最終イベントが公開されたぞ！　この冒険を終わらせるのは君の任意だ。<BR>
+      　最終決戦に挑みたい者はオプションの『最終決戦の神器』を購入し、説明文にある決戦イベントをツイートしてくれ！　俺も明日、行くぞ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<a id="day42"></a><HR><H1 class=gradientAmini>【42日目】</H1>
+
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_02.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【街／休息】</small><BR>
+      　疲れていたのか、アルバート＠南は露天商が並ぶ道でいつの間にか眠ってしまっていた。君は以前に出会った、セクシーな女傭兵との夢を見た……ＬＰ＋8、ＤＫ－3、伝説Ｐ＋2。</div></TD></TR></TABLE></DIV>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートの感想】</small>
+      <div class=boxA>　決戦に備えて休息だ！</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+　露天商が並ぶ店でコナ王女の買い物を待っていると、いつの間にか俺は眠ってしまっていた。夢に見たのは、前の街にいたやたらセクシーな女傭兵のことだった。え、そんな人物が片道勇者原案リメイク『不思議のクロニクル　振リ返リマセン勝ツマデハ』にいた？　なんのことかよくわからんな！<BR>
+<BR>
+「……ルバート様……アルバート様！」<BR>
+　俺が褐色セクシー傭兵の夢を見ていると、コナ王女に起こされた。<BR>
+「お待たせしました。さあ、行きましょう」<BR>
+　俺は目をこすって立ち上がった。<BR>
+「ああ……目当てのものは見つかったか？」<BR>
+「え、ええ……」<BR>
+<BR>
+　コナ王女が珍しくそわそわしている。買い物の内容を詳しく聞いた方がいいのかそうでないのか。女心は難しい。<BR>
+「何を買ったか聞いてもいいか？」<BR>
+「あの……そのうち話します」<BR>
+　どうやら聞いたのは外れだったようだ。俺は途中で《癒しの草》を買い、食った。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → ＬＰ＋8、ＤＫ－3、伝説Ｐ＋2。《癒しの草》を購入し、すぐ使用でＬＰ＋5、伝説Ｐ－10</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>31</B>→<B><FONT color=#44aa44>44</FONT></B>　DK：<B>10</B>→<B><FONT color=#CC4444>7</FONT></B>　伝説P：<B>38</B>→<B><FONT color=#CC4444>30</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》、《覚醒の石》</small></div>
+<div class=boxMain><TABLE><TR><TD><img src=icon_albert.jpg class=imgradius></TD><TD>&nbsp;<small>【アルバートの感想】</small><div class=boxA>　決戦の準備は整った。伝説P、３０点を使って《最終決戦の神器》を獲得しよう。</div></TD></TR></TABLE></DIV>
+<BR>
+　街を出ると、俺たちはフリーダ王女の情報にあった儀式の方法を試してみた。これで、闇を倒せるという《最終決戦の神器》が手に入るという。<BR>
+　手順通りにすると急に空に暗雲がうずまいてきた。嫌な予感がした瞬間、稲妻が目の前に落ち、辺りが白一色に包まれた！<BR>
+<BR>
+　おそるおそる目を開くと、地面には一本の大剣が突き刺さっていた。これが神器か！　俺はその大剣を引き抜いた。戦いの準備はすでにできている。<BR>
+「コナ王女……何が出てくるかわからんが、行くぞ！」<BR>
+「はい！」<BR>
+　俺は闇の方角に向かって神器の剣を振るった。<BR>
+
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 《最終決戦の神器》を購入、即使用し、伝説Ｐ－30。決戦の始まりだ！</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>44</B>　DK：<B>7</B>　伝説P：<B>30</B>→<B><FONT color=#CC4444>0</FONT></B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>　《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》、《覚醒の石》</small></div>
+<HR>
+<H1 class=gradientAmini>【最終決戦】</H1>
+<DIV class="boxMain"><TABLE><TR><TD><img src=icon_01.jpg class=imgradius></TD><TD><!--<small class="sindan">診断結果</small><BR>--><div class=boxA><small class=sindantop>【最終決戦／戦闘★】</small><BR>
+      　君が闇に向かって《最終決戦の神器》を振るうと黒い霧が晴れ、山のごとき巨大な黒竜が現れた。最終決戦だ！　ＬＰ－60して生き残ることができれば勝利でき、世界は救われる！　誰かの支援を得られれば1人あたりＬＰ減少を5軽減（最大5人分）。</div></TD></TR></TABLE></DIV>
+<BR>
+　俺が振るった一閃は、闇の霧を激しい勢いでかき消した。黒い霧の向こうにいたのは……巨大な黒竜だ！　だがサイズが尋常ではない！　まるで山一つ分だ！<BR>
+「……だが今さら退く気はない！　行くぞ！」<BR>
+　俺は神器を構えた、決戦だ！<BR>
+<BR>
+　闇の竜は暗黒の炎を吐き出して俺たちに攻撃してきた！　あれをかいくぐって傷を付けろというのは確かに難題だ……それでも！<BR>
+　俺は神器を構えて黒竜に迫った。近くで見るほどよく分かる、黒竜の体はまるで天高くそびえ立つ漆黒の壁のようだ！<BR>
+<BR>
+　俺はやっぱり街で買った弓に持ち替えて、ヤツの顔あたりをチクチク攻撃することにした。遮蔽物に隠れてブレスをかわしつつ矢で攻撃を加える。だが相手が大きすぎて効いている気がしない。<BR>
+　こんなとき支援があれば…と思ったがみんなクリア済みか！？　ヤバい！<BR>
+<BR>
+　俺は矢を撃ち尽くすまで連射した。矢が切れたとき、どこからともなく勇者候補の仲間がやってきた！　あれは乱戦で魔王の下着をチェックしようとした妖精の詩人！　半獣人の冒険家もやってきてくれた！　敵の注意を引きつけてくれるらしい！<BR>
+「皆、助かる！」<BR>
+<BR>
+　どこかで俺の勝利を祈ってくれている誰かの声がする！　それが俺に戦う勇気を与えてくれる！<BR>
+　さらに人語を喋る黒猫と少年が駆けつけてくれた、半獣人と獣人の狩人も援護射撃をしてくれる！　これならいける！　俺は神器を抜いて黒竜に迫った！<BR>
+<BR>
+　さらに支援を受けて黒竜に隙が生まれた。<BR>
+「うおおおーーッ！」<BR>
+俺は漆黒の壁に神器の一撃を叩き込む！　光り輝く剣は俺の予想をはるかに超えて巨大な傷を与えた！<BR>
+「グォォォー！！」<BR>
+　黒竜が叫びをあげて炎を吐いた。俺の体が暗黒の炎に包まれる！<BR>
+<BR>
+　このままではもたない。そのとき、神器が俺に何かを訴えた気がした。俺は直感のままに神器を闇の竜の頭に向かって投げつける。神器は俺の意図を汲んだのか、神器が望んだのか、神器の大剣は光の尾を残してまっすぐ加速し、黒竜の頭に飛翔していく！　なんかすごいぞ神器！<BR>
+<BR>
+　神器は首元を貫き、黒竜が断末魔を上げた。それが戦いの最後だった。闇の竜の姿勢がゆらいだと思うと、竜はそのまま倒れていく。<BR>
+　だが俺はヤツの最期を見届けることはなかった。俺は暗黒の炎に焼かれ、その場に崩れ落ちたのだ。最後に聞こえたのは、激しい地響きだけ……。<BR>
+<BR>
+　暗黒に閉ざされた中、誰かの祈りの声が聞こえた。同じ志を持つ仲間の声……そうだ、まだ死ぬわけには……。<BR>
+　意志を振り絞って目を開けると、目の前にあったのは俺を治療してくれているコナ王女の顔だった。その顔には涙の跡があった。<BR>
+<BR>
+「アルバート様……？　アルバート様！　よかった……」<BR>
+「俺は……生きてるのか」<BR>
+　コナ王女が覚醒した力で俺を治療してくれていた。周りには、共に戦ってくれた勇者候補たちがいた。みんなのおかげで、俺はまだ生きている。<BR>
+「みんな……ありがとう……」<BR>
+<BR>
+　見れば黒竜は地に伏し、闇の障気は霧散しつつあった。長く苦しめられた闇の脅威が、ついに世界から取り払われたのだ！<BR>
+　こうして、俺たちの世界を救うための旅は終わりを迎えた……今はただ、休みたかった。俺は戦友たちに感謝を告げ、街へと帰還した……。<BR>
+<BR>
+<div class=boxMain><small>　<B>◆選択</B> → 黒竜戦でLP-60されるところを、総勢10名の支援を受けることができ、<BR>
+　　　　　　　ＬＰ軽減25、《仲間：優しき癒し手＋1》使用でＬＰ＋2。合計でＬＰ－33で生存！</small><BR>　【ｽﾃｰﾀｽ】　LP：<B>44</B>→<B><FONT color=#CC4444>11</FONT></B>　DK：<B>7</B>　伝説P：<B>0</B>　<BR>　【ｵﾌﾟｼｮﾝ】 <small>《仲間：優しき癒し手＋1》＝コナ王女、《エルザイト爆弾》、《覚醒の石》</small></div>
+<a id="ED"></a>
+<HR>
+<H1 class=gradientAmini>【エンディング】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　さて、最後の戦いが終わってから、この世界を離れるまでのことを語ろうと思う。これが、この世界での俺の最後の記録だ。</div>
+      </TD>
+    </TR>
+  
+
+</TABLE>
+</DIV>
+<BR>
+　あの黒竜を倒した後、俺とコナ王女は再び旅を続けた。<BR>
+　俺は不運な事故によって元の世界から飛ばされ、異世界を次々に渡り歩いている身だ。俺は『時の扉』を探し出し、また元の世界への道筋を探さなければならないのだ。<BR>
+　そしてコナ王女との別れのときは、意外にも早く来た。<BR>
+<BR>
+　ほんの数日後、俺たちは奇跡的に『時の扉』を発見してしまったのだ。<BR>
+　ある法則に従って円形に配置された石柱群。ここで待っていれば、いつか扉は開かれるはずだった。<BR>
+　そして、その時はあっという間にやってきた。着いた途端、まるで俺を待っていたかのように石柱群の中央が輝き出したのだ。<BR>
+<BR>
+「この『時の扉』にはすでに十分な力が溜まっていたのかもしれんな……コナ王女、前も言ったが、俺には帰るべき世界がある」<BR>
+「……はい、分かっています」<BR>
+「だが、もし行き来する手段が確立できたら、世話になった人々に礼を言いに来るつもりだ……もちろんコナ王女にも」<BR>
+<BR>
+「……はい」<BR>
+　いつものコナ王女と比べると、驚くほど素直な対応だった。だが俺でさえ、彼女が無理しているのがよく分かった。<BR>
+「あの、アルバート様……これを」<BR>
+　彼女が渡してくれたのは、中にコナ王女の細密な肖像が細工されたペンダントだった。ふたができるようになっている。<BR>
+<BR>
+「アルバート様は私からあげられるものを何もお受け取りになりませんでしたけど……肖像画だけは『いいかもな』と言って下さったでしょう？」<BR>
+「ああ、言っていたな」<BR>
+「これならきっと、お邪魔にならずにおそばにいられると思いますから」<BR>
+　ペンダントにしたのは俺への配慮らしい。<BR>
+<BR>
+　そして同時に、俺はコナ王女からの要求をほとんどいつも断ってしまっていたことを思い出した。<BR>
+「思い返してみれば、色々拒否ばかりしていたようですまないな、コナ王女」<BR>
+「そうですよ。私にもヒーローしていただきたいとか、アルバート様を隅々まで分析したいだとか――」<BR>
+<BR>
+「――アルバート様をなめまわして癒してさしあげたいとか、洗っていただきたいとか、私を食べていただきたいとか……どのお願いも、とても真剣だったんですから」<BR>
+「すまん、やっぱり全部断る」<BR>
+　と言いながら、このやりとりもこれでもう最後なのだと思うと、どこか寂しかった。<BR>
+<BR>
+　俺はこの旅で、たくさんの思い出やその品を得た。<BR>
+　砦で戦った父親たちの家族の肖像。凍ってしまった癒し手の青年の形見の指輪。マッチョにもらった木彫りの像。アイドル雪原熊に渡し、悲しくも形見になってしまった魔王の髪飾り。そしてコナ王女の肖像が描かれたペンダント……。<BR>
+<BR>
+　そして、得たものがあれば、渡すものもあった。<BR>
+「……実は、俺からも渡すものがある」<BR>
+　俺は懐から、俺の似顔絵が書かれた小さな紙を取り出した。実は俺も、肖像画を描いてもらっていたのだ。これには予想外だったようで、コナ王女が口を押さえて言った。<BR>
+「えっ、これは……」<BR>
+<BR>
+「ペンダントに比べると、気がきかなくてすまないんだが……」<BR>
+「いいえ……私、本当にうれしいです！　額に入れてかざっておきますから！」<BR>
+　コナ王女がこれほど喜ぶ顔は初めて見た気がする。本当の意味で彼女に必要な、初めてのまともなプレゼントだったのかもしれない。<BR>
+<BR>
+「そろそろ行かねば。『時の扉』が閉じると最悪、数年単位で待たされるからな……」<BR>
+「はい、アルバート様、お元気で……あっ」<BR>
+　きっと、ずっとこらえていたのだろう。涙が一粒、コナ王女の目からあふれ出した。<BR>
+「いけませんね……笑顔でお見送りしようって、思っていたのに……」<BR>
+<BR>
+「いや……そこまで思っていてくれたこと、感謝している。ありがとう、コナ王女」<BR>
+　そう言って俺はコナ王女を抱きしめた。この場合セクハラじゃないよな！？　と一瞬心配になったが、コナ王女も俺に腕を回してくれた。<BR>
+「楽しい旅の思い出……ありがとうございました……」<BR>
+<BR>
+「……ああ、俺もだ。コナ王女のことは死ぬまで忘れん」<BR>
+　体を離し、コナ王女を最後に目に焼き付けると、俺はうなずいて言った。<BR>
+「では行ってくる。もし会いに来られるようなら、また戻ってくる。でも待たなくていいからな」<BR>
+　振り返って、俺は光り輝く『時の扉』へ足を進めた。<BR>
+<BR>
+「待っています……とは言いません。アルバート様が無事に元の世界に帰れるよう、祈ってますから！」<BR>
+「ああ！　コナ王女も健勝でな！」<BR>
+　段々と別れが辛くなってきた。俺も涙をこらえなければならなくなってきたので、少しだけ横目で見ながら手を挙げて、勇気を出してこう言った。<BR>
+<BR>
+「コナ王女！　今だから言うが、ちょっとだけ愛していたぞ！」<BR>
+「もう！　私はアルバート様をすごく愛していましたから！」<BR>
+「ああ、感謝してる！　では、またいずれ！」<BR>
+　『時の扉』の中央に行くと俺の体が輝き出した。振り返ると、コナ王女が控えめに手を振っているのが見えた。<BR>
+<BR>
+「次にいらしてくださるときは、アルバート様の世界のおみやげをお願いします！」<BR>
+「ああ！　覚えておくぞコナ王――」<BR>
+　そこまで言ったところで目の前が完全に光に包まれ、自分の声も聞こえなくなった。<BR>
+　俺は次の世界へ運ばれていくのだ。俺の体が、光の奔流の中を流されていく。<BR>
+<BR>
+<BR>
+　――こうして、俺はこの世界に別れを告げた。<BR>
+　世界を離れるときはいつも、出会ってきた全ての人々を思い出す。辛い別れもあったが、楽しいことも多かった。願わくば、彼らが幸せに生きてくれることを祈るばかりだ。<BR>
+　特に、コナ王女には本当に感謝している。また、会えるといいな……。<BR>
+<BR>
+　次は一体、どんな世界へたどりつくのだろう……だがどこへ着いたとしても、もう俺は一人ではない。<BR>
+　俺はコナ王女のペンダントを握りしめ、力強い笑みを浮かべた。ペンダントの中のコナ王女は、今も優しくほほえみかけてくれていた……。<BR>
+<BR>
+<BR>
+　『アルバート片道冒険記』　－完－<BR>
+<BR>
+<a href="illust_ending.jpg" rel="lightbox[ED]"><img src="illust_ending.jpg" border=2 width=550></a><BR>
+<BR>
+<div class=boxMain>
+<TABLE>
+  
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから最後に一言】</small>
+      <div class=boxA>　これまで俺の冒険の記録を読んでくれたみんな、本当にありがとう！　40日以上に渡った『片道勇者オンライン』の冒険も、これで本当に最後だ。またいつか会える日を楽しみに待っているぞ！<BR>
+　それではみんな、元気でな！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<a id="ED2"></a>
+<HR>
+<H1 class=gradientAmini>【物語は続く……】</H1>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    <TR>
+      <TD><IMG src="icon_albert.jpg" class="imgradius"></TD>
+      <TD>&nbsp;<small>【アルバートから一言】</small>
+      <div class=boxA>　……と、華麗に別れの言葉を決めてみたが、俺が行き着いた先はまたもや闇に覆われつつある片道の世界だったのだ！<BR>
+      <BR>
+      　そう、俺がたどりついたのは『ケモミミ王国』と呼ばれる国――そこで出会ったのは『ウルファ』という名の半獣人の女王だった。<BR>
+      　彼女の使命を引き継いで転生した俺は、三度、勇者として世界を救う旅に出ることになる。今度は頼りになる旅の仲間と共にだ！<BR>
+      <BR>
+      　『片道勇者TRPGアペンド』のリプレイで繰り広げられる俺の新たな冒険、気になる者はぜひ読んでみてくれ！　</div>
+      </TD>
+    </TR>
+  
+
+
+</TABLE>
+</DIV>
+　<BR>
+　　　　　　　　　　　　　<B><FONT size="+1">↓</FONT></B><BR>
+　<BR>
+<div class=boxMain>
+<TABLE>
+  
+    
+    
+    
+    <TR>
+      <TD><a class="red" href="https://www.amazon.co.jp/%E7%89%87%E9%81%93%E5%8B%87%E8%80%85TRPG-%E3%82%A2%E3%83%9A%E3%83%B3%E3%83%89-%E9%BD%8B%E8%97%A4-%E9%AB%98%E5%90%89-%E5%86%92%E9%99%BA%E4%BC%81%E7%94%BB%E5%B1%80/dp/4040722604/ref=as_li_ss_il?s=books&ie=UTF8&qid=1488891014&sr=1-1&keywords=%E7%89%87%E9%81%93%E5%8B%87%E8%80%85TRPG%E3%82%A2%E3%83%9A%E3%83%B3%E3%83%89&linkCode=li2&tag=smokingwolf-22&linkId=225139f58f6f97eead58d4808c3deb09" target="_blank"><img border="1" src="banner_katamichi_trpg3.jpg" class="red" ></a></TD>
+      <TD>
+      <DIV class="boxA" align="center"><BR>
+      <A href="http://amzn.to/2mvFBDy" target="_blank" class="red">【<FONT size="+0">片道勇者ＴＲＰＧアペンド</FONT>】<BR><FONT size="-1" class="close">Amazonページへ</FONT><FONT size="-1" class="close">（税込1728円）</font></A><BR>
+      <BR>
+      <FONT size="-1">
+      『片道勇者TRPGアペンド』は<BR>
+      『片道勇者TRPG』の3巻目！　<BR>
+      原作のデイリーキャンペーンワールドを<BR>
+      再現したクエストなどが収録され、<BR>
+      単発プレイも楽しみやすくなるサプリメントです！<BR>
+      <BR>
+      今回はリプレイパート多めなので、<BR>
+      冒険の風景を見るのが好きな人にも<BR>
+      おすすめの一作！<BR>
+      
+      　　</FONT></DIV>
+      </TD>
+    </TR>
+  
+
+
+
+</TABLE>
+</DIV>
+<BR>
+<table><tr>
+      <TD align="center" nowrap>
+      <DIV class="close" align="center"></DIV>
+      </td>
+      <TD align="center" nowrap></td>
+    </tr></table>
+<BR>
+<P align="center"><a href="../../" class="blue">ホームに戻る</a><BR>
+　</P>
+<HR>
+<BR>
+　　Copyright(C)　SmokingWOLF　All rights reserved<BR>
+　　<BR>
+　　<BR>
+</div>
+</body></html>
+

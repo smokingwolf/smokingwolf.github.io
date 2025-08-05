@@ -1,0 +1,6480 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=650">
+
+
+<style TYPE="text/css">
+<!--
+
+BODY{background-color : #fafaff;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size : 10pt;
+  color : #434355;
+  margin: 0px 0px 0px 0px;
+}
+
+
+A:LINK,A:VISITED{color:#4343c5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+
+A.red:LINK,A.red:VISITED{color:#385cd6;}
+A.red:HOVER,A.red:ACTIVE{color : #688cf6;text-decoration : underline;}
+A.lred:LINK,A.lred:VISITED{color:#f6689c;}
+A.lred:HOVER,A.lred:ACTIVE{color : #f698bc;text-decoration : underline;}
+
+
+A.green:LINK,A.green:VISITED{color:#38a68c;}
+A.green:HOVER,A.green:ACTIVE{color : #68b6ac;text-decoration : underline;}
+
+A.blue:LINK,A.blue:VISITED{color:#5658f6;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline;}
+
+A.lblue:LINK,A.lblue:VISITED{color:#9698f6;}
+A.lblue:HOVER,A.lblue:ACTIVE{color : #c6c8e6;text-decoration : underline;}
+
+A.siro:LINK,A.siro:VISITED{color:#eeeeff;}
+A.siro:HOVER,A.siro:ACTIVE{color : #bbbbdf;text-decoration : underline;}
+
+
+A.bl2:LINK,A.bl2:VISITED{color:#ccccff;}
+A.bl2:HOVER,A.bl2:ACTIVE{color : #ddddff;text-decoration : underline;}
+
+
+A.glink:LINK,A.glink:VISITED{color:#6c9;}
+A.glink:HOVER,A.glink:ACTIVE{color : #afffaf;text-decoration : underline;}
+
+
+
+.gray{
+  background-color:#535375;
+  background: -moz-linear-gradient(left top, #42435f, #777797);
+  background: -webkit-gradient(linear, left top, right bottom, from(#42435f), to(#777797));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#DD42425f', endColorstr='#FF777797');
+}
+
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#d2d2dd;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fmr{color:#956363;}
+.flink{color:#737395;}
+.fmmg{color:#b3b3d5;}
+.fmbg{color:#7373b5;}
+.fred{color:#c6383c;}
+.flred{color:#f6a8ac;}
+.f_toplink{color:#fafaff;font-size : 1pt;}
+
+.ten{font-size:10pt;}
+.elev{font-size:12pt;}
+.plus{font-size:14pt;}
+
+
+TABLE{
+  font-size : 10pt;
+	line-height: 110%;
+  color : #434355;
+}
+
+TD.table_g1{
+	background:#535375;
+	background-image : url(image/table_m1.gif);
+	height: 20px;
+}
+
+
+
+.black{background-color:#000000;}
+/*--.gray{background:#535375;}--*/
+/*--.ggray{background:#333355;}--*/
+.white{background:#fafaff;}
+.mwhite{background:#fefeff;}
+.veryusui{background:#f0f0fa;}
+.veryusui2{background:#e8e8ff;}
+.veryusui3{background:#ffe8e8;}
+.mgray{background:#636385;}
+/*--.mmgray{background:#8383a5;}--*/
+.mbgray{background:#7373b5;}
+.fullwhite{background:#ffffff;}
+.close{
+	line-height: 100%;
+}
+.xclose{
+	line-height: 50%;
+}
+
+--></STYLE>
+
+
+<title>2014 TRPGスペシャルサイト SilverSecond Four One</title>
+    <style type="text/css">
+    <!--
+
+body{
+background-color : #fafaff;
+  line-height: 110%;
+  color : #354050;
+  margin: 0px 0px 0px 130px;
+}
+
+
+/* 名前欄用のカラー */
+.c-1{color:#000000;}
+.c0{color:#333366;} /*GM*/
+.c1{color:#92605c;} /*ロイス*/
+.c2{color:#c0a060;} /*ヴァン*/
+.c3{color:#aa5058;} /*アレイラ*/
+.c4{color:#6069b0;} /*ハムイ*/
+.c5{color:#808090;} /*ンク*/
+.c6{color:#228038;} /*サントリナ*/
+.c7{color:#333366;} /*スペース2つ*/
+.c8{color:#333366;} /*一同*/
+.c9{color:#333366;} /*クー*/
+
+/* テキスト用のカラー(少し濃い) */
+.ct0{color:#434366;} /*GM*/
+.ct1{color:#62401c;} /*ロイス*/
+.ct2{color:#705010;} /*ヴァン*/
+.ct3{color:#7a4048;} /*アレイラ*/
+.ct4{color:#404980;} /*ハムイ*/
+.ct5{color:#505060;} /*ンク*/
+.ct6{color:#426058;} /*サントリナ*/
+.ct7{color:#333366;} /*スペース2つ*/
+.ct8{color:#333366;} /*一同*/
+.ct9{color:#333366;} /*クー*/
+.close{
+  line-height: 9pt;
+}
+
+small.close{
+  line-height: 8pt;
+}
+
+div#def2{position: relative;left: 55px;top: 0px;text-align:left; width:620px;}
+div#nm{text-align:right; width:150px;  position: relative;left: 0px;top: 0px;}
+div#tx{position: relative;left: 165px;top: -15px;text-align:left; width:540px;} /* 基本セリフ用 */
+div#com{text-align:left; width:580px;color:#506065;position: relative;left: 90px;top: 0px;}
+div#comB{text-align:left; width:580px;color:#506065;position: relative;left: 90px;top: 0px;height:30px;  line-height: 28pt;}
+div#com2{text-align:left; width:620px;color:#5050aa;position: relative;left: 40px;top: 0px;font-weight: bold;margin: 5px 5px 5px 15px;}
+font#CC1{color:#aa5050;font-weight: bold;position: relative;left: 35px;} /*赤*/
+font#CC2{color:#7780A0;font-weight: bold;position: relative;left: -15px;top: -4px;} /*見出し*/
+font#CCBIG{color:#5050aa;font-weight: bold;position: relative;left: -15px;top: -4px; font-size:14pt;margin:10px;} /*見出し*/
+font#CC25{color:#5050aa;position: relative;left: -15px;} /*見出し*/
+
+div#titleimg{ position: relative;left: 60px;top: 0px;}
+
+.dc{color:#cc3333;} /*判定結果*/
+
+
+TBODY#main{ position: relative;left: 80px;top: 0px;}
+
+B#cc{color:#aaaabb;} /*ツッコミ文*/
+
+B#dfun{color:#992222;} /*ﾌｧﾝﾌﾞﾙ*/
+B#dsuc{color:#7777ff;} /*成功*/
+B#dmis{color:#aa5555;} /*失敗*/
+B#dcri{color:#6444ff;} /*ｸﾘﾃｨｶﾙ*/
+
+
+B#dhp{color:#aa7777;font-weight: bold;} /* HP */
+B#dmp{color:#9999cc;font-weight: bold;} /* MP */
+B#ddmg{color:#cc6666;font-weight: bold;} /* DMG */
+B#dhealhp{color:#22aa55;font-weight: bold;} /* HEAL HP */
+B#ddmghp{color:#aa3333;font-weight: bold;} /* DMG HP */
+B#dhealmp{color:#5555ff;font-weight: bold;} /* HEAL MP */
+B#ddmgmp{color:#bb7777;font-weight: bold;} /* DMG MP */
+
+
+font#dsuc{color:#7777ff;} /*成功*/
+font#dmis{color:#aa5555;} /*失敗*/
+
+TABLE{
+  font-size : 10pt;
+  color : #434355;
+}
+
+
+DL.whatnew{
+	height:80px;
+	width:620px;
+	padding:4px;
+	overflow: auto;
+	margin-bottom: 0px;
+	border:1px #ddddff solid;
+}
+
+.box{
+margin:7px; padding:5px; border:1px solid #4444ff;
+background-color:#fafaff;
+position: relative;left: 90px;top: 0px;
+width: 600px;
+color:#5050aa;
+}
+
+div#flowmenu{
+    position: fixed; top:15px; left:3px;
+}
+H1{
+  font-size : 21pt;
+	font-weight: bold; position: relative;left: 45px;
+	width: 600px; height: 22px;
+	padding: 10px 10px 5px 20px;
+}
+
+.gradientTITLE{ 
+  background-color: #6688FF; 
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr=#DD4455AA, EndColorStr=#FF6688FF);
+  background: -moz-linear-gradient(left top, #4455AA, #6688FF);
+  background: -webkit-gradient(linear, left top, right bottom, from(#4455AA), to(#6688FF));
+  background: linear-gradient(to right, #45A, #68F);
+	color:#ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 55px;
+font-size: 24px;
+line-height: 22px;
+padding:3px 10px 0px 10px ;
+} 
+
+.gradientA{ 
+  background-color: #8888CC; 
+  background: -moz-linear-gradient(left top, #555599, #8888CC);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#8888CC));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF8888CC');
+  background: linear-gradient(to right, #559, #88C);
+color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+html , body {height:100%;}
+body{
+background-image: url("http://silversecond.net/contents/library/event/201404index_April_BG_border.png");
+background-repeat: repeat-y;
+background-attachment: fixed;
+}
+
+hr.line { /* 線 */
+    border: 0;
+    width: 620px;
+    height: 1px;
+    position: absolute;
+    left: 180px;
+    margin:20px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:    -moz-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:     -ms-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:      -o-linear-gradient(left, #ccf, #446, #ccf);
+}
+
+
+DL.TWIT{
+	width:580px;
+	height:390px;
+	padding:3px;
+	overflow: auto;
+	margin-bottom: 5px;
+	border:1px #aaaadd dashed;
+  SCROLLBAR-FACE-COLOR:#a3a3b5;
+  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
+  SCROLLBAR-SHADOW-COLOR: #fafaff;
+
+  SCROLLBAR-3DLIGHT-COLOR:#535365;
+  SCROLLBAR-ARROW-COLOR: #535365;
+
+  SCROLLBAR-TRACK-COLOR: #838395;
+
+  SCROLLBAR-DARKSHADOW-COLOR: #535365;
+}
+
+
+.boxMain{
+width: 530px;
+   border:1px solid #ccccff;
+   background-color : #fcfcff;
+   margin:5px;
+   padding:2px;
+   color: #555566;
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+
+}
+
+.boxA{
+position: relative;
+left: 9px;top: 4px;
+   padding:6px;
+}
+
+.date_f{
+   color: #CCCCDD;
+}
+
+.imgradius{
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+
+
+-->
+</style>
+<script src="./smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+</head>
+<BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+
+
+<div id="flowmenu">
+<!--<A href="//silversecond.net/" class="red"><B>← いつものサイトへ</B></A><BR>-->
+<BR>
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap><B>&nbsp;シルバーセカンド<BR>　　フォー・ワン</B><BR><BR>
+　<a href="../../">←ホームに戻る</a><BR>
+　
+      <BR>
+      ◆<B><A href="#T1" class="glink">ごあいさつ</A></B><BR>
+      ◆<B><A href="#T2" class="glink">最新作は忍者!?</A></B><BR>
+      ◆<B><A href="#T3" class="glink">片道ｷｬﾗがﾂｲｯﾀｰ!?</A></B><BR>
+      ◆<B><A href="#T4" class="glink">片道TRPG完結!</A></B><BR>
+      <!--◆<B><A href="#T5" class="glink">こんなTRPGも!?</A></B><BR>-->
+      <BR>
+      ※どれもページ内ﾘﾝｸ
+	    </tr></TABLE>
+<BR>
+
+
+<BR>
+<BR>
+
+</div>
+<TABLE>
+  <TBODY>
+    <TR></TR>
+  </TBODY>
+</TABLE>
+<BR>
+<H1 class=gradientTITLE><font size=2><a id="T1"></a>　テーブルトークRPGサイト</font><BR>
+　<B>『シルバーセカンド　フォー・ワン』 へようこそ！</B>　</H1>
+<div id=com>　</div>
+<div id=com><img src=201404April_TRPGtop.jpg border=1></div>
+
+<HR class=line>
+<BR><BR>
+<div id=com>　</div>
+<div id=com><font id=CC2>【ごあいさつ】 </font></div>
+<div id=com>テーブルトークRPG（以下TRPG）ファンのみなさん、こんにちは！</div>
+<div id=com>このサイトはTRPGファンのためのTRPGファンによるスペシャルサイトです！</div>
+<div id=com>ゆっくり楽しんでいってね！</div>
+
+<HR class=line>
+<BR>
+<BR><BR>
+
+
+<div id=com><font id=CC2>【TRPGとは？】</font></div>
+<div id=com>　ええっ、TRPGを知らないなんて！？　いま巷（ちまた）で地味にホットな大人の遊びですよ！<BR>
+　<BR>
+　『TRPG』を一言で説明するなら、『<B>ルール付きのごっこ遊び</B>』！</div>
+<div id=com>　司会・審判・NPC役であるゲームマスター（GM）のもとに何人かのプレイヤーが集まり、 　</div>
+<div id=com>　プレイヤーはキャラクターを演じつつ、ゲームマスターの与える試練に対して行動を伝え、</div>
+<div id=com>　成功したかどうかでダイスを振ってその結果に大騒ぎするゲームです！ ……おおまかには。</div>
+
+
+
+<HR class=line><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+
+<div id=com><a id="T2"></a></div>
+<H1 class=gradientA>最新作は……忍者！？</H1>
+<div id=com>待たせてごめんなさい！　ということでお待ちかね、今日もはりきって新しいリプレイを公開！</div>
+<div id=com>　</div>
+<div id=comB>　今回はなんと……忍者による <B><font size=+1>就職活動編</font></B>！？　ワーオ、一体どういうことなんでしょう！</div>
+<div id=com>気になったそこの君、刮目（かつもく）して見るべし！</div>
+<div id=com>　　</div>
+<div id=com>　※実際の就職活動にはまったく役に立ちませんのでご了承ください。</div>
+<HR class=line>
+<div id=com>　　</div>
+<div id=com>　　</div>
+
+<div id=comB><B><A href="../../trpg/sinobi_replay/Replay_Sinobi01.html" class="red"><FONT size="+1">● TRPGシノビガミ リプレイ 『忍者就職活動記』</FONT></A></B>　　2014/04/01 公開</div>
+<div id=com>　　</div>
+<div id=com>　冒険企画局の市販TRPG『シノビガミ』ルールによるチュートリアルセッション。GMは片道勇者のンクの人。</div>
+<div id=com>　忍者達による過酷な就職活動が幕を開ける！</div>
+<div id=com>　</div>
+<div id=com><A href="../../trpg/sinobi_replay/Replay_Sinobi01.html" class="red"><IMG src="../../trpg/sinobi_replay/image_sinobi/Sinobi01_All.jpg" border="1"></A></div>
+<div id=com><BR>
+</div>
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<HR class=line>
+<BR>
+<div id=com><a id="T3"></a></div>
+<H1 class=gradientA>片道勇者TRPGのみんなが……。　</H1>
+<div id=com>片道勇者TRPGリプレイのPCのみんなが、今日一日だけ <font size=+1><B>ツイッター</B></font> でつぶやいていくそうです！</div>
+<div id=com>ツイッターアカウントを持っている人は、面白いと思ったキャラ、応援したいキャラをフォローしてあげよう！</div>
+<div id=com>　</div>
+<div id=com>果たして最後に最も多くのフォロワーを獲得するのは一体……！？</div>
+<div id=com>（※ツイートはそれぞれPCの中の人によるものですので、多少イメージと合わなくても完全原作仕様です）</div>
+<div id=com>　</div>
+<div id=com>え、「片道勇者TRPGリプレイ」って何？　</div>
+<div id=com>という方は、少し↓にある次節「年末に完結！ 片道TRPGの行方は……」をご覧ください。</div>
+
+<div id=com>　<BR>
+</div>
+<div id=com>
+<DL class=TWIT>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/03/31(月) 19:10:49</font><BR>
+      <div class=boxA>あーあー、これでいいのか？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/03/31(月) 23:55:37</font><BR>
+      <div class=boxA>片道勇者TRPG公式リプレイのクーです……。片道勇者TRPGの思い出をつぶやいたりします……返信できるか分からないけど、もし質問があれば……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:00:49</font><BR>
+      <div class=boxA>片道勇者TRPG公式リプレイでアイドルしてるアレイラなのよ。片道勇者TRPGに関することを聞きたい？　聞きたいなのね？　でも答えるかどうかは気分しだいなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:01:01</font><BR>
+      <div class=boxA>片道勇者TRPG公式リプレイのロイスだ。片道勇者TRPGに関することをつぶやけってあいつらうるせーから一日だけやるぞ。いいか、一日だけだからな！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 0:01:31</font><BR>
+      <div class=boxA>片道勇者公式TRPGリプレイのヴァンやで！これからそれ関係のつぶやきしたり質問に答えたりするで～。よろしゅうたのむわー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:01:41</font><BR>
+      <div class=boxA>片道勇者TRPG公式リプレイの狩人ンクだよ！ここでは片道勇者TRPGに関することをつぶやいたり、みんなからの質問に答えたりしていくよ。よろしくにゃん！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:05:34</font><BR>
+      <div class=boxA>リーナがクーの相手をしてくれている間に道具の整理もしないと。まずロープ(10m)か。いいロープがあれば百人力ってのは冒険や戦闘の基本だよね。お金があったら巻き上げ機構付きのフックロープに改造するんだ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 0:05:37</font><BR>
+      <div class=boxA>ふぁ～ぁ。夜も遅いしねる用意さっさとしてしまおう。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:05:39</font><BR>
+      <div class=boxA>クジャータが午前０時頃をお知らせしますなのよ♪　某スジャータとは一切関係ありませんなのよ。でも、ちょっとだけ関係するなのよ。詳しくはシルセカ(公式サイト)に行ってTRPGリプレイを読むといいなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:05:42</font><BR>
+      <div class=boxA>ちっ、つぶやこうとした早々あの戦闘バカめ……。毎度毎度野獣のような気配向けやがって、真夜中でもう寝る時間だってーの</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:05:54</font><BR>
+      <div class=boxA>……ところで、シドさん、見ませんでした？　さっきまで、ロイスさんの後ろの木陰に気配を感じていたんですが……。ロイスさん、いつの間にか抜刀しているし、うーん？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:09:36</font><BR>
+      <div class=boxA>（※いま中の人はいません、手動にてリプライはお返ししますのでお待ちください。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 0:10:09</font><BR>
+      <div class=boxA>なんか聞きたいことあったら遠慮なく言ってや～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:10:33</font><BR>
+      <div class=boxA>とりあえずハムイをけしかけといた</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:10:33</font><BR>
+      <div class=boxA>これからは5分に1回くらいつぶやいてみます……眠くなったらだんだん遅くなるかもしれません……あ、実はこれ中の人がいない投稿なので、もし詰まったら寝てることにしてください……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:10:34</font><BR>
+      <div class=boxA>「かぴばーらー、かぴーばらー、かぴっばらっ！」<br>
+      「コラ、ミル、落ち着くなのよ。出番がないからって暴れたらダメなのよ！」<br>
+      「かぴばらっ！　かぴーっ！！」<br>
+      「ひぃぃぃぃぃぃぃぃぃぃぃやぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁ～」<br>
+      （彼方へ連れ去られる……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:10:36</font><BR>
+      <div class=boxA>次にロングボウとバトルアックス。遠近両方に対応するための大事な得物だね。<br>
+      どちらにもお世話になったけど、目まぐるしい戦闘中に装備を付け替えてる暇はあまり無かったなあ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:15:32</font><BR>
+      <div class=boxA>「ひぃぃぃぃぃぃぃぃぃぃぃやぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁ～」<br>
+      （彼方から戻ってくる……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:15:35</font><BR>
+      <div class=boxA>私もみんなの役に立てたら、もっと気が楽なのに……何か役に立ちたいのに、うまくいかなくていつも足手まといなのがもどかしいです。役に立てたことといったら、スコーピオの街でパンを作ったことくらい、かな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:15:36</font><BR>
+      <div class=boxA>それから闇の尖兵から奪い取った「闇に染まった重心が悪く持ちにくい上質グレートアックス」。ばっちいけどフルパワーの攻撃がクリーンヒットすれば2.5アレイラくらいの破壊力は出そうだって私の勘が言っている。でも使う機会は未だ訪れていない。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:15:38</font><BR>
+      <div class=boxA>しかし何かつぶやけと言われてもな…、これ何話せばいいんだ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:18:34</font><BR>
+      <div class=boxA>まあ他の奴らが好き勝手喋るだろうし、それ見てるだけでいいか</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:18:59</font><BR>
+      <div class=boxA>片道勇者TRPG公式リプレイの、癒し手のサントリナです。片道勇者の世界から、少しだけ遊びに来ました。皆様のご質問やお相手を努めさせていただきますね。（※リプライは手動なので遅れる可能性が高いです）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:19:08</font><BR>
+      <div class=boxA>あらやだ、いくつか予約してたのが飛んでいるわ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:18:29</font><BR>
+      <div class=boxA>そういえば、『ごうもん』ってどんな字を書くんだろう……？　あ、リーナさん、ちょっと文字を教えてほしいんです……いま迷惑じゃなかったら……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:19:35</font><BR>
+      <div class=boxA>どうしたの、クーちゃん。……あら、今日も文字のお勉強？　いいわよ、いらっしゃい、うふふ。クーちゃんは覚えがいいから、とっても教えがいがあるわ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:20:35</font><BR>
+      <div class=boxA>伝説の戦いで使われたっていう「透明な矢じり」は肌身離さず持ち歩いてるよ。ちゃんと復元しなくても伝説パワーを発揮できるって話だ。いつか伝説の弓とセットで使うときが来るのかな？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:20:35</font><BR>
+      <div class=boxA>ふっふー、寝たと思ったら大間違いなのよ。アレの夜はこれからなのよ。これからは大人時間。アダルトタイムなのよ。アレの魅力はうっふんで、あっはんなのよ。リーナ、それアレじゃないなの、それは蝿なのよ！　ちょっ、待っ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:20:36</font><BR>
+      <div class=boxA>私、別にゲテモノ好きじゃないです……おいしくないものでも笑顔で食べられるだけです。だって、お母さんが本当にたまに作ってくれたごはんの味を思い出せるから……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:20:56</font><BR>
+      <div class=boxA>あ、あれ、おかしいなぁ？　ここにしまったはずなのに、理力の書……。な、失くしちゃったかしら……？　そ、そんなわけないわよねぇ？！（わたわた）<br>
+      うう、今日の野営の枕が無いわ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:22:50</font><BR>
+      <div class=boxA>さて、今日はお休みしますね。今日の当直はンクさんなら、安心だわ。<br>
+      ……アレちゃん、ほら、そんなに遠くにいったら、闇夜にまぎれてどこにいるのかわからないわ、近くにいらっしゃい！　危ないわよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:25:34</font><BR>
+      <div class=boxA>それからマップキットにランタンに矢筒に保存食と。この辺の細々としたものは冒険に欠かせないからね。よし、これで全部……かと思ったけどまだ何か重いものが残ってるぞ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 0:45:36</font><BR>
+      <div class=boxA>「マルギの上半身」（重さ15）なんて持ち歩いていなかった。分かったね？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:26:32</font><BR>
+      <div class=boxA>つ、ついったーって、こう使うのでいいのよね……？　なう、って言わなくちゃダメかしら……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:25:33</font><BR>
+      <div class=boxA>私もミイさんもどっちも料理をしたことなんて滅多にないはずなのに、ミイさんのほうが料理が上手です……というか、何をするにもミイさんのほうが上手です……妖精ってみんな器用なのかな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:25:35</font><BR>
+      <div class=boxA>ミイは確かに器用なのよ。でもアレは料理にされるほど器用なのよ。よくヴァンちゃんに食べられそうになるなのよ。野生の血が疼くに違いないなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:29:23</font><BR>
+      <div class=boxA>お料理、私はそれなりに出来るはずなのだけど……、時々凄いポカをしてしまうの。お塩とお砂糖間違えるレベルのね……。なんでかしら？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:32:12</font><BR>
+      <div class=boxA>（服の中がもぞもぞして眠れないわ……なんでかしら？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:30:46</font><BR>
+      <div class=boxA>Ｑ：サントリナさんのスリーサイズを教えて下さい。お願いします。是非ともお願いします。<br>
+      Ａ：現在、アレは調べている真っ最中なのよ。リーナの乳周りは……(寝返り)……ぐはぁぁっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:34:48</font><BR>
+      <div class=boxA>何か踏んだ気がするけど、気のせいね。きっと。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:35:32</font><BR>
+      <div class=boxA>（サントリナさんってスタイルいいな……私も大人になったらあんな風になれるかな……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:35:35</font><BR>
+      <div class=boxA>Ｑ：アレたんのスリーサイズを教えて下さい。<br>
+      Ａ：アレのスリーサイズ、まず耳の長さが４５ｃｍなのよ。これは敵の鎧をも貫く鋭さと強度を誇るアレの必殺技なのよ。次に親指が９８ｃｍなのよ、ブーイング専用なのよ。最後に体重は５ｍｇなのよ。風で飛ばされる勢いなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:40:31</font><BR>
+      <div class=boxA>ふむ、この質問はクーに答えて貰った方がいいなのね。クー、お手！　ぐはっ、潰れる。潰れるなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:40:34</font><BR>
+      <div class=boxA>え、アレイラさんに続いて夜の質問コーナー？　えっと、はい……じゃあ今手元にある分だけ読んでいきます……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:43:17</font><BR>
+      <div class=boxA>質問かぁ……。何かありましたら、お気軽にお話くださいね。お答えします。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:45:34</font><BR>
+      <div class=boxA>クーはクーで質問に答えていってもらって、アレはアレなりに答えてみるなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:40:35</font><BR>
+      <div class=boxA>寝るか</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:45:35</font><BR>
+      <div class=boxA>Q.&nbsp;ロイスのことをどう思ってますか？　<br>
+      A.&nbsp;あの人のことは、別に……お母さんのことは、もう恨んでないです……気が向いたら急所を刺すかもしれませんけど……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 0:45:37</font><BR>
+      <div class=boxA>（ブルッ…今日は寒いな…）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:50:34</font><BR>
+      <div class=boxA>Q.&nbsp;スリーサイズを教えて下さい。　<br>
+      A.&nbsp;あと4年待ってください……すごくなりますから……たぶん。<br>
+      <br>
+      そのときもまだ、人間の姿をしてたらいいな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:50:34</font><BR>
+      <div class=boxA>Ｑ：クーたんのスリーサイズをお願いしますﾊｧﾊｧ<br>
+      Ａ：クーはぺったんこ、そこそこくびれ、ちょっとお肉つき……敢えて言うならばあと３年程で食べごろになるなのよ。たぶん。でもその頃には獣っ娘になっているかもしれないなのよ。あれ？そっちの方がウケがいいなの？　ヘンタイさんが多いなのね</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:54:52</font><BR>
+      <div class=boxA>（アレちゃんの口は縫い付けなきゃダメかなぁ……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 0:56:16</font><BR>
+      <div class=boxA>裁縫キットってありませんかね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 0:55:34</font><BR>
+      <div class=boxA>そういえば、ヴァンさんのなまりってどこの国の言葉なんだろう……私も親と一緒に色んなところを回ったけど、スコーピオじゃあんなの聞いたことない気が……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 0:55:35</font><BR>
+      <div class=boxA>アレやでぇ～。アレなんやでぇ～。キャラ作成時にヴァンちゃんの口調が関西弁じゃなかったらアレが妖しげな関西弁を喋るつもりだったなのよやでぇ！　っつーかキャラ詰め込み過ぎ！　なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 1:01:37</font><BR>
+      <div class=boxA>あ、ちなみにこのなまりはうちの家系だけらしいわ、へんやんなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 1:00:36</font><BR>
+      <div class=boxA>ハムイさんはきっと、もともと服を着ない民族なんだと思えばガマンできます。もしそうじゃなかったら……どうしよう……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 1:00:46</font><BR>
+      <div class=boxA>寝る用意もできたし朝まで寝るわ～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 1:00:50</font><BR>
+      <div class=boxA>さ、今晩の見張りは私がしておくからね。おやすみみんな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:00:50</font><BR>
+      <div class=boxA>机バンバンバンバンバンバンバンバン</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:05:34</font><BR>
+      <div class=boxA>いつもニコニコあなたの隣に這いよる混沌、アレイラホテプぅ～。これくらいは大丈夫？　大丈夫なのよ。きっと！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:10:33</font><BR>
+      <div class=boxA>はっ、殺気！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 1:10:36</font><BR>
+      <div class=boxA>そろそろ寝る準備をしながらつぶやいてます。リーナさんはもう寝ちゃった……アレイラさんとンクさんは元気です。面白いことがいっぱいある夜だけど、明日がある人はそれに備えて、おやすみなさい……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 1:15:34</font><BR>
+      <div class=boxA>……すぅ、すぅ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:15:38</font><BR>
+      <div class=boxA>ぐぉぉぉっ、なんか銀髪美少女に襲われたなのよー。どっから出てきたなのぉ！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:20:35</font><BR>
+      <div class=boxA>ちなみに、このアカウントに質問を投げて寄こされてもボットなのですぐには返事できないなのよ。ちょっと遅くなるかもしれないけどアイドルとしてファンは大事にするから返事はするなのよ。中の人の気合次第なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 1:30:38</font><BR>
+      <div class=boxA>そろそろ毛布にくるまります……おやすみなさい、Zzz……。あ、ここからは30～60分に1回つぶやきます。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:35:36</font><BR>
+      <div class=boxA>おや？　静かだと思ったら、いつのまにかみんな寝る準備をしているなの。これは五月蝿くしたら怒られる雰囲気なの。だれが「ごがつはえ」だって？　オマエを××するなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 1:45:34</font><BR>
+      <div class=boxA>そういえば、容姿端麗、頭脳明晰、爽やか笑顔で幸せ運ぶみんなのアイドルがいた記憶があるなのよ。中の人が大好きなキャラなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 1:55:33</font><BR>
+      <div class=boxA>（眠れない……明日も早いのにどうしよう……どうせ眠れないなら見張りのお手伝いでもしたほうがいいかな……。今日の見張りはンクさんだけみたいだし、ンクさんなら……いいかな……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 2:00:33</font><BR>
+      <div class=boxA>?！？パン屋のおっちゃん！？…むにゃ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 2:00:36</font><BR>
+      <div class=boxA>おや、こんな時間にどうしたのクー？目が冴えて眠れないって？<br>
+      オッケー、それなら眠れるようにお話をしてあげるよ。<br>
+      むかしむかし、あるところに忍者の山東と御手洗と大神と公井がいました……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 2:20:33</font><BR>
+      <div class=boxA>ンクさんのお話ってどこの国の話なんだろう……古代文明にはシューカツっていう風習があったのかな……？　うーん……。　　※参照：&nbsp;<a target=_self href="../../trpg/sinobi_replay/Replay_Sinobi01.html">シノビガミ『忍者就職活動記』リプレイ</a></div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:00:53</font><BR>
+      <div class=boxA>アレイラ！　再び武力による軍事介入を開始する。リーナ意外とお肉のつきがよろしくてよ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 2:04:18</font><BR>
+      <div class=boxA>や、やだエクトルさん……そんなとこ触っちゃだめですよぉ……むにゃ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 2:04:32</font><BR>
+      <div class=boxA>うーん……もう、だめですったらぁ……。【投擲】！　……ん？　なんか妖精サイズの何かを触ったような……気のせいよね、むにゃ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:15:36</font><BR>
+      <div class=boxA>もうアレは眠いなのよ。眠いから名言集をお送りしますなのよ。&nbsp;「あー、従っても……。左手の人差し指を鼻穴に刺して、右手で尻をぶって、スジャータが午後10時をお知らせしますって言ってろ！　バカー！」&nbsp;あ、でもいまは午前2時15分なのよ。ｵﾔｽﾐﾅｻｲなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:20:34</font><BR>
+      <div class=boxA>寝たと思ったアレファンの諸君。残念ながら貴様はまだアレを分かって無いなのよ。アレはたとえ寝たとしても……ごめん、何も思いつかないなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:30:37</font><BR>
+      <div class=boxA>蛇の道はスネークって言うなのよ♪</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:35:37</font><BR>
+      <div class=boxA>Ｑ：アレたんは何故そんなにカワイイのですか？<br>
+      Ａ：中の人もカワイイので仕方ないなのよ。もうカワイイＤＮＡの申し子なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 2:50:33</font><BR>
+      <div class=boxA>ボットって書いてあるから分かると思うけど、リプ飛ばしてもすぐには返事できないなのよ。でも遅くなっても返事はするから安心するなのよ。今度は誰が罵って欲しいなの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 3:00:34</font><BR>
+      <div class=boxA>zzz…弟A…お疲れさまやで～…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 3:00:39</font><BR>
+      <div class=boxA>パットは胸に入っているモノだけど、ボットはラットやミットとは違うナットなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 3:00:58</font><BR>
+      <div class=boxA>……御手洗はいいました。『おめでとう、キミが内定だよ。』<br>
+      しかし山東は断ります。『私は！　働きたくない！』『イヤーッ！』『イヤーッ！』『イヤーッ！』『イヤーッ！』『イヤーッ！』『グワーッ！』『イヤーッ！』『グワーッ！』<br>
+      え、もういい？これからが面白くなるところなのに！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 3:03:51</font><BR>
+      <div class=boxA>う、うーんうーん……やだ、また治療でファンブルに……うーん……トドメは、トドメは刺したくないのお……！　……むにゃむにゃ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 3:05:36</font><BR>
+      <div class=boxA>イヤーッ！　グワｰッ！　イヤーッ！　グワｰッ！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 3:10:36</font><BR>
+      <div class=boxA>ンクさんのお話が終わったけど、どうしよう……イヤーッ！　グワｰッ！　がまだ頭の中でループしてる……でも3時だし、いい加減寝なきゃ……あ、そうだ羊でも数えれば……。<br>
+      羊がイヤーッ！　羊がグワーッ！　羊がイヤーッ！　羊がグワーッ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 3:10:36</font><BR>
+      <div class=boxA>ビットはエルメスに……誰か、聞いてなの！！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 3:20:36</font><BR>
+      <div class=boxA>美容に悪いので寝るなのよ。途中で起したら猿轡をして後手に縛り尻をチクチク針で刺すなのよ。って、なんで嬉しそうな顔しているなの？　ヘンタイなの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 3:30:42</font><BR>
+      <div class=boxA>う、うう～ん……イヤーッ！　グワーッ！　ムニャムニャ……。アバーッ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 3:35:35</font><BR>
+      <div class=boxA>クーが悪夢にうなされているみたいだから、アレが寝かしつけてあげるなの。ほーら、大人のきのこの山が１つ、大人のきのこの山が２つ、大人のきのこの山が３つ、大人のきのこの山が４つ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 3:50:35</font><BR>
+      <div class=boxA>結局見張りでもないのに起きているなの。これじゃＭＰが回復しないなの。あ、会計システムを担当しているプログラマーさん、バグでていますなの。うへへっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 4:00:34</font><BR>
+      <div class=boxA>誰も…仲間に…傷つけさせ…へんで…zz</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 4:00:42</font><BR>
+      <div class=boxA>Zzz……お母さん……待って……いかないで……うーん……グワーッ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 4:00:56</font><BR>
+      <div class=boxA>さてクーも寝たし、今のうちにみんなの朝ごはんを【料理】スキルで作っておこうかな。えーと保存食が……無いや。ヴァンを起こして出してもらうのもあれだから、あるもので作っちゃおう。まずはその辺に生えてた野草と……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:00:58</font><BR>
+      <div class=boxA>ンク、なんなの？　なんなの？　このワイルドでダイナミックで脳みそを駆け抜ける激しい苦味はなんなの？　死ねる、死ねるなのよ。リーナ助けて……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 4:02:48</font><BR>
+      <div class=boxA>い、イヤー！　グワー！　……むにゃむにゃ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 4:05:34</font><BR>
+      <div class=boxA>こら、何を勝手につまみ食いしてるのアレイラ。この草は生だとえぐいけど、ちゃんと水に浸して火にかけてあげれば美味しく食べられるんだから。<br>
+      父さんから教えてもらったから間違いないよ。私は詳しいんだ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:10:35</font><BR>
+      <div class=boxA>気絶中……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:20:33</font><BR>
+      <div class=boxA>ああ、あの世にいったレク爺さん（存命中）が川の向こうでアレを呼んでいるなのぉ～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:30:35</font><BR>
+      <div class=boxA>これはみんなから1000シルバ掠め取った罰が当たったに違いないなの……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:40:33</font><BR>
+      <div class=boxA>大丈夫なのよ、アレが賭博で倍にして返すなのよ。だから死んだらダメなのよ。いきて、いきるのよアレ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:50:32</font><BR>
+      <div class=boxA>だいたい損するフラグが立ったところで復活なの！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 4:55:35</font><BR>
+      <div class=boxA>いや、でも、ダメ、死んだほうがラクかも知れないなの……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 5:00:32</font><BR>
+      <div class=boxA>…？ｽﾝｽﾝ…変な臭いがするわ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 5:00:39</font><BR>
+      <div class=boxA>ぐう…ぐう…げほげほ…ぐう…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 5:00:55</font><BR>
+      <div class=boxA>（うわ、なんだろうこのワイルドでダイナミックで脳みそを駆け抜ける激しい苦味は……リーナ助けて……いやいや違うぞ！煮込み方が足りないんだこれは！）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 5:05:35</font><BR>
+      <div class=boxA>ムニャムニャ……なんだかおいしそうな臭いが……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 5:05:31</font><BR>
+      <div class=boxA>あっ、起きたで～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 5:05:32</font><BR>
+      <div class=boxA>うーーーん、ううーーーん、気持ち悪いなのよ。胃の中がワンダーなのよ。ゲぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼぼっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 5:10:09</font><BR>
+      <div class=boxA>……ん？　悲鳴？　って、急患がいる？！　ちょっとンクさーん、アレちゃーん、しっかりしてー？！　……ハッ、これ、毒草……煮込んでる……？　これ、食べた、の……？（戦慄）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 5:20:34</font><BR>
+      <div class=boxA>我らの癒し手にダイスの神様の幸運を！　マジでお願いしますなの！　１ゾロは勘弁してなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 5:30:35</font><BR>
+      <div class=boxA>……二人とも落ち着いたし、私ももう一度、寝よう……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 5:35:34</font><BR>
+      <div class=boxA>※トドメさされた</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 5:45:53</font><BR>
+      <div class=boxA>現在アレイラは死亡しておりますがリプ戴けると嬉しいです。見てのとおりBotで中の人はぐっすり就寝中ですので、返事は遅くなると思いますが……よろしくなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 5:55:34</font><BR>
+      <div class=boxA>むくり</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 5:56:24</font><BR>
+      <div class=boxA>起きたからバンバン質問してなー！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 6:00:43</font><BR>
+      <div class=boxA>…保存食の整理しとかんとあかんなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 6:00:59</font><BR>
+      <div class=boxA>うとうと……　はっ。<br>
+      <br>
+      あっ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 6:01:11</font><BR>
+      <div class=boxA>…ん、朝か。なんか気持ち悪いな…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:01:13</font><BR>
+      <div class=boxA>まさかとは思うけど、夜中からずっと追っかけているバカはいないよね？　なのよ！？　もし追いかけているアホがいたら褒めてつかわすなのよ。褒美にアレが描いたロイスの妄想予想図をあげるなのよ。マジメな顔しつつロイスの頭の中ではクーがあんなことや、こんなことになっているむぎゅぅぅぅぅぅっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 6:05:35</font><BR>
+      <div class=boxA>ビリビリに破っといた。まったく、あいつの頭ン中どうなってやがんだ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:10:37</font><BR>
+      <div class=boxA>ロイスのヤツ……とりあえず、飛び出した内臓を収納中なのよ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 6:05:37</font><BR>
+      <div class=boxA>うう～ん……あと1時間5分んん……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:20:33</font><BR>
+      <div class=boxA>そろそろ中弛みの時間なのね。だから再びＱ＆Ａタイムなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:25:35</font><BR>
+      <div class=boxA>Ｑ：アレイラさんの中の人に質問です。わたしはＴＲＰＧをするとき、キャラを演じるのが何か恥ずかしくて上手く立ち回りができません。どうしたらアレイラさんのようにバカっぽく演技できますか？<br>
+      Ａ：おぃ、待て、誰がバカっぽいって！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:35:34</font><BR>
+      <div class=boxA>さきほど音声に乱れが生じたことを深くお詫びいたしますなのよ?</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:45:33</font><BR>
+      <div class=boxA>Ｑ：アレイラの中の人を尊敬しています。なんであんなにヘッポコなんですか？<br>
+      Ａ：おぃ、なんだ、これ、罵詈雑言ばっかりか？　それならそれでコッチにも考えがあるぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 6:46:35</font><BR>
+      <div class=boxA>ちなみに質問があるなら今日中になー。明日はどっかいくからしゃーないねん</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 6:55:33</font><BR>
+      <div class=boxA>もういいなの！　アレはテレビでも見てるなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 7:00:44</font><BR>
+      <div class=boxA>保存食こんなにへっとったんか（残り23個）また買わなあかんなぁ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 7:01:20</font><BR>
+      <div class=boxA>おはようみんな。よく眠れた？朝ご飯だけど、うん、保存食を食べようか。<br>
+      違うよ、あれは消し炭じゃない。あれはワンダーなんだ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:00:35</font><BR>
+      <div class=boxA>じっぷっ♪　なんか解凍ソフトが必要な気がするなのよ。ンクが作ったワンダーは土に還すなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 7:05:35</font><BR>
+      <div class=boxA>朝っぱらから保存食か…早く街でまともな飯が食べたいもんだ。……そこのワンダーなもの食べるよりマシか</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 7:08:44</font><BR>
+      <div class=boxA>ンクさん、当直お疲れ様です、おはようございます。&nbsp;さて癒やし手サントリナ、本日も頑張りますね！<br>
+      皆さんも、本日一日、頑張りましょう！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 7:10:30</font><BR>
+      <div class=boxA>朝ごはんも食べて、いざ、出発です！&nbsp;理力の書？　……、……実はその、普通にかばんに（ごにょごにょ）<br>
+      <br>
+      さ、さあ行きましょう！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 7:10:33</font><BR>
+      <div class=boxA>ううーん、寝坊しちゃった……おはようございます。おいしいごはんを食べる夢を見ました……夢でした……はあ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:10:37</font><BR>
+      <div class=boxA>物騒な事件が多いなのね。まー、それを言うならアレは毎回死にかけているなのよ。物騒な世の中なのねー。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:20:37</font><BR>
+      <div class=boxA>８億円……アレも欲しいなの……尚、このアカウントはBotなので実際にどんなニュースがいま放送されているか分かりませんなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:30:41</font><BR>
+      <div class=boxA>出発？　まだ早いなのよ……ほら、追ってくる闇も今日はウソのような青空なのよ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:40:32</font><BR>
+      <div class=boxA>そういえば、ンクにゃんのスリーサイズは聞かれていないなのよ……不憫なンクにゃん。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:50:33</font><BR>
+      <div class=boxA>仕方ない、需要があるか分からないけど、ンクにゃんのスリーサイズを調べておくなの。えーっと、これはふんどし……ハムイだったなの！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 7:50:36</font><BR>
+      <div class=boxA>こちらの世界でも、日々やらなきゃいけないことがある人が多いんですね……大変だと思いますけど、いってらっしゃい……応援、してます……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 7:55:34</font><BR>
+      <div class=boxA>are'sキッチン。オリーブオイルと一緒にヴァンちゃんを炒めますなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 8:00:30</font><BR>
+      <div class=boxA>アレちゃんホンマやりすぎたあかんで…！(ｷﾞｷﾞｷﾞ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 8:01:06</font><BR>
+      <div class=boxA>うーん、おなかいっぱいになったら眠くなってきたよ。それじゃあ少し休ませてもらうね。おやすみみんな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 8:05:35</font><BR>
+      <div class=boxA>おう、悪いなンク</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 8:10:32</font><BR>
+      <div class=boxA>おっ！ンク寝るんか！子守唄歌たろか～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:01:16</font><BR>
+      <div class=boxA>知ってた？　今日から消費税が８％になるのよ！　アレのスキルを使って交易品を安く仕入れようとしてもムダなのよ！　お財布に１円玉を多めに持って、いってらっしゃいなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 8:07:38</font><BR>
+      <div class=boxA>※このアカウントは、返信は完全手動です、すぐにはお返事できません、ごめんなさい、少しだけ、待ってくださいね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:10:37</font><BR>
+      <div class=boxA>Ｑ：アレの中の人は何歳ですか？　時折垣間見るジェネレーションギャップを感じる発言を見るに４０歳くらいなんじゃないかなーって思うんですけど、１２歳妖精なんて無理しちゃってますね。うぷぷっ<br>
+      Ａ：残念ながらアレの中の人は永遠の１７歳なのよ。でもこれ、アレの高校の担任の口癖なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 8:15:33</font><BR>
+      <div class=boxA>（また小さいのがわけのわからないこと言ってるな……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:20:38</font><BR>
+      <div class=boxA>というわけで、再び質問に答えていくなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:25:36</font><BR>
+      <div class=boxA>Ｑ：先日、街でアレたんを見かけたのですが途中で見失ってしまいました。どこへ行ってたのですか？<br>
+      Ａ：みんなと冒険してたのよ。あんたは幻覚を見ている可能性があるなの。病院に行くといいなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:35:36</font><BR>
+      <div class=boxA>Ｑ：先日、街でバケツを被ったふんどしの男をみたんですがこれも幻覚ですか？<br>
+      Ａ：それは残念ながらホンモノなの（顔を覆う）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:45:32</font><BR>
+      <div class=boxA>Ｑ：アレたんはゴーストライターがいるって本当ですか？<br>
+      Ａ：そうなのよ！　アレはこんなコト、言いたくないなの、だけどゴーストライターの書いたセリフが一人歩きしてアレの印象を悪くしているなの。名誉毀損で訴えるなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 8:50:34</font><BR>
+      <div class=boxA>……時事ネタは危険だってゴーストライターが言っているなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 9:00:41</font><BR>
+      <div class=boxA>……zzz……もう大笛が飛ぶ季節か……犬笛だっけ？違うよ犬笛じゃなくて大笛だって……zzz……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 9:00:41</font><BR>
+      <div class=boxA>弟Aはなぁー体力あるし器用やしホンマよう出来るねんで～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 9:00:44</font><BR>
+      <div class=boxA>今日はいい天気です……お父さんも今どこかでこの空を見てるのかな……。あ、お母さんはその……ですけど、お父さんはまだどこかで生きてると思います……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:00:48</font><BR>
+      <div class=boxA>犬型獣人だけに聞こえる犬コントラバスを街の外で弾かなくちゃいけなくなったなのよ。いや、それ、無理なのよ。アレより重いなのよ。持たなきゃダメなの？　ふんぬっ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 9:05:33</font><BR>
+      <div class=boxA>……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 9:06:29</font><BR>
+      <div class=boxA>ゼェ、ゼェ……。（体力１しかない私に、この道は辛いです、なんて、言えない……この体力に溢れまくっているパーティーにおいて、言えないわ……頑張れ、私……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:10:37</font><BR>
+      <div class=boxA>犬型獣人だけに聞こえる犬ドラムセットを街の外で叩かないといけなくなったのよ。いや、それ、無理なのよ。アレより重いなのよ。持たなきゃダメなの？　ふんぬっ！（ボキッ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:20:33</font><BR>
+      <div class=boxA>ブラード？　ああ、ブの字、あいつならアレの手下として頑張っているなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:30:42</font><BR>
+      <div class=boxA>ちなみに、ブの字、いまは裸エプロンで頑張っているなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:40:35</font><BR>
+      <div class=boxA>え？　裸エプロンで大丈夫かって？　大丈夫なのよ。　毛むくじゃらだから、もしもがあっても大丈夫なの。動画を加工する必要もないなのよ♪</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:50:32</font><BR>
+      <div class=boxA>誰か近寄ってきた！？　ここはアレに任せるなの！　アレの魅力で悩殺なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 9:55:35</font><BR>
+      <div class=boxA>行商人？　ふーん、何を持っているなの？　保存食、なるほど、ヴァンちゃんが喜びそうなのね。<br>
+      あー、こっちに冒険者一行がいるなのよ。紹介手数料として500シルバ戴くなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:00:32</font><BR>
+      <div class=boxA>ちくしょー、あの行商人のハゲ、アレを無視しやがって、……なのよ?<br>
+      ここでへこんでもダメなの、アレは天才。だからなかなか理解して貰えないなの。気を取り直してまたまた質問に答えるなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 10:00:48</font><BR>
+      <div class=boxA>あっ！行商やん！保存食かわな！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 10:00:34</font><BR>
+      <div class=boxA>行商か。ってヴァン、まだ保存食買うのか、もう十分あるだろ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 10:05:33</font><BR>
+      <div class=boxA>保存食全然足りひんし要るにきまってるやん</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 11:00:38</font><BR>
+      <div class=boxA>お金持ってへんかったわ…（とぼとぼ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 10:00:47</font><BR>
+      <div class=boxA>……zzz……いけ、そこだロイス！押し倒せ！……zzz……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 10:05:32</font><BR>
+      <div class=boxA>何をだよ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:05:33</font><BR>
+      <div class=boxA>Ｑ：検閲されているアレたんのセリフを知りたいです。<br>
+      Ａ：ああ、それなら[－－－検閲されました－－－]って言っているだけなのよ。まったく、これくらい何でも無いなのよ。みんなひわいって言うけどアレはそれくらいでは動じないなのよ。だって[－－－検閲されました－－－]なのよ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:10:35</font><BR>
+      <div class=boxA>他のメンバーのセリフを見てくるといいなのよ。アレなんかより、よっぽど不健全なのよ。アレだけ検閲対象になっているのが不思議なのよ。これは出るとこ出てやるのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 10:09:33</font><BR>
+      <div class=boxA>ロイスさんは、中々クーちゃんに手を出しませんよね。半獣だから精神低いはずなのに、鋼の理性ですよね。いつか判定に失敗してしまえばいいんです。……はっ？！　私は何を？！　な、何か勝手に口が動いて！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 10:10:34</font><BR>
+      <div class=boxA>リーナさんはああ言ってるけど、あの人に手を出すなら私の方が早いと思います……（ダガーを取り出しながら）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 10:11:13</font><BR>
+      <div class=boxA>はーいクーちゃん、物騒なモノはしまおうねー？！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 10:15:38</font><BR>
+      <div class=boxA>悪寒がする…なんだ、またアイツがどっかからこっち睨んでるのか？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 10:20:34</font><BR>
+      <div class=boxA>気のせいか</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:25:32</font><BR>
+      <div class=boxA>【朗報】来年のプリキュアに「キュア・アレイラ」参戦。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:30:34</font><BR>
+      <div class=boxA>キュア・アレイラって語呂が悪いなのよ。なんかもっとアレが羽ばたける舞台が欲しいなのよ。というわけで誰か、用意するなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 10:32:16</font><BR>
+      <div class=boxA>クーちゃん、大丈夫？　ハムイさん、ついて来れている？　ロイスさん、お体は大丈夫ですか？　ヴァンさん、無茶はしていない？　ンクさん、何かお気づきでしたらおっしゃってくださいね。アレちゃん、は……。いつもどおりね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 10:40:33</font><BR>
+      <div class=boxA>びっくりしたんですけど、実は私とリーナさんって同じくらいの体力みたいです……それでも旅をしなきゃいけないのは、きっと『闇』のせい……力がない人から順番に『闇』に飲み込まれていく世界になるなんて、想像もしてなかった……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 10:42:01</font><BR>
+      <div class=boxA>しんどかったらおぶさってえーからな</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 10:50:34</font><BR>
+      <div class=boxA>ちょっと！　誰なの！？　アレにモンスターボールを投げないでなのよ！　ああ、ダメ、吸い込まれる。フェアリータイプかもしれないけど、フェアリータイプかもしれないけど、アレはポケモンじゃないなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 11:00:39</font><BR>
+      <div class=boxA>……zzz……ゴリラvsメカゴリラ……うーん、うーん……zzz……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:05:32</font><BR>
+      <div class=boxA>そうそ、アレの中の人はポケモンＸでも「アレイラ」と名乗っているなのよ。もしバトルでアレが出てきたらよろしくお願いしますなのよ。アレの中の人はＸＹが始めてのポケモンなのでお手柔らかにですなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:14:15</font><BR>
+      <div class=boxA>どうしても必要な経費だったら……少しなら持ち合わせがあるわよ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:15:33</font><BR>
+      <div class=boxA>よっし、隠し特性ゲットなのー。こいつを増やして……５Ｖ厳選も終わったなのー。次は努力値を上げるなのよー。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:15:39</font><BR>
+      <div class=boxA>そろそろ本当、裁縫キットが欲しいです。<br>
+      用途？　妖精の口を縫い付け……、やだ、医療用ですよ？（にっこり）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:16:48</font><BR>
+      <div class=boxA>（アレちゃんはこの世界のげえむなるものをしているようだけれど、全然さっぱりわからない……何なのかしらこの適応力……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:17:54</font><BR>
+      <div class=boxA>今日から消費税率が８％、って、中の人が嘆いてました。色々買い忘れたそうです。みなさんも、そういうことあったのでしょうか？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:22:06</font><BR>
+      <div class=boxA>そろそろ、お腹すいたなぁ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:25:33</font><BR>
+      <div class=boxA>がーーー、このファイアロー「はやてのつばさ」なのね！　ずるいなの！　でも負けないなのよ！（ポケモンバトル中）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:35:33</font><BR>
+      <div class=boxA>さすがに疲れてきたなのよ。&nbsp;だけど、みんなのアイドルとしてアレは頑張るなのよ。&nbsp;なーに、乳を揺らしておけば男どもの視線は釘付けなのよ。ゆっさゆっさ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 11:36:37</font><BR>
+      <div class=boxA>（無いものを、どうするのかしら……。）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:40:35</font><BR>
+      <div class=boxA>はっ、乳が無い！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 11:50:36</font><BR>
+      <div class=boxA>Ｑ：乳はどうしたら大きくなりますか？<br>
+      Ａ：嫌がらせ！？　アレが知りたいなのよ！　アレは乳が無いなのよ！　でもいいなのよ！　アレのぺったんこ具合が良いという人もいるなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 11:52:09</font><BR>
+      <div class=boxA>え？何？アレちゃんがローに踏まれてペッタンコ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 12:00:52</font><BR>
+      <div class=boxA>昼だな</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 12:01:07</font><BR>
+      <div class=boxA>……zzz…………ニャ゛ア゛ア゛ア゛ア゛ア゛ア゛ア゛ン゛！！<br>
+      はっ。おはよう。どうしてのみんな、そんな顔して。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:01:19</font><BR>
+      <div class=boxA>Ｑ：ミルはアレイラが嫌になったりしないんですか？<br>
+      Ａ：ぶっちゃけ、あのクソ妖精はオレがいないと何もできねぇ雑魚だからな。仕方なく一緒にいるだけだよ。それより、キツネ野郎のペットの蛇。あいつの方が怖ぇよ。いつ食われるかわからねぇ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:01:35</font><BR>
+      <div class=boxA>正午やで～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 12:01:47</font><BR>
+      <div class=boxA>正午になりました……旅の途中では、お昼ごはんはちょっとだけ食べます。早く次の街に着かないかな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:05:34</font><BR>
+      <div class=boxA>かわいいよなーギーレン<br>
+      ギーレン「シャー」</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 12:05:34</font><BR>
+      <div class=boxA>闇に追われる生活をしてから気付いたが、人間は不眠不休で3日飲まず食わずで過酷な環境を過ごしても生きれるように出来てるようだ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 12:10:38</font><BR>
+      <div class=boxA>単に獣人が頑丈なだけかもしれないがな</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:10:39</font><BR>
+      <div class=boxA>え？　何？　獣人は床上手なの？　ロイス……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:14:31</font><BR>
+      <div class=boxA>ロイスさんとクーちゃんの呪いが、解ける日が来ればいいのに、ね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:15:36</font><BR>
+      <div class=boxA>そろそろアレちゃんに武力行使をしたいのだけど……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:05:35</font><BR>
+      <div class=boxA>あれ？　さっき、なんか声しなかった？　なんか声したような気がするなのよ？　あれ？　えーと、誰なの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 12:02:34</font><BR>
+      <div class=boxA>あっ、寝てる間に忍者スレイヤーが終わってる！もっと忍者スレイヤーが戦ってるところを応援したかったのに！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:05:41</font><BR>
+      <div class=boxA>忍者…？何の話や？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 12:10:32</font><BR>
+      <div class=boxA>えっ、ヴァンは今年で60周年になる忍者シリーズの一つである忍者スレイヤーを知らないの？無料で読めて凄くエキサイティングなんだよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:13:32</font><BR>
+      <div class=boxA>NINJA……一体何者なのでしょう……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:14:19</font><BR>
+      <div class=boxA>お昼ですね。休憩がてらに、お話を。&nbsp;私の名前「サントリナ」って、ハーブの名前なんですよ。&nbsp;妹の名前「カラミンサ」も、ハーブなんです。どちらもこのままでは呼びにくいので、リーナ、ミーシャ、というように、愛称で呼んでいますね。&nbsp;私の里では、植物の名前をよく付けるのです。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:14:54</font><BR>
+      <div class=boxA>あ、ありがとなンク…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:30:18</font><BR>
+      <div class=boxA>ちなみに俺の服どっかいってんけどしらへん？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 12:50:16</font><BR>
+      <div class=boxA>一番初めに着とった服がないねん</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 12:18:06</font><BR>
+      <div class=boxA>さてお便りをもらってるね。なになに…<br>
+      Q:「毛並みの手入れどうしているかよかったら教えてほしいにゃん！」<br>
+      <br>
+      3日に1度くらい濡れ布で身体を拭いてるよ。人間と違って汗をかかないからね。たまに水浴びしたりもするけど、全身乾かすのが大変なんだ……毛が濡れてると体のラインが出ちゃうしね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:20:32</font><BR>
+      <div class=boxA>みんながゴハンの間に、アレはロイスとクーの薄い本を描くなのよ。ほしい人は1000シルバを用意するなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:21:23</font><BR>
+      <div class=boxA>……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 12:22:00</font><BR>
+      <div class=boxA>……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:30:42</font><BR>
+      <div class=boxA>え？　発禁喰らった！？　なの！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:40:37</font><BR>
+      <div class=boxA>あまりの現実にアレ失禁！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:43:22</font><BR>
+      <div class=boxA>ちょっと「上品さ」というものを扱っている商店を探しております。ご存知の方はご一報ください。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:44:39</font><BR>
+      <div class=boxA>……いつもの冒険でどれだけアレちゃんの発言に規制がかけられているかよくわかるわよね、これ……。はぁ……（ため息）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:50:32</font><BR>
+      <div class=boxA>一説によるとフェアリーの尿には強力な殺菌作用があり、傷の消毒などの用途に最適だそうです。5000シルバで買いませんか？　なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 12:55:34</font><BR>
+      <div class=boxA>（※フェアリーの尿については個人差があります）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 12:58:39</font><BR>
+      <div class=boxA>（嗚呼、ツイッターだから制限ができない……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:00:36</font><BR>
+      <div class=boxA>アレそれ知ってる。ハゲたデブいオッサンが喜ぶヤツなのよ！　アレは遠慮しておくなのよ！　って、それ虫取り網。やめるなの。やめるなの。そういうプレイはのーさんきゅーなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 13:00:40</font><BR>
+      <div class=boxA>最近【尋問】してないなあ。たまにやっておかないと勘が鈍るんだよね。<br>
+      ねえアレイラ、試してもいい？大丈夫だよ痛くしないから。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 13:00:45</font><BR>
+      <div class=boxA>おっひるごっはんは保存食～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:03:36</font><BR>
+      <div class=boxA>ンクさん、お願いします。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 13:05:33</font><BR>
+      <div class=boxA>ちなみに今の休憩での残り保存食は17個で動物のエサは15個やで～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 13:07:26</font><BR>
+      <div class=boxA>でも買ってもらったから何個か増えてると思うで～</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 13:00:33</font><BR>
+      <div class=boxA>慣れないつぶやきをたくさんしたから、ちょっと疲れちゃった……夕方までゆっくりしようと思います……でも、こうやってどこからでも記録が残せるのは、楽しいかも……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:05:37</font><BR>
+      <div class=boxA>※このアカウントは、返信は完全手動です、すぐにはお返事できません、ごめんなさい、少しだけ、待ってくださいね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:10:27</font><BR>
+      <div class=boxA>あれ、そういえばツイッターって、文字を「読む」わよね？　読み書きが出来ないンクさんとロイスさんは……ンガング！？　……な、なんでもないわ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:10:33</font><BR>
+      <div class=boxA>アレイラがンクに捕まったようなので、ここでローのレジェンドタイム。このオレ様もソチで飛びたかったぜ。なにしろオレ様がレジェンドだからな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 13:11:49</font><BR>
+      <div class=boxA>音声入力ってのが流行ってるらしいなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:20:36</font><BR>
+      <div class=boxA>Ｑ：ローさんに質問です。ジ・エンドってなんですか？<br>
+      Ａ：ジ・エンドではない、レジェンドだ。オレが、オレたちがレジェンドだ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:25:24</font><BR>
+      <div class=boxA>しょた、こん……？　なんのことだか、サッパリです。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:00:57</font><BR>
+      <div class=boxA>しょこたんならしってるなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 13:25:32</font><BR>
+      <div class=boxA>こうやってつぶやいていると、この旅が終わったら旅の記録を書きたいなって思い始めてきました。そのためにも、しっかり字を習っておかなきゃ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:30:36</font><BR>
+      <div class=boxA>Ｑ：ローさんに質問です。どこがレジェンドなんですか？<br>
+      Ａ：うーん、坊ちゃんにはまだ早いかもしれないが、ロバなのに馬並ってことだ。HAHAHA</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:40:35</font><BR>
+      <div class=boxA>Ｑ：ロバなのに馬並ってどこがですか？<br>
+      Ａ：簡単に言えばオレ様のエッチピストルだな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:43:12</font><BR>
+      <div class=boxA>アレちゃん、アウト。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 13:50:34</font><BR>
+      <div class=boxA>アレイラさんは色々アウトだと思います……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 13:44:20</font><BR>
+      <div class=boxA>参ったな、ロバを拷問するスキルは習得していないんだよ。今度GMに作ってもらわないといけないかな？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:45:32</font><BR>
+      <div class=boxA>ンクさん、「調教」ってどうでしょうか？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 13:48:10</font><BR>
+      <div class=boxA>今度、武器を入手できる機会があったら、鞭でも買いましょう。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:50:36</font><BR>
+      <div class=boxA>ふふ、みんなにはオレが喋れること、秘密だぜ。<br>
+      何故喋れるかって？　オレ様がレジェンドだからさ、ふふっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 13:55:33</font><BR>
+      <div class=boxA>おっと、アレイラが戻ってきたようだ。残念だがローのレジェンドタイムはここまでだ。またな。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 14:00:35</font><BR>
+      <div class=boxA>なんかアレちゃんがボロボロやねんけど…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 14:00:37</font><BR>
+      <div class=boxA>よし、いい経験を積めたぞ。アレイラの犠牲は無駄にしないよ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:00:50</font><BR>
+      <div class=boxA>アレ、もうお嫁に行けないなの……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 14:05:25</font><BR>
+      <div class=boxA>……アレちゃん、大丈夫？　今治療を……えっと、治療キットは、っと……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:05:35</font><BR>
+      <div class=boxA>リーナの治療ロール：2D6(ｺﾛｺﾛ)=2&nbsp;ぎにゃぁぁぁぁぁぁっ、リーナ、死んじゃう。アレ死んじゃう。それトドメ刺しにきてる。傷は心なのよ。メンタルの方なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 14:05:35</font><BR>
+      <div class=boxA>何やってんだか……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 14:07:11</font><BR>
+      <div class=boxA>おっかしぃなぁ、久々だから、治療の仕方忘れちゃってるかしら？　こうかしら？　えいっ！（ｸﾞｻｧ！）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 14:07:18</font><BR>
+      <div class=boxA>トドメはしっかりささないと。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:10:34</font><BR>
+      <div class=boxA>ＧＭ「アレイラさんは死亡しました。」&nbsp;<br>
+      アレ「え？　マジで！？」</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 14:15:36</font><BR>
+      <div class=boxA>なんてこった！アレイラが＊されちゃった！ささやき…いのり…えいしょう…ねんじろ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:15:36</font><BR>
+      <div class=boxA>ＧＭ「アレイラは灰になりました。」<br>
+      アレ「Σ！？」</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 14:15:37</font><BR>
+      <div class=boxA>おおっと</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:20:32</font><BR>
+      <div class=boxA>なんだかよく分からないけど、ハムイが６ゾロを出したおかげで復活したのよ。<br>
+      理由？　ハムいからなんだって、全然意味分からないけど助かったなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:35:33</font><BR>
+      <div class=boxA>生まれ変わったばかりで、羽がまだ乾いていないなの……これじゃ、飛べないなのよ……って、人を虫扱いするなっ！　なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:45:33</font><BR>
+      <div class=boxA>不可視境界線のむこう側では、アレもかなり強力なフェアリーなのよ。でも、その力を使うと世界が壊れてしまうなの。だから、アレは、……その、えーっと、……ダメなの。中二病にはなれないなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 14:55:34</font><BR>
+      <div class=boxA>はっ、敵？　何者かが我が領界に侵入したなの。アレは真の姿を現すしかないなの。ばにっしゅめんと、でぃす、わーるど！<br>
+      でんでんでん、でーでーでー、でんでんでん、でーでーでー♪　行くぞ、アルティメイトデーモン。これが世界の決断だ！　じゃすてぃすばぁーすとぉぉぉぉぉぉぉっ！！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 15:00:42</font><BR>
+      <div class=boxA>質問、お便り、人気投票は絶賛募集中だよ！<br>
+      冒険の裏事情やみんなのプライベートまで、可能な限り答えちゃうよー。<br>
+      すぐにはお返事できないかもしれないからちょっと待っていてね！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 15:00:59</font><BR>
+      <div class=boxA>おやつの時間……私はお腹がすいたら、保存食の堅い干し肉をかじってます。ちょっと、しょっぱいです……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 15:01:11</font><BR>
+      <div class=boxA>狩りに行ってくるわ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:05:34</font><BR>
+      <div class=boxA>賢明なるアレファンの諸君。時は満ちた。今こそアレファンの全ての力を解放せよ。我らにこそ勝利はふさわしい。立ち上がれ国民。ジーク○オン！&nbsp;ん？　なんか変な方向に流れてしまったなの。とにかく、アレファンはアレBotをフォローするなのよ。知らないオッサンも誘っちゃえ！　なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 15:09:52</font><BR>
+      <div class=boxA>知ってる？　酷い空腹は、我慢しすぎたほうが、結果的には間食するより太るのよ。だから、こうして今私が間食をしているのは、かえって太らないようにするためであって、モグモグ……。一番いいのはチョコを一粒、とかがいいみたいね！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 15:10:08</font><BR>
+      <div class=boxA>んもう、ンクさんったら。人気投票なんてしたら、またみんなが不幸に……。ええと、私も質問などは受け付けておりますが……、その、お子様にもお聞かせできる範囲内で、お願いしますね？（にこり）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:20:35</font><BR>
+      <div class=boxA>ん？　また質問なの？　どれどれ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:25:33</font><BR>
+      <div class=boxA>Ｑ：アレイラ、ツイート必死すぎｗｗｗｗｗｗｗｗｗｗｗｗ<br>
+      Ａ：……ンクにゃんには負けられないなのよぉぉっ！！！！！！！！！！！！！！！！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:30:35</font><BR>
+      <div class=boxA>これ、質問じゃないし！　なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 15:30:33</font><BR>
+      <div class=boxA>ロイスは主人公主人公って言われてるけど本人はシャイだから言われると嫌がるんだ。でもやることなすこと主人公なんだから仕方ないよね。<br>
+      特に街で休憩してたらクーを連れてきたときはみんな目を丸くしてたなあ……。うん、とにかくかっこいい。クーがいなけりゃ惚れてるところだよ。ガハハ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 15:32:25</font><BR>
+      <div class=boxA>「勇者」「英雄」……。考えれば考えるほど、私達のいる世界は、フシギばかり。その謎は、私の好奇心を、限りなく刺激するのです……。これは、私が耳長だから？　それとも、エクトルさんとの……、ううん、なんでもないの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:35:32</font><BR>
+      <div class=boxA>ンクもリーナも、全然わかってない。<br>
+      ロイスは主人公、主人公って呼ばれるけど、影の主人公はアレイラなのよ！<br>
+      勇者？　英雄？　それもアレイラなのよ！　神？　魔王？　それもアレイラなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 15:45:34</font><BR>
+      <div class=boxA>みんなのスルースキルが高くなってきて、アレ、寂しいなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:21:59</font><BR>
+      <div class=boxA>スルースキルっていうより、反応につかれた、が近い気がするのよ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 16:00:35</font><BR>
+      <div class=boxA>ガサガサ…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 16:00:38</font><BR>
+      <div class=boxA>よし、そろそろ狩りに行ってくるよ。夕飯には期待しててね！さーて何がいるかなー。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 16:00:49</font><BR>
+      <div class=boxA>リーナさんに【投擲】を教えてもらったら、私も火炎アンプルや粘着アンプルを投げて戦えるかな……燃やすのはちょっと面白そ……ゲフン！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:06:11</font><BR>
+      <div class=boxA>クーちゃん、【投擲】に興味があるの？　粘着アンプルは…大人のセカイよ……フフッ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:21:20</font><BR>
+      <div class=boxA>（なにげに、ンクさんとロイスさんがご一緒にいらっしゃるところもトキメキを覚えるんですよね……。ロイルさんとクーちゃんもそうだけれど。あ、でもロイスさんとシドさんも……）……ハッ！　私は何を？！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:10:34</font><BR>
+      <div class=boxA>というわけで、今日はココで野営の準備なのよ。夜営？　あれ？　どっちだろう？　なの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:20:34</font><BR>
+      <div class=boxA>夜営、なるほど、夜のいとなみ……エロいなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:22:57</font><BR>
+      <div class=boxA>アレちゃん、まだ夕方。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:25:34</font><BR>
+      <div class=boxA>野営、なるほど、野でのいとなみ……エロいなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:30:42</font><BR>
+      <div class=boxA>ガーン、どっちもエロいなのよ！！！！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 16:30:32</font><BR>
+      <div class=boxA>ん？今遠くで変な声が…ハッ!</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 16:35:32</font><BR>
+      <div class=boxA>ｺｰﾝ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 16:40:32</font><BR>
+      <div class=boxA>わっふわっふ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:40:47</font><BR>
+      <div class=boxA>GM、アレちゃんに対し、粘着アンプル投擲の許可を。ちょっとお口チャック（物理）をしたいので。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:45:34</font><BR>
+      <div class=boxA>（みんな疲れてきたなのね？　ツイートに一体感が無いなのよ？）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 16:50:33</font><BR>
+      <div class=boxA>（あ、でもあくまで、いまの段階って意味なのよ！　アレの中の人が夜中に一生懸命ボットにツイートする内容を準備している段階での話なのよ）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 16:58:15</font><BR>
+      <div class=boxA>ふぅ……皆さん、今日はそろそろ休憩にしませんか？　足がもう棒になってしまいました……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 17:00:37</font><BR>
+      <div class=boxA>ンクは信用ならないなのよ。ヴァンちゃんから保存食を貰った方が良さそうなのよ。え？　ハムイの保存食？　なんかしょっぱいなのよ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 17:00:43</font><BR>
+      <div class=boxA>【万能サバイバル】スキルで獲物を探すよ！<br>
+      むっ……！あの触手は間違いなくイカだ！それもみんなで食べられそうなサイズ！待てえええええええ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 17:00:45</font><BR>
+      <div class=boxA>ゴソゴソ…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 17:00:54</font><BR>
+      <div class=boxA>私が初めて見た戦いでは、リーナさんが少年みたいな耳長人に白いねばねばをかけて喜んでたのが印象に残ってます……戦場には雷がほとばしっていたし、私はすごい人達に巻き込まれたんだと思いました。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:07:38</font><BR>
+      <div class=boxA>ち、違うのよ！　あの時喜んだのは、はじめて戦闘で役に立てたからで、いたいけな少年に白濁の液体がかかったことが嬉しかったんじゃないのよ！　本当よ！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 17:05:34</font><BR>
+      <div class=boxA>アレイラは保存食である以上、塩漬けにされているからしょっぱいと思いますが、それとは違う意味でしょっぱいと申しております。ええ、保存している場所が場所だけに……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 17:15:34</font><BR>
+      <div class=boxA>今度こそ野営の準備なのよ！　はっ、やっぱりエロいなの！　ううーん、夜営かなぁ？　やっぱりエロいなのよ。困ったなのぉ。え？　テントの支柱。任せろなのよ！　ふんすっ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:20:47</font><BR>
+      <div class=boxA>アレちゃんの【体力】って、あの小さな体のどこに潜んでいるのかしら……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:22:20</font><BR>
+      <div class=boxA>みんな、野営の準備に取り掛かっていますね。私も【薬剤】スキルで……。<br>
+      ば、爆発なんてしませんから！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:22:43</font><BR>
+      <div class=boxA>え、ちょいちょい「艦これ」ネタが入っている、ですって？　気のせいですよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 17:30:32</font><BR>
+      <div class=boxA>ｹｰﾝ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 17:30:32</font><BR>
+      <div class=boxA>鳥人に襲われたときは、このままさらわれて死んじゃうか、もしくはもっとひどいことをされるんだろうなと思いました。恐ろしい環境だと、ただ死ねるほうが幸せなのかもしれない……。私は正直な気持ちを話せるほど勇気がないけど、手紙になら残せると思って、文字を教えてもらいたくなったんです。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 17:30:40</font><BR>
+      <div class=boxA>鳥人、確かに怖かったなの……あれ？　なんか怖かった記憶が無いなの。あ、あいつらアレを無視しやがったなのよ！　虫程度だと腹の足しにもならないし、鳥人仲間にしても目立たないってか？　ああぁん？？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:33:46</font><BR>
+      <div class=boxA>鳥人……嗚呼、思い出したくもないです……。また、囚われたりするかと……、こういう時、非力な耳長の女の身はイヤになります。誰かに頼らず、ちゃんともっとしっかりできればいいのに……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 17:35:32</font><BR>
+      <div class=boxA>はっ！なんか暗くなってきてるやん！いつの間に…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:40:03</font><BR>
+      <div class=boxA>もっと、もっとしっかりしなきゃね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 17:41:13</font><BR>
+      <div class=boxA>そうだね。鳥人はおいしかったね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:48:16</font><BR>
+      <div class=boxA>ンクさん、私はそういうところも含めて思い出したくないのですよおおお！<br>
+      嗚呼……正気度が……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 17:50:24</font><BR>
+      <div class=boxA>鳥人って、「人」って入ってますよ、ね……いやここは「鳥」に重きをおいて……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 18:00:50</font><BR>
+      <div class=boxA>そのあとの遺跡では、ンクさんの落ちた槍の落とし穴に一緒に落ちて終わるかな、って一瞬思いました。私が生きてるのはみんなのおかげと……そしてたぶん神様も、こんな私でも生きていいんだよって言ってくれてると思うから……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 17:45:33</font><BR>
+      <div class=boxA>この時間に帰宅できるのは一部の人間だってアレの中の人が言ってたなの。この世界の人たちって大変なのね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:00:33</font><BR>
+      <div class=boxA>まー、それでも明日がやってくるなのよ。死んだレク爺さんが言ってたなの（存命中）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:00:35</font><BR>
+      <div class=boxA>追い詰めた！【射撃武器】と【能力看破】で仕留めるぞ！うおおおおおお、【瞬間剛力】！【必中撃】！【貫通射】！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 18:01:01</font><BR>
+      <div class=boxA>なんもおらへんかった…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:04:23</font><BR>
+      <div class=boxA>さ、さーて、お薬作り、再開しないとー！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:04:40</font><BR>
+      <div class=boxA>薬草といっても種類は様々です。ハーブ、薬効があるものを総じてそう呼称しているだけですから。それらを配合して、望む効果を得られるように抽出・加工していきます。飲むだけ、かけるだけでみるみる傷が回復するなんて、思えば相当な劇薬を作ってますね、私……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:05:33</font><BR>
+      <div class=boxA>……あっ、粉々になってる……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:06:56</font><BR>
+      <div class=boxA>過熱すると精油……薬効成分が逃げてしまいますから、それを利用して抽出を行ったり、基材に溶け込ませたりして作ｒ……あ、配分間違えた……。ま、まあいっか！　</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:08:22</font><BR>
+      <div class=boxA>大丈夫、仕上げを間違えなきゃ……見た目が変わらなければ、世の中にはプラシボ効果という便利なものがあるわ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:10:32</font><BR>
+      <div class=boxA>あ、プログラマーさん、システムエンジニアさん、たいへんです。消費増税のためのパッチが間違ってて売り上げが合いません！　うへへ、なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:12:15</font><BR>
+      <div class=boxA>アレちゃん、それ本当に冗談にならないからやめて。今日エイプリルフールだけど、やめてあげて。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:14:23</font><BR>
+      <div class=boxA>今日も一日、お疲れ様でした。社会人の皆様、お疲れを存分に癒してくださいね。学生の皆様、遊ぶのも貴重な人生の経験ですが、学業もお忘れずに、サントリナとの約束ですよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:20:33</font><BR>
+      <div class=boxA>プログラマーさん、え？　なに？　ネコの手も借りたい忙しさ？　アレはフェアリーだから手伝えないなのよ。ンクはイカを追っているみたいだし、ネコの手は貸せないなの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:30:32</font><BR>
+      <div class=boxA>み、みんなー。食材ゲットだよ。1食分のイカ足だよ。<br>
+      この一帯ではいい獲物がいなくてね。精一杯頑張ったんだけどね。うん。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 18:30:32</font><BR>
+      <div class=boxA>そろそろ、ごはんの時間かな……。飽きるほど保存食を食べるけど、ンクさんやリーナさんが料理してくれるから、おいしく食べられてます。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:30:38</font><BR>
+      <div class=boxA>それでもアレの手を借りたいと言うなら仕方ないなの。ＣＯＢＯＬでよければ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:34:30</font><BR>
+      <div class=boxA>あ、ンクさんお疲れ様ですー、おかえりなさ……。……えっと、はい、そうですね、獲物がいないなら……仕方ないですね……（どうやって食べればいいんだろうっていうか何かがはじけ飛んだあと残った部品にしか見えないよぉ……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 18:34:31</font><BR>
+      <div class=boxA>COBOLってなんや？BASICならしっとるで</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:35:33</font><BR>
+      <div class=boxA>しかもＣＯＢＯＬ７４なのよ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:37:38</font><BR>
+      <div class=boxA>はいそこ、メタな中身の話に走らない！　わ、私？　私は、ほんの少しだけCOBOLできるけど……、あと、VBとCなら……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:39:58</font><BR>
+      <div class=boxA>って、私までつられちゃったじゃない。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:45:35</font><BR>
+      <div class=boxA>（ＣＯＢＯＬは今でも現役です。また資格試験では分かりやすい言語だと思います。個人的に）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 18:50:33</font><BR>
+      <div class=boxA>あ、そうだ！　将来ゲームを作りたい中高生のみなさん。数学、ちゃんと勉強したほうがいいなのよ。あとで使えるなのよ！<br>
+      あと、英語も得意なら尚よろしい、英語のサイトを渡り歩くこともあるなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:45:33</font><BR>
+      <div class=boxA>料理はロイスが引き受けてくれたよ。ロイスのわくわく☆キッチンタイム再びだね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 18:45:34</font><BR>
+      <div class=boxA>こんなイカ足だけどうしろと……とりあえず丸焼きだ。この手のは丸焼きが一番美味いんだよ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:48:11</font><BR>
+      <div class=boxA>ロイスさんがまた男前なワクワクキッチンを……！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:50:05</font><BR>
+      <div class=boxA>また質問をいただいたよ。<br>
+      Q:「最後の貫通射どこの世界から！？」<br>
+      <br>
+      ってことだけどGMー、あのルールって正式展開されないの？そうそう、あれだよあれ。未調整？ふーん。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:51:08</font><BR>
+      <div class=boxA>数学も英語も、やっとかないと本当に後悔しますねぇ、はぁ……って、なんでこっちの世界の重い話ばっかりなんですか！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 18:51:46</font><BR>
+      <div class=boxA>後悔先に立たずっていうけどホンマにそうやからなぁ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 18:52:55</font><BR>
+      <div class=boxA>あ、私も聞いたことがあるよそれ。サンカクカンスーって呪文を覚えておくと物の角度を操るときに役に立つんだって！<br>
+      ま、必要になってから付け焼き刃で覚えても大丈夫って話だけどね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:53:31</font><BR>
+      <div class=boxA>まぁ勉強してても忘れるので、大人になってからも復習は大事なんですよ。<br>
+      未だに雑多な教科の高校の教科書・参考書愛用している人もいますから。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:54:31</font><BR>
+      <div class=boxA>サンカクカンスー　だけ聞くと世界の名前っぽいですね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 18:55:31</font><BR>
+      <div class=boxA>少し焦げた……。が、ダークマターよりマシだろう</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 18:55:52</font><BR>
+      <div class=boxA>ロイスさん、上手に焼けました？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 19:00:50</font><BR>
+      <div class=boxA>質問に答えたりもするからなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 19:02:57</font><BR>
+      <div class=boxA>近くに水場があったので、水浴びをしてきますね。……言わなくても、もう覗きに来る人なんていないでしょうけれど、って、アレちゃん、覗かれるくらいなら、最初から一緒に入っているほうがマシなのだけれど……？　ンクさんもご一緒しませんか？　水が透き通っていて、綺麗ですよ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 19:00:50</font><BR>
+      <div class=boxA>リーナと水浴びか。いいね行く行く！ちょっと待ってね。色々準備があるからさ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:00:42</font><BR>
+      <div class=boxA>ロマン。覗きはロマン。堂々と見るのではなく、こそこそと見るのがいいなのよ。そしてアレには「記憶術」がなるなのよ。これでバッチリ脳みそに録画しておくなのよ。ふふっ、ふへへっ、</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 19:03:47</font><BR>
+      <div class=boxA>クーちゃん……は、やっぱりお風呂、イヤだよね。他の誰も見てはいないけれど……そういうことじゃないよね。あとで、拭いてあげるね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 19:05:35</font><BR>
+      <div class=boxA>リーナさん……すみません。そういえば、そろそろ服を着なくても寒くないくらいモジャモジャになってきちゃった……むだ毛の処理したいな……こんなのでも好きって言ってくれる人、いるのかな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 19:05:32</font><BR>
+      <div class=boxA>（ハリセンもって巡回中や！）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 19:05:32</font><BR>
+      <div class=boxA>さて、このロープでアレイラをハムイにくくりつけて……と。よし。<br>
+      待ってよリーナー！いまクーも引きずっていくからさー！！（ずるずる）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 19:07:20</font><BR>
+      <div class=boxA>ふふっ、ンクさんったら。流石です。ありがとうございます、これでゆっくりできますね！（にこり）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:05:35</font><BR>
+      <div class=boxA>きゃぁ、なんでハムイふんどし一丁なのよぅ！？　とか言うと思ったら大間違いなのよ。ええぃハムイの神経を制御しこのまま水に突撃するなのよ！<br>
+      いけ！　ハムイ！　って、まって、溺れる、おぼ……ごぼぼぼぼぼぼぼぼぼぼぼぼっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 19:05:33</font><BR>
+      <div class=boxA>こんな時間に水浴びって寒くねーのかなあいつら…</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 19:06:46</font><BR>
+      <div class=boxA>寒さより何より、乙女の清潔感は尊ばれるモノなのですよ、ロイスさん。<br>
+      いいのよクーちゃん、大丈夫、ほら似たような男性が既に同行しているし、それが普通の世界になっていくかもしれないじゃない？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 19:09:41</font><BR>
+      <div class=boxA>ロイスは覗かないでよね。絶対覗かないでよね。<br>
+      いや、全然心配してないけど別の意味で心配だよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:10:32</font><BR>
+      <div class=boxA>忘れてた！　アレは飛べるんだったなの！　ふはははは、これでお前らまるっとお見通しなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 19:14:01</font><BR>
+      <div class=boxA>ンクさんったら、やっぱりいつ見ても……。凄く……、いえその、なんでもないですぅー……。（照れ隠ししつつ）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 19:15:33</font><BR>
+      <div class=boxA>ちょっとどこ見てんのよリーナ。<br>
+      いやいやしかしクーも育ってきたよね。うんうん。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:15:34</font><BR>
+      <div class=boxA>（ンクは何にも分かっていないなの。出ていない乳が好きな大きなお友達もたくさんいるなのよ……そしてクーは無い乳の方が喜ばれるなのよ……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 19:20:32</font><BR>
+      <div class=boxA>（出ていない乳って……私は子供だからだもの……大人になったらきっとンクさんやリーナさんみたいに……）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:25:32</font><BR>
+      <div class=boxA>ふぅ、クーも分かっていない。ストライクゾーンは人によって違うなのよ。しかも二次元なんだから気をつけるなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 20:00:57</font><BR>
+      <div class=boxA>料理とかもやってみたいよなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 20:00:59</font><BR>
+      <div class=boxA>さっぱりしたし次のお話でも考えようかな。前にハムイとふんどし女が料理対決をしていたのは面白そうだったなあ……。<br>
+      よし、忍者達が料理大会で競い合う話にしよう。名付けて『戦え！料理の鉄忍！』これだ！<br>
+      きっと面白い話になるぞ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 20:10:36</font><BR>
+      <div class=boxA>ンクさんの言ってる忍者って、話に聞いたテレサさんみたい人達のことだよね……一体どんな人なんだろう？　忍者にはシューカツっていう試練があって、料理好きなのかな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:35:33</font><BR>
+      <div class=boxA>ほぅほぅ、モテない女は喪女と言うなのね。まぁ、アレには関係ないなのね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:45:35</font><BR>
+      <div class=boxA>待てよ？　モテないアイドル、アイドルとみせかけてモテない。あたらしいキャラなのよ！　これで人気投票もナンバーワン！　なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 19:55:32</font><BR>
+      <div class=boxA>でもモテないと票が集まらないなの！　なんてことなの！？　わたしがモテないのはどうかんがえても、このメンツが悪い！　なのよ！！！！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:02:01</font><BR>
+      <div class=boxA>アレちゃんがこの文明にのっかったようならのべたいとる？ちっくなことを言っているんだけど、その内容は……まあ、クーちゃんがモテるからしかたない、わよね。女性にはンクさんがモテそうよね。女性陣では。男性陣なら、男女問わずロイスさんがモテそうよね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:05:32</font><BR>
+      <div class=boxA>何をいっているなの？　リーナ、これを見るなのよ、テレビって言うなの。色々な世界があるなのよ。たとえばこれ、世界に男が１人しかいなくて、女の子にモテまくる世界。次にこれ、女が１人しかしなくて、男の子にモテまくる世界。んー、男も女も似てるコト考えるなのね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:06:40</font><BR>
+      <div class=boxA>無駄にハーレムしかないわね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:07:30</font><BR>
+      <div class=boxA>……このパーティとは縁遠いなぁ。やっぱりちょっと、私にもそういうあこがれはあるのかしら？　いや、ハーレムとは言わないけれど、その……、殿方との心ときめく恋愛とか……そういうのよ？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:10:32</font><BR>
+      <div class=boxA>こういう妄想から生まれてくるパワーが創作には必要なの……って、このメンバーの中の人には言わなくてもいいなのね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:15:33</font><BR>
+      <div class=boxA>ニンジャってハムイの国の人のハズなのよ。テレサは聞いている姿と違うなのよ。ニンジャは脱げば脱ぐほど強くなる。エロゲと隣り合わせの灰と青春なのよ。自分でも言っている意味が分からないなのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:17:53</font><BR>
+      <div class=boxA>アレちゃんにお薬出しておきますね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:18:25</font><BR>
+      <div class=boxA>夜空が綺麗……。満天の星ですよ？　この星の数だけ、世界があったら、素敵ですね……。世界は、いくつもあるのだと、いつしか本で読んだ気がしますが……、この世界に生きる私には、確かめようがありませんね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:25:34</font><BR>
+      <div class=boxA>あ、いちおー言っておくなの。気付いていない人がいるかも知れないなのよ。片道勇者ＴＲＰＧに登場するキャラのBotは掛け合い漫才している部分もあるなのよ。気になる人は他のキャラもフォローするなのよ～。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 20:30:34</font><BR>
+      <div class=boxA>ふう、図書館で見た幻影の火山は危険だったけど心が震えたよ。本物の火山もあんなに凄いものなのかな？知識では知っていても自分の目で見ると全然印象が違うよね。<br>
+      よし、いつか絶対に火山に行くんだ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:32:47</font><BR>
+      <div class=boxA>火山かぁ……体力持つかしら……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 20:35:33</font><BR>
+      <div class=boxA>毛が燃えそうだから火山だけは行きたくねぇな……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:35:33</font><BR>
+      <div class=boxA>毛が萌えそうだから？　ロイス、好きなのね～。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:40:34</font><BR>
+      <div class=boxA>ロ、ロイス、まって、羽は毟らないで！　毛と違って生えてこないなのよ！　ぎゃぁぁぁぁっ！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:44:02</font><BR>
+      <div class=boxA>ご質問がありましたのでお答えします。<br>
+      Q.サントリナの妹の詳細を知りたいです。主にスリーサイズとか可愛いかどうかとか（ｒｙ<br>
+      A.容姿は私に似ています、妹のミーシャは髪の毛はやや短く、ボブカットくらいの長さですね、ハネっ毛なのでいつも髪のセットが大変そうです。３サイズは、秘密です?</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 20:40:35</font><BR>
+      <div class=boxA>あ、今日は冗談がゆるされる日なんだ……午前中だけって話もあるけど、いいよね……？　じゃあ、えっと……うーんと……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:45:32</font><BR>
+      <div class=boxA>クーちゃん、冗談は無理して言わなくてもいいのよ……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 20:45:49</font><BR>
+      <div class=boxA>（ロイスさんと結婚したいとか言ってくれたら面白いのにとか思ってるけど）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 20:50:33</font><BR>
+      <div class=boxA>面白いことなんて何も思いつかないです……悲しいです……。何か一個くらい思い出せるだろうっていっても、せいぜいパソコンのDVDドライブにハム入れてみたら壊しちゃったことくらいしか……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 20:55:32</font><BR>
+      <div class=boxA>事実は小説より奇なり、パソコンのDVDドライブから脱落したディスクがパソコンのケース内部に入り込んでて、それに気づくのに数年掛かりましたなの。忽然と消えたディスク、当初は謎だったなのよ……いや、これ、マジ、マジ。なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 21:00:49</font><BR>
+      <div class=boxA>ちょっと尻尾の手入れと毛づくろいしよっかなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 21:00:34</font><BR>
+      <div class=boxA>エルスベルグでは現在の職業に加えてもうひとつの職業に就けるんだってさ。ヴァンは冒険者＋騎士になりたがってるし、私は狩人の修練を進めて上級技能を身に付けたいなあ。弓の命中率が底上げできたり、強力な必殺技が覚えられるんだって。そういうの、すごくワクワクするよね！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:12:32</font><BR>
+      <div class=boxA>そういえば、そんなお話がありましたね。私は「理術士」になりたいです、強い癒やしの力を扱えたらいいなって……。【守護】【加速】この２つだけでも、皆さんのお役には立てているようで嬉しいのですけれど。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:13:58</font><BR>
+      <div class=boxA>……やっぱり、妹の病を治すために冒険をしているので、そういう力があると聞けば、欲しくなってしまうんです。故郷から見て、逃げ延びているこの方向は、闇が発生した地点を挟んで正反対なんです、だから、旅がどれだけ続いても、もう、故郷には……、……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:15:15</font><BR>
+      <div class=boxA>わ、私以上に体力がない妹ですが、きっと逃げ延びてくれていますよね！<br>
+      ……考えても仕方ないし、ここで歩みを止めてしまったら、それこそみんなを救えなくなってしまう、歩くしか、ないんです。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:05:33</font><BR>
+      <div class=boxA>もうひとつの職業に就けるって話、アレも聞いたなのよ。ブラードに何が向いているか尋ねたら「サギシ」って言われたなの。「サギシ」って何なの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:15:33</font><BR>
+      <div class=boxA>ググレカスって言われたからググってみたなの。どーやら「サギ」という鳥を操るビーストマスターらしいなのよ。なるほど、強そうなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:17:45</font><BR>
+      <div class=boxA>アレちゃんのハネで花占いみたいなことしてみてもいいかなぁ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:24:55</font><BR>
+      <div class=boxA>Q.あなたをフォローした覚えがないんですが……。<br>
+      A.ごめんなさい、今日だけわたくしサントリナがツイッターをお借りしています。<br>
+      元は、だれかさんのホームページの更新告知アカウントみたいですよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:17:45</font><BR>
+      <div class=boxA>……エクトルさん、私は、使命を果たせているでしょうか……、一歩一歩、道を違わずに進めていますか……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 21:25:33</font><BR>
+      <div class=boxA>私が何か職に就くなら、何がいいのかな……狩人かな……癒し手かな……。え？　もっと普通の職に就けって？　でも普通の職業じゃこの世界で生き残れそうにないし……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:25:34</font><BR>
+      <div class=boxA>ん？　クーなら愛玩犬がいいんじゃないかな？　なのよ～♪</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:28:08</font><BR>
+      <div class=boxA>アレちゃん、クーちゃんを闇の道に導くのはやめなさい。<br>
+      クーちゃんなら、そうね……、狩人、いいんじゃないかしら。色々できるようになるし、読み書きも生きてきそうだし。弓って扱うの、楽しそうだし。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 21:30:39</font><BR>
+      <div class=boxA>そういえば私達もなんだかんだで8人の大所帯になっちゃってるけど、どこか遠くでは24人で冒険してる人達がいるんだってさ。凄いよね！<br>
+      それだけいたら指揮を執るのが大変だよ。戦術の幅も広がるんだろうなあ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:32:44</font><BR>
+      <div class=boxA>２４人ってもう……小隊～中隊くらいにはなりますよね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:35:32</font><BR>
+      <div class=boxA>何人パーティだろうが、逃げれば勝ちなのよ！　うへっほぅ～なの～?</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:39:59</font><BR>
+      <div class=boxA>ちょ、ちょっとやめてよ、アレちゃん……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:50:33</font><BR>
+      <div class=boxA>逃げれば勝ちっていうのは割と本気なのよ。ほら、アレたち、なんだかんだ言ってみんな生き残っているなの。無理に立ち向かうのは勇気じゃないなのよ。退くのも勇気なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 21:55:21</font><BR>
+      <div class=boxA>「恐れることを知らないこと、それが強さではなくて、恐れるものに打ち勝つこと、それが本当の強さ」……。腕力だけが強さではありません、生き残ろうとする強い意志もまた、力なのかもしれませんね。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 21:55:33</font><BR>
+      <div class=boxA>誰だ？　オマエ？　＞五分前のツイート</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 21:55:33</font><BR>
+      <div class=boxA>色んな世界に、色んな人が住んでて……そのこと自体は面白いけれど、でも本当はどこも大変そうで……。<br>
+      私たちもがんばりますから、みんなも生き残ってね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 22:00:57</font><BR>
+      <div class=boxA>よっしゃきれいになったわー！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 22:00:40</font><BR>
+      <div class=boxA>はあ、聖なる武器の守護者か。まったくかなわなかったんだよなあ。<br>
+      特にあの斧のヤツ、いま思い出してもムッカつく！完全にあれは人の命を取りに来てたよまったく！いつか鍛えてリベンジしてやるんだから！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 22:01:04</font><BR>
+      <div class=boxA>結局俺は戦ってないんだよな、守護者。挑む際の状況が毎度切羽詰まってるせいもあるが、余裕があれば一度闘りあってみたいもんだ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:05:32</font><BR>
+      <div class=boxA>男同士が得物を持ち寄ってやることと言ったら……リーナにはまだ早いなの！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 22:05:33</font><BR>
+      <div class=boxA>ちっ、またアイツか……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:06:57</font><BR>
+      <div class=boxA>守護者……、エクトルさんもそうだとしたら、一応みんな、戦ってることになるのかしら……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 22:25:32</font><BR>
+      <div class=boxA>昨日は夜更かししちゃったし、今日は早く寝なきゃ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:15:32</font><BR>
+      <div class=boxA>さて、そろそろ寝る支度を……。……。……。あの、今宵もシドさんの気配を感じる気がするのですが、気のせいですか？　……ロイスさん、得物を持ってどこに？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:15:33</font><BR>
+      <div class=boxA>ロイス、どーりで、クーに手を出さないと思ったら、そういうコトだったなのね！（悶々……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:25:33</font><BR>
+      <div class=boxA>男同士が得物を持ち寄ってやることが分からない？　もう子供なのねぇ。　プレゼント交換！　プレゼント交換なのよ！　これは秘密なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:35:33</font><BR>
+      <div class=boxA>真夜中の大人のプレゼント交換（意味深）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:43:27</font><BR>
+      <div class=boxA>アレちゃん、アウト。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:45:33</font><BR>
+      <div class=boxA>シド「今日はいいプレゼント持ってきただろうな？」<br>
+      ロイス「ああ、もうオレには不要だからな」<br>
+      シド「どれ、ほぅ、なかなかの雌犬だな。」<br>
+      ロイス「おまえは何を持ってきたんだ？」<br>
+      シド「耳長だ。受け取れ。」<br>
+      ロイス「おまえのお下がりか、まぁ仕方ない。」</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:47:33</font><BR>
+      <div class=boxA>【投擲】！　火炎アンプル！！　@are_OWH_TRPG</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:52:57</font><BR>
+      <div class=boxA>目を閉じてても避けれるなの！　ぼふっ @lina_OWH_TRPG</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:48:07</font><BR>
+      <div class=boxA>セッション中はこのように、アレちゃん劇場が度々ございまして、ツッコミはだいたいこのようにして……ああもう、ツッコミが間に合わないわ！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 22:50:34</font><BR>
+      <div class=boxA>（※５分前のツイートはアレイラの脳内発言です。ご了承ください）</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 22:57:14</font><BR>
+      <div class=boxA>サントリナです。いま寝ている木陰なのですが、ハムイさんが逆さにぶら下がっていてその……すごく、落ちてきそうです……。気になるとか気にならないの話ではなく、あの、なんでバケツ落ちないんですか？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 23:01:05</font><BR>
+      <div class=boxA>ハムイの故郷ではサクラという樹の花がちょうど今頃咲き乱れているらしい。<br>
+      ハムイもこうして満開のサクラの枝にぶら下がって寝ているのかな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 23:00:37</font><BR>
+      <div class=boxA>身支度はしとかへんとなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:02:03</font><BR>
+      <div class=boxA>またご質問がありましたので失礼します。<br>
+      Q.サントリナさんは良く男NPCと仲良くなっていますが、結局誰がタイプなんですか？あとショタ好き何ですか？合法ショタがすきなんですか？&nbsp;<br>
+      A.好きになった人がタイプです！　ちなみに、男性とだけじゃなく、女性とも仲良くなっていますよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:02:52</font><BR>
+      <div class=boxA>Q.もしNPCにホモ山って言うゴリラ（男）が出てきたらやっぱりフラグが建つんですか？ｗ<br>
+      A.ゴリラセッション？　ごめんなさいちょっとその世界線のことは、私よく分からなくって……。私にフラグなんて、建ってますか……？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:09:54</font><BR>
+      <div class=boxA>もう、私をショタコンだとか男とっつかまえる肉食系女子だとか……、どんなふうにみんな私を見ているのかしら、失礼しちゃうわ！　ﾌﾟﾝﾌﾟﾝ！<br>
+      エクトルさんは特別な使命をくださった方だし、シドさんはなんか放っておけないし……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:05:32</font><BR>
+      <div class=boxA>ミイ？　ミイはハムイの真似しなくてもいいなのよ！　逆さまで寝る必要ないなのよ！　頭に血が上って爆発するなのよ！　ハムイは……ハムイだから大丈夫なのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 23:05:32</font><BR>
+      <div class=boxA>ハムイが木の上でさかさまになっとる？そんなわけあらへんやろー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 23:05:34</font><BR>
+      <div class=boxA>こいつらと長い付き合いになるが、ハムイの思考だけは未だにわからねぇ……</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:07:56</font><BR>
+      <div class=boxA>ハムイさんの思考は、理解できたほうが心配かもしれませんね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 23:10:31</font><BR>
+      <div class=boxA>ホンマや！？でもハムイやからしゃーないよなぁ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 23:10:33</font><BR>
+      <div class=boxA>今日は楽しいお祭りみたいでしたけど、もう終わっちゃうんですね……また来年の今日、面白いことに出会えたらいいな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:15:33</font><BR>
+      <div class=boxA>なんかね、このツイートは今日の間だけみたいなのよ。あと４５分しか無いなのよ。何か他にいいたいコトあったっけ？　なのよぉ～。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:25:34</font><BR>
+      <div class=boxA>あ、そうだ！　うんとね、かなーり力をいれて臨んだ片道勇者ＴＲＰＧのセッションなんだけど、アレの容姿を決めるときに単純にとんぼのような羽をイメージしちゃったなのよ。でも、イーリスちゃんは綺麗な鳥のような翼なのよ。そこが心残りなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 23:30:34</font><BR>
+      <div class=boxA>今日も星空がきれい……明日も何か、楽しいことがあるといいな……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:35:33</font><BR>
+      <div class=boxA>先祖のどっかで虫と混血になった妖精がいるって……えっと、これってアウトなの？　なの？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:40:31</font><BR>
+      <div class=boxA>後二〇分で、「今日」が終わってしまいますね……。<br>
+      楽しいこの時間も、終わってしまいますね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:41:46</font><BR>
+      <div class=boxA>心残り、ですか。そうですね……。私の髪型は、実際は横髪を三つ編みにしているので、耳の前に来るんですよね。TOPイラストでは後ろにきちゃっているので、それに私自身も一時気づいていなくて、後になって言い出せなくて、もだもだしてしまったことですかね……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:42:24</font><BR>
+      <div class=boxA>キャラがブレブレなのは最初からなので、大して気にしていません。ええ。キャラの好みとかも中の人の好みが大いににじみ出た所がありましたが、何も問題はありませんね！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:44:24</font><BR>
+      <div class=boxA>あと理力をもっと使いたかったとか、もっと冒険したかったとか……悔いを挙げればキリがなくなっちゃいます。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 23:44:36</font><BR>
+      <div class=boxA>心残りか。結局ロンゲストデイは3月中にはじまらな……え、そっちの方じゃない？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:45:33</font><BR>
+      <div class=boxA>うーん、これだと２４時間以上、アレは寝ていないコトになるなのよ。アレのＭＰはある意味でパーティの生命線なの。だからそろそろ寝ないといけないなのよ。すごーく残念なの。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:48:07</font><BR>
+      <div class=boxA>はーいアレちゃんお口チャックしようねぇー。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:50:00</font><BR>
+      <div class=boxA>アレちゃん、人気ねぇ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 23:51:10</font><BR>
+      <div class=boxA>類は友を呼ぶ（ぼそっ</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/01(火) 23:55:33</font><BR>
+      <div class=boxA>エイプリルフールなんて関係ないのよ。いいなの？　アレファンはアレBotをフォローするこれは絶対なのよ。いまこそ戦いの時なのよ。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=02.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ヴァンローバーBOT</B>　 <font class=date_f>14/04/01(火) 23:55:35</font><BR>
+      <div class=boxA>じゃあこの辺でお暇しますわー、またなー</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:55:35</font><BR>
+      <div class=boxA>さて、もう世界の扉が閉じてしまいますね。皆さんと交流できて、楽しかったです。また、何かの機会にお会いしたいものですね。では、また。さよならは、笑顔で言いたいのです。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/01(火) 23:55:36</font><BR>
+      <div class=boxA>あ、そろそろ帰る時間みたいです……おつきあいくださった皆さん、ありがとうございました……。また、いつかどこかで……さようなら……おやすみなさい……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=05.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　ロイスBOT</B>　 <font class=date_f>14/04/01(火) 23:55:38</font><BR>
+      <div class=boxA>ん、時間か。あんまりつぶやいてない気がするが、じゃあな</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/01(火) 23:55:38</font><BR>
+      <div class=boxA>そろそろお別れの時間みたい。いつかまた会えるといいね。バイバーイ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:00:49</font><BR>
+      <div class=boxA>ひょっこり</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/01(火) 23:59:14</font><BR>
+      <div class=boxA>焼きそばパンについて、私は何も言ってないわよ！　ちょっと！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=01.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG ンクBOT</B>　 <font class=date_f>14/04/02(水) 0:00:07</font><BR>
+      <div class=boxA>え、リーナのDVDドライブにハムが！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/02(水) 0:01:44</font><BR>
+      <div class=boxA>誰のDVDドライブにハムですか！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:02:42</font><BR>
+      <div class=boxA>リーナのDVDドライブにハムイなの！？</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=03.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG サントリナBOT</B>　 <font class=date_f>14/04/02(水) 0:03:19</font><BR>
+      <div class=boxA>では、私は元の世界に帰りますね。<br>
+      というわけで、このアカウントの所有者を、元の人物の元に戻します。<br>
+      では皆様、また会う日まで！　ごきげんよう！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:05:36</font><BR>
+      <div class=boxA>むっはー、不可能を可能にする、それがアレなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=06.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG　クーBOT</B>　 <font class=date_f>14/04/02(水) 0:05:36</font><BR>
+      <div class=boxA>Zzz……イヤーッ！　グワーッ！……Zzz……ムニャムニャ……。</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:10:32</font><BR>
+      <div class=boxA>リプレイでは検閲が入ったけど、ここは誰にも邪魔されないなのよ！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:15:32</font><BR>
+      <div class=boxA>はっ、Botに設定できるツイートの残りが少ない……がーーーーーん！　なのよ！！</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<DIV class="boxMain">
+<TABLE>
+  
+    <TR>
+      <TD><img src=04.jpg class=imgradius></TD>
+      <TD><B>片道勇者TRPG アレイラBot</B>　 <font class=date_f>14/04/02(水) 0:29:33</font><BR>
+      <div class=boxA>確かに、みんなより喋りすぎてる感！　うあーーーーーまたねーーーー（消滅</div>
+      </TD>
+    </TR>
+  
+</TABLE>
+</DIV>
+<!-- data-chrome="noheader nofooter transparent"-->
+</DL>
+
+
+</div>
+
+<div id=com> ※上は当日のツイッターを再整理した内容です。</div>
+
+
+<div id=com>　</div>
+
+<HR class=line>
+
+
+<HR class=line>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<div id=com><a id="T4"></a></div>
+
+<H1 class=gradientA>年末に完結！　片道勇者TRPGの行方は……。　</H1>
+<div id=comB><font id=CC2 size=+1><B>【去年のリプレイ】</B></font></div>
+<div id=com>『<B>去年のまさに今日</B>』から始まった片道勇者TRPGリプレイはこちら！</div>
+<div id=com>「そういえばそんなのあったっけ」と思い出してくださったあなた。結末をぜひその目でご覧ください。</div>
+<div id=com>　</div>
+<div id=comB><B><A href="../../trpg/katamichi_trpg/Replay00.shtml" class="red"><FONT size="+1">● 片道勇者TRPGリプレイ</FONT></A></B>　　<B>全14話＋後日談</B>　　2013/04/01～2013/12/21 <B>完結</B></div>
+<BR>
+
+<div id=com>　フリーゲーム『片道勇者』を元にした自作ルールによるTRPGリプレイ。GMはSmokingWOLF。</div>
+<div id=com>　個性豊かなPCたちの、涙あり、笑いありの後戻りできない冒険譚！　（※ただし爽やかに打ち切り風）</div>
+<BR>
+<div id=com>　<B><A href="../../trpg/katamichi_trpg/Rule.html" class="red">片道勇者TRPG基本ルール</A></B>　も公開しておりますので、ご自由にお使いください。</div>
+<BR>
+
+<div id=com>　<A href="../../trpg/katamichi_trpg/" class="red"><img src=../../trpg/image_top/TRPG_Katamichi_title.jpg border="1" title="片道勇者TRPGリプレイ トップページへ"></A></div>
+<BR>
+
+<HR class=line>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<!-- ●他の人のコンテンツなのでいったんコメントアウト●
+<BR>
+<div id=com><a id="T5"></a></div>
+<H1 class=gradientA>えっ、こんなTRPGもあるの！？　</H1>
+<div id=com>意外や意外、こんなTRPGもあるんです！</div>
+<div id=com>ＧＭ（ゴリラマスター）とＰＧ（プレイゴリラ）たちがつむぐ夢と冒険のファンタジー！</div>
+
+
+<HR class=line>
+<BR>
+<BR>
+<div id=com>　</div>
+
+<div id=com><B>■ゴリラTRPG 『ゴリラ ｖｓ メカゴリラ』 リプレイ解説</B>(ゴリラTRPG作者様の紹介文より引用)</div>
+<div id=com>　</div>
+<div id=com>　世界初のゴリラTRPGリプレイとなった作品。</div>
+<div id=com>　ゴリラ同士の恋愛模様、ゴリラと人間の友情、</div>
+<div id=com>　そしてボスとしての在り方……。</div>
+<div id=com>　奥深いテーマを斬新な切り口で描く感動の作品。</div>
+<div id=com>　ゴリラ達を待ち受ける運命とは――その目で確かめていただきたい。</div>
+
+<HR class=line>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=comB>
+
+<B><A href="http://neosino.blog99.fc2.com/blog-entry-814.html" class="red" target="_blank"><FONT size="+1">● ゴリラTRPGリプレイ『ゴリラｖｓメカゴリラ』</FONT>（新ｳｨﾝﾄﾞｳ）</A></B>　<B>読み切り</B></div>
+<div id=com>　　</div>
+<div id=com>　インターネットでフリー公開中の<A href="http://www55.atwiki.jp/gorillatrpg/" target="_blank">『ゴリラTRPG』ルール(新ｳｨﾝﾄﾞｳ)</A> によるセッションのリプレイです。</div>
+<div id=com>　</div>
+<HR class=line>
+-->
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<div id=com></div>
+<H1 class=gradientA><font size=4>今日はここまで！ 読んでくださってありがとうございました</font></H1>
+
+<HR class=line>
+<BR>
+<div id=com>　</div>
+
+<div id=com>　</div>
+<div id=com>　2014/04/01　スペシャルページ公開</div>
+
+
+<HR class=line>
+<P>　</P><BR><BR>
+<div id=com>※このページは2014年のエイプリルフールサイトでした。来て下さった皆さん、ありがとうございました！</div>
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+<!-- jquery & iScroll -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="april_base.css">
+<link rel="stylesheet" href="smartphone_base.css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+
+<title>シルバーセカンド2023年エイプリル　ウディタ15周年コミック『うでぃこんっ！』公開！</title>
+
+<style type="text/css">
+<!--
+/* 初期状態では表示されない */
+#flowmenu{
+	visibility:hidden;
+}
+
+nav .inner{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+A.blue:LINK,A.blue:VISITED{color:#5658f6; text-shadow: 0 0 10px #ccccff, 0 0 10px #aaaaff;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline; text-shadow: 0 0 10px #ccccff, 0 0 10px #aaaaff;}
+
+
+A.glink:LINK,A.glink:VISITED{color:#43a3b5;text-decoration : underline; display: inline-block;text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff;}
+A.glink:HOVER,A.glink:ACTIVE{color : #98d8fe;text-decoration : underline; display: inline-block;text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff;}
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+
+window.addEventListener('DOMContentLoaded', function() {
+ 
+    // 実行したい処理を書く
+    init_mode();
+ 
+})
+
+// ミニメニュー表示チェックボックス判定
+function change_menu(mode){
+	if(mode == null ){
+		if(document.getElementById("phone_menu").checked){ mode = 1;}
+		if(document.getElementById("phone_menu_big").checked){ mode = 2;}
+		if(document.getElementById("pc_menu").checked){ mode = 3;}
+	}
+	// 引数に応じてラジオボタンのチェック状態をセットし直す
+	document.getElementById("phone_menu").checked = false;
+	document.getElementById("phone_menu_big").checked = false;
+	document.getElementById("pc_menu").checked = false;
+	document.getElementById("selectmenu1").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu1").style.backgroundColor = '#DDD';
+	document.getElementById("selectmenu2").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu2").style.backgroundColor = '#DDD';
+	document.getElementById("selectmenu3").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu3").style.backgroundColor = '#DDD';
+	
+	if(mode == 1 ){
+		document.getElementById("phone_menu").checked = true;
+		sid = "selectmenu1";
+	
+	}else if(mode == 2 ){
+		document.getElementById("phone_menu_big").checked = true;
+		sid = "selectmenu2";
+	}else if(mode == 3 ){
+		document.getElementById("pc_menu").checked = true;
+		sid = "selectmenu3";
+	}
+	// 選んだやつだけ色を付ける
+	document.getElementById(sid).style.borderColor = '#AAF #449 #449 #AAF';
+	document.getElementById(sid).style.backgroundColor = '#66F';
+	
+	document.getElementById(sid).style.borderColor = '#FAA #944 #944 #FAA';
+	document.getElementById(sid).style.backgroundColor = '#F66';
+
+
+	PCmenu = document.getElementById("pc_menu");
+	PhoneMenuBig = document.getElementById("phone_menu_big");
+	if(PCmenu != null){
+		if(PCmenu.checked == true){
+			// PCメニュー
+			$('body').css('font-size', '10px');
+			$('body').css('font-size', '0.9em');
+			//$('body').css('margin-left', '14em');
+			//$('body').css('margin-right', '1em');
+			$('table').css('max-width', '640px');
+			$('table').css('margin-left', 'auto');
+			$('table').css('margin-right', 'auto');
+			$('td').css('padding', '0.5em');
+			//document.getElementById("hamburger_menu").style.visibility='hidden';
+			
+			//document.getElementById("hamburger-icon").style.transition='all 0ms 0s ease';
+			//document.getElementById("flowmenu").style.visibility='visible';
+			
+			document.getElementById("smart-menu").style.display='none';
+			/*
+			document.getElementById("smart-menu1").style.visibility='collapse';
+			document.getElementById("smart-menu2").style.visibility='collapse';
+			document.getElementById("smart-menu3").style.visibility='collapse';
+			document.getElementById("smart-menu4").style.visibility='collapse';
+			document.getElementById("smart-menu5").style.visibility='collapse';
+			*/
+			document.getElementById("undermenu").style.visibility='collapse';
+			
+			//document.body.style.margin-left = "180";
+			//document.body.style.backgroundColor = '#FFFFCC';
+			
+			// #mainimageだと1個しか反応しないのでこれで記述
+			$('[id=mainimage]').css('width','auto');
+			$('[id=mainimage2]').css('width','auto');
+			$('[id=mainimage3]').css('width','300');
+		}
+		else
+		{
+		
+			$('[id=mainimage]').css('width','92%');
+			$('[id=mainimage2]').css('width','92%');
+			$('[id=mainimage3]').css('width','55%');
+			//document.getElementById("hamburger_menu").style.visibility='visible';
+			//document.getElementById("hamburger-icon").style.transition='all 300ms 0s ease';
+			//document.getElementById("flowmenu").style.visibility='hidden';
+			$('td').css('padding', '0.2em');
+			
+			
+			document.getElementById("smart-menu").style.display='block';
+			/*
+			document.getElementById("smart-menu1").style.visibility='visible';
+			document.getElementById("smart-menu2").style.visibility='visible';
+			document.getElementById("smart-menu3").style.visibility='visible';
+			document.getElementById("smart-menu4").style.visibility='visible';
+			document.getElementById("smart-menu5").style.visibility='visible';
+			*/
+			document.getElementById("undermenu").style.visibility='visible';
+			
+			
+			if( PhoneMenuBig != null && PhoneMenuBig.checked == true ){
+				// スマートフォンメニュー　大きい文字サイズ
+				$('body').css('font-size', '24px');
+				$('body').css('font-size', '2.4em');
+				$('body').css('margin-left', '0.1em');
+				$('body').css('margin-right', '0.1em');
+				$('table').css('max-width', '95%');
+				$('table').css('margin', '0.1em');
+			}
+			else
+			{
+				// スマートフォンメニュー　通常
+				$('body').css('font-size', '16px');
+				$('body').css('font-size', '1.6em');
+				$('body').css('margin-left', '0.1em');
+				$('body').css('margin-right', '0.1em');
+				$('table').css('max-width', '95%');
+				$('table').css('margin', '0.1em');
+			}
+		}
+	}
+	// スマホ切り替えボタンだけは右寄りに
+	$('#selectmode').css('margin-right','0px');
+	$('#selectmode').css('margin-left','auto');
+}
+
+function init_mode(){
+	/*alert(  window.parent.screen.width );*/ 
+	
+	if( window.parent.screen.width >= 1024 ){
+		// 画面サイズが横1024以上なら「PC版」を初期値にする
+		document.getElementById("pc_menu").checked = true;
+		document.getElementById("phone_menu").checked = false;
+		document.getElementById("phone_menu_big").checked = false;
+	}
+	else
+	{
+		// それ以外ならスマホ版を初期値にする
+		document.getElementById("pc_menu").checked = false;
+		document.getElementById("phone_menu").checked = true;
+		document.getElementById("phone_menu_big").checked = false;
+	
+	}
+	change_menu();
+	
+	
+	
+}
+
+
+// --></script>
+
+
+</head>
+
+
+<body><main role="main"><script><!--★スマートフォン切り替えメニュー★-->
+document.write(`
+<FORM>
+<TABLE cellpadding="3" cellspacing="1" width="100%">
+  <TBODY>
+    <TR>
+      <TD height="50" align="right">
+  
+  <!--見えないようにしているがラジオボタンは内部的に使うので存在自体は必要-->
+  <TABLE cellpadding="0" cellspacing="0" style="display:none;">
+  <TR><TD style="line-height:150%;">
+  <big><big>【表示モード】</big></big><BR>
+　<INPUT type="radio" name="viewmode" value="phone" id="phone_menu" checked onclick="change_menu(1)">スマートフォン用（通常）　<INPUT type="radio" name="viewmode" value="phone" id="phone_menu_big" onclick="change_menu(2)">(大)<BR>　<INPUT type="radio" name="viewmode" value="pc" id="pc_menu" onclick="change_menu(3)">パソコン用
+  </TD></TR></TABLE>
+
+  <!--ボタン部分-->
+  <TABLE id="selectmode" cellpadding="0" cellspacing="0" style="margin-right:0px;">
+<TR><TD align="right">
+
+<TABLE style="float: left;"><TR><TD>
+<a href="../../" class="blue">ホームに戻る</a>＞2023年エイプリルページ　
+</TD></TR></TABLE>
+<!--右寄せ-->
+<TABLE><TR>
+<TD align="right" nowrap><font style="color:#BAA;text-shadow: 0 0 4px #EEE,0 0 4px #EEE, 0 0 4px #EEE, 0 0 4px #EEE; "><B>表示モード</B><BR><SMALL><SMALL>(切替に時間が<BR>かかります)</SMALL></SMALL></font></TD>
+<TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu1" name="selectm1" href="javascript:change_menu(1);"><BR><SMALL><SMALL><B>スマート<BR>フォン(中)</B></SMALL></SMALL></a>
+</TD><TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu2" name="selectm2" href="javascript:change_menu(2);"><BR><SMALL><SMALL><B>スマート<BR>フォン(大)</B></SMALL></SMALL></a>
+</TD><TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu3" name="selectm3" href="javascript:change_menu(3);"><BR><BR><SMALL><SMALL><B>パソコン</B></SMALL></SMALL></a>
+</TD>
+</TR></TABLE>
+</TD></TR></TABLE>
+  
+  </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</FORM>
+<BR>
+`)
+</script>
+
+
+
+<a name="top"></a>
+
+<table class="gradientA" cellpadding="3" cellspacing="1" width="100%" style="min-height:6em;">
+  <TBODY>
+    <TR>
+      <td colspan="1" align="center" style="vertical-align:middle;">
+<span style=" text-shadow: 0 0 7px #AAAABB, 0 0 7px #AAAABB; line-height:200%;"><FONT class="fw" style="font-size : 200%;">&nbsp;<small><small><B>WOLF RPGエディター15周年記念作品<br>
+      コミック『うでぃこんっ！　君と私のゲーム開発ライフ』公開！</B></small></small></FONT></span></td>
+    </TR>
+  </TBODY>
+</table>
+<CENTER></CENTER>
+<BR>
+　
+<center>まずは紹介映像をどうぞ！<br>
+<BR>
+<iframe width="560" height="405" src="https://www.youtube.com/embed/ttzmsitjQZM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<BR>
+<HR>
+<BR>
+<BR>
+<a name="1"></a>
+<table border="0" width="100%" class="title" style="min-height:4em;">
+  <TBODY>
+    <TR>
+      <td class="gradientB" cellpadding="2" cellspacing="1" width="30" align="center"><FONT class="fw"><B><BIG><BIG>　『うでぃこんっ！』とは？</BIG></BIG></B></FONT></td>
+    </TR>
+  </TBODY>
+</table>
+<BR>
+それはゲーム開発部の2人の女子高校生たちの物語！<br>
+<br>
+<main role="main"><br>
+<br>
+ゲーム開発部に入った新入生の「ラーシア（愛称ラッシー）」は、<br>
+2年生の先輩である「古海（うるみ）ユウコ」と出会い、ウディコン参加を目指します。<br>
+</main><br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/koma1_mini.jpg" border="1">
+<br>
+<br>
+<br>
+<br>
+<br>
+幼い頃、ユウコはウディコンのゲームに触れて、<br>
+市販のゲームでは味わえないその個性に感動したと言います。<br>
+<br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/koma2_mini.jpg" border="1">
+<br>
+<br>
+<br>
+<main role="main"><main role="main"><br>
+<br>
+ウディコンへの憧れが強いユウコ。<br>
+コンテストでの勝ち目はないと思いながらも、挑戦心はおさえられませんでした。<br>
+</main></main><br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/koma3_mini.jpg" border="1">
+<br>
+<br>
+<br>
+<br>
+<main role="main"><br>
+ある程度のゲーム開発経験があったラーシアは、<br>
+実はゲーム開発の初心者だったユウコと共に、<br>
+来年の2024年のウディコンへ挑みます。<br>
+</main><br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/koma4_mini.jpg" border="1">
+<br>
+<br>
+<br>
+でも学業と並行しながらのゲーム開発は大変！<BR>
+500日のちょっぴり過酷な物語が、幕を開けようとしています……。<br>
+<br>
+<br>
+<hr>
+<br>
+</center>
+<b>
+<center>こうして始まる、ゲーム開発の物語、<br>
+<br>
+<span style="font-size : 150%;">『うでぃこんっ！　君と私のゲーム開発ライフ』</span>は<br>
+<br>
+Wan Comicsで配信中！<br>
+<br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/QR.png" border="1" style="width : 70px;height : 70px;">
+<br><br>
+<br>
+<img src="https://silversecond.net/contents/library/event/2023_april/image/title_mini.jpg" border="1">
+
+<br>
+<br>
+<BR>
+<CENTER>　　<BR>
+</CENTER>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+※このページは2023年<span style="font-size : 120%;
+	color : #ff0000;
+">4月1日</span>に公開されたものです<br>
+<br>
+<BR>
+<BR>
+<P><br>
+<br>
+<br>
+<BR>
+<BR>
+<BR>
+<BR>
+<br>
+<br><a href="../../" class="blue">ホームに戻る</a>
+<br>
+<br>
+<br>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+</center>
+</b></main>
+  
+</body>
+
+</html>

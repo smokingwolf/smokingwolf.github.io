@@ -1,0 +1,240 @@
+.gray{background:#535375;}
+.ggray{background:#333355;}
+.bgray{background:#8888aa;}
+.white{background:#ffffff;}
+.whitesmall{background:#fafaff; font-size : 8pt;margin: 0px 0px 0px 0px;padding: 2px 1px 1px 2px;}
+.whitered{background:#ffdada;}
+.whiteblue{background:#ddeeff;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#b2cccc;}
+.fr{color:#4343bb;}
+.fb{color:#bb4343;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+
+body{
+	background-color : #fbfefc;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+	width:630px;
+	line-height: 110%;
+	color : #434355;
+	margin-left:140px;
+	font-size:14px;
+	-webkit-text-size-adjust: 100%;
+}
+
+html , body {}
+
+body{
+background-image: url("./image_newkatamichi/BG_border_left.png");
+background-repeat: repeat-y;
+background-attachment: fixed;
+}
+
+
+A:LINK,A:VISITED{color:#43a3b5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #98d8fe;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#4444ff;text-decoration : underline;}
+A.red:HOVER,A.red:ACTIVE{color : #9999ff;text-decoration : underline;}
+
+
+A.real_red:LINK,A.real_red:VISITED{color:#ff4444;text-decoration : underline;}
+A.real_red:HOVER,A.real_red:ACTIVE{color : #ff9999;text-decoration : underline;}
+
+
+/* 名前欄用のカラー */
+.c-1{color:#000000;font-size:0.92em;}
+.c0{color:#333386;font-size:0.92em;} /*GM*/
+.c1{color:#c08060;font-size:0.92em;} /*ロリア*/
+.c2{color:#b85058;font-size:0.92em;} /*クスクル*/
+.c3{color:#228038;font-size:0.92em;} /*マリー*/
+.c4{color:#8080c0; font-size:0.84em;} /*ワイズマン*/
+.c5{color:#808090;font-size:0.92em;} /*一同*/
+.c6{color:#228038;font-size:0.92em;} /*マーシュ*/
+.cxx{color:#6069b0;font-size:0.92em;} /*青*/
+
+.c7{color:#333366;font-size:0.92em;} /*スペース2つ*/
+.c8{color:#333366;font-size:0.92em;} /*一同*/
+.c9{color:#333366;font-size:0.92em;} /*　*/
+
+/* テキスト用のカラー(少し濃い) */
+
+.ct0{color:#333366;} /*GM*/
+.ct1{color:#705020;} /*ロリア*/
+.ct2{color:#7a3038;} /*クスクル*/
+.ct3{color:#427048;} /*マリー*/
+.ct4{color:#6060a0;} /*ワイズマン*/
+.ct5{color:#606080;} /*一同*/
+.ct6{color:#427048;} /*マーシュ*/
+
+.ct7{color:#404980;} /*青*/
+
+
+.ctx1{color:#62401c;} /**/
+.ctx5{color:#505060;} /**/
+.ctx6{color:#426058;} /**/
+
+.ctx5{color:#333366;} /*スペース2つ*/
+.ctx6{color:#333366;} /*スペース2つ*/
+.ctx7{color:#333366;} /*スペース2つ*/
+.ctx8{color:#333366;} /*一同*/
+.ctx9{color:#333366;} /**/
+.close{
+  line-height: 9px;
+}
+
+small.close{
+  line-height: 8px;
+}
+
+.box{
+  font-size : 1em;
+margin:7px; padding:5px; border:1px solid #648599;
+background-color:#ffffff;
+position: relative;left: 90px;top: 0px;
+width: 560px;
+color:#546079;
+}
+
+div#def2{position: relative;left: 55px;top: 0px;text-align:left; width:630px;}
+
+/* 基本テキストはnmとtx */
+div#nm{text-align:right;   position: relative;left: 15px;top: 0px; width:90px;}
+div#tx{position: relative;left: 135px;top: -1.1em;;text-align:left; width:550px;} /* 基本セリフ用 */
+
+/* 基本テキストはnmとtx */
+div.nm{text-align:right;   position: relative;left: 15px;top: 0px; width:90px;}
+div.tx{position: relative;left: 135px;top: -1.1em;;text-align:left; width:550px;} /* 基本セリフ用 */
+
+
+div#com{text-align:left; width:560px;color:#505070;position: relative;left: 90px;top: -1px;padding-bottom:0px;}
+
+div#com_hira{text-align:left; width:570px;color:#505070;position: relative;left: 90px;top: 0px; top: -6px;}
+
+
+div#com2{text-align:left; width:680px;color:#50aa50;position: relative;left: 40px;top: 0px;font-weight: bold;margin: 5px 5px 5px 15px;}
+font#CC1{color:#aa5050;font-weight: bold;position: relative;left: 35px; top: -6px;} /*赤*/
+font#CC2{color:#497660;font-weight: bold;position: relative;left: -15px;top: -6px;} /*見出し*/
+font#CCBIG{color:#aa5050;font-weight: bold;position: relative;left: -15px;top: -4px; font-size:1.4em;margin:10px;} /*見出し*/
+font#CC25{color:#508a50;position: relative;left: -15px;} /*見出し*/
+
+div#titleimg{ position: relative;width:680px;left: 60px; }
+
+.dc{color:#cc3333;} /*判定結果*/
+
+
+TBODY#main{ position: relative;left: 80px;top: 0px;}
+
+.cc{color:#9999aa;} /*ツッコミ文*/
+
+B#dfun{color:#992222;} /*ﾌｧﾝﾌﾞﾙ*/
+B#dsuc{color:#7777ff;} /*成功*/
+B#dmis{color:#aa5555;} /*失敗*/
+B#dcri{color:#6444ff;} /*ｸﾘﾃｨｶﾙ*/
+
+
+B#dhp{color:#aa7777;font-weight: bold;} /* HP */
+B#dmp{color:#9999cc;font-weight: bold;} /* MP */
+B#ddmg{color:#cc6666;font-weight: bold;} /* DMG */
+B#dhealhp{color:#22aa55;font-weight: bold;} /* HEAL HP */
+B#ddmghp{color:#aa3333;font-weight: bold;} /* DMG HP */
+B#dhealmp{color:#5555ff;font-weight: bold;} /* HEAL MP */
+B#ddmgmp{color:#bb7777;font-weight: bold;} /* DMG MP */
+
+
+font#dsuc{color:#7777ff;} /*成功*/
+font#dmis{color:#aa5555;} /*失敗*/
+
+TABLE{
+  font-size : 1em;
+  color : #434355;
+}
+
+TD{
+  font-size : 1em;
+}
+
+
+DL.whatnew{
+	height:180px;
+	width:690px;
+	padding:4px;
+	overflow: auto;
+	margin-bottom: 0px;
+	border:1px #ddddff solid;
+}
+
+
+div#flowmenu{
+    position: fixed; top:15px; left:7px;
+}
+H1{
+  font-size : 1.3em;
+	font-weight: bold; position: relative;left: 45px;
+	width: 600px; height: 22px;
+	padding: 10px 10px 5px 20px;
+}
+
+H2{
+  font-size : 1.2em;
+	font-weight: bold; position: relative;left: 65px;
+	width: 580px; height: 14px;
+	padding: 7px 10px 7px 20px;
+}
+
+.gradientTITLE{ 
+  background-color: #448899; 
+  background: -moz-linear-gradient(left top, #113344, #6486b9);
+  background: -webkit-gradient(linear, left top, right bottom, from(#113344), to(#6486b9));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF113344', endColorstr='#FF6486b9');
+	color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+} 
+
+.gradientA{ 
+  background-color: #64c8b9; 
+  background: -moz-linear-gradient(left top, #216364, #64a6b9);
+  background: -webkit-gradient(linear, left top, right bottom, from(#216364), to(#64a6b9));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF216364', endColorstr='#FF64a6b9');
+  
+color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+
+.gradientAmini{ 
+  background-color: #94d8a9; 
+  background: -moz-linear-gradient(left top, #41a3a4, #c4f6f9);
+  background: -webkit-gradient(linear, left top, right bottom, from(#41a3a4), to(#c4f6f9));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF41a3a4', endColorstr='#FFc4f6f9');
+  
+color:#eefff0;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+
+
+hr.line { /* 線 */
+    border: 0;
+    width:700px;
+    max-width:100%;
+    height: 1px;
+    position: absolute;
+    left: 150px;
+    background: #363;
+    background-image: -webkit-linear-gradient(left, #cfc, #363, #cfc);
+    background-image:    -moz-linear-gradient(left, #cfc, #363, #cfc);
+    background-image:     -ms-linear-gradient(left, #cfc, #363, #cfc);
+    background-image:      -o-linear-gradient(left, #cfc, #363, #cfc);
+}

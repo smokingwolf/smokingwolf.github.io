@@ -1,0 +1,201 @@
+
+.gray{background:#535375;}
+.ggray{background:#333355;}
+.bgray{background:#8888aa;}
+.white{background:#fafaff;}
+.whiteblue{background:#dadaff;}
+.whitered{background:#ffdddd;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#d2d2dd;}
+.fr{color:#bb4343;}
+.fb{color:#4343bb;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+
+body{
+background-color : #f8f8fc;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+ /* font-size : 10pt;*/
+ font-size:10px;
+  line-height: 110%;
+  color : #434355;
+  width:630px;
+  margin-left:110px;
+}
+
+
+html , body {}
+
+body{
+	background-image: url("image/BG_border_left.png");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+
+
+A:LINK,A:VISITED{color:#4343c5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#4343c5;text-decoration : underline;}
+A.red:HOVER,A.red:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+A.g:LINK,A.g:VISITED{color:#43a543;text-decoration : underline;}
+A.g:HOVER,A.g:ACTIVE{color : #98ae98;text-decoration : underline;}
+
+/* 名前欄用のカラー */
+.c-1{color:#000000;0.71em;}
+.c0{color:#333366;0.71em;} /*GM*/
+.c1{color:#92605c;0.71em;} /*ロイス*/
+.c2{color:#c0a060;0.71em;} /*ヴァン*/
+.c3{color:#aa5058;0.71em;} /*アレイラ*/
+.c4{color:#6069b0;0.71em;} /*ハムイ*/
+.c5{color:#808090;0.71em;} /*ンク*/
+.c6{color:#228038;0.71em;} /*サントリナ*/
+.c7{color:#333366;} /*スペース2つ*/
+.c8{color:#333366;0.71em;} /*一同*/
+.c9{color:#333366;0.71em;} /*クー*/
+
+/* テキスト用のカラー(少し濃い) */
+.ct0{color:#434366;} /*GM*/
+.ct1{color:#62401c;} /*ロイス*/
+.ct2{color:#705010;} /*ヴァン*/
+.ct3{color:#7a4048;} /*アレイラ*/
+.ct4{color:#404980;} /*ハムイ*/
+.ct5{color:#505060;} /*ンク*/
+.ct6{color:#426058;} /*サントリナ*/
+.ct7{color:#333366;} /*スペース2つ*/
+.ct8{color:#333366;} /*一同*/
+.ct9{color:#333366;} /*クー*/
+.close{
+  line-height: 9pt;
+}
+
+small.close{
+  line-height: 8pt;
+}
+
+B#cc{color:#aaaabb;} /*ツッコミ文*/
+
+B#dfun{color:#992222;} /*ﾌｧﾝﾌﾞﾙ*/
+B#dsuc{color:#7777ff;} /*成功*/
+B#dmis{color:#aa5555;} /*失敗*/
+B#dcri{color:#6444ff;} /*ｸﾘﾃｨｶﾙ*/
+
+
+B#dhp{color:#aa7777;font-weight: bold;} /* HP */
+B#dmp{color:#9999cc;font-weight: bold;} /* MP */
+B#ddmg{color:#cc6666;font-weight: bold;} /* DMG */
+B#dhealhp{color:#22aa55;font-weight: bold;} /* HEAL HP */
+B#ddmghp{color:#aa3333;font-weight: bold;} /* DMG HP */
+B#dhealmp{color:#5555ff;font-weight: bold;} /* HEAL MP */
+B#ddmgmp{color:#bb7777;font-weight: bold;} /* DMG MP */
+
+
+font#dsuc{color:#7777ff;} /*成功*/
+font#dmis{color:#aa5555;} /*失敗*/
+
+
+
+div#def2{position: relative;left: 55px;top: 0px;text-align:left; width:600px;}
+div#nm{text-align:right; width:150px;  position: relative;left: 0px;top: 0px;}
+div#tx{position: relative;left: 165px;top: -15px;text-align:left; width:500px;} /* 基本セリフ用 */
+div#com{text-align:left; width:600px;color:#505070;position: relative;left: 90px;top: 0px;}
+div#com2{text-align:left; width:540px;color:#5050aa;position: relative;left: 40px;top: 0px;font-weight: bold;margin: 5px 5px 5px 15px;}
+
+
+@media screen and (max-width: 700px) {
+
+}
+
+
+
+
+font#CC1{color:#aa5050;font-weight: bold;position: relative;left: 35px;} /*赤*/
+font#CC2{color:#5050aa;font-weight: bold;position: relative;left: -15px;top: -4px;} /*見出し*/
+font#CCBIG{color:#5050aa;font-weight: bold;position: relative;left: -15px;top: -4px; font-size:1.4em;margin:10px;} /*見出し*/
+font#CC25{color:#5050aa;position: relative;left: -15px;} /*見出し*/
+
+div#titleimg{ position: relative;left: 60px;top: 0px;}
+
+.dc{color:#cc3333;} /*判定結果*/
+
+
+TBODY#main{ position: relative;left: 80px;top: 0px;}
+
+
+TABLE{
+  color : #434355;
+}
+
+
+DL.whatnew{
+	height:180px;
+	width:580px;
+	padding:4px;
+	overflow: auto;
+	margin-bottom: 0px;
+	border:1px #8888aa solid;
+}
+
+.box{
+margin:7px; padding:5px; border:1px solid #4444ff;
+background-color:#fafaff;
+position: relative;left: 50px;top: 0px;
+width: 600px;
+color:#5050aa;
+}
+
+
+
+hr.line { /* 線 */
+    border: 0;
+    text-align:left;
+    height: 1px;
+    left: 100px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #ccf, #336, #ccf);
+    background-image:    -moz-linear-gradient(left, #ccf, #336, #ccf);
+    background-image:     -ms-linear-gradient(left, #ccf, #336, #ccf);
+    background-image:      -o-linear-gradient(left, #ccf, #336, #ccf);
+}
+
+div#flowmenu{
+    position: fixed; top:15px; left:7px;
+}
+H1{
+  font-size : 1.3em;
+	font-weight: bold; position: relative;left: 45px;
+	width: 600px; height: 22px;
+	padding: 10px 10px 5px 20px;
+}
+
+.gradientTITLE{ 
+  background-color: #aa8888; 
+  background: -moz-linear-gradient(left top, #995555, #aa8888);
+  background: -webkit-gradient(linear, left top, right bottom, from(#995555), to(#aa8888));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF995555', endColorstr='#FFaa8888');
+  background: linear-gradient(to right, #955, #A88);
+	color:#ffffff;
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+} 
+
+.gradientA{ 
+  background-color: #8888aa; 
+  background: -moz-linear-gradient(left top, #555599, #8888aa);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#8888aa));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF8888aa');
+  background: linear-gradient(to right, #559, #88A);
+color:#ffffff;  
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+} 
+

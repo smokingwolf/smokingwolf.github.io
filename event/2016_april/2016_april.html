@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+
+<title>『片道勇者TRPG』冒険企画局版 発売！ - SilverSecond</title>
+    <style type="text/css">
+    <!--
+.gray{background:#535375;}
+.ggray{background:#333355;}
+.bgray{background:#8888aa;}
+.white{background:#fafaff;}
+.whiteblue{background:#dadaff;}
+.whitered{background:#ffdddd;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#b2b2bd;}
+.fr{color:#bb4343;}
+.fb{color:#4343bb;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+
+
+
+body{
+background-color : #fafaff;
+font-family : "ＭＳ Ｐゴシック" ;
+  font-size : 10pt;
+  line-height: 110%;
+  color : #354050;
+  margin: 0px 0px 0px 100px;
+}
+
+td{
+  line-height: 120%;
+
+}
+
+a img:hover{
+  opacity:0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)"; 
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7; 
+  zoom:1;
+}
+
+A:LINK,A:VISITED{color:#4343c5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#c54343;text-decoration : underline;}
+A.red:HOVER,A.red:ACTIVE{color : #ce9898;text-decoration : underline;}
+
+.iris_td{color:#228038;}
+
+/* 名前欄用のカラー */
+.c-1{color:#000000;}
+.c0{color:#333366;} /*GM*/
+.c1{color:#92605c;} /*ロイス*/
+.c2{color:#c0a060;} /*ヴァン*/
+.c3{color:#aa5058;} /*アレイラ*/
+.c4{color:#6069b0;} /*ハムイ*/
+.c5{color:#808090;} /*ンク*/
+.c6{color:#228038;} /*サントリナ*/
+.c7{color:#333366;} /*スペース2つ*/
+.c8{color:#333366;} /*一同*/
+.c9{color:#333366;} /*クー*/
+
+/* テキスト用のカラー(少し濃い) */
+.ct0{color:#434366;} /*GM*/
+.ct1{color:#62401c;} /*ロイス*/
+.ct2{color:#705010;} /*ヴァン*/
+.ct3{color:#7a4048;} /*アレイラ*/
+.ct4{color:#404980;} /*ハムイ*/
+.ct5{color:#505060;} /*ンク*/
+.ct6{color:#426058;} /*サントリナ*/
+.ct7{color:#333366;} /*スペース2つ*/
+.ct8{color:#333366;} /*一同*/
+.ct9{color:#333366;} /*クー*/
+.close{
+  line-height: 9pt;
+}
+
+small.close{
+  line-height: 8pt;
+}
+
+div#def2{position: relative;left: 55px;top: 0px;text-align:left; width:620px;}
+div#nm{text-align:right; width:150px;  position: relative;left: 0px;top: 0px;}
+div#tx{position: relative;left: 165px;top: -15px;text-align:left; width:540px;} /* 基本セリフ用 */
+div#com{text-align:left; width:580px;color:#506065;position: relative;left: 60px;top: 0px;}
+div#comB{text-align:left; width:580px;color:#506065;position: relative;left: 90px;top: 0px;height:30px;  line-height: 28pt;}
+div#com2{text-align:left; width:620px;color:#5050aa;position: relative;left: 40px;top: 0px;font-weight: bold;margin: 5px 5px 5px 15px;}
+font#CC1{color:#aa5050;font-weight: bold;position: relative;left: 35px;} /*赤*/
+font#CC2{color:#7780A0;font-weight: bold;position: relative;left: -15px;top: -4px;} /*見出し*/
+font#CCBIG{color:#5050aa;font-weight: bold;position: relative;left: -15px;top: -4px; font-size:14pt;margin:10px;} /*見出し*/
+font#CC25{color:#5050aa;position: relative;left: -15px;} /*見出し*/
+
+div#titleimg{ position: relative;left: 60px;top: 0px;}
+
+.dc{color:#cc3333;} /*判定結果*/
+
+
+TBODY#main{ position: relative;left: 80px;top: 0px;}
+
+B#cc{color:#aaaabb;} /*ツッコミ文*/
+
+B#dfun{color:#992222;} /*ﾌｧﾝﾌﾞﾙ*/
+B#dsuc{color:#7777ff;} /*成功*/
+B#dmis{color:#aa5555;} /*失敗*/
+B#dcri{color:#6444ff;} /*ｸﾘﾃｨｶﾙ*/
+
+
+B#dhp{color:#aa7777;font-weight: bold;} /* HP */
+B#dmp{color:#9999cc;font-weight: bold;} /* MP */
+B#ddmg{color:#cc6666;font-weight: bold;} /* DMG */
+B#dhealhp{color:#22aa55;font-weight: bold;} /* HEAL HP */
+B#ddmghp{color:#aa3333;font-weight: bold;} /* DMG HP */
+B#dhealmp{color:#5555ff;font-weight: bold;} /* HEAL MP */
+B#ddmgmp{color:#bb7777;font-weight: bold;} /* DMG MP */
+
+
+font#dsuc{color:#7777ff;} /*成功*/
+font#dmis{color:#aa5555;} /*失敗*/
+
+TABLE{
+  font-size : 10pt;
+  color : #434355;
+}
+
+.diary_table{
+	line-height: 120%;
+}
+
+DL.whatnew{
+	height:80px;
+	width:620px;
+	padding:4px;
+	overflow: auto;
+	margin-bottom: 0px;
+	border:1px #ddddff solid;
+}
+
+.box{
+margin:7px; padding:5px; border:1px solid #4444ff;
+background-color:#fafaff;
+position: relative;left: 90px;top: 0px;
+width: 600px;
+color:#5050aa;
+}
+
+div#flowmenu{
+    position: fixed; top:15px; left:3px;
+}
+H1{
+  font-size : 21pt;
+	font-weight: bold; position: relative;left: 45px;
+	width: 600px; height: 22px;
+	padding: 10px 10px 5px 20px;
+}
+
+.gradientTITLE{ 
+  background-color: #6688FF; 
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr=#DD4455AA, EndColorStr=#FF6688FF);
+  background: -moz-linear-gradient(left top, #4455AA, #6688FF);
+  background: -webkit-gradient(linear, left top, right bottom, from(#4455AA), to(#6688FF));
+  background: linear-gradient(to right, #45A, #68F);
+	color:#ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 75px;
+font-size: 27px;
+line-height: 30px;
+padding:3px 10px 0px 10px ;
+} 
+
+
+.diary_table{
+  background-color: #6688FF; 
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr=#DD4455AA, EndColorStr=#FF6688FF);
+  background: -moz-linear-gradient(left top, #4455AA, #6688FF);
+  background: -webkit-gradient(linear, left top, right bottom, from(#4455AA), to(#6688FF));
+  background: linear-gradient(to right, #45A, #68F);
+	color:#ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+padding:3px;
+}
+
+
+.gradientA{ 
+  background-color: #8888CC; 
+  background: -moz-linear-gradient(left top, #555599, #8888CC);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#8888CC));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF8888CC');
+  background: linear-gradient(to right, #559, #88C);
+color:#ffffff;
+font-size: 25px;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+padding:23px 10px 10px 20px ;
+} 
+
+html , body {height:100%;}
+body{
+background-image: url("index_April_BG_border.png");
+background-repeat: repeat-y;
+background-attachment: fixed;
+}
+
+hr.line { /* 線 */
+    border: 0;
+    width: 620px;
+    height: 1px;
+    position: absolute;
+    left: 180px;
+    margin:20px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:    -moz-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:     -ms-linear-gradient(left, #ccf, #446, #ccf);
+    background-image:      -o-linear-gradient(left, #ccf, #446, #ccf);
+}
+
+
+DL.TWIT{
+	width:580px;
+	height:390px;
+	padding:3px;
+	overflow: auto;
+	margin-bottom: 5px;
+	border:1px #aaaadd dashed;
+  SCROLLBAR-FACE-COLOR:#a3a3b5;
+  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
+  SCROLLBAR-SHADOW-COLOR: #fafaff;
+
+  SCROLLBAR-3DLIGHT-COLOR:#535365;
+  SCROLLBAR-ARROW-COLOR: #535365;
+
+  SCROLLBAR-TRACK-COLOR: #838395;
+
+  SCROLLBAR-DARKSHADOW-COLOR: #535365;
+}
+
+
+.boxMain{
+width: 530px;
+   border:1px solid #ccccff;
+   background-color : #fcfcff;
+   margin:5px;
+   padding:2px;
+   color: #555566;
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+
+}
+
+.boxA{
+position: relative;
+left: 9px;top: 4px;
+   padding:6px;
+}
+
+.date_f{
+   color: #CCCCDD;
+}
+
+.imgradius{
+	-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+
+
+A.glink:LINK,A.glink:VISITED{color:#6c9;}
+A.glink:HOVER,A.glink:ACTIVE{color : #afffaf;text-decoration : underline;}
+
+-->
+</style>
+
+<script src="./smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+</head>
+<BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+
+
+<div id="flowmenu">
+<A href="../../"><B>← ホームに戻る</B></A><BR>
+<BR>
+<!--●● カウンター ●●-->
+<IMG src="https://silversecond.net/cgi-bin/CNT_main.cgi?index" height="1" width="1">
+<!--●● カウンターここまで ●●-->
+
+
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap><B><FONT size="-2">&nbsp;シルバーセカンド</FONT><BR>
+      <B><FONT size="-2">&nbsp;2016/4/1緊急発表</FONT></B><BR>
+      <BR>
+      ◆<B><A href="#T1" class="glink">緊急ニュース！</A></B><BR>
+      ◆<B><A href="#T2" class="glink">詳しいお話</A></B><BR>
+      <!--◆<B><A href="#T3" class="glink">TRPGﾘﾌﾟﾚｲ集</A></B><BR>-->
+      <HR>
+      
+      <FONT size="-2">&nbsp;2016/6/18追記</FONT><BR>
+      　<BR>
+      ◆<A href="#T0" class="glink">片道勇者TRPG<BR>
+      　 ついに発売！</A><BR><small>　→ ｼｽﾃﾑ紹介も！</small><BR>
+      <BR>
+      </B>
+      ※↑ページ内ﾘﾝｸ</tr></TABLE>
+<BR>
+
+
+<BR>
+<BR>
+</div>
+<TABLE>
+  <TBODY>
+    <TR></TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<a id="T1"></a>
+<BR>
+<H1 class=gradientTITLE><font size=2>　シルバーセカンド緊急ニュース！ 　2016/4/1</font><BR>
+　あの <B>『片道勇者』 に新展開！？</B><font size=2>　</font>　</H1>
+<div id=com>　</div>
+<div id=com><IMG src="201604April_top.jpg" border="1" width="550" height="1247"></div>
+<div id=com></div>
+
+<a id="T2">　</a>
+<H1 class=gradientTITLE><font size=2>　詳しいお話</font><BR>
+&nbsp;<B>冒険企画局さんの手で『片道勇者』TRPG化決定 !</B></H1>
+<div id=com><BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      『片道勇者』の旅のアドバイザー、妖精イーリスでーす！<BR>
+      <BR>
+      さて、<B><A href="../2015_april/2015_april.shtml" target="_blank" class="blue">去年と同じ展開</A></B>のエイプリルフールマンガで始まった今年の4/1！<BR>
+      <B><A href="https://silversecond.net/contents/game/katamichi_brave/" class="blue">強制横スクロールRPG 『片道勇者』</A></B> が <B>商業TRPG化</B> ってことだけど、<BR>
+      これって本当？　　　<FONT size="-2">※TRPG＝テーブルトークRPG</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>（SmokingWOLF）：<BR>
+      イエス！　<BR>
+      ウソみたいなニュースですが去年に引き続いて全くウソなしです！<BR>
+<BR>
+      「片道勇者の商業TRPG化なんてうっそだー」とお思いのあなた、<BR>
+      実際の発表に使われたスライドをもらってきましたのでご覧ください！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<font class=fmg>※強制横スクロールRPG 『片道勇者』 をご存じない方は、先に <B><A href="https://www.youtube.com/watch?v=ztQ-DIW0UbU" target="_blank" class="red">こちらの紹介動画(Youtube)</A></B> がおすすめです！<BR></font><BR>
+<BR>
+　<BR>
+　　　　<IMG src="201604April_01.jpg" border="1" width="528" height="395">
+</div>
+<div id=com>　　　　<B>※最終的には2016/6/18発売、税抜1600円になりました！</B><BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      わー、右のは<B>ネムリ</B>だよね？　TRPG版のネムリはかわいいねー。<BR>
+      描いてくれているイラストレーターさんは『<B>モタ</B>』さんだって！<BR>
+      <BR>
+      そういえば「<B>TRPGって何？</B>」っていう人も多い気がするんだけど、<BR>
+      TRPGってどんなゲーム？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      えー、『TRPG』は簡単にいうと『<B>ルール付きのごっこ遊び</B>』です。<BR>
+      プレイヤー数人とGM（ゲームマスター）が集まって、GMから与えられた課題を<BR>
+      こなすために各プレイヤーがキャラクターの役割をこなすゲームです。<BR>
+      <BR>
+      で、ある行動がうまくいったかどうかを<B>サイコロ</B>で決めることが多くて、<BR>
+      その出目を見て「ワーキャー！」するのが楽しいゲームでもありますね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      『片道勇者TRPG』はTRPG初心者の人もターゲットにしてるらしいから、<BR>
+      これの発売でTRPGを遊ぶ人が増えるといいね！<BR>
+      <BR>
+      で、ゲームをデザインしてくれているのは<B>冒険企画局</B>の<BR>
+      『<B>齋藤高吉</B>』さんってクリエイターさん！　こんな人なんだって！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR>
+　　　　<IMG src="201604April_02.jpg" border="1" width="526" height="393"><BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      えーと、<B>アウトレイジ</B>って「<B><FONT size="+1">憤怒</FONT></B>」とか「<B><FONT size="+1">暴力</FONT></B>」って意味だっけ……。<BR>
+      「<B>殺伐としたゲームを得意とする</B>」って書かれてるんだけど大丈夫なのこれ。<BR>
+      <BR>
+      ここに並んでる代表作ってどんなゲーム？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      10年以上前の作品ですが、一番左の「<B>スカベンジャーRPG　墜落世界</B>」は<BR>
+      <B><A href="http://dic.nicovideo.jp/a/%E5%A2%9C%E8%90%BD%E4%B8%96%E7%95%8C" target="_blank" class=red>ニコニコ大百科の記事</A></B> によるとランダム要素がかなり強いゲームみたいで、<BR>
+      <BR>
+      「<B><FONT size="+1">キャラを作るのにかかった時間よりも<BR>
+      　死ぬまでの時間の方が短かったぜ！</FONT></B>」<BR>
+      <BR>
+      ということが往々にして起きたりするって書いてありました。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ブーッ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      噂ではランダム要素が強いハードコアなゲームを好んで作られる方らしくて、<BR>
+      齋藤先生が担当してくださると決まってその評判を知ったときは、<BR>
+      <BR>
+      <B><FONT size="+1">「やった！　『片道勇者TRPG』にはこの人しかいない！<BR>
+      　最高の人材が来たッ！」</FONT></B><BR>
+      <BR>
+      と思いました。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ドＳとドMの出会いみたいになってる……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      いやー、死なないゲームにも飽きてきているもので！<BR>
+      <BR>
+      同氏の『<B>リアリティーショーRPG　キルデスビジネス</B>』も<BR>
+      先日お試しで遊ばせていただいたんですが、<BR>
+      こちらも色々あってなぜか私が<B>女子校生（<FONT color="#ff0000">36歳・男性</FONT>）</B>やって<BR>
+      おじいちゃんに痴漢されたり、気軽に死ねたりして面白かったです！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      そ、そう……。<BR>
+      <BR>
+      えー、とりあえず次は『片道勇者TRPG』の特徴を紹介するスライドね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+　　　　<IMG src="201604April_03.jpg" border="1" width="525" height="395"><BR>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      えーと、「<B>オンラインセッション</B>」ってチャットとか使ってTRPGを遊ぶことだよね。<BR>
+      2～3時間って手軽な方？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      かなり手軽ですね。普通のガッツリしたTRPGをオンラインセッションで遊ぶと、<BR>
+      1話分のつもりが <B>真昼に始めて夜中に終わったりする</B> こともあるんで。<BR>
+      <BR>
+      <B><A href="../../trpg/katamichi_trpg/Replay00.shtml">&lt;自家製版&gt;片道勇者TRPGリプレイ</A></B>でも結構そんなことがありました。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      うわあ、大変だったんだね……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      こちらの『片道勇者TRPG』は、キャラクター作成が本当に10分でできますし、<BR>
+      GMさん側もクエストとランダムイベントの組み合わせでパパッと準備できるので<BR>
+      みんなの負担がとても軽そうなのがすばらしい！<BR>
+      <BR>
+      だいたいの場合、GMは準備が大変でやりたがらない人も多いんですが、<BR>
+      これなら持ち回りでもGMができそうな気がしています。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+　　　　<IMG src="201604April_04.jpg" border="1" width="530" height="397"><BR>
+</div>
+<div id=com><BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      「<B>死んでも終わりじゃない！</B>」って……<BR>
+      やっぱりよく死ぬっぽいニュアンスなんだけど？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ファンタジーでキャラがバリバリ死ぬタイプのTRPGって<BR>
+      最近ものすごく少ない気がするので貴重ですよ、これは！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      そういう問題ー！？<BR>
+      <BR>
+      まあ物語的にはループものだから死んでも後で生き返るんだろうけどさあ……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      あと、原作にも驚くほど慎重な配慮がなされてて、<B>クラスは網羅されてる</B>し、<BR>
+      原作の<B><FONT size="+2" color="#AA0000">人気NPC</FONT></B> も多数登場ということで、とっても楽しみですね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      あ、絵があるってことはたとえば<B>ネムリはもう登場確定</B>なんだよね？<BR>
+      そりゃネムリはさすがに<B><FONT size="+1">人気NPC</FONT></B>の中に入るよね……。<BR>
+      <BR>
+      <BR>
+      あの……ところで<B><FONT size="+1">私は？</FONT></B></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ねえちょっと！？　なんで黙るの！？<BR>
+      <BR>
+      っていうかなんでさっき <B><FONT size="+1" color="AA1111">人気NPC</FONT></B> って強調したの！？<BR>
+      もしかしてそういうことなの！？　<BR>
+      私は <B><FONT size="+1">人気</FONT></B> の枠に入ってないってこと！？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      あとPS移植リメイク『<B>不思議のクロニクル　振リ返リマセン勝ツマデハ</B>』でも<BR>
+      片道勇者DLC内で <B><FONT size="+1">私だけ出番なかった</FONT></B> んだけど！？<BR>
+      <BR>
+      ねえ聞いてる？！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      あ、次のスライドに行きましょう。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      やだー！！　出番欲しいよー！！<BR>
+      <BR>
+      冒険企画局のひとお願いしますぅぅぅー！！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+　　　　<IMG src="201604April_05.jpg" border="1" width="526" height="395"><BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ……この応援コメントのスライド、ここに貼る必要あった？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ホントにここに書いてある通り、エッセンスをすごく上手に抽出してて<BR>
+      かつ判断を求められる度合いが増してた感じだったので、<BR>
+      ゲーム開発者として感動したくらいなんですよ。<BR>
+      <BR>
+      自分もこれだけシンプルかつ判断を求められるゲームを作りたいなあ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      へえー、やっぱりプロの人はすごいんだ。<BR>
+      <BR>
+      で、「実際にセッションをするのが楽しみです」ってあるけど、もうやったの？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      しました！　以下の方々とルールブック掲載用の<BR>
+      リプレイを収録したんですよ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+　　　　<IMG src="201604April_06.jpg" border="1" width="526" height="395"><BR>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      スーパーTRPGゲーマー「<B>桜庭星菜</B>」さんと、<BR>
+      超有名そうなTRPG動画製作者の「<B>ブリッツP</B>」さんだって！<BR>
+      すごそうなメンツじゃない！？<BR>
+      <BR>
+      あ、そういえば①の「<B>SmokingWOLF</B>」って名前、<BR>
+      かろうじてどっかで聞いたことあるような？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_04_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      それが私だっつーの！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      で、セッションどうだった？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      お二人やGMさんのTRPG力に圧倒されましたねー、<BR>
+      ものすごく面白かったです！<BR>
+      私は他プレイヤーさんに配慮しきれなかったところが<BR>
+      まだまだあるかなという感触でした。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      そういえばこの人趣味でしかTRPGやってないわ……<BR>
+      そりゃプロの人とか動画を何十本も上げている人の方が経験値多いよね。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ルールは<B>全体的にとても分かりやすくて</B>すばらしかったです！<BR>
+      <BR>
+      一部、ちょっと見慣れなくて私がルールを把握しづらかったところは、<BR>
+      「この辺とかこの辺とかもうちょっと分かりやすくなると……嬉しいです！」<BR>
+      ってクリエイターさんにドザザーッと長文でお願いしてきました。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ひどい。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      きっと製品版になる過程でどんどん理解しやすくなるよう、<BR>
+      うまい説明や調整が行われていくはずです。<BR>
+      <BR>
+      最終的に誰にでも理解しやすい説明を組み上げられるのがこの道の達人！<BR>
+      すでに非常に分かりやすいんですが、完成版のルールブックは<BR>
+      より分かりやすくなると思いますよ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      なるほどねー。<BR>
+      <BR>
+      で、セッションの内容とかバランスはどうだったの？<BR>
+      やっぱりデッドリーでハードコア？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      うん、すごかった。<BR>
+      <BR>
+      セッション内容はリプレイとしてルールブック内に収録されるのでお楽しみに！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      そ、そうなんだ……。<BR>
+      <BR>
+      というところで、次は「今後の展開」についてのスライドだよ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>　　　　<IMG src="201604April_07.jpg" border="1" width="526" height="395"><BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      ねえ、「<B>SmokingWOLFによる『片道勇者TRPG』リプレイ、連載開始予定</B>」<BR>
+      とか書いてあるんだけど大丈夫なのこれ。<BR>
+      連載とかイヤな予感しかしないんだけど。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      予定は未定だし！　そもそも趣味レベルの私が作るリプレイとか<BR>
+      クオリティが不透明すぎるしあまり期待されてないって！<BR>
+      大丈夫大丈夫！　まだ何話とか書いてないから2話打ち切りとかもあるし！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      せめてルールの説明とか雰囲気が伝わる程度の質には仕上げなさいよ……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      うん……そして他にも、<BR>
+      「<B>発売記念オンラインコンベンション</B>」を実施予定ってのがすごいですね。<BR>
+      オンライン展開に力を入れてる感じがあります。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      えーと、オンラインでやることは分かるんだけど、<BR>
+      TRPGの「<B>コンベンション</B>」ってそもそも何なの？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      私も行ったことがないから詳しくは知らないんですけど、<BR>
+      TRPGの「<B>コンベンション</B>」のイメージとしては自由に集まった人で<BR>
+      TRPGをやりあうイベントみたいな感じでしょうか。<BR>
+      知らない人同士でも遊んだりするっぽいですね。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      そんなイベントがあるんだー。<BR>
+      じゃあお友達がいなくても遊ぶチャンスがある？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      と、思います。私がツイッターでアンケート取ってみたら、<BR>
+      「TRPGをまだやったことがなくて」かつ「やってみたい」人の率が<BR>
+      けっこういらっしゃったので、オンラインコンベンションは<BR>
+      TRPGデビューするチャンスかもしれませんよ。<BR>
+      オンライン開催なので、不安ならSNSのお友達を誘って<BR>
+      参加してみてもいいですし、1人でも参加できますしね。<BR>
+      <BR>
+      あ、でも<B>ルールブックは用意しておいてください</B>ね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>　　　　<IMG src="201604April_08.jpg" border="1" width="526" height="395"><BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ということで『片道勇者TRPG』、発売を心待ちにしています！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      でも君は発売前からセッション収録しないと<BR>
+      6月のリプレイ連載開始に間に合わないでしょ。<BR>
+      発売日が6月18日だよ？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      はい……がんばります。<BR>
+      <BR>
+      　<B>※6/17追記：色々あって7～8月頃に連載開始になりました</B></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      <BR>
+      <FONT size="+2">『<B>片道勇者TRPG</B>』</FONT> は <FONT size="+2"><B>6月18日</B></FONT> 発売！<BR>
+      <BR>
+      内容モリモリで定価1,600円（税別）らしいので、<BR>
+      欲しい人はしっかりおこづかいをためておいてね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+</div>
+<div id=com></div>
+
+<!--
+<P><a id="T3">　</a>
+
+<H1 class=gradientTITLE><font size=2>　TRPGのプレイ風景を見てみたい人へ</font><BR>
+&nbsp;<B>　これまで作ってきたTRPGリプレイ集！</B></H1>
+
+<div id=com>　実は！　2013年のエイプリルフール企画で作った自作の『片道勇者TRPG』がすでにあったりします！</div>
+<div id=com>　冒険企画局さんのものと区別する目的で、これを『<B>&lt;自家製&gt;片道勇者TRPG</B>』と呼んでいます。</div>
+<div id=com>　</div>
+<div id=comB><B><A href="https://silversecond.net/contents/game/TRPG/Replay00.shtml" class="red"><FONT size="+1">● &lt;自家製&gt;片道勇者TRPGリプレイ</FONT></A></B>　<B>全15話</B>　2013/04/01～2013/12/21 <B>完結</B></div>
+<div id=com>　</div>
+<div id=com>　2013年のエイプリルフールから始まった『<B>&lt;自家製&gt;片道勇者TRPGリプレイ</B>』！</div>
+<div id=com>　フリーゲーム『片道勇者』を元にした自作ルールによるTRPGリプレイで、GMは作者SmokingWOLF！</div>
+<div id=com>　冒険企画局さんの『片道勇者TRPG』とは別ものですが、こちらも独自の世界観が展開されています。</div>
+<div id=com>　</div>
+<div id=com>　<A href="https://silversecond.net/contents/game/TRPG/Replay00.shtml" class="red"><img src=http://silversecond.net/contents/game/TRPG/image_top/TRPG_Katamichi_title.jpg border="1" title="片道勇者TRPGリプレイ トップページへ"></A></div>
+
+
+<BR>
+<div id=com>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      このリプレイ読んでたら、1話の最初で<B>アレイラ</B>さんの中の人が<BR>
+      <B><FONT size="+2">「目指せ、片道ＴＲＰＧ出版！」</FONT></B>って言ってて、<BR>
+      いま見るとすごく壮大なフラグ立ててるみたいになってたよ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      えっ……あ、ホントだ言ってる！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=com>　　</div>
+<div id=com>　もちろん冒険はファンタジー世界だけじゃない！　現代のシノビの戦いもTRPGで！　</div>
+<div id=com>　　</div>
+<div id=comB><B><A href="https://silversecond.net/contents/game/TRPG/Replay_Sinobi01.shtml" class="red"><FONT size="+1">● TRPGシノビガミ リプレイ 『忍者就職活動記』</FONT></A></B>　　2014/04/01 公開</div>
+<div id=com>　　</div>
+<div id=com>　冒険企画局の市販TRPG『シノビガミ』ルールによるチュートリアルセッション。</div>
+<div id=com>　忍者達による過酷な就職活動が幕を開ける！　GMは片道勇者のンクの人。</div>
+<div id=com>　</div>
+<div id=com><A href="https://silversecond.net/contents/game/TRPG/Replay_Sinobi01.shtml" class="red"><IMG src="https://silversecond.net/contents/game/TRPG/image_sinobi/Sinobi01_All.jpg" border="1"></A></div>
+<div id=com><BR>
+</div>
+<div id=com>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      実はこれも<B>冒険企画局</B>さんのところのゲームなんだよね。<BR>
+      <BR>
+      このリプレイの存在も、もしかしたら企画のきっかけになってたのかも？<BR>
+      <B>ンク</B>さんの中の人が「シノビガミしましょう」って言ってくれてなかったら<BR>
+      今ごろ違う未来があったかもしれないね。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      本当に、気付かないところでたくさんのきっかけが絡み合って<BR>
+      ようやく今回のお話につながっているのかもしれません。<BR>
+      そう思うと、たくさんの方々に感謝したい気持ちです。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+
+<BR>
+
+<HR class=line>
+<HR class=line>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>TRPGで展開されるのは人間の冒険だけではありません！　こんな物語だってあるんです！<BR>
+　　　　</div>
+<div id=comB>
+
+<B><A href="http://neosino.blog99.fc2.com/blog-entry-814.html" class="red" target="_blank"><FONT size="+1">● ゴリラTRPGリプレイ1話　『ゴリラｖｓメカゴリラ』</FONT><FONT size="-2">（新ｳｨﾝﾄﾞｳ）</FONT></A></B>　2014/2/3</div>
+<div id=comB><B><A href="http://neosino.blog99.fc2.com/blog-entry-834.html" class="red" target="_blank"><FONT size="+1">● ゴリラTRPGリプレイ2話　『ゴリラｖｓスペースゴリラ』</FONT><FONT size="-2">（新ｳｨﾝﾄﾞｳ）</FONT></A></B>　2015/3/8</div>
+<div id=com>　　</div>
+
+<div id=com>　世界初のゴリラTRPGリプレイとなった作品。</div>
+<div id=com>　ゴリラ同士の恋愛模様、ゴリラと人間の友情、そしてボスとしての在り方……。</div>
+<div id=com>　奥深いテーマを斬新な切り口で描く感動の作品。</div>
+<div id=com>　ゴリラ達を待ち受ける運命とは――その目で確かめていただきたい。<BR>
+　（ゴリラTRPG作者様の紹介文より引用）</div>
+<BR>
+
+<div id=com>　インターネットでフリー公開中の<A href="http://www55.atwiki.jp/gorillatrpg/" target="_blank">『ゴリラTRPG』ルール(新ｳｨﾝﾄﾞｳ)</A> によるセッションのリプレイです。<BR>
+　GMはねおしのさん。</div>
+<div id=com>　</div>
+<div id=com>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      え……ゴリラ？</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      <B><FONT size="+2">ウホッウホホホ！</FONT></B></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+<HR class=line>
+<BR>
+<BR>
+<BR>
+<BR>
+<P><BR>
+<BR>
+</P>
+-->
+
+
+<!--
+<div id=com></div>
+<H1 class=gradientA><font size=4>今日はここまで！ 冒険企画局版『片道勇者TRPG』、お楽しみに！</font></H1>
+<P>　</P>
+<div id=com><B>●　『片道勇者TRPG』への反応</B><BR>
+<BR>
+<a data-chrome="noheader nofooter transparent" class="twitter-timeline" href="https://twitter.com/search?q=%22%E7%89%87%E9%81%93%E5%8B%87%E8%80%85TRPG%22%20-RT%20-%22%E3%80%8E%E7%89%87%E9%81%93%E5%8B%87%E8%80%85TRPG%E3%80%8F%E7%99%BA%E5%A3%B2%E6%B1%BA%E5%AE%9A%EF%BC%81%22" data-widget-id="712909162594832385">"片道勇者TRPG" に関するツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<BR>
+</div>
+<BR>
+<BR>
+</P>
+<BR>
+-->
+
+<HR class=line>
+<BR>
+<div id=com></div>
+<div id=com>　</div>
+<div id=com>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      はあ、私の出番どうなるんだろ……。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      そういえば「イーリスはルールブックに出ると思う？」<BR>
+      ってアンケートしたらこんな感じになりましたよ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR><img src="2016_twitter1.png" border="1">
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      あれ、これって思ったより期待されてるんじゃない！？<BR>
+      「出るよ！」と「出ない気がする」が<B>5：2</B>くらいで「出る」優勢だよ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ユーザさんからの期待的にはうれしい結果になりましたね！<BR>
+      <BR>
+      <BR>
+      ……これで出なかったら余計にショックが大きくなりそう。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      <B><FONT size="+2">あ、ああ～！！</FONT></B><BR>
+      <BR>
+      やめてー期待させないでー！！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      果たして妖精イーリスに出番はあるのか！？<BR>
+      今後の展開にご期待ください！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<B><FONT size="+4">　　　　　　　- 完 -</FONT></B><BR>
+<BR>
+<BR>
+<BR>
+</div>
+<HR width="400">
+<div id=com>
+<BR>
+<!--
+<BR>
+<BR>
+◆原作ゲーム『片道勇者』に興味がある方はこちらからどうぞ！<BR>
+<BR>
+<BR>
+　<B><FONT size="+1"><A href="https://silversecond.net/contents/game/katamichi_brave/">● 『片道勇者』（無料で遊べます！） 公式ページ</A></FONT></B><BR>
+<BR>
+　　<A href="https://silversecond.net/contents/game/katamichi_brave/"><IMG src="https://silversecond.net/contents/game/katamichi_brave/katamichi_banner.jpg" border="0"></a><BR>
+<BR>
+　　　→　フリーゲームです。無料なのでまずはここから！<BR>
+<BR>
+</div>
+<HR class=line>
+<div id=com>
+<BR>
+<BR>
+<BR>
+　<B><FONT size="+1"><A href="https://silversecond.net/contents/game/katamichi_plus/">● 『片道勇者プラス』（有料）　公式ページ</A></FONT></B>　<BR>
+<BR>
+　　<A href="https://silversecond.net/contents/game/katamichi_plus/"><IMG src="https://silversecond.net/contents/game/katamichi_plus/katamichiP_banner.jpg" border="0"></A><BR>
+<BR>
+　　　→　片道勇者の拡張版です。インターフェース面の向上で遊びやすくなりました！<BR>
+　　　　　「片道勇者」に比べてより判断重視のゲーム性になるよう大幅なバランス調整が行われ、<BR>
+　　　　　データの大量追加や新たなストーリーの追加も行われています。<BR>
+<BR>
+</div>
+<HR class=line>
+<div id=com><BR>
+<BR>
+<BR>
+　<B><FONT size="+1"><A href="http://store.steampowered.com/app/266210/">●『片道勇者 Steam配信ページ（有料）』</A></FONT></B> <BR>
+<BR>
+<BR>      <IFRAME src="http://store.steampowered.com/widget/266210/34837/?l=japanese" frameborder="0" width="526" height="190"></IFRAME><BR>
+<BR>
+　　→　海外展開版です、有料ですが <B>内容はフリー版と同じ</B> なのでご注意を！<BR>
+　　　　セーブデータがクラウド保存されるので、　アンインストールしても<BR>
+　　　　インストールし直せば続きのシステムデータから遊べます。<BR>
+　　　　また、英語版に切り換えることが可能です。<BR>
+<BR>
+　　　※Steamの『片道勇者プラス』は、これの「DLC」扱いとなっています。<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+-->
+
+</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com><B>　2016/04/01　『片道勇者TRPG』特設紹介ページ公開</B></div>
+<div id=com>　</div>
+<div id=com>※このページは2016年の(全然ウソじゃない）エイプリルフールサイトでした。<BR>
+　 来て下さった皆さん、ありがとうございました！<BR>
+<BR>
+<BR>
+</div>
+<HR width="400">
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<div id=com>
+<HR size="1" width="600" align="left">
+<BR>
+　　　<B>◆以下は2016/6/18に追記された内容です。</B><BR>　　
+<HR width="600" size="1" align="left">
+</div>
+<BR>
+
+
+<a id="T0">　</a>
+<H1 class=gradientTITLE><font size=1> 2016/6/18 追記</font><BR>
+　冒険企画局版 『片道勇者TRPG』 発売！</H1>
+
+<BR>
+<div id=com>
+
+    <IMG src="20160618.jpg" title="フリーダ王女、TRPG版は冒険しそうな格好にアレンジされました。ついでにボンバーオッファイも収納！">
+    <BR>　
+<TABLE border="0">
+  <TBODY>
+  
+    
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      『片道勇者』の旅のアドバイザー、人工妖精イーリスでーす！<BR>
+      ということで、ついに冒険企画局さんの<B>『片道勇者TRPG』</B>が発売されたよ！<BR>
+      <BR>
+      このページ、元は『片道勇者TRPG』の「<B>発表用</B>」ページだったんだけど、<BR>
+      この際だから「<B>発売</B>」のお知らせも一緒にやっちゃうね！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      というのも、発売日に<B>『片道勇者TRPG』</B>で検索してみたら、<BR>
+      なんとこのページが<B>検索結果の先頭</B>に来ちゃってたので、<BR>
+      慌ててこのコメントを足したんですよね！！<BR>
+      <BR>
+      <FONT size="-2">（←原作ゲーム「片道勇者」の開発者、「片道勇者TRPG」では「監修」を担当）</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      それはいいとして、 <B>『片道勇者TRPG』</B> ルールブックはこちら！　バーン！<BR>
+      <BR>
+      　　　　　　　　　　　　<B>↓</B></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<div align="center"><br />
+<BR>
+<TABLE border="0" cellpadding="6" cellspacing="1" class="gray">
+  <TBODY>
+    <TR>
+      <TD align="center" class="white"><FONT size="+2"><B>【片道勇者TRPG】</B></FONT><BR>
+      <BR>
+      TRPGルールブック<BR>
+      <BR>
+      <BR>
+      著　<B>齋藤 高吉</B> 様<BR>
+      （冒険企画局）<BR>
+      <BR>
+      イラスト　<B>モタ</B> 様<BR>
+      <BR>
+      監修　<B>SmokingWOLF</B><BR>
+      <BR>
+      <BR>
+      価格　税込<B>￥1,728</B><BR>
+      <FONT size="-2">（消費税により変動あり）</FONT><BR>
+      <BR>
+      <B>255</B>ページ　<B>B6版</B><BR>
+      </TD>
+      <TD align="center" class="white"><br />
+<A target="_blank" href="http://www.amazon.co.jp/gp/product/4040709446/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4040709446&linkCode=as2&tag=smokingwolf-22" class="red">クリックでAmazonページへ<br />
+      <IMG border="2" src="banner_katamichi_trpg.jpg"></A><br />
+      <BR>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      楽しそうな表紙でワクワクしますね！<BR>
+      フリーダ王女もネムリもちびキャラ群もかわいい！<BR>
+      <BR>
+      中身としては、私も参加した見本プレイの<B>「リプレイ」</B>と、<BR>
+      <B>「片道勇者TRPGを遊ぶためのルール」</B>、そして<BR>
+      <B>「無印版のプレイを再現したキャンペーンシナリオ」</B>が<BR>
+      収録されてます！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      さっそく中身を読んでみたんだけど、<BR>
+      リプレイでキミが<B>お姫様</B>の役をやってたんだね。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      TRPGなので、そういうのもやり放題！<BR>
+      <BR>
+      といっても私がプレイヤーキャラクターをするときは、<BR>
+      基本的にていねい系の淑女（しゅくじょ）キャラが多いんですけれどね。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      あとわたしさ！　<B>「出番が欲しい！」</B>って言ったけど、<BR>
+      色んな意味でわたし出すぎじゃない！？<BR>
+      <BR>
+      なんかその、すみません！！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      ええ、<B><FONT size="+2">ビックリするほどイーリス盛りだくさん</FONT></B> <BR>
+      <BR>
+      なのでお楽しみに！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_02_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      それとリプレイ見たら難易度が予想以上にハードコアだったんだけど！<BR>
+      いきなりしょっぱなから全滅の危機って！！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_04_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      そうだよ！　TRPG版の「犬小屋」には気をつけろ！　みんな！<BR>
+      経験値稼ぎ用かと思って入ったらドえらいことになるぞ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      でも、戦闘システムや進行はとても分かりやすそうだったよね。<BR>
+      バトルも１ターンで終わるみたいだし、イベント処理も分かりやすいし！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      その辺はデザイナーさんのセンスとブラッシュアップの成果が光ってます！<BR>
+      本当にお疲れ様でした！<BR>
+      <BR>
+      要望のほとんどにも対応してくださって本当にありがとうございます！<BR>
+      原作忠実度も予想以上に高い！　すごい！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      原作忠実度はすごいよねー！　データもかなりそれっぽいよ！<BR>
+      デザイナーさん、かなり遊びこんでくれたみたい！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      皆さまのお手元に届く日が楽しみですね！<BR>
+      <BR>
+      私もこのTRPGの「リプレイ」をサイトで連載していく予定ですので、<BR>
+      よければそちらも読んでいただけますと幸いです！<BR>
+      <BR>
+      あと、「片道勇者TRPG」には「サプリメント（追加データ集）」も予定されてますよ！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      遊ばれていくうちに課題も見つかるかもしれないけど、<BR>
+      デザイナーさんや編集部の人たちの目にとまれば、<BR>
+      「サプリメント」に取り入れてくれるかもしれないよ！<BR>
+      <BR>
+      ということでみなさんのご感想、お待ちしてまーす！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_wolf_03_m.png" <BR></TD>
+      <TD></TD>
+      <TD><B>作者</B>：<BR>
+      イエス！<BR>
+      ではこの辺りで、今回の追記を締めさせていただきます！<BR>
+      ご静聴、ありがとうございました！<BR>
+      <BR>
+      以下は私が書いた紹介記事です！　よければぜひ参考にしてください。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE cellpadding="8" cellspacing="1" class="gray" width="526">
+  <TBODY class="gray">
+    <TR>
+      <TD align="center" nowrap class="diary_table" height="29">
+<strong class="fw"><span style="font-size:large;">【片道勇者TRPG　解説！】</span></strong></TD>
+    </TR>
+    <TR>
+      <TD align="center" class="white" nowrap height="2461"><BR>
+      ということで、早速 <B>『片道勇者TRPG』</B> についてご紹介です！<br />
+      <br />
+      <hr size="1" />
+      <br />
+      <span style="font-size:large;"><strong>【まず「TRPG」って何？】<br /></strong></span><br />一言で言うなら「ルール付きのごっこ遊び」です！<br />「GMという司会者」と「数人のプレイヤー」が集まり、プレイヤーは<br />GMの出した試練に対してキャラクターの行動を演じつつ、ゲームを進めていきます。<br /><br />たまに「３ｍの穴を幅跳びで飛び越えられたか？」といった、成功したか失敗したか<br />判断が付きづらい行動があるので、そういう場合はサイコロの出目で成否を決定します。<br />そこの「判定」でワーキャー言うのが楽しいゲームです。<br />なおコンピュータゲームと違い、キャラクターのデータは自己管理です。<br /><br /><hr size="1" /><br /><strong><span style="font-size:large;">【『片道勇者TRPG』 はどんなゲーム？】</span></strong><br /><br />まず一番大きな点を述べると、『片道勇者TRPG』は<br /><strong>縦３列×横一定日数のエリアを右に進行しながら冒険していくゲーム</strong>です。<br />
+      <BR>
+      <br />
+      <B>＜ゲームの進行図　これは4日の旅＞</B><br />
+      <span style="font-size:x-small;">※以下の状況なら、2日目までの地形はすでに闇に呑まれたことになっています</span><br /><img src="https://silversecond.net/data/p_diary4/20160618_2.jpg" title="収録中のセッション用に使っている図"><br />
+      <BR>
+      マップは、１日目以外は未知なので、「偵察」したり、<br />実際に行ってみないと何が起きるか分かりません。<br />各プレイヤーは、分かれて進むことも可能です。<br /><br />「魔王を倒す」か、「世界の果てにたどりつく」と一周が終了します。<br />……が、実はゲームの主目的はその２つではありません！<br /><br /><hr size="1" /><br /><strong><span style="font-size:large;">【ゲームの主目的】</span></strong><br /><br />ゲームの目的は、各PCに与えられた秘密の<strong>「クエスト」</strong>をこなしていくこと！<br />「え、魔王倒すことじゃないの？」と思われるかもしれませんが、<br />真の目的は「クエスト」のほうにあります！<br /><br />
+      もちろん、クエストクリアの条件として「世界の果てにたどりついた」や<br />「魔王を倒した」といったものも作れますので、<br />
+      GMさんが正当派なゴールを設定することも普通にできます。<br />ただ、魔王撃破などが常に「主」ではないよ、ということですね。<br /><br />ルールブックに書いてあるデフォルトクエストだと、<br />プレイ内で「魔王とは別の試練が新たに発生するクエスト」や、<br />「旅を楽にするクエスト」「逆に難しくするクエスト」などがあります。<br />一例としては、「すごく強い敵と戦って強力な『特徴』を解放する」といったクエストですね。<br />この場合、「魔王を倒す」のはオマケになります。<br /><br />また「クエスト」には、攻略していくと次の段階のクエストがオープンされて、<br />物語が進んでいくものがあります。そうやって連続クエストを積み重ねていくプレイを、<br />「キャンペーンシナリオ」といって、続き物のお話として表現されます。<br />基本的には、<strong>「キャンペーンの最後のクエスト」で大ボスと戦う</strong>感じになるでしょう。<br /><br />
+      クエスト進行は１プレイ（＝勇者の１人生）あたりだいたい１回分なので、<br />基本的には何度も転生しながらストーリーを進めていくことになります。<br /><br />ゲームが終わると【伝説P】がもらえて、新たな特徴を解放できたり、<br />
+      次元倉庫を拡張できたりします。この辺りの流れも実に原作再現！<br />
+      <br />
+      <hr size="1" />
+      <br />
+      <strong><span style="font-size:large;">【１日のアクションについて】</span></strong><br /><br />上に掲載したマップは４日の旅をあらわしたものですが、<br />さらに１日の間に何が起きるかが分かれば、<br />このゲームの全体の流れをおおまかに掴めたといっていいでしょう。<br /><br />１日の間に発生するイベントは、以下の流れとなっています。<br /><br /><strong>●昼イベント（強制）：　マスに設定されたイベントが実行される。強制。<br />　店に出会ったり、ダンジョン探索したり、山賊に襲われたりする。<br />　↓<br />●魔王遭遇（強制）：　２、４、６日目の昼イベント後のみ発生。魔王が出てくる。<br />　↓<br />●夜イベント（自由）：　いわば自由行動。偵察したり仲間と交流したりできる。<br />　↓<br />そして次の日へ……。<br /></strong><br /><br />各イベントでは、<strong>「能力値＋２Ｄ６（サイコロ２個を振った合計）」</strong>の結果で<br />物事がうまくいったかどうかを判定します。<br />能力値はおなじみの「筋力・敏捷・生命・知力・意志・魅力」の６種類！<br />使う能力はその都度、GMに指示されます。<br />同じマスに味方がいれば、「協力」して能力値を足すこともできます。<br />（※ 最大で、互いの【好意】＝仲良し度の分まで）<br /><br />他にも<strong>「ジャッジ」</strong>と呼ばれるシステムがあり、ロールプレイや演出をすることで<br />判定に＋１のボーナスをもらえる処理が明文化されています。<br />このあたりも昔ながらのTRPGの「PCの演出による補正」を<br />うまいことシステム化した感じで面白い部分です！<br /><br />
+      「でもロールプレイなんていきなりできないよ！」という人も安心！<br />何も思いつかなければ、演出をやらずにそのままサイコロを<br />振ればいいだけなので、初心者の人も安心です。<br /><br /><hr size="1" /><br /><strong><span style="font-size:large;">【シンプルでアツい戦闘！】</span></strong><br /><br />『片道勇者TRPG』では、通常戦闘は1回の攻撃で終了します！<br />シンプル！　すばやい！　簡単！<br /><br />ただし敵に攻撃を当てるためには「攻撃判定」という判定に成功する必要があり、<br />仮にうまく攻撃が当たっても、「ダメージ算出」が必要です。<br />もし同じマスにいる味方全員のダメージを足しても敵を撃破しきれなかった場合は、<br />【反撃ダメージ】や、余計に疲れるペナルティを受けてしまいます。<br /><br />逆に、「攻撃に成功」し、「高いダメージを出して敵LIFEを削り切れれば」、<br />なんと無傷で完全勝利することができます！<br />なお勝敗にかかわらず、戦闘は１攻撃で即決着します。<br /><br />おなじみの【強打】スキルでダメージを増したり、<br />逃げるときには【ダッシュ】スキルを使えたりと、<br />搭載スキルの機能はほぼ完全に原作の雰囲気を維持！<br /><br />なお、<strong>魔王との戦いだけは特別で、1回の攻撃では終わりません</strong>。<br />毎ターン反撃を受けながら、徐々に魔王のLIFEを削って倒すことになります。<br /><br /><hr size="1" /><br />ということで、こんな感じでイベントをこなしたり、<br />戦闘したりしつつ、「クエスト」を段階的にこなしていって<br />真に世界を救うために駆け回るのが『片道勇者TRPG』です！<br />ざっくり流れを説明してみましたが、いかがでしょうか。<br /><br />ルールブックにはPC同士が仲良く進める感じのクエストのみが紹介されていますが、<br />アイデア次第で、「シノビガミ」のように仲間同士で殺伐と対立しながら<br />物語を進めていったりすることもできそうです。<br />そっちのほうが面白そうって？　そう思われた方はぜひ、<br />ツイッターなどで感想をつぶやいたり、編集部さんにご意見お寄せください。<br />サプリメントで、それ用の面白いルールが搭載されたりするかもしれませんよ！<br /><br /><hr size="1" /><br />ということで、冒険企画局さまによる<strong>『片道勇者TRPG』</strong>、<br />興味があればぜひ、お買い求めください！<br /><br />私がプレイヤーキャラクターを演じているリプレイも収録されています！<br />ルールブック内リプレイの私のPCは、なんと「お姫さま」！<br />一体どんなことになっているかは、見てのお楽しみです。<br /><br /><a  href="http://www.amazon.co.jp/gp/product/4040709446/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4040709446&linkCode=as2&tag=smokingwolf-22">クリックで 『片道勇者TRPG』 Amazon販売ページへ<br /><img border="2" src="banner_katamichi_trpg.jpg"></a><br /><br /></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+<div id=com><BR>
+<BR>
+<BR>
+<BR>
+<B><FONT size="+2">◆その他　関連リンク</FONT></B></div>
+<HR class=line>
+<div id=com><BR>
+<BR>
+<BR>
+　　　<B>●片道勇者TRPG　公式ブログ</B>　　→　　<B><S>http://katamichitrpg.tumblr.com/</S></B> (公開終了)<BR>
+<BR>
+　　　　　片道勇者TRPGのシステム紹介や、PRイベントのお知らせが掲載されています。<BR>
+</div>
+<HR class=line>
+<div id=com>
+
+<BR>
+<BR>
+<BR>
+　　　<B>●片道勇者オンライン　公式ページ</B>　　→　　<BR>
+　　　　　　　　　<B><s>https://ssl.fujimi-trpg-online.jp/twittergame2/index.html</s></B> (公開終了)<BR>
+<BR>
+　　　　　ツイッターゲーム『片道勇者オンライン』が、TRPGのPR活動の一環として行われていました。<BR>
+　　　　　イベント期間は2016/6/15～8月頃まででしたが、今でもプレイ可能ですので、<BR>
+　　　　　興味があればぜひどうぞ！<BR>
+</div>
+<HR class=line>
+
+<div id=com>
+
+<BR>
+<BR>
+<BR>
+　　　<B>●『片道勇者TRPG』　Amazon販売ページ</B>　　→　　<BR>
+　　　　　　　　　<B><A href="http://www.amazon.co.jp/gp/product/4040709446/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4040709446&linkCode=as2&tag=smokingwolf-22" target="_blank" class="red">http://www.amazon.co.jp/gp/product/4040709446/</A></B><BR>
+<BR>
+　　　　　『片道勇者TRPG』はぜひこちらからお買い求めください！<BR>
+　　　　　ほんのちょっとですが、私の懐も潤います！<BR>
+</div>
+<HR class=line>
+
+<div id=com><BR>
+<BR>
+<BR>
+
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD width="34"></TD>
+      <TD width="56"><IMG src="face/face_iris_01_m.png" <BR></TD>
+      <TD></TD>
+      <TD class="iris_td"><B>妖精イーリス</B>：<BR>
+      2016年7～8月からは「片道勇者TRPG」のリプレイ連載も始まるよ！<BR>
+      ハチャメチャな冒険をお楽しみに！</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</div>
+<BR>
+<HR class=line>
+<BR>
+<BR>
+
+<P align="center"><a href="../../">ホームに戻る</a><BR>
+　</P>
+<BR>
+
+</BODY>
+</HTML>

@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>＜自家製＞片道勇者TRPG リプレイ</title>
+
+
+
+<link rel="stylesheet" href="replay.css" type="text/css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+	<div id="flowmenu">
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+<a href="../../" class=red><B>←ホームへ戻る</B></a><BR>
+
+	      <BR>
+	      <TD class="white" nowrap>【&lt;自家製&gt;<BR>　片道勇者TRPG】<BR>
+  <a href="Replay00.shtml#S0" class=red>◆はじめに/TOP</a><BR>
+  <a href="Replay01.shtml#S0" class=red title="◆1話『出会い』">◆1</a> 
+  <a href="Replay02.shtml#S0" class=red title="◆2話『天秤･上』">◆2</a>
+  <a href="Replay03.shtml#S0" class=red title="◆3話『天秤･下』">◆3</a>
+  <a href="Replay04.shtml#S0" class=red title="◆4話『ﾗｲﾌﾞﾗの街』">◆4</a><BR>
+  <a href="Replay05.shtml#S0" class=red>◆5話『<small>図書迷宮</small>』</a><BR>
+  <a href="Replay06.shtml#S0" class=red>◆6話『<small>絶望の街</small>』</a><BR>
+  <a href="Replay07.shtml#S0" class=red>◆7話『荒野へ』</a><BR>
+  <BR>
+  ◆7話番外<BR>
+  　<a href="#S1" class="g">○開始～成長</a><BR>
+  　<a href="#S2" class="g">- 1.ヴァン家</a><BR>
+  　<a href="#S3" class="g">- 2.家の中で</a><BR>
+  　<a href="#S4" class="g">- 3.パン屋</a><BR>
+  　<a href="#S5" class="g">- 4.完成後</a><BR>
+  　<a href="#S6" class="g">- 5.帰還後</a><BR>
+  　<a href="#S7" class="g">- α.終了後…</a><BR>
+<BR><a href="Replay09.shtml#S0" class=red>◆8話『砂の街』</a><BR>
+<a href="Replay10.shtml#S0" class=red>◆9話『奪還』</a><BR>
+<a href="Replay11.shtml#S0" class=red title="◆10話『尋ね者』">◆10</a> 
+<a href="Replay12.shtml#S0" class=red title="◆11話『死の砂漠』">◆11</a> 
+<a href="Replay13.shtml#S0" class=red title="◆12話『分かつ心』">◆12</a> 
+<BR><a href="Replay14.shtml#S0" class=red title="◆13話『再会』">◆13</a> 
+<a href="Replay15.shtml#S0" class=red title="◆リプレイ後日談">◆後</a> 
+
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+	    <TR><TD class="white" nowrap align="center"><small class=c1><small class=close>ﾛｲｽ/冒険家</small></small><BR>
+	      <img src=image/face01-1.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c2><small class=close>ｳﾞｧﾝ/冒険家</small></small><BR>
+	      <img src=image/face02.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c3><small class=close>ｱﾚｲﾗ/商人</small></small><BR>
+	      <img src=image/face03.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c4><small class=close>ﾊﾑｲ/剣士</small></small><BR>
+	      <img src=image/face04.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c5><small class=close>ﾝｸ/狩人</small></small><BR>
+	      <img src=image/face05.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c6><small class=close>ｻﾝﾄﾘﾅ/癒手</small></small><BR>
+	      <img src=image/face06.jpg border=1>
+	    </TD></TR>
+<TR><TD class="whiteblue" nowrap align="center"><small class=c0><small class=close>クー(NPC)</small></small><BR>
+	      <img src=image/face20.jpg border=1>
+	    </TD>
+	    <TD class="whiteblue" nowrap align="center"><small class=c0><small class=close>ミイ(NPC)</small></small><BR>
+	      <img src=image/face21.jpg border=1>
+	    </TD></TR>
+	    </TABLE>
+</div></BODY></HTML><div id=com>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>&lt;自家製&gt;片道勇者TRPG　第七話番外編</H1>
+<div id=com>　</div>
+<div id=com>砂の街スコーピオにたどり着いたパーティ一同。　</div>
+<div id=com>一同はヴァンの家に宿泊することになります。そこで起きた事件とは……？　</div>
+<div id=com>　</div>
+<a name=S1></a><H1 class=gradientA>開始～成長</H1>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>今回は番外セッションとしてヴァンローバーPLが臨時GM（臨時GM（ヴァンPL））を務め、代わりにいつものGM（以下「主GM」)がクーのプレイヤーとして参加しております。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c9><B>クーＰＬ（主GM）</B></font></div><div id=tx class=ct9>さて、それじゃあまずは二つ名を……。</div>
+<div class=box><B>【二つ名リスト】</B>
+<BR>　【12】 最強の 　2回も好きな出目に＋2できます（1度の判定に使えるのは1回分まで）
+<BR>　　　　　　　　　 ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【11】 優秀な　　1回だけ好きな出目を＋2できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【10】 強そうな　1回だけ好きな出目を＋1できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【9】　凄く硬い　ダメージ計算後、1回だけ任意のダメージを－2できます。
+<BR>　【8】　元気な・かわいい・強気な・美しい　好みで選択、特に効果はありません、ポジティブ系。
+<BR>　【7】　何もなし　　何もなし。普通が一番です。何もなくて寂しかったら「普通の」を付けてください。
+<BR>　【6】　疲れた・けだるい・切ない・汚れた　好みで選択、特に効果はありません、ネガティブ系。
+<BR>　【5】　エッチな 　エッチになります。ロールプレイのチャンスを逃さないで！
+<BR>　【4】　ドＭな 　　ダメージを受けるたびに歓喜の声を上げてください。
+<BR>　【3】　弱そうな　「目標値と同じ値で成功した判定」が1回だけ自動で1失敗扱いになります。
+<BR>　【2】　最弱の　　「2D6の出目が4以下」になると1回だけ自動で1ゾロになります。
+<BR>　　　　　　　　　　早めに4以下を出さないと恐いですよ。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>ヴァンＰＬ</B></font></div><div id=tx class=ct2>二つ名！2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) </B>＝ <B class=dc>6</B>　　ネガティブ系</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>疲れたで。</div>
+<div id=nm><font class=c1><B>ロイスＰＬ</B></font></div><div id=tx class=ct1>2D6　二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) </B>＝ <B class=dc>8</B>　　ポジティブ系</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ｼｬｷｰﾝ。</div>
+<div id=nm><font class=c9><B>クーＰＬ</B></font></div><div id=tx class=ct9>2D6　クー二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋4) </B>＝ <B class=dc>6</B>　　ネガティブ系</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>けがれた。</div>
+<div id=nm><font class=c3><B>アレイラＰＬ</B></font></div><div id=tx class=ct3>2D6 二つ何？　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋2) </B>＝ <B class=dc>3</B>　　弱そうな</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>弱そうだったなの。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>弱そうなアレイラ、なんだ平常運転だよ。なの。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>荒野を駆け抜けて汚れたクーになりました。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>読みは「よごれた」でいいんですよね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロイスが美しいくて、クーが穢れたって……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「私……ヨゴレじゃないですから……」</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>ヤバい、番外編のクーは同じ人が扱ってるはずなのに大暴れしそうだ！　危険だ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>番外編はギャグルートですから。顔が崩れます、シルフェイド的に。</div>
+<div id=nm><font class=c6><B>サントリナＰＬ</B></font></div><div id=tx class=ct6>戻りましたー！　※少し席を外してました</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>2D6 二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋5) </B>＝ <B class=dc>7</B>　　いつもの</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>普通でした……。</div>
+<BR>
+<a name=S2></a><H1 class=gradientA>1. ヴァン家</H1>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>用意あまりしてないのでゆっくりになりますのでご了承下さい。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>はーい。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ゆっくりで大丈夫ですよー！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>どんな人にもハジメテはあるものです、そう、ハジメテが（大事なことなので二回言いました）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>開始ですいえー。よろしくお願いします(ドキドキ）</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>よろしくお願いしますー。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>超久しぶりのプレイヤーすぎて何をすればいいのか分かりません。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>まず、脱ぎます。なの！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>奇行に走ります。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ではクーが脱ぎ始めま……だめぇぇぇ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ぶふｗ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>場所はヴァンの実家寝室前での話です。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ヴァンと弟は夜中に部屋を抜け出してこっそりと話をしています。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（おお、マスターシーン！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>おお。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>聞き耳立ててもいいのよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>長いお耳の活躍するときですか。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>部屋の前だよ。聞こえるよ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>じゃあ臭い女部屋から抜け出して代わりに行きましょう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>臭いって？！ｗ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（臭い女部屋）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（え、クスリぶちまけたんじゃ！？）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>全部成功してたじゃないですかァー？！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>さて、それはともかく聞き耳判定は……って不要なんですね？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>(多分）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>2Fと1Fどっちですか！って1Fかな。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>寝室前なので2Fです。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なら女性組に聞き耳は任せよう。って男性組のPL自分だけ！？　　<B id=cc>←ですね</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーの頭の上に載ってます、何食わぬ顔で。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ではとにかく聞きます！聞きます！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>違うよネガティブ（※無気力な二つ名）で引きこもってたんですよ！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>というわけで、お水でも飲みにいこうと思ったら女性陣が集まってるので自分も気になって聞き耳を立てます！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>寝室のドア（内側）に3人張り付いてます。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイ「なにしているのー、ミイも聞きたいしぃー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ハムイさんは優秀に天井に張り付いて聞いてそうですけどね！）＞男性</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>4人張り付きました。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（……なあにこれえ）」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（いきなりギャグ風景ですね）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ヴァン「ほんまスマンな、手伝いもできひんで。おっちゃん苦手やからなー」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>弟A「大丈夫やでー、今日から人手が足りひんゆうて泊まりこみで仕事やるからなー」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ヴァン「これで、本当に最後の別れになるかもしれへんのか……じゃあな」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>弟A「がんばって逃げきってとめてや、じゃあ行ってきますわ」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>弟Aは出発すると嘘をついていたようです。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（弟さん、お仕事かな……？）」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ふむふむなるほど……」小声。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ずばりここは、お手伝いをして一宿の恩を返すときですね？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>弟Aは出発して、ヴァンはひとり屋上にいます。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（屋上に行けるんだ！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（いいなー屋上から見える砂色の街の眺め……ってスラムだった）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（なぜかずっと三角屋根を想像してたけど、砂漠の町とすると四角ですよね、ええ）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（色々洗濯物とか干してありそうな……ってそれは違うイメージかしら）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ふんふん、では、アレは興味本位で弟についていこうかな、お金ないから、すこしでもお金を稼ぐなのよ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（あれか、アラ◯ン（ディ○ニー）の町並みか！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ああ、分かる！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>そういうイメージかな。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（そんなかんじのイメージしてます！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>水浴びのときに、ンクさんにあまり勝手に動かないように言われたので部屋でじっとしています。</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「ミイさん……弟さんのお手伝い行かなくていいの？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>どちらについて行きますか？それとも部屋を少し探索しますか。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイは「えー夜のお仕事にも行くのー！？　私わかんなーい！」　という感じでしょうか。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイも連れていくなの、いろんなことを教えないといけないなの。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（恥ずかしい仕事って夜のお仕事じゃないの……）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>たぶん、２４時間、いつでも恥ずかしいお仕事だったなの、愛玩動物みたいなもんなの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ヴァンさんのとこにいって直接おはなしを伺うことにしようかな。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（これ聞き耳立ててたほうがスムーズにいけた、シマッター）</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（まあ2Fだったんで無理か）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ロイスさんにサントリナは相談しました、で話は通じる、いける！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ロイスさん！　話が発生したのは２Fの寝室前です！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>2Fに二部屋の寝室、1Fにキッチンとダイニング。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>自然に聞こえていても問題はありませんね！＞寝室前</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（あっロイスさんとか気安く呼んじゃった）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（クーちゃんは難しいですね……！）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>男性組は1Fにいませんでしたっけ！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>４人づつ２部屋の寝室に分かれています。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>おっと、全員2Fにいたんですね。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ではアレイラさんとミイは弟さんのお手伝いへ。クーは水を探してるふりして家の探索でもしましょうか。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（妖精ばっかお手伝いに……）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>サントリナさんはヴァンさんとこだそうです！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なら物音に気付いて出ても良さげ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーがロイスに声を掛けるときの二人称は「ご主人様」でしょうか？　なの。
+<BR>（ミルの荷物には首輪も入っているハズなのでご利用ください）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なんでやねん！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>なんでやねん！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6><b>いいと思います（真顔）</b>＞ご主人様</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>名前呼ばれたこと無いけど”ロイス”と呼び捨てでいいんじゃないかな。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（クー的にはロイスのことをどんな呼称でも呼びたくない気持ち）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（たぶん、ねえ、とか、ちょっと、とか呼ばれてる）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（えー、クーなら、ご主人様は冗談だとしても、服の端をひっぱったりするんじゃないなの？）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（そうですねー服のすそ引っ張るくらいかも）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>二人のほうが話しやすそうなのでロイスは誰かからアクション起こされるまで寝室にいよう。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>なら屋上にいるヴァンから。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>では、ヴァンさんを追って屋上に行きました、と。どんな状態かな。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>屋上に登って見ると、ひとりヴァンが町並みを眺めています。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ちなみにリーナに気づいていません。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「どうしたんですか、考え事ですか？」と後ろから背中を叩いて声をかけます。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ちょっと明るいようなかんじで声作って。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「ちょっと……な……って言うか起きとったんか……恥ずかしいとこ見られてもうたなぁ……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ごめんなさいね、私も眠れなくて」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「この街この家とも、お別れやと思うとなぁ……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……心中お察し申し上げます。私も……ひとごとじゃないですから」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>とため息。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ヴァンさんを見ていて……自分の故郷も同じ危険にあってるのかと思うと、気が気じゃなくって……」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「例の……あの遺跡を挟んで北側なので、確認……できないんですけどね」と苦笑。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「家族がどうなってるか、故郷がどうなってるかも分からないんです」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「闇を止めなあかん理由が、いっぱいあるなぁ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……そうですね」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>懐から理力の書を取り出して。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「それに、頼まれちゃいましたしね……」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>すぐにしまう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（サントリナは書を懐に入れてるんですねーって入るのかな。アイテムポーチかな）</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>（イメージ的には辞書みたいな本でした）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（お守りとしてずっと持ち歩いてる感じですが、ポーチではないのかも？　別途に背中とかに縛り付けるかんじのブックホルダーとかに入れてるのかも）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「絶対に止めてやろな。もう後はないわ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……今すぐ止まってくれれば、それが最高なんですけどね」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>忌々しい闇の方角を見ながら、つぶやき。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「時間が……足りなさすぎますよ……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「それと、さっきの話しきいとったん？」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（弟さんの情報を聞いて欲しいようですよ！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「すこーし聞こえた程度ですよ。弟さん……残られるんですか？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「ああ、パン屋のおっちゃんが頑固でなあ、あそこのおっちゃんとは馬があわんから手伝えへんけど、最後まであそこで働くって弟が決めたからな、もう決めた事やって」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「そう、ですか……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（ああ、パン屋の仕事をそのままいくんですね）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……（物凄く考え込んでいる）」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（夜のお仕事（闇系）とかじゃなさそうですね！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（夜のお仕事（意味深））</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ヴァンさんは……その……」何かを言いづらそうに口ごもり。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「なんや？はっきり言い」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……ええと、その。ご家族がこういう状況で……その……」
+<BR>口をモゴモゴと動かしていますがうまく言葉にできずにいます。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……ごめんなさい、やっぱりなんでもないです。私は外野ですから……口を挟んでいい理由なんてないですしね」と苦笑して、</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「じゃあ、私部屋に戻ります。ヴァンさんも夜風に当たりすぎると体に毒ですよ！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>と立ち去ります。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「いいたい事があるんやったらはっきり言い！これから自由に話せる時間なんてなくなってまうしかないんやから」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（あ、ごめんなさい、すでに一方的に立ち去っちゃった）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>まあ要するに励ましたかったけどうまく言葉が見つからなかったんですよ！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（というわけでネクストシーン、どうぞ）</div>
+<BR>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（では弟さんのほうはアレイラさんにお任せかなー。がんばってー）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（夜のお仕事なの（ひわいな生地をコネコネ））</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>( ﾟдﾟ )</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（クーはどういう意味か分かりません）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>いえ、その前にロイスに絡みますよ。ふふふ。</div>
+<BR>
+<div id=nm><font class=c5><B>ンクＰＬ</B></font></div><div id=tx class=ct5>途中参加になりますので、ンクは寝ていることにしておいてください。</div>
+<div id=nm><font class=c5><B>ンク</B></font></div><div id=tx class=ct5>「すぅすぅ……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>そうか、不参加PLは寝たことにすればいいのか今回。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ンクが目を覚ますと、天井にはなぜかハムイが……）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ロイスが横になると真上にハムイが張り付いています）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（天井に張り付いてるハムイさんに火炎アンプルですか？　いいですよ！　でも粘着アンプルのほうが好みです！）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（家が火事になりますなの）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（では投擲ダガーにしておきますよ、ﾁｪｯ）</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>2. 家の中で</H1>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>とりあえず私は家捜ししてますね！</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「（リーナさんはヴァンさんと話して時間を稼いでください！　ガッサゴッソ！）」　※家捜し中</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>こんなのクーじゃねえ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>クーの心が汚れきってるー！？</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ソウルジェムは……もう……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ンクに指示されて仕方なくやっているんだと信じたいなの。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではクーは家族の写真を見つけます。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>えっ！　写真が見つかっちゃった！</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>ていうかどこ調べてんでしょう！？　一階！　それとも寝室？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>寝室、寝室。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（隣（物色音）がうるさいので壁ドンしてもいいですか。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ではクーは女部屋をカサカサ探索した結果、写真を見つけました！　パカパーン！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（クー何やってるの感すごい）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（（心が）汚れているから仕方ないなのよ）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「おーい、もう少し静かにしてくれー」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>壁ドンドン。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（そんなにうるさく調べてるの！？）　どうやら相当に音が響く家だということが分かりました。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではクーは家族全員が写った集合写真を見つけます。軽く学校の１クラス分はありそうです。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1クラス！？　クーの顔が青くなります。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>クーのＭＰチェックが熱くなるな……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ふむ、クーには盗賊の心得を仕込まないとダメなのね　※アレは商人です</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1クラス何人ぐらいでしょう、コレ結構地域によって10人以上差が出るんですよね。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ちなみに自分の感覚だと1クラス30人です。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>30人ですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>30……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（私の場合はクラス調整で１クラス30人のときと40人超えるときがありました）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（最近の小学校は20人くらいのところも多いですなの）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>よし共通認識！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（アレPL世代は第二次ベビーブーム後なので40人越えるなの……（プルプルプル））</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>30人の家族ってｽｺﾞｲﾅｰ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（こ、これ……家族写真……！？　バカな……！　家族30人ってどういうことなのおおおおおお！！）」</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>手を震わせながらそっと元の場所に写真を戻しておきます。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>写真、戻しちゃうのかー</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>残念ながらクーは秘め事がお好き……。悶々としながら床に就きます。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（クーの性格が迷子）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>親の兄弟も多いんだよ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>きっと。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ミルの家族ならネズミ算式に増えるかもしれないなのよ）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そういえば獣人だった。ンクさんも相当兄弟が……っていない設定だったわ！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>獣人は兄弟多そうですね、基本。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そうですねー。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>ンクさんとか6人生むの……？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（猫は出生後の生存率が……ﾎﾛﾘ）※PLの実話に基づき</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ンクの村では生まれた子供を崖から突き落とし、這い上がってきた子供だけ育てますなのよ）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（それ獅子や！　ついでにライオンはそんな子育てしません！！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではロイスは弟Aが家を出る準備をしているのに気が付きます。知力＋2D6で判定してください</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（2階の寝室から気付くってロイスさんすげぇ！　窓があったのかな）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（同じ部屋だったとか）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>準備だから！　同じ部屋で準備だから！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（そういえば同じ部屋でした）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>達成値はいくらでしょう！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（見つけて欲しいときは達成値ナイショなんだよ！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（わかる……＞ナイショ）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>2D6＋1　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋5) ＋ 1 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>3＋2D6(10)　知力判定！　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 3 </B>＝ <B class=dc>8</B>　　<B id=dmis>-2失敗！</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ぶわ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>なかった事にしよう……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>でもアレイラさんとミイは弟を尾行するそうですよ！　ってさっき宣言してた！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>つまりロイスさんだけが気づかなかったという事態ですね！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（それ最悪だー！？）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（不幸だわ……）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>同じ部屋にいたはずなのに！！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>きっと弟Aは隠密持ち……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>アクション起こせば！　まだ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>これはもうロイスさんはクーとのフラグをすすめる他ないでしょう。（断言）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>さぁ、夜は長いですよ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>久しぶりに安心して過ごせる夜なのよ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>結局隠れた会話も聞きそびれたロイス。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>あれ、今回のロイスなんかダメだな！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ダメンズなロイスさんも素敵ですね。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ただ現状だと弟さんを必死に追いかける理由もないんですよねー。</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>どうしよう弟さんがピンチになる予感ムンムンです。アレイラさんファイト！</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>アレイラ＆ミイ　vs　暴漢！　ＨＰ10の人間ならまだ勝てるチャンスが！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>妖精戦わせちゃう？！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>普段セブンセンシズが働いてるのかってぐらい勘がいいのに（多分）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>最後に締めれば大丈夫なのよ。</div>
+<BR>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（女部屋に戻ってフェアリーズがいないことに気づいて探しにでもいこうかな）</div>
+<BR>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではロイスは机の上に置かれた家族の写真（さっきのと同じ物）を見つけます。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>以上。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>以上ｗ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（おお！男部屋にもSAN値が下がる写真が！）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「お、家族の写真かー」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>30人である。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>っと30人くらい家族がいる写真をみて。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「（多いな……けど俺んとこもこれぐらいいるしなー、</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>外の世界の事情は知らんが案外こんなもんか）」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>っと写真を戻してグー。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>孤児院育ちですもんね。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（孤児院は仕方ない）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（孤児院、闇に飲まれる「ロ゛イ゛ズお゛に゛ぃ゛じゃーん、だずげでぇー」）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（SAN値下がるからやめてあげてええええええええええ）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（まだ孤児院まではそれなりに距離があったはず）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（でもほっとけば確実にたどり着く未来ではあるという……）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>孤児院を思い出してもいいのよ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>横になりながら</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「（そういえばあいつら元気かな、霧を見て逃げ出してくれればいいが、爺さん脚患ってるしな……）」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ンク</B></font></div><div id=tx class=ct5>麗しのネコビトンク、ただいまより参戦します！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>2D6 二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋3) </B>＝ <B class=dc>4</B>　　<B class=fred>ドＭ</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ンクさんドＭ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>またドＭ！？　ドＭのンクさんです。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「すぅすぅ……サブラァーイ　ブシドゥー　ブシドゥー……」(やや苦悶の混じる寝息)</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>部屋に戻り。ガチャリ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ンクさんが、ハムイさんが言ってそうな寝言を……いや聞いたことないけど……」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「サブラヒが一匹……サブラヒが二匹……あー、あー……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（毛布かけなおしておいてあげよう……）」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ンクとアレは、ハムイと一晩、酒を酌み交わした仲なのよ）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>寝言うつってるｗｗ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クーは布団の中で30人の家族に囲まれる夢を見ています……ああっ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>部屋に戻ってきたリーナは妖精達がいないことに気が付きます。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ってあれ、アレちゃんたちは？」キョロキョロ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「っかしいわねー……（ンクさんに聞いてみようかしら……？　いや、でも……）」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>枕を引っ張ろう（希望）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（起こすのも悪いわね……）クーちゃんはまだ起きているかしら……？」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「あ……二人は弟さんを追いかけて……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あら、起きてたの！？　って、あの子達……！　私は探してくるわ、クーちゃんはあったかくして寝ているのよ！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>と、ダッシュで飛び出します。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「……はい」　　　ってンクさん寝たまんま！？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>女性が夜に一人ってあーた。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（クーもつれてきたら、ロイスが助けに来る理由が……出来たなの……）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ンクさんはこの大声に飛び起きてもいいと思うんです！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>クーちゃんも不安でついてきてもいいと思うんです！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>どんだけリーナさん信用されてないんですかぁぁぁ！！</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>クー「（どうしよう、リーナさん一人だと心配だし私も行った方がいいのかな……）」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>アレとミイは窓から出て行く弟Aが見えたので（窓から）飛び出して生きました。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「って、あの子達、どの方向行ったかわかんなーい！？　クーちゃん、どっちの方向だった！？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>部屋に戻ってきます！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「……やっぱり行きます」　　ダガーを腰に差して。でもおかしいこんなのクーじゃない。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ご、ごめんね、お姉さん手間かけさせたね……」とクーに声をかけて、</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「やめろォ！二人で脱ぐなーッ！！」がばっと跳ね起きます。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>起きたーｯ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ンクさんは大変目覚めがよろしいようで……」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「む……どうしたのリーナ。ご飯？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、ンクさん、アレちゃんたちが行方不明でっす！」と凄く誤解を受けそうな表現を用います。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「えっ、かくかくしかじかで？　なんてこったすぐに追いかけよう！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>というわけで、クーちゃんの証言をもとにフェアリーズおっかけですね！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（そこでロイスの部屋にいって裾を引っ張ってもいいんですよ）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>私はまちがっても（罠にかける以外の目的で）自分からロイスさんに話しかけたりしません！　親の仇ですよ！？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>恩人でもあるんですよー（ボソ）＞親の仇</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>親殺しと恩人はどっちのが度合い高いだろう！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>目の前で親の首はねられちゃったらさすがにちょっと……。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>親の首はねたっけ！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>なんかふっ飛ばしてコロコロした記憶が！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>くびちょんぱだったですよ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>タイミングが良すぎるンクさんのコメントで首が飛んだことになりました。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>(ああ、余計なコメントをしたせいで)</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（愛憎の展開、いいではないですか……ククク）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ごろりと転がる母の首。それと目があってしまったクー……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（憎しみと愛の狭間で揺れ動くんですね？）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>そんなこんなしている間に男部屋にヴァンが戻ってきます。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「グーグーサブラァーイ　ブシドゥー　ブシドゥー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>なんなの伝染病かなんかなの＞寝言</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「この寝言ってうつるん！？怖すぎやろ！」思いっきりハリセン。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「あっごめんロイス」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「ってー！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>もうみんな起きて弟さん追いかける感じでいいんじゃないですかね……（ゲッソリ）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>大所帯すぎる……ｗ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「よし、ロイスも連れて行こう。ロイスー！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「んん？ふあー……あん、なんだ？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、そうですね、ついでにロイスさーん！　朝ですよー！　嘘でーす！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「なんや隣の部屋でよんどるで？いってき？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>寝床から飛び起きて男部屋に堂々たるエントリーだ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「おいうるせーぞ、今何時だと思ってんだ」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「大変なんだって！大変なんだよ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「時計見てないからわかりません！　それよりも事件です！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「ああん？</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>どうせ薬が爆発したとかチッコイのが詐欺働いたとかそんなのじゃねーのか？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ちょっとー！！　私は薬を爆発させたことはないわよ！　他人を燃やしたことはあっても！　失礼ね！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「それはそれでどうなんだよ……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あれは正当防衛だからいいのよ」キッパリ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「そんなんじゃないんだって！アレイラが爆発詐欺を起こしたんだよ！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「リーナさん、早くしないと……」　　　もうロイス置いていっちゃおうよムードで。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ん、そうね……早くいきましょ！」とクーに応えるかんじで。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「ったく、しゃあねえな……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「世話掛けよんなー。ちょっとしんどいからねとくわー、がんばってなー」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>疲れてるんです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ええ、ヴァンさん、ちゃんとあったかくして寝るのよ、って毛皮あるか……ともかくごゆっくり！」と急いで走り去ります！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「リーナとクーの面倒はみてるからそっちはそっちでよろしく！じゃ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「え、ちょっと、私面倒見られる側？！」とかツッコミながら並走ですね。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ロイスがヴァンの夜の面倒を……！？　　※携帯広告風に）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（【興味があります】＞携帯広告風）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイス付いていくんじゃないの！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>せんせークーちゃんがいやがってまーす！＞ロイスがついてくる</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー的にはなんというかロイスに頼るのがすごくシャクに触るんです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ああ……年頃だ、年頃の乙女だ……！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>では妖精たちの走っていった方へとダッシュします！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>どっちだ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ドアを開け放したままドタドタとダッシュします。</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>ここは2階でしたっけ？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>二階ですー。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>では階段を踏み外しましょう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ンクさーんなに自主的ファンブルしてるんですかああ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>最後のガラスをぶち破れ～（２Fから飛び降りる）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ヴァンの家が悲惨に。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ガラス無さそう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ダイスの出る場面でもなさそうなのに！（笑）＞階段を降りられたかどうか</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ア゛ーーーッ！！」ガタガタベキベキバリン。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ンクさあああああん！？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「大丈夫気持ちい゛い゛か゛ら゛……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（ドMって事故的な痛みでも快感を覚えるの……）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「いけないこれは一生治らない性癖”マゾヒスト”が発症したかもしれないわ！　っていつもじゃないの！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（ギャグパートだと思い切ると色々やりやすくていいですねフフ……）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ああ、いい……痛みこそ生の実感……歓び……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「それ感じすぎると段々何も感じなくなっていくのよー！？」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>とか言いながら多分後頭部とかに出来たであろうタンコブなんかを冷やしていますね。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>時間とられてますね、クーちゃんにはご迷惑をおかけしますね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>では、シーンが切り替わって（？）アレとミイのシーンです。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>はいはーい。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>アレさんとミイは弟さんを尾行しにいったんですよね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミルにアレとミイの二人が乗っても問題ないよね、こっそりついていくなのよ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>クーが探し物をしている最中、弟Aが家を出て行くのが見えたので尾行する事にしたアレ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>窓から出発！　ヴァンの家の窓は木です。妖精なら出られるサイズ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「窓！　ミル！　窓からジャンプなのよ！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ミル「さー、かびーばらーさー！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ミイ「ひぃぃぃぃぃ、これだから誰かに飼われた方がいいんじゃねって、言ってるのよ！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>喋ったー！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ダイナミック外出）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ミルとミイって並んでると空目するー！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>空目しますね！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ミルが喋ったかと思った！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>素でミルが喋ったかと！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ミイを改名してしまおう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>それ以前にミルはミイと混同するほどしゃべらないと思うんです……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ミルが喋ることに慣れた我々がいます……）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミル「ずさぁっ！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ミル、あのキツネを追うなのよ！」（刑事ドラマっぽく）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（背景に爆発いりますか</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（爆弾入ったらバレるなのよ！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>では10分ぐらいしたところで弟Aが目的地に付いたようです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（アレちゃん何やってるの感すごい！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>目的地はパン屋のようです。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ミイ、あんぱんと牛乳の用意はしたなの？」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ミイ「あんぱんなら、あそこで売っている感じしない？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（あんぱんあるのか！ｗ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（あんぱんがある世界設定！）</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>3. パン屋</H1>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>その辺りでリーナ一行が追いつきます。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「うおおー！！　アーレーイーラー！！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>夜の街に響くンクの声……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>かっこいいミルの追跡シーンはなんだったなの！？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>妖精達が遅すぎるのだ……。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>まあ弟Aは歩いてたし、普通に追いつけるよね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>街路を駆けるカピバラは目立ちそうですね。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、アレちゃん見つけたー！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「アレの後に立たない方がいいなのよ……」（スナイパーっぽく</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ミイ「はいはい……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「お前ら夜なのにうるせーぞ！」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>と大きな声で。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（あ、ロイスもついてきたんだ！？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（ついてきてるよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ヴァンとハムイの寝顔を愛でているのかと思ってました>ロイス。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>愛でている……（噛み締める）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロイスもそっちに……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>新刊何冊できちゃうんですかああああ！！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>それなんてB――</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>やめてー！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>今年の夏は大変ですね（爽やか）＞新刊</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「こんな夜中に何やってんのアンタ！不慣れなミイまで連れ出して！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>てかパン屋まで無事に到着したんだったら特に何も困ったことないんじゃ！？</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>じゃなくて、弟さんがパン屋に入って特に何も変化なしですかＧＭ？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>パン屋は明かりがついてます。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「ミイさんは弟さんのお仕事手伝うんですよね」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「へえ、そうなの？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「え、パン屋？手伝いに？」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「なんか面白そうだからついてきただけなの」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ミイ「あたしは面倒臭いんだけどねぇー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、それなら私も手伝いましょうか……ね？」とンクさんのほうをチラリ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「アレイラが……手伝い……あり得ない、なにかの間違いではないのか……これは夢……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（ンクさんが精神的ダメージを……）」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイ的にはハムイさんに指示されたので弟さんの手伝いを遂行するはずだ！と思う！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ミイちゃん、こういうことが面倒くさいってあなた……よく奴隷になりたいとか言えるわね……」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイちゃんが一番面倒臭いのは自分でＹＥＳかＮＯを決めることです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（なるほど……）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイをギャル風にすればいいのか、奴隷のように意志薄弱にすればいいのか、わからないなの。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>キャバ嬢風に。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ギャルで従順？　ミイわかんないなのー！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>え、妖精って、みんな「なの」つけるなの？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>アレイラさんにも影響されるんじゃないかななの！　ミイちゃんは混沌素直ですね。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>（意味が分からないよ）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ヤンデレ。ヤンデレにしよう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>じゃなくて、弟さんがパン屋に入って特に何も変化なしですかＧＭ？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>稀にベチーン！ベチーン！　と聞こえる程度。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「なんだ、ヴァンの弟がパン屋に行くからってついてきてただけかよ……」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（SMの音）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「しかし中から聞こえる音……興味深いね……興奮してくるよ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ごめんなさいなんで興奮？　興奮する要素ありました？　あれ？　打ち所悪かったですか？」真顔。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「リーナには……まだ早い」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「ンクさん、それパン作ってるだけですから……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「早いって何！？　年齢制限！？　それならひゃk……なんでもないわ！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「と、とりあえず……ここに佇んでるのもどうかと思うから、中に入れてもらう？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「手伝いしていいかどうか、それは分からないけど……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「あー上手いぞー！ﾊﾞﾝﾊﾞﾝ」パン屋から聞こえる謎の声。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ごめんくーださーい、なの」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>既にドアを叩いてるなの。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（私たちみたいな素人が手伝っていいのかなあ……？）」　三歩後ろで見守っています。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「いつもながら行動早いわよアレちゃん！？」慌てつつ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>謎の声「なんだー！まだ店は開いてないぞー！」(ｶﾞﾊﾊ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「おぃ、開けろよー、客だぞー、神様だぞー、なのー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……クーちゃんもなんかあったらいけないし、いきましょ」とさそう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイ「お手伝いに来ましたー！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>遂に主ＧＭにミイの主導権を奪回されたなの！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>みんなで混ぜてカオスにしよう！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「何か出来ることがありましたら、お手伝いをさせて頂きたくて」ぺこりとお辞儀をしながら</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「何でこんなことになってるんだ……？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「私、料理なら多少できますよ！」少しﾄﾞﾔ顔！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「手伝ってくれるのかー！今はバイトが足りないからうれしいが給料をまともに払えるかわからんぞ！？」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>とドアが開いてでてきたのは筋骨隆々な大男です。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、それなりでいいです！」＞給料</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「アレはブラック企業に協力するつもりは無いなのよ！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ミイ「あたいは仕事ならなんでもこなすよー！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「手伝っていいなら……」　　じゃあ手伝いたそうにリーナの後ろにいます！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「パン作りって楽しいんだよー？　クーちゃんも頑張ろうね！」とか明るく声をかけます。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「いまは緊急事態、きっと食料の買いだめをする客が殺到するなの！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「客はなー！　ほとんど逃げちまってなー！」＞買いだめ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（料理は平目だけどいいのかな……ふふ……）」　＞数日前の思い出</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「いまこそ日頃の料理の腕前を見せるときなの」＞料理は平目</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「アレちゃん料理してるの見たことないけど……できるの？」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロイスとハムイが平目なのに料理できたので自信満々なのよ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（思ったけど獣人の手ってパンこねれるのかな）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（毛だらけだー！？）</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「私は失敗しないところだけでいいんで……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（手袋してると思ってました＞獣人　パン）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「体力いるぞー！大丈夫かー」手前にいたンクをﾊﾞﾝﾊﾞﾝ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「（あ、これダメなパターンだな）」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「俺は見学に来ただけだからなー、皆頑張れよ―」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ロイスの危険察知スキル発動。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「えー、ロイスさんもやりましょうよ。せっかくですし」えー、と非難するように口を尖らせつつ</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「体力はないですけど、パン作りなら故郷でいつもやってましたし……！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>この中だとンクさんが一番の体力派料理人ですね！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「まかせて！」(にっこり)</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>一番パン作りに向いているキャラ、ンクさん。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「こんな手で出来るかよ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あなたには……立派な右手があるじゃないですか……！」＞手</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>立派な右手。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>左手もすごいよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ギャグパートだからってネタ入れすぎですねはい。今のも元ネタがあるぞ、懸命な読者諸君は推理してみよう！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「獣人はこの手袋やるからよー！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ほら、大丈夫そうだし！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「俺は獣人じゃねぇぇぇぇ」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ほとんどの客が逃げてしまったって、パン売れないのに作っているなの？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「ぼろ儲け程度じゃないけど売れはしてるぞ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「生活している人がいる以上、食べる口が存在していますから、食料は売れるでしょうね」うんうん。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そもそもこの状況下だと保存食以外は売れないでしょうから、普通のパン屋さんはいまいちでしょうね（ＧＭ的発言）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「さぁ、些細な問題はさておいて、やりましょ！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「時給いくらか聞いてから判断するなのね」（金が無いのでなんでもするけど）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（なんでもする……！？）」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「リーナの勘違いのせいで目が覚めちゃったけどせっかくだからね。やるぞー！やるぞー！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「え、私！？　私のせい？！　って何か勘違いしたっけ私！？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「あー！長持ちしそうなパンならあるぞ！給料も三分の一でよかったらいいぞ！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>給料どれくらいだろう(悩）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>臨時ＧＭさんは保存食の補給場所を作るつもりだー！！（メタ）</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>ではもちろん参加しましょう。クー的には自由に使えるお金が欲しい！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「メイド服を着て、ケチャップでハートマーク書いてあげればいいなのね？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「アレちゃんの知識が間違ってることが今までの旅での人間観察でもう流石にわかるわ」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「俺帰って寝ていいか……？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「だめ。手伝ってください」手をぐいぐい。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「そのほうが、面白いでしょう！？　色々！」差し迫りながら！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ロイスはクーにお小遣いをあげたいんじゃないの？　帰っていいんじゃないの？　ハードボイルドなのよ！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（シーラナイッ！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>時給40シルバ位でいいのかな。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>1シルバあたり50円！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>つまり40シルバだと時給2000円くらいですね。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>たけぇぇ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>参考:ハムイは三時間拘束されて300シルバ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2000シルバなの？（難聴</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>たぶんバイトだと（給料3分の1として）時給5シルバくらいだと思います。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>5000シルバ、了解なの！（難聴</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ありがとうございます>時給の相場</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>だから時給600円くらいだと換算するなら、12シルバ……って5！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>5シルバ、なんかお駄賃感が漂う！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（日本円にして250円ですって！？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>りんご代返せるし……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ちょ、ちょっと、最低賃金！　最低賃金！！！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>最低賃金および深夜給手当の要請をします。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>押しかけといて賃金要求するとかがめついなこのパーティ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>がめつくないとやばいですからねお金！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>とりあえず現物収入としては余ったパンをいただけるだけで十分っぽいです。</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>お金はちゃんとこっちの（主GMの）シナリオで渡すかーらー！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>やった！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>やった！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>やった！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>やった！？</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>サントリナさんには体を売っていただきます。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>肉体労働＝体を売る。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「おぃぃぃっ！！　アレイラメイド喫茶の従業員に手出ししちゃダメなの！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>髪の毛とか歯でいいですか。ダメですか。そうですか。ならば需要にお応えしましょう！！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>髪の毛って売れるのかなあ……この街奴隷いっぱいだからその辺困って無さそうなんですよね。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>奴隷がいても、品質の問題とかで需要はあるようですよ。現在日本でも売れるくらいですし。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>サラサラの毛っぽいし売れそうな気は。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレはロングのツインテなのよ！　ミイはどうなんだろう？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>パーティーからロングヘアーがいなくなってしまう！</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>（髪の毛かあ、売ると300シルバくらいかなぁ……）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（シルバにすると安く感じる……　価格交渉の出番ですね、綺麗だからもっとあげろーって！）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（ぐぬぬぬっ　妖精の髪の毛はロングでも短いなの……）＞300sに心揺れる</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（妖精の髪の毛は長くても10センチとかだから数百円の世界ですね……）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイスの毛が伸びます、ろーんぐ。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「んじゃ俺ここで寝るからなんかあったら起こしてくれ―」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>って店内の隅っこでぐー。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「あんたねるんか！寝るんなら後で接客してもらうぞ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ほら怒られてますよ事件ですよ起きましょうね」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>目立っちゃいけなさそうなロイスが接客！そういうのもあるのか。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「じゃあ帰ってもいいよな……？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「パンの生地を作るところからだな！とりあえずこれを混ぜろ！」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>大量の小麦粉ドン！牛乳卵ドン！　体力で2D6判定して置いてください</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ロイスは台の上で寝てればいいよ。生地と一緒に捏ねて揉んであげよう」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「なんか嫌な予感がするし、帰れそうにないわで……ったく、手伝えばいいんだろ手伝えば」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>2D6＋1　クーの急所パン練りぃぃ！！　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 1 </B>＝ <B class=dc>6</B></div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>でなかった！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>4＋2D6 なんかを捏ねる　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋5) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>3＋2D6　右手で生地へ【連続攻撃】　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 3 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「さ、がんばりましょうね！」こねこね。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（急所？！）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>4＋2D6 コネコネー。　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) ＋ 4 </B>＝ <B class=dc>13</B>　<B id=cc>←それ知力！　でもダイス目がいいので１０行ってますね！</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>1＋2D6　キーック、アレキーックこねこね　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 1 </B>＝ <B class=dc>11</B></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>アレは生地の上で地団駄踏んでますなの。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>おおおーい！！　やっぱりアレイラさん怪力やないですかああ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>アレイラすっごい！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そしてこんなときだけサントリナがすごい。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>知力！　これ知力だから！　そして無駄に出るサントリナ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>体力！体力だよ！　じゃあアレイラとンクさんが11ですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>た……体力で</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>知力でパンを捏ねる耳長！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（あ、体力だったんだテヘペロ　じゃあ－３しておいてください☆　で、１０か）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>クーのみ小麦粉と卵と牛乳を混ぜただけとは思えないような物が出来ました。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「私……料理だめですね……ふふふ……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「おいなんだそりゃ、なんか蠢いてるぞ……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「クーちゃん大丈夫、これからがあるわ！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「よくやったクー！それロイスの朝ごはんね」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1D6　ＭＰダメージ　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ﾄﾞ……ﾄﾞM。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>名状しがたきものを見てSAN値ダメージ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「じ、自分で食べます……！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ゲテモノ食いのクー（新二つ名）2D6で13が出たら</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ダメだクー！　それは逃げだ！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「うぉぉぉぉぉぉぉ、ずんどこ、ずんどこ、ずんどこ、なのぉぉぉぉぉぉぉ！！！」（まだ地団駄）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ンクさんが食べたいんじゃないかなウフフ……」＞クーちゃんのパン　　ドMだから……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「だ、だって……サトリさんの名状しがたきものを食べそこねたもの……！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ものを作った時にはね、必ず他の誰かに評価してもらったほうがいい。例えどんなに自信が無いものでもね」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「死ぬから！　あんなん食べたら死ぬからああ！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「案外美味しいかもしれないじゃあないか……ねえロイス」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「俺は食い物しか口に入れない主義でな……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「それクーちゃんが作ったものは食べ物じゃないって言いたいんですか酷くないですか」詰め寄り。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「じゃあアレの名前を言ってみろよ……」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>うごめくものを指さして。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「パンの生地」にっこり。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「どーこーがーだー！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「アレの名前はアレに決まっているなのよ！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「分かった分かった。ロイスの愛はまた別のところで試されるさ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「いいですね、愛の試練……！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「じゃあそれをちぎって型に入れてくれ！」　食パンです。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>クーの物も調理しましょううふふ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「型ってこれか？」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>なんかそれっぽいものに放り込む。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「次の準備もあるぞ！ほらほら！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、はーい」＞型に放り込む</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>とりあえずもっと状態がひどくなるように心がけながら型に入れます。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「（サトリさんには負けられない……！）」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>状態酷くなるように！？ｗ　型溶けそう！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「うぉー、型に放りこめーなのー、スリングでぶーん、ばっしゃーん」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「型に入ったかー！なら次は窯まで全部はこんでくれー！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>体力で判定して下さい。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>失敗するとダメージですようふうふ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>また体力……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「オーケー！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「はいはーい！」　もう体力はやめてよぉ……。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1＋2D6 体力はんてーい　 (ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 1 ＝ 6
+<BR>（安定の出目……ﾌﾞﾜｯ）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>2D6　クーの汚い釜入れ！　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 1 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>4＋2D6 釜へ　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 4 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋1 釜に挿入　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 1 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>3＋2D6　釜へ生地をダイブ　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 3 </B>＝ <B class=dc>13</B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイスー！！！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>「ああ！かまどに！かまどに！ロイスが！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（目標値がわからないぞ……）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>2D6＋4 パンの重量　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 4 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>よかったまともだ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>リーナがリーチかかってますううう＞ＨＰやばす</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ちょっと、アレ、釜の中に入ったまま、あつい、あっつ、死ぬ、死ぬなのよ！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「リーナさんが釜の中に……！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>上手に焼けました―。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「うぎゃああああ？！　」ずべしーん。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「みんなずるいよ！混ぜて！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>アレとンクとリーナはずっこけて生地を汚しました。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>窯に入ってないよ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>もうダメだー！＞生地を汚した</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ダメージ1D6</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>パンの重さとの対抗判定だっただと！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>はい>対抗判定。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ダメージ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>1D6 ズッシャアアア　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ヘタするとアレイラ死ぬｗ</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「体力の半分を使ったかのような疲労だわ……私はもうだめだわ、先に……行きなさい……ｶﾞﾊ」ﾊﾟﾀﾘ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「材料はあんまのこってないから失敗したら自分のもんだぞー！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>1D6　ダメージング　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>(お手数ですがシートのメンテをお願いします)</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>パン屋、死ぬ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>残ったのが名状しがたき6パンとロイスの10パンですよ！？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なんだこれはぁ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ってかこれ普通は二人がかりで運ぶような重さですよね！？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>でもなぜかクーが軽々運んでいます。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>結果まとめは以下の通りです。</div>
+<div class=box>ロイス　　ＨＰ 15　ＭＰ 5
+<BR>ヴァン　　ＨＰ 21　ＭＰ 7
+<BR>ハムイ　　ＨＰ 18　ＭＰ 12
+<BR>ンク　　　　ＨＰ <B class=fblue>14</B>　ＭＰ 7
+<BR>アレイラ　ＨＰ <B class=fred>2</B>　ＭＰ 15
+<BR>サントリナ　ＨＰ <B class=fblue>6</B>　ＭＰ 18
+<BR>クー　　　 　ＨＰ 10　ＭＰ 10</div><div id=com>　</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>よっぽど自分で食いたいのか……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>気のせいです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ロイスがいなければ死んでいましたね＞残ったの</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>パン屋がこれ程の激務だったなんて、アレは知らなかったなの。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ドMロール……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>おめでとう！君達は－2保存食を6色分入手した！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「まさかパン屋がコレほどまでに過酷だったとはな……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>(そのためにダメージいれた。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「量が……量が違う……」床に伏したままうーんうーん。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>あ、ミイさん放置されたまんまだった。　代わりに振りましょうか。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイは釜の近くの暖かそうなところで寝てます。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>働け―！？</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイ死んじゃうって！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>奴隷根性どこいったー！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>どうぞどうぞ＞みい</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1＋2D6　ミイの体力10判定　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 1 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>1＋2D6　ミイの釜入れ目標値10（よね？）判定　　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) ＋ 1 </B>＝ <B class=dc>10</B></div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>お、おい！！　ミイちゃん普通に成功してるぞ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>働くことに関しては真面目だ……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「汚れた分も焼くからなー！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>妖精に力仕事で負ける戦闘系獣人。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>6と8と10のパンが生き残りました</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>残りは汚れたまま焼きました。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>やヴぇ、ミイの方が、本当に優秀なの……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ま……薪運び……。　2r4＋2D6 弟A　</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2> 　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（優秀だわ</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>パン屋の為に生まれてきたなのね！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>弟Aは綺麗に出来たパンをそろえています。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「さすが毎日やってる人は違うわね……」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「うんうん、たいしたもんだよ。イテテヒヒッ」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>っていうか、これって、アレたち、遊びに来ただけ……なの？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「並べ終わったら火いれるからすみいれるぞー！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（ってか、汚れたやつは普通そこちぎらなくていいのかな……）」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「（やっと名状しがたき何かを食べられる……！）」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>衛生面でかなり潔癖なのは日本だけとかなんとか。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>食べ物床は流石にどうだろ？！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>焼けばセーフですよセーフ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そ、そっかぁ！＞焼けばＯＫ</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイの分も振っていい？　負けるなら自分で振りたいなの！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>じゃあミイの分はアレイラさんにお願いします！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>炭運び体力判定。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>今回の目標値を教えてください！ また10？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>5＋1D6 炭重量　 　<B>(ｺﾛｺﾛ…)   ダイス 6 ＋ 5 </B>＝ <B class=dc>11</B></div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ぷっ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ちょ　たっか。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>あら？1D？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>大丈夫ですよ失敗してもダメージだけ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>(死）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>目標値11ですか！11でいいんですね！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そのダメージで死ぬ子もいるんですよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>4＋2D6(10) 「ヤルゾッコラー！！」　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) ＋ 4 </B>＝ <B class=dc>14</B>　<B id=dsuc>　+4成功！</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「疲れたなら休んでもいいぞー！」>炭</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ドＭのクー突貫します！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>1＋2D6(10)　ダメージ値いくらなんですかー？！　</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「無理無理はこべなーい！　重いー！」　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 1 </B>＝ <B class=dc>8</B>　　<B id=dmis>-2失敗！</B></div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>2D6＋1（１１）　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 1 </B>＝ <B class=dc>8</B>　　<B id=dmis>-3失敗！</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋1(11) アレ　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 1 </B>＝ <B class=dc>6</B>　　<B id=dmis>-5失敗！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋1(11) ミイ　　　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 1 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>3＋2D6(11)　えーんやこーら　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 3 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ダメージ1D6－1で</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ひょいひょい。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>アレイラ死んだ！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>予想通りンクさんとロイスさんしか成功しません。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>お？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あはははは……」（GMが殺す気マンマンだー！）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6－1 ダメージ　 　<B>(ｺﾛｺﾛ…)   ダイス 2 － 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1D6－1　クーダメージ！　 　<B>(ｺﾛｺﾛ…)   ダイス 6 － 1 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>出た！！　　<B id=dhp>マックスダメージ！　　クーＨＰ 10 → <B id=ddmghp>5</B></B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>パタリ……「もう無理……」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋1(11)ミイ　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) ＋ 1 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ドＭだった）クー「うふふ……楽しい……」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイ！！！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>( ﾟдﾟ )</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>盛大にずっこけた！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>なんて恐ろしい暗黒パン屋なんだ……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイが優秀すぎる件。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ミイハイスペックなんですけど。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「まさかパンを焼くだけの仕事で生死を彷徨うとはな……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>2D6＋4(11) 弟　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 4 </B>＝ <B class=dc>14</B>　<B id=dsuc>　+3成功！</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>1D6－1 アレのダメージ　 　<B>(ｺﾛｺﾛ…)   ダイス 6 － 1 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ﾁｰﾝ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ちーん。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレＨＰ－3　になりました！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>マックスダメージｗｗ休んでもよかったのに。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>流石にパン屋で戦闘不能になるのはどうだろう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ですね……嗚呼……）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>アレイラさん死亡確認！</div>
+<div class=box><B>【ただいまの惨状】</B>
+<BR>ロイス　　ＨＰ 15　ＭＰ 5
+<BR>ヴァン　　ＨＰ 21　ＭＰ 7
+<BR>ハムイ　　ＨＰ 18　ＭＰ 12
+<BR>ンク　　　　ＨＰ 14　ＭＰ 7
+<BR>アレイラ　ＨＰ －3　ＭＰ 15
+<BR>サントリナ　ＨＰ 5　ＭＰ 18
+<BR>クー　　　 　ＨＰ 5　ＭＰ 10</div><div id=com>　</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>アレイラは炭に飲み込まれて釜の中で……。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ＨＰがマイナスになったら脱落にしよう！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>あの、ミイの方が、生活力あるんですけど、なの……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「おいどうした！寝んなよ！」回復薬ぶっかけ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>もしかして：店が払う給料より回復薬代の方が高く付く。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>パン屋の手持ちだよ？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>もったいない！ ここはリーナの医療キットなし回復ですよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>わかりました、アレちゃんをおいしく料理、ですね？　</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ついに役立たずのアレはリーナに料理される……なのね……世知辛いわ……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、薬剤は私が使ったほうが効果高いので私に渡してください……」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>パン屋が経費で回復薬使うってどうなっているんだ……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>さあ、ノー医療キット治療を5回は撃てますよ！久しぶりにどうですか！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ノー医療キット治療……ｺﾞｸﾘ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ﾄﾞｽｯ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>毎日が戦場のパン屋なのよ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>このパン屋店員がよく倒れて有名なんですよね。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>悪名じゃん！！　ブラックってレベルじゃないよ？！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>だからいつも持ってる>回復薬。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そんなの絶対おかしいよ……。
+<BR>（戦闘中生死の堺をさまようようなケガに使うアイテムをほいほいなんてー！　中毒者出るよー！）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「ほら、やっぱり嫌な予感的中じゃねぇか……」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>どうせこっちのセッションが始まる頃には満タンなので面白い方向でお願いします！！</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>（※実際には満タンになりませんでした）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「アレちゃーんはーい痛くなーい痛くなーい……フフ」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>というわけで医療キット無し治療いきますか！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>1D6＋3 パン屋の薬ぶっかけ　 　<B>(ｺﾛｺﾛ…)   ダイス 4 ＋ 3 </B>＝ <B class=dc>7</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>え、ちょ、店長薬剤持ちなの。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>持ちです(店長）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>持ってないと経費がひっぱくするでしょうしね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>どんだけ危険なパン屋なの……こんなところに何も知らずバイトに来るなんてなの……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「だから体力いるっていっただろ！｣</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「おい誰だよ、ここで働くなんて言った奴……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>てか人件費より高くついてそうです！　確実に！　もっといい経営をしましょう！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「誰よ！　プンプン」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>パン屋店長が薬草探索も持っていればあるいは……？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>そのうち従業員が鍛えられて回復薬不要に。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「誰なの！？　激おこぷんぷん丸！！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>荒野と砂漠を薬草探索……！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>きっともってる＞薬草</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>薬草栽培してたりして。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ロイスさんのツッコミ待ち一同）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>薬草栽培キット持ってるんだよ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>（ここでまさかの原作アイテム）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>危ない薬草っぽいよ！　ってどうせならアブナイ葉っぱくださいなの！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>実はパン屋の親父最強説なのよ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>闇が迫っても逃げないなの！　それは、闇に攻撃する聖なる武器を持っているなの！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>聖槍持ちか……！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイスは事情知らないのでマジで働こうって最初に言い出したのが誰か知らないです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ｯﾁ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレは知的好奇心で遊びにきただけなのよ……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（まあロイスさん誘ったのは間違いなくｳﾝ</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>4. 完成後</H1>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>で、パンの完成はまだですか！！（ドン！）</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「（そんなことより冒涜的な名状しがたきパンを！パンを！）」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「パンが焼けるまでまってろー！あとちょっとだー！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「はーい！」汗かいたので服をパタパタしながら。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレ、実は、レク爺さんと川辺で何度も対面しているなのよ……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>エプロンと手袋はパン屋の備え付けです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>レクじいさんその川岸まだ渡ってないよ！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そういえばそうだ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>闇には飲まれたんじゃないかな……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ま、まだ飲まれてないかも……うん。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「あーあづ……ここはいっそハムイさんスタイルに……いやだめ私は理性を捨ててはいない……！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「焼けたぞー！どれ食ってみろ俺の作ったパンだ！」といっておっちゃんが作ったパンを渡します。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>普通のパンです。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>自分の作ったパンは！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>おっちゃんのパン（意味深）をいただきながら名状冒涜パンのために正座待機しています。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「もぐもぐ……おいしいですー」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「焼きたてうめー」もぐもぐ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「おいしい、おいしいけど……でも……なにか……足りない……」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>こげて、生気を無くした顔で隅っこに体育座りしていますなの……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「自分の作ったパンが汚してない・食べれるもんなら作ったパン置いていけー！それ以外は持ち帰れ！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>じゃあミイとロイスのは没収ですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ですねー。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>がーん、そういえば手伝いに来たんだった。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「クーちゃん……それ、本気で食べるの……」手元に来たそれを見ながら。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「……はい」　笑顔で。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーの作ったパン「ぉぁぁぁぁぁ....」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>た……体力。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>パンが喋ってるなの……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「わあ、パンから素敵な歌声が聞こえるようだわ♪」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>思えばこの冒険で初めてのクーの成果だったと言わざるを得ない。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>ずっと足出まといでついてきただけでしたからね。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>成果！？コレ成果なの！？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「立派な成果だよクー……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>成果……うん。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ではクーは怪しい叫び声を挙げるパンをほおばってます。モグモグ。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「（まずい！これがいい！）」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ＧＭー、質問です。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>唐突に背嚢から取り出したロープでロイスを拘束したいです。判定はどうなりますか？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ﾌﾞｰ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>なおそのンクさんのチャレンジの際お手伝いをしてもいいでしょうか。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ンクは2D6体力判定で、ロイスは1D6体力で対抗してください。サントリナは補助しても構いません。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>！？！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ロイスが圧倒的不利ｗｗｗｗ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>いきなり不利だー！？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>10％くらいで勝てますよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>では、流麗な動きでロープを取り出し、片端をリーナに投げ渡します。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>言葉は無く、アイコンタクトのみ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>アイコンタクトで了解の合図です。無言で、コクリ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「（しくじるんじゃないよリーナ！）」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（わかっていますよンクさん……！）」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「……！？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>4＋2D6 ｼｭｯ　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>1＋2D6 体力判定　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋5) ＋ 1 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>何か良からぬ気配を察知したロイス。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>かてぬｗ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>3＋1D6(11)　体力判定！　 　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 3 </B>＝ <B class=dc>6</B>　　<B id=dmis>-5失敗！</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「わーい、アイコンタクトだーいすきなのー、アレもー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ロイスは犠牲となったのだ。クーのパン、その犠牲にな……</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ロイス側マックス9だから無理じゃないですかああ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ンクとリーナの合計値/1.5くらいが妥当って対抗が1D6だー！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>圧勝ですね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋1　アレ　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋2) ＋ 1 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「なんだー！急に仲間を縛りだしたぞー！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>おおっと【プチ幸運】がここで発動！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（しても、勝てるだろうか！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>何回振っても理論上勝てませんロイスさん。3＋ダイス6は9にしか……ならないんです……。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クリティカルは自動成功ですよってクリティカルがなーい！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>【プチ幸運】は発動しなかった。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>何故かロイスと一緒に縛られてますなの。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ヘーイ、リーナナイス！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「フッ……やりましたね」勝ち誇った笑みで爽やかに汗をぬぐいます。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「（わあ、楽しそう……！）」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ロイスよ、先ほど言ったことを覚えているかい」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「何をしやがるー！？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ロイスの愛はまた別のところで試される……とね」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「何って……フフフ」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「意味ワカンネェェェェ！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ロープがじがじ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>パン屋のおっちゃんの名前きかないんだ……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>おっちゃんよりもパンの出来具合とロイスを縛れるかどうかのほうが重要のようです！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「叫んでも無駄！　ごねても無駄ですよあははははは！」腕組みドーン！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>軽く尋問だこれ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「どうしたお前ら！　今日なんか変だぞ！？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「試されるとき……そ れ が 今 だ よ！」</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>知力＋尋問LV＋2D6　で判定します。尋問！　【拷問】もオン！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>2＋1＋3＋2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 3 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>尋問だー！　初使用が仲間だー！！　しかもそれにとどまらず【拷問】も使用したァー！（実況風）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>尋問してたー！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>対抗いくつだー。</div>
+<div class=box><B>【尋問】スキル</B>　[消費ＭＰ3]
+<BR>　捕らえた相手から情報を引き出したり、反応から情報の正確性を判断します。
+<BR>　尋問側は【知力＋尋問LV＋2D6】で判定し、相手が【意志＋2D6】に
+<BR>　抵抗失敗すれば正しい情報が得られます。
+<BR>　1回あたり【ＭＰ3】と【3時間】かかりますが、何度でも挑戦できます。
+<BR>
+<BR>　【拷問】もできます、対象は1回あたり【ＨＰ・ＭＰに1D6ずつ】のダメージを受け、
+<BR>　尋問側に【＋3】のボーナスを得ます。ＨＰ･ＭＰが0以下になると話は聞けません。
+<BR>　【相手側の忠誠心】が強い場合、その分だけ相手にボーナスが付きます。
+<BR>　↑ Ver1.3以降、ノーマル尋問は【ＭＰ2】で【1時間】、【拷問】は【ＭＰ3】で【1時間】になりました。</div><div id=com>　</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>意志＋2D6だったような</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>意志の低い半獣はつまり諦めろとそういう。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>やる気満々ｗｗ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ロイスから何を聞き出すんですか！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>尋問の内容聞いてから対抗しよう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>食べるかどうかですよねこれ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>はい。＞食べるかどうか</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>と、いうことです！　食べるなら尋問ナシですねおわかりですね！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>「あたしに食べられるのとXXに食べられるのどっちがいい～」　とかじゃなくて！！　すでに質問でさえない！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「クーのパンを食べて”クーの作ったパンは美味しい”って言えたら解放してあげる」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1＋2D6(13)　意志判定！　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 1 </B>＝ <B class=dc>6</B>　　<B id=dmis>-7失敗！</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>クーの作ったパンは近づけるだけで1D6ＭＰダメージ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>【プチ幸運】使用！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>将来の嫁のパンなら食べられる。なのよ！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クーのパンはもう半分しか残ってませんよ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1＋2D6(13)　意志判定！　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋3) ＋ 1 </B>＝ <B class=dc>5</B>　　<B id=dmis>-8失敗！</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ぶわ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>食べかけ？　ご褒美ですね！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>半分だけでも食わせれば勝ち！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>じゃあクーはすごく残念そうにパンを渡します。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>え？　嬉しそうに渡そうなの！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ではロイスは拷問の【ＨＰ・ＭＰに1D6ずつのダメージ】　＋　クーのパンダメージ【1D6ＭＰダメージ】を受ける　でいいでしょうか。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>って【拷問】オプションまで使ってるじゃないですかあああああ！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「おいしいでしょう？　ねえおいしいでしょう？」じー。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>食べたら1D6ダメージですのでクーどうぞ(死）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1D6　クーダメージ！　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　<B id=dhp>　クーＨＰ 5 → <B id=ddmghp>3</B></B>！</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>「（ああ……求めていたのは……これ……！）」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>せーふせーふ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>拷問は無いですね。さすがに。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーがなぜダメージ！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ああ、食べたからか！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>1ターンあたりパンダメージだけ受けましょう（真顔）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>そんなDoTいやだぁぁぁ</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「デッドor食べる」なのね。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>違うよ！？　ダメージオーバータイム（毒などの継続ダメージ）だよ！？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>近づけるだけでＭＰダメージらしいですよ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ついでに、ロイスがダメージを受ける距離ですからアレイラも臭いは届きますよね？</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>さあ、どうぞ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1分も置いておいたら発狂する！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ぶーｗ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>てか皆食らうんじゃ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そんなパンをクーは半分も食べたの！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>鼻を抑えていますのでご安心です。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>皆どうぞ(</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ＧＭ！提案です。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ＧＭ判定きたー。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>見た目もやばいよ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>パン間近のキャラは1D6ＭＰダメージ、それ以外は1D6－4ダメージにしましょう。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>そうしましょうそうしましょう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ロイスさんさようなら。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1D6　ロイスＭＰダメージ　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　　ロイスＭＰ5→－1</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>今日はみんなドMちゃんなのね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>6だと！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>発狂！　オオカミ発動！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>やった！発狂した！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そらするわ！　発狂するわ！ｗ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>1D6－4 ヴァン弟　 　<B>(ｺﾛｺﾛ…)   ダイス 3 － 4 </B>＝ <B class=dc>-1</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>わおーん。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ロイスは白目むきました。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>男はみんなオオカミなのよ。クー、食べられちゃうなのよ（意味深</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>1D6－4　 　<B>(ｺﾛｺﾛ…)   ダイス 2 － 4 </B>＝ <B class=dc>-2</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ダメージなーし。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ひ……引いてる。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>1D6－4　 　<B>(ｺﾛｺﾛ…)   ダイス 2 － 4 </B>＝ <B class=dc>-2</B></div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1D6－4　クーＭＰダメージ　ダイス 1 － 4 ＝ 0</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>1D6　のＭＰダメージなんて屁も同然　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ぎゃー、鑑定するより精神的ダメージでかいなの！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>1D6－4 店長　 　<B>(ｺﾛｺﾛ…)   ダイス 1 － 4 </B>＝ <B class=dc>-3</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ほら、まだちゃんと”美味しい”って言えてませんよ？」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ロイスさんに【励ます】を使用します。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（鬼だー！！！！！）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>拷問ｗｗ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ｼｭﾜﾝｼｭﾜﾝ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>2D6 ：【励ます】　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋6) </B>＝ <B class=dc>9</B>　　<B id=dmp>　ロイスＭＰ -1 → <B id=dhealmp>8</B></B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ＭＰ8になりましたね。よかったですね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「むっ……やるねリーナ。さすがだよ」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>やる気満々だ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「フフフ……ンクさんこそ」不敵に笑いつつ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「お、俺は一体……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ヴァンとハムイが家で二人か……大変なことだ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>(今気が付いた。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ハムイ（あのときの尻の快感が忘れられない）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「どうしたのロイス。眠り足りなかった？ほら、クーが心をこめて作ったパンだよ？」</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>2＋1＋2D6＋3　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) ＋ 6 </B>＝ <B class=dc>13</B></div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「はっ、ぐああぁぁぁぁぁ！！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>何の判定なんですか先生＞ンクさん</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>尋問の【知力＋尋問LV＋2D6(＋拷問オプション3)】ですね。意志で対抗ですね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>食べさせて「美味しい」の一言を引き出そうとしています。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>ＰＴ内関係改善！クーが心を開くかもしれないですから！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>次発狂したらやばいですよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>食べれば楽になれますよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>なあにまだアレちゃんの【励ます】が残っていますよ、クックック！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>えー、もうロイスとクーはいい仲じゃないですかーなの。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>てか抵抗に失敗したら口に含ませてるんじゃ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>さきほどはそうしようとしたらロイスが落ちました。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>口に含ませて「おいしい」を言わせないとですね　フフ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>1＋2D6(13)　意志判定！　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋5) ＋ 1 </B>＝ <B class=dc>12</B>　　<B id=dmis>-1失敗！</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>おしい。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ｵｼｲ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイス×クーはよくても　クー×ロイスがまだぎこちないので改善を図る必要がですね。フフフ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーとロイスもいい仲なような気がするアレなのよ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>うーん……よし！　じゃあクーは残ったパンを取り上げて、全部食べます！！　判定が必要なら言ってください！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「あっ、こらクー！何をするんだ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（でもこの局面クーは自分で食べたいだろうなあ）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「あー食べちゃった」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（いろんな意味でここはクーが食べるべき場面！！）　ムシャッ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「た、助かった……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「まぁ、あれだけ食べたがってたもんね……」ごめんねーとよしよしすると同時に胃薬の調合を頭の中で考えています。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>1D6　クーのＨＰダメージ！　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B>　　クーＨＰ3→ －2</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（落ちたー！？）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クーは口からパンくずを散らしながら倒れました！！（笑顔で）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>店長「(なんだこいつら……）」店の中で何やってんだ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーが助かってねェェェェ！！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「クー！！！ほら！ロイスが！食べてあげないから思いつめて！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「クーちゃんしっかりー」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6－2 【治療】　 　<B>(ｺﾛｺﾛ…)   ダイス 1 － 2 </B>＝ <B class=dc>-1</B></div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ﾄﾞｽ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（やっぱキットないとダメねー）」ﾄﾞｽｯ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>リーナが久しぶりにトドメさしてるなの！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ロイス！　人工呼吸なの！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「うっ！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>リーナがトドメさしたァァァ！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「倒れんなよ！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>1D6＋3　 　<B>(ｺﾛｺﾛ…)   ダイス 2 ＋ 3 </B>＝ <B class=dc>5</B>　　<B id=dhp>　クーＨＰ -2 → <B id=dhealhp>3</B></B></div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「人の家でアホな事やってんじゃねえ！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>でも店長のおかげで回復した。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>店長の回復薬でＨＰ3まで回復です。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あらあらごめんなさいウフフ」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（ってマイナス判定なの！？ｗ）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>そろそろロープほどいていいですか。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>では解放します。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ちぇっ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「ったく、なんてことしやがるんだ……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「それは……ね？」　
+<BR>楽しくてキャラを忘れても番外編だから許されますよね！！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>店長「この俺が作ったパンもやるから帰ってくれ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「わあ、ありがとうございます！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>といって蹴りだします。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>蹴り出されました。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>で、バイト代は？　バイト代は貰えないなの？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>多分：もらえない。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ケリは避けるなの</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「（もう、バカ！せっかくクーとの溝を埋めるチャンスだったのに！）ロイスに耳打ち）」</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>蹴られます。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>でも、クーとしてはいじめられているロイスをちょっと助けたかったのかもしれない。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>飛んでる、おっさんにハイキックは出来るかな？　なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>機敏で回避判定！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>2＋2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋1) ＋ 2 </B>＝ <B class=dc>4</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>これは蹴られた。きっちり入った！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーが瀕死状態っぽいのでおぶって帰ればいいんじゃないかな。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>サントリナに直撃！？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>1D6 店長キック！　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　<B id=dhp>　サントリナＨＰ 5 → <B id=ddmghp>3</B></B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ドゴォ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「げふぁ？！」ごてんっ！
+<BR>「いだだだ……」痛そうに尻をさすっています、地に伏した状態で！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ああっ、ずるいぞリーナ一人だけ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ＨＰ残り3ですか！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ﾋﾟｸﾋﾟｸ……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>まだ3もありますよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>３「も」？！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーをおんぶ、微かな胸のふくらみにドギマギしながら帰宅ですか、なんですか、そろラノベ？　なの！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>リーナをかばう！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ちょ、リーナだけ二回蹴られんの！？ｗ＞かばわれてるということは
+<BR>「私そんな店長さんに恨み買うようなことしましたかー？！」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>1D6 店長キック二度目(ンク　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　<B id=dhp>　ンクＨＰ 14 → <B id=ddmghp>8</B></B>！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>1D6ってことは固定値ダメージですね？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なんだこれ……なんだこれ……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>パン屋、最強でした……なの。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「グッホオ！もっともっと！」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ンクを見て　「（ガーン！）」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>なんだこのパン屋。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「さあみんな逃げるんだ！ここは私が引き受ける！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>大丈夫だからすぐに逃げるんだ！なあに、すぐに追いつくさ……」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（ンクさんが店長にお尻を突き出しながら）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「……行くか」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「逃げなきゃいけないようなことは……しましたね！」多分いきたそうな目してるクーちゃんを引っ張りながら。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>引っ張られるまでもなく行きます！！　一人でも帰ります！！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>はーい！（にしてもこの店長素で当局に引き渡してもよさそうだ……人への暴力がハンパないぞ！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>店長「本当何なんだお前ら！」がすがす。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>1D6 最後の蹴り　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　<B id=dhp>　ンクＨＰ 8 → <B id=ddmghp>2</B></B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（本当なんなんだろう！）」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>さて、アレもミイといっしょに、ミルに乗って帰りますなの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ンクさんＨＰが２だー！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ンクさん大喜びの刺激。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>店長やりすぎだー！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「ヌハアッ！やるなあ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ただいまの惨状は以下の通りです。</div>
+<div class=box>ロイス　　ＨＰ 15　ＭＰ 8
+<BR>ヴァン　　ＨＰ 21　ＭＰ 7
+<BR>ハムイ　　ＨＰ 18　ＭＰ 12
+<BR>ンク　　　　ＨＰ <B class=fred>2</B>　ＭＰ 7
+<BR>アレイラ　ＨＰ 4　ＭＰ 10
+<BR>サントリナ　ＨＰ <B class=fred>3</B>　ＭＰ 12
+<BR>クー　　　 　ＨＰ <B class=fred>3</B>　ＭＰ 10</div><div id=com>　</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>なんだろう、女の子に厳しいのかなこのパン屋さん。女性陣がことごとくボロボロなんだけど。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>店長のS心に火がついたなの！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「やるなあじゃなくてそれ以上は死ぬ、死ぬからー！？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「店主よ、いい蹴りだった！再びどこかで決着を付けよう！それまで死ぬんじゃないよ！」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>皆ＨＰ赤いｗ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>休めばマシだったのに。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>逃走します。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ｼｭﾀﾀﾀﾀ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ではもうヴァンの家到着かな。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>出て行った窓から華麗にミル帰還！　ずささぁっ！！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あんなもん食べるからー！」ごっそごっそと荷物から薬などを探しつつ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ヴァンの家（ほぼ朝、なんだろうこのパン屋ラスボスかなんかか？）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ｺﾞｸﾘ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ドMがいたからついやっちゃった。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クーはお腹を壊して寝込んでいます！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ほら、ロイス、お腹を食わしてトイレだって、一緒に行ってやりなよ、なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>その年の女の子についていくってアウトだからー！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>そういえばこの世界のトイレっていえば多分開放型・蓄積型ですよね（夕飯中）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（ご飯食べながらなんてことを！？ｗ）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>いやだなー、ぶぴぴーとか聞こえてくるなのよ……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>扉なしドッポンですねわかりました。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ちょ、生々しい！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>乾燥してるから匂わないよ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あと下半分が見えないようになってるらしい(エジプト的トイレ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーのぶぴぴーはまだ許せるとして、ハムイのは……嫌なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>だから、生々しいわ！　いい加減になさい！！w</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>いいですか。観測しない事象は確定してないんですよ。いいですね？</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>いや、ンクの中の人の食事がカレーだったらいいなーと思って、なのよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>とんだドSですね！？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>いえいえ、ミートソーススパですから大丈夫ですよ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>大丈夫じゃない！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ああ、でも近いよ、近い！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>クリームパスタもちょっとアウト！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ハヤシライスよりは遠いから大丈夫だった……悔しい……なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>だいじょばないよ！？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>クーの中の人だってよくミートソース出してそうですよ！クーの中の人を侮辱するんですか！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>パン屋さんが感動感無いイベントになってしまった。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クリームパスタって白いイメージ、バリウム飲んだ後ですか！？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（ＧＭ－！これ以上収拾が付かなくなる前に進行をー！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>私も一昨日まで一週間くらいずっとミートソースどころか味噌汁状態だったけどさぁ！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>侮辱してませんよ！　トウモロコシは現物が出てくるんですよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>サントリナの中の人まで乗るレベルで手遅れですから！手遅れですよもう！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>あ、もう大分ミートソースになりましたので大丈夫です（いらない報告）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>もう既に収拾付きませんよ(笑顔)</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>夕飯中ごめんなさい☆</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>いえいえとんでもない。ありがとうございます。　※何が！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>※健全な読者の皆様は決してこのあたりを食事中に読まれないことをオススメします。いえ、遅いですね！</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>5. 帰還後</H1>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>（改めて）ヴァンの家に付きました、一階の台所や大きなテーブル、沢山の椅子などが見えます。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>（食堂サイズ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>食堂で……ミートスープが重点な……？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そのネタ出しちゃうんですかｗ</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>女性キャラを担当している以上、こういう会話はやめたほうがいいと思うなのよ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ほら、読者の目があるなの、アレの中の人は上の口からオボボボボボボボボボっ</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>って、よくなるから、スープスパくらいなのよ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>なおこれはミソスープとミートソースをかけた高度なジョークですので皆さん笑ってもいいんですよ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>くわっ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>あはは（棒）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>お腹痛い（棒</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>椅子や机には小さな子供が描いた様な落書きがあります。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（ちゃんとスルーして進行できるようになるなんて、成長しましたねＧＭ！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（結局アレの中の人も同じ会話してるじゃないですかァー！＞スープスパ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「おや、これは……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あー、懐かしい、こういうのうちにもあったなぁ……」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「おや、これは暖かいミートソースなの……」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>アレちゃんそのネタはよくない！！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「うんうん、よく描くよね。ウナギ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……ウナギはどうかなぁ？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>知力判定どうぞ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>2＋2D6 ンクには分かりました。これは……　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) ＋ 2 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>アレイラの見立て通りであることが。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋4 芸術家なので分かります　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋6) ＋ 4 </B>＝ <B class=dc>16</B>　　<B id=dcri>ｸﾘﾃｨｶﾙ！</B></div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（さすが！）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>目標値出したらアカンってうん。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>4＋2D6 「あら、これは……」　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) ＋ 4 </B>＝ <B class=dc>13</B></div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（多分これはわかるな）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではアレには小さいころのヴァンが描いた落書きがわかります。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「そっかあ、ウナギのスープの絵かあ。懐かしいなあうんうん」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>こんなところでクリティカル出すとは、屈辱、なんだ、この落書き、なの！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>子供のつたない字でぼうけんかになりたいとか描いてあります。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ゆうしゃになりたい人もいたなぁ……なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ウナギってスープにしますっけ……いや心臓だけするんだっけ……？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（すごいほっこり来る話になろうとしている！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>リーナにも同様のことがわかりますでしょうか！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>わかります。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ハーイ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「リーナ、みてみて、めっちゃ下手くそな絵があるなの！」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ンクには分かりませんね？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>はいー。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「へぇ、小さい頃からそんなことを……ヴァンって書いてあるから、ヴァンさんのでしょうね、この落書き」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「二人で何見てるのさ。何それ何それ？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「こら、下手くそなんて言わないの！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>どういうことが書かれているのかをンクさんにカクカクシカジカ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>そしてアレには椅子に挟まった紙切れが見えます。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「へえ、落書きしちゃうような頃から冒険家になりたかったんだ。凄いなあ」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>黒歴史の文集を見つけたかのように嬉しそうに紙切れを広げますなの！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「私、小さい頃はどこかのお姫様になりたいなんて言ってたんですよね……あはは。物語に憧れやすくって……」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「こらこら、そんな人んちのものを勝手にー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、こらー！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ヴァンの考えた最強必殺技」とか書いてあるなのよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>冒険者なのにｗ</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>紙には【大人になったときのためちょきんする！ちょきんばこはここ】と簡易的な家の地図が描いてあります。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ネオアームストリングローリングライトニングアームストロングスラッシュ！　あれ？　違ったなの」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「どれどれ……」（横から覗き込み」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……とっちゃだめよ？」先読み。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>えー。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>とっていいの？！ｗ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「んー？なんて書いてあるの？」←読み書きスキル無し。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>むしろとれって感じです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「大人になった時のために貯金する、って地図になってます」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「この家の中みたいですよ」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「むしりとる？」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ヴァンのものかどうか分かるんでしょうか！　ヴァンの署名入りとか。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>らくがきには【ぼうけんかになりたい うﾞぁんろーばー】と描いてあります。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……ヴァンさんの許可とってからにしなさい」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「とりあえず家捜しするなのよ！」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あーもう……。仕方ないんだからー」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>「こらこらこら。人んちを勝手に家捜ししない。そんな非常識なことをするのはアレイラだけだよ！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>（むしろ、アレに見つけて欲しかったなのよ！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「」＞アレイラだけ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>寝ていたときに起きたことは何も知りません。高いびきの中の世界です。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（あれは……施療院のとかライブラのとかはセーフよね、借りてるだけ、そう……借りているだけ……！）」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（火事場泥棒と住民がいる家を漁るのとは別問題でしょう！多分）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（よかった！！）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>別問題でも、探すだけは探すなのよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（死ぬまで借りているだけよ！）」ﾄﾞｰﾝ。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……もう、非常識なんだから」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイスはいま何をしてるんでしたっけ。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>クーの付き添いでしょうか　※ロイスPL、クーPLが席を外している</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>クーと一緒にお風呂タイm</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロイスはミートソースを食べています。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>駄目だ、二人ともひでえ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>もうミートソースはやめてあげてよ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ソース食ってるの！？　※戻ってきて</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>えーっとあれですよ、カレーとかミートソースとか味噌汁の話にですね……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ゴホン。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>＞ちょっと過去のログ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>俺のログにはなにもないな。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>美しいロイスには美しくないものは見えないのでした。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>探し物をしたとしても基本保存食になるよ(地図をちゃんと見ないと）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>もちろん、地図を見ながら探すなのよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>アレイラが盗み働いているところです。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>家の物を(割と)勝手に持ち出してもヴァンは(あまり)怒りません。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>結局美しい活かす場面何もなかったよ！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>醜かったよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>美しく食べれば良かったのに。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>運命に気高く抗ったじゃないですか（気絶したけど）</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>探すなら一応知力で探索判定どうぞ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……んもう、探すだけ探したら、ヴァンさんに返さないといけないわよ？（アレちゃんより先に見つけて、さっさとかえしてあげよう）」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>4＋2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 4 </B>＝ <B class=dc>14</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>このダイス目ですね……。（もっと肝心なときに出てよ！！）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>発見追加してもいいなのね。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋4＋1　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) ＋ 5 </B>＝ <B class=dc>12</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>発見持ちよりいいってどういうことw</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>くそぅ、ずるいぞ、リーナ！　なの！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>盗 賊 サ ン ト リ ナ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>だがしかし、ＭＰを消費すれば。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>もう冒険者になってしまえ……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>2D6＋4＋2　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 6 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>悪くなってる……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>負けたなの……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>というわけで、地図をしかと見たあと探索したリーナですが、どうでしょうか。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではアレイラはなぜか瓶詰めを見つけました。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（アレが先だとぅ</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ひゃっほぅーなのー。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>瓶詰妖精、らんらんらーんらーんらん。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>リーナは貯金を見つけました(100シルバ)</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ここにきて、またフェアリーが増えるなの？！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>瓶詰め(保存食）だよ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>不健全！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あら……。結構な金額よねコレ。ヴァンさん探して来よう……」それを懐にしまってヴァンさんを探します。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>貯金は瓶に小銭を少しづつ入れたようなものです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ポーチにいれれば解決だね！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>大分ずっしりとした貯金ですね！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイスは寝室でうなされてます。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>100シルバくらい大丈夫ですよね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ヴァンが認めているならねこばばしちゃえ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>戻りましたーってクーとロイスが同時にお風呂に入ってたですって！　急所突きを決めてロイスを女の子にしちゃいますよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>男女比が……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイス（♀）もそれはそれで。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ヴァンさーん、いまいらっしゃいますかー」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「うー……名状しがたきモノがよってくるぐー……」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>貯金箱には【しょうらいのためのちょきん】と描いていてね。はやっ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ヴァンちゃーん、いるなの？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>アレちゃんには見つけたって言ってないのにｸｯ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「サブラヒ……ブシドゥウウウ……</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「あ、見つけた。ヴァンさん、起きておきてー」ゆさゆさ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>感染して……！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「起きてなのよー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（この寝言は感染症なの？　怖い）」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>「うおーくるなー！くるなー！……ぐー」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>※この間ハムイは天井に張り付いて寝ています。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……アレちゃんはなんでｺｺﾆ」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ハムイさん優秀すぎるでしょう。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「リーナはなんで、ここにいるなの？」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ヴァンさんに個人的な用事があるのよ」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「んがぁ……もうちょい寝かせてや……後で朝飯用意するから……」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「アレも用事があって来たなのよ」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「（アレちゃんに見つけたって言ったら間違いなくパクられる……！）」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>「ヴァンちゃん、大事なことなのよー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「ヴァンさん、ちょっとお耳を拝借」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>狐耳！狐耳案件だと！？</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>リーナ「ふぅっ」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（リーナ……恐ろしい子！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>人の発言捏造しないでよおお？！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「んひゃあっ何々なんなん！？！？」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>自分の行動まで他者に決められてしまう片道勇者ＴＲＰＧ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ああ、アレイラPLの行動か！リーナがやったのかと。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>（あっ、すみません真面目にリーナ行動かと思ってました！）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>Σ(´ロ`|||)</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>許すまじアレイラPLー！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>で、今までの事情と、アレちゃん探してたから先に見つけられると間違いなくパクられるだろうから先回りして回収したので返したいってことを伝えます。
+<BR>あと、捏造はやめましょうね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>リーナならやってもおかしくはないかなって……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>同じくそう思った……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クスクス……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ちょっとー！？　感染拡大？！　そういうの本当にやめてよぉ……orz</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>薄味ならいくらでもだませるなの！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>本人ならわざわざ名前入れないからー！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーPLはクーの発言に名前入れてますよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>主ＧＭはいつものクセだから仕方ないと思います！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「というわけで、はい……」と貯金箱をアレちゃんに見えないように。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「ハーッ！びっくりした！なんなん！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>>最後のふっで起きた。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロー「まぁ、まぁ、気にするなよ、リーナ」（渋い低音ヴォイス）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>若本ボイスのロバ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（だから、フーはしてないって！）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>しましょう（真剣な面持ちで）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>しなくてもアレちゃんがもうやってそうですね。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>というわけではいパス！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>（クーです……リーナさん、「ふぅっ」するのです……）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>クーまで……ｗ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>だから！　やる決定じゃないからー！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ってその議論はもうええの！　ＧＭはすすめるべきそうすべき！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「これなんなん？どうしたん？」聞いてなかった様です。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ではまた一から説明しまして、渡します。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ヴァンさんのでしょう？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「はーこんなんやっとったっけ？覚えてへんわー。とりあえずもっていっていいでー」</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「まぁ、ヴァンさんの家にあったってことで、所有権はヴァンさんにありますし。アレちゃんに見つかったら速攻とられそうだったので……お返ししますよ」</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>もうヴァンちゃんの隠し貯金が10000でもいいよ……（メインＧＭ)</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ＧＭ－！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>大金持ちだ！？　</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>そんだけ報酬を与える機会が欲しかったんですね主ＧＭ……ﾎﾛﾘ。そんなにメインセッションで報酬が出せないことを気にやんで……！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>どうやったらここまでことごとくお金入手のチャンスがつぶれるのか分からない！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>瓶詰めは腐らない……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>フェアリー買えるじゃん！　10000シルバ！！！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>はぁ、興奮して語尾を変える忘れたなの！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>次のシナリオはうまくやってくれることでしょう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>もちろんです市民、完璧なＧＭと完璧なシナリオが用意されています。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>しあわせです。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>幸福なシナリオは用意されていません。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>しあわせです。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>10000シルバなんて貯金子供の頃にできるの！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>しあわせです。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>50万円ですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「ここに何かあったときの貯金もあってなー、あと2000シルバあるらしいでー皆でわけよかー」</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ブーッ！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>子供貯金で50万って！50万って！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>完璧なシナリオなど、ダイスの神様がぶっ壊して……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>50万。貧しいなんて幻想だったんだ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>何をしたんだヴァーン！売ったんですか！色々売っちゃったんですか！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>一人400シルバだよ……もし何かあったとき貯金だよ……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>生活苦だったからきっと溜め込んでた……のかな……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>それでフォータクル妹さんの借金返せますね！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>生活苦だったら溜める前に使ってください！きっとこれは闇ロンダリング資金なんだとンクは納得します。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>借りたものは返す、当然なのよ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>りーだー「無利子と言った覚えはありませんよ？」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>信頼は金で買うものなの。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>親が残したもしまさか貯金です。（親は奴隷売りに買われた</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>なん……ですって……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>それを……借金返済に……うわぁ……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>親が奴隷になった？？？　なの？？？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>って設定でしたよね確か。（※キャラシのフレーバーテキストにそう書いてある）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>親はいないんですよね、ヴァンさんち。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>奴隷に買われたのでいない。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>のです。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>労働力を考えると、若い方が……電卓カタカタ……なの。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>だから若いころに買われたんだよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>でも子供は力がないから……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ああ、労働力としての大人と繁殖力としての娘達が持っていかれて幼い息子達だけが残されたと……ハードすぎるわっ！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「悲しい……ですね……（ポンポンペイン）」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>労働力は若者だけど、諸々の理由で子供が売られることg。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>家とお金だけを残して親は……うん。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>獣人だからどうだろうなあ……。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ただそれを伝えようとしないヴァン。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>前々回の閑話でいうところの　勝手に増える労働力　ってやつですね。重い。　※リプレイではカットされることが多いですが、セッション終了前後にはなんらかの濃いトークが為されることが多いです。前々回は奴隷回、前回はトイレ回でした。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレとミイも売られる組なんだけどね……なの。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>耳長も売られる側ですね……。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイスは実験される側。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>獣人なので労働力として売られるのが常です。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイスはフリークスとしてサーカスに売られそう。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>なお、この先のエルスベルグは獣人メインの国でーす！　お楽しみに！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>と、ともかく、その2000シルバは世界平和に使わせてもらうなの！（聞いてたっけ？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>おー。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「どこやったかなー確かこのへんに」ゴソゴソ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>とりあえずPC本人の口から出た皆で分けるって発言のとおり、一人頭400でいいのかな。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>6人いるの。待って7人？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>8人……？（ミイ勘定</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーにもお小遣いあげて！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「あったわ！」枕の下からボボボーン。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>さらに増えるの！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>一人あたま250ならメインＧＭとしてもまったく問題ないレベルですね。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>じゃあロイスの400シルバの半分をクーに。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>クーとミイの分は飼い主の懐に入りそうですけどね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>じゃあそれでどうぞ。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイにはアレから200渡すなの……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>優しいロイスさんは250シルバをクー枠にして手をつけないかもしれない。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>大丈夫、アレなら稼げるなの！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ん？</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ああ、250シルバずつか。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>一人頭250になったなの？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（2000シルバが正しいのか、さっきの枕の下の調整で一人頭400になったのが正しいのか？！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>一人当たり250シルバの理解です。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>2000シルバを8等分ですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「親はこの家だけ残していってもうたからなぁ……」250シルバね。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>はーいっ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「（これで装備が買える……！）」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>クーと、ミイが、ＰＣ並みになって……（ｶﾞﾀｶﾞﾀｶﾞﾀｶﾞﾀｶﾞﾀ</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>クーのステータスは低いから安泰だけど、ミイは……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイの方が、今回は優秀だったし……（ｶﾞﾀｶﾞﾀｶﾞﾀｶﾞﾀｶﾞﾀ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイがスリング持ち始めたらアレイラさんの影がますます薄く。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>早めに始末……いや処分しなければ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>NPCは基本的に戦闘参加禁止！！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>（肩ポン）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>アレ、これは捨てられるわ……なの……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>意味一緒やん！？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>でもアレイラさん、パーティーの交渉役としては役に立ってるじゃないですか！　買い物も前回のときも！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>商人の仕事してるよ！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>S氏「ミイの方が静かだし、ねぇ」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>R氏「あぁ、あの小さいやつは要らないんじゃないか？」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>N氏「ミイで十分だよね」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>V氏「修理代ピンはねされたままやん」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>H氏「オレはサブラヒになれたのか！？」</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ヴァンの弟のイベント……（震え声）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>そろそろ時間的には締めも近いんでしょうか。ｺﾞｸﾘ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>もうそろそろ終わらないとですね。</div>
+<div id=nm><font class=c9><B>汚れたクー（ﾒｲﾝGM)</B></font></div><div id=tx class=ct9>ＧＭは積極的に進めないと時間喰うの！　
+<BR>あとオンセの固定イベントは全部コピペできるように用意ですよね、ああ……。</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>（なぜかこっちの場合、固定イベントだいたいブッ潰れるけど）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そのコピペも半分は吹き飛びますね……（遠い目）＞ＧＭ</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>固定イベントなら途中の雑魚（陸賊）戦に負けて全部吹っ飛んでいったよ。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>「まあとりあえずみんなやすみや！汗臭いで？風呂は台所の横にあるからはいってき？」</div>
+<div id=nm><font class=c9><B>汚れたクー（ﾒｲﾝGM)</B></font></div><div id=tx class=ct9>そうそう。この街なんですが、もうすぐ闇に呑まれるからって水は使い放題なんですよ、という設定がつきました。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>おお、太っ腹！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「やったー！　お風呂だー！　お風呂よー！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>喜びいさんで行きます、いのいちばんに。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ふとっぱら！</div>
+<div id=nm><font class=c9><B>汚れたクー（ﾒｲﾝGM)</B></font></div><div id=tx class=ct9>なので普段はサウナだけのお風呂も浴槽タイプになってたりするとかそんな展開で前回の水浴び失敗を挽回しようとですね。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>リーナとミイと一緒に入るなのよ。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>と、いうことは。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>サトリさんはタイミングが悪かったよね……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>次回本格的風呂イベントが！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>というあたりでおわりです。もうこれは仕方ないよね（弟</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>あ、クーちゃんも誘います。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「一緒に入ろう！」キラキラした目で。ンクさんも誘います。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クー「あの……いまは……いいです……（ｺﾞﾛｺﾞﾛｺﾞﾛ）」</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイスはまだうなされてます（多分）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>戦略ＡＩは入浴イベントを次回のお楽しみにすることを提案します。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>「……お腹痛いのは仕方ないよねうん」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>え？　ンクとクーはロイスを取り合って……一緒にお風呂イベントじゃないなの？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ロイスさんに急所斬りしますよ。あれ突きだっけ！　（※急所とは。）</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>のっけからお風呂スタートですって！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ほぼ100％起こり得ない展開をどうやって思いつくのだろう。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>斬りでもねじりでも正しい気がしています！＞例の箇所</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>固定イベントでお風呂出来ますよ！やったね！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ンクがクーをかっさらって風呂場に放り込むことはあるかもしれませんが、ロイスはちょっと。お友達からはじめましょう。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>これで、風呂場に入ってみたらサトリンがいるに25ガボス。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>なぜかハムイもいたりして。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>それは覗きだ。悪は粛清しなくてはならない……。（投擲セット）</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>サトリさんバケツ付けてなかったら分からないじゃないですか。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>当然バケツさらしふんどしの3点セットは装備した上でですよ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>風呂の中でもバケツつけてる決まってるじゃないですか。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>第二ラウンドですよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>なんという満場一致……。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>使い捨てのキャラが再登場するなんて……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>そして使い捨てのキャラなど存在しない！　使えるキャラは何度でも使うよ！！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>何人の家まで出張してるんですか（ヴァン宅</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>大変だな……（ヴァンの家）</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>なんか今回パン焼いて名状しがたきもの食っただけだぞ！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>今回も壁ドンされてましたし。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>えー、とにかく！セッション終了ということでお疲れ様でした！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>いや食って無い！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>おつかれっしたー。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>お疲れ様でした！？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>お疲れ様でした、次はお風呂ですね！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>オツカレサマデシター。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>弟に触れてあげて欲しかった……</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>お疲れ様でしたー。</div>
+<BR>
+<a name=S7></a><H1 class=gradientA>α. 終わってから</H1>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>経験点はいただけるんでしょうか。皆さん中々いい経験をされたようですが。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>敵キャラがいないのに死にかけた！＜いい経験。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>弟マジ空気。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ＧＭのＳＡＮ値が減るセッションですね。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>どうしてこんな酷い展開になったんだ……誰がこんなことにした。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>はいはーい初ＧＭが相手するにはメンツが悪いと思いまーす！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>じゃあパン屋に行った人（参加PC）が6EXPでいいかな？どうかな？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>用意していたシナリオは６５％は消えるんですよ（にっこり）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>6！　ﾋｬｯﾎｰ！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>これは太っ腹。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>6貰った―！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>もうもらったから返さないもんね！（冗談）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>メインＧＭさんはいいんですかい？</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>実際どうなんですかクーさん！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>パン焼いて6もらえました！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>仕方ないあの体力仕事だもん。</div>
+<div id=nm><font class=c9><B>汚れたクー（ﾒｲﾝGM)</B></font></div><div id=tx class=ct9>メインＧＭとしては全員にプチ幸運＋１　＋パン屋組に3ＥＸＰ　くらいが嬉しいですね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>ではメインＧＭのほうでいいです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>【プチ幸運】も嬉しい！　（どのみち取ろうと思ってたし）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>おお、それでも3点ももらえた！嬉しい！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ああ、プチ幸運そういえば経験点代わりにしたそうでしたもんね、前回。　<B id=cc>←前回セッション後の未収録会話</B></div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>【プチ幸運】レベルが上がるっていう理解でいいですか？</div>
+<div id=nm><font class=c9><B>汚れたクー（ﾒｲﾝGM)</B></font></div><div id=tx class=ct9>はい、全員【プチ幸運】Ｌｖ＋１です！　この場合も結局はＥＸＰ6ですけど、さすがに戦闘で死者が出ないようにラッキー度にバッファ設けたいもんで、どうもすみません。</div>
+<BR>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>なお【プチ幸運】は習得した時点で【最大値】と【現在値】が＋１ずつされますのでご了承下さい。</div>
+<div class=box>※キャラクターメイクの際、不慣れなGMさんの場合は【プチ幸運】（振り直しスキル）を最初から全員の＋1したほうがいいと思います。これだけで死ぬ確率が激減！</div><div id=com>　</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>仕方ないね今回のパン屋はひどかった。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ありがとう御慈愛ます。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>パン屋での労働を経た結果、次回はこの状態から始まるんですね。</div>
+<div class=box>ロイス　　ＨＰ 15　ＭＰ 8
+<BR>ヴァン　　ＨＰ 21　ＭＰ 7
+<BR>ハムイ　　ＨＰ 18　ＭＰ 12
+<BR>ンク　　　　ＨＰ <B class=fred>2</B>　ＭＰ 4
+<BR>アレイラ　ＨＰ <B class=fblue>4</B>　ＭＰ 5
+<BR>サントリナ　ＨＰ <B class=fred>3</B>　ＭＰ 12
+<BR>クー　　　 　ＨＰ <B class=fred>3</B>　ＭＰ 10</div><div id=com>　</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>大丈夫だよ街の滞在あと2日。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>よかった、種なんてなかった。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>女性陣が超ボロボロですね。いいですよ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>お風呂で癒されましょう。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>ということで、参加した皆さんにプチ幸運Lv1分の習得と、EXP３点が追加されました。
+<BR>NPCだったハムイさんは半分のプチ幸運の分だけになりました。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ハムイさんが【神の寵愛】を生かせるようにっ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　<B id=cc>↑　毎シナリオ2点もの【プチ幸運】が回復するスキル。人間専用。</B></div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>7.5話 ヴァンの故郷 大変な事になりました。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あと物資としてアレは瓶詰め（重さ2）ひとつと</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>パン屋行った人に汚れたパン（失敗した人）重量1</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>もてないから食べました＞瓶詰</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>一体どのような効果が……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>汚れたパンはスタッフが美味しく戴きました。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>成功した人とパン屋に貰った普通のパン重さ1二つ。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>保存食相当でいいかな？</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>保存食相当でいいです。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>賞味期限つきそう！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>あ、でも乾燥地帯かー。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ガチガチに固まったパン：硬いが食べられないことはない。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>乾燥していようがなんだろうが腐敗菌はそこらへんに飛んでますから放置したパンを食べるとかやめてくださいね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>乾燥地帯＋水を使っていないタイプのパン。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>乾パンにしよう。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>次は砂漠だってキャラクターたちは認識しているんですよね？</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>水を確保しろー！！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>次は移動までいけますかね……（懸念）</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>水は汲み放題っぽいですが、はたしてもつのかどうか。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>次はお風呂回でウフフですよね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>もうちょっとしっかりしてたら（ロイスを縛ったりして無かったら）ビスケットくれる予定でした。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>次回は手紙を探したり騎士を探したり理力を習得したりフォータクルさんに舌打ちされたり水浴びするので忙しいんですよね。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>誰だ縛ったのは！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>ロイスか！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ロイスさんだ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイスが悪い！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>そうだロイスさんのせいだー！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ロイスが喜んでパンを食べないから悪いなの！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>脱－げ！脱－げ！</div>
+<div id=nm><font class=c1><B>ロイスＰＬ</B></font></div><div id=tx class=ct1>なんか目を離した隙にロイスのせいにされてる！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>大変な事になりましたね……（瀕死）</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>食ーえ！　食ーえ！</div>
+<div id=nm><font class=c1><B>ロイスＰＬ</B></font></div><div id=tx class=ct1>NPCがお金持っててどうするんだろう。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>クーはメインＧＭのPC！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>クーは武器買うんでしょうね！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>クーはＧＭの判断で使います。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイがスリング買ったら……（ｶﾞｸｶﾞｸｶﾞｸｶﾞｸ</div>
+<div id=nm><font class=c1><B>ロイスＰＬ</B></font></div><div id=tx class=ct1>目を離したらお金が5000シルバに増えてたり……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>NPCが死んだときに「へそくりして買った装備です。あの人にいつかプレゼントするんだ」という手紙付きで。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイさんは飼い主に任せる！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>か、飼い主。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>でもNPCが戦うとマズいと思う！</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイがふんどし、バケツになる……（しくしく</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>飼い主はハムイさんで定着しちゃった！？</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>このままだと中隊になるぞ！</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ミイ買ったのアレイラなのにｗ</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ひとまずミイに関してはアレちゃんのシートがいっぱいでしたからね。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>まだパン屋さんおよびヴァンの弟が……。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>どうせ荷物持たせられないし！</div>
+<div id=nm><font class=c9><B></B></font></div><div id=tx class=ct9>あとミイの能力は　１：３：２：３　　ＨＰ5　ＭＰ10　になりました。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>十分つよいよ！</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>やったねアレちゃんキャラ食われてないよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>優秀！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>しかし店長とンクがおかしかった。いろいろと。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ﾊﾟｰﾄﾞｩﾝ……？</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ンクさんはいつもどおりでしたね、ええ。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>店長キャラ立ちしたせいで弟が一言も喋らなかったという。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>弟さんたぶんもっとヘンタイにしないといけませんよ！！　ヘンタイ以外のキャラが目立った試しはない！！</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>パン屋の仕事はハードだぜぇ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ｳﾝ……。</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>ミイのキャラの方向性を決定してください！！</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>ミイ「判断を下すのがイヤ！　勉強はしてる！　生きるために必要ならしっかり媚びる！　早く正式な奴隷になりたい！」</div>
+<div id=nm><font class=c3><B>弱そうなアレイラ</B></font></div><div id=tx class=ct3>うわーん、難しいよー。</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>妖精フェチの紳士登場させてミイを売り飛ばそう。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>弟はまじめに働いてましたね……。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>マジメキャラは影薄くなっちゃうんですよ！！１</div>
+<div id=nm><font class=c1><B>美しいロイス</B></font></div><div id=tx class=ct1>ロイス←マジメキャラ。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>ロイスさんは主人公ですから……。</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>ロイスはすでに主人公属性ですので諦めてください。</div>
+<div id=nm><font class=c2><B>臨時GM（ヴァンPL）</B></font></div><div id=tx class=ct2>大丈夫、リーナはまじめキャラじゃない。</div>
+<div id=nm><font class=c6><B>いつものサントリナ</B></font></div><div id=tx class=ct6>えっ。失礼な。</div>
+<div id=nm><font class=c9><B>汚れたクー</B></font></div><div id=tx class=ct9>弟さん一人とっても「兄さんのおぱんつ……ふぅふぅ」とか言うくらいのヤバさなら勝手にキャラ立ちするどころか忘れられませんよ！</div>
+<div id=nm><font class=c5><B>麗しのドMンク</B></font></div><div id=tx class=ct5>主ＧＭ－！！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>それからもなんやかんやと雑談などをしつつ、スコーピオでの朝を迎えたパーティ一同。　</div>
+<div id=com>しかしこの街で起きた事件はこれだけではありませんでした……。　</div>
+<div id=com>　</div>
+<div id=com>今回は二話一挙公開！　このまま次話もお楽しみください！　</div>
+<div id=com>次回も引き続き、砂漠の街「スコーピオ」の物語です。　</div>
+<div id=com>　</div>
+<div id=com><B>　　　　　　 → <a href=Replay09.shtml class=red><font size=+1>【第八話『砂の街』へ】</font></a></B>　</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>番外編の編集についてはヴァンローバーPLおよびアレイラPL、その他PLの皆さまに行っていただきました、本当にありがとうございます！　（主GMより）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>

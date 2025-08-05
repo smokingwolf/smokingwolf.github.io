@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+
+    <title>TRPGシノビガミ　リプレイ『忍者就職活動記』</title>
+    <style type="text/css">
+    <!--
+.gray{background:#755353;}
+.ggray{background:#553333;}
+.bgray{background:#aa8888;}
+.white{background:#fffafa;}
+.whiteblue{background:#fffafa;}
+.whitered{background:#ddddff;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#ddd2d2;}
+.fr{color:#bb4343;}
+.fb{color:#4343bb;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+
+body{
+background-color : #fffcfc;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size : 10pt;
+  line-height: 110%;
+  color : #554343;
+  margin: 0px 0px 0px 100px;
+}
+
+.box{
+margin:7px; padding:5px; border:1px solid #995544;
+background-color:#ffffff;
+position: relative;left: 90px;top: 0px;
+width: 600px;
+color:#994450;
+}
+
+A:LINK,A:VISITED{color:#4343c5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#c54343;text-decoration : underline;}
+A.red:HOVER,A.red:ACTIVE{color : #ce9898;text-decoration : underline;}
+
+A.g:LINK,A.g:VISITED{color:#43a543;text-decoration : underline;}
+A.g:HOVER,A.g:ACTIVE{color : #98ae98;text-decoration : underline;}
+
+
+/* 名前欄用のカラー */
+.c-1{color:#000000;}
+.c0{color:#333366;} /*GM*/
+.c1{color:#228038;} /*サントリナ*/
+.c2{color:#72501c;} /*ンク（ウルフ）*/
+.c3{color:#aa5058;} /*アレイラ*/
+.c4{color:#6069b0;} /*ハムイ*/
+/*.c2{color:#c0a060;} ヴァン*/
+/*.c3{color:#aa5058;} アレイラ*/
+/*.c4{color:#6069b0;} ハムイ*/
+.c5{color:#808090;} /*ンク*/
+.c6{color:#228038;} /*サントリナ*/
+.c7{color:#333366;} /*スペース2つ*/
+.c8{color:#333366;} /*一同*/
+.c9{color:#333366;} /*クー*/
+
+/* テキスト用のカラー(少し濃い) */
+
+.ct0{color:#434366;} /*GM*/
+.ct2{color:#62401c;} /*ンク（ウルフ）*/
+.ct1{color:#426058;} /*サントリナ*/
+.ct3{color:#7a4048;} /*アレイラ*/
+.ct4{color:#404980;} /*ハムイ*/
+.ct5{color:#505060;} /*ンク*/
+/*.ct2{color:#705010;} ヴァン*/
+
+.ctx1{color:#62401c;} /*ロイス*/
+.ctx5{color:#505060;} /*ンク*/
+.ctx6{color:#426058;} /*サントリナ*/
+
+.ctx5{color:#333366;} /*スペース2つ*/
+.ctx6{color:#333366;} /*スペース2つ*/
+.ctx7{color:#333366;} /*スペース2つ*/
+.ctx8{color:#333366;} /*一同*/
+.ctx9{color:#333366;} /*クー*/
+.close{
+  line-height: 9pt;
+}
+
+small.close{
+  line-height: 8pt;
+}
+
+div#def2{position: relative;left: 55px;top: 0px;text-align:left; width:620px;}
+div#nm{text-align:right; width:150px;  position: relative;left: 0px;top: 0px;}
+div#tx{position: relative;left: 165px;top: -15px;text-align:left; width:540px;} /* 基本セリフ用 */
+div#com{text-align:left; width:580px;color:#705050;position: relative;left: 90px;top: 0px;}
+div#com2{text-align:left; width:620px;color:#aa5050;position: relative;left: 40px;top: 0px;font-weight: bold;margin: 5px 5px 5px 15px;}
+font#CC1{color:#aa5050;font-weight: bold;position: relative;left: 35px;} /*赤*/
+font#CC2{color:#aa5050;font-weight: bold;position: relative;left: -15px;top: -4px;} /*見出し*/
+font#CCBIG{color:#aa5050;font-weight: bold;position: relative;left: -15px;top: -4px; font-size:14pt;margin:10px;} /*見出し*/
+font#CC25{color:#5050aa;position: relative;left: -15px;} /*見出し*/
+
+div#titleimg{ position: relative;left: 60px;top: 0px;}
+
+.dc{color:#cc3333;} /*判定結果*/
+
+
+TBODY#main{ position: relative;left: 80px;top: 0px;}
+
+B#cc{color:#aaaabb;} /*ツッコミ文*/
+
+B#dfun{color:#992222;} /*ﾌｧﾝﾌﾞﾙ*/
+B#dsuc{color:#7777ff;} /*成功*/
+B#dmis{color:#aa5555;} /*失敗*/
+B#dcri{color:#6444ff;} /*ｸﾘﾃｨｶﾙ*/
+
+
+B#dhp{color:#aa7777;font-weight: bold;} /* HP */
+B#dmp{color:#9999cc;font-weight: bold;} /* MP */
+B#ddmg{color:#cc6666;font-weight: bold;} /* DMG */
+B#dhealhp{color:#22aa55;font-weight: bold;} /* HEAL HP */
+B#ddmghp{color:#aa3333;font-weight: bold;} /* DMG HP */
+B#dhealmp{color:#5555ff;font-weight: bold;} /* HEAL MP */
+B#ddmgmp{color:#bb7777;font-weight: bold;} /* DMG MP */
+
+
+font#dsuc{color:#7777ff;} /*成功*/
+font#dmis{color:#aa5555;} /*失敗*/
+
+TABLE{
+  font-size : 10pt;
+  color : #434355;
+}
+
+
+DL.whatnew{
+	height:80px;
+	width:620px;
+	padding:4px;
+	overflow: auto;
+	margin-bottom: 0px;
+	border:1px #ddddff solid;
+}
+
+
+div#flowmenu{
+    position: fixed; top:15px; left:7px;
+}
+H1{
+  font-size : 21pt;
+	font-weight: bold; position: relative;left: 45px;
+	width: 600px; height: 22px;
+	padding: 10px 10px 5px 20px;
+}
+
+.gradientTITLE{ 
+  background-color: #aa8888; 
+  background: -moz-linear-gradient(left top, #995555, #aa8888);
+  background: -webkit-gradient(linear, left top, right bottom, from(#995555), to(#aa8888));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF995555', endColorstr='#FFaa8888');
+	color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+} 
+
+.gradientA{ 
+  background-color: #8888aa; 
+  background: -moz-linear-gradient(left top, #555599, #8888aa);
+  background: -webkit-gradient(linear, left top, right bottom, from(#555599), to(#8888aa));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FF555599', endColorstr='#FF8888aa');
+color:#ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+} 
+
+html , body {height:100%;}
+body{
+background-image: url("./image_sinobi/BG_border.png");
+background-repeat: repeat-y;
+background-attachment: fixed;
+}
+
+hr.line { /* 線 */
+    border: 0;
+    width: 620px;
+    height: 1px;
+    position: absolute;
+    left: 150px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:    -moz-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:     -ms-linear-gradient(left, #fcc, #633, #fcc);
+    background-image:      -o-linear-gradient(left, #fcc, #633, #fcc);
+}
+
+-->
+</style>
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+</head><BODY onload="initLightbox()">
+
+	<div id="flowmenu">
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap>【TRPGｺｰﾅｰ】<BR>
+	      <a href="../../" class="blue"><B>←ホームへ戻る</B></a><BR>
+	      
+	      <BR>
+　-シノビガミ編-<BR><BR>
+  ◆ﾁｭｰﾄﾘｱﾙ<BR>　『<small>忍者就職活動期</small>』<BR>
+  　<a href="#S1" class="g">- 1.導入の巻</a><BR>
+  　<a href="#S2" class="g">- 2.第壱ｻｲｸﾙ</a><BR>
+  　<a href="#S3" class="g">- 3.第弐ｻｲｸﾙ</a><BR>
+  　<a href="#S4" class="g">- 4.第参ｻｲｸﾙ</a><BR>
+  　<a href="#S5" class="g">- 5.ｸﾗｲﾏｯｸｽ</a><BR>
+  　<a href="#S6" class="g">- α.終了後……</a><BR>
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+	    <TR><TD class="white" nowrap align="center"><small class=c1><small class=close><B>山東 里奈</B></small></small><BR>
+	      <img src=./image_sinobi/Sinobi01_Face01.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="whiteblue" nowrap align="center"><small class=c3><small class=close><B>御手洗</B></small></small><BR>
+	      <img src=./image_sinobi/Sinobi01_Face02.jpg border=1>
+	    </TD>
+	    </TR>
+<TR><TD class="white" nowrap align="center"><small class=c2><small class=close><B>大神</B></small></small><BR>
+	      <img src=./image_sinobi/Sinobi01_Face03.jpg border=1>
+	    </TD></TR>
+	    
+	    </TR>
+<TR><TD class="whiteblue" nowrap align="center"><small class=c4><small class=close><B>公井</B></small></small><BR>
+	      <img src=./image_sinobi/Sinobi01_Face04.jpg border=1>
+	    </TD></TR>
+	    </TABLE>
+</div></BODY></HTML><div id=com>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE><font size=5>TPRGシノビガミ　チュートリアル編　「忍者就職活動記」</font></H1>
+<div id=com><B>＜ここまでのあらすじ＞</B>　　<font color="#a99">公開日:2014年4月1日</font></div>
+<div id=com>　</div>
+<div id=com>某年某日、片道勇者TRPGセッションの合間に　</div>
+<div id=com>息抜きとしてまったく別のTRPG「シノビガミ」を遊ぶことにした我々は、　</div>
+<div id=com>ルール説明を兼ねてチュートリアルセッションを開始したのであった。　</div>
+<div class=box>シノビガミとは冒険企画局より展開されているTRPGルールの一つ。
+<BR>プレイヤーがそれぞれ秘密の勝利条件を持つことにより生まれる波乱万丈な駆け引きが特徴。</div><div id=com>　</div>
+<div id=com><B>＜登場忍物＞</B>　　※このセッションではサンプルキャラクターの能力値を使用しています。　</div>
+<div id=com>　</div>
+<div id=com><img src="./image_sinobi/Sinobi01_All.jpg" border=1>　</div>
+<div id=com>　</div>
+<div id=com><font class=c1><B>山東</B>：比良坂機関の忍者。サントリナっぽい。 <a href="https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_sc_hirasaka.pdf" target=_blank class=red>[キャラクターシート]</a></font>　</div>
+<div id=com><font class=c1>　　　 → 敵を操ったり、アイテムの補給ができる絡め手タイプ</a>　</div>
+<div id=com>　</div>
+<div id=com><font class=c3><B>御手洗</B>：斜歯忍軍の忍者。アレイラっぽい。 <a href="https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_sc_hasuba.pdf" target=_blank class=red>[キャラクターシート]</a></font>　</div>
+<div id=com><font class=c3>　　　 → 近～中距離の高威力攻撃が可能なバランスのよい戦闘タイプ</font>　</div>
+<div id=com>　</div>
+<div id=com><font class=c2><B>大神</B>：私立御斎学園の忍者。片道GMっぽい。 <a href="https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_sc_otogi.pdf" target=_blank class=red>[キャラクターシート]</a></font>　</div>
+<div id=com><font class=c2>　　　 → 地形効果を活かした戦いやメインフェイズでの戦闘を仕掛けやすいジワ攻めタイプ</font>　</div>
+<div id=com>　</div>
+<div id=com><font class=c4><B>公井</B>：隠忍の血統の忍者。ハムい。 <a href="https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_sc_oni.pdf" target=_blank class=red>[キャラクターシート]</a></font>　</div>
+<div id=com><font class=c4>　　　 → 広範囲への過激な攻撃能力と高い耐久力を持つ極端な戦闘タイプ</font>　</div>
+<div id=com>　</div>
+<div id=com><font class=c0><B>GM</B>：協力型シナリオに浸りすぎて対立型のTPRGを遊びたくなってきた。ンクっぽい。</font>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>※各キャラクターはシートに書かれている情報とは別に、2つの[忍具]と1つの[奥義]を選んでいます。　</div>
+<div id=com>これらは隠された情報で、他のプレイヤーは基本的に見ることはできません。　</div>
+<div id=com>　</div>
+<div id=com><B>[忍具]</B>：　失った生命力を回復させる、ダイスを振り直しさせる、等の効果を持ったアイテム。　</div>
+<div id=com><B>[奥義]</B>：　必殺技。1発目は必ず成功するが、他のキャラに奥義を使うところを見られると、　</div>
+<div id=com>以後[奥義破り]で発動を封じられる可能性がある。高威力近接攻撃や出目妨害など効果は様々。　</div>
+<div id=com>　</div>
+<a name=S1></a><H1 class=gradientA>～導入の巻～</H1>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それでは皆さん、シノビガミのチュートリアルをはじめます。</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>よろしくお願いしまーす！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>シノビガミは皆さんが忍者になり、それぞれの《使命》達成を目指すＴＲＰＧです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>例えば……今回はお試しですから全員の《使命》は共通で以下の通りとします。</div>
+<div class=box>【君達は就職活動中の学生だ。その<B>《使命》</B>は<B>『《プライズ》の”内定通知”を獲得すること』</B>である】</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>但し、これは表向きの目的に過ぎません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これから皆さんにそれぞれ固有の<B>《秘密》</B>と<B>《プライズ》</B>をお配りします。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>《秘密》によって真の使命が変更されているかもしれませんのでお気をつけください！</div>
+<div id=com>　</div>
+<div class=box><B>《秘密》</B>……各キャラクターごとにこっそり渡される秘密の情報。
+<BR>　　<B>《秘密》</B>は<B>《使命》</B>に優先するため、各プレイヤーは<B>《秘密》</B>の勝利条件を満たすために暗躍することになる。</div><div id=com>　</div>
+<div class=box><B>《プライズ》</B>……アイテムのようなもの。《使命》に絡んだり絡まなかったり奪ったり奪われたりする。</div><div id=com>　</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（各プレイヤーに《秘密》と《プライズ》を受け渡す）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（ワーオ、なにこの《秘密》……さすがニンジャというか、いきなり難易度が超級レベルだわ……）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>よろしいでしょうか。それではメインフェイズに入っていきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>メインフェイズでは各キャラクターが1回ずつ行動を起こすことができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ここで<a href=https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_summary_kai.pdf target=_blank class=red>【プレイサマリ】</a>をご覧ください。</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>皆さんはメインフェイズで　”ドラマシーン”　か　”戦闘シーン”　のどちらかを作ることができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ただし、戦闘シーンを作るためには該当キャラの《居所》の情報が必要です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>皆さんはまだ何も情報を持っていませんから、最初はドラマシーンだけですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えーと……【メインフェイズ】は、戦闘みたいに1人ずつシーンプレイヤーとしての順番が回ってくるんですよね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！一人ずつ、宣言順に行っていきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回のチュートリアルではメインフェイズを3周した後にクライマックスバトルに突入するものとします！</div>
+<BR>
+<a name=S2></a><H1 class=gradientA>～第壱サイクル～</H1>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さあ、それでは最初に動きたい人。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>じゃあやります！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>OK！ではシーン表のダイスを2d6で振ってください。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>2ｄ6</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定　 　<B>(ｺﾛｺﾛ…) ダイス (6＋2) </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>８：凄まじい人混み。喧噪。影の世界のことを知らない無邪気な人々の手柄話や無駄話が騒がしい。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>すごく日常的です。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。社会人に混じって蠢く就職活動生。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（うごめく……）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>おのれ　リアル充実NINJYAめ。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さん、誰かをシーンに登場させたいですか？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>いえ特には。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>∑</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケーです。では、回復・情報・感情の中から好きな行動を選んでください。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では　rｧ　御手洗さんの情報</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>《居所》と《秘密》はどっちにしますか？</div>
+<div class=box><B>《居所》</B>……各キャラクターの居所情報。
+<BR>　　これを持っているとメインフェイズで対象のキャラクターとの戦闘に入ることができる。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ひ　み　つ★</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ですわよねー。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それじゃあ公井さん、好きな特技を宣言して2D6(5)に成功したら御手洗さんの秘密をゲットできます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ただし、その特技を使って秘密を得られるように演出してくださいね！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では[砲術]で</div>
+<div id=com>（編注：チュートリアル開始当初はキャラ設定をしていなかったため習得していない特技で演出しています）　</div>
+<div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>[砲術]で！？どうやって秘密を探るんだろう</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「描写しないと特技が機能しないシステム」発動！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>とりあえず夜の繁華街で俺のこのキャノンをブッパしてみるんだぜ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ﾌﾞｰ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ＧＭ裁定、アウトオオオッ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>はやくも深夜テンションに突入です</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほどこういうときにアウトが出るんですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>その演出では御手洗さんの《秘密》を暴くことはできないと判断しました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>別の特技、別の演出でリトライしてみてください。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これが「GMからのツッコミ」システム……！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（エッチだからアウトじゃないよ！　その演出だとムリだよっ！）ってコトですよね</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では[骨法術]で街のチンピラから就職希望の会社の《秘密》を締め上げましょう</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>こええー！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>それって、わたしの《秘密》に繋がるのぉぉぉっ！？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>コワイ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では2D6(5)をどうぞ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>2d6(5)</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定　 　<B>(ｺﾛｺﾛ…) ダイス (5＋5) </B>＝ <B class=dc>10</B>　<B id=dsuc>　+5成功！</B>　○</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（すんごいいい出目だ）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>OK！では脅し付けられたチンピラが吐きました。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>「あの企業はブラックじゃないんだろうな！？」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>チンピラ「わ、分かったよ！話す！話すってばよ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その会社に出入りしている御手洗って奴なら見たことあるぜ！あいつはな……」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（御手洗さんの《秘密》を公井さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>「何！　こんな秘密が！　おのれ黒忍社　就職してやる！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（就職してやる）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（なんか……微妙にずれてるような……）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（もしかして：公井さんの秘密に絡んでる</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（この世界の情報セキュリティはどうなっているの？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>秘密を確認し終えたら何かアクションしてもいいですし、このままシーンを閉じていただいても構いません。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>特にやりたいことはありません。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>分かりました。では公井さんは夜の街に消えていきました。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>これで一人目のメインフェイズが終わりました。では次に動きたい方！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>はーい！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではどうぞ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ドラマシーンの感情判定にする？情報判定にする？それともバ・ト・ル？（※《居所》を持っていないのでできません）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えーと、それなら感情判定のチュートリアルがてら……誰にしようかな。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>じゃあ、まだ出ていない山東さんをシーンに呼びます。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ﾜｰｲ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>喫茶店かどこかかなーってシーン表振ってない！　振ります。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定　 　<B>(ｺﾛｺﾛ…) ダイス (2＋4) </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>６：優しい時間が過ぎていく。影の世界のことを忘れてしまいそうだ。</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>シーンの登場プレイヤーですが、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>山東さんと感情を結びたいなら山東さんの参加は必須です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では山東さんを強制出場させます</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあ公園でほっこりランチタイムにでも興じているかんじですね！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではお二人ともカモーン</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>って待って、これ全員呼ぶとかできるんですか！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>もちろん！＞全員</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うおーなるほど！　でも今回は特に有利な点もないので山東さんだけで。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では就職活動の合間のひととき、知り合った君達はのんびりと昼食をとっている。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「こ、こんにちは。どうもすみません、お呼びだてしてしまって。就活生だから一人が不安で……」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>と弱気なフリをして近づき感情判定を……[毒術]で行います！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（何を混ぜたー！？）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>毒ー！？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>コーヒーに毒！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>毒で感情を！？　洗脳！？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>どんな感情を引き出したいんですかー！w</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>どうやら僕達は忍たまの世界観まで認識を落としたほうがよさそうだ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>山東さんのお弁当に何か毒を……といっても得られる感情は、感情判定の結果によるんですよねコレ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>つまり媚薬とか入れても愛情が出るとは限らないと。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>……その企みが成功したか2D6(5)で判定してください。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>行けー毒物ー！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定　 　<B>(ｺﾛｺﾛ…) ダイス (5＋5) </B>＝ <B class=dc>10</B>　<B id=dsuc>　+5成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ボボーン！大成功！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>毒が盛られたー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では大神さんと山東さんのお二人は1D6でお互いの感情を決定してください。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>■ 大神の判定　感情 　<B>(ｺﾛｺﾛ…) ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>■ 山東の判定　感情 　<B>(ｺﾛｺﾛ…) ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>４：忠誠（プラス）／侮蔑（マイナス）　！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>すごいちゅーとりある</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>好きな方を選んでくださいね</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あの、これどっち選んだら……</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>謎の洗脳で忠誠か、下剤が混ぜられていて侮蔑か……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>どっちも関係しそうにねえ！？</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「ふん、こんな毒に引っかかるとはまるでシロウトだな……」ということで「侮蔑」。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ブラックな人だー、あ、でもニンジャだから、ブラックで問題ないのかー、あー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>感情は自分が自由に選べるんですよね？
+<BR>自分から山東さんに対しては自分で選ぶし、山東さん→自分は山東さんが選ぶと。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！選べます。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>どっちにしろアヘ顔ダブルピースが</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「いきなりライバルに毒を盛るなんて……」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ドMにいきましょう。「忠誠」で。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「なんて男前！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（男前ってどういう意味だっけ……）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うあぁー、なんで深夜テンションなの！！！！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>とくに深夜ではないと思いましたがいかがでしょうか！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>結んだ感情によって描写がやや変化しますね、ええ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>じゃあ信用毒を受けてしまって忠誠を誓ってしまわれたというような感じで。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>とまあ、そんなやりとりがあって二人は結ばれました。おめでとう！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>Ninjyaだから仕方が無い</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>いやせっかくだから反対にしたほうがいいかなーって？！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>SとMの強固な関係</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（これは負けロールがはかどりそうだな……！）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>これ以降、大神さんが得た情報は山東さんへ、山東さんが得た情報は大神さんにだだ漏れになります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では大神さんシーン終了！</div>
+<div class=box><B>【感情を結ぶ】</B>　他のキャラクターに感情を結ぶと、以下のことが可能になります。
+<BR>　・感情を結んだ相手が得た[情報]が自動的に共有される。
+<BR>　・感情を結んだ相手が参加する[戦闘]に乱入できる。
+<BR>　・選んだ感情によって、相手に+1か-1の感情修正を与えられる（1ラウンドに1回まで）。</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>Q.ところで感情結ぶのってこれ抵抗できないんですか！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A．できません！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>こええ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ただし、【奥義：判定妨害】　や　【忍具：遁甲符】　で判定そのものを妨害することは可能です</div>
+<div class=box><B>【奥義】</B>……プレイヤーが秘密裏に習得している奥義。
+<BR>　　最初の一回は必ず効果を得られるが、目撃されると次回からは見破られて失敗する可能性が発生する。
+<BR>　　強力ではあるが使いどころの見極めが大事。</div><div id=com>　</div>
+<div class=box><B>【奥義・判定妨害】</B>……同じシーンに登場しているキャラクターが判定を行ったとき、
+<BR>　　サイコロのどちらか一つを選び、その出目を1にすることができる。やられる側としては非常にうっとうしい。</div><div id=com>　</div>
+<div class=box><B>【忍具】</B>……プレイヤーがそれぞれ秘密裏に所持しているアイテム。
+<BR>　　体力を回復する【兵糧丸】、自分の判定をやりなおす【神通丸】、
+<BR>　　他のプレイヤーの判定をやり直させる【遁甲符】の3種が存在する。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほどー。といっても、忍具の【遁甲符】を使っても、2D6で目標値5じゃ失敗させるのは難しいなあ……。　※目標値5なら約83％で成功してしまうため</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>Q　同じ人に二回とか三回感情を結ぶような機会があった場合は上書きですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.はい、上書きされます。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>Q.そういえば感情を結んだ相手への、誰かの秘密の共有についてですが、自分の意思で隠したりできるんでしょうか）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.防げません。ダダ漏れです。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>了解しました！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ニュータイプのように分かり合っちゃうのか……（感情を結ぶ）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ニューロンを通してビビッと伝わっちゃうんですね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>Q.感情を結んだ場合自分の秘密まで漏れちゃう、なんてことはないですよね……？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.共有されるのは感情を結んだ後に得た情報のみですので自分の秘密はバレません！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ありがとうございます！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では御手洗さんシーン、どうぞ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>その前に、《居所》の情報って、シーン表のサイコロとは関係ない？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>シーンの描写はあくまでそのときだけの状況であって、【居所】ではないかなって認識でした</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>【居所】はですね、居所を知られているか否か　の情報です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>つまり、「お前がいつどこにいるかちゃーんと知ってるから逃げても無駄なんだぜもけけけけけけ」　ということになります。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>やっだーこっわーい　ニンジャコワイ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>スパイ衛星でロックされた状態！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ふむふむ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>戦闘を仕掛けたい相手がいるならば、まず《居所》の情報を取得してください。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ともかくシーン表を振ると。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定　 　<B>(ｺﾛｺﾛ…) ダイス (1＋2) </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>３：これは……夢か？　もう終わったはずの過去。しかし、それを忘れることはできない。
+<BR>回想シーン！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（このシーンなんなの……）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>回想の中で人を呼んでもいいですし、すぐに現実に復帰してから人を呼んでもいいですよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あるいは孤独に情報判定するのももちろんありです。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（ああ、感情判定はターゲットにする人を出さなきゃいけないけど、情報判定は対象の人を出さなくてもいいのか……）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>では、就活先の企業へ向う電車の中で、大学に通う時に催して、トイレに駆け込んだらちびっていたコトを思い出します。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「あのときは、やばかったなぁー」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（なんかいい感じ？の回想だ）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>では、公井さんに情報だだ漏れなのはくやしいので、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>公井さんの秘密を知りたいです。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>どうぞ！では技能を選んで判定してください。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>盗聴術で、おそらく同じ企業へと向う公井さんの評判や噂話を聴き取ります。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>電車の中にはほかの就活している人もいるでしょうから。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>で、GM的にオッケーなら2D6を振ればいいんですね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケーです。どうぞ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アウトっぽかったらこっちから突っ込むのでどんどん振っていただいて大丈夫でーす！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋1) </B>＝ <B class=dc>5</B>　<B id=dsuc>　+0成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>際どく成功！評判をしっかりキャッチできました。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（公井さんの《秘密》を御手洗さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>こうして公井さんの秘密を知る事ができるんですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>確認を終えたらシーンを閉じるかアクションをしてください。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>じゃぁ、なんかオシッコでそう、って股間を押さえつつ就活先の会社に向いましょう。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（御手洗さんはブレませんね）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（さすがですよ）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（Mのひとになんか言われた）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では最後に山東さんですね。どうぞ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあそうですね、私も《秘密》を探ってみよう。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ターゲットは……公井さんで。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんの《秘密》ですね。ではシーンの2D6を振って、登場人物を選んでくださーい</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>登場人物はせっかくなので御手洗さんをよんでみます。シーンは</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定　 　<B>(ｺﾛｺﾛ…) ダイス (6＋5) </B>＝ <B class=dc>11</B></div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（無駄な出目ェエエ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>１１：酔っぱらいの怒号。客引きたちの呼び声。女たちの嬌声。いつもの繁華街の一幕だが。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では登場人物をどうぞ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>では御手洗さんでって一番適任な人になっちゃった！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（どういう意味！？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はーい！では情報判定をどうぞ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>[対人術]で、ほかの人との雑談を交えながらそのあたりの情報を手にしようと言葉巧みに聞き取ります。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (2＋2) </B>＝ <B class=dc>4</B>　　<B id=dmis>-1失敗！</B>　Ｘ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ああっ、残念！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「トイレさがしているんで、後でお願いします、すみません、漏れそうなんです！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>せっかくの[対人術]もトイレ欲の前にはかないませんでした。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>せんせー【忍具】使ってもいいですかー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>もちろんです！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>【神通丸】一つ消費して再挑戦！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋5) </B>＝ <B class=dc>10</B>　<B id=dsuc>　+5成功！</B>　○</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（ダイスの神様って極端がお好き！）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（なんと極端な）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>10乱発</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>成功！。山東さんは公井さんの《秘密》を獲得します。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして山東さんは大神さんと感情を結んでいるので大神さんも公井さんの《秘密》を獲得です。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（公井さんの《秘密》を山東さんと大神さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>トイレ探している間に、なんか別の就活生に捕まって根掘り葉掘り聞かれたんですか！　わたし！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>おしっこ、もれちゃう……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>これで公井さんの《秘密》は全員に行き渡りましたね。オープン！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんの《秘密》は以下の通りです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>【公井の秘密：あなたはなんのひねりもない就活生です。使命の変更は起きません。】</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>秘密なんてなかった！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ボクのささやかな就職活動がばれてしまった</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（あれ？　みんなニンジャだから自分みたいにすごい秘密があるのかと思ったら普通だぞ……？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではこれで山東さんのシーンが終了し、第1サイクルが終了しました。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>なお、ドラマシーンにおいては情報やプライズを好きに交換することができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ゲットした情報をエサに使うとかなんでもありですよ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えーと何の情報が埋まってるか整理してないと大変ですねこれは。その為のあのチェックリストか！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>（※キャラクターシートに「判明した秘密・奥義」のチェックリストがある）</div>
+<BR>
+<div class=box><B>【第壱サイクルのまとめ】</B>
+<BR>　公井 → 御手洗の《秘密》を知る
+<BR>　大神 → 山東と感情を結ぶ
+<BR>　御手洗 → 公井の《秘密》を知る
+<BR>　山東 → 公井の《秘密》を知る → 感情を結んだ大神も《秘密》を知る
+<BR>
+<BR><B>[感情]</B>　　大神 ←→ 山東</div><div id=com>　</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>～第弐サイクル～</H1>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では、2サイクル目でまず動きたい方は！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>早速いきまっせ</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋2) </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>８：凄まじい人混み。喧噪。影の世界のことを知らない無邪気な人々の手柄話や無駄話が騒がしい。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では御手洗さんをお呼び出ししましょうか。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>さて　自分は御手洗さんの秘密を知ってるわけですが。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>勝利するとなると丸め込めばいいわけですよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。公井さんは《使命》に変更がありませんから</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>《プライズ》の”内定”を獲得したまま生き残ることができれば勝利です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに《プライズ》やその他《秘密》・《居所》・《奥義》などの情報の交換はドラマシーンならいつでも行えます。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（ただ私か山東さんと情報交換すると漏れなくもう一人に伝播しちゃうというわけですね）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（はい）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では　人ごみの中　御手洗さんの背後に立っています。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（就職活動でよくあるシーンですね）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（そうですね。よくありますね）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしのしっている就職活動と違う……</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「うわっ、なんですか、あなたは、ちょっと漏れちゃうから、びっくりさせないでくださいよ！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いやあ、何が漏れるんでしょうねえ</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>「知ってるぜアンタの《秘密》。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>それをよこすんだ　それはアンタの目的にも合致するはずだ」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>緊張のひととき！果たして御手洗さんの回答とは！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「な、なにを言っているのか、よく分からないんですけど……それよりトイレどこにあるかしりませんか？」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>と、答えてもいいんですよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>もちろんです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もし公井さんが強硬手段に出る場合は、御手洗さんの《居所》の情報をつかんだ上で戦闘を仕掛けて勝利する必要があります！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>「拒むのか　ならば　転ばしてでも奪い取る！」</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（しかしこの会話だと御手洗さん側の秘密がダダ漏れだー！？　質問の仕方も難しいですね）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>公井さんの《秘密》をみんな知っている、そして公井さんがわたしに迫ってる、となると、わたしは……ってのがバレちゃいますねぇ、難しい</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>となると、このラウンドでは公井さんは情報判定で御手洗さんの《居所》を探すのかな？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>これは同じシーンにいるのに居所が分からないってコトですか</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そうみたいですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いつでも逃げられるぞーってことみたいですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほど、逃げられるからセーフハウスを急襲！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>その場で処理はできないのですね</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（戦場は採石場という定番がありますからね）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>流石おのれNinjya</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>では、わたしはトイレを探して逃げますね、「も、漏れるー」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>っていうか、わたし、いつまでおしっこ我慢しているの！？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おーっと、でも今みたいな任意の情報交換は行動回数には含まれませんよね？</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>言い換えると、まだ行動終了してませんよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！公井さんはこのまま《居所》を掴めますよ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では御手洗さんの《居所》を探し当てます</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はーい。では技能で2D6(5)判定をお願いします。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ストーカーですよー！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>Ninjyaですよ</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>[呪術]で御手洗さんの居場所を占います</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定　 　<B>(ｺﾛｺﾛ…) ダイス (5＋2) </B>＝ <B class=dc>7</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（[調査術]とかじゃないんだ！）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>はんだらほんだらほだらかふんふん！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おのれ、ニンジャ、しかし、わたしもまたシノビの道を歩むモノ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケー！では公井さんは御手洗さんの《居所》情報を獲得しました！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>『おしっこ漏れそうー』（トイレにいます）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>で次のラウンドから戦闘可能と！ヒュー</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ロックオンアラートがなりっぱなしだ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ニヤリ。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではこれで公井さんシーンは終了です。次の方ー。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>これは、さっきのサイクルと違って、順番が別でもいいんですか？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>好きにしていいっぽいですね。　※相談で仲良く決められれば</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>行動順は任意でーす。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>よーし、いないなら私が出ます！　ババーン！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>どうぞ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあ戦闘が始まりそうなので乱入できるように公井さんに感情を結びたい！（今の内にダメージ与えたいし）</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>シーン 　<B>(ｺﾛｺﾛ…) ダイス (5＋3) </B>＝ <B class=dc>8</B>　　<B>8：凄まじい人混み。喧噪。</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>また雑踏だ！君ら好きだな！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>登場人物は公井さんと、他には出しますか？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>他はなしで！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>では雑踏で公井さんと出会います。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「やあ、君も就活生なんですよね、一人じゃいろいろ不安なんで、よかったら仲良くしませんか？」　といってまた毒の粉でもふりかけようか！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>これ前回と同じ特技を使ってもいいんでしょうか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>もちろんいいですよー</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>大神さんのキャラがマッドすぎるわっ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>まさか背後をとられるとは</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えっ、そういう構図だったんだ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いやん、掘らないで！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では[毒術]で粉を振りまきます！パラパラ</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋2) </B>＝ <B class=dc>7</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>成功！では大神さんと公井さんは1D6でお互いの感情を決定してください</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>1D6　感情！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 感情！ 　<B>(ｺﾛｺﾛ…) ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>３：愛情（プラス）／妬み（マイナス）　！</div>
+<BR>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>４：忠誠（プラス）／侮蔑（マイナス！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「（こいつ、何か知っている……くそっ、うらやましい！？）」　　じゃあマイナスの【妬み】で！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ではマイナス【侮蔑】で。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>とげとげしい！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>侮蔑！　では色々お話をしてみましたがいまいち仲良くなれませんでしたということで。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではこれ以降、公井さんと大神さんが得た情報はお互いにツーカーです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ここで注意事項！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おっ？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>現在感情は　山東さん⇔大神さん⇔公井さん　になっています。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたし以外、みんな情報共有できる……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんが情報を得た場合は、それぞれ繋がっている山東さんと公井さんに連携されます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかし山東さんが情報をゲットした場合は、直接感情で結ばれている大神さんにしか伝わりません。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なんだとー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほど！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんがゲットした場合にも大神さんのみです。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あくまで「感情を結んだ相手のみ」なわけですね！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そういうことでーす</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>この場合は一番情報集められるのは大神さん！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>友達の友達はみんな友達ではなかった！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>それだと、戦闘の勝者による「一方的に感情結ばされる」ってひどい！情報がつつぬけになるだけで相手のはもらえないんだー！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では次のシーン！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあ御手洗さんに感情を結んでみますかねー！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あああ、ワケが分からない、図を描かないと……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>おお、四角関係。いや、コの字か。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>人物相関図を描こう</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>この場合御手洗さんが戦闘になったら全員参加できるんですよね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！参戦できますね！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おほっ、御手洗さんがヤバイ。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>シーンは……</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋4) </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>5：世界の終わりのような暗黒。暗闇の中、お前たちは密やかに囁く。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>囁いてください。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>トイレで！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どこにいるんだ、わたしは！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>男子トイレ？！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>突然男子トイレが真っ暗になって声が……。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>チャックを下ろそうとした瞬間に背後から声が！！！！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>しかも停電だと！？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>Ninjyaって後ろに立つの好きね（お前が言うな）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたし、背後とられすぎ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>登場人物はどうされますかー</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>えーっとじゃあ……みんなでいいかなもう！（考えるのを放棄した）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>みんなでトイレ！？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあ御手洗さんの隣で用を足しています</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どんな状況なのぉぉぉぉっ！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>暗闇の中でひしめく君達。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>わけがわからないよ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>むしろトイレだったら一人だけはいれないってか逆エシュたるしかないよ！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>触れ合った肌が一体誰のものなのかも分からない！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>アッー</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ヤダー！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではシーン開始！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>こわい、ちびっちゃう</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>もうわけがわからな個室ですか個室なんですか（ツボ中</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いや、あの、男子トイレなので、小便器だと思います</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>となりの小便器には大神さん。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>それガン見ってやだな！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「（なんだこれ……同業者から攻撃受けてるのか……？）」　と視界を闇に慣らそうと必死です</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>シーンのマスターは山東さんですので、好きに状況描写してくださいね。
+<BR>山東さんが女子トイレと宣言すればいまからここは女子トイレだ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>女　子　ト　イ　レ　で。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ﾊﾞﾊﾞｰﾝ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なんだと、わたし、これじゃ痴漢で捕まるじゃないですか！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあまちがって入った女子トイレの個室でふんばってます</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（ただいま腹筋と酸欠で大変なことになっております）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あまりの尿意に女子トイレに入ってしまった！しかも、大神さんは大きいほうだ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おい！おい！登場キャラがほぼ男子なのに全員女子トイレ内じゃん！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>男子トイレ壊れてるんですよきっと！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>シーンマスターの権限とは一体……うごご……</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>それか清掃中！　ナニモノカノ　テニヨッテ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では御手洗さんに感情結ぶロールですね、ええ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（……どう結ぶの）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>密やかに囁く。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>特技で、なにかロールして……</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「ちょっと、トイレ間違えてるわよ！」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>[対人術]で普通に注意ですねはい。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたし、間違ってないのに、間違っていることにされた！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（[対人術]を使うほどなのー！？）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（勇気が出なかったんですよきっとー！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあ私はバレずに済んだってことで一安心してます。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「ふー、隣の人が犠牲になってくれたぞ……」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「すみません、男子トイレが清掃中で、仕方なく、漏れそうなんです、ゆるしてください」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>（みんなが、わたしに、おしっこさせてくれない！）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では[対人術]で2D6してください。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>というわけで感情判定！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス 6 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>６：狂信（プラス）／殺意（マイナス）</div>
+<BR>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>３：愛情（プラス）／妬み（マイナス）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>殺意で！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ぶっ＞殺意</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>トイレとは……</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>じゃ、じゃぁ、愛情、って、どうやって愛情もつんだよ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>トイレを間違えるだけで殺意を抱かれる。コワイ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>トイレくらいいいじゃん、という妬み？</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>妬みにしましょう。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>妬むの！？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>相手が女であることを妬む！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>女子トイレに堂々と入れることを妬むならわかる！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>だって、どっちもおかしいじゃないですか！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>愛情はありうるよ！？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>こーいーしちゃったんだー＞愛情</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>最悪の出会いじゃないですか＞愛情</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>というようなことが起きて、暗闇の集いは解散しました…大神さんと公井さんは何しにきたんだ……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>女子トイレでビッグ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（もうだめ腹筋が　自分でやっといてなんですが腹筋が）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では最後、御手洗さんのターン！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたし、まだ行動していないので、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定　どんなシーンかな</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…) ダイス (5＋1) </B>＝ <B class=dc>6</B>　　<B>6：優しい時間が過ぎていく</B></div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ほのぼの。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>優しい時間ですねー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あ、しまった！　さっきのシーン感情修正使ってみればよかった！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>今ﾔｯﾁｬｴー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>おっと、ではここで感情修正の説明に入りましょうか。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>わーい</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ちょっとお待ちくださいね。原文を探してきます</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おねがいします。こちらはほのぼの待機</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>感情修正って同じシーンに招かれてすでに感情を持っていれば出来るってかんじですかねっ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>みたいですね。同じシーンってのがミソ。これ戦闘にもかかるのかな？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>えー、ドラマシーンでは同じシーンに登場している場合に限り、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>感情を結んでいるプレイヤーへの感情修正を行うことができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>プラスの感情なら＋１、マイナス感情なら―1ですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>つまりさっきなら私が山東さんに（侮蔑で）－1することができたわけですね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そういうことです！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>感情判定を行えるのは、ドラマシーンなら1サイクルに1度だけ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>戦闘シーンなら1ラウンドに1回です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>Q.これらの補正は±2以上に重複しますか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.します。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ありがとうございます！　質問は以上！スッキリ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>感情判定を集中砲火されると実際やばい！
+<BR>まあ判定値が5のところに-4されても普通に成功しそうな気はしますけどね。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では御手洗さん、ほのぼのシーンで何をしましょうか。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>じゃぁ、ほのぼのなので、男子トイレでようやく用を足してほっとしています。孤独はいいなぁ、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そして情報判定、妙にみんなの情報を集めている大神さんの《秘密》をさぐろう</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではどうぞー。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（ゴクリ）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（それはそしてこちらにも漏れる！）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>[傀儡術]で、社員らしき人を操って面接と偽り、就活生である大神さんの秘密を探ります</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋1) </B>＝ <B class=dc>7</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これ私じゃどうにもできない気がする！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>他の人の判定に干渉する奥義や忍具はいくつかありますね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>忍具なら【遁甲符】。奥義なら【判定妨害】！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>奥義の【判定妨害】を使う場合は同じシーンにいる場合のみですから、もし妨害するとしたら【遁甲符】で振り直させるしかないわけですよね？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>判定妨害で6を1にって、同じシーンにいないとダメなのか</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>すげぇ使いにくい！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ああ、そうだった。奥義は同じシーンにいないといけませんね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあダメもとで【遁甲符】使用！　御手洗さんの判定を振り直させます！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ＯＫ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>でもどこからやってるんだコレ……。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>では、もういちど2D6を振ればいいんですね</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>振り直しお願いします！　アイテム消費！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>でも失敗する気がしねえ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(5)　面接のお時間ですよー</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定　　<B>(ｺﾛｺﾛ…) ダイス (3＋4) </B>＝ <B class=dc>7</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>無理無理ムリムリ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>期待値を外さない！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>まぁ5じゃなぁ…</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ということで情報合戦の妨害はほぼ不可能です！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では大神さんの秘密が御手洗さんと山東さんに明らかになります。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ﾄﾞｯｷﾄﾞｯｷﾀｰｲﾑ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>オープンどうぞ！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（大神さんの《秘密》を御手洗さんと山東さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>感情がマイナスの場合は……ああああ、これも同じシーンにいないとダメなのかー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>仮に私がやれるとしたら持ってたとしてあと一回【遁甲符】ぶっぱするくらいだけど成功率は低いしなあ。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では御手洗さんと山東さんはそれぞれリアクションをとっていただき、と。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あ、さっき大神さんが言ってた盗まれるって、わたしが敢えて【クリティカル】の奥義をもって、奥義交換しちゃったらドラマシーンでは奥義を使えないということか……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>奥義交換っていうか奥義の情報交換ですよね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>自分の奥義は知らせることができるわけですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>自分の奥義情報を知られると奥義破りをされる可能性こそ出てきますが使えなくなったりはしませんね。</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>自発的に公開できないのは自分自身の《秘密》だけ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>奥義情報は交渉材料として教えたりって感じに使えるわけですねー。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>【居所】を教える意味はよくわからない！　けど情報交換の材料に使えるなら有りかな？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>で、わたしは大神さんの《秘密》を知ったものの、おしっこをし終わってほっこりです。終わり</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>《プライズ》は自発的に公開できるんです？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>《プライズ》は悩ましいですね。セッションによることにしましょうか。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回は公開可能にしましょう。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>なるほど、了解です</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では、これにて第二サイクル終了！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>結局秘密一人分しか知ることができてない！</div>
+<BR>
+<div class=box><B>【第弐サイクルのまとめ】</B>
+<BR>　公井 → 御手洗の《居所》を知る　　　　獲得済[ 御手洗の《秘密》《居所》 ]
+<BR>　大神 → 公井と感情を結ぶ　　　　　　　獲得済[ 公井の《秘密》 ]
+<BR>　山東 → 御手洗と感情を結ぶ　　　　　 獲得済[ 公井･大神の《秘密》 ]
+<BR>　御手洗 → 大神の《秘密》を知る → 感情を結んだ山東も《秘密》を知る　獲得済[ 公井・大神の《秘密》 ]
+<BR>
+<BR><B>[感情]</B>　　公井 ←→ 大神 ←→ 山東 ←→ 御手洗</div><div id=com>　</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>～第参サイクル～</H1>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では決断的に最終サイクルスタートだ！動きたい方はー</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>はい。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>どぞー。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どうぞ、どうぞ。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>御手洗さんの居場所も知ってるのだからもう乗り込むしか</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>くくく、感情持ってるから乱入できるぜ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>こっちも乱入できますね！！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おしっこしてすっきり～、チャックを上げています。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4><a href=https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_battle.pdf target=_blank class=red>【バトルシート】</a>の戦場表をふればいいのかしら？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>1D6でお願いします！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>1ｄ6</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定　　<B>(ｺﾛｺﾛ…) ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>３：高所　ビルの谷間や樹上、断崖絶壁など。この戦場でファンブルすると１点のダメージを受ける。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どんなところにトイレがあるの、この会社！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ビルの谷間トイレ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>足を踏み外すと……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では摩天楼のトイレにて用を足す御手洗さんのもとに公井さん乱入！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>出るもんもでなくなりそう！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>前にガラス張りの個室トイレなんて記事あったな</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どこで尿だしてたんだ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>気をつけろ、車と用足しは急に止まれない。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>尿は出し終わったんですけど！！！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>戦闘乱入！のタイミングはいつなんでしょうGM！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>戦闘開始時ですね。演出しちゃっていいですよ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>「お前の秘密を貰いにきたぞ　ニンニン！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あきらかな忍者だー？！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では高層ビルの谷間のトイレで公井さんの後ろから現れましょうか。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「あなただけに渡すわけにはいかないのですよ」　バッ！　（本当は内定とかどうでもいいんだけど）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「ちっ、ついに現れたか！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（ついでに現れるべきか、いやカオス……！）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「でも、ちょっとまって、まだ手を洗ってないんだけど、いい？」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>遂に高所のトイレではじまる戦い……</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあ乱入しちゃう！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「そこ、トイレのあとは手をあらいな……男子トイレだここー？！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんがゆらりと振り返ると、その両手からは禍々しいオーラが立ち上っていることが分かります。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしの手だって、触った状態のままだぞ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「キミらが悪いんだからね、わたし、ただオシッコしたかっただけなんだからね！」</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>とりあえず御手洗さんを攻撃しよう</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>実はチャック上げ忘れてますからね、キミ達が急に現れたんだからね！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では戦闘をはじめますよー。まずは【プロット】です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><a href=https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_battle.pdf target=_blank class=red>【バトルシート】</a>のヴェロシティシステムを参照し、1～6の任意のプロット値を決めていただきます。</div>
+<div class=box><B>【プロット】</B>
+<BR>・1～6の間で選ぶ
+<BR>・選んだ値がこのターン使える忍法の【コスト】総計値となる
+<BR>・ただし戦闘中のあらゆる判定において、2D6の出目がこのプロット値以下だとファンブルになる。
+<BR>　高い値ほど先手を取れて高コストな技が使える代わりに、ファンブルしやすくて危険になる。
+<BR>・キャラごとのプロット差＝間合いとなる。間合いによって有効なスキルが異なる。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>プロット選択OK！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>決めた。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>よし、おっけ。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>あとは山東さんですねー。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>山東さんはトイレっぽい！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いや、みんなトイレですよ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>戦場がトイレでしたね！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>もどりましt　トイレだって知られてる（顔を覆う）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>そんなこんなで全員分プロット値決定。</font></div>
+<div id=com>４：大神・公井　</div>
+<div id=com>３：山東　</div>
+<div id=com>１：御手洗　</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではここで例として<a href=https://web.archive.org/web/20160705212712/http://www.bouken.jp/pd/sg/pdf/sg_sc_oni.pdf target=_blank class=red>公井さんのキャラクターシート</a>の忍法欄を見てください。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>5つの忍法がありますが、タイプが”攻”のものがアクティブスキル、”サ”と”装”のものがパッシブスキルだと思ってください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>プロット値の数値分だけのコストの忍法を使うことができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>例えば今回は公井さんのプロット値が4ですから、［流星雨］と［痛打］を使用できますね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてドラマシーンの戦闘フェイズですが、参加プレイヤーの数分だけラウンドが回ります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回なら最長で4ラウンド！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>但し、1点でもダメージを受けた人がいたらその人はその時点で脱落します。慈悲は無い。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これを繰り返し、最後に一人残った人が勝者です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>最後に一人……ということは、これは仲間でも倒さないといけないってことですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ああ、自分から脱落を選ぶことはできるんですよ。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ああ、なるほど！ダメージ受ける前に落ちる！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>その場合はダメージを負いませんからね。ただし勝者にナニカサレルかも。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでプロット値が高い公井さんと大神さんの行動から戦闘がはじまります。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（ドラマシーンでの戦闘フェイズは1点でもダメージを受けたら脱落ってコトですか？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（板挟み……）（顔を覆う）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>プロット値が同じ場合は同時行動になります。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（クライマックスだと死ぬまでやりあうという認識でいいですか？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ご認識どおりです＞死ぬまで殺しあう</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ここはチュートリアル的な意味でまず公井さんに攻撃してもらいましょう。どっちにしても私も攻撃するはず！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では公井さんの攻撃なんですが、公井さんは二つの手段で攻撃が出来ます。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>じゃあ丁度間合いが3なので御手洗さんに忍法[流星雨]を使いましょうか</div>
+<div class=box><B>[忍法・流星雨]</B>……攻撃忍法。間合い3以内にいるキャラクターを全員対象とし、射撃戦ダメージ1点を与える。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>なかなか　りかいが　はやい！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>それで認識はあってる！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>この場合、コストは3、プロット値は4なのでコストを1余らせて忍法を使えます。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>で、その[流星雨]なんですが…なんか強いことが書いてあるぞこれ！？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ほぼ全体攻撃……。あ、コスト1余ってるから[痛打]もトッピングすることができるんですね。</div>
+<div class=box><B>[忍法・痛打]</B>……サポート忍法。攻撃の前に使用し、成功すると与えるダメージを＋１する。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さん、[痛打]は使いますか？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>使いましょう。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>これ下手したら公井さんのターンで終わるんじゃ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うあー、公井さんの忍法、間合いながーい</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>効果が【奥義・範囲攻撃】とほぼ同じっていう鬼畜スキルです</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それでは、まず[痛打]の成功判定をしていただきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>[痛打]の指定特技である登術は現在使用可能ですので、ペナルティ無しの2D6(5)で判定してください！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (3＋3) </B>＝ <B class=dc>6</B>　<B id=dsuc>　+1成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>［痛打］成功！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>誰か、何かアクションします？
+<BR>奥義とか、忍具とか。感情修正とか。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>何かできるんですかコレって感情修正があったか！　公井さんに－１！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ、いやここでは使わない！[流星雨]の判定に使う！で！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんが感情を結んでいるのは大神さんだけでしたね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（全員で公井さんの流星に妨害にかかる図が見えます）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では[痛打]は成功。公井さんは続いて[流星雨]の指定特技、召還術で判定を行ってください！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>現在はペナルティ無しですからやはり2D6(5)になります。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>要するに5ですね。でも私の感情補正で2D6－１！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ほいきた。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋5) </B>＝ <B class=dc>11</B>　<B id=dsuc>　+6成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>-1したくらいじゃ全然無理だ－！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ドッギャアアアン</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>だれぞ！だれぞ判定妨害を持っている人は！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>【遁甲符】を使います！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あ、持ってる人いた。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では公井さん、忍具で妨害されましたので振りなおしをお願いします。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (3＋5) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ハムい。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ぎゃー！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>目標5とか6を妨害とかむりむり</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>まぁ5だとね…</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>泣いている山東さんもいるんですよ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ﾌﾞﾜｯ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ということで発動ですね！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では皆さん、このまま回避判定に入ってもいいですか！</div>
+<div class=box><B>回避判定</B>……攻撃側の指定特技と、自分の習得している最寄の特技との距離＋5を2D6で出せれば回避成功。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>私はOK！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さん、山東さんはOK？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>泣きながらOKです！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>okです</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では順番にいきましょうか。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まず公井さん、自身の攻撃を回避してください。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>何この最狂な……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あ、そうか！　この[流星雨]って自分にも当たるんだ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>自分にも来るの！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あ、なるほど！間合い全部ってことはそうなる！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>【間合い内にいるキャラクター全員】ですからね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ただ、[召還術]による攻撃ですので公井さんは5を出せば軽々回避できるんですよねー</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではどうぞ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その間に皆さんは達成値を調べておいてくださーい</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>判定は2ｄ6でいいのん？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>2d6</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋5) </B>＝ <B class=dc>11</B>　<B id=dsuc>　+6成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ハムいわ……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>公井さんは楽々と攻撃を回避しました。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>なにその出目……ﾌﾞﾜ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>私立学園のキャラには[戦術]列の上から3つめに[野戦術]があるので私は目標値7！　振っちゃっていいです？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんどうぞ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>［野戦術］で［流星雨］を回避！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋1) </B>＝ <B class=dc>6</B>　　<B id=dmis>-1失敗！</B>　Ｘ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>失敗！ズゴオオ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ドジャアアア</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2の射撃ダメージなので影響がない[妖術]列と[謀術]列あたり消します！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>こういうとき、大神さんにプラスの感情を持っている人がいたら助けられますね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あー、じゃあ助けます！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（ええ子やー……）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（なに！？　助ける意味あるのかなあ……）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（山東さんは大神さんの《秘密》知ってるのに）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>感情はここで意味が出るのか</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>仲間内なら基本的に＋取っておいたほうがいいってことですね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では山東さんは感情修正を行って大神さんに回避をさせました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>実戦の場合は、どのように助けた/妨害した　のかを演出してもらいますから覚悟しておいてくださいね！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これ憎んでる相手から攻撃されるときも相手に－1できるんだ！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>山東さんありがとうございまーす！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>あんまーいべったべったの描写をしたって許されますよケケケケ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>なんですってー　うふふふ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>でも本編のやつで出すのは男の子のつもりですからつまり</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ウホ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>つまり。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ああ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしが、あなたを、まもる！（お尻突き出し）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いけません。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ではこちらは言霊術で。４つ離れている状態で回避です！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋1) </B>＝ <B class=dc>5</B>　　<B id=dmis>-4失敗！</B>　Ｘ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>遠い！山東さんについては誰も何もしなければ、射撃戦ダメージ2点を受けてください。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあ[器術]列と[戦術]列潰しておきまーす</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>はい　ダメージについてよく解ってません</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>１ダメージ受けると特技リストの中の縦一列が消えるんですよ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>だからＨＰ最大６！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>なるほそ。防御に使ったスキルの列でなくてもよいのですね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ご認識通りです＞公井さん</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では御手洗さん、回避判定やいかに！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ちょっとお伺いした方がいい件があったので、待っていたのですが……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>お、どうぞどうぞ</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>[魔界工学]っていう忍法はパッシブだから常に使っていることになりますわね。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>[器術]列と[妖術]列が繋がっているという表記がありますよね。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ということは、わたしは[火術]を代用特技として回避できるってことですよね？</div>
+<div class=box><B>［忍法・魔界工学］</B>……サポート忍法。特技を代用する際に［妖術］列と［器術］列が繋がっているものとして扱う。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>その通りです！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ということは、2D6(6)でいいんだ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエス！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うんうん。[火術]で1マス離れてるだけだから目標6で回避！ウヒョー！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(6)　手を洗わせろ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 手を洗わせろ！ 　<B>(ｺﾛｺﾛ…) ダイス (6＋6) </B>＝ <B class=dc>12</B>　　<B id=dcri>ｸﾘﾃｨｶﾙ！</B>　(+6成功！　○)</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ぶーーーーー</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>無　駄　な　大　成　功　！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>炎で手をあらうだと！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>クリティカルすると、判定は絶対に成功します。そのうえ、失った体力点の回復or変調の回復ができます。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ただ判定絶対成功っといっても、相手の回避判定は発生するんですよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>攻撃判定で起きたらそうですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>どっちにしろ御手洗さんは被害なしなので意味がない！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では一通り終了ですね。
+<BR>公井さんの無差別流星雨攻撃は山東さんのみを貫いていきました。ドゴォ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>山東さんは何も出来ないままトイレの床に横たわっていてください。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ヤダー！　　　ﾊﾟﾀﾘ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>シビアだ……</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>何しに来たの、この人！？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>射撃ダメージ（意味深）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では大神さんのターン！タイミングとしては公井さんの攻撃と同時になります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに、脱落した人への追い討ちはできません。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（追い討ちはできなくても、踏まれる）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>奥義使ってもいいですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いいですよー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では御手洗さんと公井さんに【奥義・範囲攻撃】！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>出た！【範囲攻撃】！</div>
+<div class=box><B>《奥義・範囲攻撃》</B>……間合い3以内にいるキャラクターを好きなだけ対象にとり2点ダメージを与える。
+<BR>　　どの特技列を失うのかは受けたＰＣが選ぶ。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>って、奥義の一発目は宣言さえすれば当たるのか！　すごい！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>そして指定特技は[盗聴術]です！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>周りにセットした盗聴器から強烈な超音波が発せられ、あらゆるものを破壊しつくす！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ピイーーーー！！！ガガガガーーーーー！！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>といっても、初見だと防御はできないから[盗聴術]がどうとかは関係ないですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>奥義は初見では必ず成功します。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>御手洗さんと公井さんは防ぎようがありません！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ってことはメインフェイズの[範囲攻撃]って鬼畜すぎるじゃないですか！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>まぁわたくし[頑健]があるので…</div>
+<div class=box><B>《スキル・頑健》</B>……追加の生命力を2スロット得る。
+<BR>　　通常ならダメージを受ける＝特技を喪失して戦闘力がガタ落ち　であるが、
+<BR>　　“頑健”持ちのキャラは2点分までなら特技を喪失しないため非常に打たれ強くなる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そして、それと同時に二人は大神さんの《奥義情報》を取得しました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これ以降、大神さんの奥義使用時に際して[盗聴術]で妨害判定を行えます。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>以後、私が奥義を使うときに皆さんが[盗聴術]の判定に成功すれば奥義は発動しません、ということですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>これで公井さんのＨＰは8→6！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>御手洗さんは6→4！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんはどの特技を失いますか？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>[体術]列、[忍術]列かな。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>失った特技に影響する忍法は使えなくなるんです？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>特技を失った場合、最寄の特技で代用することが可能です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>公井さんは頑健の効果により追加スロット分の2点を失っているため今回は違いますが。</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>例えば、公井さんが妖術を失ったとしましょう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>[接近戦攻撃]をしたい場合は本来であれば[封術]を使ってペナルティ無しで判定を行えますが、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>[封術]が含まれる[妖術]列を失っている場合は、最寄である[罠術]から[封術]までの距離を基本値の5に加算してもらいます。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>つまり見合ってない特技で忍法を使うとそれだけ成功率がわるくなると。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>黒いブロックはカウントしなくていいんですよね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうそう、細長い列（黒いところ以外）も距離1として数えるんです。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>[罠術]から[封術]までは距離5。それを基本値に足して2D6(10）が達成値になります。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ややこしいですがここまでよろしいでしょうか！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>補足しておきますと、</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>罠術→空白→野戦術　→（黒）　死霊術</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>↓</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>結界術</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>↓</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>封術</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>の → の数だけ目標値アップ！　基本目標値の5に+5して10となります。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>[妖術]代用きかないじゃないですかやだーーー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それゆえの強力な忍術ってことですね。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>まぁ良しとしましょう</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>最短3ターンあったら全員倒せるんだから怖い。ひとまずこれで私が全員にダメージ与えて終わりなんですね</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>では【奥義・不死身】使います。</div>
+<div class=box><B>【奥義・不死身】</B>……（1D6 ? このセッション中に使用した回数）点の生命力を回復することができる。
+<BR>　　ダイスの出目によっては1点も回復できないことはあるものの継戦能力が高まり強い。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>いつでも回復可能な奥義！　緊急回復ですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>不死身を使った場合でもダメージそのものは受けていますので勝敗は覆りませんよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかもこの場で使うと同じシーンにいる3人に奥義情報がばれます！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>なんと。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>つまりダメージが発生した時点でアウトだから、範囲攻撃使われるともう完全に負け確定なんですね。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>《奥義・絶対防御》なら防げるけどこれは他者にしか使えないと。</div>
+<div class=box><B>《奥義・絶対防御》</B>……同じシーンのキャラ一人のダメージを無効化することができる。</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>Q.もしも受けたダメージが1点で兵糧丸を持っていたら戦闘継続可能ですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.不可能です。ダメージを受けた時点で脱落しますのでその後に回復しても意味がありません。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おおぅ、わかりました、ありがとうございます。</div>
+<div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では、これにて大神さん以外が脱落！勝者は大神さんです！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>もう手の内は明かしてしまったので切り札はない……。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>それじゃえーと、何がもらえるのかなっと</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>勝者はプレイサマリの通り、3つのご褒美の中から一つ選んでください。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>《秘密》か、感情か、《プライズ》かですね。</div>
+<BR>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>但しこの時点で大神さんは御手洗さんが《プライズ》を所持しているかどうか分からないため、《プライズ》を奪うことはできません。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>感情は一方的に結ばせることができるんですね。便利ですね。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>うーん、御手洗さんの《秘密》はなあ……じゃあ山東さんの《秘密》でも奪っておきます。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケー！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（山東の《秘密》を大神さんと公井さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>勝ってないけど勝った！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>拝見完了！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>なんだって！　これは…</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さん⇔公井さんの感情で《秘密》情報が流れ込んでいってますね。トイレで。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>結局トイレシナリオに！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（わたしが悪いんじゃないよ！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「なるほど、な……さっきのはそういうことか」　と一言だけつぶやいて秘密の入った何かをビリビリ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>したのが公井さんに見つかりましたとさ。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>もう自分が内定取れば幸せになれるんじゃないのかな</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ということで公井さんシーンは終了です！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>波乱が起きましたが、次の方ー</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>とはいえ大神さんの《秘密》がわからないけど</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>大神さんの《秘密》しか今のとこ手元にはないっ……　って公井さんのもあった！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>もうそろそろゲーム的に終末的雰囲気ですね。何かしたい人いますかー？</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>1ターン使えばライフ回復もできるよ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「ドラマシーンにおいては情報やプライズを好きに交換することができます。」っていうのは、情報判定をした後でもできましたっけ？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>できまーす。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>じゃぁ、わたし動いていいです？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>どぞ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さあどうされますか。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6　シーンはどこかしら？</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定　　<B>(ｺﾛｺﾛ…) ダイス (3＋6) </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>９：強い雨が降り出す。人々は、軒を求めて、大慌てで駆けだしていく</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>トイレで戦闘を行った後なのに急展開</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（シーン・呼び出す対象　くらいは振りながら宣言くらいでいいのかな！次から私そうしよう）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そこはお任せしまーす＞宣言タイミング</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>もうこれみんなに筒抜けだー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケイ！では判定をどうぞ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>経済力をつかって、高そうなレストランに招待しましょう。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋1) </B>＝ <B class=dc>6</B>　<B id=dsuc>　+1成功！</B>　○</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>おおう</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（大人だー）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ただし、ちゃっくは開いています</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（大人だー）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ｼﾒﾛｰ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>しかし就活生のくせに経済力だなんて！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「就職なんて道楽ですよ」 なんて言っちゃうんですか！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>うらやましい！ねたましいぞ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>うわああああ＞ヘイト稼ぎまくり発言</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>えーと、御手洗さんと感情を結んでいるのは。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>山東さんに嫉妬してます</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>自分の秘密が自分に漏れ出す！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（山東さんの《秘密》を御手洗さんに開示）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>確認完了しましたー</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（で、これ全員にオープン状態ですよね！）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。山東さんの秘密、オープン！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>山東さんの《秘密》は以下の通りです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>【山東の秘密：あなたは就職活動で疲れきってしまいました。</font></div>
+<div id=com><font id=CC2>　もうこんな社会で働きたくはありません。</font></div>
+<div id=com><font id=CC2></font></div>
+<div id=com><font id=CC2>　プライズ≪内定≫を獲得せずにセッションを終えることがあなたの真の使命です】</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ではそういうことで、わたしは《プライズ》”内定通知”を山東さんに渡します。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「おめでとう、キミが内定だよ。」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>いりません！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ぶふっ</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ぐわー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>《プライズ》と情報のやりとりはあくまで任意で行われます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>したがって、嫌がる相手に押し付けたければ戦闘で勝利するしかありませんね！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>断固として拒否します、</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「私は！　働きたくない！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なんと、では戦いなのですか！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>レストランで！？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>働きたくないでござる！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いや、レストランだと思っていたどこかで？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>その前に《居所》を探らないと……</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あああ、戦えない！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>なあに、クライマックスフェイズがあるじゃないですか。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>全員の秘密をしって、一番嫌がる人に内定を渡そうと思ったのに！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>倒して押し付けるの！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おお、そうか！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>キミが内定を受けるまで、殴り続ける</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（ブラックだー！！！）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（ブラックってレベルじゃなーい！）</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>というわけで私は自分が内定を得ないためなら誰にでも力を貸します！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>さて、これで御手洗さんのアクション終了？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ですかねー</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>だって、受け取ってくれないんだもん。終了です。金かえせ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（公井さんが不憫だ）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（公井さん、その場にいただけ！）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>内定なんて！　私は望んでない！（ｷﾘｯ）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いや、山東さんの秘密しだいによっては、公井さんを内定だったんですが、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>内定したくないっていうんだもん！　内定させなきゃ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ァ　ころしてでも　うばいとる</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そしてどうやら自分には完全に内定が出ないことが確定しているっぽい。切ない……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあ次行かせてもらいましょうか。いいですか？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>どぞどぞ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>じゃあ行っちゃいます。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はーい。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2D6　シーン！　誰も呼びません！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (2＋3) </B>＝ <B class=dc>5</B>　　<B>5：世界の終わりのような暗黒。</B></div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>また真っ暗だよ……。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>くらいのがおすき！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>停電多いな、この会社。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>雨降ってたから雷落ちてるのかもしれない！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では【盗聴術】を使用して……御手洗さんの秘密を抜きます！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「さあ、会社中に仕掛けた盗聴器よ！私に情報を与えたまえ！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（嫌な学生だなあ！そのまま産業スパイか何かになってしまえ！）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（そっちのが多分もうかる！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2D6(5)　[盗聴術]判定！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋6) </B>＝ <B class=dc>10</B>　<B id=dsuc>　+5成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では御手洗さんの秘密が暴かれました。これで御手洗さんの秘密は公開情報ですね</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>さっきから毒と盗聴器しか使ってない！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>公開！公開！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんの秘密は以下の通りです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>【御手洗：あなたは学生ではなく人事部の担当者です。</font></div>
+<div id=com><font id=CC2>　《プライズ》”内定通知”を誰かに渡してセッションを終えることがあなたの真の使命です】</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>キミ達を試させて貰った！（しかしチャックは開いている）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「なるほど……フッ」　と言ってニヤリと笑い、男子トイレの個室から出てきます。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（やっぱりトイレだ！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「これで全員の《秘密》は掴んだ……まあ俺にはもう関係無いがな……く、ははは、くははは！！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（クレイジー！　グッドです！）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>産業スパイのスキルだけ高い学生ってなんだｗ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そしてシーン暗転……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（おかしいなあ、メインフェイズの動きだけをやるチュートリアルのはずだったのになんか普通のセッションになってるぞ）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では次の方！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>残りは私、つってももう……
+<BR>大神さんが《居所》を掴んでない人って誰ですっけ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>誰も《居所》を掴んでないです</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>大神さんは《秘密》しか掴んでない</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ああ、でももうクライマックスに入るからいいのかな！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。いま《居所》を掴んだとしてもメインフェーズが無いので干渉できません。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>順当にＨＰ回復ってところですかな。回復判定のチュートリアルができますよ。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>そうですね、回復しておきます！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではどうぞー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これも判定が必要だった！　あ、シーンもまだだった</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（これはもしや、公井さんに内定を出しておくのが一番楽だった……）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>シーンと登場人物の決定、そして回復判定です。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>2d6 シーン</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 ダイス (2＋6) ＝ 8</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>人混み！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>８：凄まじい人混み。喧噪。影の世界のことを知らない無邪気な人々の手柄話や無駄話が騒がしい。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>登場人物は公井さんで！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（そういえば回復するにも何の特技を使うか宣言するんですか？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（イエス！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（そう言われると使えそうなのが全然ない……いやかろうじて野戦術かな……）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ところで、山東さんは比良坂機関のキャラでしたね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>[経済力]にモノ言わせて即効性のあるお薬を使いますかね！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>2d6(5)</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋5) </B>＝ <B class=dc>11</B>　<B id=dsuc>　+6成功！</B>　○</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>このさ　出目さ……</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ぐえー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>成功！[器術]列か[戦術]列、どちらかを回復しちゃってください。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>はーい！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（そうか、[経済力]でHOTEL（宿屋）に……でもよかったのか）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そして確か1度【忍具】を使っていましたから[忍法・補給]も使えますね。</div>
+<div class=box><B>[忍法・補給]</B>……サポート忍法。自分がシーンプレイヤーのドラマシーン中に使用可能。
+<BR>　　成功するとセッション中に使用した忍具を一つ回復することができる。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あ、そっちも使えるのかな。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>《補給》ってなんだ《補給》って！便利すぎるでしょこれ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うおー、すげー、つえぇー</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>じゃあさらに[経済力]判定で《補給》！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>2d6(5) そろそろしわ寄せが……</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋5) </B>＝ <B class=dc>6</B>　<B id=dsuc>　+1成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あぶない！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>セーフ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>素晴らしい。では失った忍具を1つ補給してください！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>【遁甲符】がもどってきて、[戦術]を戻しますっ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケー！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（斜歯は、正統派戦士すぎて仲間がいないと厳しいかもしれない……自分でキャラメイクするとまた別になるのかな）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（自作キャラだとほぼ全員[頑健]付きになりそうですね）　　※頑健：要するにＨＰが+2される技</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>（ですねー、便利です[頑健]）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（せめて生命+1なら迷うくらいなのに……）　　って、これからクライマックス！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>その通り！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>最終決戦！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>やっちゃうかー</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>とうとう　内定を取るためだけに血みどろの戦いが</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>あ、センセー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はい、なんでしょう。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>Q　[忍法・操り人形]を使った場合、忍法しか使えないというわけではないですよね？</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>具体的にいうとプライズの譲渡などはできますか？</div>
+<div class=box><B>[忍法・操り人形]</B>……サポート忍法。戦闘中に自分への感情を持つプレイヤー一人を対象として行動を自由に操作できるようになる。
+<BR>　　但しそのラウンド中に対象プレイヤーがダメージを受けると代わりに自分がダメージを受ける。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>うーん、《プライズ》の譲渡は戦闘行動ではないので無理っぽいですね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>了解しました！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>その辺さっぱり分かれてるので処理しやすい！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>山東さんが勝者になったらフレーバーとして術を使ってそうしたことにしてもいいですよ。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>なるほど！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>Q　また操り人形に関してなんですが、自分自身を攻撃させることは可能ですか</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.可能です。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>了解しました！！</div>
+<BR>
+<div class=box><B>【第参サイクルのまとめ】</B>
+<BR>　公井 → 御手洗と戦闘（全員参加）　獲得済[ 山東･御手洗の《秘密》・御手洗の《居所》 ]
+<BR>　　　戦闘結果 → 大神が山東の《秘密》を知る → 感情を結んだ公井も《秘密》を知る
+<BR>　御手洗 → 山東の《秘密》を知る　　獲得済[ 公井・大神・山東の《秘密》 ]
+<BR>　大神 → 御手洗の《秘密》を知る　　獲得済[ 山東･公井･御手洗の《秘密》 ]
+<BR>　山東 → 生命力を回復　　　　　　　 獲得済[ 公井･御手洗･大神の《秘密》 ]
+<BR>
+<BR><B>[感情]</B>　　公井 ←→ 大神 ←→ 山東 ←→ 御手洗</div><div id=com>　</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>～クライマックスバトル！最期の就職活動の巻～</H1>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではクライマックスバトルフェーズへの突入に際し、マスターシーンが挟まります。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>―外は雷雨。君達はある大手企業のロビーで一堂に会した。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>最早言葉は不要か。それぞれが想いを抱え、君達は光の速さで動き出す！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なお、戦場は【平地】です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>光速の速さによって０．０１秒で内定を与える演出！　どんなだー！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>壁に突き刺さる内定通知！あと0.001秒反応が遅れていたら壁の変わりに君の首が抉られていただろう！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>武器ww</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>怖いｗｗ</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>だめだ腹筋が</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なぜ茨の道を……</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>くそぅ、普通に公井さんを内定させればよかったぞ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>公井さんに内定を出せばwin-winだった上に、山東さんもwin</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>つまり三人がかりで大神さんを抑えると全員WIN……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ドドドド……　私がラスボスです</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（業を背負わせてごめんなさい）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「敵は決まったようだな」（しかしチャックは開いている）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（腹筋が、腹筋が痛い）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では皆さん、生き残るためにいざ競い合え！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>これが企業忍者の宿命なのか</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「あくまで働かない私のNEET生活のために、消えてもらうわ！」</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「ふん、バレてしまったのならしょうがない……！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「公井さん、いいね、この戦いに生き残ったら君は見事に就職できる」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「そして山東さん、キミは存分にNeet生活を満喫できる」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「我が社としても、危険因子は取り除きたい。わかるね？」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「私のバラ色のNEET生活！　就活なんて親の目を気にしてやってるだけなのよ、オッホッホ！」※経済力持ち</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「こんなんだから就活はイヤなんだーッ！！！うおー！！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>クライマックスバトルフェーズ、第一ラウンド開始ッ！　プロットスタート！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>決まったプロット値は……</font></div>
+<div id=com>５：山東　</div>
+<div id=com>４：大神・公井　</div>
+<div id=com>１：御手洗　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>御手洗さん相変わらず１！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いや、もう、わたしの目標は決定しましたから……</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>下手に大神さんに近付きたくないというのが本音でして</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では山東さんから行動開始！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>えーっとじゃあ大神さんに近接攻撃です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ウェルカム！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>感情＋に攻撃する場合はどうなるんでしょ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>感情＋相手でも特になにもないですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「くくく、本気で闘れるならもう誰だっていい、来いよ！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「貴公のスピーカー攻撃はすでに見切ったぞ！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（ラスボス状態ですね……ﾌﾞﾜﾜ）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>［言霊術］での接近戦攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「もう世界の全てがいやだというのなら、自分がひきこもればそれで解決するじゃない！！」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>■ 山東の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋5) </B>＝ <B class=dc>9</B>　<B id=dsuc>　+4成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では誰も止めないね？　そのまま受けるぞー</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>えーと［言霊術］だから……一個隣の［用兵術］で防御可能！　+１で目標値６！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>2D6(6)　山東さんの攻撃を防御！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋4) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>成功！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ぬるりとコトダマ攻撃を回避しました。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>雑踏を駆使して防御！（？）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>ﾁｨｯ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「何をしている、そこだ、ニート！！！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「ニート言うな！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「くそぅ、食事代返せ！」</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>「食べちゃったもんはかえせませーん、残念！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「では、金で返せぇぇ！」</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>で、つぎは我らプロット４組ですね！　どうしようかなあ。もっぱつ【範囲攻撃】しちゃうかな。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>では防がれるの覚悟で【範囲攻撃】使用を宣言したいです！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>どうぞ！奥義破りされるか！</div>
+<div class=box><B>《奥義破り》</B>……一度目撃された奥義は妨害される可能性がある。
+<BR>　　同時に奥義破りを試みたプレイヤーのうち一人でも成功すれば奥義は発動しなくなる。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>でもその奥義は見切られているのでし</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では公井さんと御手洗さんは奥義破りに挑戦可能です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>山東さんはその頃寝てたので、目撃できていません！　ごめんね！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>情報連携できてなーい！？＞奥義</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>私の奥義の指定特技は［盗聴術］です！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>公井さんか御手洗さんのどちらかが奥義破りに成功すれば私は何も発動できません！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うはー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>誰か一人でも成功すれば妨害できるってのがミソですね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんは［火術］からで+5、公井さんは［罠術］からで+3の判定です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ではまたまた仕掛けた盗聴器から「ピィィィィィ！！！」と大音響の音波攻撃！　奥義破り、カモン！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>2D6(8) 破る。</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (2＋5) </B>＝ <B class=dc>7</B>　　<B id=dmis>-1失敗！</B>　×</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんは1届かず！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(10)　怪音波回避</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定　 　<B>(ｺﾛｺﾛ…) ダイス (2＋1) </B>＝ <B class=dc>3</B>　　<B id=dmis>-7失敗！</B>　Ｘ</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「うるせー！！！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では、皆さんは【範囲攻撃】を破れませんでした！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>えーっとではどっちかにアイテムを！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>【遁甲符】！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「喰らえ、音からは逃げられん！」　おおっと</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>お、いいですよ。どっちにします？</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>公井さんのほうが可能性あるかな。公井さんで！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ですね</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>振りなおし出来ます！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>くっ、さすがに二回目振られたら防がれそうだ！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>2ｄ6(8)</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>■ 公井の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋1) </B>＝ <B class=dc>2</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B>　(<B id=dmis>-6失敗！</B>　Ｘ)</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あっ</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ﾌﾞｰ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ファンブルの説明ができますね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はい、ここでファンブルのチュートリアルです。ご協力ありがとうございます。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（わざとじゃないんです……わざとじゃ……！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（山東さんのダイス目がうつったー、やーい）</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>。ﾟ(ﾟﾉД｀ﾟ)ﾟ｡</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんはファンブルエリア、逆凪に落ちます。</div>
+<div class=box><B>《逆凪》</B>……プレイヤーが高速移動や忍法の負荷に耐え切れなくなり、
+<BR>　　ラウンド中は一切の行動・回避ができなくなる。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>プロット４にいるから、本当は１ゾロじゃなくても４以下ならファンブルなんですよねコレ</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>（ん？つまり１なら何があってもファンブらない……？）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうみたいです。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>でも忍法がつかえましぇん</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしの忍法、コスト1の忍法だけなんで＾＾；</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>えーと、戦闘時においてはファンブルエリアに落ちるだけです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>戦闘以外の場合は実際に起きたらご説明することにします。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>戦闘中にファンブルすると以後判定できずに全部失敗！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>でも今回は私と同時プロット（同じ速さ）だから、今回の公井さんはいちおうアクションできますよね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。大神さんと同時行動はできますよ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ファンブル中のキャラクターは一切の判定ができないのですが、逆に言えば判定を伴わない行動であれば可能です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>即ち、奥義であれば使える！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ということで今回のケースだと特に問題なしですね！　御手洗さんと公井さんが敵だったらボコられてたけれど。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>あとは【不死身】を使うタイミングを待つだけのサンドバック</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>（わざとじゃないんですわざとじゃ）ﾌﾟﾙﾌﾟﾙ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>サンドバックといっても、ファンブルは１ラウンド終了時に回復しますよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ですね。あとは御手洗さんの行動が終われば状態はリセットされます。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ということで各々、こちらの【範囲攻撃】分の射撃ダメージを2点負ってくださーい</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あ、【兵糧丸】つかってもいいですか、それって、１つの行動になりませんよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.【兵糧丸】の使用は行動を消費しません</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>【範囲攻撃】は間合い3なので</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>公井さん：6→4！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>山東さん：5→3！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>御手洗さん：4→2！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>射撃戦ダメージだから好きな列を減らせるよ！</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>［戦術］列、［忍術］列を潰しておきます</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さて、これで山東さんも大神さんの奥義破りに挑めるようになりました。よかったね。</div>
+<div id=nm><font class=c1><B>山東</B></font></div><div id=tx class=ct1>やったあ……</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>［体術］列と［忍術］列を失いますが【兵糧丸】で［忍術］列を回復します。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>［妖術］列と［謀術］列のダメージを受けて、【兵糧丸】で［謀術］列を回復します。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>了解です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次、公井さんのターン！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>怪音波で倒れる寸前に反撃する公井さん！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>まだまだ倒れない！　硬いゲームだわー</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ここは敢えて動かない！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なんですってー！？
+<BR>では次、御手洗さん！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしの射程で届くものがない……と見せかけて奥義です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>来た！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>きた！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>奥義・秘術放屁臭気乱れ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>指定特技：［拷問術］</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>効果：【範囲攻撃】プロット値3以内にいるキャラクターを選んで2ダメージ</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>おもむろにズボンを下ろし敵に尻を向け腸にたまったガスを放出、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>あたりは黄色い濃霧につつまれ、気がつくと嗅覚を失っていることに気付くだろう。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そのときオマエの命はもう風前のTO・MO・SHI・BI！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>どーん！！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>うわああああ！臭い！酷い！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>来た！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ではモロに喰らいます。ターゲットは私だけですよね？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>せっかく作った奥義ですからね。対象は大神さんだけです。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>公井さんには我が社で頑張ってもらわないと。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ファンブルしていたせいで助かった</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では射撃２ダメージ！［器術］列と［謀術］列にダメージ受けておきまーす。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「ぐっ、なんという悪臭！　昨日なに食ったんだ！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんの生命力は6→4！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これ以降、全員が御手洗さんの奥義破りに挑戦できるようになります！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>光速で尻の穴に栓をするのか！？</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これで全員行動終了ですね？　ラウンド終了時に［忍法・誘導］を使用したいです！　誰か止める？</div>
+<div class=box><B>［忍法・誘導］</B>……ラウンドの終了時に使用可能なサポート忍法。
+<BR>　　成功すると戦場を任意の場所に変更可能。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>止める人いないかな？　それじゃ【極地】へご［誘導］しまーすよ！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>光速で移動して宇宙へ！</div>
+<div class=box><B>《戦場・極地》</B>……宇宙や深海、溶岩、魔界など。
+<BR>　　ここにいるときはラウンド終了時にランダムでダメージが発生する場合があり、
+<BR>　　更に脱落すると《変調》を来たす。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ゴゴゴゴゴゴオオオオー！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2D6(5)　［走法］で［誘導］！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋2) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>成功！　では戦場は今から【６：極地（宇宙）】です！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>何か喋ってもいいですよ。宇宙だったら声は伝わりませんけどね！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「ダメだ、この人には内定だせない」（パクパク）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「さあ、時間との闘いになったぞ！　俺をもっとたぎらせろ！！」（パクパク）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではラウンド終了ですので、極地判定を行います。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>■ GMの判定 　<B>(ｺﾛｺﾛ…) ダイス 6 </B>＝ <B class=dc>6</B>　<B id=dsuc>　+5成功！</B>　○</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>極地ダメージ発生せず！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>セフセフ。でもこれからは［戦場の極意］により私の判定に+１です</div>
+<div class=box><B>［忍法・戦場の極意］</B>……サポート忍法。
+<BR>　　習得時にあらかじめ指定したタイプの戦場であれば全ての判定値を＋１することができる。
+<BR>　　大神さんは指定タイプが【極地】であった。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（なんだこの学生！）</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>おれたちのたたかいはこれからだ！(パクパク)</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>しかし極地でも相手にマイナス補正はないのか！　やってしまった！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>片道勇者TRPGにも環境サバイバル＜宇宙＞を導入しましょう。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>妖精の優位性がなくなる！宇宙には、上も下もないのだよ……</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>ますますチュートリアルからかけはなれていくｗ</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>（このタイミングで山東さんは諸事情により退席したため脱落。そのまま宇宙を漂うデブリと化しました）</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では第二ラウンド開始！プロットはじめー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>プロット値オープン！
+<BR>５：公井
+<BR>２：御手洗
+<BR>１：大神</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ところでクライマックスでは自主的に脱落できない、でいいんですかな？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>自主的な脱落は可能です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>まぁじで！？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>可能なのかいｗ</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>まあつまり、談合とかですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>命は助けてやるからここは退いておけ、とか。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほど……生き死には勝った人に任せる感じになるんでしょうね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（まあそこで自主脱落したＰＣを勝者が殺害、なんてのもシノビガミではよくある光景なんですけどね）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「どうか、御慈悲を、」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ずばしゃー」</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>忍者世界こえー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さて公井さん、どうします？</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>じゃあここで敢えて脱落のテスト。一騎打ちを高みの見物といこう。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>な、なんだってー！？公井さんの中の人の裏使命は「就活を放り出して早く家に帰ること」だったのだ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うわ、急に劣勢になってしまった！！！！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「え、いいの内定ー！？　ちょっとぉぉ！」って宇宙空間で叫ぶもののそのまま脱落していく公井さん。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さんは脱落して山東さんと二重衛星軌道をとりはじめました。</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>だからWin-Winの間に決着をつけられれば……</div>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>そして考えるのを止めた</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ぶっ。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>続いて御手洗さんのターン！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「よし、こうしよう、キミを我が社に迎えたい！！！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（小物だー！）</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>っていう、交渉は可能なのでしょうか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>交渉もとい会話はいくらでも可能です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「遠慮こうむる！！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ヤヴェ、メッチャ不利になった！！！</div>
+<div id=nm><font class=c4><B>公井</B></font></div><div id=tx class=ct4>あとは大神さんの《秘密》だけわかればいいのだ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>交渉って行動はルール上ないんですよね</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>無いですねー。ロールです。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ああ、交渉で１ターンかと思った</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>リプレイでは戦闘中でもガンガン会話してらっしゃいます！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>じゃあ、［忍法・痛打］を。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うおおお！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(5)　［拷問術］で［痛打］を。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (6＋2) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>御手洗さんには特に感情ナッシンだから何もしない！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>そして、［接近戦攻撃］（火術）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さあどうぞ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(5)</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (4＋4) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>爆弾ぽいっ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えーとこちらは［火術］で防御かな！　＋７で目標値１２！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんは射撃ダメージ3点を防御してください！絶望的だ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2D6+1(12)　うおお！！　ちなみに戦場の極意補正で+１！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋3) ＋ 1 </B>＝ <B class=dc>9</B>　　<B id=dmis>-3失敗！</B>　Ｘ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ドゴーン！３ダメージ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんの生命力は4→1！どの特技を残しますか！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では［戦術］列を残して全滅で！もう他に使う技はない！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ごくり。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「コレに耐えれば、まだ勝てる！」（ぱくぱく</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さあ、どうぞ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>で、攻撃……は意味ないから範囲攻撃なんですよね、すみません。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>奥義【範囲攻撃】！［盗聴術］で防御してください！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(10)　耳を塞ぐ！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋1) </B>＝ <B class=dc>2</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B>　(<B id=dmis>-8失敗！</B>　Ｘ)</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ぶーーーーー</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>oh……</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>しかし戦闘での判定結果としてはファンブルでも特に影響なしな予感……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんは宇宙空間に漂う盗聴器を直接御手洗さんの身体に沿わせ、出力最大！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「うおおおー行けぇぇぇー我が盗聴器たちよぉぉー！！」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ファンネルみたいだ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>サイコビットのように！　ファンネルのように！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>普通にダメージ2点でいいんでしょうか？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>はい、でも御手洗さんまだＨＰ３ありましたっけ？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>3点ありましたね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>つまりこれでＨＰ１ｖｓ１！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>［謀術］列、［戦術］列を消します。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>結構！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>そして【兵糧丸】（最後の一つ）を［戦術］列に使います。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おおー！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>おおう。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あ、その前にラウンド最後の極地判定を</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうでしたね。コロコロー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>■ GMの判定 　<B>(ｺﾛｺﾛ…) ダイス 3 </B>＝ <B class=dc>3</B>　<B id=dsuc>　+1成功！</B>　○</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちっ。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>もしかしたらこれでけりが付くかも、って付かなかったか……。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではラウンド終了！ プロット開始！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ではプロットオープン！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>６：大神</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>５：御手洗</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うおおおし！　先手を取った！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>負けた！！！！　ギャンブルに出たかぁぁぁっ！！！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>大神さんのターン！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「俺が宇宙の藻屑となってでも貴様らを討つ！！！」　えーとまってね御手洗さんの［盗聴術］は。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>［戦術］列の［用兵術］が使える。［戦術］いかしてよかった……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ああ、［戦術］列生きてた－！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>+4か！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ええいもうバカの一つ覚えで【範囲攻撃】！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>さっきから攻撃ダイス振ってないよ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>そっちのが怖い！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さん、判定をどうぞ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(10)　音波避け</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋1) </B>＝ <B class=dc>2</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B>　(<B id=dmis>-8失敗！</B>　Ｘ)</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なんで！？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>(ﾟдﾟ)！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>宇宙の塵となりました</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>今度こそ―無慈悲なエネルギーが御手洗さんの身体を貫いたァ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ば・か・な……（ぱくぱく
+<BR>（爆破で勝てると思ったのに……）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（ちょっとおおおラスボス生かしてどうするんですかああ）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>と、いうことでここで離脱時ルール！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クライマックスフェイズで離脱したプレイヤーは3つの行動を選ぶことが出来ます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1.何もせず離脱（まだ生きてます）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2.最後の一撃</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3.遺言</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ああ、そうだ最後の一撃があった！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>相討ち！　熱い！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>2か3を実行すると、あなたは死亡します。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>でも（私の）秘密的には、ねえ？　　※ヤバい使命を帯びているので何もせず終わるとマズいよね、の意</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>最後の一撃について。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>攻撃忍法1回とサポート忍法1回を好きなように組み合わせて使えます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>コストは0とし、特技は全て使用可能なものとして扱います。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おおおお。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>さあ御手洗さん、コマンド？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>だって、きっと殺されちゃうじゃないですか、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>だったら、相討ちですよ、相討ち狙い</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>来た、相打ちのチャンス！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「まだ息があるようだな、ならば！」　といって御手洗さんに向かっていきます。さあウェルカム！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「ふ、これが、さいごの、ば、くだ、んだ……」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(5) ［痛打］</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (2＋6) </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>Q.ところでこれ（最後の一撃）間合い関係あります？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>A.ありません！ルールブックには書いてないけど無いことにする！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>了解です！　狙撃でやられて何も仕返しできないのは悔しいですからそっちのがいい！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>あれ？全部の特技失っているのに、どうやって判定すればいいんだ？</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>特技は全て使用可能なものとして扱うそうです！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>了解です、ありがとうございます</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>コストも０！　ただし攻撃忍法一個とサポート忍法一個の組み合わせが限度！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>2D6(5)　［爆破］(特技：火術)</div>
+<div class=box><B>[忍法・爆破]</B>……攻撃忍法。間合い1以内の相手に射撃戦2点ダメージを与える。</div><div id=com>　</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>■ 御手洗の判定 　<B>(ｺﾛｺﾛ…) ダイス (1＋3) </B>＝ <B class=dc>4</B>　　<B id=dmis>-1失敗！</B>　Ｘ</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ぶーーーー</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>あー！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>あああああ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>かっこわるすぎる</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>いやいやここはかっこいい負けロールで！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>自分が爆発します</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>かっこいい負けを演出してください！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>どーーーーーーーーーーん！！！！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「うおおお！？」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>眼下には美しい地球……この地球の美しさの前に広がる御手洗さん自爆の閃光！　カッ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>チリチリのアフロヘアで倒れます……</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「我が社に栄光あれ……」</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ばたり</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>こうして御手洗さんの死亡が確定しました！ナムアミダブツ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>地上では　「お母さん、見てー流れ星だよー！」</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「なんというヤツだ……まさか最後に自爆するとはな……」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では大神さん、意識を失って漂う山東さんと公井さんの処遇を決めてください。
+<BR>御手洗さんは残念ながら死亡確定です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ではちょっとずれましたがここで秘密を公開しながら+３補正演出してもいいですか！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ、回想シーンもか。えーとえーと</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>うわー、逝っちゃっている人の秘密暴露＆回想シーン</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>あっ、《秘密の暴露》を忘れてたー！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おや？　そういえばこれ使えば御手洗さんはさっきの判定で勝てる！？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんは《秘密の暴露》をしていたら最後の一撃が成功していたかもしれない！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そうだ、秘密を明らかにして回想シーンを挟むと+3にできるからさっきの攻撃が成功するんだ！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>クライマックスフェイズでは、《秘密》を自ら明らかにし、回想シーンをはさみこむと１度だけ＋３の修正がつく。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>本当なら判定の前に宣言すべきですが、今回はＧＭの伝え漏れですから後だしでもいいことにします！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（それにお互い暴露して結局回避されるかもしれないし）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これも基本は判定前に宣言ですよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はい。本来であれば判定前宣言です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ですが説明ということでさっきのはなかったことにしてもう一回トライですね！　御手洗さんどうぞ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ではチュートリアルとして、いちおー秘密を暴露しますね、</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>「これが、さいご……の……ばく………だん……だ……」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そう、あれは数年前、入社試験中に催したわたしはやむなくトイレに駆け込んだ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>丁度面接の順番がくるか、こないか、微妙なタイミングだった。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>焦ったわたしは、チャックを開けっ放しで面接に臨んだ、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>しかし、人事部の部長は、そんな無様なわたしを採用してくださった。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>だからこそ、わたしは、いま、おなじ立場として、この会社に必要な人材を探していたのだ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そう、わたしはこの会社の人事部の人間……</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>公井さんは、ウチで採用させてもらう、貴様にはやらせん……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>（うおおーっ！）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うおおおー！　ということで御手洗さんはさっきの判定に+３して「成功」しちゃった扱いでしょうか！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>オッケー！成功です！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ぽろっ（爆弾）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では御手洗さんの攻撃が成功！　こちらの防御ですね。えーと[火術]は…</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>左端……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ってもう近いのがないー！？　このタイミングで【兵糧丸】使って回復とか有りです？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ありです！それでも尚遠い！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うおっしゃあ！！　では……どっち戻そうかな。これで１２になるはずなんですよ。［忍術］列を回復させます！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>[痛打]は成功しているので+1点のダメージもお忘れなく……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>これはアツい展開ですよ！（シナリオはバカだけど）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ん？　[火術]って[盗聴術]から＋６？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>で、つまり目標値１１？　さっき１２でやっちゃったーガーン！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ではこっちも秘密の暴露をして防御します！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>極地判定で +1、更に暴露するなら+3です。
+<BR>7が出れば回避可能だ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ちょうどいい具合の値ですね</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>「俺はな……この就職活動でありとあらゆる闇を見た！！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>俺の真の使命は……この腐った就職活動で知り合ったきさまら３人を吹っ飛ばしてスッキリすることだぁぁぁー！！」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>秘密を見たときからずっと訳が分からないんだけどぉぉぉ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>現代社会への反逆！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>就職活動でお祈りメールが届きまくる毎日……だが俺は昨日、気付いた！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>こんなことをしていても意味がない！　地獄とはなんだ！？</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>今いるこの現世こそが地獄ではないのか！？　俺はこの地獄から抜け出してみせる！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>就職に関った連中を消し、俺は現世に戻る！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>そのために手始めに貴様らを全員屠ってやる！！　フヒャハハハ！！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ヒャッハー！判定をどうぞ！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>2D6+3+1(11)　「うおおおお俺はこの手で地獄から抜け出してみせるんだあああ！！（混乱）」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>■ 大神の判定 　<B>(ｺﾛｺﾛ…) ダイス (5＋4) ＋ 4 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うわー空気読まないダイスだ！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「うおおお集まれ俺の盗聴器ー！」　　[盗聴術]を使用して爆風を防御！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ワオーッ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>くそぅ、νガ○ダムは伊達じゃなかった……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>これで自分が生き残ったまま御手洗さんが爆散……しかしテロリスト同然な人が勝利とか！　いいのこれ！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>しかも、3人死亡。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では改めて、クライマックスバトルフェーズが終了しました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>御手洗さんは死亡！山東さんと公井さんは意識不明！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>切ない終わりだ……でも自分は使命を果たす！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>GMー！　真の使命にある「抹殺」って、　抹殺＝殺しちゃう　という認識でOKですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうなりますね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>では、</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「かわいそうだが二人にはこのまま宇宙の藻屑として消えてもらう……」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>といって山東さんと公井さんをバシュッバシュッ！　とどめを刺します！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>こうするしかない使命なんだーうおおおー許してぇぇー！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おかしい、仲間が2人いたはずなのに、負けた！（棒）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そして地上に戻り、自分は何事もなかったかのようにビルの谷間を歩いていきます。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「くそっ、どうしてこうなった……くそっ、くそっ……！」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>では最後のマスターシーン！（BGM：オーラ・リー）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>こうして、苛烈なる就職活動がまた一つ終結した。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>君は意識を失い漂う3つのデブリに一つ一つ丁寧にトドメを刺しほくそ笑む。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>君はこの戦いを経て、就活とはまた異なる次元での自信と強さを得たことだろう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう。ルールなどというものはあくまでルールに過ぎないのだ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これからの君の生き方を規定するのは君自身だ……</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>―現代日本の就職活動は悲劇を生んでいる。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>学生は勉学に励む暇もなく、貪欲な企業が求めるままに就職活動をせざるを得ない有様だ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>過渡期である今こそ就職のあり方を見直すべきなのかもしれない。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>宇宙から眺める日本は今日も平和だった……</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「忍者就職活動記」　終わり</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>～チュートリアルを終えて～</H1>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>お、終わってしまった……いいのかコレで……。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>とにかくお疲れ様でしたー！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ということでお疲れ様でした！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>実は2人ともニート志望だった……おつかれさまです。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ニートだけならまだしも！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>誰も内定なんて欲しくなかったんだ……</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>公井さん不憫！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>先生！全員の秘密を並べてもらっていいですか！復習ターイム！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はーい。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>御手洗の秘密： あなたは学生ではなく、さる企業の人事部採用課担当者です。</font></div>
+<div id=com><font id=CC2>　プライズ≪内定通知≫を誰かに渡してセッションを終えることがあなたの真の使命です。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>公井の秘密： あなたはごくごく普通の就活生です。使命の変更は起きません。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>大神の秘密： あなたは就活を通して社会の闇に触れすぎました。</font></div>
+<div id=com><font id=CC2>　就職活動を通して知り合ったほかの3人を抹殺し混沌を振り撒くのがあなたの真の使命です。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>山東の秘密： あなたは就職活動で疲れきってしまいました。</font></div>
+<div id=com><font id=CC2>　もうこんな社会で働きたくはありません。</font></div>
+<div id=com><font id=CC2>　プライズ≪内定≫を獲得せずにセッションを終えることがあなたの真の使命です</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>ありがとうございます！　って私のだけおかしい！？</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「いやーさすがに忍者ものは違うなあー」と思ってたら私のだけおかしい！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>全員の秘密を知って、まともな人を入社させようとする縛りを加えた自分が悪い……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>えーと御手洗さんの流れには何があったっけ……トイレで情報収集して……。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>最初に公井さんの秘密を知ったから、他の人の秘密を知りたかったんです。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なるほど！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ああ、全員の秘密を知るまでは保留と！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>そうです、そうです、保留してたんですよ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>私は秘密はいらないし、戦闘中に感情補正使えるようにと思って色々結びまくってました。
+<BR>結局あんまり使わなかった！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしは全部張った伏線を回収できたので満足です</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>伏線まで！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いやー、見事な伏線回収でしたねえ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とても即興のチュートリアルだったとは思えない！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>（トイレしか思い出せない）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>やっぱり、ごっこ遊びが好きな人にはたまらないルールですねシノビガミは！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>おしっこ漏らしそうから始まって、ちゃっく開けっ放しまで、</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>最後の秘密暴露で全て話を結び付けられたので満足です！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>雇う側がチャック開けっ放しにする論理について詳しく！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>自分が入社するときは、本当に焦っててチャック開けっ放しなんですよ。
+<BR>同僚に笑われて伝説の社員なんですけど。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>そんな社員を部長さんは可愛がってくれて、人事部に配属になって。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>ゲーム内の御手洗さんが、ですよね。そうですよね。わかりました。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>え……実はまさかのリアル話だった……！？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>ちがうわーーーー！！！！！</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>なーんだ。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>御手洗さんの中の人ならありうるかと。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なんだと思われているんだ、わたしは……
+<BR>これはチャック開けっ放しにしろっていうネタ振りに違いない……</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>誰も喜ばない……。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>開け放たれたチャックから見えるふんどしを大神さんがチェックして喜ぶんじゃないんでしょうか。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>うおお、これがふんどしチラリズムだ！とかいって。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>初対面でも誰か分かる新システムですよ。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>うわああ！　あ、次は本番プレイとのことですけど、本番のキャラメイクについてPC間の相談は基本的になしですよね？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>PC間での相談はあまりされないほうがいいでしょうねー</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>してもいいですけど、傾向と対策が容易に。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>というかまだ誰が敵かも分かっちゃいねえ！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>リプレイにまとめる予定がないなら、めっちゃカオスでいいんじゃないでしょうか。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>相談ナシに、もう予想つかないカオスっぷりに……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>※結局リプレイにまとめることになりました</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>他ＰＣが協力者かどうか分かるのは、ゲームが進んでからですからねー。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>なので誰かに合わせてバランスとか考える必要もない！　メイクが楽だー！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>公式リプレイはカッコいいのか、混沌としているのか、そこは知らない！（どーん）</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>割と私利私欲でキャラメイクしてますよね、公式。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0><a href=https://web.archive.org/web/20160705212712/http://rpg.fool.jp/replay/rakuen/in.html target=_blank class=red>こちらのリプレイ（外部サイト）</a>はマジでかっこいいですよ。どこのジュブナイル小説だこれ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>カッコイイ系をやりたかったら、ロイスの中の人が必要です……</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>わたしは、本当に意外でしょうが、おバカなキャラの方がやり易いみたいです。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>アッハイ。意外です。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>既知の情報です</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>秘密がばれているだと！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>それにしてもこのシステム、無理矢理とりあえず進行するからいいですねー。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>途中いろいろわかんなくても最後のバトルで生き残ればいいんだよ！みたいな。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そこが魅力ですねー。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>最終的に解決には持っていけるシステム。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>微妙に曖昧な乱数表が笑いを誘う。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>そういや私、結局内定取れなかったんですが（というか内定取るのと3人殺すのとやや矛盾する）、</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>これはこれで勝利に入るんですか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>《使命》は秘密によって上書きされていますので内定はとれていようがとれていまいが勝利ですね。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>真の使命を達成できたから勝ちなんじゃないですか</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>って、使命で完全に上書きされるんですね！　てっきり倒してプライズ（内定）を奪わないといけないのかと。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>じゃあ「内定は出たけど担当者行方不明」っていう勝利もありえるんだ……どういうことなの。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なお、チャックは開いている模様</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>宇宙で爆散！　ていうかこれもすごい死に方だ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>同僚A「あいつがいなくなって三ヶ月経つな……」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>同僚B「ああ、でも大丈夫さ、あいつ、いまでもチャック開いているよ……」</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それから勝利すると何があるか、ですが。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>プレイ終了時には「功績点」というものが発生します。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>今回はお試しだったのでやりませんがこんな評価方法ですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・信念を貫けたか</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・使命を満たせたか</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・参加したか</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・プライズを所持しているか</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・プレイヤー達の琴線に触れたか</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>琴線に触れたか否かですが、これはプレイヤー同士で琴線に触れたＰＣを一斉に宣言してもらって</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>最多票を獲得した人に入るボーナスポイントですね。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>功績点によって成長するというコトでしょうか？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>イエース！ただしこのオンラインセッションは単発ですから、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あくまで何点獲得したかが分かるだけのフレーバーですね。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>つまり、キャンペーンにも対応はしていると、</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>成長しても次でまたドガーンしそう！　（※キャラクター死亡の意）</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>この死にやすさだとほぼ毎回作り直しですよ先生！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>作った人、ちょっと頭おかしい（褒め言葉）</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>今回はあくまでチュートリアルですから評価は割愛！
+<BR>というかどうしてこうなった！</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>就活シナリオとトイレシナリオを両方消化できてわたくし大満足ですよ！ありがとうございます！</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>わたしのせいじゃないですよね、わたしのせいですか、すみません</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>はいいえ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>GMの負担、結構なもんですね、これ</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>情報のやりとりを間違えないようにしないといけないから大変ですね。</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>いやあ、普通のTPRGと違って進行管理するだけですから楽なんですよ。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>結構秘密のやりとりがありますけど、リアルセッションではどうするんです？</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>いっせーので、っでプロット宣言するんです？</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>そうですね。サイコロの出目を決めてから手で隠し、いっせーのせっでオープンです。</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>なるほどー</div>
+<div id=nm><font class=c3><B>御手洗</B></font></div><div id=tx class=ct3>情報共有は紙に書いて渡すような感じだ、きっと</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>秘密の情報などは紙片に折り畳んで渡すとか。アナログな楽しさが結構大きいですね。</div>
+<div id=nm><font class=c2><B>大神</B></font></div><div id=tx class=ct2>おおー。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>GM</B></font></div><div id=tx class=ct0>それではチュートリアルセッションはこれにて終了です。
+<BR>次週の本番にてよろしくお願いします！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>お疲れ様でした！</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>戦いの舞台は料理大会！</font></div>
+<div id=com><font id=CC2>シノビたちはそれぞれの密命を胸に秘め、厨房に立つ。</font></div>
+<div id=com><font id=CC2>暗黒非合法な戦いの果てに微笑むのは一体誰なのか！</font></div>
+<div id=com><font id=CC2>次回、『戦え！料理の鉄忍！』</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+
+<div id=com>　</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>

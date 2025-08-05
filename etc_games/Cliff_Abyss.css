@@ -1,0 +1,63 @@
+BODY{
+  background-color : #eedddd;
+  font-size : 10pt;
+  font-family : "ÇlÇr ÇoÉSÉVÉbÉN";
+  color : #554444;
+
+  MARGIN: -3px 0px 0px 0px;
+
+}
+
+A:LINK,A:VISITED{color:#c55353;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #dcacae;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#a6385c;}
+A.red:HOVER,A.red:ACTIVE{color : #d6688c;text-decoration : underline;}
+
+A.lred:LINK,A.lred:VISITED{color:#df689c;}
+A.lred:HOVER,A.lred:ACTIVE{color : #f688ac;text-decoration : underline;}
+
+
+A.blue:LINK,A.blue:VISITED{color:#3638f6;}
+A.blue:HOVER,A.blue:ACTIVE{color : #c6c8ff;text-decoration : underline}
+
+A.siro:LINK,A.siro:VISITED{color:#bfbfdf;}
+A.siro:HOVER,A.siro:ACTIVE{color : #efefff;text-decoration : underline;}
+
+A.BB:LINK,A.BB:VISITED{color:#bfdfbf;}
+A.BB:HOVER,A.BB:ACTIVE{color : #efffef;text-decoration : underline;}
+
+A{text-decoration : none;}
+
+/*--√∞ÃﬁŸ--*/
+table{font-size: 10pt;}
+.black{background-color:#000000;}
+.gray{background:#655353;}
+.white{background:#f3eeee;}
+.mwhite{background:#eedddd;}
+.veryusui{background:#faf0f0;}
+.mgray{background:#998888;}
+.mmgray{background:#958383;}
+.fullwhite{background:#ffffff;}
+
+.faceback{background-color:#3f2424;}
+.back{background-color:#5f4444;}
+.koi_back{background-color:#bbaaaa;}
+
+HR{color:#665555;}
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#443333;}
+.fmw{color:#776666;}
+.fg{color:#554343;}
+.fmg{color:#a59393;}
+.flink{color:#857373;}
+.fmmg{color:#a59393;}
+.ten{font-size:10pt;}
+.elev{font-size:12pt;}
+.plus{font-size:14pt;}
+
+/*--ê¸êF--*/
+.line{color:#c3c3d5;}
+.dline{color:#60609b;}

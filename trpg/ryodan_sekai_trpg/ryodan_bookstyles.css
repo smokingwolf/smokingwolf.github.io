@@ -1,0 +1,272 @@
+
+
+
+body
+{
+	line-height:130%
+}
+
+
+p
+{
+
+}
+
+
+/* PCたちの顔と名前部分 */
+img
+{
+	/* margin-bottom:-0.2em; 顔絵を下へずらしたい */
+
+}
+
+em /*本来は斜体だが名前とセリフの間の：を表示するのに使っている*/
+{
+	color:#999999;
+	padding-left: 0.2em;
+	padding-right: 0.4em;
+	font-style:normal;
+}
+
+
+font.P0
+{
+	color:#8888A6;
+	font-weight:bold;
+	margin-top:3em;
+}
+
+font.P1
+{
+	color:#A99B58;
+	font-weight:bold;
+	margin-top:3em;
+}
+
+font.P2
+{
+	color:#8070F0;
+	font-weight:bold;
+}
+
+
+
+font.P3
+{
+	color:#b85058;
+	font-weight:bold;
+}
+
+font.P4
+{
+	color:#55B038;
+	font-weight:bold;
+}
+
+span.P0
+{
+	color:#8888A6;
+	font-weight:bold;
+	padding-top:1em;
+}
+
+
+span.P1
+{
+	color:#A99B58;
+	float : left;
+	font-weight:bold;
+	
+	padding-left:1.5em;
+	background-image: url("./image_ryodan/P1.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position: bottom left;
+	height:1.5em;
+	white-space: nowrap;
+	padding-top:1em;
+}
+
+
+
+span.P2
+{
+	color:#8070F0;
+	float : left;
+	font-weight:bold;
+	
+	padding-left:1.5em;
+	background-image: url("./image_ryodan/P2.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position: bottom left;
+	height:1.5em;
+	white-space: nowrap;
+	padding-top:1em;
+	
+}
+
+
+span.P3
+{
+	color:#b85058;
+	float : left;
+	font-weight:bold;
+	
+	padding-left:1.5em;
+	background-image: url("./image_ryodan/P3.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position: bottom left;
+	height:1.5em;
+	white-space: nowrap;
+	padding-top:1em;
+}
+
+
+span.P4
+{
+	color:#55B038;
+	float : left;
+	font-weight:bold;
+	
+	padding-left:1.67em;
+	background-image: url("./image_ryodan/P4.png");
+	background-repeat: no-repeat;
+	background-size:1.68em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position: bottom left;
+	height:1.5em;
+	white-space: nowrap;
+}
+
+/*
+span.P0m
+{
+	color:#555566;
+}
+span.P1m
+{
+	color:#896B38;
+}
+span.P2m
+{
+	color:#6050A0;
+}
+
+span.P3m
+{
+	color:#983038;
+}
+span.P4m
+{
+	color:#357018;
+}
+
+*/
+
+
+
+spanX.P0
+{
+	float : left;
+	margin:0% 0.1em 0% 0.1em;
+	background-image: url("./image_ryodan/icon_gm.jpg");
+	background-repeat: no-repeat;
+	background-size:1.14em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position:bottom;
+	width:1.5em;
+	height:1.5em;
+
+}
+spanX.P1
+{
+	float : left;
+	margin:0% 0.1em 0% 0.1em;
+	background-image: url("./image_ryodan/P1.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position: bottom;
+	width:1.5em;
+	height:1.5em;
+
+}
+
+spanX.P2
+{
+	float : left;
+	margin:0% 0.1em 0% 0.1em;
+	background-image: url("./image_ryodan/P2.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position:bottom;
+	width:1.5em;
+	height:1.5em;
+
+}
+
+spanX.P3
+{
+	float : left;
+	margin:0% 0.1em 0% 0.1em;
+	background-image: url("./image_ryodan/P3.png");
+	background-repeat: no-repeat;
+	background-size:1.5em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position:bottom;
+	width:1.5em;
+	height:1.5em;
+
+}
+
+spanX.P4
+{
+	float : left;
+	margin:0% 0em 0% 0.1em;
+	background-image: url("./image_ryodan/P4.png");
+	background-repeat: no-repeat;
+	background-size:1.68em 1.5em; /*サイズ比は手動指定　横：縦*/
+	background-position:bottom;
+	width:1.68em;
+	height:1.5em;
+
+}
+
+.note
+{
+	color:#AAAAAA;
+
+}
+
+.subtitleW_Big{
+	font-weight:bold;
+	font-size:1.4em;
+	background-color:#663333;
+	color:white;
+	border:0.1em #663333 solid;
+	border-radius:0.4em;
+	text-indent: 0.6em;
+	padding-top:1em;
+	height:1.7em;
+	font-size:1.4em;
+
+	margin-top:1.5em;
+	margin-bottom:0em;
+	padding-top:auto;
+	padding-bottom: auto;
+	
+}
+
+.subtitleW{
+
+
+	font-weight:bold;
+	color:white;
+	background-color:#765555;
+	border:0.1em #765555 solid;
+	border-radius:0.3em;
+	text-indent: 0.6em;
+	
+	margin-top:2em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+
+}

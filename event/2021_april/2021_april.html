@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<!-- jquery & iScroll -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="april_base.css">
+<link rel="stylesheet" href="smartphone_base.css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+
+<title>シルバーセカンド2021年エイプリル　＜自家製＞片道勇者TRPGリプレイから8年！</title>
+
+<style type="text/css">
+<!--
+/* 初期状態では表示されない */
+#flowmenu{
+	visibility:hidden;
+}
+
+nav .inner {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+A.blue:LINK,A.blue:VISITED{color:#5658f6; text-shadow: 0 0 10px #ccccff, 0 0 10px #aaaaff;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline; text-shadow: 0 0 10px #ccccff, 0 0 10px #aaaaff;}
+
+
+A.glink:LINK,A.glink:VISITED{color:#43a3b5;text-decoration : underline; display: inline-block;text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff;}
+A.glink:HOVER,A.glink:ACTIVE{color : #98d8fe;text-decoration : underline; display: inline-block;text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff;}
+
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+
+window.addEventListener('DOMContentLoaded', function() {
+ 
+    // 実行したい処理を書く
+    init_mode();
+ 
+})
+
+// ミニメニュー表示チェックボックス判定
+function change_menu(mode){
+	if(mode == null ){
+		if(document.getElementById("phone_menu").checked){ mode = 1;}
+		if(document.getElementById("phone_menu_big").checked){ mode = 2;}
+		if(document.getElementById("pc_menu").checked){ mode = 3;}
+	}
+	// 引数に応じてラジオボタンのチェック状態をセットし直す
+	document.getElementById("phone_menu").checked = false;
+	document.getElementById("phone_menu_big").checked = false;
+	document.getElementById("pc_menu").checked = false;
+	document.getElementById("selectmenu1").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu1").style.backgroundColor = '#DDD';
+	document.getElementById("selectmenu2").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu2").style.backgroundColor = '#DDD';
+	document.getElementById("selectmenu3").style.borderColor = '#FFF #999 #999 #FFF';
+	document.getElementById("selectmenu3").style.backgroundColor = '#DDD';
+	
+	if(mode == 1 ){
+		document.getElementById("phone_menu").checked = true;
+		sid = "selectmenu1";
+	
+	}else if(mode == 2 ){
+		document.getElementById("phone_menu_big").checked = true;
+		sid = "selectmenu2";
+	}else if(mode == 3 ){
+		document.getElementById("pc_menu").checked = true;
+		sid = "selectmenu3";
+	}
+	// 選んだやつだけ色を付ける
+	document.getElementById(sid).style.borderColor = '#AAF #449 #449 #AAF';
+	document.getElementById(sid).style.backgroundColor = '#66F';
+	
+	document.getElementById(sid).style.borderColor = '#FAA #944 #944 #FAA';
+	document.getElementById(sid).style.backgroundColor = '#F66';
+
+
+	PCmenu = document.getElementById("pc_menu");
+	PhoneMenuBig = document.getElementById("phone_menu_big");
+	if(PCmenu != null){
+		if(PCmenu.checked == true){
+			// PCメニュー
+			$('body').css('font-size', '10px');
+			$('body').css('font-size', '0.9em');
+			$('body').css('margin-left', '14em');
+			$('body').css('margin-right', '1em');
+			$('table').css('max-width', '640px');
+			$('table').css('margin-left', 'auto');
+			$('table').css('margin-right', 'auto');
+			$('td').css('padding', '0.5em');
+			//document.getElementById("hamburger_menu").style.visibility='hidden';
+			
+			//document.getElementById("hamburger-icon").style.transition='all 0ms 0s ease';
+			document.getElementById("flowmenu").style.visibility='visible';
+			
+			document.getElementById("smart-menu").style.display='none';
+			/*
+			document.getElementById("smart-menu1").style.visibility='collapse';
+			document.getElementById("smart-menu2").style.visibility='collapse';
+			document.getElementById("smart-menu3").style.visibility='collapse';
+			document.getElementById("smart-menu4").style.visibility='collapse';
+			document.getElementById("smart-menu5").style.visibility='collapse';
+			*/
+			document.getElementById("undermenu").style.visibility='collapse';
+			
+			//document.body.style.margin-left = "180";
+			//document.body.style.backgroundColor = '#FFFFCC';
+			
+			// #mainimageだと1個しか反応しないのでこれで記述
+			$('[id=mainimage]').css('width','auto');
+			$('[id=mainimage2]').css('width','auto');
+			$('[id=mainimage3]').css('width','300');
+		}
+		else
+		{
+		
+			$('[id=mainimage]').css('width','92%');
+			$('[id=mainimage2]').css('width','92%');
+			$('[id=mainimage3]').css('width','55%');
+			//document.getElementById("hamburger_menu").style.visibility='visible';
+			//document.getElementById("hamburger-icon").style.transition='all 300ms 0s ease';
+			document.getElementById("flowmenu").style.visibility='hidden';
+			$('td').css('padding', '0.2em');
+			
+			
+			document.getElementById("smart-menu").style.display='block';
+			/*
+			document.getElementById("smart-menu1").style.visibility='visible';
+			document.getElementById("smart-menu2").style.visibility='visible';
+			document.getElementById("smart-menu3").style.visibility='visible';
+			document.getElementById("smart-menu4").style.visibility='visible';
+			document.getElementById("smart-menu5").style.visibility='visible';
+			*/
+			document.getElementById("undermenu").style.visibility='visible';
+			
+			
+			if( PhoneMenuBig != null && PhoneMenuBig.checked == true ){
+				// スマートフォンメニュー　大きい文字サイズ
+				$('body').css('font-size', '24px');
+				$('body').css('font-size', '2.4em');
+				$('body').css('margin-left', '0.1em');
+				$('body').css('margin-right', '0.1em');
+				$('table').css('max-width', '95%');
+				$('table').css('margin', '0.1em');
+			}
+			else
+			{
+				// スマートフォンメニュー　通常
+				$('body').css('font-size', '16px');
+				$('body').css('font-size', '1.6em');
+				$('body').css('margin-left', '0.1em');
+				$('body').css('margin-right', '0.1em');
+				$('table').css('max-width', '95%');
+				$('table').css('margin', '0.1em');
+			}
+		}
+	}
+	// スマホ切り替えボタンだけは右寄りに
+	$('#selectmode').css('margin-right','0px');
+	$('#selectmode').css('margin-left','auto');
+}
+
+function init_mode(){
+	/*alert(  window.parent.screen.width );*/ 
+	
+	if( window.parent.screen.width >= 1024 ){
+		// 画面サイズが横1024以上なら「PC版」を初期値にする
+		document.getElementById("pc_menu").checked = true;
+		document.getElementById("phone_menu").checked = false;
+		document.getElementById("phone_menu_big").checked = false;
+	}
+	else
+	{
+		// それ以外ならスマホ版を初期値にする
+		document.getElementById("pc_menu").checked = false;
+		document.getElementById("phone_menu").checked = true;
+		document.getElementById("phone_menu_big").checked = false;
+	
+	}
+	change_menu();
+	
+	
+	
+}
+
+
+// --></script>
+
+
+</head>
+
+<!--<body class="drawer drawer--left" onload="init_mode()">-->
+<body><!-- onload="init_mode()">-->
+
+
+  
+<div id="flowmenu">
+ <DL class="minimenu">
+<TABLE class="bgray" cellpadding="0" cellspacing="0">
+  
+    <TR>
+      <TD class="white" nowrap>【メニュー】<BR><BR>
+      <A href="../../" class="blue">←ホームに戻る</A><BR>
+<BR><B>旅団世界TRPG<BR>ﾘﾌﾟﾚｲ2巻､発売!</B><BR><BR>
+<a href="#top" class="glink">○TOP/紹介マンガ</a><BR>
+      <BR>      
+<a href="#1" class="glink">◆1.読んでみる!<BR>(購入ﾍﾟｰｼﾞ)</a><BR>
+      <BR>
+      <a href="#2" class="glink">◆2.内容の紹介！</a><BR>
+      &nbsp;<a href="#2-1" class="glink">- 2巻のあらすじ!</a><BR>
+      &nbsp;<a href="#2-2" class="glink">- 登場キャラ!</a><BR>
+      &nbsp;<a href="#2-2.5" class="glink">- ぶっちゃけ説明!</a><BR>
+      <BR>
+      <a href="#3" class="glink">◆3.過去のお話!</a><BR>
+      <BR>
+      <a href="#4" class="glink">◆4.あとがき</a><BR>
+      <BR>
+      　</TD>
+    </tr>
+  
+</TABLE>
+</DL>
+</div>
+  
+   
+  
+  <main role="main">
+    <!-- Page content -->
+<div id="undermenu" style="visibility:collapse;">
+<TABLE width="100%" id="undermenu" cellpadding="0" cellspacing="0"><TR><TD width="20%">
+<a id="underbase" class="undermenu1" href="#top"><BR><B>トップ<BR><small><small>目次/マンガ</small></small></B></a>
+</TD><TD width="20%">
+<a id="underbase" class="undermenu2" href="#1"><BR><B><small>読んでみる<BR>/購入ﾍﾟｰｼﾞ</B></small></a>
+</TD><TD width="20%">
+<a id="underbase" class="undermenu3" href="#2"><BR><B>内容<BR>紹介!</B></a>
+</TD>
+<TD width="20%">
+<a id="underbase" class="undermenu4" href="#3"><BR><B>過去の<BR>お話</B></a>
+</TD>
+<TD width="20%">
+<a id="underbase" class="undermenu5" href="#4"><BR><BR><B>あとがき</B></a>
+</TD>
+</TR></TABLE>
+</div>
+  
+
+
+
+<script><!--★スマートフォン切り替えメニュー★-->
+document.write(`
+<FORM>
+<TABLE cellpadding="3" cellspacing="1" width="100%">
+  <TBODY>
+    <TR>
+      <TD height="50" align="right">
+  
+  <!--見えないようにしているがラジオボタンは内部的に使うので存在自体は必要-->
+  <TABLE cellpadding="0" cellspacing="0" style="display:none;">
+  <TR><TD style="line-height:150%;">
+  <big><big>【表示モード】</big></big><BR>
+　<INPUT type="radio" name="viewmode" value="phone" id="phone_menu" checked onclick="change_menu(1)">スマートフォン用（通常）　<INPUT type="radio" name="viewmode" value="phone" id="phone_menu_big" onclick="change_menu(2)">(大)<BR>　<INPUT type="radio" name="viewmode" value="pc" id="pc_menu" onclick="change_menu(3)">パソコン用
+  </TD></TR></TABLE>
+
+  <!--ボタン部分-->
+  <TABLE id="selectmode" cellpadding="0" cellspacing="0" style="margin-right:0px;">
+<TR><TD align="right">
+
+<TABLE style="float: left;"><TR><TD>
+2021年エイプリルページ　
+</TD></TR></TABLE>
+<!--右寄せ-->
+<TABLE><TR>
+<TD align="right" nowrap><font style="color:#BAA;text-shadow: 0 0 4px #EEE,0 0 4px #EEE, 0 0 4px #EEE, 0 0 4px #EEE; "><B>表示モード</B><BR><SMALL><SMALL>(切替に時間が<BR>かかります)</SMALL></SMALL></font></TD>
+<TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu1" name="selectm1" href="javascript:change_menu(1);"><BR><SMALL><SMALL><B>スマート<BR>フォン(中)</B></SMALL></SMALL></a>
+</TD><TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu2" name="selectm2" href="javascript:change_menu(2);"><BR><SMALL><SMALL><B>スマート<BR>フォン(大)</B></SMALL></SMALL></a>
+</TD><TD style="vertical-align:middle;" nowrap>
+<a class="selectbase" id="selectmenu3" name="selectm3" href="javascript:change_menu(3);"><BR><BR><SMALL><SMALL><B>パソコン</B></SMALL></SMALL></a>
+</TD>
+</TR></TABLE>
+</TD></TR></TABLE>
+  
+  </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</FORM>
+<BR>
+`)
+</script>
+
+
+
+<a name="top"></a>
+
+
+<TABLE class="gradientA" cellpadding="3" cellspacing="1" width="100%" style="min-height:6em;">
+  <TBODY>
+    <TR>
+      <TD colspan="1" align="center" style="vertical-align:middle;">
+<span style=" text-shadow: 0 0 7px #AAAABB, 0 0 7px #AAAABB; line-height:200%;"><FONT class="fw" style="font-size : 200%;">&nbsp;<small><small><B>『＜自家製＞片道勇者TRPGリプレイ』</B>の<BR>その後が語られる！<BR>　『旅団世界TRPGリプレイ 2巻』発売！</small></small></FONT> </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<CENTER>
+<BR>
+<BR>
+さあ、やってきました例年通りのエイプリルフール新発表！<BR>
+<BR>
+今年は自作TRPGリプレイ電子書籍『<B>旅団世界TRPGリプレイ</B>』の<B>2巻</B>発売のお知らせです！<BR>
+<BR><BR>
+なんと今回のお話は『<B style="color:#f45;">＜自家製＞片道勇者TRPGリプレイ</B>』のその後が舞台！<BR>
+<!--<BR><BR><BR>
+というのも、『＜自家製＞片道リプレイ』は8年前の <BIG><B>【4/1】 </B></BIG>に<BR>
+公開されたもので、本日であれからちょうど<B>8年</B>となるのです！<BR>
+<BR>
+それに合わせて、今回の物語の中も当時から<B style="color:#f33;">【8年後】</B>の世界でお送りします！<BR>
+-->
+
+</CENTER>
+<!--★ スマートフォン時のみ表示されるトップメニュー★-->
+
+<div id="smart-menu" style-"float:left;width:100%;">
+<BR><CENTER>
+<TABLE style="line-height:150%; background:#eef;">
+<TR><TD colspan="2" style="background:#f9f9ff;">【目次】 <small>ページ内リンク</small></TD></TR>
+
+<TR><TD valign="top">
+
+<a href="#top">○TOP/紹介マンガ</a><BR>
+      <BR>      
+<a href="#1">◆1.読んでみる！<BR>　　購入ページ</a><BR>
+<BR>
+      <a href="#2">◆2.内容の紹介！</a><BR>
+      <small>&nbsp;<a href="#2-1">- 2巻のあらすじ!</a><BR>
+      &nbsp;<a href="#2-2">- 登場キャラ!</a><BR>
+      &nbsp;<a href="#2-2.5">- ぶっちゃけ説明!</a><BR>
+      </TD><TD>
+      <BR>
+      <a href="#3">◆3.過去のお話!</a><BR>
+      <BR>
+      <a href="#4">◆4.あとがき</a><BR>
+      <BR>
+
+</TD>
+
+</TR></TABLE>
+</CENTER>
+</div>
+
+<BR><BR>　
+<CENTER>
+詳しくはこちら！ ↓ <BR>　<BR>
+
+
+<BR><BR>
+<HR>
+<BR><BR>
+
+<a name="1"></a>
+<TABLE border="0" width="100%" class="title" style="min-height:4em;">
+  <TBODY>
+    <TR>
+      <TD class="gradientB" cellpadding="2" cellspacing="1" width="30" align="center"><FONT class="fw"><BIG><BIG><B>１</B></BIG></BIG></FONT>
+      </TD>
+    <TD class="gradientB"><FONT class="fw"><B><BIG><BIG>　読んでみる！</BIG></BIG></B></FONT></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+
+<BR>　
+
+<a name="1-1"></a>
+
+      <BR>
+     　ということで2巻の販売ページはこちら！<BR>↓<BR>
+     　<BR>
+        <CENTER>
+        <TABLE class="ggray" cellpadding="5" cellspacing="1" width="580" style=" border-radius: 2em;">
+  <TBODY>
+    <TR>
+            <TD class="white" align="center" style=" border-radius: 2em;">　<BR>
+            <a class="red" href="https://amzn.to/2Pgv8yr" style="" target="_blank"><B>Amazon販売ページ<BR>旅団世界TRPGリプレイ②『白の旅団と終末の闇』</B><BR><BR><img src="image/ryodan2_cover.jpg" style="max-width:60%;" id="mainimage3" border="3"></a><BR>
+            　　Kindle版　￥924<BR>Kindle Unlimitedなら￥0<BR>　
+            </TD></TR></TABLE>
+            　　<BR><BR>
+     <BR>　<SMALL>※これはKindle電子書籍です。スマートフォンやPCに「Kindle（キンドル）」アプリを入れて読むことができます。<BR><BR>
+     　※Kindle Unlimitedご加入者なら無料で読めます。<BR><BR>
+     　※<B style="color:#f44">冒頭から10％ほどをブラウザ上から試し読み</B>することもできます！</SMALL><BR>
+        <BR><BR>　　
+        </CENTER>
+        
+
+<BR><BR><HR><BR>
+
+<a name="2"></a>
+<TABLE border="0" width="100%" class="title" style="min-height:4em;">
+  <TBODY>
+    <TR>
+      <TD class="gradientB" cellpadding="2" cellspacing="1" width="30" align="center"><FONT class="fw"><BIG><BIG><B>２</B></BIG></BIG></FONT>
+      </TD>
+    <TD class="gradientB"><FONT class="fw"><B><BIG><BIG>　内容の紹介！</BIG></BIG></B></FONT></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+
+<img src="https://silversecond.net/contents/library/event/2021_april/image/2021april_manga.jpg" border="0" id="mainimage">
+
+
+
+<BR>今回のあらすじや、今回の登場キャラクターなど！<BR><BR>
+<a name="2-0"></a>
+
+
+<BR><BR><BR>
+<a name="2-1"></a>
+<TABLE class="ggray" cellpadding="5" cellspacing="1" width="100%">
+  <TBODY>
+    <TR>
+            <TD class="gradientD" colspan="3"><B>◆2巻のあらすじ</B></TD>
+          </TR>
+    <TR>
+      <TD class="gradientC" align="left" colspan="3" style="line-height:1.5em;">
+
+<BR>
+　それは6人の旅人が『闇』に立ち向かった冒険の時代から8年後のこと。<BR>
+　世界を覆わんとする『闇』の脅威が人知れず討ち払われた後、その島『シールダルク島』では穏やかな日々が続いていました。<BR><BR>
+
+　シールダルク島の端には、3つの獣人たちの国がありました。<BR>
+　イヌビトの国エルスベルグ、ネコビトの国イフバール、トリビトの国フェザーランドです。<BR>
+　昔は国々のあいだで争ったこともありましたが、今は3国の王族が協力しあい、平和な日々が続いていました。<BR>
+　<BR>
+　ところがある日、フェザーランドで暴動が起き、国の領主が殺されてしまう事件が起きます！<BR>
+　領主の娘でありながら隠れ住むように暮らしていた半人半鳥の少女クバは、半獣人の集落へと逃げ延びるべく、街を離れます……。<BR>
+　<BR>
+　<BR>
+　その頃、『大陸』では半獣人の薬師ネムリが、今回の物語の主人公たちであるリゼットらが設立した『ホワイトドーン旅団』に志願しようとしていました。<BR>
+　彼女は『闇』が生まれた島、シールダルク島の出身だと言います。<BR>
+　ネムリは、何らかの目的でその島へ渡ろうとしているようなのですが……。<BR>
+　<BR>
+　また、リゼットたち『ホワイトドーン旅団』も『旅団大会』に参加すべく、シールダルク島へと渡ることになります。<BR>
+　しかし「旅団大会」で盛り上がりを見せる中、よみがえりつつある『闇』の気配が、徐々に島に立ちこめていき……。<BR>
+　<BR>
+　そして現れた『闇』は、人類が止めるにはあまりにも強大すぎる敵でした。<BR>
+　絶望的な状況の中、それでもホワイトドーン旅団は『闇』に立ち向かっていきます。<BR>
+　それがたとえ、一つの命では勝てない戦いだとしても――。<BR>
+<BR>
+　
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+
+
+
+<BR><BR><BR>
+<a name="2-2"></a>
+<TABLE class="ggray" cellpadding="5" cellspacing="1">
+  <TBODY>
+    <TR>
+            <TD class="gradientD" colspan="3"><B>◆登場キャラクター！</B></TD>
+          </TR>
+    <TR>
+      <TD class="gradientC" align="left" colspan="3" style="line-height:1.5em;">
+      　2巻のリプレイで登場するプレイヤーキャラクターを、過去の実績と合わせてご紹介！<BR>　
+
+<TABLE class="ggray" cellpadding="3" cellspacing="1">
+  <TBODY>
+    <TR>
+      <TD class="bgray">キャラクター名</TD>
+
+            <TD class="bgray">説明</TD>
+    </TR>
+    
+    
+          <TR>
+            <TD class="white" align="center"><B>クバ</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara05.jpg"></TD>
+            <TD class="white">　半人半鳥の少女で、トリ人の国の領主の娘。<BR>　<small>※トリ人：頭が鳥型の獣人。つまり半人半鳥のクバは複雑な事情で産まれた。</small><BR><BR>
+            　中の人は、「自家製」時は「ンク」の人、旅団世界内では1巻まで「ブリンク」の人だった。<BR>
+            　ブリンクのときは全体的に出目がよかったのだが、クバになってからいつも通りの低めの出目になってしまい……。<BR>
+            　<BR>
+<SMALL><B>＜人気投票コメント＞</B><BR>
+            ・第1巻ではダイス神のいたずらによりブリンクさんの主人公力が高まっていましたが、割と凄まじい個別オープニングで始まった事もあり、今回も主人公力高めな印象でした。<BR>
+            ・まずかわいい！　とにかくかわいい！　ローブ姿も可愛いし手羽でクロスボウも可愛い。ちょっと拗ねた感じの表情も立ち居振る舞いも最の高ですな。<BR>
+            ・クバも何だかんだオーボスとは良い友人になれそうな雰囲気。
+            </SMALL></TD>
+          </TR>
+    <TR>
+            <TD class="white" align="center"><B>リゼット</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara01.jpg"></TD>
+            <TD class="white">　騎士を目指す、まじめな性格の半獣人の女性。今回ついに自分たちの『ホワイトドーン』旅団を設立し、旅団長としてみんなを率いる。<BR><BR>　中の人は旅団世界が初参加だったが、1巻では物語を進める原動力として大活躍。交渉に長けていたが、今回はスキルで商談もこなせるようになった。<BR>
+            <BR>
+           <SMALL><B>＜人気投票コメント＞</B><BR>
+           ・今回一番ヒーローしてたリゼットさんをMVP指定させていただきました。やはりリーダーは伊達じゃない。<BR>
+           ・豊満なボディが引き締まって脂肪から筋肉に変わったことでますますスタイルよく、戦力もアップ！　というか今回全般的に漢気がすぎると思います。<BR>
+           ・急に高所を恐がってる姿は大変おいしゅうございました。最後の最後でアハンウフンな勘違いを全力で誘う言い回しにも笑った。
+           </SMALL>　</TD>
+          </TR>
+          
+          
+          <TR>
+            <TD class="white" align="center"><B>オーボス</B><BR><img src="https://silversecond.net/contents/library/event/2020_april/image/chara03.jpg"></TD>
+            <TD class="white">　ひたすら腕力特化の洞窟人（ドワーフ）の大工。その一撃はパーティ一番の破壊力を叩き出す。<BR>　今回はついにその料理の腕が活かされる……のか！？<BR>
+            <BR>
+            　中の人は『&lt;自家製&gt;片道勇者TRPG』での妖精アレイラ。破天荒なムーブでいつもみんなを楽しませてくれる。
+            　<BR><BR>
+            <SMALL><B>＜人気投票コメント＞</B><BR>
+            ・今回もダークなシナリオの清涼剤役、お疲れ様でした。前回ほどではないにしろ、PCとしては好き勝手動いてるのにちゃんと必要な情報やらアイテムやら引っ張ってくる辺りは流石の一言。<BR>
+            ・今回もいつも通りのめちゃくちゃなロールプレイ(褒め言葉)を楽しませていただきました（笑）<BR>
+            ・あいも変わらずの破壊の権化。まずは大会を粉砕！ すな！
+            </SMALL></TD>
+          </TR>
+          
+          
+          <TR>
+            <TD class="white" align="center"><B>ノエル</B><BR><img src="https://silversecond.net/contents/library/event/2020_april/image/chara04.jpg"></TD>
+            <TD class="white">
+            　みんなに盗賊扱いされることが多い薬師の少女。前回からパーティのサポート役として、最後の一手をうまく決めることが多い……が、一方でファンブル担当とも言われている。<BR>
+            <BR>
+            　中の人は『&lt;自家製&gt;片道勇者TRPG』での耳長人サントリナ。スキル構成で不幸を補っており、いざというときに大活躍する。<BR>
+            　<BR>
+            <SMALL><B>＜人気投票コメント＞</B><BR>
+            ・今回もダイス目・ロールプレイともギャグに寄っていて、オーボスさん共々奇行を楽しませていただきました。<BR>
+            ・……（冒険企画局版）片道リプレイの前勇者といい、結構変な人と因縁持ちますよね。やはり中の人が色々持っているのでしょうか。<BR>
+            ・今回も元気いっぱいかと思ったらのっけからゲロイン２号で笑った。<BR>
+            </SMALL></TD>
+          </TR>
+          
+        </TBODY>
+      </TABLE>
+
+<BR>　<BR>　
+      　そして以下は今回の新NPCキャラクター！<BR>　
+
+<TABLE class="ggray" cellpadding="3" cellspacing="1">
+  <TBODY>
+    <TR>
+      <TD class="bgray">キャラクター名</TD>
+
+            <TD class="bgray">説明</TD>
+    </TR>
+
+<TR>
+<TD class="white" align="center"><B>ネムリ</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara110.jpg"></TD>
+<TD class="white">　リゼットが今回設立した『ホワイトドーン旅団』の志願者面接にやってきた半獣人の薬師の少女。<BR>
+　しかし何やら裏の目的があるようで、たびたび怪しい言動を取る。世界を救うためだと言うのだが……？<BR><BR>　元ネタは原作ゲームの『片道勇者』より。性格は同じだが経歴はアレンジされており、やっぱりちょっと不幸な目に遭っている。</TD>
+</TR>
+
+
+
+<TR>
+<TD class="white" align="center"><B>バロン＝ブラックバード</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara111.jpg"></TD>
+<TD class="white">　クバの実の父親で、トリ人の国の領主。<BR>
+　だが暴動が起き、なんとその最中にクバの目の前で殺されてしまう。<BR><BR>
+　実はトリ人の国で半獣人特区を設立している。が、よりによってそれが暴動の原因になってしまった（「バロンは半獣人の国を作ろうとしているんだ！」などと言われた）
+　</TD>
+</TR>
+
+
+<TR>
+<TD class="white" align="center"><B>ガルフ</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara112.jpg"></TD>
+<TD class="white">　第1巻で敵勢力の用心棒をしており、オーボスを返り討ちにしたこともあるオオカミ人（※当時は名前がなかった）。<BR>
+　決めゼリフは「ここを通せるのは俺の鼻が知ってるやつだけだ」だった。<BR>
+　実は1巻の終わりで同じ旅団に入れてくれとオーボスに頼んでおり、その結果、新設されたホワイトドーン旅団に加入することになる。<BR><BR>　オーボスにいつも名前を間違えられる。妹が病院に入院しているらしいが2巻では出てこない。
+
+</TD>
+</TR>
+
+<TR>
+<TD class="white" align="center"><B>ローガン＝フロウライト</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara113.jpg"></TD>
+<TD class="white">　フロウライト家の騎士で、実はリゼットのおじいちゃん。<BR>
+　すでに引退して自由な旅に出ており、今は『自由騎士旅団』という旅団の長でもある。<BR><BR>　渋い系のおじいちゃんのつもりで行こうとしたが、リゼットが半獣人の血を引いている理由として彼がケモナー（獣人好き）だったから、という設定が付いてしまった。
+</TD>
+</TR>
+
+
+<TR>
+<TD class="white" align="center"><B>クジャータ女王</B><BR><img src="https://silversecond.net/contents/library/event/2021_april/image/chara115.jpg"></TD>
+<TD class="white">　ヒョウ人であり、ネコ人の国の女王。<BR>　割とのんべんだらりとしているネコ人たちの中でも比較的まじめな性格をしており、リゼットらに協力してくれる。
+<BR><BR>　実は＜自家製＞片道勇者TRPGリプレイでも登場していた。
+</TD>
+</TR>
+
+
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR><BR><BR>
+<a name="2-2.5"></a>
+<TABLE class="ggray" cellpadding="5" cellspacing="1">
+  <TBODY>
+    <TR>
+            <TD class="gradientD" colspan="3"><B>◆その他のぶっちゃけ説明！</B></TD>
+          </TR>
+    <TR>
+      <TD class="gradientC" align="left" colspan="3" style="line-height:1.5em;">
+
+<BR>
+      <BIG><B>＜旅団世界リプレイ2巻で自家製リプレイのキャラが出てくるの！？＞</B></BIG><BR>
+      <BR>
+　『旅団世界TRPGリプレイ 2巻』では、キャラクター面だと前述のように「半獣人女子を拾ってきちゃう系男性」っぽい人とか「某ネコ獣人」っぽい元PC(プレイヤーキャラクター)が登場します！　まともに会話があった元PCは3人くらいです。<BR>
+　<BR>
+　（「イメージ的にこのPCが罪のない少女を斬ると考えにくいよな！」ということで出番がNPCに差し替わったり、タイミングが悪くて出せなかったPCはいました、ごめんね……）<BR>
+<BR>　
+<HR>
+<BR>
+<BIG><B>＜舞台は自家製片道TRPGのラストマップ付近！＞</B></BIG><BR>
+　<BR>
+　また、「<B><BIG><BIG>冒険の舞台</BIG></BIG></B>」に関しては自家製からほぼ引き継ぎです！<BR><BR>
+　比較した図は以下の通り！　左が自家製片道勇者、右が旅団世界2巻の舞台となっております。よく見ると……。<BR>
+　<img src="https://silversecond.net/contents/library/event/2021_april/image/ryodan2_map.jpg" border="2" id="mainimage2" style="max-width:90%;">
+　 <BR>
+　なお、2巻を読んでくださった人の中に当時のマップや登場人物を覚えているかたがいらっしゃって、GMがこっそり大喜びしていました。<BR><BR>
+
+
+<HR><BR>
+<BIG><B>＜その他＞</B></BIG><BR>
+　<BR>
+<BIG><B>Q. 1巻読んでないけどいきなり2巻から読んで大丈夫！？</B></BIG><BR><BR>
+　大きなお話としては2巻だけでまとまっているので、2巻からでもお楽しみいただけるようになっています！<BR>（なお、ルール説明がより詳しく書かれているのは1巻です）<BR>
+<BR>
+・1巻のNPCがからんでくる度合いは、シーン的には10％以下（情報量的には5％以下）で、話題にあがる過去キャラや過去話、文脈が分かりにくそうな部分には随時、補足説明を入れています。<BR><BR>
+・ルールは、「2D（サイコロ2個）＋能力値」で行動がうまくいったかどうか出すスタイルは『＜自家製＞片道勇者TRPGリプレイ』通り！　戦闘ルールだけ＜自家製＞とちょっと違いますが、実際のリプレイを見ればすぐ慣れると思います。<BR>
+<BR>
+　これらの点だけあらかじめご理解いただければ、2巻からでもおおよそ問題なくお楽しみいただけると思います！<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BIG><B>Q.ところで自家製リプレイにいた「あの半獣人の少女」は出ますか！？</B></BIG><BR>
+<BR>　　<img src="https://silversecond.net/contents/library/event/2021_april/image/2021april_qoo.jpg" border="1" id="mainimage2" style="max-width:90%;">
+
+　<BR>
+　<BR>
+　
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<BR><BR>
+<HR>
+<BR><BR>
+
+<a name="3"></a>
+<TABLE border="0" width="100%" class="title" style="min-height:4em;">
+  <TBODY>
+    <TR>
+      <TD class="gradientB" cellpadding="2" cellspacing="1" width="30" align="center"><FONT class="fw"><BIG><BIG><B>３</B></BIG></BIG></FONT>
+      </TD>
+    <TD class="gradientB"><FONT class="fw"><B><BIG><BIG>　過去のお話</BIG></BIG></B></FONT></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+<BR><BR><BR>
+
+<TABLE class="ggray" cellpadding="5" cellspacing="1">
+  <TBODY>
+    <TR>
+            <TD class="gradientD"><B>◆「1巻などの『その前』が気になるんだけど！？」という人へ！</B></TD>
+          </TR>
+          <TR><TD class="white">
+          
+<H3 class="gradientA" style="height:1em;padding:1em 0 1em 0 ;">　　1巻が気になる！ </H3>
+
+          <TABLE>
+    <TR>
+      <TD class="gradientC" align="left" colspan="2" style="line-height:1.5em;" width="40%">
+
+        
+            <center>
+            
+            <a class="red" href="https://www.amazon.co.jp/dp/B085CG89YR/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=sitesw-22&linkId=b54200ddd30dde741e22a7403fc3839b&language=ja_JP" style="" target="_blank"><B>旅団世界TRPGリプレイ①<BR>『緑の旅団と黒ヤギの悪魔』</B><BR><img src="image/ryodan1_cover.jpg" style="max-width:70%;" id="mainimage3" border="2"></a><BR>
+            　　Kindle版　￥924<BR>Kindle Unlimitedなら￥0<BR>
+            </center>
+            </td>
+            <td width="60%" class="white">←　1巻の購入ページはこちら！<BR><BR>
+        　1巻を読まなくても2巻の95％くらいの内容は分かるように作っていますが、2巻を読んだ後で過去が気になった人や、前から順に読みたい人はよければこちらもぜひ！<BR><BR>
+        　ほぼ＜自家製＞片道勇者のときにいた中の人でお送りする珍道中が繰り広げられます。
+        </td>
+            
+            </tr>
+            
+            
+          </TABLE>
+          
+<HR>
+<H3 class="gradientA" style="height:1em;padding:1em 0 1em 0 ;">　　無料でなにか読みたい！ </H3>
+
+            　旅団世界TRPGリプレイがどんなものか、まだ一度も読んだことのない方はこちら！！<BR>　すべての始まり、第1話を読むことができます！<BR><BR>　サイコロが巻き起こすTRPGらしいカオス展開をご覧あれ！<BR>
+            　　　↓<BR><BR>
+            　<a class="blue" href="http://silversecond.net/contents/game/TRPG/ryodan_sekai_trpg/replay01.shtml" target="_blank"><BIG><BIG><B>旅団世界TRPGリプレイ 『チュートリアル』回</B></BIG></BIG>（無料）<BR>
+            <CENTER><img src="banner_replay1.jpg" border="2" id="mainimage2"></CENTER></a>
+           <SMALL>　　<B>※これは1巻の「第1話」のお話です！　おおまかな雰囲気の参考に！</B><BR>　　（去年から公開しているリプレイです）<BR></SMALL><BR>
+      　
+      
+      
+      
+<HR>
+<H3 class="gradientA" style="height:1em;padding:1em 0 1em 0 ;">　　そんなことよりルールだぜ！(？) </H3>
+   
+            　TRPGプレイ経験者向け！　いきなり『旅団世界TRPG』のルールに興味があるぜ！ というマニアックな人はこちら！　ルールは無料公開です。<BR>
+            　　↓<BR>
+            　<a class="blue" href="http://silversecond.net/contents/game/TRPG/ryodan_sekai_trpg/" style="line-height:2em;" target="_blank"><BIG><B>『旅団世界TRPG　基本ルールページ』</B></BIG>（無料）<BR>
+            <CENTER><img src="banner_rule.jpg" border="2" id="mainimage2"></CENTER></A>
+            　『旅団世界TRPGリプレイ』はこのルールを使って作られています。<BR>
+            　ルールページはスマートフォンにも対応！　入力可能なPDFキャラクターシートもご用意しておりますので、必要に応じてご利用ください。<BR>
+      　
+
+<HR>
+<H3 class="gradientA" style="height:1em;padding:1em 0 1em 0 ;">　　そもそも&lt;自家製&gt;片道勇者TRPGって！？ </H3>
+      
+      　そもそも今回のお話の元となった自家製リプレイが気になる方へ！<BR><BR>
+      　「＜自家製＞片道勇者TRPGリプレイ」とはエイプリルフール企画で作った作者の自作ルールによる片道勇者リプレイです。<BR>　（後に冒険企画局さまによる商業書籍の「片道勇者TRPG」が作られたので私が作った方を＜自家製＞と読んでいます）<BR><BR>　今回の新刊は、こちらをご存じなくとも全く問題なくお楽しみいただけますが、知ってるとニヤリとできる話がちょいちょい出てきます。<BR><BR>
+
+      <div id=com>　</div>
+<div id=comB>　<B><A href="../../trpg/katamichi_trpg/Replay00.shtml" class="blue"><BIG>● &lt;自家製&gt;片道勇者TRPGリプレイ</BIG></A></B>　　<B>全14話＋後日談</B></div>
+<BR>
+
+<div id=com>　「TRPGの面白さを知ることができた！」「個性豊かなプレイヤーキャラが面白い」というコメントをいただけた自慢のリプレイ！</div>
+<div id=com>　個性豊かなPCたちの、涙あり、笑いありの後戻りできない冒険譚です！（※ただし爽やかに打ち切り風）</div>
+
+<BR>
+
+<div id=com>　<A href="../../trpg/katamichi_trpg/Replay00.shtml" class="blue"><img src="TRPG_Katamichi_title.jpg" border="2" title="片道勇者TRPGリプレイ トップページへ" id="mainimage2"></A></div>
+<BR>
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+
+<BR><BR>
+<HR>
+<BR><BR>
+
+<a name="4"></a>
+<TABLE border="0" width="100%" class="title" style="min-height:4em;">
+  <TBODY>
+    <TR>
+      <TD class="gradientB" cellpadding="2" cellspacing="1" width="30" align="center"><FONT class="fw"><BIG><BIG><B>４</B></BIG></BIG></FONT>
+      </TD>
+    <TD class="gradientB"><FONT class="fw"><B><BIG><BIG>　あとがき</BIG></BIG></B></FONT></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+<BR><BR><BR>
+
+
+<a name="4-1"></a>
+<TABLE class="ggray" cellpadding="5" cellspacing="1">
+  <TBODY>
+    <TR>
+            <TD class="gradientD" colspan="3"><B>◆最後に</B></TD>
+          </TR>
+    <TR>
+      <TD class="gradientC" align="left" colspan="3" style="line-height:1.5em;">
+      
+　そんなわけで、ようやく＜自家製＞片道勇者TRPGリプレイの『その後』のお話をリリースすることができました！<BR>
+　<BR>
+　2013年、エイプリルフール企画として始まった『＜自家製＞片道勇者TRPGリプレイ』は、私にとって初めての連載TRPGリプレイだったこともあり、最終的には続けるためのモチベーションやアイデアが尽きてしまい、打ち切り風の終わりを迎えてしまいました。<BR>
+<BR>
+　ですが＜自家製＞の『その後』を何かしらの形で出したいな、とはぼんやり考えていまして、旅団世界TRPGリプレイが始まってから、こういう形で『＜自家製＞のその後』を描かせていただく案をずっと考えていました（たまたま最初に、＜自家製＞で出たシノビのテレサと夫ギリアムも使っていましたしね）。<BR>
+<BR>
+　さて、その＜自家製＞リプレイの『その後』なのですが、今回のお話では、かつて『闇』に覆われつつあった＜自家製＞の世界は、ロイスたち6人の旅人たちの手によって「一度は救われた」ことになっています。<BR>
+　ですが語られなかったその「結末」では、『闇』そのものを倒せたわけでも、永遠の封印をほどこせたわけでもありませんでした。<BR>
+<BR>
+　そして今回の物語は、そんな『その後』に突入していく新たなプレイヤーキャラたちのお話！<BR>
+　名前を聞けば思い出すかもしれない「国」や「NPC」たちも登場し、かつての旅人たちの手によって一度は平和になった世界と、再びおとずれる『闇』の危機が描かれます。<BR>
+　気になった方はよければぜひ、お楽しみください！<BR>
+　<BR>
+　このお話の後も、自家製の旅人たちは、ある者は誰かを助け続けることをやめず、ある者は旅をし続け、ある者は行方不明になっていることでしょう。<BR>
+　彼らの冒険は、私たちが想像し続ける限り、終わることなく続いていきます……。
+</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR><BR><BR>
+
+
+
+<CENTER>
+<BR><BR>
+<B style="line-height:140%;"><BIG>今回の紹介は以上です！<BR>ここまで読んでくださって本当にありがとうございました！<BR><BR><BR>
+歩みは非常にゆっくりとですが、<BR>『旅団世界TRPGリプレイ』シリーズの今後の展開もお楽しみに！
+</BIG></B>
+<BR><BR><BR>
+
+<P align="center"><a href="../../" class="blue">ホームに戻る</a><BR>
+　</P>
+<BR><BR>
+</CENTER>
+<BR><BR><BR>
+</P>
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR><BR><BR><BR><BR>
+
+  </main>
+  
+</body>
+
+</html>

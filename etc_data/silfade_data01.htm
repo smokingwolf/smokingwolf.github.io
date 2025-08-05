@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+
+
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<style TYPE="text/css">
+<!--
+
+BODY{background-color : #fafaff;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size : 10pt;
+  color : #434355;
+  margin: 0px 0px 0px 0px;
+}
+
+
+A:LINK,A:VISITED{color:#4343c5;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #9898ce;text-decoration : underline;}
+
+
+A.red:LINK,A.red:VISITED{color:#d6385c;}
+A.red:HOVER,A.red:ACTIVE{color : #f6688c;text-decoration : underline;}
+A.lred:LINK,A.lred:VISITED{color:#f6689c;}
+A.lred:HOVER,A.lred:ACTIVE{color : #f698bc;text-decoration : underline;}
+
+
+A.green:LINK,A.green:VISITED{color:#38a68c;}
+A.green:HOVER,A.green:ACTIVE{color : #68b6ac;text-decoration : underline;}
+
+A.blue:LINK,A.blue:VISITED{color:#5658f6;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline;}
+
+A.lblue:LINK,A.lblue:VISITED{color:#9698f6;}
+A.lblue:HOVER,A.lblue:ACTIVE{color : #c6c8e6;text-decoration : underline;}
+
+A.siro:LINK,A.siro:VISITED{color:#eeeeff;}
+A.siro:HOVER,A.siro:ACTIVE{color : #bbbbdf;text-decoration : underline;}
+
+
+A.bl2:LINK,A.bl2:VISITED{color:#ccccff;}
+A.bl2:HOVER,A.bl2:ACTIVE{color : #ddddff;text-decoration : underline;}
+
+
+A.glink:LINK,A.glink:VISITED{color:#6c9;}
+A.glink:HOVER,A.glink:ACTIVE{color : #afffaf;text-decoration : underline;}
+
+
+
+.gray{
+  background-color:#535375;
+  background: -moz-linear-gradient(left top, #42435f, #777797);
+  background: -webkit-gradient(linear, left top, right bottom, from(#42435f), to(#777797));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#DD42425f', endColorstr='#FF777797');
+}
+
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#d2d2dd;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.fmr{color:#956363;}
+.flink{color:#737395;}
+.fmmg{color:#b3b3d5;}
+.fmbg{color:#7373b5;}
+.fred{color:#c6383c;}
+.flred{color:#f6a8ac;}
+.f_toplink{color:#fafaff;font-size : 1pt;}
+
+.ten{font-size:10pt;}
+.elev{font-size:12pt;}
+.plus{font-size:14pt;}
+
+
+TABLE{
+  font-size : 10pt;
+	line-height: 110%;
+  color : #434355;
+}
+
+TD.table_g1{
+	background:#535375;
+	background-image : url(image/table_m1.gif);
+	height: 20px;
+}
+
+
+
+.black{background-color:#000000;}
+.gray{background:#535375;}
+/*--.ggray{background:#333355;}--*/
+.white{background:#fafaff;}
+.mwhite{background:#fefeff;}
+.veryusui{background:#f0f0fa;}
+.veryusui2{background:#e8e8ff;}
+.veryusui3{background:#ffe8e8;}
+.mgray{background:#636385;}
+.mmgray{background:#8383a5;}
+.mbgray{background:#7373b5;}
+.fullwhite{background:#ffffff;}
+.close{
+	line-height: 100%;
+}
+.xclose{
+	line-height: 50%;
+}
+
+--></STYLE>
+
+</head>
+<BODY onload="initLightbox()">
+
+<BR>
+<div align="left">　<A href="../">←ホームに戻る</A></div>　
+<TABLE width="400">
+<TBODY>
+<TR class=fw>
+<TD class=gray><B>　　シルフェイド世界　設定資料集 </B></TD>
+</TR>
+</TBODY>
+</TABLE>
+<DIV class=fg>
+<TABLE>
+<TBODY>
+<TR>
+<TD nowrap width="30"></TD>
+<TD class="fw" valign="middle" align="center">
+<FONT class="fg"><BR>
+※内容・設定は変更の可能性が有ります。あくまで仮です。<BR>
+  また、これらの内容はシークエンス５終了時点に書かれたものです。<BR>
+  <BR>
+  キャラクターファイルに関しては割と</FONT><FONT class="fg" size="+2">ネタバレ多数</FONT><FONT class="fg">です、ご注意！<BR>
+<BR><BR>
+      - 現在の資料 -<BR>
+</FONT><B><FONT class="fg">・シルフェイド世界設定集<BR>
+      ・キャラクターファイル<BR>
+      <BR>
+      </FONT></B><font class=fg>最終更新（追加）：2003/08/05</font>
+<BR>
+      
+<BR>
+<TABLE class="gray" cellspacing="1" cellpadding="4">
+<TBODY class="fw">
+<TR>
+<TD class="gray" nowrap>
+<CENTER><FONT class="fw">シルフェイド世界　局地的設定資料集</FONT></CENTER>
+</TD>
+</TR>
+<TR>
+<TD class="white" nowrap><font class=fg><BR>
+            [ <B>トーテムの存在</B> ]<BR>
+            　ノーザニアの一部民族の血を引くものは、トーテムと呼ばれる「獣の力」を身に宿す事ができる。<BR>
+　トーテムに覚醒すると、身体能力・五感の強化、治癒力の向上、が起こり、<BR>
+　常人では考えられないような能力を得る事ができるという。<BR>
+<BR>
+　トーテムの中には、知恵を持ち、宿主と会話できるようなトーテムも存在する。<BR>
+<BR>
+　ちなみに、トーテムの覚醒では、あくまで肉体的強化が起こるだけで、理力などの<BR>
+　超能力的（触れずに物を動かす、等）な力は得る事ができないとされている。<BR>
+　また、一部の人間には、トーテムは「人類の第三の力」と呼ばれる事がある。<BR>
+　（他の「力」に関しては下記「魔法って存在するの？」の欄を参照）<BR>
+<BR>
+　例として、トーテムがフクロウの場合、筋力、瞬発力、生命力、意志力（集中力）などが<BR>
+            　多少向上し、また知能は大幅に向上する。夜間の視野も良くなり、音を立てて行動するのを<BR>
+　嫌う癖がつく、聴覚が良くなる、など、フクロウらしい特徴が付与される。<BR>
+            　それが何か超常的な力によってもたらされているのか、それとも<BR>
+            　他の原因があるのかは、定かではない。<BR>
+　 </font>
+<HR size="1">
+<FONT class="fg"><BR>
+[ <B>マナ・魔導とは何ぞや？</B>]<BR>
+            　古代の動力として利用されていたエネルギー物質。別名「マナ」。<BR>
+　古代人が使っていたとされる超能力的な力である「理力（フォース）」とは違い、<BR>
+            　「魔導（マナ）」はあくまでただのエネルギー源としての存在でしかない。、<BR>
+            　紛らわしいかもしれないが、「魔法」とは違う存在である。<BR>
+<BR>
+            　魔導エネルギーは特定地域の大気中に存在するが、そのままでは薄すぎて使用できない。<BR>
+            　だが、収束させ、特定物質に反応させる事で様々な反応を起こす事ができる。<BR>
+            　（加熱、冷却、発光が主な利用法）。「マナ収束器」は遺跡から発掘されたものを使用しており、<BR>
+            　それによって収束されたエネルギーを街の各々に流す事で<BR>
+            　街全体へ生活源としてのエネルギーを供給している。（収束器は巨大、かつ非常に貴重）<BR>
+            　また魔導のエネルギーを回路に流し（魔導は電気のように一部物質を伝導する）、<BR>
+            　その「流れ」や「反応物質」を選択、分岐させる事でより高度な利用が可能となっている。<BR>
+            <BR>
+            　一部地方では、魔導の力が濃い（魔導の気体、液体、固体の絶対量が多い）地域に<BR>
+　街を建てる事によって、人々は利便性の高い、快適な生活を送る事ができている。<BR>
+　だが魔導エネルギーがどのようにして発生するのかは、未だに解明されていない。<BR>
+            　古代文明の遺跡が存在した地に限り、多くの魔導エネルギーが眠っているという事が<BR>
+            　わかっている。フォーンの街もその例に漏れず、地下には大きな古代遺跡が存在するという。<BR>
+            　（もちろん、ついでにマナ収束器が見つかる事も多いので、遺跡から直接供給する場合もある）<BR>
+            　魔導エネルギーは未だに枯渇した事はないが、枯渇の可能性を指摘する学者もいる。<BR>
+<BR>
+            　不思議な力を備えた古代遺産にはもっぱら高度な魔導回路、機関が内蔵されており、<BR>
+            　使用者に様々な効果を及ぼすものが多い。<BR>
+　現存の技術では、古代文明のような高度な魔導エネルギーの利用はできない。<BR>
+<BR>
+　ちなみにノーマ学院では、魔導回路の原理・基礎を教える学科が存在している。<BR>
+　また、魔導回路の研究目的のため、一部の古代遺産（というかハイテクの塊とも言う）は<BR>
+　国で買い取ってくれる事になっている。トレジャーハンター達の金儲けのネタである。<BR>
+<BR>
+            <BR>
+            　実のところ、この「魔導」の存在はシルフェイド世界では局地的な存在である。<BR>
+            　現時点では、エシュターらが住むフォーンの街がある島、センタリア島と、<BR>
+            　エシュターの故郷であるノーザニア島の二つにだけは確実に存在する、という事が<BR>
+            　わかっているのみである。<BR>
+            <BR>
+</FONT>
+<HR size="1">
+<BR>
+<FONT class="fg">[ <B>フォースの存在</B>]<BR>
+            　この世界で魔法と呼べる力は、古代人が使ったと言われる「理力（フォース）」が挙げられる。<BR>
+　手も触れずに物を動かしたり、何もない所に発火させたり、手をかざすだけで傷をいやしたりと<BR>
+　特殊な力を持っていた、という文献が残っているが、真相は定かではない。<BR>
+　また、「理力」は「人類の第二の力」と呼ばれる事もある。（「人類の第一の力」は「科学」）<BR>
+<BR>
+　今の時代の人間は、トーテム能力者などが存在する事を除けば、みな普通の人間である。<BR>
+　（絶滅寸前の精霊族の中には力を持つ者もいるが、ほんの一握りである）<BR>
+　<FONT class="fg"><BR>
+            </FONT></FONT>
+            <HR size="1">
+            <FONT class="fg">　※以上の事はあくまで、一部の土地の話であり、シルフェイド世界全てにおける法則ではない。<BR>
+            　　例えたった一つの惑星上でも、土地が違えばまるでそれが文化の一つであるかのように<BR>
+            　　様々な法則、不思議な力が存在しているのだ。<BR>
+            </FONT>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE class="gray" cellspacing="1" cellpadding="4">
+<TBODY class=fw>
+<TR>
+<TD class="gray" nowrap><center><font class=fw>キャラクターファイル</font></center></TD>
+</TR>
+<TR>
+<TD class="fullwhite">
+            <TABLE cellpadding="3">
+              <TBODY>
+                <TR>
+                  <TD nowrap valign="middle"><IMG src="silfade_data_c_Eshter.jpg" border="0" width="189" height="510" alt="実は近くがよく見えない彼のメガネは読書用"><IMG src="silfade_data_c_Eshter_f.jpg" border="0" width="1" height="1"></TD>
+                  <TD class="fw" valign="top" nowrap><FONT class="fg"><BR>
+                  [<B> エシュター＝クレイトン </B>]<BR>
+                  <BR>
+                  <B>年齢</B>：　15歳（入学時）<BR>
+                  <BR>
+                  <B>家族構成</B>：<BR>
+                  　両親　戦争時に消息不明<BR>
+                  　妹　フィーリアム（死亡？）<BR>
+                  　その他　不明<BR>
+                  <BR>
+                  <B>詳細</B>：<BR>
+                  </FONT><FONT class="fg">　物語の主人公、ノーマ学院に入学したが、<BR>
+                  　持ち前の不幸さで医学部に入れず、薬学部に所属する。<BR>
+                  <BR>
+                  　性格は真面目で温厚な方だが、目的の為には<BR>
+                  　手段を選ばない性格が災いする事が多く、<BR>
+                  　様々な災難に巻き込まれる。<BR>
+                  　正直、幸運と不幸を一人で無駄に消費しすぎていると言えよう。<BR>
+                  <BR>
+                  　6年前の「北の戦争」を逃げ延びた一人。<BR>
+                  　妹は不治の病で、医者の手当もまともに受けられないままに<BR>
+                  　戦争が始まって離れ離れになってしまった為、<BR>
+                  　妹はもう生きてないだろう、と思っている。<BR>
+                  　その時の体験ゆえに、医者になることを志して努力している。<BR>
+                  　現在、フォーンの街の叔父の家（本屋）に居候。<BR><BR>
+                  　災難に遭っても決してくじけない性格が人を惹き付けるのか、<BR>
+                  　彼の知らない所で人に好かれる事が多い。<BR>
+                  　特に、教頭先生やアルバートには熱愛されており、<BR>
+                  　エシュターはその状況を深刻に思っている。<BR>
+                  <BR>
+                  　盗賊フォーゼルに襲われた際、トーテムの力に目覚め、<BR>
+                  　以後はそのトーテム「思慮深きフクロウ」と行動を共にする。<BR>
+                  　運動神経は元から決して悪いわけではなく、<BR>
+                  　トーテムの力もあって、戦いにおいてはかなりの強さを誇る。<BR>
+                  <BR>
+                  　まだ少年ゆえか、<B><A href="silfade_data_c_Eshter_f.jpg" target="_self" class="glink" rel="lightbox[A]">女装</A></B>すると完全に女性に見える、らしい。<BR>
+                  <BR>
+                  　「医聖」と呼ばれた、とある人物を尊敬している。<BR>
+                  </FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+</TR>
+          <TR>
+            <TD class="fullwhite"></TD>
+          </TR>
+          <TR>
+            <TD class="fullwhite">
+            <TABLE cellpadding="3">
+              <TBODY>
+                <TR>
+                  <TD nowrap valign="middle"><IMG src="silfade_data_c_Siena.jpg" border="0" width="165" height="530" alt="スズナさんとは違い、和服ではありません"></TD>
+                  <TD class="fw" valign="top" nowrap><FONT class="fg"><BR>
+                  [<B> シーナ＝セフライト </B>]<BR>
+                  <BR>
+                  <B>年齢</B>：　16歳（入学時）<BR>
+                  <BR>
+                  <B>家族構成</B>：<BR>
+                  　父　行方不明<BR>
+                  　母　スズナ<BR>
+                  　祖母　ナズナ＝ミズユリ<BR>
+                  <BR>
+                  <B>詳細</B>：<BR>
+                  　ノーマ学院、薬学部所属。<BR>
+                  　口数が少なく、真面目。割と人見知りするタイプ。<BR>
+                  　非常に病弱、というより深刻な病気にかかってるので<BR>
+                  　体調が良くない日がかなり多い。<BR>
+                  　それでも学院に来るのは根性の為せる業と言えよう。<BR>
+                  　ちなみに、その病気の名はまだ明かされていない。<BR>
+                  <BR>
+                  　基本的に本好き。放課後はしょっちゅう<BR>
+                  　図書室にこもって色んな本を読みあさっている。<BR>
+                  <BR>
+                  　驚異的な記憶力を持つ。一度見た本棚の<BR>
+                  　全ての本のタイトルを記憶する事すら可能という。<BR>
+                  <BR>
+                  　彼女と違い、母親スズナはよくしゃべる。<BR>
+                  <BR>
+                  </FONT><FONT class="fg">　自分の深刻な病気の事を知っていても、<BR>
+                  　自然に接してくれる（ように見える）エシュターに<BR>
+                  　淡い想いを抱くが、エシュターが致命的な勘違いを<BR>
+                  　している事には気付いていない。<BR>
+                  　（シークエンス４終了時点）<BR>
+                  <BR>
+                  　血液感染系の病気のため、刃物を嫌う。<BR>
+                  　それゆえ大抵の料理は苦手。自分が食べる為の<BR>
+                  　おかゆに限り、上手に作れる。<BR>
+                  <BR>
+                  　密かに、「人に気付かれなければ何をしてもいい」<BR>
+                  　と思ってるフシがあり、大胆な行動に走る事がある。<BR>
+                  <BR>
+                  　実は走るのが非常に速い。が、スタミナは保たない。<BR>
+                  </FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="fullwhite">
+            <TABLE cellpadding="3">
+              <TBODY>
+                <TR>
+                  <TD nowrap valign="middle"><IMG src="silfade_data_c_Gazel.jpg" border="0" alt="元より貧しいゆえの安物服" width="187" height="540"></TD>
+                  <TD class="fw" valign="top" nowrap><FONT class="fg"><BR>
+                  [<B> ガゼル＝レッドサーペント </B>]<BR>
+                  <BR>
+                  <B>年齢</B>：　16～18歳（本人予想）<BR>
+                  <BR>
+                  <B>家族構成</B>：<BR>
+                  　一切不明<BR>
+                  <BR>
+                  <B>詳細</B>：<BR>
+                  　とある人物に、旧市街地に捨てられていた所を拾われた。<BR>
+                  　その後は不良集団「紅蛇」の一員として活動していたが、<BR>
+                  　気付けば紅蛇のヘッド（ボス）となっていた。<BR>
+                  　現在は紅蛇は解散、足を洗ってエシュターと共に勉強し、<BR>
+                  　ノーマ学院に受験、薬学部に所属する事になる。<BR>
+                  <BR>
+                  　性格は普通、ぶっきらぼうな喋り方をする割には特徴がない。<BR>
+                  　入試時、放屁大作戦を考えた割には、学校に入って<BR>
+                  　随分大人しくなってしまった。入試でハイになりすぎたのだろうか。<BR>
+                  <BR>
+                  　紅蛇は解散したものの、今でも紅蛇のトレードマークである<BR>
+                  　赤いバンダナを着用している。<BR>
+                  　最近のフォーンの街では、元紅蛇の敵対勢力である<BR>
+                  　不良グループ「蒼蛇」が幅を利かせており、頭を悩ませている。<BR>
+                  <BR>
+                  　盗賊フォーゼルとは、「紅蛇」時代の同胞だった。<BR>
+                  　レッドサーペントの姓は、組の名をそのまま付けたもので、<BR>
+                  　彼自身、親が誰なのかという事は全く知らない。<BR>
+                  <BR>
+                  　ケンカは、武器を持つより素手でやる方がいいと思っている。<BR>
+                  　型破りの殴り合いに関してはプロフェッショナル。<BR>
+                  　だが学院生活でそれが活かされる事は滅多にない。<BR>
+                  <BR>
+                  　魔導工学を勉強したいと思い、今も再入試の為に勉強している。<BR>
+                  　本人は、不良時代には考えられないようなまともな目標が<BR>
+                  　できて、良かったと思っている。</FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="fullwhite"></TD>
+          </TR>
+          <TR>
+            <TD class="fullwhite">
+            <TABLE cellpadding="3">
+              <TBODY>
+                <TR>
+                  <TD nowrap valign="middle"><IMG src="silfade_data_c_Albert.jpg" border="0" alt="学院では周りから浮いてそうな服です、しかも眼帯" width="200" height="540"></TD>
+                  <TD class="fw" valign="top" nowrap><FONT class="fg"><BR>
+                  [<B> アルバート＝ウェスタリス </B>]<BR>
+                  <BR>
+                  <B>年齢</B>：　17歳（入学時）<BR>
+                  <BR>
+                  <B>家族構成</B>：<BR>
+                  　両親　「北の戦争」時に行方不明<BR>
+                  　姉　　戦争前に旅に出ており、音信不通<BR>
+                  <BR>
+                  <BR>
+                  <B>詳細</B>：<BR>
+                  　ノーマ学院、薬学部所属。<BR>
+                  　一見クールで堅い口調なので、彼をよく知らぬ人間に対しては<BR>
+                  　非常に近寄りがたい雰囲気を与える<BR>
+                  　（が、実際はそうでもない事はすぐわかるだろう）。<BR>
+                  <BR>
+                  　エシュターをライバル視しており、よく勝負を挑む。<BR>
+                  　努力家で優秀なのだが、いざエシュターと勝負すると<BR>
+                  　必ず条件が悪かったり公平でなかったり、おまけに<BR>
+                  　どちらかが不幸ゆえに恐ろしく惨敗したりと、<BR>
+                  　常に不満の残る勝負になってしまう事が多い。<BR><BR>
+                  　6年前の「北の戦争」を生き抜いた一人で、<BR>
+                  　エシュターと仲が良い。というか一方的に<BR>
+                  　ライバル視し、またある時は友達以上の<BR>
+                  　（全然密かじゃない）想いを抱いている。<BR>
+                  　割とノリがいい一面もあり、エシュターの暴走に<BR>
+                  　よく巻き込まれる。<BR>
+                  <BR>
+                  　戦争時に敵から得た銃、弾丸作成器一式を、<BR>
+                  　有事に備えて今でも大事に保管している。<BR>
+                  　特技は弓（これは戦争前からもともと得意だった）、<BR>
+                  　および銃の射撃（森で練習）。接近戦は苦手らしく、<BR>
+                  　トーテムに目覚めていないエシュターにすら負ける。<BR>
+                  <BR>
+                  　エシュターが医者として人々を救う旅に出るとき、<BR>
+                  　自分もエシュターについていこうと心に決めている。<BR>
+                  <BR>
+                  </FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="fullwhite">
+            <TABLE cellpadding="3">
+              <TBODY>
+                <TR>
+                  <TD nowrap valign="middle"><IMG src="silfade_data_c_Set.jpg" border="0" alt="「民族衣装」と「街で流行の服」の混合、本場衣装はゴテゴテ" width="164" height="540"></TD>
+                  <TD class="fw" valign="top" nowrap><FONT class="fg"><BR>
+                  [<B> セト＝ドライエル </B>]<BR>
+                  <BR>
+                  <B>年齢</B>：　17歳（入学時）<BR>
+                  <BR>
+                  <B>家族構成</B>：<BR>
+                  　祖父　バルト<BR>
+                  <BR>
+                  <B>詳細</B>：<BR>
+                  　</FONT><FONT class="fg">ノーマ学院、医学部所属。<BR>
+                  　ノーザニア原住民の血を引いているので、髪の色は薄い（ナダも）。<BR>
+                  　生真面目で正義感に溢れ、人を傷つけるような悪は許せない性格。<BR>
+                  <BR>
+                  　「ノーザニア原住民は頭が良くない」と言われがちだが、<BR>
+                  　それは知識の絶対量や教育水準が低いゆえの結果であり、<BR>
+                  　セトは決して頭が悪いわけではない。<BR>
+                  　学者の血筋を活かし、勉学に励んでいる。<BR>
+                  <BR>
+                  　臭いで人間を識別できるほど鼻がよく利くため、<BR>
+                  　エシュターは犬や狼のトーテムとの関連を疑っていた。<BR>
+                  　（※シークエンス5時点）<BR>
+                  <BR>
+                  <BR>
+                  </FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+        </TBODY>
+</TABLE><BR>
+<BR><BR>
+<BR>
+<P align="center"><a href="../">ホームに戻る</a><BR>
+<BR>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+　　　　　　　　　　　　　　　　　　　　　　</div>
+<HR size="1" align="left" width="600">
+<font class=fg>　　　　　　　　　　　　　　　　Copyright(C)　SmokingWOLF　All
+rights reserved</font>
+<HR size="1" align="left" width="600">
+</body>
+</html>

@@ -1,0 +1,76 @@
+BODY{background-color : #fffdfd;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size : 10pt;
+  color : #434365;
+  margin: 0px 0px 0px 0px;
+
+}
+
+A:LINK,A:VISITED{color:#385cb6;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #688cf6;text-decoration : underline;}
+
+A.red:LINK,A.red:VISITED{color:#c6385c;}
+A.red:HOVER,A.red:ACTIVE{color : #f6688c;text-decoration : underline;}
+
+A.blue:LINK,A.blue:VISITED{color:#5658a6;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline;}
+
+A.siro:LINK,A.siro:VISITED{color:#ffffff;}
+A.siro:HOVER,A.siro:ACTIVE{color : #bbbbcf;text-decoration : underline;}
+
+
+A.bl2:LINK,A.bl2:VISITED{color:#ccccff;}
+A.bl2:HOVER,A.bl2:ACTIVE{color : #ddddff;text-decoration : underline;}
+
+
+A.glink:LINK,A.glink:VISITED{color:#ccccdf;}
+A.glink:HOVER,A.glink:ACTIVE{color : #dfdfff;text-decoration : underline;}
+
+A{text-decoration : none;}
+
+
+/*--ﾃｰﾌﾞﾙ--*/
+TABLE{
+  font-size : 10pt;
+	line-height: 200%;
+}
+.close{
+  font-size : 10pt;
+	line-height: 105%;
+}
+
+SMALL.mini{
+	line-height: 100%;
+}
+
+.black{background-color:#000000;}
+.gray{background:#434365;}
+.white{background:#fdfdff;}
+.mwhite{background:#fefeff;}
+.veryusui{background:#faf0f0;}
+.mgray{background:#636395;}
+.mmgray{background:#8383d5;}
+.mbgray{background:#7373f5;}
+.fullwhite{background:#ffffff;}
+
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#ddd2d2;}
+.fg{color:#654343;}
+.fmg{color:#a58383;}
+.flink{color:#857373;}
+.fmmg{color:#e5a3a3;}
+.fmbg{color:#a57373;}
+.fred{color:#c6383c;}
+.flred{color:#f6a8ac;}
+.f_toplink{color:#fdfdff;font-size : 1pt;}
+
+.ten{font-size:10pt;}
+.elev{font-size:12pt;}
+.plus{font-size:14pt;}
+
+/*--線色--*/
+.line{color:#8383a5;}
+.dline{color:#60609b;}

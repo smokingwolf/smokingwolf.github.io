@@ -1,0 +1,81 @@
+
+
+
+@media screen and (max-height: 800px) {DL.minimenu{	height:660px; }}
+@media screen and (max-height: 700px) {DL.minimenu{	height:560px; }}
+@media screen and (max-height: 600px) {DL.minimenu{	height:460px; }}
+@media screen and (max-height: 500px) {DL.minimenu{	height:360px;}}
+@media screen and (max-height: 400px) {DL.minimenu{	height:260px;}}
+
+
+
+/* これを入れないとsafariでfixedの部分がスクロールでズレる */
+@media screen and (max-width: 768px) {
+	html{
+		-webkit-overflow-scrolling: touch !important;
+        overflow: auto;
+        height: 100%;	
+	}
+    body {
+        position: relative;
+        overflow-x: hidden;
+        min-height: 100%;
+    }
+}
+
+
+input[type="radio"] , input[type="checkbox"]{
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+   margin-right: 0.5em;
+}
+
+
+
+
+
+
+/*　表示モード選択アイコン用　*/
+.selectbase{
+	display:block;
+	width:100%;
+	min-height:3.3em;
+	text-align:center;
+	vertical-align:middle;
+	border:2px solid;
+	border-color:#FFF #999 #999 #FFF;
+	border-radius:1em;
+	font-size:1em;
+	line-height:0.9em;
+	box-shadow: 2px 2px 4px gray;
+	
+}
+#selectmenu1{
+	background:url(image_ryodan/mode1_icon.png) #DDD;
+    background-size:auto 100% ;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    text-shadow: 0 0 7px #FFF,0 0 7px #FFF, 0 0 7px #FFF, 0 0 7px #FFF;
+    text-decoration: none;
+    padding-top:0.2em;
+}
+
+#selectmenu2{
+	background:url(image_ryodan/mode1_icon.png) #DDD;
+    background-size:auto 100% ;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    text-shadow: 0 0 7px #FFF,0 0 7px #FFF, 0 0 7px #FFF, 0 0 7px #FFF;
+    text-decoration: none;
+    padding-top:0.2em;
+}
+
+#selectmenu3{
+	background:url(image_ryodan/mode2_icon.png) #DDD;
+    background-size:auto 100% ;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    text-shadow: 0 0 7px #FFF,0 0 7px #FFF, 0 0 7px #FFF, 0 0 7px #FFF;
+    text-decoration: none;
+    padding-top:0.2em;
+}

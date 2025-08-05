@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>＜自家製＞片道勇者TRPG リプレイ</title>
+
+
+<link rel="stylesheet" href="replay.css" type="text/css">
+
+
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+	<div id="flowmenu">
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+<a href="../../" class=red><B>←ホームへ戻る</B></a><BR>
+
+	      <BR>
+	      <TD class="white" nowrap>【&lt;自家製&gt;<BR>　片道勇者TRPG】<BR>
+  <a href="Replay00.shtml#S0" class=red>◆はじめに/TOP</a><BR>
+  <a href="Replay01.shtml#S0" class=red>◆1話『出会い』</a><BR>
+	      <BR>
+	      ◆2話『天秤･上』<BR>
+	      　<a href="#S0" class="g">○前説～成長</a><BR>
+	      　<a href="#S1" class="g">- 1.闇の尖兵</a><BR>
+	      　<a href="#S2" class="g">- 2.暗黒の森</a><BR>
+	      　<a href="#S3" class="g">- 3.ｻｲｰｼｮの街</a><BR>
+	      　<a href="#S4" class="g">- 4.新しい一日</a><BR>
+	      　<a href="#S5" class="g">- 5.出発の前に</a><BR>
+	      　<a href="#S6" class="g">- α.終了後……</a><BR>
+	      <BR><a href="Replay03.shtml#S0" class=red>◆3話『天秤・下』</a><BR>
+<a href="Replay04.shtml#S0" class=red>◆4話『<small>ﾗｲﾌﾞﾗの街</small>』</a><BR>
+<a href="Replay05.shtml#S0" class=red title="◆5話『図書迷宮』">◆5</a> 
+<a href="Replay06.shtml#S0" class=red title="◆6話『絶望の街』">◆6</a> 
+<a href="Replay07.shtml#S0" class=red title="◆7話『荒野へ』">◆7</a> 
+<a href="Replay08.shtml#S0" class=red title="◆7話番外">◆7外</a> 
+<BR><a href="Replay09.shtml#S0" class=red title="◆8話『砂の街』">◆8</a> 
+<a href="Replay10.shtml#S0" class=red title="◆9話『奪還』">◆9</a> 
+<a href="Replay11.shtml#S0" class=red title="◆10話『尋ね者』">◆10</a> 
+<BR><a href="Replay12.shtml#S0" class=red title="◆11話『死の砂漠』">◆11</a> 
+<a href="Replay13.shtml#S0" class=red title="◆12話『分かつ心』">◆12</a> 
+<a href="Replay14.shtml#S0" class=red title="◆13話『再会』">◆13</a> 
+<BR><a href="Replay15.shtml#S0" class=red title="◆リプレイ後日談">◆後</a> 
+</TD>
+	    </tr></TABLE>
+	    <BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+	    <TR><TD class="white" nowrap align="center"><small class=c1><small class=close>ﾛｲｽ/冒険家</small></small><BR>
+	      <img src=image/face01-1.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c2><small class=close>ｳﾞｧﾝ/冒険家</small></small><BR>
+	      <img src=image/face02.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c3><small class=close>ｱﾚｲﾗ/商人</small></small><BR>
+	      <img src=image/face03.jpg border=1>
+	    </TD>
+	    <TD class="whiteblue" nowrap align="center"><small class=c4><small class=close>ﾊﾑｲ/剣士</small></small><BR>
+	      <img src=image/face04.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c5><small class=close>ﾝｸ/狩人</small></small><BR>
+	      <img src=image/face05.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c6><small class=close>ｻﾝﾄﾘﾅ/癒手</small></small><BR>
+	      <img src=image/face06.jpg border=1>
+	    </TD></TR>
+	    </TABLE>
+</div></BODY></HTML><div id=com>　</div>
+<div id=com><a name="S0"></a>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>&lt;自家製&gt;片道勇者TRPG　第二話　『天秤（てんびん）・上』</H1>
+<HR class=line>
+<BR>
+<div id=com><B>◆第二話前説◆</B>　</div>
+<div id=com>　遺跡からの脱出、そして闇からの逃避行……。　</div>
+<div id=com>　果たしてパーティは傷ついたテレサを夫のもとへ帰すことができるのか！？　</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ＨＰが欲しい、でも経験点高い、どうしよう。とりあえず生きて帰るのが目標。</div>
+<div id=nm><font class=c5><B>ンクＰＬ</B></font></div><div id=tx class=ct5>アレイラさんに明日はあるのか。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（誰かの服や帽子の中に隠れていれば……）</div>
+<div id=nm><font class=c5><B>ンクＰＬ</B></font></div><div id=tx class=ct5>冒頭から非常事態なのもワクワクしますが、それ以上に二つ名で何が出るのかがこう、ワクワクしますね。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>エッチなままでいたい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（ヴァンのデータを整理している）体力防御4/機敏防御5……ってヴァンさんの防御力高い！　<B id=cc>←実はロイスも同じ</B></div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>なぜ騎士にしなかったのか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そのうちクラスチェンジイベントを用意してもいいですね。条件はチェンジ先のスキル一個持ってるかどうかで仰々しいストーリーがあったりして。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、第二話はダイナミックさに欠けるでしょうけれど、やや黒い内容にしたいですね！</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>よろしくお願いしまーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【二つ名】は、シーン的に一息付くまではひとまず第一話のものを維持してくださーい。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、まず簡単なオープニングから行きます！</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=com><font id=CC2>【第二話　『天秤・上』　オープニング】</font></div>
+<BR>
+<div id=com>目の前には小さな人間どもが並んでいた。目をこらすと、虫もいるようだ。　</div>
+<div id=com>どれもかがやく何かを身に纏っている……その光はとても目ざわりに感じた。　</div>
+<BR>
+<div id=com>人間どもは武器をかかげながら、自分に何か話しかけてきているようだった。　</div>
+<div id=com>たわむれに、耳を傾けてみる。　</div>
+<BR>
+<div id=com>人間の女剣士「クヴァールメーア……今日こそ永久(とわ)の眠りにつくときだ！！」　</div>
+<div id=com>耳長の男理術士「ここで終わらせましょう……この、暗黒の時代を！！」　</div>
+<div id=com>妖精の女狩人「準備はできてるよ！」　</div>
+<div id=com>獣人の男騎士「今こそ心を一つに！」　</div>
+<div id=com>半獣の女冒険家「さようなら……偉大なるものよ」　</div>
+<BR>
+<div id=com>全員「ア・ザリース・ヴル・リスラ……」　</div>
+<BR>
+<div id=com>人間どもが呪文を唱え始めた途端、耐えがたい強烈な睡魔が襲ってきた。　</div>
+<BR>
+<div id=com>『……しまった……！』　</div>
+<BR>
+<div id=com>そう思ったときには、すでに遅かった。　</div>
+<div id=com>我が意識は霧散し、何も捉えることができなくなってしまったのだ――。　</div>
+<BR>
+<div id=com>ロイスの見た光景より　</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>新情報：ラスボスは眠り攻撃に弱い。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>あと洋ドラマ風のあらすじメッセージを用意したのにどっか行ってしまいましたガッサゴッソ、あった！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えーでは『前回の片道勇者ＴＲＰＧ』！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（前略）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイス「これだけの金があれば、あいつらは何も不自由しなくて済む……はは、ははハハハ！！」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ンク「ロイス貴様ッ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（後略）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（ロイスが元気で何よりです）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（ボイスがあれば燃え上がりそうなあらすじだ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ということで皆さん遺跡内部で鎧に囲まれています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あなたがたはこの苦難の最中、EXP8点分だけ成長しました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>何かスキルや能力成長がある人は好きに演出しながら申告してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では順番に成長申告をお願いします！　ロイスさーんどうぞー。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ない！　身体無茶苦茶変わったのに一切成長しないとは。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ロイスさん成長なし！　剣士スキルのために温存するそうです！</div>
+<div class=box><B>【他クラスのスキル習得】</B>
+<BR>　ロイスは冒険家のはずなのに、なぜ剣士スキルなの？　と思われるかもしれません。
+<BR>　実は自分のクラス以外のクラススキルも、経験値を12ポイント支払うことで習得することができるのです！
+<BR>
+<BR>　ただし、【別クラスのスキル】は１クラスあたり最大で一種類までしか習得できないため、
+<BR>　スキル選択は自クラス以上によく考えなければなりません。</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>次、ヴァンさん！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ヴァンはロイスを引っ張り出した時にＨＰが1点成長した！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>謎成長！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>闇の霧との相乗効果で生み出される不思議なシナジー効果が！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで次はアレイラさん！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>えーと、やっぱり契約は書面に残すべきだという経験を元に商人として成長しましたなの！　【価格交渉】を修得しましたなの！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>図太い商人だー！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>実にストーリーの流れに沿った成長！今回からさっそく出番がありそうですよ。</div>
+<div class=box><B>【価格交渉】スキル</B> 
+<BR>　クラス『商人』のスキル。ＭＰ3を消費し、意志+2D6 で目標値から+2成功するごとに1割値引き/割増しできる。
+<BR>　同じ街にいる間は、1種類の品物を最大一回までしか価格交渉できない。</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイさんは今回はNPCです！　ということで次はンクさん！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>特に成長しません！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>その温存した経験値で何を狙っているかヒントだけでも！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>弓の技を磨くか、他の職業技能を狙うのかですね！未定な予定です。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>なるほど分かりました。また新しいスキルを追加するかもしれませんのでそれもぜひご検討を。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さーて次、サントリナさんの今回の成長は！？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>前回直後にいじっちゃったんでうろ覚えなんですが、料理かサバイバルが成長した気が……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>サントリナ「皆さんがあまりにボロボロになりすぎるので薬剤スキルを覚えました！（人形をパクパクさせながら）」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>そうだ、薬剤だった！　すいません思い出しましたあああ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>前回から「自分の治療はアテにならない」ということをまなび、薬剤の知識を身につけました！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>サントリナさん了解です！ 悲しい……（前回、【治療】のＨＰ回復判定で3回とも1しか出なかった）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>いやあ、治療の効果がマイナスなのは嫌な事件でしたね（補足：マイナスにはならなくなりました）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>今日こそ治療で1以外が出るといいですね！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（今日こそ治療の腕をみs……しかし医療キット使い切ってる！）</div>
+<div class=box><B>【薬剤】スキル</B> 
+<BR>　クラス『癒し手』のスキル。【回復薬】によるＨＰ回復量が、【1D6】点から【知力+1D6】点にアップ。
+<BR>　また、薬草から【回復薬】を作成することができ、大成功すればＨＰ回復量が通常より高い
+<BR>　特別な回復薬（回復薬+2 など）を作ることが可能。
+<BR>
+<BR>　【回復薬】は戦闘中にも使えるが、【アイテムポーチ】を装備している必要がある。</div>
+<BR>
+<BR>
+<a name=S1></a><H1 class=gradientA>1. 闇の尖兵</H1>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では物語を再開します。皆さんはロイスが獣化したあと……。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>←（わざわざ申告してダメージ受けた人）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ロイスさんこそドＭだとかリプレイに書いちゃいますよ！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>血が出てる演出あるのにダメージ0のほうが不自然ですよ！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（ロイスさん、すばらしいプレイだ……）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>で、皆さんは遺跡を脱出しようとしています。が、そこで動かないはずの鎧がガタガタ動き出したー！というところですね。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>えーと、細かい部分を忘れているんですけど、ミルが半狂乱になって、誰かに抱えられていたような気がしますなの。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ヴァンや。まだ無傷で最強！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では、（カピバラの）ミルはヴァンが抱えているということで！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレイラはンクにぶらさがっていましたね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>で、ログを見る限りテレサはハムイに抱えられているようです。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>誰かハムイに抱えられているテレサさんの絵を。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、黒い全身鎧たちは一歩、二歩と足を進めてきます……。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「今週のラッキーカラーは黒って占い師のお姉さんが言ってたなの！　ダメだ、あの占い師……なの……」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ところが……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 数決定！   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>5</B>　　5体！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>！？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えー鎧は全面的にこちらに動いてくるのですが、１体はギギギときしむような音を立てて、なかなかその場から動きません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どうやら長年放置されたために、武器や鎧の一部が地面に張り付いて離れないようです。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（ということは５体向かってきたー？！）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（何でもっと低い数字出ないんだー！？）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>敵は各々の武器を持って、攻撃態勢に入ります！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>位置的にはマップの1か2のあたりにいるんでしょうか？</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5><img src=image/02_Map1.jpg border=1>　</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>【1】は1ターン終了時のテレサの到達地点、【2】は2ターン終了時の到達地点</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>総合情報のマップにおいて、【テ】がテレサの現在位置です（部屋の中央）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>他の人はどこにいても構いません。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「動けないのは一体だけみたいやで」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、今回の戦闘ルールを説明します。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まず敵を押さえるグループ（前衛）と、行動不能の仲間を逃がすグループ（後衛）に分かれてください。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もちろん、敵を倒してしまっても構いません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>敵を倒した場合は、1ターンかけて彼らの武器を回収することができそうです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>行動不能なのは、発狂しているミルと負傷しているテレサです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサは一人が肩を貸せば1ターンで10ｍ進めそうです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>出口への通路まで20mです。鎧は遅いので、逃げる場合は前衛で2ターン耐えればＯＫです。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>それは誰か1人が前衛にいれば他のプレイヤーも逃げられるって理解でいいでしょうか！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと、左右に2チームで分かれてください！　よって前衛は最低でも2人は必要です。左チームは3体、右チームは2体をおさえることになります。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「逃げても追撃されるなら迎撃するしかないか！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「私はテレサさんについていますね！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイは寂しそうな顔でサントリナを見ています。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（さみしそうな顔ｗｗなぜｗ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（さっきまでテレサさん抱えてたから！＞ハムイ）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（ああっ）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「状況的に戦うしかないか…！」身体の変化に戸惑いつつもダガーを構えます。どっちいこうかなー。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「あんたらはやくにげてまい！」　ヴァンの防御力ならいける。前衛、左手に！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「サントリナはテレサを抱えて離脱するんだ！私は左側に付く！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「分かりました、さっこっちですテレサさん！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「アレちゃんはやく逃げてまい！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>右手、誰もいないので自分がいこう。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではハムイも右翼に出ます！</div>
+<BR>
+<div id=com><font id=CC1>左の３体組と右の２体組に対峙した全員の行動は以下の通りとなりました。</font></div>
+<BR>
+<div id=com><font id=CC1>・サントリナ＝テレサに肩を貸す</font></div>
+<div id=com><font id=CC1>・ンク・ヴァン＝左3体と戦闘</font></div>
+<div id=com><font id=CC1>・ロイス・ハムイ＝右2体と戦闘</font></div>
+<div id=com><font id=CC1>・アレイラ・ミル＝退却</font></div>
+<BR>
+<BR>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「ンクも前に出るなの？　アレとミルは逃げたいなのよ！」  　（いまンクにぶらさがってる）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「大丈夫だよアレイラ。私は接近戦闘もそれなりにできるんだ。それよりそのケモノを抱えて逃げられる？」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「おいちっこいの！逃げるならそのでかいネズミも連れてきな！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ということで誰か発狂してるミルを抱えてください。あ、ミル担当はハムイさん（今回ＮＰＣ）でいいかな？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>貴重な戦力がカピバラ要員に！でもアレイラさんじゃミルを抱えられない！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>アレイラさんは体力＋2D6判定で目標値７に成功したらこのターン、ミルを引っ張れることにしてもいいですよ。ただしアレイラが体力判定に失敗した場合は、ミルは1D6でどの方角に逃げたか決定します。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（１～２：前衛へ　３～４：遺跡の隅へ（後衛）　４～６：出口側へ）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>おおぅ？</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>目標値７なら、６出ればいいのか、振ってみるかな。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋1 ミル運ぶ！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 1 </B>＝ <B class=dc>11</B>　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>すげー！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>運べた！？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>じゃあ1ターン目はＯＫ！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>何この妖精こわい。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「アレ！　力持ち！　楽勝で運びますなの！」　ぶーん。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>いや、ぶーんって運べないよ、だって、ミルって保存食5つ持ってるもん。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ずりずり、ずりずり、退却、ずりずり、ずりずり。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（前回からすごい妖精だ）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（テントは建てるしカピバラは捕まえるし）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（壁殴ったらヒビ入る腕力持ってたりして）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（カピバラ捕獲班）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（最強のアレイラ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>それでは戦闘に参加する3人は機敏＋1D6でイニシアチブ（行動順）ロールをお願いしまーす！　こちらは敵を……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6 闇の尖兵A   　<B>(ｺﾛｺﾛ…)   ダイス 4 ＋ 2 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6 闇の尖兵B   　<B>(ｺﾛｺﾛ…)   ダイス 6 ＋ 2 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6 闇の尖兵C   　<B>(ｺﾛｺﾛ…)   ダイス 4 ＋ 2 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6 闇の尖兵D   　<B>(ｺﾛｺﾛ…)   ダイス 6 ＋ 2 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6 闇の尖兵E   　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 2 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>4＋1D6　イニシアチブロール！   　<B>(ｺﾛｺﾛ…)   ダイス 5 ＋ 4 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ひょー。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>4＋1D6 イニシアチブ！   　<B>(ｺﾛｺﾛ…)   ダイス 6 ＋ 4 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>3＋1D6 イニシアチブ！   　<B>(ｺﾛｺﾛ…)   ダイス 5 ＋ 3 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0><B class=fred>(10)ヴァン→(9)ロイス→(8)ンク・B・D→(6)A・C→(5)E</B>　です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ひゅー！味方がのきなみ早い！　あ、ハムイのイニシアチブ忘れてた！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋1D6　ハムイのイニシアチブ！   　<B>(ｺﾛｺﾛ…)   ダイス 2 ＋ 2 </B>＝ <B class=dc>4</B>　　※最後</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（おそっ！）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（ぶわっ）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（ハムイさんのキャラ立ちがさすがだった）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではヴァンさん行動をどうぞ。えーとABCが左なので、このうちから選択を！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>4＋2＋2D6 Ｂに機敏攻撃！軽わざ使用！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>   　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 6 </B>＝ <B class=dc>14</B>　　ヴァンＨＰ消費 20→17</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　Ｂの機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 3 </B>＝ <B class=dc>9</B>　　14－9＝<B id=ddmg>5ダメージ！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>Ｂに5のダメージ！　鎧をガツンと叩きます。ふらふらとよろめきますが、また態勢を整えてきます。</div>
+<div class=box><B>【戦闘について　近接攻撃編】</B>
+<BR>　近接攻撃の際は、【体力】か【機敏】のどちらかの能力を使って【能力値＋2D6】攻撃します。
+<BR>　そして相手も、攻撃に使われたのと同じ能力を使って【能力値＋2D6】で防御しなければなりません。
+<BR>　防御しきれなかった分をダメージとして受けてしまいます。
+<BR>
+<BR>　良い武器を装備すれば、【体力攻撃力】や【機敏攻撃力】を上げることができます。
+<BR>　逆に、防具によって近接ダメージを減らすこともできます。</div>
+<BR>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>あ、ところで今回二つ名って途中で変わるんです？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>冒険がひと段落するまではこのままのようですよー。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>はい、なのでヴァンさんは早めに【最強の】二つ名の＋２効果を使ってくださいね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次はロイスさん！　右翼なので対象はDEのみです、どうぞ！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>4＋2D6　機敏でDに近接攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 4 </B>＝ <B class=dc>14</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>でっか！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>何かに目覚めた！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　Dの機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 3 </B>＝ <B class=dc>8</B>　　　14－8＝<B id=ddmg>6ダメージ！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鎧Ｄは6の強烈なダメージでふらついています！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（おおすごい）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（パーシャルウルフ！）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>いつも以上に力が出すぎて加減ができないロイスの一撃！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「うおっ、なんだこの力は、加減が効かねぇ」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では次ンクさんどうぞ！射撃なので誰でも攻撃できますよ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ヴァンの攻撃を受けてよろめいている鎧Ｂに追撃します！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋2D6 射撃命中判定！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 3 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋1D6-1 射撃ダメージ判定！   　<B>(ｺﾛｺﾛ…)   ダイス 4 ＋ 2 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　Ｂの回避判定！   　<B>(ｺﾛｺﾛ…)   ダイス (6＋6) ＋ 3 </B>＝ <B class=dc>15</B> 　<B id=dcri>ｸﾘﾃｨｶﾙ！</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鎧Ｂは華麗に一回転して矢を回避しました。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>鎧っょぃ。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>動かない鎧に比べて機敏すぎるｗ</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「クソッ！なんだこいつらは！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「動きすぎやろ！」</div>
+<div class=box><B>【戦闘について　射撃攻撃編】</B>
+<BR>　射撃攻撃の際は、射撃武器の命中判定（ンクのショートボウなら【機敏＋2D6】）を振り、
+<BR>　次に相手が回避判定として【機敏＋2D6】を振って、それが【命中判定】の値以下なら射撃がヒットします。
+<BR>　今回のンクの例だと、射撃命中が【９】だったので、鎧Bの回避判定の結果が【９】以下なら命中し、
+<BR>　鎧Bに６のダメージを与えられることになります。
+<BR>
+<BR>　射撃は当たるか当たらないかがはっきり分かれますが、防具を着けていない相手には
+<BR>　射撃ダメージが素通りなので、当たりさえすれば大きなダメージを与えることができます。</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>次、敵グループの攻撃です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4＋2D6　Ａの体力攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4＋2D6　Ｂの体力攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 4 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3＋2D6　Ｃの機敏攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (1＋3) ＋ 3 </B>＝ <B class=dc>7</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4＋2D6　Ｄの体力攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋4) ＋ 4 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4＋2D6　Ｅの機敏攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 4 </B>＝ <B class=dc>9</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ターゲットは後で決めるのでお待ちを！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（一般人以上のパラメータ）　　<B id=cc>←基本攻撃力の４とか３になってるのは武器の分も含めているからです</B></div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（かかってこいやあああ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーとどうやって決めようかな。Ａ-Ｃは１-３でヴァン・４-６でンクへ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ＤＥは１-３でロイス、４-６でハムイということで。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Aのターゲット   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>3</B>　ヴァン</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Bのターゲット   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>5</B>　ンク</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Cのターゲット   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>5</B>　ンク</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Dのターゲット   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>1</B>　ロイス</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Eのターゲット   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>2</B>　ロイス</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ぶわっ。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ぶわっ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ンクへ10の体力攻撃＋7の機敏攻撃！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイスへ11の体力攻撃＋9の機敏攻撃！　です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴァンへ11の体力攻撃！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「さばききれない！」</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋2D6 体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) ＋ 3 </B>＝ <B class=dc>12</B>　　10－12＝-2　<B id=ddmg>ダメージなし！</B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋2D6 機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) ＋ 3 </B>＝ <B class=dc>12</B>　　7－12＝-5　<B id=ddmg>ダメージなし！</B></div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>ンクは左手のショートソードで攻撃を受け流しながら側転で鎧達の同時攻撃を回避！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ブッ、余裕じゃないですか！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「く、同時かよっ！」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>3＋1＋2D6　体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 4 </B>＝ <B class=dc>12</B>　　11－12＝-1　<B id=ddmg>ダメージなし！</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>4＋1＋2D6　機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋1) ＋ 5 </B>＝ <B class=dc>9</B>　　9－9＝0　<B id=ddmg>ダメージなし！</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>カキーン！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>はじいたっ！　「（こんなちいせぇダガーであの重そうな一撃を弾けたのか俺！？）」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>戦闘中も戸惑いが続きます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>4＋2D6 体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 4 </B>＝ <B class=dc>9</B>　11－9＝2のダメージ…が</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>最強使用で判定値を＋2します。ノーダメージ！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ダガーで受け止めたもののかすりました！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ヴァンは2のダメージから【最強の】効果によって無傷へ！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>アニメめいて致命打を受けない攻防が繰り広げられてますね</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>思った以上の奮戦にテレサは驚いています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「強い……！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「皆さん……強い……っ！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（まだ序盤なので皆さん強めに表現されています）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（え、これから負け展開！？）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（キャンペーン中盤に苦戦し始めると新必殺技を覚えたり新キャラが助けにきます！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>それでは最後にハムイがＤに攻撃します！「これもサブラヒの試練！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3＋2D6　Ｄにハムイが体力攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 3 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3＋2D6　Ｄの体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (1＋3) ＋ 3 </B>＝ <B class=dc>7</B>　　10－7＝<B id=ddmg>3ダメージ！</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>Ｄはさらに3のダメージで合計9点のダメージ！　ハムイのカタナ（ロングブレイド）がうなります！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ハムイ「我が太刀筋を受けるがいいロボ」　　<B id=cc>←ＡＩ的セリフ表現</B></div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（9点受けても落ちないのこの鎧……）　　　　<B id=cc>←実はあと1点なんです</B></div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では次のターン！　まずアレイラさん、ミルをおさえられるか体力で7を判定してください。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>がーん、ま、毎ターン！？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>まだミルはキュルルルルゥゥ-！！って叫んでます！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「アレちゃんがんばっ」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>2D6＋1 ミルを捕まえる！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) ＋ 1 </B>＝ <B class=dc>10</B>　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>おお、成功！ ここに来てみんなすごい出目だ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「（あの妖精はなんなんだ……）」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ずりずり、ずりずり、ずりずり、ずりずり　「ミル、退却なの！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「（あのちいせぇのもデタラメな力持ってんな…）」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「（力持ちの妖精やなぁ)」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではアレイラはそのまま出口までミルを引っ張っていくことができます。もうここから先は大丈夫かも。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>サントリナもテレサを連れて「２」地点まで移動できたことになります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>前衛はこのターンをしのげれば退却可能になります！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「テレサさん、あと少しです、がんばりましょうっ……！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「……私を置いていって、って言うつもりだったんだけど、これなら大丈夫かもね……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そういってテレサは力なくほほえみます。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（出目が振るわないのは一人だけですね　ﾌﾞﾜｯ……）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「よし、リーナ、二人で逃げるなの、テレサを連れて逃げれば報酬もらえるなの！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　（余計な人数がいると報酬が減るなのよ！）」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ダメよアレちゃん、みんな戦ってるのに！」とアレちゃんを一応たしなめておきます。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「（さすがにテレサをひっぱっていくのは無理だからなぁー、しゃーないなー）……なの」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ところでこの退却戦の間、「闇」の動きはどんな感じになってるんでしょう。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>現在時刻は夕方頃のはずですが、空は真っ暗です。闇は徐々に降りてきていますが、1戦闘ターンが10秒なのでまだまだ下まで降りてくる気配はないですね。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ありがとうございます！戦闘に集中できるくらいのヤバさですね。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>イニシアチブは前ターンと同じです！ヴァンさんからどうぞ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>このターンも　<B class=fred>ヴァン→ロイス→ンク →B・D→A・C・E→ハムイ</B> の順でいくものとしまーす。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（鎧を１体でも倒して何かひっぺがせれば手がかりなり換金なりができるのではないかと思いましたが価値あるのか鎧）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（【鑑定】スキルは……あ、後ろだ）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>2＋2＋4＋2D6 軽わざ使用で最強使用の機敏攻撃！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>   　<B>(ｺﾛｺﾛ…)   ダイス (5＋6) ＋ 8 </B>＝ <B class=dc>19</B>　　　　ヴァンＨＰ消費 17→14</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ぶー！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ガチ　「さっさと終わらしてまお！」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ほぼクリティカル。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>とりあえず普通に考えたら弱ってるターゲットＢでいいですよね？　ヴァンの強烈な一撃がＢを襲います！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　Ｂの体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 3 </B>＝ <B class=dc>9</B>　　19－9＝<B id=ddmg>10ダメージ！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鎧Bは10ダメージ（計15）を受けて吹っ飛びます！！　</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「キツネさん凄いねえ！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ありがとな、ネコのお嬢ちゃん」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>そのまま鎧はバラバラになります。鎧の間から人骨が見えました。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>これは粉々になる……あれ？　中身空洞じゃないんだ。　「（骨…？）」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「えっ……人骨……？」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>鎧は武器を落としました。「？？？のロングブレイド　重さ4」です。誰かが1ターンかければ回収できます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>アイテムドロップー！！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「（なんか落ちてるけど保存食でもう持てない）」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（やっぱり保存食は邪魔なんだね……）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「（保存食がけなされた気が）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ちなみに、鎧は分解してる時間がなさそうだなあ、と感じます。クソ重い割に価値がなさそう。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>全部倒せばゆっくり拾えるよね（ニコッ）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>気が合いますねへっへっへ。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「は、儲けの香りなの！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では次ロイスさんのターン！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>もちろんＤに攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>4＋2D6　機敏で近接攻撃！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 4 </B>＝ <B class=dc>14</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　Ｄの機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 3 </B>＝ <B class=dc>9</B>　　14－9＝<B id=ddmg>5ダメージ！</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ロイスは鎧の懐に飛び込み、走った勢いのまま獣に変化した左手でぶん殴る！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>5のダメージ！で、Ｄは総計14のダメージです！　Ｄはそのまま吹っ飛んでバラバラになります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイス奮戦！半獣化したばかりだというのに既にその力を使いこなしているようにも見えます。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「おらぁ！」（これダガーいらねーな）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ロイスようやるやん！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>鎧Ｄは「？？？のロングスピア　重さ5」　を落としました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次、ンクさん！弓なら誰でも攻撃できますよ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「潮時だ！みんな逃げるぞ！」と叫び、ロングスピアをひっつかんでから退却したいです。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーまだ鎧の必殺技出してないのにー。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>アイテムを狙い続けるにしてはヤバすぎる！と状況判断！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ロングブレイドもパクっておきたい……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>サントリナは2ターン目テレサを出口まで運ぶ役目があるのでターン最後にハムイが取りましょう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とりあえずこのターンは終わりまでいきますねー。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えーと生きてるのがＡ・Ｃ・Ｅ！　こいつらは相手が強敵だと見るや、突如黒いオーラを放ちます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>やだー！！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>やだなにこれ怖い。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「あの黒いモヤは…まさかさっきの」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>出口に向かってダッシュしてましたが鎧に向き直って備えます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ヤバい。　「もう嫌な予感ばっかしやん！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ケモフェアリーになるチャンス！（違）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では一斉攻撃しまーす。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>意思を持ってなさそうな鎧が最初手加減するんですね（メタ）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（メター！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>こいつらいちおう英雄ですよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4+2D6+1D6　Ａの体力強打攻撃！(ＨＰ-4)  　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ ダイス ＋ 4 </B>＝ <B class=dc>15</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Aのターゲット[1-3ヴァン 4-6ンク]   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>4</B> 　　ンクへ</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3+2D6+1D6　Ｃの機敏居合い攻撃！(ＨＰ-4)  　<B>(ｺﾛｺﾛ…)   ダイス (2＋1) ＋ ダイス ＋ 3 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Cのターゲット[1-3ヴァン 4-6ンク]   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>5</B> 　　ンクへ</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>4+2D6+1D6　Ｅの機敏居合い攻撃！(ＨＰ-4)  　<B>(ｺﾛｺﾛ…)   ダイス (2＋6) ＋ ダイス ＋ 4 </B>＝ <B class=dc>14</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1D6 Eのターゲット[1-3ロイス 4-6ハムイ]   　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>6</B>　　ハムイへ</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーとンクに15で体力攻撃、8で機敏攻撃！！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハムイに14で機敏攻撃！　です。防御してください。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「ハムイー！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ンクー！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（逃げて正解だった……）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>3＋2D6 体力防御！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 3 </B>＝ <B class=dc>11</B> 　　15－11＝<B id=ddmg>4ダメージ！</B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋2D6 機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 3 </B>＝ <B class=dc>8</B>　　　8 - 8＝0　<B id=ddmg>ダメージなし！</B></div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>居合い攻撃を後方倒立回転飛びで回避！　しかし強打攻撃が背中をかすめ「ギャオー！」などと叫びます。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ンクは4のダメージです！　　<B id=dhp>ＨＰ 13 → <B id=ddmghp>9</B></B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>それでもさすがのダイス目。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>2＋2D6　次、14をハムイ機敏防御！   　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 2 </B>＝ <B class=dc>7</B>　　14－7＝7でハムイ7ダメージ！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ハムイェ…。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ハムイ…。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ハムイさん……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイ7ダメージでＨＰは10 → 3へ！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（全体的にＨＰがー！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ドMのハムイ「ゴフゥたまらん！！しかしただでは終わらん！！」　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といいながらロングブレイドを拾って下がろうとします。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ドＭだー！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>マゾい。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「お、おいあんた。裸でまともに食らったみたいだが大丈夫か？」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>そっか裸だからこのダメージなんだ！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「裸でよく耐えたな！」（【かばう】欲しい……）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ドＭのハムイ「これも試練！！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「ハムラビって変わっているなの」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「サムラヒよ、アレちゃん……」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「サブラヒってなにもんなんや…」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、3ターン目は総員撤収という感じでＯＫでしょうか！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>敵は1ターン10ｍしか進めないので距離さえあけてしまえばあとは容易に逃げられます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>撤退ー！撤退ー！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「強いわね……一体いくらになるのかしら……（依頼費が）」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>よく見ると、テレサはさっきの短剣を回収して手に取っています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>彼女は何も入ってない鞘も持ってるので、どうやら落ちていた血のついた短剣は彼女のものだったみたいですね。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>はーい！ポーチに入れてるアイテムを使うのはターン消費しないんですよね？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ポーチに入れてるアイテムを使うときはターン使用しません。といっても自分の番が来たときだけね！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B id=cc>↑これはウソ！　「取り出す」のにターンを使わなくなるだけで「使う」のはターン消費します</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>逃げるなら使わなくていいかな（回復薬）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ポーチのなかにアレが入っていれば高性能なの！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ポーチの中に入ってるアレイラを無限使用。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>使用（意味深）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>アレイラを装備する！（宣言）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ずっとアレイラのターンって言おうとしたら意味深な方向に。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ひわい。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ひわいなことをされる立場になったことに今気付いた！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>あれ、そういえば誰か【古代知識】スキル持ってませんでしたっけ？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ロイスさんが覚えてたような？</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>まだとってない！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>そうだった！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>それでも冒険家の二人は知力＋2D6で判定してください。もしかしたらピンと来るかもしれません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>脱出する直前、狭い通路に入ろうとしたときのことです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイス＆ヴァンさんどうぞ！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>1＋2D6 知力判定！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋6) ＋ 1 </B>＝ <B class=dc>12</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>うわ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（ひゅー！）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>来るぞ……罠かなんかきっと……（メタ）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>名探偵コ◯ンの電撃演出を走らせながら</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>3＋2D6　知力判定！   　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 3 </B>＝ <B class=dc>13</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では二人ともピンと来ました。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>そうか、わかったぞ！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>広間から入口につながる細い通路の上に、他の部分より新しい、古代文字のプレートがあることに気付きます。が、あなたたち二人は古代文字ということは分かったものの、残念ながら読むことはできませんでした。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「おい、ヴァン、あのプレート…」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「なんか書いてあるで！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「だな、何が書いてあるかは読めないが…」 プレートをはがせます？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ダッシュで逃げながらショートソードで剥ぎ取れるかチャレンジしたいです。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「アレちゃん覚えて！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと10mだけ間が空いてるものとしますので……あ！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>そうか、【記憶術】！</div>
+<div class=box>【記憶術】 意識して見ていなかったものを後から確認できる。読めなかった文字を記憶するのにも使える。</div>
+<BR>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>逃げているけど覚えていいのかななの？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>意識して覚えるなら小さい目標値で思い出せますよ。8とか9とか。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>便利！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>意識して覚えて思い出せないオチが見える。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>覚えてないことをがんばって思い出そうとすると14とかになります。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>流石！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>では記憶します。「じぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃ、なのよ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「すごい集中力だわ……」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「目つきヤバい」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では3秒かそこらで覚えられたことにしましょう。後ろからは黒い鎧がオーラを放ちながら3体迫ってきています（しまったさっきおもっくそネタバレしたわ……）。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（アッ、ハイ、何も見てません）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（ギャグ漫画日和のクマ吉回にあったうさみちゃんの目をしてそうだ）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（歯茎も出るよ）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（こわい）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（先生の巨大三角定規は貰った！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では忘れないうちにドロップアイテムを追加しておいてくださいねー。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>アイテム追加完了しました！</div>
+<HR class=line>
+<BR>
+<a name=S2></a><H1 class=gradientA>2. 暗黒の森</H1>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、では皆さんは細い通路を走って外まで脱出しました。テレサの分が詰まりそうだけどまあそれはそれで。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、今後の方針ですが、まず負傷したままのテレサを連れていく場合、次の街まで6日かかります。治療すれば3日でたどり着けそうです。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>キャンプもできるの？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>治療を試みるより、ロイスさんから回復薬いただいて治療するか、キャンプしたがよさそうですね。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>敵は追ってこないんです？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>もちろんキャンプもできますよ。ただ後ろからまだ敵が追ってきてます。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ですよねー。敵が追ってくる中せっせこテントを張るのもまた一興。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（キャンプって基本やる暇なさそうだ！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>しかも闇の霧が徐々に降りて来ています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>黒い霧に触れた箇所はアザとなり、ひどく力を奪われ、そして痛みます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（テレサさんを治療しながら、狭い通路の出口で鎧達を１体ずつ迎撃してフルボッコにするのはどうでしょうか）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ああ、一つ言っておきますが医療キットもうないんだ……。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>そうです……無力なのにさらに無力な癒し手になっています……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサの状態異常【負傷】を治すには、医療キットを用いた【治療】(10分)による状態異常回復が必要です。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>終了のおしらせー！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>保存食保存食。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「やっぱり私が残るから逃げなさい……！　このままじゃ逃げられないわ！」と言ってます。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「テレサのアホー！　テレサが残ったら報酬が貰えないなのよ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「そっち！？　人命第一よ！　テレサさん、そんなこと言わないでください……！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「報酬？なにそれアレちゃん？」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「アレは知らないなのぉ～、えへ、えへっ、」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>外で薬草を通りすがりにないか必死に探して治療薬かなんか作るしかって薬にする三時間が確保できない！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>あ、ここで検討材料として地図を出してきまーす。まず皆さんはD地点（遺跡）にいます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src=image/02_Map2.jpg border=1>　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><small>※左上の「街」の名前は【サイーショの街】になりました。</small></div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>移動しながらンクやヴァンたちが地図を見て確認している感じですかね。◆マークが付いているところが、闇の霧が降ってきている範囲です。この範囲は1日で縦横斜めに1マスずつ成長していきます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>◆（闇）のエリアにいることのペナルティはどんな感じでしょう？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと◆（闇）エリアにいると【休息】してもＨＰが回復しません！逆にダメージを受け続けます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ギャー！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>闇にのまれてたロイスみたいになっちゃう。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>全人類をここに集めよう。　　　　<B id=cc>←人類を半獣人にしたいようです</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>( ﾟдﾟ )</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「とりあえず、みんな強いみたいだから、このままテレサを引きずって逃げればいいなの！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　出来ればミルとアレも連れて行って欲しいなの！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>テレサさんを助けつつだと霧から逃げるので精一杯で回復する時間がないってかんじですな……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>で、4マス移動ごとに一回の【疲労判定】が必要になります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>1日移動するならサイーショの街で補給を受けることが可能です。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>【負傷】治す手段って現状あります？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>【医療キット】を使って、【治療】スキルで治療する必要があります、10分。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>医療キットー！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「……今ならきっと、サイーショの街で色々『タダで』手に入るんじゃない？」とぼそりと呟きます。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（街の人は異変に気付いて大混乱なのかなぁ？　略奪が横行している街で暴れるのはリプレイ編集上、良い子に見せられないモノになったりしないかな）（ﾄﾞｷﾄﾞｷ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（もう良い子に見せられないリプレイになる予定マンマン。ダーティな世界で生き抜いてください）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（R-15。あ、PG-12くらい……？）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（ロトの血を引いた勇者もタンス漁るから大丈夫だよね）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「どっちにせよまずは立て直さないと……それとも私を置いていくかね」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサはそう言って、よわよわしい笑みを浮かべました。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「あなたのキャンプからは遠くなりそうだけど大丈夫なの？」と地図を見ながら問います。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「うーん、急がば回れ、って言葉もあるし……（アレとハムイが倒れる惨事になったり……）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「どうせ今頃あの人はライブラの街に行ってる頃だから……大丈夫じゃないかしら？ケガさえ治ったら私一人でも平気だし……そもそも、私のカンだとここから出る頃には何人か倒れてるわ。こんな状況、見たことないもの……」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「それならサイーショを目指せばよさそうだね。みんなはどう思う？」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>つまりテレサをおいてサイーショの街にいけってことかァー！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ケガ人抱えて1日2マスなら、回復後に4マスになったほうが次の街に行くのも早くなりそう。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「テレサを置いていくってのは無いかな。色々と聞かなきゃいけないことがあるもの」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「俺も同感だな、サイーショの街で怪我を直してから移動すべきだ」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「テレサの人命が大事なの、テレサをつれてサイーショの街に行くなの！　そしてミルも落ち着かせないと！</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　（本音としてはテレサの人命によって得られる報酬が大事なの！　ぐふふ……）」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ええ、サイーショの街に行きましょう。色々と道具も必要だし……」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>【医療キット】確保してきていただければその間、薬草探索できますね！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ＧＭー、テレサ護衛組と、先行してサーショの街に行く組あるいは地形探索で薬草を探す組の二手に別れることは可能ですか！　ＧＭは死ぬ。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>　<B id=cc>↑実は分割処理のほうが楽だったりします。一度に対応する人数少ないから。</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>二手に別れる、ＯＫです！　ただし後ろの方はずっと同じ速度で鎧が追いかけてきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あと、テレサを荷物としては運ぶ場合はいつも通りの速度で進軍できます。重さは23。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「私がひとっぱしりサーショの街に行って医療キットを買えればテレサの負担も減るかな……？」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ちゃんと治療できるか自信はないけど、お願いできるかしらっ……！」（ダイス目的なアレで）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「じゃあテレサさんといっしょにいることにするわ！頼んます！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>んー回復薬をどっちに使うべきか。ハムイに使ってアレイラをポーチに詰めるか。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（休憩しているあいだにも黒いのは迫ってきそうですね！）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「ポーチに入るくらいなら、ンクの胸の革鎧に挟まって行くなの」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんが女の子同士なのにすごいこと提案してる）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「えっ、ちょっとそれはンクさんが困るんじゃないのかしらっ？！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（Ｈなアレイラなので……）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（そっか……えっちなんだ……）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「分かった。アレイラも付いてきて！商人なら値切ったりとかできるでしょ！」</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>アレイラを鷲掴みにして毛皮の収まりのいいところに押し込みます。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「そこじゃないなのー！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（流石に一人で薬草探索は危険そうだから、みんなと一緒がいいのかしら）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（医療キット買うか奪うなら薬草はいらないっすね）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（ヴァンはこれ以上荷物を持てない！）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（医療キットはダイス目で回復値がアレなので、回復薬のほうがいざというとき安全ですねっ）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（呼ばれた気がする！）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（よんでない！）</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では、先行組の編成を教えてください！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>先行組：ンク（負傷）＆アレイラ（瀕死）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではンクとアレイラで出撃です！この日が終わったら恐怖の疲労判定があります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（あれ、ヴァンさんがんばったらテレサさん持てなくね？　ロイスもか！このパーティ思ったより体力あった！）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「俺の保存食誰か持ってくれへん？」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「誰か、ミルを見ててねー、ミルの保存食はハムイが食べていいからなのー」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>あれ、【動物使役】を持っている人が一緒に居ないとダメかな？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>いままで誰かがミル持ってたから大丈夫じゃないですか？</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>あ、じゃぁ、ハムイにミルを持ってきてもらおう。いちおー、ミルに指示を出せる同じ場面にいないとダメかなーと思って。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>んじゃハムイに回復薬使おうかな、このままだといきなり死にそうだし。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>先行組は黒い霧を抜けられるよね　　　<B id=cc>←　※ただし抜けても、疲労ダメージは長くいた場所に依存します。今回は闇の森</B></div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>それがよろしい。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ドＭのハムイ「すまぬ、すまぬ……」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>グビグビ……あ、ハムイのはサントリナさんに使ってもらったことにしますか。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>まだ使用宣言してなかったｗ　というわけでサントリナに渡してから使います。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「回復薬まだ余ってるからコレをあの裸野郎に使ってやってくれ」</div>
+<div id=nm><font class=c4><B>ハムイＰＬ</B></font></div><div id=tx class=ct4>（チラ見してたら死にかけてた）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「さーて……かえってキズがひどくなったらごめんなさいね！」回復薬使います。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　　1D6＋3　　　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 3 </B>＝ <B class=dc>6</B>　　ハムイのＨＰが3 → 9へ！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>やった！　普通くらい回復したああ！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ＨＰが赤字から黄色字くらいになった！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>よし、似たようなＨＰになった！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>アレちゃん……。　　（※アレイラは前回【治療】で回復量がマイナスになって大騒ぎになったがそれとは別にＨＰ2しかない）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>アレちゃんは犠牲となったのです。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>アレイラは疲労判定無視出来るから大丈夫！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ンクの胸元に挟まってますなの！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>せっかくなので回復したハムイにも付いてきてもらいたいですが、殿(しんがり)組からぶんどっちゃっていいでしょうか。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではハムイはンクについていきます。後ろ組は鎧にガッチャガッチャ見張られながら進みます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ンクちゃんいくつか保存食いらん？」　荷物もたせてええ。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「お前だから持ちすぎだと…少しだけなら持てるぜ」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ありがとな」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>2つほどヴァンから移動しながら保存食受け取っときます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>保存食を２つロイスに渡します。担架欲しい……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>遠くの空が夕闇に染まる中、真上の『闇の霧』はどんどん地上に降りてきています。すでに地上も薄く闇の霧に包まれていますが、上空の濃度の濃い部分に飲み込まれたらひとたまりもないでしょう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ンクとアレイラ・ハムイは、補給のために先行していきます。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>追ってくる鎧に対して逃げながら弓矢で引き打ちしたらノーダメージで倒せるんじゃないかと虫のいい発想が。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>鎧にシューティング、凄い楽しそう</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>スリングでワンチャンスありますよ殿の皆さん！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>E：杖</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>しまった、スリング持ってンクの頭の上で鎧に攻撃すればいいのか……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>残念ですが敵はそんなにおバカじゃない！　障害物を駆使して進んできますよ。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>あれぇ？　ダメなの？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>さすがいちおうの英（ピー）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>それ以上いけない。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ああ、さっきのがネタバ……。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>何も見なかった　私は何も見なかった。見ちゃったけど見なかった。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>普通に脳みそに記録されてしまってたわん……宇宙人に記憶を消されてしまった……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ああっネタバレ！ まあ攻撃してもいいですけど撃滅するのに2～3時間くらいかかるかなというのはピンと来ました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではンク＆ハムイは森を出て街へ直進していくでＯＫですね！？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>はい。アレイラを挟みつつ身軽すぎるハムイと共に一直線です。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>もふもふ。ンクの毛皮でもふもふ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ちなみにその間の後ろ組は大変です。後ろからは黒の全身鎧が追いかけてきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鎧は、傷ついたテレサに肩を貸している状態と同じ速度で接近してくるので、距離は一向に変化しません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>後ろ組のみなさんは何時間も何時間も、黒い鎧にせき立てられるように走り続けます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ずっと後ろからガシャ、ガシャ、ガシャと歩く音が聞こえてきており、非常に焦燥感をあおります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もし、少しでも足を止めれば……。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「精神的に耐えられないわもうっ……うう、辛い……」</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では先行するンク＆ハムイ＆アレイラですが……森を出るか出ないかのあたりで、白馬に乗った中年の男性に遭遇します！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>白馬の王子様。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>中年、残念。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>財産があれば王子様ですよ。　　　　<B id=cc>←えっ</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えー、遭遇したのはＢ地点です、3マス歩いたところ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src=image/02_Map3.jpg border=1>　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><small>赤：ンクたちの移動経路　　青：後ろ組の移動経路</small></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「おい！この辺でキツネの獣人と人間を見なかったか！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「アレが知っているのは獣人と半獣人だから違うなのね！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>普通に声に出して言うけど、たぶん、どっから声しているか分からないかもしれない。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>酒場のおっさん？</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>酒場のマスター？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「人間なら大勢見たよ！キツネの冒険者なら心当たりがある！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>面識ある人物ふたりとも残ってるからわかんねぇぇぇ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「分かった！！そいつは今どこだ！ちくしょう、俺のせいで……！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（おっさんが二人を責任もって×す胸熱展開なんです？）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（「へぶちっ」）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（「カゼですか？」）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（「なんか誰か噂しとんと違う？」）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>｢教えてもいいけどオッサンはやつらの知り合いなの？」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>馬には非常に多くの装備が詰まれているのが分かります。回復薬・医療キット・料理キット……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>中年「ああ、キツネの冒険者に地図を売っちまった！あれがまさかあんなヤベェもんだとはな！！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（無料補給は彼のことかー！）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（よかった、火事場泥棒パーティーはいなかったんだ）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（全部たくさんください……）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（このまま街に戻れば火事場泥棒できますよ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「あぁん！？今の街は火事場ドロボーでいっぱいだぜ！欲しいもんがありゃくれてやるよ！どうせもう持てねぇ！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>荷車ごとか。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>火事場泥棒してるあいだに霧ののまれそう。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「アレも持てないなの……」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（みなさん……聞こえますか……今あなたの心に直接話しかけて……ry</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　医療キットを……医療キットをもらうのです……）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（どこのツイートですかそれは）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（聖☆おにいさん的なアレです）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「担架あればテレサさん持てるのになぁ。そう思わん？ロイス」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「確かにな、けどそんなもんが都合よく……」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「無いよな～、ロイスとリーナちゃん俺の荷物持ってくれへん？テレサ持っていくわ」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「地図だかなんだか知らないけどＯＫ！　やつらは私達の後から怪我人を抱えてついてきてるんだ。案内するから付いてくるかその薬を分けておくれ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（ついてきてもらえれば、重量限界までもらえる！　ンクさんさすが！)</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「（また人数が増えるなの？　はぁ……）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「分かった、案内しろ！」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでついていきます。後ろ組が2マス進み、先行組が3マス進んで1マス戻れるので、ちょうど合流できますね。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（無料回復ポイントきたー！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではみなさんはＢの１つ右の地点で合流できました！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ああ、黒い霧が。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>疲労判定はいずこ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではここで疲労判定ですか！？ 4マス移動しましたし。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>なければなくていいんですよ！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>死人が出ませんように！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では救援もあるので、悲惨な目にあっていただきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【薄く闇の霧がかかる　夜の　森】の疲労判定を行ってください。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>サバイバル【森】で判定に＋3できますし、ＭＰ1ずつ使えば仲間に＋2を付与することもできます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>判定は【体力＋2D6】で目標値は【14】　失敗時のダメージは【5＋1D6】です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>背負われてる人や動物、荷物に隠れているフェアリーは判定不要です。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>14！？</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ンクの毛皮でもふもふ～。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>あ、ちなみに遺跡にいたのが夕方だったので、もう森は二重の意味で真っ暗です。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>んじゃＭＰ使う機会ないので同行してる仲間全員に【地形サバイバル/森】を配ります。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>あ、ロイスさんが【サバイバル】してくれるならこっちはＭＰ温存でいいのかしらっ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>重ねがけはできなさそう。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>重ねがけアリですかね？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>他者への【サバイバル】技能はアドバイスなので、二重にしても意味はないですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイスのアドバイスで全員の判定に＋2できます。「体力＋2D6＋2」で判定できます（【サバイバル/森】があれば自分の分が＋2から＋3になる）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>何人だ…この場合テレサ含めてサントリナ含まず？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>先行組は４マス移動した時点でロイス達と別行動なので補正は受けられないんですよね（ゲス顔）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>え、そこまでドＭで行くの！？　一緒でええんちゃう！？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>せっかくですからそこは食らっておきましょう！興奮するし……</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>別行動取る前にアドバイスしたよ！（口裏合わせ）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>……と思いましたが事前にアドバイスを受けていたなら仕方が無いですね。　　<B id=cc>←なんでみんなそんなにマゾいの。</B></div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>3＋2＋2D6 疲労判定！   　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) ＋ 5 </B>＝ <B class=dc>15</B>　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>3＋2D6＋3　疲労判定！   　<B>(ｺﾛｺﾛ…)   ダイス (6＋6) ＋ 6 </B>＝ <B class=dc>18</B> 　<B id=dcri>ｸﾘﾃｨｶﾙ！</B></div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（さすが）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>失敗なんてなかった。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>3＋2＋2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 5 </B>＝ <B class=dc>11</B>　　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>5＋1D6　ダメージ  　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 5 </B>＝ <B class=dc>8</B>　　<B id=dhp>　ヴァンＨＰ 16 → <B id=ddmghp>8</B></B></div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>1＋2D6＋3　  　<B>(ｺﾛｺﾛ…)   ダイス (2＋6) ＋ 4 </B>＝ <B class=dc>12</B>　　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>(疲労だわ……）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>5＋1D6 ダメージ判定　死にませんように   　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 5 </B>＝ <B class=dc>6</B>　　<B id=dhp>　サントリナＨＰ 8 → <B id=ddmghp>2</B></B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（よかったギッリ）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>2＋2D6＋2　ハムイの疲労判定！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋5) ＋ 4 </B>＝ <B class=dc>13</B>　　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋2D6＋3　テレサの疲労判定！   　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 5 </B>＝ <B class=dc>11</B>　　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ダメだー夜の移動はあかんー。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>そっか、テレサは万能の上位互換サバイバル持ってたっけ…　　<B id=cc>←実際は森・穏やか・雨。</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>5＋1D6　ハムイダメージ   　<B>(ｺﾛｺﾛ…)   ダイス 5 ＋ 5 </B>＝ <B class=dc>10</B> 　　<B id=dhp>ＨＰ 9 → <B id=ddmghp>-1</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>5＋1D6　テレサダメージ   　<B>(ｺﾛｺﾛ…)   ダイス 6 ＋ 5 </B>＝ <B class=dc>11</B>　　<B id=dhp>　ＨＰ 2 → <B id=ddmghp>-9</B></B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ハムイ逝ったー！？　この場合テレサが逝った？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>テレサまじ死にかけー！？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>テッテレサー！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>（数値確認して）よかった、ふたりとも戦闘不能だ。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（あはははははは……）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>テレサがマジでキノコ王国に出没するお化けのテレサになってしまう。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>テレサ、背中を向けると自動でついてきてくれる？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>さっさと回復薬もらって使わねば。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（フェアリーで良かった……）</div>
+<div class=box><B>【ＨＰと死亡について】</B>
+<BR>　このTRPGでは、【戦闘中】に【ＨＰが-10以下】になると死亡してしまいます。
+<BR>　しかし、移動の疲労判定で-10以下になった場合は、一時的に-10以下になっても、
+<BR>　その直後に回復してＨＰを -9以上にすれば死亡せずに済みます。
+<BR>
+<BR>　ちなみにＨＰがマイナスになっても、【回復薬】や【治療】スキルで回復させて
+<BR>　ＨＰが1以上になれば、すぐ行動可能になります。</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>血を流したままの姿で、あなたたちは闇の霧が降る森を進みます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>途中でハムイとテレサが力尽きてひざをつきました。闇の霧に力を奪われ、もう歩く力が残っていません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサはもはや生命の力をすべて失いつつあります。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「俺の荷物持ってくれへん？そしたらテレサ背負っていけるかもしれん」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「荷物は置いておけ！あとで拾ってやる！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あ、ヴァンとロイスには分かりますが、やっぱり酒場のマスターでした。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>中年さんイケメンすぎるわ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「つーか保存食くらい俺の宿にまだ大量にあるわっ！ここで捨てろ！！命にはかえられんだろう！」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>（ﾌﾞﾜ）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「何で思いつかんかったんやろ……持ったるでえええ」　（保存食を捨てて持てる限り持つ）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（ヴァンちゃんのキャラ崩壊）</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（アイデンティティが……ｗ）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（辛い、辛いわ……）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「医療キットを持てるだけもらってよいでしょうか！　あと今回復薬があればこの場で使います！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「回復薬と医療キットが2個ずつある！受け取れ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ありがとうございます！　医療キット使って回復すると時間かかっちゃうので、回復薬使いましょう！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ということで、テレサとハムイに回復薬使っていいでしょうか！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイは地面に武器を突き立てて、膝をついたまま言います。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「俺のことはいい！おまえたちは先に行け！！」　<B id=cc>←ＮＰＣ中のＰＣを勝手に殺してはいけません</B></div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「お前はどうするつもりなんだ！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと回復薬ですが、二人に使うと2ターンかかるので追いつかれる！？　残ってる人で誰も抱えてない人が1ターン防衛に走る必要があります！　最初の一発は自由に使ってください。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もう一発使うとなると、誰かが前衛に出て敵の攻撃を1ターン耐える必要があります。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>テレサさんがシャレにならないので誰か耐えてくれるとっ。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>というかテレサ背負っていけるのでそっちにします</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「軽ぅなったから背負っていくわ！もうちょい逃げていこ！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサを背負って走るなら距離は離せますね。あとはハムイが動ければ……。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>じゃあ一発目にハムイさんに使って二発目にテレサに使えば大丈夫ですかね！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ですね、それなら逃げられそうです。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「オッサンの馬には……これ以上載せられないか」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>大丈夫ならンクの胸元でぬくぬくしていよう。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ではハムイさんにザバーっと回復薬使います。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6＋3　  　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 3 </B>＝ <B class=dc>6</B>　　<B id=dhp>　ハムイＨＰ -1 → <B id=dhealhp>5</B></B></div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「がんばって起きて！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイのＨＰは5まで回復しました。　　ドＭのハムイ「うおお！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ロイス医療キット頼むで！」 とりあえずヴァンの荷物がテレサになりました。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「あ、もらった医療キットは一応私のポーチに入れたけどよかったかしら！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ポーチ中のサイズっていくつだっけ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>中ポーチは容量4ですね。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では、皆さんは鎧たちを徐々に引き離して街にむかっていきます、ちょっと落ち着いた中、中年男性もといマスターが話しかけてきます。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「ンクの胸元でぬくぬくして気がついたけど、損害賠償を請求したらどうかななの」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「おう冒険家ども！！昨日は悪かったな！まさかあんなデケェもんを引き当てるなんざ、たまげるぜ！！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「このオッサンに損害賠償を請求するなのよ！（びーびー騒いでます、無視しても大丈夫です）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「はっは！全員共犯でぇい！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「本当とんだ目にあったわ！」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「こんなん宿屋じゃあたりひんわ！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「おいおいおっさん、それはこの耳や尻尾や左手を見てそんなこと言えるのかよ」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>本人は気付いてないけど目も変わってます。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>中年「あれ、おまえ昨日の……かぁー、マジすまねえ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なお、今さらですが、森の途中には、言葉で形容できないほど奇妙に融合した動物や、黒いぶよぶよの何かがうごめいているのを目にします。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とてもこの世のものとは思えない光景です。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「ま、おまえもこいつらの仲間入りしなかっただけマシだと思いな……」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「でもロイスさんはそれでカワイイからそれはそれでいいかなって……」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ロイスはサントリナを睨みつけます（目線を送るだけ）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>サントリナはさっと目をそらします。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「言いたいことは山ほどあるが…ソレは落ち着いてからでいいさ」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「さっさとテレサ助けてやりたいし後で怒らせてもらうで！」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「そんなことより、いまの街の状況を教えて欲しい。周りはどうなっているの？」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「街！？誰もいねぇよ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「火事場泥棒しかもう残っていなさそうね……この状況だと。とりあえず逃げながら治療をしましょう！」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「わたしらは遺跡から黒い霧が噴出していくのは見えたけどそれ以上のことは分からないんだ。何が起きたのか、順番に教えてほしい」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「黒い雲が出てきて終わりよぉ、街の住人はこいつぁヤベェってんで全員逃げ出したんだ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>……話しながら森を進むにつれて、闇の粒は見えなくなり、夜がふける頃にようやく森を抜けることができました。Ｂ地点について、ようやくまともな空気が吸えそうです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マスター「ほら見ろ、あれがたしか最後の馬車だぜ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>見ると、街道を南に向かって馬車が移動していくのが見えます。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「あれに載せていってもらえば、早く移動できるかも……？！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「はっは！ありゃたぶん盗賊団の馬車だ！乗せてくれるわけねーよ」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「そう……残念ね」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「やっぱりそうなるんか！」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>盗賊団なら奪ってもいいよね。でももう遠ざかってそうだ。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「じゃ……悪いが、俺もここでおさらばさせてもらうぜ」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「そっか、ありがとう。そして助けてくれてありがとうオッサン。またどこかで」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「ヴァン、てめぇにはこいつをくれてやる！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>酒場のマスターはヴァンにカギを投げます。宿屋のカギみたいですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マスター「俺の宿をテメェにくれてやる……まあどうせあと1日くらいしか使えんだろうがな」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>１日休んで自力で逃げる推奨なのかなぁ……。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>休まないとしぬ、アレ。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「元気も糞もあるかー、シルバくれーなのー（支離滅裂）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「最後に言っておくぜ、ヴァンよ」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「おう！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスターはやたらヴァン想いのようで、ブツブツ言ってきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マスター「俺がいたからいいけどな、さっきみたいな状況で、全部を救えねぇ時のこともな……覚悟しとけよ」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「そんなことさせへん！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（おや？　ヴァンちゃん、主人公枠に立候補したよ！）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（やったねヴァンちゃん！　一人一話ごと主人公になれる……といいな！）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>マスター「ああ……がんばりな」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>背中を向けたままそう言って、マスターは全力でかっ飛ばして去っていきました。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ではお元気で、また」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>【かばう】おぼえたんねん。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、ヴァンは宿屋「サイーショ中央亭」の権利を得ました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>使わないかもしれませんがメモっておいてください。世界を救ったときに宿屋の店主になれますよ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「……で、どうする？」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサはＨＰ-9の目でこちらを見つめています。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>あ、意識あるんですね。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ＨＰ-9の目って今にも死にそう。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「もちろん休んでいきましょう、テレサさん手当しないと……！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>もう夜中ですからね。宿屋は自由に使用できます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「街についてから休まん？」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「街に着いても安心して休めるかどうか分からないけどね」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「鍵かければ大丈夫だろ……多分」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「それはもう今考えても仕方ないわ、皆へとへとだもの、休むしかないわよ」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「それに最後の馬車はもう行っちまったんだろ、街は無人なんじゃねーのか」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>１日休めるなら休んで、日中移動したほうが安全。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>もちろん、これはアレイラが言うようなセリフではないですね、はい、お口にちゃーっく。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>アレイラでもそれくらい言いそう。いきなり命の危険にされされてマジメになってるの。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>そうか、アレイラでも真面目な判断できるのかー。よかった、アレイラやれば出来る娘。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>お客様の中にサイーショの街出身の方はいらっしゃいませんかー。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>サイーショ中央亭にいたので場所はわかります。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>同じく中央亭で寝てた。あ、【キャンプ】って重ね掛けできます？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと、【キャンプ】を複数人で使用すると、一番高い判定値を採用できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>宿に泊まって【キャンプ】スキルを使うこともできます。超スーパーベッドメイキング！</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>「それじゃあ、宿屋を使わせてもらおうか。でもゴロツキが残っているかもしれないから不寝番は立てないとね」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では、街に入ります！</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>3. サイーショの街</H1>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>サイーショの街の内部には、誰もいません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>風にあおられた看板が「キィ、キィ……」ときしんでいる音が聞こえるほど静かです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>家や店も開け放たれているところが多く、ドアも閉めずに出て行った家もあるようです。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「誰もいいひんみたいやで」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>機敏か何かで生き物の気配の有無を探れないでしょうか。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>今のところは何も生き物の気配を感じられませんね。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「じゃあ、ここで休ませてもらいましょうか」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ロイスやヴァンから聞いた街内の行ける場所は以下の通りです。明日の行動の検討に。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・酒場兼宿屋：　二人が泊まっていたところです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・施療院　：　【治療】ができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・雑貨屋　：　アイテムを購入できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・鍛冶屋　：　【修理】が可能です。材料も買えるでしょう。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>修理！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「ふむ、ふむ、大量のお金を使うならアレを連れて行くといいなのよ！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「一晩休んだら、出発前にテレサさんの手当をしてもいいかしら」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>【負傷】状態異常って多分施療院いかないと治らないですよね？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>【負傷】状態は【医療キット】で【治療】に成功しても治りますよ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ん？ 施設が機能しているということは、店番は残ってるんでしょうか？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>施療院だと【医療キット】なしで回復です？（なるべくとっときたい）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えーと、施療院に人がいれば、その人にお金を払ってそこにある【医療キット】で治療してもらえる、というのが厳密なところです。いれば。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>人がいれば治療してもらいましょう。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>いなかったらそこにある【医療キット】強奪しほうだいで使わせていただけるんですねふふ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>残っていない可能性大。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>にしても、盗賊団の馬車を全員で殴り込みかけて奪うかと思ったらそんなことはなかった。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>戦える状態になかったというのが正直なところでは……。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>いま戦うには怪我人が多すぎますからね！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「とりあえず休むことにするわ。みんな疲れが目に見えとるし」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではひとまず休む感じで！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ここでＧＭがそう言うのであれば寝た方がいいみたい。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>人がいなければ物資を根こそぎ押収しましょう。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では中央亭へ！　【キャンプ】スキルも使いますか？</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>つかいまふ。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>まず休んでからテレサさんの【負傷】の治療ですね、医療キット残ってなかったら自前使うしかないけど成功する気がしn……。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では、酒場兼宿屋に来ました。特に荒れている様子はなく、ガランとしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>食料はまだ大量に残っているようですので、手持ちの保存食を使わずに自由に休息できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ひとまずヴァンさんの【キャンプ】スキルどうぞ。ここで振った値が全員の回復量にプラスされます。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>2D6 キャンプＨＰ回復量   　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) </B>＝ <B class=dc>5</B>　　ＨＰ回復＋5</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>2D6 キャンプＭＰ回復量   　<B>(ｺﾛｺﾛ…)   ダイス (3＋6) </B>＝ <B class=dc>9</B>　　ＭＰ回復＋9</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（おおかなり回復する）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではＨＰに＋5　ＭＰに＋9のボーナスですね。って、ここで初めての休息システムだ！</div>
+<BR>
+<div class=box><B>【休息】</B>
+<BR>　食料を取って6時間睡眠すると、ＨＰとＭＰの最大値に応じて以下の分だけ回復します。
+<BR>　　最大値1～9　　1D6ポイント
+<BR>　　最大値10～19　2D6ポイント
+<BR>　　最大値20～　　3D6ポイント</div>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>で、さらに今回のように【キャンプ】スキルで効果をアップすることができます。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>2D6＋5　ＨＰ 回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 5 </B>＝ <B class=dc>13</B> 　　<B id=dhp>ＨＰ 8 → <B id=dhealhp>10</B></B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>2D6＋9　ＭＰ 回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) ＋ 9 </B>＝ <B class=dc>18</B>　　<B id=dmp>ＭＰ 5 → <B id=dhealmp>15</B></B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>がっつり全回復！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>3D6していいです？</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>はい、ヴァンさんは最大ＨＰが20以上なのでＨＰを3D6、ＭＰを1D6だけ回復できます、それに加えてボーナス分も！</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>アレイラはダイス振らなくても完全回復。ミルもダイス振らなくても完全回復ってコトでいいかしらん。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ええ、【キャンプ】分だけで満タンになる人は振らなくても大丈夫でーす。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>2D6＋5　ＨＰ 回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (2＋2) ＋ 5 </B>＝ <B class=dc>9</B>　　<B id=dhp>　ＨＰ 9 → <B id=dhealhp>18</B></B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>2D6＋9　ＭＰ 回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) ＋ 9 </B>＝ <B class=dc>16</B>　　<B id=dmp>　ＭＰ 4 → <B id=dhealmp>7</B></B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>2D6＋5　ＨＰ回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) ＋ 5 </B>＝ <B class=dc>11</B>　　<B id=dhp>　ＨＰ 10 → <B id=dhealhp>15</B></B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>2D6＋9　ＭＰ回復判定   　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 9 </B>＝ <B class=dc>14</B>　　<B id=dmp>　ＭＰ 6 → <B id=dhealmp>10</B></B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ではヴァンのメイクしたベッドに入ると、皆さんはすさまじく力が溢れてくるような感覚を覚えます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まるで陽の光がベッドの中に閉じ込められているかのようです！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>3D6＋5　ＨＰ回復   　<B>(ｺﾛｺﾛ…)   ダイス (6＋6＋6) ＋ 5 </B>＝ <B class=dc>23</B>　　<B id=dhp>　ＨＰ 8 → <B id=dhealhp>21</B></B>　</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ヴァンさん6、6、6！！！すげぇ！！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>なんてクリティカル。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ぱねぇ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>0.5%！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「弟の事思い出した」　（たぶんベッドメイクで）</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「これでミルに乗れるようになった。良かったなの」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ミルはようやくいつも通りの顔に戻り、アレイラに鼻先を押し付けたりしています。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「いい子、いい子なの。怖かったなのね」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では回復後のＨＰ・ＭＰを申告してくださーい。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6＋5 テレサのＨＰ回復   　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) ＋ 5 </B>＝ <B class=dc>11</B>　　<B id=dhp>　テレサＨＰ -9 → <B id=dhealhp>2</B></B></div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>全回復になってＨＰ10/ＭＰ15です！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>全回復でＨＰ15　ＭＰ10です。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>全回復でＨＰ21　ＭＰ7。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>全回復です。アレ　ＨＰ5/ＭＰ15 　ミル　ＨＰ5/ＭＰ5。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>ギリギリ全回復で　ＨＰ18/ＭＰ7です。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>回復力高い。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>了解です！ 【キャンプ】強すぎるかなー。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>結構ギリギリなのでキャンプで全回復くらいでちょうどいい気もっ</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、夜は皆さんたぶん、男女別々の部屋に寝たんでしょうね。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「すぴゃー、すぴゃぁ～」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>寝てる間は髪をおろしてますし、眼鏡も外してます。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>女部屋でアレちゃんとンクさんと寝てますね､ｽﾔｧ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>寝てる間は髪の毛ほどきますが何があるかわかんないので一応そのままにしてます。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>それでは次の日、男部屋の皆さんが起きると……ハムイの姿がありません！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「ハムイがおらへん！」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイが寝ていたはずのベッドに４つ折りにした手紙が一枚置いてあります。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「なんだこの手紙？」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（オワカレ！？）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>って、ハムイこの世界の共通語書けないじゃん！　（ハムイは【読み書き】スキルがない）</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>オワタ。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ここにきて言葉の壁が！</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>えー、ではよく分からない達筆な文字で何か書かれているのは分かるのですが誰も読めませんでした。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ひどいｗ</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>ﾅﾝﾃｺﾄﾀﾞ。</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>出番よ、アレイラさん……。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「すぴゃぁ～、ふにゃ～、Ｚｚｚｚｚ～」</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「こんな字見たことないわぁ（※共通語は読める）」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ハムイＰＬさんは次の回までに自由に手紙の内容を設定する権利が与えられます。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>酷いぶん投げだー！？</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>すごい投げた？！</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「何か書いてあるようだが…、なんだこりゃ？そもそも文字読めねぇしな俺」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>まあ「先に行ってる」みたいなニュアンスが書かれてるんでしょうね。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>「んー確かに読めねぇが見たことない字だな…ヴァンが読めねぇなら国が違うのだろう」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>字が違うのに言葉は通じたんですね　　　　　<B id=cc>←ご都合ファンタジーへようこそ！</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>あ、ハムイさんの持ってた（拾った）ロングブレイドは宿屋に置いていったということで。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>そんなこんなで、朝……いや、微妙に昼くらいになってるのかな。時系列保存してないや。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「うーみゅ……、ご飯おかわりぃ……ｽﾔｽﾔ……」</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>街の東が闇に呑まれ始める頃合でしょうか。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>はい、ただいま旧Ｂ地点が闇にのまれています。遺跡を出てから丸1日ですね！　とにかく朝になりました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src=image/02_Map4.jpg border=1></div>
+<BR>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>テレサの負傷を治すか担架！「やっぱり担架欲しいな！そしたら保存食持てるし！」</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>ヴァンちゃんはいくつ保存食もってるのかしらん。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>ロイスに持たせた２個のみ 「保存食欲しいわぁ」</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>そういえば逃げるときに捨てたっけ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ヴァンさん、酒場の壁にぶらさがったままのソーセージや燻製、倉庫の食べ物などが大量に残ってます。保存食はこの宿屋から無制限に持ち出せるものとします。マスターはしっかり蓄えてたのだ……。</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>「保存食これもらってこか……」</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>では一方で、女部屋でテレサさんがまだ痛そうにしています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「あーいたたた、やっぱりまだダメねー。医療キットがあれば自分で治せるんだけど……」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「ありゃ……（目を覚まし）あ、今治療しましょうか……？」やや寝ぼけ気味。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>（ウチの癒し手はあてにならないと暗喩してますね、テレサ）</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（テレサさんったらうふふあはは）</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「それじゃお願いしようかしら……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>サントリナは医療キットでテレサの【負傷】を治療することができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>意志＋2D6で、難易度は10です。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（成功する気がしません、ダイスの出目の悪さな意味で）　　　　<B id=cc>←ダイス２個で７以上だよ！？</B></div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>「すぴゃ～」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「あら大丈夫よー医療キットくらいなら腐るほどあるんじゃないかしら？問題は回復薬が何本手に入るかね……あれ高いし」 商売人の目でつぶやきます。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>3＋2D6 テレサさん治療！(【治療】ＭＰ3・医療キット消費)</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>   　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 3 </B>＝ <B class=dc>8</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>チーン。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（わかってたよ！　泣いてないよ！）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>医療キットが腐るほどあるというのならワンチャン……もう一回、うわあああん。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>もう一回やってもいいですよ。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>（医療キットまたすぐ補充ありますように！！）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>3＋2D6 ガンバレサントリナ(【治療】ＭＰ3・医療キット消費)</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>   　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 3 </B>＝ <B class=dc>8</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>ぶわっ。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>ぶわっ。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>あのね、うん。なにこの癒し手、使い物にならないんだけど。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>治療時間ってどれぐらいでしたっけ。数分単位なら何度でも試せそう。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>10分ですからＭＰと時間さえあれば何回でも。</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>なにこの癒し手！！！（まだ言ってる）</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>テレサ「あのね、サントリナ。あまり思いつめなくていいからね」</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「そ、そうよ、やーねぇ大丈夫よ！気にしないで！よくあることだし！」</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>「……ｸﾞｽｯ、私なんて私なんて」ちょっといじけてます。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>テレサ「同じ癒し手だから分かるわ、その気持ち」　まあこの人出目だけで10とか普通に出そうだけど。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>新人の看護師が注射で血管はずして落ち込んでいるような感じですね。はい。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>見ると医療キットが粉々に砕けてます。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>粉々！？</div>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>こわい。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>粉々はやめて！</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>やめてよぉ！</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>（保存食を回収して戻ってきた）「なんかわからんけど手伝おか？」 保存食持ちまくり</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>妹の病気が治らないのは姉の治療が下手すぎるため……だった……。</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>喋れるほど元気ならブ◯ックジャックよろしくテレサさんが自分で医療キット使えば……。</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>（実はテレサよりサントリナのほうが【治療】の成功率高いんだけどなあ……）</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>4. 新しい一日</H1>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>さて、ではここで皆さん一息付けたので、新しい二つ名ロールです！</div>
+<div class=box>12 最強の 　2回も好きな出目に＋2できます（1度の判定で1回）
+<BR>　　　　　　　　ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>11 優秀な　　1回だけ好きな出目を＋2できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>10 強そうな　1回だけ好きな出目を＋1できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>9　凄く硬い　ダメージ計算後、1回だけ任意のダメージを-2できます。
+<BR>8　元気な・かわいい・強気な・美しい　好みで選択、特に効果はありません、ポジティブ系。
+<BR>7　何もなし　　何もなし。普通が一番です。何もなくて寂しかったら「普通の」を付けてください。
+<BR>6　疲れた・けだるい・切ない・汚れた　好みで選択、特に効果はありません、ネガティブ系。
+<BR>5　エッチな 　エッチになります。ロールプレイのチャンスを逃さないで！
+<BR>4　ドＭな 　　ダメージを受けるたびに歓喜の声を上げてください。
+<BR>3　弱そうな　「目標値と同じ値で成功した判定」が1回だけ自動で1失敗扱いになります。
+<BR>2　最弱の　　「2D6の出目が4以下」になると1回だけ自動で1ゾロになります。
+<BR>　　　　　　　　早めに4以下を出さないと恐いですよ。</div>
+<BR>
+<div id=nm><font class=c5><B>強気なンク</B></font></div><div id=tx class=ct5>2D6 ふたつな   　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) </B>＝ <B class=dc>7</B>　　普通</div>
+<div id=nm><font class=c6><B>強気なサントリナ</B></font></div><div id=tx class=ct6>2D6 二つ名   　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) </B>＝ <B class=dc>7</B>　　普通</div>
+<div id=nm><font class=c2><B>最強のヴァン</B></font></div><div id=tx class=ct2>2D6 二つ名   　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) </B>＝ <B class=dc>10</B>　　強そうな</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>2D6 二つ名   　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) </B>＝ <B class=dc>7</B>　　普通</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>2D6 アレの二つ名   　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) </B>＝ <B class=dc>6</B>　　ネガティブ系</div>
+<div id=nm><font class=c0><B>普通のＧＭ</B></font></div><div id=tx class=ct0>2D6 ＧＭの二つ名   　<B>(ｺﾛｺﾛ…)   ダイス (6＋2) </B>＝ <B class=dc>8</B>　　ポジティブ系</div>
+<div id=nm><font class=c1><B>元気なロイス</B></font></div><div id=tx class=ct1>元気さを失ってみんな普通に。</div>
+<div id=nm><font class=c3><B>エッチなアレイラ</B></font></div><div id=tx class=ct3>穢れたアレイラ、もうすぐ魔女になります。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>さすがにポジティブさは失われるわなー！では皆さん名前変更お願いします。（すでに「かわいい」を付けてるGM）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（かわいいＧＭって何かつぼってしまった）サントリナはもっと落ち込んでてもいい。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>強いよ！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>普通になったよ！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>むしろこの状況で「普通」を保てるのはスゴイですね。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「切ないわーなの、商売する相手がいなさそうなの。儲けがないなの」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>さて、皆さんは以下の地点を探索することができます。闇が来るまでの猶予は3時間ほどでしょう、一回だけ探索できます。必要なら、分散して探索してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・施療院　：　【治療】ができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・雑貨屋　：　アイテムを購入できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・鍛冶屋　：　【修理】が可能です。材料も買えるでしょう。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>施療院に【医療キット】を探しにいきます……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>雑貨屋へ行きたいな。何かあるかも（盗る前提）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>【修理】する。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>暴徒がいると嫌なので一緒に行った方がいいのかなぁ。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「あ、宿にいる間に【鑑定】しましょうなの！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>また11個保存食持たせてください。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>はーい、各々おおむね了解です。順番にやっていきましょう。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（あ、やべ、このままだとテレサが動けないや）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサは使うのを忘れてた【医療キット】を取り出して一回だけ【治療】にチャレンジします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2＋2D6　自分の状態異常を【治療】！ＭＰ3消費　(目標値10)</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>   　<B>(ｺﾛｺﾛ…)   ダイス (5＋6) ＋ 2 </B>＝ <B class=dc>13</B>　　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサは治療を終えて消毒して包帯巻いてスタッと立ち上がります。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>もうテレサ一人でいいんじゃないかな……サントリナは泣いていい。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（サントリナが自分のポーチを地面に思い切り投げ捨てる勢い）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「癒し手ってなんだったのかしら……うん……うん……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>リーナは理術士に転職するんだ、きっと。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「(´；ω；`)」な顔をしてテレサを見て体育座りして　の　の字をかいてるサントリナ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサ「大丈夫よ、こんなこともよくあることだから……」サントリナを慰めます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「私……わたし……うわあああん」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>テレサ、分かってて嫌味いってたらどうしよう＾＾；</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>（テレサ「大丈夫よ、こんなこともよくあることだから……」ニヤニヤ）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（つら　つら）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>にしてもなんだこの出目！テレサさん全面的におかしいよ！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「( ﾟдﾟ )」な顔してテレサを見てるロイス。この人、なんでこんなチートなのに怪我して倒れてたの。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>チートだからケガで済んでたのかもしれない。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>聞きたかったら教えてくれますが、遺跡の扉の前で6ゾロで意志抵抗に抵抗したんですよ。ロイスが欲望に負けたアレ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>チートだチート！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ＮＰＣ特権デスネー。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（テレサの説明が続いてる）そして抵抗したテレサは自分で足に短剣をブシュッと……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「アレに抵抗するために自分で刺したのか……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「呼ばれた気がしたなの！」＞アレ</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「呼んでねぇ！」</div>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>えーとどれから行きましょうか。では修理宣言したヴァンさんから！</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「ンクちゃんの武器壊れそうやから直しにいこか」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「ヴァンは修理ができるんだ。じゃあ弓の修理をお願いしてもいいかな？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>鍛冶屋に行くと、誰もいません。部品は転がったままなので無料で修理できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3時間あるから、重さ3以下のものなら直せますね。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ガーン！（ショートボウは重さ4）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「とりあえずこれ直すで」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ヴァンさん、修理してほしかった弓は重さ4なので間に合いません！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>そいつは次の街で、ですね……でももう一本の方なら？</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>もう一つは？</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>サブウエポンは槍を拾ったので、もうショートブレイドをわざわざ修理する必要は無いかなとンクは思っています。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>でも売るときの値段が2倍になりますよ、ショートブレイド。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>どうせなら修理して売り飛ばそう。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ﾊｯ、それだ。「弓は無理か……ならこの剣の方をお願いね」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>どうせ拾った槍の修理も間に合いませんしね。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>あっ、この槍も【壊れそうな】補正付いてるんだ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>槍壊れてるんです？</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>失言した！　い、いや、アレイラさんに鑑定してもらうことで歪みを直せる！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（なんとなく壊れそうな気がするなの！　ぴきーん！）</div>
+<div class=box><B>【修理】スキル</B>　1シナリオ中に＜レベル＞回だけ使用可能
+<BR>　【装備の【元の価格の1/10】を消費して【体力＋修理LVx2＋2D6】判定で
+<BR>　難易度【8＋重さ】に成功すると装備の補正【壊れそうな】を消去。
+<BR>　【3以上の失敗】で装備が【完全に破壊】される。
+<BR>　盾の修復は、上と同じ判定で難易度を超えた分だけ耐久度回復。</div>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ではショートブレイド、重さ2を修理します！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>体力＋2＋2D6　で　難易度【10】　に挑戦してください！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（クホホホホホ）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>3＋2＋2D6 「直すで！」   　<B>(ｺﾛｺﾛ…)   ダイス (5＋6) ＋ 5 </B>＝ <B class=dc>16</B>　　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>何ですこの修理さばき。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ヴァンさんの出目も全体的にパネェ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>カキーン！！　ショートブレイドはまるで新品同様のつやつやになって返って来ました。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「うまくいったわ」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>前回：主人公候補　ロイス</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>今回：主人公　ヴァン</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ヴァンさんの出目ちょっとこっちにくれませんか。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>サントリナさんのフルオート薄幸ロールが光るわ……。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>出目的に薄幸キャラでいきましょう、ふふ……。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「ヴァンってなんでもできるんだね。ありがとう！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「誉めても何も出ーへんで」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「この剣はね（以下略）大事なものだったんだ」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（なぜか大笑い）そこ略すの！？</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（……売り飛ばすのに？）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（売るんだよね）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（売る予定の大事なものって一体どんな大事なものなのやら……）</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>えーと次はアレイラさんの鑑定が処理時間的に早いかな、では鑑定をお願いします！判定はー。</div>
+<div class=box><B>【鑑定】スキル</B>　商人専用スキル
+<BR>　未識別アイテムを【知力＋2D6】で鑑定。
+<BR>　失敗しても、1回だけ【ＭＰ5】で【知力＋2D6＋2】で再鑑定可。</div>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ということでロングブレイドとロングスピアに対してまずはノーコスト鑑定をどうぞ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>目標値11で正体が分かります。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>3＋2D6 「まずは、さらっと見てみましょなの！」   　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 3 </B>＝ <B class=dc>8</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>3＋2D6　  　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 3 </B>＝ <B class=dc>10</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>さらっと見たのが侮りである。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ロングブレイドの正体は分かりませんでした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロングスピアの正体は分かりませんでした。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ガーン。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんはこっちの仲間ですね　ｵｲﾃﾞｵｲﾃﾞ）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「いやだ、切ないなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（本当に切ないっ）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ＭＰ5ずつ使うと再挑戦できます。しかもボーナス＋2！どうぞー。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ではＭＰを10つかって両方再挑戦！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（嫌な予感が）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>2D6＋3＋2　鑑定1  　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 5 </B>＝ <B class=dc>12</B>　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋3＋2　鑑定2　　<B>(ｺﾛｺﾛ…)   ダイス (3＋1) ＋ 5 </B>＝ <B class=dc>9</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ガーン！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「切ないなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（片方成功してるじゃないですか！　ﾜｰﾝ）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では？？？のロングブレイドは、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【重心が悪い壊れそうなロングブレイド（3/1 攻＋1/0 重4）　価格200S】</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>でした！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「悪い条件が二つも……これは不良品なの！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>？？？のロングスピアの正体は分かりませんでした。誰でもいいから持ってねコレ。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ロングスピアはンクが持ってます。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>保存食で持てない。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>保存食捨てればいいと思うんです！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>価格2000…？　怪しい。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>200です。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>あ、200S！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ネトゲの詐欺看板みたいな表記だ！　　　<B id=cc>←ＧＭ：次から200Ｇか200sって書いておくね……。</B></div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ごめんなさいなの！　また今度調べるなの！　調べれるのかな？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>次に【鑑定】するならお店に頼まないと無理ですねー。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「商売人の道は長く険しいなの！」</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>あ、別行動で施療院にいってみたいですっ。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>先生、施療院には何か落ちてたりはしないんでしょうか！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>施療院には誰もいませんでした。では、施療院に入ったサントリナは知力＋2D6判定で探し物をしてください！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>8以上でいいもの、10以上ならもっといいものも手に入ります。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>3＋2D6 「でもどうせきっと何も見つからないのよ！」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　　　　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 3 </B>＝ <B class=dc>11</B>　両方成功！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>なん……だと　（※出目成功すると思ってなかったんですよ）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ﾊﾟﾁﾊﾟﾁ。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>やれる！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「黒い雨が降ってきそう……」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>おめでとう！では両方ゲットできます！以下の2つを取得できますので、2回ダイスを振ってください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・【医療キット/重さ1・パーティ全体で　1D6　個】</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・【回復薬/重さ１・パーティ全体で　1D6-1　個】</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>そして手に入る医療キット。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「やればできたー！テレサさーん私やったよー！」顔(´；ω；`)コレ</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>というか結局、火事場泥棒してるし！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>待て、待て、治療は下手だが火事場泥棒は上手いのか！　ああぁん！？　なの！（ﾆﾔﾆﾔ）</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>どうせ闇に呑まれるならば有効活用した方が世のため人のためってもんです、ね？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（※ンクさんの言うとおりです、これは世のためなんです……！）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>治療はヘタなのに宝探しが上手いからもう盗賊かなんかに転職したほうが。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6 医療キット　　　<B>(ｺﾛｺﾛ…)   ダイス </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6-1 回復薬　　　<B>(ｺﾛｺﾛ…)   ダイス 5 - 1 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>テレサに全部もたせよう（真顔）。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>おおー！回復薬が多い！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>回復薬が高価だからコレは嬉しい！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では火事場泥棒を終えてサントリナが施療院から出て行くときに、施療院の裏から出て行く二人組の男を発見します。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「へへ、兄貴ぃ、これだけありゃしばらく生活できやすぜ……」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ああ、まったく黒い雲サマサマだな、へっへっへ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こちらには気付いてないみたいです。何かアクションしますか？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>こっそり様子を物陰からうかがってみます　見つからないように。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では、2人はそのまま大きい袋を持って街の外に出て行きますね。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（ただの同業者です）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（違うとは言えない悲しさ）</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（何か言われる筋合いは無い）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「（ああ、人のことは言えない……）」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ここで正義面しないのがみんなえらいですね。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>戦えば奪えるのかー。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>……。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「（争いごとになったら死ぬもの、私……）」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「（っていうか、せっかくの儲け場面なのに、何ひとりで鑑定しているんだ、アレのバカ！　バカ！　バカ！）」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（大丈夫ですよ、あの二人組以上に我々も儲けてますから）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>（「材料タダとか、得したわ」修理中の呟き）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>アレイラの【鑑定】は時間を消費しないので、次シーンあたりから出てもかまいませんよ。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ぎゃー、だったらリーナの方に来て回復薬を盗んでくるんだったー　　<B id=cc>←あの二人組の男から盗むの！？死ぬよ！？</B></div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では他になければ次は雑貨屋です。ロイスとテレサですね。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ロイスといっしょにいこう。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>雑貨屋に行くと、驚いたことに中には厳しい目をした白髪交じりの老人が昨日の新聞を広げて座っています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ふん、こんなときでも客は来るのか……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ｷﾞｬｰ､ｼｬﾍﾞｯﾀｰｰｰｰ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「（なんだ人がいるのか）」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>雑貨屋のおやじは、テレサを見てニヤっと笑います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「俺は足をやられている。最後の馬車も行っちまった、俺はここで死ぬんだろう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　さあ……何がいるんだ？　商売だからな、こんなときでも金はいただくぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>老人はニヤリと笑って皆さんを見つめます。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ﾆｱ　　　　　　　　<B id=cc>←この人、殺してでもうばいとろうとしている！！</B></div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（いいのよ）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>売り物は以下の通りです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・壊れそうなスリング　70シルバ　重さ1　（在庫：1）　この老人の中古品、ちょっとだけお買い得（本来100S）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・保存食　10シルバ　重さ2　（在庫∞）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・医療キット　20シルバ　重さ1　（在庫3）　【治療】スキルに使う</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・回復薬　60シルバ　重さ1　（在庫2）　ＨＰを1D6点回復</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・ランタン　200シルバ　重さ1　：　無制限に使える明かり。要装備。ただし、使用中に防御で1ゾロを振ると壊れる（修理は可能）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・光源石の棒　消耗品　40シルバ　重さ0　一本消費すれば一日の間、光源を得ることができます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・折りたたみ担架　150シルバ　重さ2　　アイテム・人間一人を、2人で重さを分けて運ぶことができる</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・修理部品<500S以下>　50シルバ　重さ2　【修理】スキルで、元の価格が500シルバ以下のアイテムを1つ修理できる。消耗品。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>・馬車の車輪＆車軸（馬車の修理部品、【修理】スキルの材料）　200シルバ　重さ4</div>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ロイス君の財布の中には0シルバも入っています！何か買いますか？</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ロイス……貧乏なの……。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ロイスくん……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>テレサはお金いくつ持ってます？</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサはとりあえず200シルバ出してみますが、なんだか含みを持っている顔をしている気がします。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>ここはあんたの命をもらうと言って助けるのが。担架買っておじさんをPTに……。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（売り物は総額500～1000シルバくらいか……止 め ま せ ん）　　　<B id=cc>←ンクさんいつもこんなこと考えてるんですか！</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「悪いが俺は誰も居ないと思って何か無いか漁りにきただけだ。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　金もこれっぽっちも持っちゃいねぇ」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（まさかの悪人ロール！？）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>「へっへ、なるほどな。正直なヤツァ好きだぜ……」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「けどな、店の人が商売してるってんなら話は別だ。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　俺は何も買わねぇし取るつもりもねぇ」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「いや待て、というかおめぇ……」　半獣人であるロイスを見つめて言います。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「というわけで俺はツレが買い物済ませるまで待つだけにするぜ」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（やだ……かっこいい……）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「待てよ……まさか『おまえら』なのか？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とそれだけ聞いて老人はロイスを見つめてきます。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「あん？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>なぜか横でテレサがうなずいています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>老人「まあいい……俺にはもう関係ねぇか」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでお買い物タイムが始まります。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>重心が悪い壊れそうなロングブレイド（3/1 攻＋1/0 重4）　価格200S</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>これ、重いから、ロイスにあげる（人のモノだけどｗ）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（ああ、売ればいい）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「ん、いたのか小さいの」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「いたなの！」　でも切なそうな視線なのよ。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>担架！担架！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ヴァン君が担架めっちゃ欲しいそうですよアレイラさん。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「担架売ってるやん！」　突入</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「もうすぐアレが来るぜ、買い物するなら早く終わらせな」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「呼ばれた気がするなの！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ああん、もう全員来ていいですよ！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>まさかの全員集合。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>じゃあロイスが老人その他と話している間に他の用事が終わった人がゾロゾロ雑貨屋に入ってきます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「あ、みんなこっちにいたんですね……ってまだ人が？！」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（全員来たら目撃者が増えちゃう）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「全員いるなら許可とりやすいや、この役に立たないロングブレイドは貧乏なロイス君にあげてもいいなの？」（ﾆﾔﾆﾔ）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「あ、どうぞどうぞ、っていっても貧乏じゃないのはアレちゃんくらいな気がするけど！」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「どうせ私には使えないし構わないよ」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「10シルバたりひんわ！」　涙ぐんだ。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「なに、みんな貧乏なの？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「ああ、言っとくけどこの状況でさすがに買い取りはしねーぞ」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B id=cc>↑ＧＭもとい老人は、街に放置されたアイテムの売却を危惧しています。</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>釘を刺された。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ガーン。アレちゃんが買うしかない。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ええええええーーーーーーー、貧乏なのに！！　重いから、ロングブレイドは誰か持っててねなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「ごめんなさい私限界まで回復薬もらってきちゃったから持てないわ！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「……まあ武器の一本や二本なら、遊びで買ってやってもいいがな」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「へぇ…」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「値引きしてやおっちゃん！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「値引きか……」　アレイラさん【価格交渉】の出番ですよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もし価格交渉するなら目標値6でどうぞ、成功度＋2ごとに1割引きにできます。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>えーと、まって、まって、100シルバで売って、担架（150シルバ）を値切ったほうがいいんじゃないかな？</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>どっちも価格交渉できますぜアレイラさぁん！ＭＰ3使うけど……ん？あとＭＰ5しかないんですっけ？</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>もうＭＰ5しかないんですｗ</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>じゃあ一回だけ！100シルバで売って担架（150シルバ）を値切るほうがいいですね、もちろん。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>でしょ、でしょ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>まず、ロングブレイドを100で売ります。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「ふん、古い剣か……古代文明のシロモンだな」　　100で買いました。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>さすが店を構えている人の目利きは違う。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>つぎ、担架を値切ります。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では目標値６で　意志＋2D6判定を行ってください！　8以上なら割引です。フェアリーの意志はヤバい。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>2D6＋3 担架値切り</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 3 </B>＝ <B class=dc>9</B>　　　【1割引き】することに成功！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>出たー！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>割引だー！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では150から1割引の、135シルバで購入できます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>老人「へっへ、たまにはこういうのもいいじゃねえか、妖精のじょうちゃん」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ダイスが……誰とは言わないけど、誰かに感染したかのように悪い（ジト目）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（誰でしょうね）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「まいどあり、他にはねえのか？」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「どうせもう使い道が無いなら、使う用事がある人の為に使うのが筋なの！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>担架は誰が持つ？</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>えーと、どうしよう、わたしが135で買って、誰かに持ってもらう。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「じゃあ担架は私が持つよ」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「おっちゃんこれに乗ってや！」担架もらって。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（セリフ言うつもりが先に言われた！）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「おいおい、いきなりなにいってんだおい！？無茶言うなよ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに老人の重さは35です。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（70kg……？）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（テレサさんどんだけ軽かったんや！）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「おっちゃん……ごめんな……」　　　<B id=cc>←重さ35が予想以上に重かったらしい。</B></div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（ハムイがいればロイスと二人がかりで老人を運び出し……そして商品を強奪……）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（ンクが黒い）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>老人「それにな、この街には他にも残ってるヤツがいる……おまえら全員助けていくつもりか？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「できるなら、個人的にはそうしたい、ですが……」と目をふせ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「なあ、爺さんはこの街を出たいか？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「俺は十分に生きたよ……最後にちょっと、嬉しいこともあったしな」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そういって老人はニヤっと笑います。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「……？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「嬉しいこと……？」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「俺は保存食を捨てるぞンクーッ！」　　　<B id=cc>←今回はヴァンが一番、心の天秤が忙しいですね。</B></div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「ま、気持ちだけ受け取っとくぜ。出て行くならちゃんと4日分はメシ持っとけよ」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ロングブレイドの100シルバはみんなで分ける？　……反応しないと100シルバはアレが貰っちゃうなのよ……35シルバで担架買ったコトにするなのよ……（切ない視線）」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「鑑定したのはアレイラだし担架を値切ったのもアレイラだ。ってアレイラ損してるよね……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「赤字なの！　どうしてくれるなの！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「森を楽して移動してただろお前、その分の見返りと思いな」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「はっは！それが商売ってぇもんだ。損しねえようにがんばりな」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「ま、まぁまぁアレちゃん、次なにかお宝があったらもらうってことでどうかな？」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「赤字はゆるせへんなぁ、ロイスと俺でおっちゃん持つからンク保存食頼む！」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「まぁ、今度は儲けようなの……」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>とりあえず、-35シルバしときます</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では老人は、最後に真剣な顔になって言います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「おまえら、これから南東の『知識の街』に行くよな？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なら『これ』をくれてやる。『賢人図書館』にいる耳長に渡して、話をしろ。全てをだ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そういって矢じりを取り出します。その矢じりは透明で、ガラスか水晶でできているようです。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「耳長人、ですか……」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「なんだこりゃ？透明な矢じり？」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「綺麗ね……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ん？　ん？　もう難しい鑑定できないなのよ」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>「これはな、じいさんのじいさんのじいさんの……まあご先祖さんが残したもんだ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　狩人、もしこいつを使うときが来たら獲物の『目』を射貫け、いいな？」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>良かった、強盗してたらキーアイテムが手に入らないところでしたね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>別にキーアイテムがなくてもクリアはできる（キリッ）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>同じ狩人であるにおいをかぎ取ったのか、老人はンクに『透明な矢じり　重さ0』を渡します。アイテムに追加しておいてください。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「分かったよじいちゃん。覚えとく」　　矢じりを背嚢にしまいます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「賢人図書館ですね……覚えておきます」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では各々、アイテムを整理しておいてくださーい。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>保存食は十分に足りますかぁ？</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>地図（重さ0）＋保存食11（重さ22）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>また大量に持ってるー！？</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「保存食最高や！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>回復薬とか配ったほうがいいね。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>医療品は一応配りますか。 戦闘中が回復以外やることないのでアレなんですが、ＨＰ高い人二人くらいには渡しておいたがいいですかね。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「呼ばれた気がするなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「気のせいよ」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>じゃあ　ヴァンさん　ンクさん　ロイスさんに回復薬を一個ずつ！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「ありがとう。預かっとくよ」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>持てない。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ああ、じゃあヴァンさんのぶんもっときます。 空いてから渡しますねっ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>急いで逃げる場合以外は、一時的にあふれてもいいですからね、重量。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「……それじゃ、行きましょ。そろそろ時間がないわ」</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>5. 出発の前に</H1>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では、皆さんは一通りの準備をして、ひとまず街の外にやってきました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>現在は昼頃、闇の霧はほのかに街まで届いてきています。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>久しぶりな気がするミルにパイルダーオン。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「保存食もつわー」ズシッと。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「ヴァン、食料なら狩りで調達する手もあるんだからね？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>そうですね。狩りで大成功すれば数食分が一気に手に入ります。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「そうね、料理なら私ができるわ……そこそこに」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（リーナの料理でひとネタ発生、期待してます！）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（料理スキル持ってるのに大惨事が起こることを期待して！）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（恐い）</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（おかしい、料理がかぶったら普通ヤバいことが起きるのはこっちのはずなのに）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（ダイス的な意味で薄幸キャラですから！）　ダイス出目が普段から酷いからもうそういうキャラになってますね！</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「保存食一つミルにやるかー」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「保存食いらないなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「ときには捨てる勇気も必要よ、ヴァン……」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「保存食一つ捨てるか……」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では街の外まで来たあたりで、テレサがちょっと用事を思い出します。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「あ、そうだ。ちょっと雑貨屋のおじいさんと話があるから待ってて！すぐ戻るわ！」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といってテレサは行ってしまいました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>誰かこっそりついていく？</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>はーい、隠密しまーす。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>同じく。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「こっそり、こっそりならアレだなーなの！」（大声）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>こっそりじゃねー！？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>こっそりついていきます！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>機敏＋2D6で判定です、一名でも失敗するとバレます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>わああ、やっぱりついていかない！足引っ張る！！　</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ンクやめまーす。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>なおアレイラは【小さい】ので、＋3の補正がつきます。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ならアレイラ一人に。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>それがよいですね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>おかしい、商人なのに一番シーフ能力が高い。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>妖精だから仕方ない！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（これで次は【開錠】まで覚えるんじゃないだろうか……）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「よし、アレいっきまーすなの！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋4＋3　  　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) ＋ 7 </B>＝ <B class=dc>14</B></div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　テレサの対抗判定   　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 3 </B>＝ <B class=dc>9</B>　　　テレサ気づかず</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（おお）</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>（テレサさんくうきよんだ！）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんよくやった）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサは珍しくちょっと慌てて走っていきました。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>あぶねぇ、あぶねぇなの。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>ついていっていい？</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>離れてついていく分にはバレないですよ。アレイラのうしろのうしろからどうぞ。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>じゃあアレちゃん尾行する程度の距離ですかねっ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では雑貨店に入って、テレサと店主が何か話をしています。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんがんばれー）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「聞き耳を立てるなの！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ﾌｫｵｵｵ……ふぁいと。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ではもう一回　機敏＋2D6＋3で！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>2D6＋7　聞き耳！   　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 7 </B>＝ <B class=dc>12</B></div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>3＋2D6　テレサ判定   　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) ＋ 3 </B>＝ <B class=dc>13</B> 　アレイラに対抗成功！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3＋2D6　店主判定   　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) ＋ 3 </B>＝ <B class=dc>9</B>　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ぎゃー、聴こえない！？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>テレサ……店主の言うことは聞こえるはずううう。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>奥の方の店主だけ聞こえるとはいかに。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ああ、いえ、どっちかというと「気付いたか」の判定です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサは一瞬ドアのほうを振り返りますが、何も見なかったフリをしてさっきより大きな声で話を続けます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>あ、よかった！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「テレサは強いなぁ……なの」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサ「ごめんなさいね、お義父さん。やっぱり……行けない？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>雑貨屋「なんだぁ、気にしてたのか。いいってことよ。それよりギリアムを頼むぜ。あいつも少しはマシになってきやがったが、やっぱモロいところもあるからな……ギリアムはおまえさんに任せる、頼んだぜ、テレサ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「ええ……分かりました」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>お義父さん！？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（キャラバンの隊長のパパだった！）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>（やっぱり身内かー）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（やっぱり担架で雑貨屋さん持っていくしか）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>雑貨屋「にしても、アイツが運んできた馬車の車輪、そのまま返しておきゃよかったぜ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　　　　　こんな状況なら元200の車輪が1000でも売れるだろうに、ったく……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「ほんと、商売って難しいわね……。それじゃ、失礼します……さようなら、お義父さん」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>雑貨屋「おう、俺の分まで頼む。元気でな」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というあたりで、テレサが出てきます。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>みんなのもとに戻って、かくかくしかじかを……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサは何事もなかったかのように戻ってきますが、アレイラに耳打ちします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「ねえ、妖精さん。馬車の車輪、かわなくていいの？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（バレてーた）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「亜ｑｗせｄｒｆｔｇｙふじこｌｐ；」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>実際の所、真面目な提案ですね。テレサはまだ皆さんにお礼できてませんし。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というかこのままじゃこのセッション中に次の街までいけねぇから報酬でないよ！（バーン！）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>切ないＧＭ事情。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>前回のあらすじ：火事場泥棒しました。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>やめて！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ギリアム「おーい」（隣の街から）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>と、とりあえずですね、アレイラにしてはまともな判断をして。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「テレサの事情、みんなに話すなの。いいよね？なの」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>あ、じゃあいまから聞くかんじなんですね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサ「いやがると思うわよーうちのお義父さん。むしろ旅の途中で邪魔しそう」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「そのときは、テレサが殴ればいいなの！　テレサ強いなの！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサ「あと、一人で逃亡して迷惑かけちゃったり……十分ありうるのよね」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「この状況でグダグダ言ってられないなの、アレが決めたなの、みんなに言うし、おっさん、連れて行くなのよ！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「というわけで、かくかくしかじかだから、みんな、よろしく頼むなのよ！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサ「すごい！あなたってそんなに優しい子だったのね……」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「それには賛成よ、アレちゃん！　やっぱり……見捨てられないもの」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「実際持ちつ持たれつになる、かな」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「（車輪はいただいていくなの……ぐへへへへ）」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「（なんかドス黒いオーラ見える気がするけど）」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「おっちゃん助ける！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>というわけで雑貨屋ゴー？</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ではなんとか重量を35あけて運ぶ感じになりますね。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>見捨てる選択しないと流石にグダりそうだけどテヘ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>助けていいなら助けるぞい。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>もちろん選択肢は常にどっちもＯＫですよーはっは。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「（ミル、重さ4、もてる、ぐへへへへ……）」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>（老人の重量配分計算中）ロイス重さどれだけいける？</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>今、ちょうど重さの空きが10だね。保存食捨てれば8空くぞい（ドン）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>保存食捨ててえと、8個減らす。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>んじゃ保存食4個すてまーす。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>キャラバンに追いつけば多分もらえますしね、保存食。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>好き好んでハードモードを選ぶ皆さんの心意気が熱い。果たしてこの先、どこまで善意がたもてるかな……？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>やだ……やっぱさっきのおっさんのセリフここへの布石だったのね……。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>火事場泥棒で終わるわけにはいかない、これでも英雄候補だから！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「おっちゃん、おっちゃん、いや、おじいちゃんくらいか、車輪貰うなのよ。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　いいよね？　もうお店捨てて逃げるんだもんね。いらないよね？　なの」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「いーや、売るね！！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（さすがやで……）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「きぃぃぃぃぃぃぃ、助けてあげるんだから、少しくらいくれたっていいなのよ！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「商売人たるもの、死ぬまで商売するのが流儀ってもんじゃねえか、商人のじょうちゃんよ？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「流石ね、その商魂……プライスレスだわ！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「だいたいなあ、行くにしても、もう俺は最後の希望を託しちまったしなあ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といって老人はテレサの方を見ますが、テレサは困った笑いを浮かべるだけでした。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「（仕方ない、分かったなの、謝礼は息子さんに貰うなのよ……ぐへへへへ）</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　200で買うなの！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「おっと、それならこいつも付けてやる」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>車輪をゲットすると同時に、【壊れそうなスリング】も付けてもらいました。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「おっちゃんここのってや！」ロイスといっしょに担架。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「車輪買うついでに爺さん、やっぱあんたを連れて行くことにした」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「おじいさんを買っちゃうってことで！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「はぁー！？」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「……あれ？　みんなカッコイイ、なんかズルイなの……」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「抵抗は無駄だよ。さあ身支度して乗った乗った」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「おっちゃん見捨てることなんてできないんや」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「……何？　この展開！？　え？　みんな、頭おかしいなの！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「言いてぇ事は山ほどあるだろうが、悲しむ人間がいるうちは生きる手段があるならきっちり生き抜かねぇとな」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「値段表にのってなかったんだからお値段はついてないですよね、というわけではい乗った乗った」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「おいおい、俺は高ぇぞ……（考え中）。　いや待てよ、よく考えりゃもうこれっぽっちも価値なんてねえか！？　そりゃーそうかーハッハッハ！　こいつは一本取られたな！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そんな後ろでテレサが老人にジェスチャーしていました、「ア・キ・ラ・メ・ロ」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>テレサさん強い。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「てめぇらがうるさく言うのがおさまるってんだったら安い買い物だぜぇ、ついていってやらぁ！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「やったぁ！　ちゃんと息子さんのとこまで連れていきますからっ！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「悲しむ人は少ない方がええ！」　わっせ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「言っとくが乗り心地は保証しねぇぞ」　わっせ。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ふん、いいもん、アレは金儲けに生きるなのよ！（……メッチャ切ないわー……）」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんどんまい……）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「しまった、息子と契約結んでない、となると、これも無料とか？　辞めて！　なの！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「じゃあこいつも付けてやらぁ、てめぇら明かり持ってねーだろ、ほれっ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と、さらに【ランタン（200シルバ相当）】を一個くれます。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「わぁー、じぃちゃんまでカッコイイことをし始めたなの、なんなの！！」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「アレちゃん……アキラメテ☆」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>アレイラが変な意味で切ない。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「ありがとうおじいさん！」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「こんな高価なもの貰っていいの？」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「ばっきゃろー俺の旅支度だ！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「ありがとな、おっちゃん！」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「だったら車輪をタダにしろーなのー！」（バンバンバンバン）机叩き。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「あ、それは本気で1000で売れる可能性があるぜ。最低でも500はかたいな」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（バンバンバンバンバン）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「よかったじゃない、アレちゃん、丸儲けよ、ね？」　となだめます。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「え？　そう？　じゃぁ、いいや！　なの！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「差分800シルバあるならいいじゃねぇか」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「商人の頭で想像してみろ、この街からたくさんの馬車が出て、そのうちいくつが車輪や車軸をぶっつぶしてると思う？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「急いで出るんだもの、ロクなメンテナンスをしてないものも多いでしょうね」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「は！　馬！　馬を買い付けるなのよ！馬もへたるなのよ！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「悪いが馬はねえなあ」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「雑貨屋だものね……」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「がーん、売ってたしても2500シルバもする……なの……切ないなの」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「爺さんは運ぶとして、売ってる道具とかどうすんだ？」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「それは“買う”しかないわね！　私はもうお金もってないけど！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「倉庫に入れておくぜ。これが実際役に立つんだよ、『後に』な」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>この倉庫は絶対壊れない。システム的な意味で！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>じゃあ倉庫におじいちゃんも。　　　　<B id=cc>←！？</B></div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>餓死しちゃう。その前に霧には呑まれそう。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「隣の町までいったらおまえらにここのカギをくれてやる。自由に中身を使いな」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「君と鍵を集めるRPG」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>そのころには飲まれてそう……あ、アレちゃんが商売できるってことか！　全部解決したら！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「おじいさん、イキなことするわねっ……！　アレちゃんに店ごとくれるなんて」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ぐふふ、ぐふふふふ、ついにねんがんのみせをてにいれたぞー！　なの！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「まだ予定だけどな」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「そういう意味もあるが、どっちかってぇと……霧にのまれた『後』にも、役に立つはずだぜ」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「どういうことなのか気になるけど、もう出発しないと危なそうだよ」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「そろそろ街出るかぁ」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「おっと、では急ぎましょう！」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人はおとなしく担架に乗ってくれます。ただし老人を担架に乗せたりして運ぶ場合、老人そのものには荷物を持たせられないので注意してください。</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>はーい</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「じぃちゃんは、アレの商売人の魂を見込んで店を託したなのよ！　ぐふふ……」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「はーい落ち着きましょうねー」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「なんだぁ妖精、店が欲しいのか。店だけならこれから安く買いたたけるだろうよ、</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　　　 闇の中にのまれる物件でもよけりゃな……ま、先行投資のしどきじゃねえか？（ニヤリ）」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ぐふふ、店があれば、あーんな（エロ）衣装や、こーんな（エロ）衣装を飾るなの」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>老人「おっと、俺の名前はマルギだ、よろしくな」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「マルギさんですね、よろしくお願いします、私はサントリナっていいま……アレちゃん落ち着いてねー」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>その横で、テレサもなんだかんだで嬉しそうです。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「テレサさん、よかったですねっ！」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「おっと、そうなの、ミル、この車輪を運ぶなのよ（テレサとマルギでいくら貰えるかなーなの。ぐふふふふ……）」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>さすがに馬車とかなにもないよね。 「盗賊いれば襲って馬車奪うんだけどな……」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「（ポロッと今怖いこと聞こえたんだけど！）」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「ロイス…物騒やな…」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>元気になったパーティーの心の中なんてこんなもんですよね！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「あん？向こうだってこの時期にここに来てたら間違いなく火事場泥棒してるだろ、なら奪われても文句言えねぇなあ。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　奪った後はあ・ん・ぜ・んな所まで連れていいっておろせばいいさ」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ロイス君がツンツン系暗黒面に！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>前回の影響のせいですきっと　ｶﾞﾀｶﾞﾀ。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「馬車を手に入れるのは現実的な目標だけど、もう近くには残ってないんじゃないかな」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「それもそうやな。いいひんかなぁ盗賊」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「ごめんなさい今はあなたたちが一番怖い（凄い小声）」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>もうさすがに馬車はいませんねー。馬車に乗ってない盗賊の二人組はずっと向こうにいますけど。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>最後に脅してみますか？</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>そんな時間があったら霧から逃げたほうがよさそうですね。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「向こうに盗賊っぽいのはいるけど馬車持ってないんじゃなぁ」</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「あんなところをうろついてるような奴らなんてろくなもの持ってないよきっと」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>リーナの見覚えがある盗賊なら、薬を持ってるかも……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ちなみにあれは、サントリナが見た盗賊二人組です。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>あ、やっぱり。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「あー、そういえば施療院で見たひとたちだなあ……（とかぼそりと漏らします）」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「私が行った時まだお薬まだいっぱい残ってたくらいだから相当もってるんでしょうね……って急ぎましょっ！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「とりあえず次の街まで行くしかないな！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「仕方ない、走るか」</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「じゃ、急ぎましょう！」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「走ったるで！　いそごいそご！」</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「ミル、走るなのよ！　1000シルバで売れたら、まず、ミルを完全調教するのよ、ぐふふふふ」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では、皆さんは街から飛び出すように駆け出します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>担架の上のマルギさんが「おぼぼあばばばばば」と言っていますがどこか楽しげです！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサさんも疾風のように走っています！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>足がつむじのようになって走るテレサさん。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>（テレサマジシノビ）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ていうかテレサさんのＨＰ2しかねえ！さすがにこれはまずい！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えーとテレサは店に並んでいた回復薬をくすねて一回分だけ治療します。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>マルギ「おい、それは俺の店のー」</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>3＋1D6　回復薬ヒール   　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 3 </B>＝ <B class=dc>6</B>　　<B id=dhp>　　ＨＰ 2 → <B id=dhealhp>8</B></B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>テレサ「うふふっ！」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>笑顔で走り去っていくテレサさん。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>テレサさんまじテレサさん。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>「あー！！！　なの！！！！」（バンバンバンバン）机叩き。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>「わーん、それなら私の“練習”のために医療キットも持って来といてくださいよー！」</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>テレサさんが一番キャラ立ってないですか。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>NPCって、NPCって嫌いだ……なんでPCより活躍しちゃうのん……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>皆さんがシノビとか言い出したあたりからマズくなってきましたね……（あと肝心なときの出目が目立つ）</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>まあとりあえず移動しましょう。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>今回はさっぱりしたエンドになりそう！　やっぱりこうじゃなきゃ！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>さっぱりしないエンドはそのうちのお楽しみですね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>では予定していた物語の半分くらいですが、ここで第二話を一旦区切りとさせていただきます！</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>お疲れ様でしたー！</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>終了後……</H1>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>1000シルバGet！　1000シルバGet！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>テレサの持ち物はまた決めておかないといけませんね。余った医療キットとか食料とか搭載しておかないと。次からの4日の行程で鬱と天秤なストーリーが繰り広げられますのでお楽しみに。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>医療キット補充できたからええんや……！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>これで次回何食わぬ顔してハムイが一緒に走ってたらどうしよう。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ぶふっ。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>あるかもしれないｗｗ</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>敵に襲われるシーンがあるからきっとたすけにきてくれるよ！！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ハムイ、たまに風車で連絡くれるよね！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>実はアレイラが説得しても爺さん見捨てるつもりでした。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ロイスの脳みそまで黒い霧が……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「俺は反対だな。　爺さんの覚悟を無碍にするもりか」的な感じで。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>あそこは確かに見捨てる流れだったけどPC的にはっ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「爺さんだって望んでお荷物にはなりたくないだろう」と。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ああ、ロイスさんマジかっこよい……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ロイスさんは例の事件からちょっと何か覚悟を決めたとかそんな感じになっていくのかもしれないですね。なおマルギ的には「テレサについてこいって言われたらなあ、あいつ恐いし」みたいな感じ。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ンクはテレサさんさえ見ていなければ強盗も辞さない構えでしたが皆さんが善人でよかったですね。</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>大丈夫ですよ、ヤるときにはサントリナが見てないところでヤりますから（ﾆｯｺﾘ）</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>　<B id=cc>↑陰湿さではンクさんがトップのような気がしてきますね。</B></div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>わあい……しかしPC的には「助けられる命は全部助ける」的な行動を選ばざるを……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>片道勇者の世界で果たしてそれをどこまで言っていられるかなー！？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というマスタリングになりそうです。今からあやまっておきます。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>覚悟完了してますアハー、見殺しにせざるをえなくなってどんどんソウルジェム濁るサントリナ。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>アレイラは最終的にツンデレ商人になるんでしょうかねぇ……儲けより人命を選んでしまった……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ロール的には「助けを求められたら助けるけど、死を覚悟してる人間まで助けるのはその人の尊厳を侮辱している」と言う感じですねー。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>「生き残るためには手段を選ばない」ロールです。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ロール的には「助けられる範囲の人間は全員助ける」的なかんじです。命が消えるのをみたくないみたいな（でもそんなのこの世界じゃ通用しないからどんどんアレに）。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ロール的には「儲け優先っぽくみせてツンデレ、儲け度外視で助けれる人は助ける」よ。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>「酒場のマスターとの約束だと思って、できる限り助ける」ロール。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>酒場のマスターが何いったかアドリブだったので覚えてない！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>ぶふっｗ　見捨てる覚悟しとけ的なこといってた覚え！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>「誰でも助けられると思うんじゃねー云々」</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>ヴァンはできる限り助けると言って。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>マスター、かっこいいロールしてたのか！　危機的状況でカッコイイロール！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>そうだマスターのセリフが全体にわたるテーマだった！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>冷たい方程式（目的を果たすために捨てなきゃいけないものを泣きながら捨てていくしかない流れ）ですね。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>冷たい方程式においては最初に自分を引くタイプなのかしらん。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>その伏線拾おうと諦めロールしようとしたらアレちゃんが助けるって言い出したのでのっかったっていうね！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>命の重さがPCによって違うのが結構バランス取れてるぞこのパーティ！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>Laｗサイドが多いですね。これがどう推移していくかが見所ですね。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ニュートラルです。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ニュートラルです。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>（大笑い） え……ニュートラル……アレ……？</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>やだなーこっちは悪者相手には容赦しないだけで決してカオス寄りじゃないですよー。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>悪者は悪いことするなら自分も同じように痛い目を見る覚悟が必要って感じですね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ンクさんもどこかダークな面が。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>野生の世界なんですね！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>やだなー、今回は闇が迫っていてどうしようもなさそうだからせめてもの足しにしようと思っただけですよ（笑顔）</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>躊躇なく民間人のタンスをあける勇者の顔してる……！</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>宿屋と雑貨屋を手に入れたんだから、最終的に街全体を手に入れて……ぶつぶつぶつぶつ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>それでなぜか復興に従事することになっちゃうんですねアレイラちゃんは。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>宿屋はヴァンがもらった！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>街全体で皆ちょっとずつ分かれそう。今回はヴァンさんとアレちゃんがサイーショの街で施設もらったし。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>ロイスは経営面倒くさいから適当に街に居座るだけになりそうだ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>なんだか暖かいゲームエンドが想像できる。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>それまでに死人出てないといいんですが！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>これでこのＴＲＰＧのエンディングがぱっと出の全裸勇者が闇を倒して終わりだったらどうしよう。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>（なにその打ち切りエンド……）</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>あれ…ヴァン兄弟の世話してたし宿屋向いてるんじゃね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ヴァンさん優しそうなタイプですしね。なぜか似合ってそう。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>酒場のマスターになってるヴァンさんが容易に想像がついてしまう……。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>似合いすぎてる。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>酒場のマスターヴァン「ここに地図があるんだが10シルバで買わねーか」　歴史は繰り返す。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>マスターにも過去があったんですな！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>（次の街でも店舗を手に入れれば……ぶつぶつぶつぶつ。待てよ、妖精にエロ衣装を着せて喜ぶってニッチな趣味なのか？　だとしたら、いやいや、エロと娯楽がないと文化にならないってくらいですから、いや、それと需要は……ぶつぶつぶつ）</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>ところで冒頭から気になっているんですが、ロイスさんの孤児院ってサイーショの街にありませんでしたっけ。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>いえ、違う街の設定ですねー。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ロイスは遠くの街から出稼ぎに来た展開だった気がします、オープニング見た限り。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>出稼ぎでしたか！それならよかったです！</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>孤児院が犠牲ってもうダークサイドになっちゃう！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>変異した孤児たちを踏み越えて進むようなヤクい展開にならなくてよかったよかった。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>というかこの地図のどこからみんなが集まってきたんだ！左から山をこえてきたのかな？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src=image/02_Map5.jpg border=1></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><small>※プレイ当時の地図</small></div>
+<BR>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>覚醒使って山超えました。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>適当に山超えました。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>サントリナはまだ秘境だから山から来たとしても……。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ミルが覚醒しました！</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>別国からきますた。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>この配置、理由がないとこの街に来る動機がないぞ！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>北の山岳部からやってきました。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>みんな序盤から覚醒ぶっぱだー！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>あああ、別に闇に追われてないんだから、覚醒しなくてもいいんじゃないですか？（そういう問題じゃないのは理解している）</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ごめんね、誘導しやすそうかなって思って……これなら左と上にも道作っておいたほうが説得力がありますね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>じゃあマップが次でまた変わります。片道ＴＲＰＧの地図はどうなってるんだー！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>にしてもお金が入らなくてすみません。今はチュートリアル状態で無料補給モードですけど。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>保存食的に大丈夫なんじゃないかな。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>アイテム手に入ってるし、成長してるので無問題！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>金、金よこせー。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>次の街に付いたら色々とお金を使うアテもできそうですし、楽しみですね！</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ミルを調教するんだー。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>商人はおいといて　金はまだ大丈夫そうですね！</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>この世界において持ちきれないものは全部使いまくれる資源になります。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>地球崩壊前の市民みたいだ（もうすぐ地球が滅ぶので資源使いまくっても問題なくなる展開のSFがあった）</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>えええぇっ！　お金の概念がなくなっちゃったら、わたしの存在意義は！？</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>そうか、アレイラが理術士にクラスチェンジするんだな、この流れ。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>でもこういう世界だからこそ、お金で買える場所ではすごいお金が動くんですよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>という意味で『天秤』ってタイトル付けたらそこまで行けなかった！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次回『天秤・下』お楽しみに！</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>よかった、天秤にかけられる命は存在しなかったんですね。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>天秤……爺さんを救うか見捨てるか。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>判定次第ではテレサを見捨てるルートも用意してあります。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>テレサさんなら大丈夫ですよ！</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>むしろ今回テレサ死んでもおかしくなかった。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>最初もテレサ見捨てるかどうかの天秤でしたものね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>確か、最初の戦闘で戦闘不能が2人増えたら1人は置き去りにしないといけない計算のはずです。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>テレサは治療できるし、強力な味方になるような気がします。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B id=cc>↑ＰＣじゃないから基本的に自分以外に率先して治療はしないよ！</B></div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>今回テレサが強すぎた。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>テレサにも経験点が入ってたら……わたしらより強い……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>ミルかテレサかどっちか死ぬかなーと思ってた！ごめんね。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>保存食が減りました。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>治療できない癒し手のほうを置いていくべきですね！(´；ω；)</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>ミルが死んだら、わたしの特徴が……300シルバが……。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>逃走時にミルを持ちきれない場合、ミルは逃すっていう選択肢もあったんですよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どこかで再会ダイス振って、成功すればまたひょっこり。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>強くなって帰ってくるなら問題ない。</div>
+<div id=nm><font class=c6><B>普通なサントリナ</B></font></div><div id=tx class=ct6>野生の世界で……。</div>
+<div id=nm><font class=c1><B>普通のロイス</B></font></div><div id=tx class=ct1>再会する頃には二足歩行でムキムキマッチョに。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>顔だけ可愛らしいままで。</div>
+<div id=nm><font class=c2><B>強そうなヴァン</B></font></div><div id=tx class=ct2>鳴き声はカピーバラですね。</div>
+<div id=nm><font class=c0><B>かわいいＧＭ</B></font></div><div id=tx class=ct0>加速するスーパーミルの容姿。</div>
+<div id=nm><font class=c5><B>ノーマルなンク</B></font></div><div id=tx class=ct5>間違いなくミュータント。</div>
+<div id=nm><font class=c3><B>切ないアレイラ</B></font></div><div id=tx class=ct3>最終話でみんなの前に帰ってきてラスボスと互角に戦うんですね。</div>
+<HR class=line>
+<BR>
+<BR>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7><B>『すごいミル』の話をしつつ、物語は次回へ続きます……。</B></div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7><B>　　　　　　 → <a href=Replay03.shtml class=red><font size=+1>【第三話『天秤・下』へ】</font></a></B>　（2013/4/10アップ！）</div>
+<BR>
+
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>　</div>

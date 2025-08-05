@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>＜自家製＞片道勇者TRPG リプレイ</title>
+
+
+<link rel="stylesheet" href="replay.css" type="text/css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+	<div id="flowmenu">
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+<a href="../../" class=red><B>←ホームへ戻る</B></a><BR>
+
+	      <BR>
+	      <TD class="white" nowrap>【&lt;自家製&gt;<BR>　片道勇者TRPG】<BR>
+  <a href="Replay00.shtml#S0" class=red>◆はじめに/TOP</a><BR>
+  <a href="Replay01.shtml#S0" class=red title="◆1話『出会い』">◆1</a> 
+  <a href="Replay02.shtml#S0" class=red title="◆2話『天秤･上』">◆2</a>
+  <a href="Replay03.shtml#S0" class=red title="◆3話『天秤･下』">◆3</a>
+  <a href="Replay04.shtml#S0" class=red title="◆4話『ﾗｲﾌﾞﾗの街』">◆4</a><BR>
+  <a href="Replay05.shtml#S0" class=red title="◆5話『図書迷宮』">◆5</a>
+  <a href="Replay06.shtml#S0" class=red title="◆6話『絶望の街』">◆6</a><BR>
+  <a href="Replay07.shtml#S0" class=red>◆7話『荒野へ』</a><BR>
+  <a href="Replay08.shtml#S0" class=red>◆7話番外</a><BR>
+  <BR>
+  ◆8話『砂の街』<BR>
+  　<a href="#S1" class="g">○人気投票</a><BR>
+  　<a href="#S2" class="g">○開始～成長</a><BR>
+  　<a href="#S3" class="g">- 1.風呂と宿</a><BR>
+  　<a href="#S4" class="g">- 2.黒い狼</a><BR>
+  　<a href="#S5" class="g">- 3.露天商</a><BR>
+  　<a href="#S6" class="g">- 4.占い</a><BR>
+  　<a href="#S7" class="g">- 5.手紙</a><BR>
+  　<a href="#S8" class="g">- 6.買い物</a><BR>
+  　<a href="#S9" class="g">- α.終了後…</a><BR>
+<BR><a href="Replay10.shtml#S0" class=red>◆9話『奪還』</a><BR>
+<a href="Replay11.shtml#S0" class=red>◆10話『尋ね者』</a><BR>
+<a href="Replay12.shtml#S0" class=red title="◆11話『死の砂漠』">◆11</a> 
+<a href="Replay13.shtml#S0" class=red title="◆12話『分かつ心』">◆12</a> 
+<a href="Replay14.shtml#S0" class=red title="◆13話『再会』">◆13</a> 
+<BR><a href="Replay15.shtml#S0" class=red title="◆リプレイ後日談">◆後</a> 
+
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+	    <TR><TD class="white" nowrap align="center"><small class=c1><small class=close>ﾛｲｽ/冒険家</small></small><BR>
+	      <img src=image/face01-1.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c2><small class=close>ｳﾞｧﾝ/冒険家</small></small><BR>
+	      <img src=image/face02.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c3><small class=close>ｱﾚｲﾗ/商人</small></small><BR>
+	      <img src=image/face03.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c4><small class=close>ﾊﾑｲ/剣士</small></small><BR>
+	      <img src=image/face04.jpg border=1>
+	    </TD></TR>
+	    <TR><TD class="white" nowrap align="center"><small class=c5><small class=close>ﾝｸ/狩人</small></small><BR>
+	      <img src=image/face05.jpg border=1>
+	    </TD>
+	    <TD class="white" nowrap align="center"><small class=c6><small class=close>ｻﾝﾄﾘﾅ/癒手</small></small><BR>
+	      <img src=image/face06.jpg border=1>
+	    </TD></TR>
+<TR><TD class="whiteblue" nowrap align="center"><small class=c0><small class=close>クー(NPC)</small></small><BR>
+	      <img src=image/face20.jpg border=1>
+	    </TD>
+	    <TD class="whiteblue" nowrap align="center"><small class=c0><small class=close>ミイ(NPC)</small></small><BR>
+	      <img src=image/face21.jpg border=1>
+	    </TD></TR>
+	    </TABLE>
+</div></BODY></HTML><div id=com>　</div>
+<div id=com><a name=""S0""></a>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>&lt;自家製&gt;片道勇者TRPG　第八話　『砂の街』</H1>
+<div id=com>ようやくスコーピオの街にたどり着いた一行。　</div>
+<div id=com>ヴァン家でのドタバタ休息を終えた後、彼らは街へ繰り出します。　</div>
+<div id=com>そこで彼らが出会うものとは……。　</div>
+<div id=com>　</div>
+<a name=S1></a><H1 class=gradientA>第七話分の人気投票結果！</H1>
+<div id=com>以下は皆さまからお寄せいただいた、前シナリオの各プレイヤー・NPCへの人気投票結果です！　</div>
+<div id=com>たくさんのコメント、いつも本当にありがとうございます！　</div>
+<div id=com>　</div>
+<div id=def2><TABLE class="bgray" cellpadding="3" cellspacing="1">
+  <TBODY>
+    <TR>
+      <TD class="whiteblue" align="center">順位</TD>
+      <TD class="whiteblue" align="center" colspan="2">名前・コメント（※ＰＬ分は本人コメント）</TD>
+      <TD class="whiteblue" align="center" colspan="2" nowrap>寄せられたコメント（一部抜粋）</TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">１位</FONT></B><BR>
+      （48票）</TD>
+      <TD class="white" align="center" nowrap width="60">ハムイ<BR>
+      <IMG src="image/face04.jpg" border="1"></TD>
+      <TD class="white" align="left" width="200"><small>ハムイ「」　ミイ「声がー」　ハムイ「」　ミイ「遅れてー」　ハムイ「」　ミイ「聞こえるよー」
+※バケツの食卓(グルメ) -Cooking Hamui列伝- は終了しました。次回作をお楽しみに！</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>「さすがはハムイ。真のサブラヒだった」<BR>
+      「初めてかっこいいと思いました…でも寝間着…サントリナ哀れ」<BR>
+      「行動予測不可能なカオスの権化たるハムイさんが大好きです。<BR>
+      　これからもそんな貴方でいてください」<BR>
+      「今回はサブラヒとしてすごいかっこ良さが出てましたね。<BR>
+      　『闇を封じることこそサブラヒの真の試練』ハムイさんマジイケメン」 <BR>
+      「ハムイvsサトリ最高でした。またサトリさんが変な電波を受信して<BR>
+　勝負を挑んでくる展開希望ですｗｗ」</small></small></small></TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">２位</FONT></B><BR>
+      （28票）</TD>
+      <TD class="white" align="center" nowrap width="60">ロイス<BR>
+      <IMG src="image/face01-1.jpg" border="1"></TD>
+      <TD class="white" align="left" width="200"><small>ロイス<BR>
+      「シビアコってなんだ…？　てかお前ら毎度毎度主人公やらそれに関連する似たようなことばかり言いやがって、俺は後悔しない生き方をしてるだけだってーの！　わかれよ！」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small>「今回も実に鉄壁なハードボイルドロール、お疲れ様でした」<BR>「ロイス頑張ってる！シリアスRPが出来るPLにシビアコ！」<BR>「クーからの一撃を受け入れようとするその姿勢といい、<BR>　背中越しからかける言葉といい、かっこ良すぎます」<BR>
+      「何故、エッチなロイスじゃなかったんだー！<BR>
+      　くっそうこの正統派主人公がー！」<BR>
+      「いつかクーちゃんを隅々まで冒険していただきたい」 </small></small></TD>
+    </TR>
+
+
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">３位</FONT></B><BR>
+      （24票）</TD>
+      <TD class="white" align="center" nowrap width="60">クー<BR>
+      <IMG src="image/face20.jpg" border="1"></TD>
+      <TD class="white" align="left" width="200"><small>クー<BR>
+      「サトリさんの料理は食べられなかったけれど、番外編で謎パンを食べられたので満足です……」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>
+「いい仲間（PC）に恵まれてよかったな……」<BR>
+      「いざという時に遠慮なく手を下してもらうためにあの様な<BR>
+　行動を取ったのではないかと邪推してしまう……どう転んでも<BR>
+      　楽しめそうですが、やはり幸せになってもらえればそれが一番です」<BR>
+      「まだ許すことは出来なくてもいつの日か再び心の光が戻るのを期待して」<BR>
+      「この娘のポテンシャルが高すぎて末恐ろしいです。<BR>
+      　ギャグOK 色気OK シリアスOK　まさにオールラウンド」」<BR>
+「（でもそれより隣の黒ずんだ何かを食べたい……！！）で爆笑しました」</small></small></small></TD>
+    </TR>
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">４位</FONT></B><BR>
+      （22票）</TD>
+      <TD class="white" align="center" nowrap width="60">アレイラ<BR>
+      <IMG src="image/face03.jpg" border="1"></TD>
+      <TD class="white" align="left" width="200"><small>アレイラ<BR>
+      「借金生活？　ふふっ、１万シルバが手元にあるなのよ、なに勘違いし……ミイ、何やっているなのぉぉぉぉ！？」<BR>
+      ハムイ欄に続く→</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small>「借金生活！せめて票をあげよう(ｹﾞｽ顔）」<BR>
+      「話数を重ねるにつれ段々ツンデレ度合いが高まっている気が。<BR>
+　がめついかと思いきや売られかけたフェアリーを救っていたり」<BR>
+      「パーティー内で一番空気を読まないで一番人間味あふれる <BR>
+      　キャラだと思う。ミイとの展開に期待」<BR>
+      「パーティーネームはロイスーズだと語呂が悪いので、 <BR>
+      　『アレイラーズ　～アレな人達～』でいきましょう！」</small></small></TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">５位</FONT></B><BR>
+      （18票）</TD>
+      <TD class="white" align="center" nowrap width="60">
+      ガルー<BR>
+      <IMG src="image/face22.jpg" border="1"><BR>
+      </TD>
+      <TD class="white" align="left" width="200"><small>ガルー<BR>
+      「俺に癒されたいヤツが多いようだが、俺のＭＰは１０しかないんだぜぇぇ！？またそのうちひょっこり出るかもな！」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>「とても私好みの性格！　敵側でも、悪役の素振りをしながら、<BR>
+　実際はそうとはなりきれないあたりがなんともいいですね。<BR>
+　ガルー君に治療されたいアッーーーーーーー！！」<BR>
+      「リリィといつまでもお幸せにね！」<BR>
+      「完全に小物系悪役然として登場したのに、嫁（？）が<BR>
+　帰ってきたとたんにスチャラカになる海賊風狼さん……イイ！」<BR>
+      「押さえつけ強制治療という新しいジャンルの開拓が強烈だった」</small></small></small></TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">６位</FONT></B><BR>
+      （16票）</TD>
+      <TD class="white" align="center" nowrap width="60">
+      サントリナ<BR>
+      <IMG src="image/face06.jpg" border="1"><BR>
+      </TD>
+      <TD class="white" align="left" width="200"><small>サントリナ<BR>
+      「人からもらったものは大事にしましょう。お姉さんとの約束よ？」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>「『パジャマなのおおおおお！？』彼女が叫んでそのまま頭から<BR>
+　崩れ落ちる場面を幻視しました。個人的に今回の<BR>
+　MWP（もっとも・笑えた・PL）を差し上げたい。」<BR>
+      「次回はまたドジっ子に戻る事を期待（？）してます！」<BR>
+      「今回はサントリナさんのダイス目がよくて残ｎ（ｒｙ」<BR>
+      「頑張ってください！最近ダイスが振るうのがアレですがｗｗ」<BR>
+      「今回は戦闘でも治療でも活躍出来ましたね。いよいよ<BR>
+　サポートキャラとしての存在が大きくなってきたと思います」</small></small></small></TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">７位</FONT></B><BR>
+      （14票）</TD>
+      <TD class="white" align="center" nowrap width="60">ンク<BR>
+      <IMG src="image/face05.jpg" border="1"> </TD>
+      <TD class="white" align="left" width="200"><small>ンク<BR>
+      「賊って言ったお客さん、ちょっとここにきて座りなさい。そうそう、そこの台のくぼみに首がくるように」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>
+「初・貞操の危機でしたが何事もなくてよかったです。しかし<BR>
+　斧装備とか随分と賊っぽい見た目になってきた様な気が（禁句）」<BR>
+      「最近料理スキルに磨きがかかって何よりです。<BR>
+      　何だかんだでPT内で空気が読めてる方だなーと思います。<BR>
+      　(ロイスからちょっと身を引いたところでクーとのやり取りを見守って <BR>
+      　いたりと｛当の本人がどう思っているかはともかく｝)」 <BR>
+      「戦闘に関してはダイス的に微妙なことに……今後の活躍に期待です」</small></small></small></TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap rowspan="2"><BR>
+      同率<BR>
+      <B><FONT size="+2">８位</FONT></B><BR>
+      （12票）</TD>
+      <TD class="white" align="center" nowrap width="60">ｳﾞｧﾝﾛｰﾊﾞｰ<BR>
+      <IMG src="image/face02.jpg" border="1"></TD>
+      <TD class="white" align="left" width="200"><small>ヴァンローバー<BR>
+      「は、早く毛手入れしとかんと…めっちゃ焦げてるやん…」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small>「かばいまくってルナティックかつハッピーエンドにたどり着かせた<BR>
+      　張本人!?　吉となるか凶となるか楽しみにしています」<BR>
+      「相変わらず保存食loverとして健在してなによりです。今回は五話で<BR>
+      　あまり発揮できなかった「エッチな」ロールが出来て良かったです<BR>
+      　今後もぜひ1番でいてください期待してます」<BR>
+      「炎上したまま仲間をかばい、倒れる姿はまさに唯一無二<BR>　の盾(アフロ)。さすがにナイトは格が違った･･･！ </small></small></TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap width="60"><B>ＧＭ<BR>
+      </B><small>ｹﾞｰﾑﾏｽﾀｰ</small></TD>
+      <TD class="white" align="left" width="200"><small>ＧＭ<BR>
+      「ありがとうございます、想定外展開に私も楽しませていただいております！（敵の強さはうまいこと調節するテクを身につけたいですね！）」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>「ＰＬに振り回され想定外しかないイベントを乗りこなす様に<BR>
+　ニヤニヤが止まりませんでした」<BR>
+      「進行の力加減を少し変えればBADEND直行ルートに入りそうだった。<BR>
+　最後のまとめ方が(少し強引かもだけど)見事☆」<BR>
+      「全員が爆走するなか物語を収束させた、汚れたGMに一票！」</small></small></small></TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">９位</FONT></B><BR>
+      （10票）</TD>
+      <TD class="white" align="center" nowrap width="60"><B>サトリ<BR>
+      (NPC）<BR>
+      </B><small>フンドシの<BR>
+      女サブラヒ</small></TD>
+      <TD class="white" align="left" width="200"><small>サトリ<BR>
+      「だっだだだ、ダメっ子ではない！！私だって本気を出せば……！」</small></TD>
+      <TD class="white" align="left" nowrap colspan="2"><small><small><small>「ハムイが最強すぎたとは言えこれではまるで駄目っ子ではないか……！」<BR>
+      「ダイス的にさんざんな事になったこの方ですが、次に会う時は<BR>
+　ハムイさんと共同戦線を結ぶ展開になったらと期待したいところです」<BR>
+      「重ーい話にはシリアスブレイカーが必要ですよね！<BR>
+　テレサさんといい素敵なNPCが多くて機会があれば<BR>
+　再登場しないかなーってちょっと期待してしまいます  」</small></small></small></TD>
+    </TR>
+    <TR>
+      <TD class="white" align="center" nowrap>その他</TD>
+      <TD class="white" align="left" nowrap colspan="4"><small><B>キャラバンリーダー（フォータクル妹）へ</B><BR>
+      　「女神なお姉さんですなぁ」　「この人がいてくれてよかった。本当によかった！」<BR>
+      　「アレイラとのやりとりでこの後どういう展開になるか期待です。<BR>
+      　　何気に兄であるフォータクル氏ともどういう関係になるかも気になる所」　<BR>
+      <BR>
+<B>審判へ</B><BR>　「ロイスPLさんの崩壊が良い」 </small></TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+<div id=com>　</div>
+<a name=S2></a><H1 class=gradientA>開始～成長</H1>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>今回は、ルールのバージョン1.1でプレイしております。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>今回は次回以降のシナリオ考えるための中間セッションでーす。小さめに。</div>
+<div id=nm><font class=c3><B>アレイラ</B></font></div><div id=tx class=ct3>経験値が貰えるなら死んでもやります。あ、死んだらダメだ！</div>
+<div id=nm><font class=c5><B>ンク</B></font></div><div id=tx class=ct5>戻りました。アレイラさん参加ですか！場の空気が引き締まりますね。マイナス方向に。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お気楽クエストではアレイラさんが光りますね。</div>
+<div id=nm><font class=c3><B>アレイラ</B></font></div><div id=tx class=ct3>ぴかりん～。</div>
+<div id=nm><font class=c5><B>ンク</B></font></div><div id=tx class=ct5>戦略面での活躍も見逃せませんよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでは、参加者の皆さんは二つ名を振っておいてくださーい。</div>
+<div class=box><B>【二つ名リスト】</B>
+<BR>　【12】 最強の 　2回も好きな出目に＋2できます（1度の判定に使えるのは1回分まで）
+<BR>　　　　　　　　　 ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【11】 優秀な　　1回だけ好きな出目を＋2できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【10】 強そうな　1回だけ好きな出目を＋1できます。ダイス振った後やダメージ判定後でも使用ＯＫ。
+<BR>　【9】　凄く硬い　ダメージ計算後、1回だけ任意のダメージを－2できます。
+<BR>　【8】　元気な・かわいい・強気な・美しい　好みで選択、特に効果はありません、ポジティブ系。
+<BR>　【7】　何もなし　　何もなし。普通が一番です。何もなくて寂しかったら「普通の」を付けてください。
+<BR>　【6】　疲れた・けだるい・切ない・汚れた　好みで選択、特に効果はありません、ネガティブ系。
+<BR>　【5】　エッチな 　エッチになります。ロールプレイのチャンスを逃さないで！
+<BR>　【4】　ドＭな 　　ダメージを受けるたびに歓喜の声を上げてください。
+<BR>　【3】　弱そうな　「目標値と同じ値で成功した判定」が1回だけ自動で1失敗扱いになります。
+<BR>　【2】　最弱の　　「2D6の出目が4以下」になると1回だけ自動で1ゾロになります。
+<BR>　　　　　　　　　　早めに4以下を出さないと恐いですよ。</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ンク</B></font></div><div id=tx class=ct5>2D6 ンク二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) </B>＝ <B class=dc>6</B>　　　<B>（ネガティブ系） → ひだるいンク</B></div>
+<div id=nm><font class=c6><B>サントリナ</B></font></div><div id=tx class=ct6>2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋1) </B>＝ <B class=dc>2</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B>　　<B>最弱のサントリナ</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>わあ。</div>
+<div id=nm><font class=c3><B>アレイラ</B></font></div><div id=tx class=ct3>最弱きたー。なのー。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ｳﾊｰ、最弱って今まで出たことありましたっけ！　でも最弱はほらプチ幸運回復できますしね、うん？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>確か、アレイラさんが１回最弱ですね。</div>
+<div id=nm><font class=c3><B>アレイラ</B></font></div><div id=tx class=ct3>2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) </B>＝ <B class=dc>7</B>　　　<B>普通のアレイラ → 健全なアレイラ</B></div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>普通だ……つまんない……もう一回振りたいよぅ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>2D6　ＧＭ　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) </B>＝ <B class=dc>7</B>　　　<B>普通の → 一般的なＧＭ</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6　クー　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋4) </B>＝ <B class=dc>7</B>　　　<B>普通の → 普通のクー</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6　ミイ　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) </B>＝ <B class=dc>6</B>　　　<B>（ネガティブ系） → 疲れたミイ</B></div>
+<div id=nm><font class=c1><B>ロイス</B></font></div><div id=tx class=ct1>2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) </B>＝ <B class=dc>5</B>　　　<B class=fred>エッチなロイス</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>来た！　こんなときに！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ついに来たか……エッチなロイス！！！！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>エ　ッ　チ　な　ロ　イ　ス……ｺﾞｺﾞｺﾞ。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>お風呂イベントを狙ったかのように！！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ただ1回遅かった感が……。</div>
+<div id=nm><font class=c1><B>ロイス</B></font></div><div id=tx class=ct1>1回遅かったね……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>青少年の健康を守れたことを考えればよしとしましょう。しません。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>なあに今回覗けばいいんですよ。ギャグパートなのでごあんしんです。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>お風呂イベントで健全なアレイラ、神様のいたずらなの……</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ロイスのキャラ的には身内に手を出すよりもその手の施設あたりに行ってきそうな気がしなくもないですが。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>あーたしかに……＞たまりたまったらそういうお店のほうに行くわ</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>イベントパートで3時間不在になるロイス。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>お金がないのに（検閲）を買わないで！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>急遽、街の移動可能施設に【大人のお店】を追加しました！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>大人の店。エッチなロイスさん用か……ﾎﾛﾘ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>さよならロイスさん……。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>エッチながついただけで大人のお店とか行くの！？　皆エッチながついてもある程度普通だったのに！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>だってもう１６日も……ね？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（検閲）をクーに使うなんて、なんてこと！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>まぁ、まだクーは（検閲）ので、（検閲）した（検閲）とか必要かもしれませんね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ケフン　アレイラPLさん　アウト。いろんな法律的にアウト。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>何の話です。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>始まる前からひわい度がマッハです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>許　す</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>許された。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>許　し　た　！？</div>
+<a name=S3></a><H1 class=gradientA>1. 風呂と宿</H1>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではインターミッション的セッション開始しまーす！</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>よろしくお願いしまーす！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>皆さんはヴァン家で朝をむかえます！　自由行動の始まりです。　今回も夜まで４ターンあります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【今回の街行動時は、自分で荷物を持ち歩いているか、拠点（ヴァン家）に置いているか各々宣言しておいてください！】</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>基本的には一人ずつ行動を宣言してもらう感じですね。行き先は以下の通りです。</div>
+<BR>
+<div class=box>【表通り】　ただの通りです。店が建ち並ぶ他は何も考えていません。
+<BR>【酒場兼宿屋 『元気な子ヤギ亭』】 　酒場兼宿屋、情報が手に入るかも？入口にガードマンｘ２。
+<BR>【自由広場】　占いテントや露天商など、外から来た者たちが自由に商売しています。
+<BR>　　　　　　　　 交易品（重さ1　200シルバ）を買うことができます。
+<BR>【アフカー商会　本部】　つぶれかけの弱小商会。買い物可能。
+<BR>【ドレーズ商会　支店】　あくどい商売で知られる商会。この商館では何も買えません。
+<BR>【フォータクル商会　支店】　良心とあくどさを備えた商会。借金を返す場合はこちらまで。
+<BR>【スラム（ヴァン家）】　治安がよくないスラムです、物乞いや犯罪者、立場の弱い人々がいます。
+<BR>　　　　　　　　　　　　　 闇市場が近所にあります。地下遺跡への入口多し。
+<BR>【闇市場】 危険なものや珍しいものが売っています。地下遺跡への入口多し。
+<BR>　　　　　 何が売ってるかは今のところ考えてません。
+<BR>【地下道】　この街の地下には広大な遺跡が広がっています。
+<BR>　　　　　　街の様々な場所にあるフタを開ければ容易に出入りできますが、
+<BR>　　　　　　ここは棄民や逃亡奴隷、犯罪者の溜まり場となっています。
+<BR>　　　　　　罠有りお宝有りですが、命は保証できません。明かりが必要です。
+<BR>　　　　　　積極的に入るかどうか分からないので内部はまだ何も考えていません。
+<BR>【風呂屋】　普段はサウナ風呂ですが、街が滅亡寸前なのでただいまお水・お湯が使い放題です。
+<BR>【大人のお店】　ハードさに応じてランク１（はべらせるだけ）～３（見せられないよ！）まで。</div><div id=com>　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><small>※今回は施設だけ用意して、次回の大雑把な流れが決まってからそれぞれ細かく考えていく予定でした。</small></div>
+<BR>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ンクは【荷物をヴァン家に預けて風呂屋】です。誰か一緒に来ませんか。特にエッチな人。ＧＭ許可が降りればクーとミイも連れていきたいです。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>健全だけどミイと一緒にお風呂には入るなの。アレの貴重品はミルが持ってますなのよ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ンクは荷物置きっぱ/アレイラはミルに持たせて風呂屋ですね。クーはロイスさんが連れていくかどうかですね。ミイを連れていってもいいですよ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>お風呂行きたいです　　２ターン目になったら自由広場へ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では1ターン目はンク＆リーナ＆アレイラが風呂からですね！　リーナは荷物は持っていくんですか？</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（風呂だと荷物を脱衣所に置かないといけないので危ない……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（チッ、気付いてしまったか……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あっ、先読みすいません！風呂から上がったら着る服が盗まれているイベントがあるはずだったのに！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（いえ、わたしは一番ヤバい貴重品の行方を気にしていました）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ヤバい貴重品……保存食……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（そうじゃなくて【理力の書】と【透明な矢尻】では……！）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>お風呂に持っていくのは危ないので、荷物はおうちに置いていきます。後で自由広場にいくときはもっていくかんじです。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ところでお風呂ってどこのことだろう。ヴァンの家についてる？　って、スラム街の家にお風呂がついてたら凄い。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>えーとですね、表通りに【お風呂屋】さんがあります！そこです！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>銭湯とは風流ですなのね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>お風呂屋については、普段はサウナ風呂的な感じで運営されてるっぽいんですが、もうすぐ闇に呑まれるので水使い放題ということで浴槽も開かれてて大賑わいですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>最後の晩餐みたいな……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あと2ターン経過すると補充されるお湯に「闇」が混じり始めて入浴中の人たちが―。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>そんなギリギリなターン構成？！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ずっと闇のターンだから仕方ないなの。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ターン！？　じゃなくて、闇が混じり始めるのはあと2日後からですね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>北西の湖が水源じゃないことを祈りましょう。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>の、飲まなければ大丈夫、だいじょうぶ……！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは皆さん、お風呂屋に向かって大通りを通過します。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ここでミイを連れて歩いているンクさんは1D6を振ってください。途中の道でのできごとです。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>はーい。</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>1D6　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　　　<B id=cc>←1だったらイベント起こすつもりでした。</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では……「何も起きませんでした」。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ｺﾞｸﾘ……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（怖い）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（起きなかっただけで認識はされました）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（誰かが狙っているんだわ……ひいいい）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（フォータクルに会う予感がするなの！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では女性陣は無事お風呂屋に到着しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>風呂屋「さー最後の風呂屋だよ！　なんと今しか入れない浴槽の風呂も用意してるよ！　さーいらっしゃいいらっしゃい！」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「うわー、賑わってるねー」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ですねぇ……」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「毛皮が小麦粉だらけで参っちゃうよもう」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「でも座る場所が無いのは嫌なの」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ちなみにロイスはどうしてます？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>んじゃ貴重品預かってミルと一緒に番しておこうかなー、何ターンやるかわかりませんけど。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「女の風呂は長いなのよ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「私も髪がパリパリしちゃって……砂とか色々なもので……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>まあ3時間（自由時間1ターン）も入ってれば十分でしょう。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>三時間ってのぼせます！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（くっ、それにしてもロイスＰＬさんのリミッターが外れない）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（エッチなのに！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（エッチなのに！　エッチなのに！！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（エッチな自覚を持ってください！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（なんだこの責められよう！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（風呂場でトラブル起こせば「どうした！」って突っ込めるじゃないですか）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（あ、ちゃんとエッチだった！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（クーがシャンプーの香りで出てきたら、きっと、きっと　なの！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（メイン回が水浴び→お風呂ってどんだけサービス精神旺盛なんだろう……）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、お風呂に入るとＨＰとＭＰが1D6ずつ回復です。ロイスは風呂屋の前でミルと仲良くしているんですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「やったー！　久しぶりのお風呂よー！　早く入りましょ！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>喜びいさんで脱衣所にて服を脱ぎます。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ロイスー、クーは借りてくねー。覗いちゃだめよー」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「ばっ、覗かねーよ！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（とかなんとか言っちゃって……ｸｽｸｽ）」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「冗談だってのにロイスはかわいいなあククク」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「……ったく、それよか貴重品は俺に預けときな。時期が時期なのもあるが、治安も元からあまり良くないみたいだしな」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「あ、じゃあお願いしますね。爆発物とかまだ入ってたかしら……というわけで気をつけて持っててくださいね！」にっこり。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「何が入ってるんだよ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「イロイロ入ってるんです、乙女の秘密ですよ☆」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「それじゃあ、これよろしくね」　重量22の背嚢をロイスに預けます。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「ミイも入るなのよ～、ほらほら、脱いで脱いで～なの～」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>なお、クーはいやがっています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クー「あ、あの、どうしても入らなきゃだめ……？」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「女の子はお風呂に入る義務があるのよ！　クーちゃん！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではクーを言葉で説得する場合は意志判定！　体力で無理矢理持っていく場合は体力判定をどうぞ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クーは全力です！　目標値だけ決めておきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6＋1　クー意志　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 1 </B>＝ <B class=dc>8</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6＋1　クー体力　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 1 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>よし、今日はＧＭのダイスが普通っぽいなのよ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では意志なら（８）、体力なら（６）でクーを引きずっていけます！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>まずは言葉で</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>リーナの言葉責めなの？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>2D6＋4(8)　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 4 </B>＝ <B class=dc>9</B>　<B id=dsuc>　+1成功！</B>　○</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「というわけで、はーいクーちゃんお風呂いこうね？」　
+<BR>いやあ意志をあげていて正解でしたね！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>いつも通りのサントリナさん的な出目５！　出目５でも無理だと！　クーちゃん連れていかれましたあああ！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>なんかクーは持っていかれてばっかりだ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「髪の毛から脚まで小麦粉まみれなんだから洗っちゃおう。ね」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クーは屈辱的な顔で連れて行かれます……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あ、その前にお風呂は20シルバです！　女性陣は入る人数分だけ減らしておいてくださーい。妖精はタダ！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>金とるのか！　なの！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>払います！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>では20シルバ払います。　310s→290s</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クーの分は……自分で払います。250→230　（※前回の番外編でクーにも250シルバが入りました）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「やった！　さすが、ひゃっほぅ、なの～」　アレとミイは茶碗くらいのお湯があれば十分なのよ。多分、野営してても水遊びくらいはしてそうなのよ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ところで、こんな人目がある場所で半獣であることをさらけ出しても大丈夫なんでしょうか？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>し、しまった！　そういえばせっかく作った【第一印象判定】をお風呂屋に入るときにやってませんでしたね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではここでNPCの第一印象チェーック！　まずはお風呂屋の入口からお願いします。</div>
+<div class=box><B>【NPCの第一印象表】</B>　2D6で決定し、大きいほど好印象です。
+<BR>　あなたが人間なら＋1　耳長/獣人なら±0　フェアリーなら＋2　半獣人なら－2のボーナス。
+<BR>　なお、同種族か[あなたの種族]フェチならボーナスが自動的に【＋2】に【上書き】されます
+<BR>
+<BR>＜結果＞
+<BR>　～1：超最悪　2～4：最悪　5～6：悪印象　7～8：普通　9～10：好印象　11～12：お友達　13～：親友・恋人</div><div id=com>　</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>[貴方の種族]フェチが気になるわ……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>今回のケースだと、「最悪」だと蹴り出されます！　じゃなくておことわりされます。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>2D6 印象値　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) </B>＝ <B class=dc>9</B>　　　好印象</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2D6＋2　アレ　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) ＋ 2 </B>＝ <B class=dc>10</B>　　　好印象</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>2D6＋2　ミイ　　　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 2 </B>＝ <B class=dc>7</B>　　　 普通</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>アレイラは気付かれないと思う！　というか気付かれたらお金とられますがな！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>あ、そうなの？　じゃぁ、無しっていうことでお願いしますなの。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ﾋｿﾋｿ……なんだアイツ尻尾が生えて……　湯に毛が浮くじゃねえか……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ソレ獣人でも……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あっ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>2D6－2　クー印象　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋3) － 2 </B>＝ <B class=dc>6</B>　　　悪印象</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それでは、クーは番台のおばちゃんにかなり白い目で見られました。でも通してはくれる。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>2D6 印象チェック！　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) </B>＝ <B class=dc>6</B>　　　悪印象</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>悪印象……ですって。
+<BR>（っていうか平目なら今後ともずっと基本悪印象を持たれる未来しか見えない！！
+<BR>　耳長フェチ以外は！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、サントリナもだ！　ではサントリナは、クーと同じくらい「じろ～」ってにらまれます！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（クーって普段耳とか隠してたような……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ﾋｿﾋｿ……なんだアイツ耳が長くて……　）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ほら、悪魔も耳長いし、なの）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「うー……ちょっと見られますね」　耳を手で掴み隠しながら。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>やっぱりその辺は異人さんって感じなんでしょうね。ちなみにこの街、獣人と人間の比率は２：８くらいです。風呂に入ってる獣人もいる！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>うわー！この風呂毛だらけだー！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では無事に風呂屋に入れた三人！　それぞれ脱ぎ描写をお願いしｍゲフゲフン！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>冗談です。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（描写しても載りませんよ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>パサリと一枚一枚服が脱げいく音g　　って！　ちゃんと描写してたのに！！！！！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>じ、自発的だと！？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>パッシブ：PLがエッチ　です。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ではクーはリーナに任せてスルスルと脱いで浴場へ突貫です。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>赤いたすきをしゅるるるる、白いワンピースをばっさー、わーい、わーーーーいなの～。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「こらアレイラー！勝手に先に行くんじゃなーい！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ここでアレちゃん沈んだら探せそうにないものねー」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ほら、ミイも脱ぐなのよ……あ、もう脱いでるなの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ミイ「いやっほおおおおうお邪魔しまーす！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかし、実際は脱衣所は人で混み合っています。信用ならないのか、袋に持ち物を詰めて入ってる人もいますね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>というわけで、クーちゃんの服も脱がせていざ出陣ですね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、クーはいやいや脱ぎ始めますが……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>はじめますがー……？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>少し脱ぎ始めた時点で皆さんは気付きます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クーの腕や体には、少女にはとても似つかわしくない、ひどい傷跡が残っていることが分かります。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……？！」　意志チェック必要ですか！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>いえ、いりませんよ！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ロイスがドＳだった！！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（その方向性！？）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>オゥ……　痣や火傷の類ですね？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（虐待跡って選択肢を真っ先に出さないPLたちがこわい）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>たぶん打撲のあとがそのまま残ってるのかなーと思われる部分がメインです。紫色や黒くなったまま治らないところがポツポツ……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>これは児童相談所に電話するなのよ！！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（まず虐待跡だろうなーとは……）　
+<BR>リーナは、何も言われたくないだろうなと察して優しく手をひき、バスタオルをクーちゃんにもたせます。</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>公共の浴場マナーには違反していますが、</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「入る直前にとっちゃえばいいのよ、こんなの」　とか笑いつつ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それともう一点、クーの下腹部の周辺が、異様に毛深くなっています（卑猥な意味じゃなくて）。下着がなくてもR18にならないくらい動物の毛がモジャモジャです。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ああ……それは……ガッカリ……いえむしろ……ですが……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（これは……どうしたものかしらね……）ブツブツ……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あと尻尾がすげー長いです。あと10cmで足元までつきそう。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>長っ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>という情報が分かりました！以上！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ちょっとこれはロイスも脱がしてみないと。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ロイスさんはもっと進んでいそうですね？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ちなみに、ロイスはどれくらいモジャモジャなの？　よし、夜中にロイスをひん剥いてやろうなの、うひひっ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ロイスはあまり闇堕ちしてないので進行が遅かったりするのかもしれませんが。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（心の闇度で進行早まるのかなー（今更））</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>とりあえず、バスタオルまいてあげて入れてあげます！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クー「あ、リーナさん……ありがとう……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「大丈夫大丈夫、その年頃の子がお風呂で恥ずかしいなんてよくあるんだから。ね？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>とか手を引きつつ自分もちゃっかりバスタオルまいてます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは、皆さんが女風呂に入ると、人口密度が１人/ｍ2くらいの超大混雑です！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>イモを洗うような混雑！</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>「うひゃー、闇が迫ってるのにこれだけヒトが残ってるんだねえ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「わー、流石に混んでるわね……」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（なんか夏のプール会場みたいな……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>いつも通りサウナであかを浮かしてゴシゴシしてる人もいれば、ヒャッホーって何もせずに仮設湯船に突入してる人も居たりしてカオスです！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「湯船のマナーなんてあってないようなものね、これじゃ……（逆に助かったけど……）」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「あー、私達は風呂に入る習慣が無いからあまり分からないんだけど、これがカオスだってのはさすがに分かるよ」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「塩素、塩素拾いなの！　ミイも塩素拾うなのよ！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>塩素なんてないよ！！！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>アレちゃん何いってるの感凄い。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……プールじゃないしエンソもないわよ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ミイ「ねえ、お風呂入りに来たんじゃないの！？」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「プールといったら塩素拾いなのよ！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ミイ「想像してたお風呂と違うよー！？」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ミイは奥の部屋に連れて行かれた経験があるなの！？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そしてミイのお風呂はそっちの意味じゃない！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ミイよ、これがオフロなのだ。この人ごみに飲まれてヒトとして成長することがニュウヨクなんだよ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（ンクさんはンクさんで少し違う想像をされているかもしれない……）」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「アレちゃんのことは気にしなくていいから、体流してから湯船に浸かりましょうか。はい、じゃあまず洗い場で体洗って！　そこから湯船に入るのよ！」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>では訳の分からないことを言っているアレイラを捕まえてよく洗い、適当に入浴しておきましょう。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ンクの毛皮に石鹸ぬって、ブクブクにしたら、突入。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ブクブクブク。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、皆さんはテキトーに体洗ったりすると思います！　特にイベントないので自由にしてくださって結構ですよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ドＭの人は「周りの人からの反応」をさっきの印象判定で振ってくださっても構いません。ひとまずクーの周りからの反応だけ振っておきますね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6－2　クーの周りからの反応　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋1) － 2 </B>＝ <B class=dc>1</B>　　　<B class=fred>超最悪！</B></div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>あっ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あっ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>『最悪』ぶち抜けたー！</div>
+<div class=box>※ ～1：超最悪　2～4：最悪　5～6：悪印象　7～8：普通　9～10：好印象　11～12：お友達　……</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>バスタオルがはらり。露呈する下半身！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>すぐ隠す！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「大丈夫、何もなかった、なかったわ！」ｱﾜｱﾜ</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>しかし周囲のヒトはその異様な身体を目に焼き付けてしまい……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>女「ちょっとアンタ、なんで【ド・ウ・ブ・ツ】がこんなところにいるわけ？」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「人間も動物かと存じますが？」サラリ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（獣人は動物扱いじゃないのかな）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（それもそうだった！）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>女B「やだーあれ病気じゃない！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>女C「ケモノ病の女がいるわよー！！」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>なんだって、ケモノ病！？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「性格の悪さ以上の病気を、私は今のところ知りませんけれどね？」　ニッコリ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>静かにキレています。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「見た目で人を判断しようなんて……ったく、ロクなもんじゃないわね。あ、しまった、武器忘れてきたわ……ﾁｯ」（聞こえぬように舌打ち）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>よし、ここでアレがぶちかましてやるなのよ！！！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「みんな無知なのねぇ、これは獣人から人間へと変化している最中なの～」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、イヤミな女の一声で、女風呂は一斉に大混乱になってしまいます！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「って、無視されてるなの」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>クーをかばうようにずい、と進み出て【咆哮】します。</div>
+<div class=box><B>【咆吼】スキル</B> [ＭＰ消費3]
+<BR>　発動者は、1回だけ【体力＋1D6】で目標値を決め、【敵の前衛全体】は【意志＋1D6】で防御。
+<BR>　防げなかった分を【ＭＰダメージ】として与える。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>うわー！！　判定どうぞ！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（大混乱だー！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「はい、ミイは耳をふさいでね～なの～」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「クーちゃんもお耳塞ごうネー」自分の手でクーちゃんのお耳を塞ぐ！　多分判定ないですが！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>4＋1D6 「黙らんかーッ！！」　 　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 4 </B>＝ <B class=dc>7</B>　　<B id=dmp>　　ンクＭＰ 4 → <B id=ddmgmp>1</B></B></div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>回復しにお風呂に来たはずがＭＰ減らしてるわ……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>風呂場とは戦いなのですよ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではつっかかってきた3人が【意志+1D6】で防御します！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3r1D6＋2</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス 3 ＋ 2 </B>＝ <B class=dc>5</B>　　　7－5＝<B id=ddmg>2ダメージ！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス 4 ＋ 2 </B>＝ <B class=dc>6</B>　　　7－6＝<B id=ddmg>1ダメージ！</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス 2 ＋ 2 </B>＝ <B class=dc>4</B>　　　7－4＝<B id=ddmg>3ダメージ！</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それぞれＭＰに2・1・3のダメージ！　だいぶひるんだ感じですね！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>一般人相手なのに威力が奥ゆかしい！？　　　<B id=cc>← ただ一般人でも傭兵でも、【意志】は同じ2なんですよね</B></div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>全員ちょっとづつはビビったはず！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>合いの手を入れよう。　「にゃにゃにゃにゃにゃ～ん♪　なの～♪」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「なんだいアンタら！ちょっと毛が濃いくらいでやかましい！」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（と、毛がボーボーの人が言います）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは女風呂の入口をガラっと開けて番台のおっちゃんが　「こらー静かにせんかああああああ！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と女風呂に入ってきます！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>おっちゃんなの！？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あれ、おばちゃんだっけ？　<B id=cc>←この数分の間になぜか性転換！</B></div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（大混乱だー！（2回目））</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ケオス！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「いやん、えっちなの！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>何も言わず自分とクーの体を隠します。
+<BR>（毛がうんちゃらもなんかもう十分検閲の対象にしたくなってきたぞー！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ということで、今度はおっちゃんに色んなものが投げつけられる第二次大混乱が発生します！　ワーキャー！！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>仁王立ちで腕を振り回しながら喧嘩の体勢です。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、女A～Cはンクのほうはもう無関心です（なんかンク怖いし番台に桶とか投げるのに忙しいし！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>おっちゃん乱入でそれどころじゃなくなったんですね。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「見るモノみたら、金を払うなのよ～」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「さ、今のうちに湯船いただいちゃいましょうか、クーちゃん」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マイペースに入浴する気満々です。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ロイスさんは事態の変化に気付いてもいいですよ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>女風呂からものすごい咆吼が聞こえてきたかと思うと女性のキャーキャー！！！　という叫び声が！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「あん、何が起きてやがる？　今の声ンクか？」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>って突っ込むのはエッチなでも勇気いるぞ……！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>女脱衣所を生きて突破できるかが問題ですね。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ですよねー、思った以上に人がいる！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ンクさんも、うるさい人たち大分はけちゃったしお風呂はいりませーん？」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「あ～ん、いや～ん、えっちぃ～、なの～ん♪」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（……アレちゃんはほっとこう）」ジト目。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では5人は色々ありながらもお風呂に入れました、と。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>人も居なくなったことだし、泳ぐなのよ～。ばしゃばしゃばしゃ～。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「前から思ってたけどリーナって結構度胸あるよね。うん、いいことだ」</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>と誰とも無しに言って入浴します。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ありがとうンクさん、うふふ」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>しかし湯に毛が……。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（山の温泉だと猿が普通にお風呂はいってるらしいですし（偏見））</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ンクさんが懸念するより前に、先客がいたのでもう湯船はすでに毛だらけです！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……入浴前のブラッシングは義務化すべきね」　ﾎﾞｿﾎﾞｿ</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>これ湯船もすごい汚いんじゃね……循環なんてさせてないだろうし。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>うん、そう考えると源泉かけ流し日本の温泉は綺麗だなぁ～。なの。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「上がったらもう一度体を洗ったほうがいいかもしれないわねコレ」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（むしろ湯船に浸かった後ってシャワーもう一度使うのが普通じゃ！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（まあ普通ですけどっ！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（あ、効能によってはシャワーで流さずそのまま出た方がいいそうですよ）なの！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（皮膚系とかはそうですねー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「クーもねー世の中いいヒトも悪いヒトもいるけど、まあ大体気にしちゃいけないからねー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クー「……慣れてますから」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてロイスさんが無駄にミルと話し込む時間になっちゃってるわ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>迂闊！ロイスが突入するきっかけをもう一度提供しないと！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>これ番台さんのせいでもう無理じゃｗ</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（生死に関わるけど今突っ込んでもいいんですよ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（まさか街の風呂屋でロイスがキャラロストすることになるとは……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（風呂屋でキャラロストｗｗｗ）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（そんな伝説残したくない……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（もっといいチャンスにどうぞ！？＞エッチさん）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（名前がエッチさんになったー！？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（きっと自然に演出できるタイミングも来るよ！！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ＧＭが言うので待ちます！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>桶を投げまくった　＞　桶屋が儲かる　＞　ロイスが死ぬ</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ロイスさんも外でNPC印象表でも振りますか。もういいですか、いいですね。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>印象表振りましょうか。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>多分騒ぎが落ち着いてから服を着ようって時に乱入するのが一番。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ロイスが死ぬ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>半獣が増えて更に大混乱なのね……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>どうぞー！　ロイスなら2D6－2ですね。道の端で立っているロイスは街行く人から……？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>2D6－2　印象　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) － 2 </B>＝ <B class=dc>3</B>　　　最悪</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ぶわっ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>最悪な印象！！　うわー状況によっては絡まれるかも！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（あーあ……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（悲壮感が出てよいかと思います。半獣の悲しみ）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>プチ幸運振ろうかしら。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>別にペナルティないですからいいですよ！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>じゃあヒソヒソ言われてます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（シカタナイネ……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ときどきガン付けられたり「おい風呂屋の前で何やってんだぁ～？」　って言われたりするのをプルプル耐えたりするくらいです。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やだなにそれ面白い。いやまあ、自然なことではありますよねｳﾝ……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ガン付けられる程度ならロイスはやり返しそうだなぁ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>にらみ返すと普通の人間は「うわっ」って感じで避けていきます。というかロイスの場合片手がケモノになってるから怖い！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それにしても突然半獣に厳しくなったぞ、この判定……。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>半獣はそれぐらいでいいんですよ！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ステータス的にも純人間より扱い易いですし</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（何あのネズミみたいなのキモーイ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ネズミｗ）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（カピバラをはじめてみた人はネズミっぽいと思うんでしょうか。謎です）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（街の人「丸３つ描いたら、すごくウルサイわよー、こわーい」）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（丸2つってどういう意味だろう……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（”あの”ネズミのことでは）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（「ハハッ！」）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（あー夢のく）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（それ以上いけない）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（気づいてしまって吹きだした。
+<BR>目線を！　イメージしたそれを目線で隠すんです！　まだ間に合う！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではとりあえず4人の行動は終了です！　温泉に入った人は回復量ＨＰ・ＭＰ1D6ずつでお願いします！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>じゃあ何故かあの騒動のなかゆっくり湯船につかったことで回復ですね！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>1D6　ＨＰ  　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　　<B id=dhp>　　ＨＰ 2 → <B id=dhealhp>3</B></B></div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>1D6　ＭＰ  　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B>　　<B id=dmp>　　ＭＰ 1 → <B id=dhealmp>6</B></B></div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>ＨＰ3　ＭＰ6、になりました。前に出たら死ぬ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>お風呂で肝心な部分が回復してませんね。困りますね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ンクさんは騒ぎすぎたせいでちょい疲れたんですね……（一度治療が必要なように思われるッ）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＨＰ  　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　<B id=dhp>　　ＨＰ 3 → <B id=dhealhp>9</B></B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＭＰ  　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B>　　<B id=dmp>　　ＭＰ 12 → <B id=dhealmp>16</B></B></div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>大分回復したわ。ってかなりのダイス目だー！？　いやこの局面嬉しいけど！！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>うぉぁ、アレすっごいボロボロだったなのね！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>1D6　ＨＰ  　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　<B id=dhp>　　ＨＰ 4 → <B id=dhealhp>5</B></B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>1D6　ＭＰ  　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　<B id=dmp>　　ＭＰ 5 → <B id=dhealmp>7</B></B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>1D6　クーＨＰ回復　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　　<B id=dhp>　　クーＨＰ 3 → <B id=dhealhp>6</B></B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まあまあ回復！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは、女性陣はお風呂屋の外に出てきました！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「フフッ、久しぶりにお風呂入れてよかったー」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「いやー、気持ちよかったねー。腹の底から叫んで気持ちもスッキリしたよ」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「やっぱあれお前かよ、なんで風呂場で叫ぶんだよ……外まで聞こえてきたぞ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「色々あったんですよ、そりゃもう色々」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「風呂場にネコ好きの痴女がいたので仕方ないなの」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「アレちゃんはそろそろ事実を歪曲するのをやめようか」　羽ﾂﾝﾂﾝ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「それがさあロイス。クーがやれバケモノだのクサイだのベンピだのなんくせ付けられたんだよ！そりゃ言い返すしかないでしょ！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「そうなんですよね……。まぁ死ぬまで治らないって言いますけどね、そういう性格の御仁は。よっぽどあちらがタチが悪いです」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「ああ……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ロイスは聞いたのをバツが若干悪そうにしてます。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「で、クーが綺麗になって帰ってきたわけだけど。なんか感想とかは？ん？」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ロイスさんは何か言うことがあるのではないでしょうか、ね？」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「は、へ？」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（タチ悪いぞこいつら！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（タッグを組んでいますからね！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クーにはよく分かっていません。　　クー「？？？」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「ところで、ロイスの（検閲）に（検閲）が（検閲）して……」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>アレイラキャッチ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「アレちゃんちょっとアウト」いや完全にアウト！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「うぎゅぎゅぎゅぎゅぅぅぅぅぅぅ」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>これで健全だってんだからPL怖いわ……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>けん……ぜん……？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（こっちもフラグ立てようと必死なんですよ！　なの！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「（ほら綺麗になったねとかかわいいぞとか言うことあんでしょーがほら）」　ﾄﾞｽｯと拳を脇に叩き込んで耳元でささやきます。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「いてぇ！何の話だよ！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「香油とか少しあったのをつけたりしてていい香りですしね……？」二人のほうを見つつクーちゃんの傍で。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>醤油！？　ああ、香油か……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ンクさーん！？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>醤油ｗｗｗ　　　その空目は新しい……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>食べるの！？　どっちの意味で！？　そっちしかないか！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「こんがり芳ばしい香りが、とっても美味しそうです。では戴きましょう。なの」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>って食べるのー！？</div>
+<a name=S4></a><H1 class=gradientA>2. 黒い狼</H1>
+<div id=nm><font class=c2><B>ヴァンＰＬ</B></font></div><div id=tx class=ct2>（ここから途中参加）　こんばんはー。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>2D6　二つ名　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) </B>＝ <B class=dc>6</B>　　　（ネガティブ系） → 乱れたヴァン</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（乱れた……！これは一体何を示唆しているのでしょうか！）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>今息が乱れてたからです。もう駄目だ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では本日1ターン目、残るヴァンさん！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>【表通り】行きます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは乱れたヴァンはヴァン家を出発し、表通りにやってきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ところどころに規則性もなく小さな穴が空いたマンホールがあって、地下道への入口がちらほらあることに気付けます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>表通りには獣人や人間達がよく歩いていますが、その中に、場違いな格好の黒い狼の獣人騎士が歩いています。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（黒い狼の獣人騎士……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（騎士イベと黒い狼イベをあわせたような人だ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>もう一度言いますが彼は黒いオオカミの顔をしており、ライトプレートとマントがこの街ではやたら浮きます。騎士力がすごい高そうです。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「珍しいなーこんなとこに騎士さんがおんで」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>同じ獣人であるヴァンをちらっと一目見ると、彼はそのまま酒場兼宿屋に入っていきました。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「ちょっとおいかけてみるかー珍しいしー」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（狼といえば先日の陸賊を思い出しますね。彼は元気にハネムーンしてるでしょうか）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ガルーさんならきっと元気にやっていますよええ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ガルー×リリィはアレたちがパンを作っている間に初夜を迎えたなのね！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（妖精と獣人は（検閲）できないから！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（リーナさんそれはアウト！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（じ、自省しましたっ　すいませんでした！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（許す！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（でも言い訳させてもらえるならアレちゃんのが一番アウトだと思うんです！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（某クラスタは平気でその辺こなしますけどね）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ロイスPLさんもちゃんとエッチなようでごあんしんです）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（妖精クラスタ怖い、妖精クラスタ怖いなの、アレが大変なコトになっちゃうなの）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんはそういう目で見られるだろうか……？！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（全員アウトだ！我々がアウトだ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（この話題は避けられないというのか……！）　ではヴァンは宿の入口のところで2人のガードマンに止められずに入れるか、印象チェックです！えーと……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴァンさん、獣人なので2D6を振ってください！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2～4：最悪　5～6：悪印象　7～8：普通　9～10：好印象　11～12：お友達</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>2D6　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋1) </B>＝ <B class=dc>2</B>　　<B id=dfun>ﾌｧﾝﾌﾞﾙ！</B>　　最悪</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あーっ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>最悪だー！？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ﾌﾞｰ。そうかヴァンは難民として見られたのか……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>なんでみんなこんなところで最悪な目が出るかな！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、宿への難民流入を嫌ってか、入口にガードマン（人間2人）が立ってます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>彼らはヴァンが入って来るのを阻止しようとします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ガードマン「待ちな、ここは金を払ったヤツしか入れねえんだよ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴァンが貧しい格好をしているので難民っぽく思われているようです。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（金払わないとダメって言い分ごもっともすぎて）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なんぼぐらいなん？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ガードマン「一晩50だぜ、あんたに払えるのかねえ？」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「それぐらいやったらあるでー」　50シルバを財布から出します。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>払いますか！　それなら……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ちっ、客かよ……仕方ねえな」　といって通してくれます！お金減らしておいてくださーい。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（入場料2500円って大概だな―。多分ガードマンが勝手に言ってる予感）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（入場料ってか宿泊費なのかな）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（まあいちおう宿泊費代と同じ額ですね。たぶんヴァンに対しては事実上入場料ですけど）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ああ……防具代が……(PLの叫び）　　ヴァン350→300シルバ</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ああ……保存食代が……(PCの叫び）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（この頃、女性陣とロイスは風呂で戯れていましたね？）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（語弊がありすぎる！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（事実捏造がいともたやすく行われた。調度ンクさんが叫んでいるあたりでしょうか）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、酒場に入ると騎士のおっちゃんがカウンターに座って酒を注文しています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに、騎士の隣の席はあいております！！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（すなわち、座れ、そういうことだ！）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なな、おｯちゃん珍しい格好しとんな？どこからきたん？」　後ろから声をかけておきます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>騎士「お……？　おお、君もここの客か。さすがにこの格好だと浮くだろうな、私はエルスベルグから来たのだよ」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（おおっと、いい食いつきですね。解説のロイスさんはどう思われますか）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（えぇ、ここで椅子取りゲームがはじまりますよ！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（あなたロイスさんじゃないでしょうが！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ではここで一つの椅子の左側にヴァンが、右側に狼騎士が腰掛ける展開ですね）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「えるす……何？次の町やっけ？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「エルスベルグはこの街からはるか南東、騎士の街だが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、黒オオカミ騎士はここで、ヴァンの右手の十字のあざを見て「ん？」と言います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ほう……その十字、おまえには似合わぬあざだな？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>とニヤっとしながら言います。騎士は何かを知っているような顔ですね。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なん？変なとこあった？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「まあ、座ったらどうだ、おごるぞ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（聞いて！　どういうことか聞いて！　多分バッテンだけど！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（窓から、アレにもあるなのーっ！！！　って登場したいけど、分身しないと無理なの！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（分身といえばミイちゃんがいるじゃないですか）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（いま、塩素取りに夢中なので無理なの）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「『君たちのような』連中に頼みたい仕事もあるしな……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といってうながされます！　座る？</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>横の椅子に座りましょう。　「何？何？きになるわー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では座りました！　騎士が何かおごってくれます！　テキトーにご注文どうぞ！　ヴァン君はお酒飲むのかなー。果実酒とか？</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>お酒とかわからないです。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（飲みやすさならカルーア（コーヒー牛乳みたいなの）　あと無難なとこでカシオレとか？　キャラ的にはエールとか頼むといいんじゃないかなぁ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「では果実酒でも飲んでみろ、悪くないぞ」　といって注文されます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちょっと落ち着くと会話を始めます。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「そんでこれ（十字）、どういうもんか知ってるん？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「その十字のあざか……冒険家らしい風貌だから、君は知っていると思ったが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「……それは『罪人の証』だ。罪を犯したり、危険な者にかける古代人の呪いらしい」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（うーわー）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（罪人じゃないのが二人しかいないPTとは）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（やっぱり図書館で悪い事したからなの！？）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ガーディアンに攻撃した者？）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（でしょうねー。みんなグローブを装備するんだ！さあ早く！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ロイスは何もしてなーい、やったね！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ハムイが悪いんだーなのー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あれは正当防衛です。過剰防衛ではありません。いいですね？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（後ろめたさ抜群！　リーナはとめたもーん☆）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「略奪の限りを尽くした者だとか、仲間を見殺しにした者に付くだとか……そういう印だと文献にあったな。おそらく君は人格的には望ましくない者かもしれん」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「罪人！？悪いことしたっけ？ほんまなん？！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「うむ。だがその印を得るほどに『古代の秘密』に近付いたと言うことは、君のグループはよほど冒険家としての力があるのだろう。もっとも、一方でどれだけ危険なグループかということも想像は付くが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>彼の頭の中には血みどろの光景が繰り広げられています。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（彼の頭の中では我らは虐殺非道の限りを尽くすPTに……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「君個人は、私の見たところ純粋そうな人物に見えるのだがな……もっとも、すぐ他人に染められそうだという意味でも、危険な純粋さだ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>オオカミ騎士はそう言ってヴァンを見ます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（オオカミ騎士さん鋭い人やわ）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（薔薇の演出が似合いそうな眼光）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ケモBL！？）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ですが待ってください。このオオカミが♀の可能性もあります）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ケモ騎士女ですか、それはそれでいいですね）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（男言葉を話すケモ騎士♀だと！構わん！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（場外で勝手に盛り上がるＰＬ達！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（でも女性比率が高すぎますよ、もう許してください）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（そうですよもっとナイスミドルやイケメンやショタが増えてもいいんですよ？）
+<BR>いえむしろ増えてくださいお願いします。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「んんん？　全然わからんわ～」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「ならば騎士として忠告するが、今いる仲間と一緒にいるのはやめたほうがいい……黒く染まる前なら、正しい道を歩むこともできるぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と言って、騎士は蒸留酒をあおりました。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（おい、こいつ、アレたちをDisってるぞ！　なの！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>この騎士としては、純粋な若者が殺戮に荷担させられてるとかそんなイメージですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>奇跡的に見つかった古代人の集落を焼き払って、一人残らずやっちゃったぜ！とか、そういうイメージ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（うわぁ怖い）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「んーでも仲間は大切やしなー。わかれるなんて出来ひんわ」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（おー！言ってやった！言ってやったぞヴァンさん！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「それはそれで良いことだ、仲間は大事にせねば、な……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「それと、話は変わるが……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（お？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「君たちに力があるなら、たとえ悪党だろうが相談に乗って欲しいことがある。金はあるぞ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（悪党前提でした）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（お金の臭いだー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（失敗するぞー！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（「部屋を取っているんだが、今晩どうだ？（ウホッ）」っていう……あれ？　違うなの？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんアウ。濁った目で帰ってくるのはハムイさんだけでいいんです！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（もう色々と駄目だ）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なにするん？ええことやったらええけど」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「うむ、おそらく君たちのような冒険家グループには合うと思うのだが、忍ぶ能力と戦う能力に優れた者が欲しい。任務は、ある場所からとある「モノ」を奪取すること。任務を完遂すれば即金で最低5000出せる。仕事っぷりに応じて多少積むぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「あとは情報収集能力も高ければ言うことはないが……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（オーダーしたかのような依頼！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（不穏、不穏、不穏）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「法に触れるし、しくじれば追っ手が付くかもしれんが、こちらもそれなりに大きいバックが付いている、支援はできるだろう」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ＧＭが過去の経験からなんかを学習しているー！？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（忍ぶ、情報収集能力はアレちゃん、戦う能力は前衛組、と……でも法に触れるのはもうやめてぇ……）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（実はわたしのフィアンセのミイを見つけて欲しいのだ！　なんだってー！！　なの！）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「行く行く行くわー！お金ないねん」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（待って一人で即決安請け合いはよくなーい！　皆に相談してえええ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「待ちなさい、君はまず仲間に尋ねたほうがいい……純粋すぎる」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「じゃあ相談してくるかー。ちょっとまっとってなー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「もし受ける気があれば、みなを集めてまた夕方頃にでも来てくれ。私はこの宿にいる」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「わかったわー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「昼間は私も調査せねばならん。ターゲットがどこにあるか、分かっておらんのでな……」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（依頼失敗するなら違約金として前金の2倍取るぞ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やめてええええ！！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「では、その気になったらまた夕方来てくれ、頼むぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といって騎士は宿の外に出かけていきます。他に何か言うことある？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（「好きです、付き合ってください」　とかどうですか？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ヴァン君告白ですか、いきなり）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（では、その気になったらまた夜、わたしの部屋まで来てくれ、一人でな、頼むぞ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（あれっ、付き合ってくださいって言ったのアレイラかと思ったらリーナだった！？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（すいません言っただけです、ですがアレちゃんみたくいきなりステップを踏み外してないのでいいのではないでしょうか）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（リーナとアレイラの垣根が低まっていって最終的に「アレリーナ」になりますよ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（えっやだ……ｿﾞﾜﾜ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（バレリーナみたいなの）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「返事聞いてくるわ！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「ああ……あと最後に言っておこう。私はいつも、騎士になりたい若者を募っているぞ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士はマントをひるがえして去っていきました……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（おおっとおー！？　決めセリフが来たー？！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（自衛隊の募集みたいなの……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（露骨な転職フラグ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ってかなんで騎士になりたいってバレテール！？　あ、言ったんだっけ？）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（PCは言ってない）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（きっとこの人は会う人会う人に同じことを言っているとみた！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（っぽいですな）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（自衛隊募集に近いです）　あんまり黒くない人なら大歓迎って意味ですね。あと誰にでも言ってる。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ああなるほど……人手不足なんだよ察しろよと。今どこでもそうですよね！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（でも、たぶんロイスやンクには言わない！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（えっ）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ロイス黒くないよ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（黒くないんだけど険がない人がいいっぽいイメージなんです！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（いい目しとるのう。そのドタマかちわったろうか。ん？　とか絶対に言わないキャラなのに）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（まあ騎士になる人ならない人って雰囲気で察するかも）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、それではこれにて1ターン目の行動は一通り終了です！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>一旦集合して情報共有はありそうですかね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、それはＯＫですよーどうぞ。では1ターン終了した3時間後、皆さんはひとまずヴァン家に帰ってきていました。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>では全員一度ヴァン家ですね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>共有する情報が……無かった。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>お風呂場の一大事があるじゃないですかー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ヴァン「そっちは何か見つかったー？」　心に刺さるセリフ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「なるほど、わかったなの！　ヴァンちゃん、やるなのよ！」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「（何が分かったのこの子！？）」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（察するのはや！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（金の臭いに敏感なアレイラさん）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「お金入るかもしれんで！アレちゃんよかったな！」　先読みされた。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ということで必殺のかくかくしかじか発動でいいですよ、ええ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……何が？　え、ちょっと……法に触れるなんて、そういうのはマズいんじゃないですか？」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「へえ、そんな話がねえ。なんか酷い言われようだけど……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「確かに私たち貧乏だから助かりますけど、リスクが……」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「このいい香りが分からないなの？　人の手垢と欲望に塗れたいい匂いなのよ！」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「ごめんなさいそれいい香りって言わない……」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「でもさあ、お金、足りないよねえ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……綺麗事じゃご飯は食べられないですね」トホホ……と落ち込み</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「直接会ってから決めたほうがいいんじゃねぇか、前のこともあるしよ」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>とアレイラの方をチラッと。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「とりあえず行って見よーか」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「そうだね。それがいいや」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（でもアレイラの件は、収入とあわせてプラマイ0なんですよ実は。もらった前金返しただけ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（プラス10000s相当の妖精が付いてきた！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（なので実質的には得なんですよねー）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（キャラ食われるから損失なのよ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（分かりました。始末しましょう）　　<B id=cc>←どっちを！？</B></div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「でも、その夕方までは時間がありますね。そのあいだは各自行動かしら？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はい、そうですね。夕方とは、具体的には【4ターン目】とします！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「だな、とりあえず夕方にもう一度ここに集まって、それから全員でその酒場だな」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（酒場だっけ、宿だっけ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（騎士が居たのは「元気な子ヤギ」亭ですね）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（冠詞付き種族名が店の名前で流行ってるの……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「じゃあそれまでは自由行動、かな？」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「もうちょっと探したりしてみるわー」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ということなので　「じゃあ私は自由広場でも見に行ってみようかしら……。結構色々なものが置いてありそうだし、ちょっと楽しみなのよねー」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>盗人のような発言なの。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>普通に買い物楽しむ女の子の発言だから！！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>しかしヴァンさんが普通にワイロ払うとは思わなかった。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>賄賂だったの。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>いやむしろ直球的すぎるから行けたのか。本来不要な、事実上の「入場料」ですよ！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>直球だったしはらうよ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>堂々と請求されたのでついってところはあったのかもですね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>好感度高いとかお金持ってそうだったら、自動的に中へどうぞーでした。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ところで『元気な子ヤギ』亭の名物料理はなんですか？　なの！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>子ヤギ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ヤギでしょう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ワ　ー　ム　料　理。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>わあ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>わ　あ</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>うわあああ。ＧＭが想像の3歩上を行った！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ちゃんと切断されてるからわかんないって！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ああ、ちゃんと味つければ鶏肉とかエビと大差ないとかなんとか。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>やだ、これ表通りとか行ったら食材用のワームがごろごろしてる流れだ……。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>でもワームの肉ってなんかで出てきたような……鶏肉みたいな味だっけ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ザ・○ェフで見た記憶です。普通に料理して食ってましたね　ええ　現代人が。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ム○ゴロ○さんも巨大ミミズ食べてた気が！　現地人がどん引きしてました。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>わあ……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>ここで、ンクのＨＰが3しかなかったのでサントリナが2回、医療キットなしの【治療】を行います。　</div>
+<div id=com>なお、Ver1.1から【治療】のＭＰが2、回復量が1D6/2（端数切り上げ）になりました。　</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>1D6/2 ンクさんへのキットなし治療！（確かこれで前回案が！）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B>　　<B id=dmp>　　　サントリナＭＰ 18 → <B id=ddmgmp>16</B></B></div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>5÷2＝2．5！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では端数切り上げで3点回復です！　　<B id=dhp>　ンクＨＰ 3 → <B id=dhealhp>6</B></B>！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……お風呂で頑張りすぎましたかね？」治療を終えて。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ｼｭﾜﾝｼｭﾜﾝ。　「ああ、楽になったよ。ありがとうリーナ！」</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>それにしてもアイテム消費なしで治療って何されてるんでしょうね。いたいのいたいのとんでけ？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ま、マッサージ？　あとありあわせのもので止血とかを考えてました。
+<BR>（今回５が出てる……！）　あと、ﾄﾞｽｯが出来なくなりましたねやったー。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>出血したままお風呂入った可能性が。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>この獣人、血を流しながら入浴してやがったー！？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ＨＰ3ならおかしくない！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>不衛生を通り越してアウトー！　　無難にマッサージされたことにしておきましょう。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「肩こり酷いんでもう一発いっときます？」手をワキワキしながら。というわけでもう一発くらいﾃﾔｯ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6   /2(繰り上げ)　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　　<B id=dmp>　　サントリナＭＰ 16 → <B id=ddmgmp>14</B></B></div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>……ﾃﾍ。1回復ですねﾊｲ……orz</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>痛みはやがて快感へ……。ｼｭﾜﾝ。　　<B id=dhp>　ンクＨＰ 6 → <B id=dhealhp>7</B></B></div>
+<BR>
+<a name=S5></a><H1 class=gradientA>3. 露店</H1>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは2ターン目、行動申告をどうぞ！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>印象判定ついたから大人しくしておいたほうが良さそうだ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>そうしてロイスはまた大通りにいって子供をさらってくるんでしょう。第四話みたいに！第四話みたいに！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>NPCが増えるな……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あんまり増えると砂漠の死闘になったたときに誰かＮＰＣが食われそうだ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>鳥人（的な何か）に爪でつかまれて持っていかれるＮＰＣ。彼女は雛鳥の餌となったのだろうか……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ニセＧＭ「あやしげな風貌の人は闇市場やドレーズ商会にいくと、お金になるイベントに遭遇する可能性があります」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>別にここでアレイラやミイを売ってもいいんですよ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>アレを売るなら【開錠】を覚えてからにして！　なの！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ハンケモは闇市場でなんかありそう　黒き狼の手がかりとか。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>本来ならクーと一緒にどっか行動したかったけど、ネガティブトラブルしか見えない！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>半獣同士だから……うん。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>きっとトラブルから起きるイベントもありますよ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>トラブルを起こして好感度を上げるつもりなんですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>なるほど、その手が。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ＧＭさん、お金の匂いを嗅ぎたいんですけど、どこからしますか？　くんかくんか、くんかくんか。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>うーん、どこかの商会に行って依頼がないか聞くとかですかねえ。何も考えてませんが輸送任務くらいならありそうです。元手なしの場合ね。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>輸送任務すると仲間が増えるなの！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ロイスは【自由広場】の露天商に行こうかな。クーも連れて行きたいけど、連れ出せる好感度あるかわからない！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>手を引っ張っていけばついていきそうです。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではクーの好感度チェックー！　2D6－2で6以上ならロイスについていきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6－2　クーの好感度　 　　<B>(ｺﾛｺﾛ…) ダイス (6＋5) － 2 </B>＝ <B class=dc>9</B>　　<B id=dsuc>　+3成功！</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>おやおやあ？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>メッチャラブラブ、胸がキュンキュンなのよ！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ツンデレですわこれ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>愛憎入り混じる、ですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>実はツンデレなんですねわかる……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>二人っきりになると、べったりなのよ。</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「おにいちゃん、やっと二人きりになれたね。なの」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>だれだおまえ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ここなら誰も見てないね。目を閉じて……」（クー：ナイフ装備）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>あ、じゃあ占いテントに行きたいので、ロイスさんと一緒に【自由広場】に自由行動かな？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>自由広場は占いエリアと商売エリアが真っ二つなので、実際は別エリア扱いです！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>商売する区画はここ、その他はここ、って定められてるんですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ﾊｰｲ！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>闇市場行きたいの。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はーい、ヴァンさん闇市場了解です！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「ちょっと色々見回ってみるわー」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ではサエーナさん？を探しに子ヤギ亭へ行きます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>コリーナｗ</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ああ、コリーナ！よかった、どこかのサエーナ鳥のお宿なんてなかったんだ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「そういえばこの手紙……届け先、どうしましょう？」とか言ってヒラヒラ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「せっかくだから例の手紙さ、相手を探してくるよ」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「あ、ありがとうございますンクさん、ではどうぞ」と手渡し。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「見つかったら見つかったでいいし、駄目だったら諦めて流そう」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>こっちは闇市場で鑑定屋さんごっこ、もとい、鑑定屋バイトしたいなの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>闇市場で鑑定のバイトなんてやってるのかなあ……バレたら困るアイテムしかないから外部に委託はしないと思います。気付いたらたぶんアレイラちゃん鳥かごに入ってますぜ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（アレイラの怪力で中からひんまがる鳥かご）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>えー、なんか小遣い稼ぎできないかなーなのー。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>理力関連あるし（※以前リプレイ外会話で話題になっていた）何も予定ないならついでにアレちゃんも占い小屋いけばいいかなって。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>表市場で目利きした方が変な品物ありそう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そうですね、表市場で本来の価値に気づかず安く売られているものを探すとかだったらＯＫかもしれません。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>おおぅ、お誘いいっぱい、どうしようなの。安く買いたいけど、お金が無いなの。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（表市場で掘り出し物探しが一番よさそう、キャラ的に）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「そういえばアレちゃん、あんまり今お小遣いもってなかったわよね？　せっかくだし、少しくらいお買い物したいだろうから……はいこれ」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>と、200sくらい貸しましょうか。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（優しい！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>これ以上、借金はしないなのよ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>じゃああげる！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>いいや、自分で稼ぐなのよ！　意地なのよ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「そう、なら仕方ないわよね……」仕舞う。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、表なら鑑定のバイトあるわ！　自由広場に鑑定屋がいる！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>表の鑑定屋バイトいくなのよ！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「ミイのために、バリバリ働くなのよ！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はーい、では整理します！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div class=box><B>【今回のアクション】</B>
+<BR>
+<BR>　アレイラ 　  自由広場で鑑定バイト    
+<BR>　ロイス  　 　自由広場でクーと一緒に買い物
+<BR>　ヴァン 　  　闇市場へ
+<BR>　サントリナ   　自由広場 の占いコーナー
+<BR>　ンク   　　 　コリーナを探して宿で聞き込み</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではまず表の自由広場付近から行きましょうか。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロイスはクーに「行くかー？」と誘うと、なぜかクーはついてきました。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>あっさり。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ナニが起こるのやら。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>途中まではアレイラも一緒にですね！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「おにいちゃんとお買い物、うれしいなー」　クーの頭の上で言うなの。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「誰だお前」　アレイラに向かって。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「アレじゃないなの、クーが言ったなの」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（おお、そうきましたか）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ハリセンを貸そう。ツッコミ用に）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（クーは冷たい目でアレイラを見ている）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（アレイラさんが妹キャラに……気持ち悪い……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ＧＭが気持ち悪いって言っちゃってる！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（気持ち悪いって……失礼なのよ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ゴホン！）　さて、では3人は自由広場のバザーコーナーにやって来ました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「さあ、異国の機械仕掛けの懐中時計はいらんかねー、ネジを巻くだけで正確な時間が分かるってシロモノだよーひとつ1000ポッキリ！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「この街で取れた乳香とか香辛料はいらないかい！　もうすぐ闇が来ちまうから、大サービスだよー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんて具合です。自由市場には、交易品として重さ1　200シルバ単位で乳香や香辛料が売ってます。よそで入れば50％アップくらい見込めそう。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「バイトしてから買うなの、その交易品、ちゃんと買うから残しておいて欲しいなの！」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>交易品屋「こっちにゃ余るほどあるよ！　安くしておくから買ってねー！」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（200シルバの香辛料って価値が本当に宝石並だなぁ。店も捌かないと移動が大変だから必死だろうなー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（不良在庫がそのまま損失に繋がるハードさ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（店畳むってレベルじゃないですね……怖いわ……。香辛料は遠くにいけば行くほど高く売れると見ました）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（何その交易システム）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（雪国に売れそう）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（まさに　狼と香○料。実際コショウなんかは高値で昔は取引されてましたし、同じ重さの銀と引換）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（最期にうまい飯を食べたいひとのほうがおおいから買うなら香辛料かなー）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（最後の晩餐……）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（「『最期にはさせない、絶対にな！』ってロイスが言ってたなの」）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（アレちゃんが妄想が酷いｗ）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（そんなこと言ってない……はず）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、アレイラの鑑定屋ですが……どういうシステムにしようかなあ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鑑定屋「おや……妖精がここに何の用かね？　バイト？　ふーむ……」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「旅慣れて博識なアレがお手伝いするなの、これはめったに無いチャンスなのよ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ということで鑑定屋のおっちゃんが鑑定失敗した品物の鑑定に成功すると一回あたり80くらい儲かるシステムにします！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>お客さんは3時間で2D6人で。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6　客の数　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) </B>＝ <B class=dc>5</B>　人！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>5名様！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>微妙！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>すくな！　まあいいや、まずはおじいさんの判定。これを失敗した値とします。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>5r2D6＋3　ノーマル鑑定　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 3 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス (3＋6) ＋ 3 </B>＝ <B class=dc>12</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス (2＋6) ＋ 3 </B>＝ <B class=dc>11</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス (2＋5) ＋ 3 </B>＝ <B class=dc>10</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 3 </B>＝ <B class=dc>8</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>おい、軒並みいいぞ！？　ではアレイラさんは、鑑定で【これより大きい数値】を出せたら一回あたり80シルバ入手できます！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（おじいさんこれ……失敗してるの……？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>難しい品物を持ってこられたんですよ！　ミスった分はＭＰ使って再鑑定もＯＫ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>頑張れアレイラ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ということで5回判定してくださーい。目標値は上から（12）、（13）、（12）、（11）、（9）です！</div>
+<div class=box><B>【鑑定】スキル</B>　[ＭＰ消費0/5]
+<BR>　未識別アイテムを【知力＋2D6】で鑑定。失敗後【ＭＰ5】で【知力＋2D6＋2】で鑑定可</div><div id=com>　</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>【支援】したいです。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>どれを支援する！？　1～5回目のうちのどれかをあてずっぽうで！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>または失敗後に10の知力判定して【+1】だけか！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ダイスに決めてもらう。1d5 どれか　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2個目。じゃぁ、【支援】決定したら振るなのよ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では知力＋2D6判定（10）！　をどうぞ！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>1＋2D6（10） 支援　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋1) ＋ 1 </B>＝ <B class=dc>5</B>　　<B id=dmis>-5失敗！</B>　Ｘ</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>【プチ幸運】使用！　　プチ幸運1→0</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>1＋2D6（10） 支援　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋6) ＋ 1 </B>＝ <B class=dc>13</B>　　<B id=dcri>ｸﾘﾃｨｶﾙ！</B><B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>うおおお！？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>わーお！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>おっしゃ！おら！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>【支援】成功！　ではアレイラの鑑定、2回目だけ＋２です！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>では振ります。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>5ｒ2D6＋4　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋2) ＋ 4 </B>＝ <B class=dc>10</B>　　　<B id=dmis>失敗！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) ＋ 4＋ 2 </B>＝ <B class=dc>15</B>　　　<B id=dsuc>成功！</B>　　（※支援で+2）</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…)   ダイス (6＋5) ＋ 4 </B>＝ <B class=dc>15</B>　　　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 4 </B>＝ <B class=dc>14</B>　　　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) ＋ 4 </B>＝ <B class=dc>10</B>　　　<B id=dsuc>成功！</B></div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>たけー。最初以外成功？</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>うわっ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>なん……だと……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>うけけけけけ、なの。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>4回も成功！　すげー。320シルバゲットです！　一回目はＭＰ5で振り直してもいいですがしなくていいですね。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>しません。ＭＰ少ないので、なの。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>稼いだねやったね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>おおおすごい。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ヴァンちゃんに保存食を奢らないと、なの！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>たったの3時間で約1.5万円相当の収入！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>1.5万って考えるとすごすぎる。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは、アレイラは鑑定ですさまじい腕前を見せました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>鑑定屋「ほっほっほ、お嬢ちゃんなら独り立ちして鑑定屋ができそうじゃのう、ワシが教えることはなさそうじゃわい……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>難易度１２くらいの鑑定って相当ムズいですからねー。神経使ってやっと分かるくらい。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>きっと魔法めいた装備もあったに違いない！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「あの世のエクトルのおかげなのね……」（胸で両手を握り締めて）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（「死んでない！　……いや死んでるようなもの？」）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では次、同じく自由広場のバザーに来たロイス＆クー！　なにか装備でも買いますか？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>どうしよう、何も考えてないな―。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（クーが着々と暗殺用の武器を買い集めるんですね？）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（お求めやすいダガーをもう一本！（フラグ））</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ここなら異国の装備も手に入りそうですね）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ハムイさん……）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ハムイはその後、両手と口と尻で刀を持つ四刀流を完成させたそうです、なの！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（尻も！？　ロイスさんなら槍能力な武器ですかねぇ……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>槍能力相当だけど違う武器なども許可しますよ！（どっちにしろ【槍修練】必要ですけど）</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クーは今の所持金だと重いレザークロス着ていっぱいいっぱいになるので何も買いません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あとは二刀流に備えてショートソードでも買うとかですかね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ウィップソードとか切断糸とか言うだけなら自由よ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（蛇腹剣の二刀流。いいですね）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>【槍修練】でウィップソードってありですか！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>有りですよ！　機敏な戦い方する武器なら何でもOKです。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ならウィップソードで【特殊剣修練】ってスキル勝手に作って覚えていいですか！　【槍修練】だと不自然な気がして。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ハウスルールッ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>別に構いませんよ！　ではシートに　【特殊剣修練（槍相当）】　って書いておいてください！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>はーい！　値段とステータスはロングスピア相当で！</div>
+<div class=box> 【装備】　「ロングスピア」
+<BR> → 必要能力[2/3]　攻撃[－1/＋2]　重5　600シルバ（600x1倍）</div><div id=com>　</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（公式なのにハウスルール、それはもう公式ルールなの！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（こういう風にスキルをアレンジして習得することもできますよー　な紹介になるんですね、これ。応用力を育む教育にいい片道勇者ＴＲＰＧ）</div>
+<div class=box><B>【武器の名前・形状】</B>
+<BR>今回のケースのように、武器の名や形状はルールに載っている剣や槍にこだわらなくても問題ありません。
+<BR>【値段】や【性能】【必要な修練スキル】が同じなら、種類や名前が違っても許可してよいでしょう。
+<BR>少なくとも、「完全に新たな性能の武器を作る」よりはやりやすいし、他ＰＬにもフェアですからね。
+<BR>
+<BR>今回のケースで発生しうるデメリットがあるとしたら、以後、装備をグレードアップする際に
+<BR>新たな特殊剣を考える手間がＰＬ側に増えることくらいです。ロイスさんがんばってください。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では購入どうぞ！　同じ場所にアレイラがいるので値切ってもいいですよ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>いたんだ！別行動かと！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>アレイラはロイスが買おうとしてた隣の鑑定屋にいるよ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>いるんですかー！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>近いｗｗ</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ロイスはアレイラにはやしたてられます。お金ないからこのくらいご都合主義サービスしてもバチ当たらないと思う。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「お、半獣の旦那、彼女連れて買い物かい？　この色男！　なの！」</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>はやしたてた！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>どうも！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（やだ、正統にロールしてる……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>「おいおい、お前鑑定屋のバイトしてたんじゃねぇのかよ……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では価格交渉したければ難易度（5）で判定です！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ほぼ確実！よかったよかった。</div>
+<div class=box><B>【価格交渉】スキル</B> [ＭＰ消費3]
+<BR>　指示したアイテムに対して価格交渉。【意志＋2D6】判定で＋2成功ごとに【1割】</div><div id=com>　</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「半獣の旦那にデート記念だ、どれ、アレちゃんが価格交渉してやるなのよ」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>3＋2D6(5)　安くなーれ　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋1) ＋ 3 </B>＝ <B class=dc>6</B>　<B id=dsuc>　+1成功！</B>　　割引きなし！</div>
+<BR>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ぶは。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ひっく！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>さっすがー！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>かわいそうな子……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>【プチ幸運】使用！　アレイラ　プチ幸運2→1！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>太っ腹ー。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>3＋2D6(5)　プチ幸運で安くなーれ　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 3 </B>＝ <B class=dc>8</B>　<B id=dsuc>　+3成功！</B>　1割引き！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ぶわっ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>うーん……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>あんまり変わらないなの……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>奮わない！鑑定で使い果たしたんですね。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>他者の出費に渋いわこの妖精。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>武器屋がケチンボだったなの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>武器屋「いやー変わった武器だろー？　あんまり値切れねえなあ、へっへっへ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では1割引！　540シルバで購入可能です！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>はーい、そのまま買いますー、補正は何もなしで。残金705シルバになり、ウィップソードを手に入れました。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では540シルバ減らしてくださーい　　ロイス所持金 1245→705</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（これでＰＴ火力が大幅上昇！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やったね！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>変わった形状のウィップソード、クーにはとても使いこなせないな……と思いました。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（その武器でやる気だったんですね！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>で、防具付けたままだと能力足りなくて装備できないんで、そこはどうにかしないと。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>能力足りないって、先行投資すぎるなの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ロイスはレザークロスも買い換えしないと両方装備できない！　一時的に防具外してもいいかもしれませんね。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて次ヴァンさん！　ンクさんサントリナさんは長くなりそうなのでこの次に！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴァンは闇市場にやってきました。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「こっちも見てまわってみよかなー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではヴァンは闇市場に来ました。ところどころで人間が檻に入れられていたり、怪しいクスリが売ってたりします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ＭＰ1D6回復する葉っぱとか高価ですが買います？　一枚400とかします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>闇商人「へっへっへ、兄ちゃん、気持ちよくなる葉っぱはいらねぇかい……へへへ」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（高い。高いぞ（所持金300））</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ＭＰはやっぱり高くつくんだなぁ、励ますって貴重なスキルね……。ってこれたくさん入手できるようになったらリーナ薬漬けだわ……ヤバイ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（バブルを起こしてリーナをヤク漬けにできるようになりましょうね！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（うわあ嬉しい（棒））</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（理力を使う機械に堕ちるリーナ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（脱法なの？　脱法なのね？）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ふーしぎなくすりのーまされてー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（召還上昇　マジカ回復減退）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ソレ違うゲーム、主にフスロダ的な）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「あーちょっとお金ないわこんどなー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>闇商人「へっへ、残念だねえ、これはやめられなくなっちまうぜぇ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それじゃあ次は……ヴァンはものものしい雰囲気のテントの前を通りがかります、護衛が立ってますね。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なんやここ？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>怪しいテントの中に誰かが入っていくそのとき、ヴァンは一瞬だけその中を見てしまいました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>何が見えたか知りたければ知力判定難易度７！　　知力＋2D6（７）　でどうぞ。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>2D6＋1　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋6) ＋ 1 </B>＝ <B class=dc>13</B>　　<B id=dcri>ｸﾘﾃｨｶﾙ！</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>す、すげー！？　二回連続じゃないか！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ワーオ！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（きゃー、ヴァンちゃん、えっちぃーなのー！！）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>無駄だー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>いえ、無駄じゃない、見えるはずがなさそうなものも見えますよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、テントの中は人がたくさんいてオークション中のようでした。壇上には美しい（？）黒ヒョウの娘が薄絹一枚だけ着せられて、鳥かごのような形の檻に入れられているのが見えました。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（まさか依頼の）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ああ、だから法に触れるっていうアレ……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あー……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（大丈夫今度は引取り先がちゃんとしてるから……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あのオオカミ、正義漢ぶってましたからね）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（今度は黒ヒョウNPCが増えるなのね）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クリティカルしたヴァンは分かりますが、ヒョウの娘のエメラルドの瞳は、まるで吸い込まれそうな印象さえ受けます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その下には値札が付けられています。　『10万シルバ　読み書き・礼儀作法よし』。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（礼儀作法よし……あ（察））</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「また人売りでもやっとんかなー。後でシメとかなあかんよなー」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（シメる）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（さらっとシメるとか出るあたり、罪人の証はダテじゃないなって）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>獣人であるヴァンには分かりますが、とても高貴な雰囲気を感じます。クリティカルしたヴァンは、中のヒョウの娘と目が合ってしまった気がしました。気がしただけ。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「なんか猛烈にむしゃくしゃするわー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ヴァンはむしゃくしゃしながら、闇市場を通り過ぎます……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに人売りはここでは合法なんですよねー悲しいことに。さっき歩いてきた闇市場にも、檻に入れられて人間が売ってます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（人はみな運命の悲しい奴隷だというのに、その奴隷が奴隷を買うなど笑えぬ喜劇だ……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ところで闇市場って他に何かないの！　こう表舞台には出回らない武器とか）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（闇市の代わったものといえば、銃(ダメージ3D6、弾込めに2ターンかかる）が10000シルバとかそんな感じですかねー）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やだ銃欲しい……早撃ちリーナ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（うほー！弾も高額そうですが欲しいですね）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（あー、今日は雨が降っているからTANEGASHIMAは使えないなのねー）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「気になるわあの子ーむおおー」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ヴァンがキュンと来るかどうかはご自由にどうぞ！！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（運命の出会い。高貴なお方だとしたら、逆玉に乗れるぞ！　なの！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（逆玉の輿といっても、多分狼騎士さんのお手つきじゃないかなー）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（そしてお手つきとかリーナさんさすがの表現ですよ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（これはセーフですね？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（せ、セーフ！？　セウトなサントリナさん！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（セウトだったー！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（やはりアレリーナの誕生は近い。アレイラけんきゅうかのわれわれはそうかくしんした）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やめてくださいしんでしまいます！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（リーナが失礼なの……）</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>4. 占い</H1>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では次、サントリナが自由広場の自由エリアにやってくると、いくつかの占いテントやその他の怪しげなお店のテントがいくつか並んでいます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……人がたくさんいるのね」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>めまいを覚えながら歩いていると、占いテントの区画を見つけました。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「あっちはちょっと静かそう……それにちょっと知的好奇心が。少し覗いてみようかしら？」</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>と、そちらの区画に入っていきます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>しかし占いテントもいくつかあるんですよねー実は。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「うーん、色々あるのね……。恋愛占いとかは縁遠いしなあ……なんかピンとくるものないかしら」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>どれに入ろうか迷ってると、近くで話している男たちがサントリナに気付いて、思い出したように話をしはじめます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>男A「そういや、アウリスが来てるって本当か？」　男Aは耳長人であるサントリナを見て、思い出したように言います。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（ん……？）」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あの人がきちゃったー！？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ちょ、まさかの！ｗ　あのひと時空超えてるんだー！？　
+<BR>いやむしろどの世界にも存在している？！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ぶー、そういえばゲームでも作中とTIPSの両方にいたー！？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>男B「ああ、そいつか。すげぇ高い金を取るが、占ってもらうだけで力が手に入るやつもいるっつー伝説の占い師だろ。昼になる前にテントしまって、いなくなっちまうらしい、なんか変なやつさ。あのテントだよ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って男が指さしたのは、他のところと何の違いもない、3人入りくらいの狭いテントです。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（生命探知！生命探知！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>男A「高いんだよな……？」　　男B「高いんじゃねえかな……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>なにも言わずに男性ズに一礼、そちらのテントを覗いてみます。
+<BR>理力！　理力ゥウウウ！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「こんにちはー……？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>サントリナが狭いテントに入ると、中には黒い衣装に身を包んだ、赤い髪の人間の占い師が座っています。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「えっと、アウリスさん、であってますか……？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「ようこそ、私がアウリスですが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>狭いテントにはできるかぎりの装飾がこらされていて、雰囲気作りがんばってるなーと思います。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、サントリナさんはここで知力＋2D6（１１）で判定どうぞ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ダイス怖いよおおおおお）</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>知力判定　4＋2D6(11)　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 4 </B>＝ <B class=dc>9</B>　　<B id=dmis>-2失敗！</B>　Ｘ</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>プチ幸運！　ここでやらいでか！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>おっと、使うんですか？　いいですけれど。ではどうぞ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（思惑ありげなＧＭ！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（え、使わなくても大丈夫なんですか？！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（使ってもいいし使わなくてもいい！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ｱｯー……（苦悩））</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（どうせ本が呼応したとかそんなのに気付く程度だったりして）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（まだ2ポイントあるから戦略的には使ってもいいシーンですね、ええ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>よし使います。プチ幸運　2→1</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>2D6＋4(11)　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋5) ＋ 4 </B>＝ <B class=dc>15</B>　<B id=dsuc>　+4成功！</B>　○</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（わーお）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ああ、無駄にすごい成功を……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（無駄にｗ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（天我に味方セリ！！　って無駄だった……？！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あれ？　でも【プチ幸運】って結果を選べるんですよね。それじゃあ両方のパターン出します。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><B>【→成功した場合】</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あなたは、「この人、たいしたことないな」と思いました。この人ががんばって用意した雰囲気作りを、賢さで見抜いてしまったので、以後のトランス判定に－１されます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><B>【→失敗した場合】</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>占い師は神秘的な雰囲気を醸し出しています。あなたは「もしかしたら不思議な力を得られるかもしれない」と思いました。以後のトランス判定へのペナルティは特になしです。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ああ、パターン分かれるだけだった？！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>失敗したほうと成功したほう、好きな方を選んでください。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（成功ひどいｗ）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（大したことが無ーい！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>トランス判定ってなんですか？</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（つまり、ノせられるってことですよね）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そのとおり、トランス判定はこの後に影響してくる判定で、それには成功したほうがお得です。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>要するに今やった判定は失敗した方がよかった！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ｸｯｿｰ！！　ってかまじ成功し損……！　じゃあ失敗を選びます、泣ける……。
+<BR>ああ、せっかくの出目の運がこういうとこで消費されていく……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>泣ける……い、いや途中で1ゾロ出ますって！最弱だし！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ま、まだぷち幸運あと一回あるもん……）　いざという時に出たらまじ泣きますよ！？ｗ＞最弱</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>アウリス「あなたの見る未来から、何か【力】を得ることができるかもしれません……では少々お待ちを」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「あ、はい……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>狭いテントなので、小さなカウンターみたいなものを挟んで、二人で正座している感じでしょうね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>占い師は香を炊いたり、白くて平べったい錠剤を取り出して舌に乗せたりして準備を始めています。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（……なにやってるんだろうこれ）」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、ここで占いルールです！</div>
+<div class=box><B>【占いルール】</B>
+<BR>　意志＋2D6で目標値（11）以上出せれば「トランス状態」が1段階アップします。
+<BR>　最低でも【2段階目】まで上がれば、何らかの理力を習得できるでしょう。
+<BR>　高い段階ほど、たくさん習得できる可能性があります。
+<BR>
+<BR>　ただし、1回の挑戦ごとに1D6のＭＰダメージを受けます。1トライで20分経過します。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>占い師「私の力であなたを【励ます】ことができるのは、本日はあと【2回】まで……ただ疲れますので、使うと請求額が一回あたり50シルバだけ多くなります、それだけはご了承を……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ふ、ふえぇ……　さっきプチ幸運使わなきゃよかったよぉ……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>1＋2D6　？？？判定　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) ＋ 1 </B>＝ <B class=dc>8</B>　　　<B id=cc>←※サントリナの体力判定</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アウリス「さあ、意識を集中して……まず、あなたの過去へ入りましょう、そこから徐々に未来へと歩んでいきましょう……さあ、過去を思い出してみてください」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「はい、分かりました……」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（リーナの過去……。アレを解剖。妹を半殺し）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（BＧＭ：贖罪）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（過去捏造やめてぇ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（私は全て思い出してしまった……妹はすでに私の手で01してしまったのだ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、そういやお金の話をしないまま始まってしまった！　でも1000持ってるから平気ですよね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ちなみに基本料金はおいくらなんでしょうか！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「あなたが何かを得られたかどうかによります……何も得られなければ、お金はいりません……あ、励ます代は別で……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんか情けなくなってきたぞ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「あ、わかりました……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、そう言われて水晶を見ると、徐々に、サントリナの神経が鋭敏になっていきます。衣擦れの音でさえ耳障りなほどに。全身全霊をもって、強く集中しなければならないでしょう。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（過去……妹が……両親が泣いて……村長が……村の図書室……）」とか漠然なかんじで。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（さっきまで風呂場でハッスルしていたのに、なんかソレっぽいことしてると笑えるなの）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>それでは占い1ターン目！　トランス判定をどうぞ！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>意志＋2D6（11）です！　ＭＰダメージ1D6　も一緒に振ってください</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>4＋2D6(11) トランス状態判定　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋1) ＋ 4 </B>＝ <B class=dc>9</B>　　<B id=dmis>-2失敗！</B>　Ｘ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＭＰダメージ判定　　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　　<B id=dmp>ダメージ！　ＭＰ 12 → <B id=ddmgmp>9</B></B>！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>失敗！　【プチ幸運】使います？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>使いますわあん！　　プチ幸運1→0！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、ＭＰダメージはそのままでトランスのみ再判定をしてください。意志+2D6！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>4＋2D6(11) 意志はんてーい！！　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋6) ＋ 4 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+2成功！</B>　○</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>よっし！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（振り直すと強いな―）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ああ、リーナについていって励ませば良かったかも、なの）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では第一段階クリア！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>水晶玉に、サントリナが妹に別れを告げて、里から旅立つ風景が映し出されます。なつかしい風景ですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「（わー……遠い昔のようだわ……）」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（2週間経ってますからね）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「さあ、ここから時の旅の始まりです……少し未来へ進めましょう……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「はい……」ｺﾞｸﾘ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>2ターン目！あいかわらず　意志＋2D6（11）です！　ＭＰダメージ1D6！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（そろそろ、アレを治療しようとしてトドメを刺すシーンなのね）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>4＋2D6(11) 意志判定！！　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 4 </B>＝ <B class=dc>10</B>　　<B id=dmis>-1失敗！</B>　Ｘ</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＭＰダメージ……　　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B>　　<B id=dmp>ダメージ！　　ＭＰ 9 → <B id=ddmgmp>4</B></B>！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ｺﾞﾌｩ。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ぶわっ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（きっつ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（アレイラの邪念が混じった！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ＭＰ残り４、まだいけるううう！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>まだ素で1～2回は振れる！　では占い師も苦しい顔をしながら集中を続けます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>3ターン目、次の判定どうぞ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>4＋2D6(11) 意志判定ッ！！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＭＰ  　<B>(ｺﾛｺﾛ…)   ダイス (4＋6) ＋ 4 </B>＝ <B class=dc>14</B>　<B id=dsuc>　+3成功！</B>　○</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　<B id=dmp>ダメージ！　　ＭＰ 4 → <B id=ddmgmp>-2</B></B>！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（おおおお）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ＭＰがついに）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（18ある前提で組んでたからなあ……）　おお！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（壮絶！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>よっし！！　あ、でも倒れると思うので励ましお願いします（倒れながらスマイル）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（遠くから励まそう。　回想シーン　テレサ「へたくそ」（ニヤニヤ））</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（励ましてないよそれ！！　アレちゃんの励まし有効ですかｗ　たぶん煽りとして……な）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではただいまＭＰ4→　-2ですね、アレちゃんは遠いので励ませません。まずは占い師から一回だけ励まされます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6　アウリスの【励ます】！　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋5) </B>＝ <B class=dc>6</B>　　<B id=dmp>　　サントリナＭＰ -2 → <B id=dhealmp>4</B></B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「さあ、まだ道のりは始まったばかりですよ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「……はっ、気を失って……ありがとうございます」</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ＭＰが自転車操業だわこれ……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、さっき成功したので2段階目の光景が見えます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>映し出されるのは、なつかしい遺跡の風景です。ロイスが闇を解放してしまった瞬間の光景が水晶玉に映し出されています。アレイラがとどめを刺されているシーンもありますね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>占い師は真剣なまなざしでそれを見ています。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（覗き見占い師）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（トドメになってる、公式にトドメになってる！）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（占い師「へたくそ」（ニヤニヤ））</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やめい！ｗ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではネクストラウンド！！　占い3ターン目ですっけ。どうぞ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>4＋2D6(11) 意志！判定！！</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>　<B>(ｺﾛｺﾛ…)   ダイス (2＋1) ＋ 4 </B>＝ <B class=dc>7</B>　　-4失敗…が「最弱」効果で1ゾロ→ <B id=dmis>-5失敗！</B></div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>1D6　ＭＰ  　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B>　　<B id=dmp>　ダメージ！　サントリナＭＰ 4 → <B id=ddmgmp>0</B></B></div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（切ない！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（チーン）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>しかも最弱で【プチ幸運】回復だよやったねハハハハハ。　プチ幸運 1→2</div>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>サントリナＭＰ 4→0！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（倒れたね）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（これは、治療がヘタクソなので「回復系のフォースを教えないとダメだ、こいつ、と思ったら倒れた、ダメな子」っていう流れなの？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「まだやれる……ｷｭｳ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では倒れる前に、サントリナは次の光景を見ました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>水晶玉に【未来のあなた】が映し出されます。それは妹を直すのに必要な【何か】の力を得て、里に帰って来ている姿でした。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>おおっ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あなたは不思議な力で妹を治療しようとしています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>念じて、手をかざすと、妹は徐々に楽な顔になっていきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかし……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>しかし……？！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>サントリナは途中で致命的な失敗をしたのか、妹が突然血を吐いて咳き込み始めます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あなたが混乱している間に、自分の念じた意志とは反対に、妹の生命力がどんどん奪われていきます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>やだなにこの。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（やっぱりヘタクソだったなの！！！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ＭＰが更に下がりそうな！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ＭＰもうなくなってるのにもっと削れるじゃないですか！！　ああ、これのせいでＭＰなくなるってことかな！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（はい、これでＭＰがなくなったんですね）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>信じられない光景を目にして、サントリナは全身の血の気が引いていきます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>生気を失っていく妹を目の前にしながら、絶望の中、意識が徐々に薄れていきます……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「や、やだ……いやあああああ！？」軽く取り乱します。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>が、後ろに倒れそうになったサントリナを、占い師は静かに抱き留めます。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ｷﾏｼ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「大丈夫……落ち着いて……」　ということで気絶しかけてください。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>「こ、こんなの、こんなの……」占い師さんにしがみついて、ふっと気を失います。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そして、サントリナの意識が薄れていく直前のことでした。占い師は、サントリナの耳元でささやきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「あなた、真面目でかわいい子ね……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（キマs……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ｷﾏｼﾀﾜｰ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ｷﾏｼﾀﾜｰ。ここに塔を建てよう！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>その声は、さっきまでの優しい口調ではありません。ちょっとおねえ系になっています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「さあ……あとでお着替えの時間よ……かわいがってあげる……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんと、彼女のその目は獲物を見るような目になっています！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その言葉を最後に、サントリナの意識は闇に落ちていきました……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ちょっとー！？　そういうキャラだったのか……）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（やヴぇ、ハムイに続いて貞操の危機はリーナだったなの！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（でもこれちょっと青少年には見せられないですねあっはっはっは）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ときめきイベントがたくさんありますね）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（大人の階段のーぼるー）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（やだちょっと気になるよ！？）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（登る方向を間違えてますよ！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>実は男性とかだったら実はストライクゾーンです、何も問題はありません。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ちなみに女の人なのは間違いなさそうです。さて、3時間後のサントリナの状況は次回へ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>女の人……ﾁｨ……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>え、オカマがよかった！？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>あ、オネェ系男子のほうが好みです。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（「……きこえますか……リーナ……アレです…… 今…… あなたの……心に……直接…… 呼びかけています……へたくそ（ニヤニヤ）」）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>理力を最初に試すのはアレイラになりそうです＾＾</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>でも2段階クリアしたので何かを得られているはず！です！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>健全なる読者の皆さん！これは砂漠に向けての衣替えであり猥褻は一切無い。いいですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>得たものは大人の階段、と……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、あとまだ【理力入手判定】とか作ってないから習得も次回で！ごめんなさーい！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>はーい！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>たぶん習得方法は【ランダムで2つ】か、【指定して1つ】のどっちかになると思います。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ランダムで二つですってぇｶﾞﾀﾀ　戦力に幅が出ますね。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（【透視】を覚えました）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（【百合】を覚えました）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（うーん、魅力的）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>透視はともかく【百合】ってそんな理力ないですからあああ！　同性をかどわかす理力ですか！！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（……ありそうだ。じゃあ薔薇も……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ひい！　とりあえずサントリナはお着替えされます。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ちょっと）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（女の子同士なので何も汚いことはありません。いいですね？）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（イエス！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ただちょっとふれあいタイムなだけですよ。ええ。健全ですね。アウリスさんはリーナの体に異常がないか見てくれているだけなんですよ、ええ。（※健全な青少年用）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（お着替えさせられて、気付いたら10万シルバで鳥かごに入っていて、読み書き可、治療系不可、って書かれているんですか！？　なの！！）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（アレの妄想が冗談じゃねぇぜ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（サントリナがよどんだ目で帰って来ました……（二度目）　とかありそうなんですけど）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（また淀んだ目が増えるのか…）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（澱んでないかもしれませんよ……フフ。むしろキラキラして何かに目覚めてるかもしれませんよ……？）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>（あ、お着替えってやっぱり装備品とられてんのかなぁ……）</div>
+<a name=S7></a><H1 class=gradientA>5. 手紙</H1>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では次！　ンクさんです！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>では元気なコヤギ亭で情報収集です。（3時間あれば会話力次第で大量に情報収集できますよね！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そうですね。宿に入れるといいですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（交渉に有利そうなのは妖精ですかね……人間ハムイさんだけだし）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>すでに書き手がこの世を去った手紙の渡し先を求めて酒場へやってきた俺達は―。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（CV.コ◯ン）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナの家を探す場合は情報収集です！　どうやって調べるかによってボーナスが付きます。普通にやったら聞き込みですかねえ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>情報探しの基本は酒場へ！ということで元気な子ヤギ亭へ向かいます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>宿はいい案！ではまず宿の入口でとがめられないかチェーック！　ンクさん2D6を振ってください！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>2D6 印象判定　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋3) </B>＝ <B class=dc>9</B>　　　好印象</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>おお、好印象ですよ！　こぎれいなンクはそのまま素通りです。</div>
+<div class=box>※2～4：最悪　5～6：悪印象　7～8：普通　9～10：好印象　11～12：お友達</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>風呂に入りたてですからね。毛皮のキューティクルも抜群です。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（フローラの香りが）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（きっとお風呂から上がったあとはブラッシングタイムがあったんでしょうフフ）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（ヴァンと知り合いだとは思ってなさそうだ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ガードマンがンクに一礼しますね。そのまま宿に入れます。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>では、マスター的な人に話しかけたいですが手は空いているでしょうか。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さて、酒場にイン！　マスター的な人は……めんどいからこっちで振るか。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>2D6　印象　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) </B>＝ <B class=dc>9</B>　　　好印象！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マスターにも好印象ですね。すげえ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ンクさん軒並み好印象だ！　やはり毛並みが違う……）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（きっと獣人の中でも美人なんだ……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（ネコはね、古代文明を陰から支配するイキモノなんだ……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（あっ（察し））</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「おおっと、猫の嬢ちゃん、なんだよ座りな。何か飲むのかい？　それとも仕事が欲しいのかい？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と好意的に接してくれます。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ネコ喫茶、いや、ネコ宿屋なのね）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（おへ顔になりそうな宿屋だ……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（やめてください調べちゃった人がいたらどうするつもりですか）</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>「ちょっと人を探してるんだけどね、この手紙なんだけど……」と懐から手紙を取り出して見せます。</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>「このコリーナさんって人、知らない？あとミルクかなんかがあったらもらえるかな？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、ミルクは5シルバでーす。　　　ンク290s→285s</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マスターは血が付いた手紙を見て一瞬驚きますが、あて先と送り主を見てはっとします。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「（見て一発で分かるほど名前が通じる人なんだ）」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「こ、これ……コリーナんとこのか！　Aは生きてるのか！？」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（Aｗｗｗ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（Aｗｗｗｗｗ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（ＧＭさん、Aさんに名前をつけてあげてなの！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（流石にかわいそうですｗｗ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>酒場のマスターですからさすがに近所のことは詳しいですよ。じゃあAはアレン君で。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（アレン……なんか主人公っぽいポジで不憫そうな立ち位置を受けそうな名前だ）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（疾風のエースとか、そういう意味のAならカッコイイなの。この界隈でAといったら、あいつだな！　なの！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「Aっていうと、いかにも特徴が無くてすぐ死にそうな感じの兵士だよね」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「あ、ああ、そうだ。アレンとコリーナは結婚するって言ってたんだ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（フラグだ……）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（結婚前に兵士になったらダメなのよ！！！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「確かあいつ、『おれ、この兵役が終わったら結婚するんだ』って言ってたっけ……」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（あっダメだ……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「彼なら……私達は彼の死体は見てないよ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「そ、そうか。ならいいんだ」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「そんな大事な人がいたのにあんな捨て鉢なことをしたのか。そうかー……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>マスター「まあ、この手紙、コリーナに届けてやりな。大通りに面した家がコリーナんちで……」　と、場所を教えてくれます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と、マスターからおおざっぱな道の説明を受けます！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「うん、ありがとう。また来るよ！」と言い置いて酒場を出ましょう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そしてンクはマッピングができる！　マッピング判定で10以上出せば、その指示に従ってこのターン内にコリーナの家に到着できます！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>一番適任だったのねよかった！　あ、マッピング持ってるからたどり着きやすいって意味で！</div>
+<div class=box><B>【マッピング】スキル</B>　要【マップキット】、迷わず進めたか【知力＋2D6】判定するとき【＋3】</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>判定は知力＋3＋2D6（10）です！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>2＋2D6＋3 マッピング！　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋4) ＋ 3 </B>＝ <B class=dc>10</B>　　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ちょうど成功！　ということで、ンクはこの時間内に到着できました！　あっぶなー。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「あんな大雑把な教え方で見つけられるわけないんじゃんかーもー」</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（こっちに行くと見せかけて、こっちやがな！　ってひとりノリツッコミをしているンクなの）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナの家は表通りの一画にあることが分かりました！　割といい家ですね。家のサイズとか決めてないけど、中流階級のちょい上くらい。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>このあたりは人の往来はありますよね？　つまり人目があるかないか。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はい、あります！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>分かりました。では普通にドアノックしまーす。　　　　ﾁｯ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（舌打ち）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（強盗する気だ！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ごめんくださーい」ｺﾞﾝｺﾞﾝ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ガチャッ　中から女性が出てきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>コリーナ「ん？　うちになんか用？　用ならなるべく早くしてほしいんだけど」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>2D6　とくに関係ないけど印象　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋4) </B>＝ <B class=dc>8</B>　　　普通</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「これ。渡すように頼まれたんだけど」とつとめて無愛想に手紙を突き出します。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（血が付いた手紙）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「なにこれ……あ、アレンの手紙！？」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（よかった！名前が付いたよＡ！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ここでAって言われたら飲み物吹き出すとこだった）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（「あなた、アレンとどんな関係！？」　とか言うと面白いなのよ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「ちょ、ちょっと、手紙の配達料は出さないわよ！開けちゃうわよ！」　　ビリビリビリ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（ややツン気味）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「好きにしていいよ。私達はこの手紙の持ち主に恩があるんだ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナは手紙を読んで顔が真っ赤になっていきます。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ラブレターか……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>憤怒の極みです。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（あっ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（そっち）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「あ、あいつ……！　ムキー！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といってコリーナは手紙を真っ二つに破ります！　ビリビリィ！！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「！？」　ビクッ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ポイされた手紙を横目で見ると。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「よおコリーナ元気？　おれ新しい彼女できたから、おまえとは別れるわ！　俺の事なんかさっさと忘れて新しい彼氏でも探せよな！　今度の彼女はとびきりの美人だぜ、バイビー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>みたいなことが書いてありました。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（男気溢れてるわ……）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（そうやって、俺のことは忘れて生きろよって……ﾌﾞﾜｯ）</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（救われない）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ンクの想定していた事態とは毛色の異なる出来事に隙を突かれました。</div>
+<BR>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>（あっ……でも残念！ンクは文字が読めません！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ああっ！　じゃあ拾ってあとで仲間に見せてあげてください）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（コリーナさんの口から全部吐き出されたことにすればあるいは）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（新しい女ってどういうことよくらいは言ってそう）</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（大丈夫なの！　アンダーソンの声付きで手紙の内容が聞こえてきますなの！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では　　　コリーナ「何が新しい彼女よーキー！！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>という感じで叫んだり色々ぼやくことにしますのでンクさんもだいたい分かりますね、ええ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「あ、新しい彼女？どういうことなの！」と事情を聞いて内容を把握します！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はい、そうしてください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>コリーナ「……なんてね……でも、分かってるわよ。手紙に血、付いてるし」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ああ、まあね……分かっちゃうよね」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（そりゃそうですね……）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「あいつ……ウソ付くときだけ無駄に明るくしゃべるんだ。新しい彼女ってどうせあれでしょ、【戦乙女】とか、そんなんでしょ？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>つまりAの魂が持っていかれた的な意味で。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（死神……。ヴァルハラ……天界へもっていかれてまう……(　´・ω・)）　※読者用</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>（アドルフめ、なかなかカッコイイことをしてくれるなの……）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「私達はライブラの街であの人達に助けられて、代わりにこの手紙を託されたんだ」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「そっかー。やっぱり、私より戦乙女のほうが好みだったみたいね……。あーあ、ギリギリまで待ってたけど、ダメだったかあ……」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「ごめんなさい。もっと力があればあの人達も助けられたんだけど……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「いいよ。そんな性格も分かってて婚約したんだし……あ、待って！　お礼と言っちゃなんだけど、いらないものがあるから持っていってよ。私じゃ持っていけそうにないし」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といってンクは家の中に案内されます！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>info. タンスとテーブルを取得しました。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（最強武器だー！？　重さは７までもてますね　ええ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（さすがにTRPGで家具が最強装備って格好悪すぎるような……）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、家の奥に案内されると、そこにはキラキラの立派な全身鎧がありました！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（鎧！）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「なにこれっ！？」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「結婚式に着るって話だったんだけどさー、豪華なのはいいんだけどすっげぇ着づらいんだよねー」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（結婚式にフルプレート！？）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（鎧……だと。コリーナさんも何者ですか）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>「着づらいってまさかあなたが着るものなのこれ……」</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「違うわよ！？　あいつが着るのよ！　私はウェディングドレス、自分で縫ってたのに……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>話を聞く感じ、鎧はコリーナ親（富豪）が未来のダンナにプレゼントしてくれたもののようですね。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（つらいなぁ）</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>なんとも反応しにくい状況です。ンクはただ一言「ありがとう」とだけ言って鎧を抱えてみましょう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナ「うん、どうせ避難した後に誰かに持っていかれるのもシャクだしね、どうぞ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、ンクは【？？？のフルプレート　重さ14】をゲットしました！　【鑑定】難易度は（12）です。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（わー！！）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（ンクさんの残り重量は７です！）</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>（重いー！　持ち運ぶだけなら超過しててもＯＫだったような）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（さすがに食料とかはヴァン家に置いてあるんじゃー！？　まあ後からでもいいですけど）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（街中では確かＯＫだった記憶ですねっ！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>街の中なら重量超過してもＯＫです。ひいひい言いながらスラムに向かってずりずりフルプレートを引っ張る猫娘がニュースになります。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>目立つー！！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>よく盗られなかったね……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ンクさんをすごく探しやすい状況ですね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>実際はコリーナさんちかヴァン家に荷物一回置いてゴーですね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ではなんとかかんとかヴァン家に鎧を運びこめました。表通りまで運んでいくのは目立ちすぎて無理でしょう！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>とりあえず、鎧の鑑定してみよう、あ、ＭＰが無いなの！</div>
+<BR>
+<a name=S8></a><H1 class=gradientA>6. 買い物</H1>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>3ターン目ありますかー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はーい、ではひとまず2ターン終了！　3ターン目何します？　基本的には今回この辺りで終了のつもりです。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>結局クー連れ出したのに何もイベント起こしてなかった！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>予定があれば宣言していただけるとあとあとラクできます！お願いします！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>そしてクーに【重心が悪いレザークロス】をあげようとしたら素ステで装備できないという。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ああ無情……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>あげようとするも着られないことに気づいてきまずそうにするロイスさんと、それを覚めた目で見てるクーまで幻視しました。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>か、買い物だけしよう。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>理力を覚えてみたいなー、と思いましたが意思も低いしＭＰも無いしでアウリスさんは脱がすのに忙しいしでちょっと厳しいですね。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>占い師は昼以降いなかったような……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あー……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ちなみに3ターン目、サントリナは帰ってきませんでした……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>3ターン目は帰ってこなかったことに　ﾋｨ。オネェ系のあの方とのつんぐほずれずですか。三時間経過ですか？</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>なるほど、ソレで昼以降いない。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あっー！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>（ああ、午前中に獲物を物色してることになってしまった！）　ああ、アレイラさんはフルプレート鑑定してもいいですよ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>とりあえず素の鑑定だけしてみようなの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>アレイラさんは素鑑定なら一瞬！　目標値は12です！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2D6＋4 鎧鑑定　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 4 </B>＝ <B class=dc>10</B>　　　<B id=dmis>-2失敗！</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ブブー</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ぶわっ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>真剣鑑定してみよう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>超鑑定しちゃう！？　ＯＫ！　ＭＰ－5！　ってアレイラさん、ＭＰ4だから足りない？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>倒れちゃうｗ</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>無理……と、思ったなのね？　残念、【精神統一】があるなのよ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あ、そうか！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（できないと思った？　残念、アレイラちゃんでした！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではアレイラさんは　知力＋２＋２D6(１２）　でどうぞー！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2D6＋2＋4　いっけー、アレの本気を見せてやる！　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋1) ＋ 6 </B>＝ <B class=dc>12</B><B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>うおおおお！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>本気だ―！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ジャスト！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ギリギリ成功だ！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ｽﾚｽﾚ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ﾊｧﾊｧ……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、フルプレートは以下の性能でした！</div>
+<div class=box> 【装備能力】　「超動きにくく超重心が悪い豪華なフルプレート」
+<BR> → 必要能力[6/4]　防御[近接3/射撃回避－3/射ﾀﾞﾒ防御3]　重14　10560シルバ（2400x4.4倍）</div><div id=com>　</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>つまり、売れと。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>マイナス性能わろす。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ｺﾞｸﾘ。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ぶっー。売り用。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>この状況でこんないけない鎧を買う物好きがどこにいるんだー！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>着ても動く度ギギギッとか言ってそう。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>なので【価格交渉】難易度が高いですねー。たぶん10くらいきそう。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ヴァンさん、めっちゃ鍛えて装備してもいいんですよ。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ギギギ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ﾊｧﾊｧ……これを【価格交渉】……ＭＰ－3……で、出来るなのよ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>素で売っても5280sですから……売り手付くの……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>3ターン目を消費して売りに行ってもいいですよ！　ちょうどここで荷物売って空き重量がある人も自由広場にいますからね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>約25万円。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>素フルプレートが買えるぞ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>では、3ターン目はみんなで買い物に出る感じにしておきますか！　ではフルプレート売ってお買い物だーヒャッハーしてください。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>「この後買い物行くねんけどどうする？リーナが帰ってこんけど」</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（探しに来てくれると助かりますねええ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>サントリナさんは着替えさせられ中です。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>リーナの衣装がDQ4のマーニャさんになるなのよ！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（その前に４ターン目も帰れるんだろうか……これで身ぐるみ剥がされてたら泣く！）</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>で、この鎧を売ってる現場にコリーナさんがやってきて……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>コリーナさんそんなにヒマじゃないのでご安心です！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ヘロヘロの妖精が価格交渉で使い物にならない鎧を売る……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>そして4ターン目はみんなで大人の店（ランク２）で祝杯を。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>4ターン目は騎士です。騎士です。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ではお金の動きはまとめて書いておいてくださーい！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>騎士を大人の店で接待すれば報酬アップで実際ウィン＝ウィンですね？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ウィン＝ウィンがひわいに聞こえる、このセッションはもうダメなの。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>あとアレイラさんは忘れないうちに価格交渉どうぞ！　難易度は（１０）です！</div>
+<div class=box><B>【価格交渉】スキル</B>　　【意志＋2D6】判定で＋2成功ごとに買値・売値が【1割】有利になる</div><div id=com>　</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2D6＋3　価格交渉　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 3 </B>＝ <B class=dc>10</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>アレイラさんはもうだめだ……。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ナイス。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>うぬぅ……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>つまり0割アップ！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はい、＋0成功なら価格変動なしです！　でもまだプチ幸運がある！　どうします？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>どうせ終わりだからいっちゃえいっちゃえーってまだ使ってないですよね？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>使ってやるわ！　なの！　　プチ幸運1→0</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>カモン！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>2D6＋3　いっけー　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋2) ＋ 3 </B>＝ <B class=dc>7</B>　　<B id=dmis>-3失敗！</B></div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>orz</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ぶー！！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ぶわ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ﾌﾞﾜﾜ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>ぶわ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>商品的に仕方ないですよ！　買い手が付くのが奇跡的なレベル！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>売れただけいいですね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>（いえ＋2されただけでも500s増えるんで支援の使いどころだなあとか思ったりとかしてませんよええ）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>「うーん、さすがにこの状況で儀礼用フルプレートはなあ……」　ということで残念ながら素売りのみでした！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>「誰がこんな鎧着るんだ！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「着たら目立つなのよ！」</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>「それ意味ないだろ！」</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>よく3時間（1ターン）でこんなイロモノが売れましたね……。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ひとまずこの5280シルバは3ターン中に分配ＯＫです！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>ロングスピア売ってもいいかな。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>スピアは一旦ヴァンさんが持っておいてもいいんじゃないんでしょうか？</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>（マントとか欲しいので良かったらついでにおねがいしますー！）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>お買い物が有る人は総合情報に書いてくださーい！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>売り買いも自由！価格と前後の所持金は宣言しておいてくださいねー。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>ここで入手したお金で、パーティーは以下の買い物を行いました。　</div>
+<div class=box>フルプレートの売り上げ → ＋5280　（PCに850sずつ、クーとミイに180sずつ）
+<BR>
+<BR>【ロイス】重心が悪いレザークロスを売却 → ＋120　所持金705 → 825                   
+<BR>【ヴァン】レザークロスをクーに売って＋75　　所持金1180→1255
+<BR>【ヴァン】ライトプレート購入 → －1200 所持金1255→1200
+<BR>【クー】ヴァンから75シルバでレザークロス購入　所持金410→335
+<BR>　　　　持ちにくいダガー(60)を売って壊れそうなダガー(75)を購入　所持金 335→320</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>クー　335→320　　クーの装備が　壊れそうなダガー　＋　レザークロスになりました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クー「（不良ナイフとお別れだー！）」</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>おお、能力的にギリギリ範囲内。　（※両方合わせて　必要体力1　必要機敏2）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>クーが着実に装備を整えてるッ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>こっちはまだ3400シルバも借金あるなの……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あーっ、そういえば借金が！　もう駄目だ、黒ヒョウのお嬢さんを奪取するしかないですね！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ンクに400借りてるなの。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>ハムイに1000借りてるなの。</div>
+<div id=nm><font class=c3><B></B></font></div><div id=tx class=ct3>フォータクル妹に2000借りているなの。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>そして代わりにお嬢さんを売り飛ばして10万シルバゲットなの！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ゲスい言葉はみんな「なの」をつかって擦り付けていますね。いいぞもっとやれ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>人はこれを風評被害といいますなの！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>一番巻き散らかしてる人が何を言ってますなの？</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>そして私は3ターン目は本気で行動停止で見せられないよ状態なのだろうか……！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>う、うん！マジでいません！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ﾌﾞｯﾌｰ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ひとまず時間が来ましたので今回はこの辺で終了とさせていただきまーす！　今回の内容をふまえて次回シナリオ考えてきますので！</div>
+<div id=nm><font class=c8><B>一同</B></font></div><div id=tx class=ct8>お疲れさまでしたー！</div>
+<BR>
+<div id=com><font id=CC2>～　第八話 『砂の街』　　完　～</font></div>
+<BR>
+<BR>
+<a name=S9></a><H1 class=gradientA>α. 終わってから……</H1>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>今回は途中もいいとこだし経験点はナシでいいのかしらっ。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ご安心を！　ちゃんと経験点ありますよ！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>リーナがいらないなら、アレが貰っておくね☆ミ。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>だめ（にっこり）　だいたいリーナは一番経験（※）を得るんじゃないですか。まったく。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>リーナが大人になって帰ってくるなのね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>その経験はチーム内で共有し品質向上を図るべきではないでしょうか（メガネクイッ）</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>その経験共有しちゃっていいの！？　いいの！？ｗ</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ンクさんにも教えてあ・げ・る。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>教えてあげる、って、リーナはネコだと思ったらタチになるんですか、相手がネコだからですか。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>ロイスはクー一直線だしヴァンさんは保存食と防具ラブだしで男性陣が薄いからってまさかこんな構成になるとは。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>誰得ですか。我々得ですね。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>保存食と防具ラブなんかじゃない。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>では誰がラブなのか叫んでもいいんですよ！</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>保存食ラブ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>保存食ラブ……あっ、はい。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>って、そんなわけないじゃないですか！きっと好きな人の一人や二人すぐに……！すぐに……！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>……出来そうになかった（今の面子を見て）。　保存食はすばらしい。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>失礼なことを言われたので囲んでシバきましょう。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>俺を保存食以外に乱れさせてくれやー!</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>こっちは、これから旅の行く先々で頬を染めながら「その……また来ちゃいました……」ってアウリスさんとのふれあいタイムを楽しんで理力を覚える日々になるんですね、楽しみです。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>理力とは……？</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>サントリナは毎回、アウリスに48の殺人ワザのひとつを教えてもらえます。なの！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>それよりロイスさん！！エッチなこと！！何もしてないじゃないですか！訴訟！</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>二つ名は嘘だったのか……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>風呂上りのクーの匂いにこういけない気分になったりとか！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>何言ってるんですか、次回もまだ二つ名このままですよ。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>そうですね。次回もまた……。</div>
+<div id=nm><font class=c6><B>最弱のサントリナ</B></font></div><div id=tx class=ct6>ちょ、わたし最弱のままなんですか！　汚れたに変更してもいいですか！？</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>しかし、やはり（バランス的に）弓は使いどころさえ選べばちゃんと強い。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>命中判定－３だけど2連射できるスキルとかも熱そうですね。当たりませんか、そうですか。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>それ2ターンくらいするとスタミナが切れてへたりこむ図が見えるんですがー！どこかの公安のお姉さんみたいに！</div>
+<div id=nm><font class=c5><B></B></font></div><div id=tx class=ct5>アレイラが使うのならいいかもしれませ……でも矢が。　（※初期フェアリーの重量制限で持てる軽量矢筒は3本しか入らない）</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>なんだろこの絶妙に足りない感。いえ設計者としてはそのくらいが嬉しいんですけど。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>アレが弓を使うなら……体力を2にして、重量増加をLv2にする。重量8まで持てる、ロングボウ装備、矢筒装備。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>うおー！そうきましたか！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>まさかの戦力化。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>（戦力になるとは）思ってなかったですね、ええ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>ちがう。体力を3にして、重量増加をLv1にすれば……。</div>
+<div class=box>【重量増加】 自動/Lv 最大所持重量の体力値に【LVx3】を足す。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>体力3に重量1なら6まで持てて……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>重さ6ならロングボウと軽量矢筒が装備できます！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>そして体力3なら威力も3+1D6で、クロスボウ(2D6)と期待値がほぼ同じ！　<B id=cc>←どっちも期待値が約7点になります</B></div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>人間だったら重量が10＋（3＋3）*5だったのに……。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>だから！　フェアリーで重量増加とるの、なんか負けた気がするんですよ！　なの！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>そのかわり人間は飛べないし妖精みたいにウザくなれないじゃないですかー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>飛ぶ妖精の射手がうざったすぎる！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>あれ、なんかDisられてる？</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>褒めてます。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>こっちの矢は当たらないし一方的に攻撃してくるので野戦でフェアリーの部隊に遭遇したら逃げるしかありませんね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>妖精の略奪団……い得る！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>矢、あたるなのよ。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>そういえば妖精って戦闘面では補正一切なし？</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>【小さい】ので、【隠れる】が異常に強いくらいですね。【隠れる】後の【急所突き】がヤバい。バレないようにﾌﾟｰﾝと飛んでって首筋にプス。それと極端に潜入工作向き。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>あとは、【飛行】が戦闘補正といえそうですね。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>【飛行】自体は「ずっと後衛にいられる」だけですね。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>それがかなりのメリットかなーと思ってました。近接攻撃一切無効！</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>そうか、後衛だから前衛に近づかれることもないのか。チートやチート！</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>洞窟や屋内だと近接有りでいいと思いまする。なの！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>ええ、洞窟や屋内など、高さのない狭いところは近付かれたらゴツンです。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>野外では上空から、近接の届かない場所に飛んでいます。ミイがフェアリーの基本形だとしたら、危険を犯す必要ないわけですし。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>というか、この世界の闇事務所とか山賊のアジトとかには絶対に対フェアリー装備が用意されてますよね。絶妙な高さに仕掛けられた鳴子トラップとか、網とかハエたたきとか。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>さすがにないと思う！　だいたいフェアリーに忍び込まれてもそうそう盗まれないし！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>無いんですか！潜入されたらやばいのでリスク管理の優先度がとても高いと思ってましたが！　ああ、そもそも妖精はあまり自我が無いのかー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>密偵フェアリーに襲われたら諦めるしかないと思います。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>密偵フェアリーに情報を盗まれて工作されたら致命的！とかってのはあると思うんですよね。</div>
+<div id=nm><font class=c2><B>乱れたヴァン</B></font></div><div id=tx class=ct2>妖精は重たいものもてないから大丈夫、重くないものはハイ。</div>
+<div id=nm><font class=c3><B>健全なアレイラ</B></font></div><div id=tx class=ct3>一般フェアリーは重さ１のモノしか運べないなのよ！</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>でもほら、帳簿とか契約書とか証文とか。かみっぺらなら持てる！</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>はい、情報は盗まれるので、金庫に入ってないものだとヤバいですね。でも、開けるのに力が要る金庫を用意しておくだけで十分フェアリー対策になりそうです。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>なるほどー。</div>
+<div id=nm><font class=c0><B>一般的なＧＭ</B></font></div><div id=tx class=ct0>10kgで上向いてるフタとか、体重が人間の1/100しかないフェアリーが開けられるとは思えない。</div>
+<div id=nm><font class=c1><B>エッチなロイス</B></font></div><div id=tx class=ct1>そこで体力3のフェアリーが……。</div>
+<div id=nm><font class=c5><B>ひだるいンク</B></font></div><div id=tx class=ct5>メリメリィ。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>妖精話に花を咲かせつつようやく人心地ついた一行。しかし、サントリナは帰ってきません……。　</div>
+<div id=com>サントリナの運命やいかに！？　そして黒い狼騎士の依頼とは一体何なのか！？　</div>
+<div id=com>次回もお楽しみに！　</div>
+<div id=com>　</div>
+<div id=com><B>　　　　　　 → <a href=Replay10.shtml class=red><font size=+1>【第九話『奪還』へ】</font></a></B>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>【おまけ】　投稿イラストコーナー</font></div>
+<div id=com>このコーナーでは、読者の皆さまからお絵かき掲示板のほうにお寄せくださった片道勇者TRPGイラストをご紹介させていただきます！　投稿してくださった皆さま、本当にありがとうございます！　</div>
+<div id=com>（今回はちょっと過激なイラストもございますのでご注意を！）　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com><font id=CC2>アマニア 様より、『ハムイＶＳサトリ』 （7話より）</font></div>
+<div id=com>　</div>
+<div id=com><img src="image/IMG_006523.jpg" title="「ふんどしを賭けてそなたに一騎打ちを申し込む！」　そして料理対決へ――">　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>
+<div id=com>　</div>

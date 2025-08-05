@@ -1,0 +1,118 @@
+
+/* 電子書籍では不要部分 */
+body{
+	background-color : #fafaff;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+/* 横幅調節用　縦向きの場合*/
+body{
+  margin: 0px 0px 0px 0px;
+}
+
+
+/* 共通部分 */
+
+body{
+	font-size:1em;
+  color : #655353;
+  line-height:110%;
+  
+	margin-left: 1em;
+	margin-right: 1em;
+  
+}
+
+td{
+	font-size:1.2em;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+A:LINK,A:VISITED{color:#774343;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #AA9898;text-decoration : underline;}
+A:LINK.red,A:VISITED.red{color:#c54343;text-decoration : underline;}
+A:HOVER.red,A:ACTIVE.red{color : #ce9898;text-decoration : underline;}
+.gray{background:#755353;}
+.ggray{background:#553333;}
+.ggray_radius{border-radius: 0.7em;border: 1px #553333 solid; }
+.bgray{background:#aa8888;}
+.bgray_radius{background:#aa8888;border-top-left-radius: 0.7em;border-top-right-radius:0.7em;}
+.bwgray{background:#aa8888;}
+TD.bgray{color:#ffffff;}
+TD.bwgray{color:#ffffff;}
+.white{background:#fffafa;}
+.white_radius{background:#fffafa;border-bottom-left-radius: 0.7em;border-bottom-right-radius:0.7em;}
+.white_mini{background:#fffafa;  /*font-size : 0.9em;*/ }
+.wwhite_mini{background:#fffafa;  /*font-size : 0.8em;*/ color:#AA9999;}
+.whiteblue{background:#dadaff;}
+.whitered{background:#FAEEEE;}
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#ddd2d2;}
+.fr{color:#bb4343;}
+.fb{color:#4343bb;}
+.fg{color:#754343;}
+.fmg{color:#956363;}
+.fmw{color : #D5A3A3;}
+.fred{color:#cc3333;}
+.fblue{color:#3333cc;}
+
+TABLE{
+	line-height:120%;
+	color : #655353;
+	
+	margin-left: auto;/* 画面中央に置く */
+	margin-right: auto;/* 画面中央に置く */
+
+}
+
+.radius{
+	-webkit-border-radius: 0.7em;
+	-moz-border-radius: 0.7em;
+	border-radius: 0.7em;
+}
+
+hr { /* 線 */
+    border: 0;
+    height: 1px;
+    background: #644;
+}
+
+@media screen and (min-width:499px){
+hr {
+    background-image: -webkit-linear-gradient(left, #fcc, #644, #fcc);
+    background-image:    -moz-linear-gradient(left, #fcc, #644, #fcc);
+    background-image:     -ms-linear-gradient(left, #fcc, #644, #fcc);
+    background-image:      -o-linear-gradient(left, #fcc, #644, #fcc);
+}
+}
+
+
+.gradientA{ 
+  color : #FFFFFF;
+  background-color: #886666; 
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.7em;
+}  
+  
+.gradientA{ 
+  background: linear-gradient(to right, #866, #744);
+}
+
+
+
+
+
+input[type="submit"]{
+   -webkit-transform: scale(2);
+   transform: scale(2);
+   border-radius: 0.67em;
+   border: 2px solid #F22;
+   margin-left: 2.5em;
+   box-shadow: 2px 2px 2px gray;
+}

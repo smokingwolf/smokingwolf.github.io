@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>＜自家製＞片道勇者TRPG リプレイ　トップページ</title>
+
+
+
+<link rel="stylesheet" href="replay.css" type="text/css">
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+
+
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+	<div id="flowmenu">
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+<a href="../../" class=red><B>←ホームへ戻る</B></a><BR>
+
+	      <BR>
+	      <TD class="white" nowrap>【&lt;自家製&gt;<BR>　片道勇者TRPG】<BR>
+	      ●<a href="./Rule.html" target="_blank" class=red>片道TRPGﾙｰﾙ</a><BR><BR>
+	      ◆はじめに<BR>
+	      　<a href="#S1">○説明</a><BR>
+	      　
+	      <BR><a href="Replay01.shtml#S0" class=red>◆1話『出会い』</a><BR>
+<a href="Replay02.shtml#S0" class=red>◆2話『天秤・上』</a><BR>
+<a href="Replay03.shtml#S0" class=red>◆3話『天秤・下』</a><BR>
+<a href="Replay04.shtml#S0" class=red>◆4話『<small>ﾗｲﾌﾞﾗの街</small>』</a><BR>
+<a href="Replay05.shtml#S0" class=red>◆5話『<small>図書迷宮</small>』</a><BR>
+<a href="Replay06.shtml#S0" class=red>◆6話『<small>絶望の街</small>』</a><BR>
+<a href="Replay07.shtml#S0" class=red>◆7話『荒野へ』</a><BR>
+<a href="Replay08.shtml#S0" class=red>◆7話番外</a><BR>
+<a href="Replay09.shtml#S0" class=red>◆8話『砂の街』</a><BR>
+<a href="Replay10.shtml#S0" class=red>◆9話『奪還』</a><BR>
+<a href="Replay11.shtml#S0" class=red>◆10話『尋ね者』</a><BR>
+<a href="Replay12.shtml#S0" class=red>◆11話『<small>死の砂漠</small>』</a><BR>
+<a href="Replay13.shtml#S0" class=red>◆12話『<small>分かつ心</small>』</a><BR>
+<a href="Replay14.shtml#S0" class=red>◆13話『再会』</a><BR>
+<a href="Replay15.shtml#S0" class=red>◆リプレイ後日談</a><BR>
+<!--
+	      　　　　↑<BR></B>
+	      <small>　 <B class=fred>2013/12/21</B>更新！</small>-->
+	      </TD>
+	    </tr></TABLE>
+	    <BR>
+	<TABLE cellpadding="3" cellspacing="1"><TR>
+	      <TD width=0></TD><TD nowrap>
+	    
+</TD></tr></TABLE>
+
+</div>
+	</TD></tr></TABLE><BR>
+</div></BODY></HTML><a name=TITLE></a><H1 class=gradientTITLE>&lt;自家製&gt;片道勇者TRPGリプレイ　～はじめに～
+</H1>
+
+<div id=com>※冒険企画局さま版の<B><a href="../katamichi_trpg2/">「片道勇者TRPG」リプレイ『灰の少女とヨルムンガンド』はこちら</a></B>です！<BR>
+<BR>
+　このページでは2013年のエイプリフール企画として行った、<BR>
+フリーゲーム『片道勇者』を元にしたTRPGのプレイ記録を掲載しています。<BR>
+<BR>
+　平均的な『TRPG』を語弊を恐れずに一言で説明するなら、『ルール付きのごっこ遊び』です。<BR>
+複数のプレイヤーとGMが集い、プレイヤーは与えられた課題をこなすため、<BR>
+ダイス（サイコロのこと）を振って行動の成否を決定しながら冒険を進めます。<BR>
+<BR>
+<small>※このサイトでは冒険企画局版『片道勇者TRPG』と区別する目的で、本ルールを『&lt;自家製&gt;片道勇者TRPG』と呼称します。</small>
+</div>
+<div id=def2><DL class=whatnew>
+
+<B class=fred>【更新履歴】</B>
+<BR>
+　<B>2013/12/21</B>　<B>最終回 <a href=Replay14.shtml class=red>13話『再会』</a></B>、<B><a href=Replay15.shtml class=red>『リプレイ後日談』</a></B>の2話、一挙公開！
+<BR>
+　　　　　先行したヴァンとアレイラは都へたどり着けるのか！？　そして全員の再会は……！？
+<BR>
+
+<BR>
+　<B>2013/10/26</B>　<B><a href=Replay13.shtml class=red>12話『分かつ心』</a></B>を公開！　2組に分かれ、遺跡に向かったロイスたちの運命は……
+<BR>
+
+<BR>
+　<B>2013/08/17</B>　<B><a href=Replay12.shtml class=red>11話『死の砂漠』</a></B>を公開！　いよいよ一行は鳥人が跋扈する砂漠へ……！
+<BR>
+
+<BR>
+　<B>2013/07/20</B>　<B><a href=Replay11.shtml class=red>10話『尋ね者』</a></B>を公開！　彼らの判断が招いた事態とは……！？
+<BR>
+
+<BR>
+　<B>2013/07/01</B>　<B><a href=Replay10.shtml class=red>9話『奪還』</a></B>を公開！　果たしてサントリナの運命やいかに！
+<BR>
+
+<BR>
+　<B>2013/06/15</B>　<B><a href=Replay08.shtml class=red>7話番外編</a></B>と<B><a href=Replay09.shtml class=red>8話『砂の街』</a></B>を公開！　スコーピオの街での物語。
+<BR>
+　　　　　　　　　　　<a href=Rule.html class=red>片道勇者TRPGルール</a>がVer1.3に更新されました！
+<BR>
+
+<BR>
+　<B>2013/06/01</B>　<B><a href=Replay07.shtml class=red>7話『荒野へ』</a></B>を公開！　スコーピオへの旅路、水浴びもあるよ！
+<BR>
+
+<BR>
+　<B>2013/05/18</B>　<B><a href=Replay06.shtml class=red>6話『絶望の街』</a></B>を公開！　闇に包まれたライブラの街で一行が見たものとは……！
+<BR>
+　　　　　　　　　　　<a href=Rule.html class=red>片道勇者TRPGルール</a>がVer1.2に更新されました！
+<BR>
+
+<BR>
+　<B>2013/05/04</B>　<B><a href=Replay05.shtml class=red>5話『図書迷宮』</a></B>を公開！　長い長い、永久図書館の冒険が始まります。
+<BR>
+
+<BR>
+　<B>2013/04/20</B>　<B><a href=Replay04.shtml class=red>4話『ライブラの街』</a></B>を公開！　街での日常とハプニング回です。
+<BR>
+　　　　　　　　　　　<a href=Rule.html class=red>片道勇者TRPGルール</a>がVer1.1に更新されました！
+<BR>
+
+<BR>
+　<B>2013/04/09</B>　<B><a href=Replay03.shtml class=red>3話『天秤・下』</a></B>を公開！
+<BR>
+
+<BR>
+　<B>2013/04/01</B>　エイプリルフール企画として<B><a href=Replay01.shtml class=red>1話『出会い』</a></B>、<B><a href=Replay02.shtml class=red>2話『天秤・上』</a></B>を公開！
+<BR>
+</DL></div>
+
+<HR class=line>
+<div id=com>
+　</div>
+<div id=titleimg><img src=image/00_Title.jpg></div>
+
+<HR class=line>
+<div id=com>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7><a name="S1"></a>
+</div>
+<div id=nm><font class=c7><B></B></font></div><div id=tx class=ct7><B>説明不要！　早く読みたい人はこちらから！<BR><BR> → <a href=Replay01.shtml class=red><BIG><BIG>【第1話『出会い』へ】</BIG></BIG></a></B>
+</div>
+<HR class=line>
+<div id=com>
+　</div>
+<div id=com>　
+　</div>
+<div id=com><font id=CC2>【どうやって遊んでるの？】
+</font></div>
+<div id=com>　ルールとしては、TRPG【大河物語】のルールを参考にして作った<a href="Rule.html" target=_blank class=red>【片道勇者TRPG基本ルール】</a>と、
+　</div>
+<div id=com>さほど多くないスキル、アイテムを用意しただけの状態から始まっています。
+　</div>
+<div id=com>　また、今回のプレイで使用したのは、チャットとダイス機能、共有データシートの３つのみです。
+　</div>
+<div id=com>
+　</div>
+<HR class=line>
+<div id=com>
+　</div>
+<div id=com>
+　</div>
+<div id=com><font id=CC2>【どんな世界？】
+</font></div>
+<div id=com>片道勇者は、無限に生成される世界が一つの魅力です。
+　</div>
+<div id=com>よって世界設定も、アドリブでどんどん決めていくことにしました。
+　</div>
+<div id=com>現在決まっている設定は、おおざっぱな５種族の設定のみです。
+　</div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>◆『人間』は人間らしく街を作って、平穏に暮らしていたり、戦争をしていたり、
+</font></div>
+<div id=com><font id=CC1>　商売にあけくれたりしています。
+</font></div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>◆山奥には、『耳長人』が隠れ住んでいます。本来は超能力的な術である
+</font></div>
+<div id=com><font id=CC1>　 「理力」に優れた種族なのですが、スタート時の地域では理力の存在は知られておらず、
+</font></div>
+<div id=com><font id=CC1>　使い方を知りません。
+</font></div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>◆イヌ・ネコ・ヒョウ・ツバサ・キツネ・ウサギなど様々な『獣人』も街を作って暮らしています。
+</font></div>
+<div id=com><font id=CC1>　『獣人』は頭がそのまま動物の姿をしているヒトで、一般的に、ヒョウビトはネコビトより高貴、
+</font></div>
+<div id=com><font id=CC1>　オオカミビトはイヌビトより高貴な血筋であるとされています。
+</font></div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>◆人工生命だった『フェアリー』は野生化し、繁殖し、
+</font></div>
+<div id=com><font id=CC1>　たいていは人間社会で誰かに頼りながら生きています。
+</font></div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>◆この世界での『半獣人』の存在は、はるか遠い史実の中のみで語られる存在となっています。
+</font></div>
+<div id=com><font id=CC1>　半獣人とは、耳・尻尾・手・下半身など体の一部だけが獣になってしまった元「人間」です。
+</font></div>
+<div id=com><font id=CC1>　この物語では、この種族を選んだ人は第一話が終わるまでの間、「まだ人間」です。
+</font></div>
+<div id=com>
+　</div>
+<div id=com><font id=CC1>開始時点では世界は平和で、世界の脅威となりそうなほどの存在は『今のところ』存在しません。
+</font></div>
+<div id=com>
+　</div>
+<div id=com>これ以外の部分は、世界はＧＭとプレイヤーの手で刻々と作られていきます。
+　</div>
+<HR class=line>
+<div id=com>
+　</div>
+<div id=com>
+　</div>
+<div id=com><font id=CC2>【判定とは？】
+</font></div>
+<div id=com>このTRPGでは、キャラクターの行動が成功したか決める判断基準としてダイス（サイコロ）を使用します。
+　</div>
+<div id=com>たいていの場合、【能力値＋6面ダイス2個（※「2D6」と表記します）】で判定結果を出し、
+　</div>
+<div id=com>その数値が「目標値」以上ならば成功となります。
+　</div>
+<div id=com>
+　</div>
+<div id=com><B>【判定の一例】</B>
+　</div>
+<div id=com>
+　</div>
+<div id=com>　GM「ではエシュター、キミはトイレに入って用を済ませたはいいけど、
+　</div>
+<div id=com>　　　　トイレットペーパーがないことに気付くね（エシュター：またぁ！？）。
+　</div>
+<div id=com>　　　　自分のカバンの中から紙を見つけられるかどうか、知力+2D6で判定してみて、目標値は【8】」
+　</div>
+<div id=com>
+　</div>
+<div id=com>　エ「（6面ダイス2個をコロコロ……）
+　</div>
+<div id=com>　　　 1と3だから、ダイスの合計は【4】。僕の知力は【3】だから、4＋3で判定結果は【7】！」
+　</div>
+<div id=com>
+　</div>
+<div id=com>　GM「結果が【8】に達してないから、紙は見つからなかったね。あと1大きかったら成功したのに」
+　</div>
+<div id=com>
+　</div>
+<div id=com>　エ「ガーン！　いや待って、教科書！　教科書のいらないページとかあるよね！？　それを使う！」
+　</div>
+<div id=com>
+　</div>
+<div id=com>　GM「なるほど。それじゃあ、いらないページをちゃんと判断できるか知力+2D6で――」
+　</div>
+<div id=com>
+　</div>
+<div id=com>　こんな風に、判定に失敗したとしても、できそうなことならアイデア次第で
+　</div>
+<div id=com>　どんどん提案できるのがTRPGの魅力です。
+　</div>
+<div id=com>
+　</div>
+<HR class=line>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7><B>さあ、いよいよ物語の始まりです！ → <a href=Replay01.shtml class=red><font size=+1>【第1話『出会い』へ】</font></a></B>
+</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<HR class=line>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>
+<div id=nm><font class=c7><B>　　</B></font></div><div id=tx class=ct7>
+　</div>

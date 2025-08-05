@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>片道勇者TRPGリプレイ　ED話『ｴﾝﾃﾞｨﾝｸﾞ』</title>
+
+<link rel="stylesheet" href="replay2.css" type="text/css">
+
+
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+<div id="flowmenu"><a href="../../" class=red><B>←ホームへ戻る</B></a><BR>　
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap>
+<B>片道勇者TRPG</B><BR>&nbsp;<small><small>灰の少女とﾖﾙﾑﾝｶﾞﾝﾄﾞ</small></small>
+<BR>  <a href="index.shtml#S0" class=red>◆トップページ</a><BR>
+<a href="Replay_KatamichiTRPG_01.shtml#S0" class=red title="◆1話『騎士と狩人』">◆1</a> 
+<a href="Replay_KatamichiTRPG_02.shtml#S0" class=red title="◆2話『剣士と詩人』">◆2</a> 
+<a href="Replay_KatamichiTRPG_03.shtml#S0" class=red title="◆3話『闇と勇者』">◆3</a> 
+<a href="Replay_KatamichiTRPG_04.shtml#S0" class=red title="◆4話『王女と獣』">◆4</a> 
+<BR><a href="Replay_KatamichiTRPG_05.shtml#S0" class=red title="◆5話『転生と邪悪』">◆5</a> 
+<BR><a href="Replay_KatamichiTRPG_06.shtml#S0" class=red>◆6話『<small>少女と真実</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_07.shtml#S0" class=red>◆7話『<small>ﾖﾙﾑﾝｶﾞﾝﾄﾞ</small>』</a><BR>
+  <BR><a href="#S0">◆ED話『<small>ｴﾝﾃﾞｨﾝｸﾞ</small>』</a><BR>
+    　<a href="#S1">- 人気投票</a><BR>
+  　<a href="#S2">- はじめに</a><BR>
+  　<a href="#S3">- ｴﾝﾃﾞｨﾝｸﾞ前編</a><BR>
+  　<a href="#S4">- ｴﾝﾃﾞｨﾝｸﾞ中編</a><BR>
+  　<a href="#S5">- ｴﾝﾃﾞｨﾝｸﾞ後編</a><BR>
+  　<a href="#S6">- 楽屋裏</a><BR>
+  <BR><a href="Replay_KatamichiTRPG_09.shtml#S0" class=red>◆ｵﾏｹ<small>『お疲れ様会』</small></a><BR>
+<a href="Replay_KatamichiTRPG_P01.shtml#S0" class=red>◆<small>外伝『よみがえる闇』</small></a><BR>
+
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+<TR>		    
+		    <TD class="white" nowrap align="center"><small class=c1><small class=close><B>騎士<BR>ロリア</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_01_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_01_icon.png border=1 width=50 height=60></a>
+		    </TD>
+		    
+		    <TD class="white" nowrap align="center"><small class=c2><small class=close><B>狩人<BR>クスクル</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_05_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_05_icon.png border=1 width=50 height=60></a>
+		    </TD>
+</TR><TR>		    
+		    <TD class="white" nowrap align="center"><small class=c3><small class=close><B>勇者<BR>マーシュ</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_06_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_06_icon.png border=1 width=50 height=60></a>
+		    </TD>
+		    
+		    <TD class="white" nowrap align="center"><small class=c4><small class=close><B>理術士<BR>ワイズマン</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_04B_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_04B_icon.png border=1 width=50 height=60></a>
+		    </TD>
+</TR>	    </TABLE>
+</div></BODY></HTML><div id=com_hira>　</div>
+<div id=com_hira><a name="S0"></a>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>片道勇者ＴＲＰＧ　エンディング</H1>
+<div id=com_hira>　</div>
+<div id=com_hira>　ヨルムンガンドを倒して監獄世界を脱出し、それぞれ元の世界へと戻ったロリア、クスクル、マーシュ、ワイズマン。　</div>
+<div id=com_hira>　彼らは帰還した元の世界でもう一度、新たな人生をやり直すことになります。果たして彼らは、元の世界で失ったものを取り戻すことができるでしょうか……？　</div>
+<div id=com_hira>　</div>
+<a name=S1></a><H1 class=gradientA>人気投票</H1>
+<DIV id="com">以下は皆さまからお寄せいただいた、前の第7話『ヨルムンガンド』への人気投票結果です！<BR>
+たくさんのコメント、いつも本当にありがとうございます！</DIV>
+<DIV id="com">　</DIV>
+<DIV id="com"><TABLE class="gray" cellpadding="3" cellspacing="1" width=592>
+  <TBODY>
+    <TR>
+      <TD class="whiteblue" align="center">順位</TD>
+      <TD class="whiteblue" align="center" colspan="2" width="170">名前・コメント（※ＰＬ分は本人コメント）</TD>
+      <TD class="whiteblue" align="center" colspan="2" width="300">寄せられたコメント（抜粋）</TD>
+    </TR>
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">１位</FONT></B><BR>
+      （３６票）</TD>
+      <TD class="white" align="center" nowrap>騎士<BR>ロリア<BR>
+      <IMG src="image_newkatamichi/PC_01_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>ロリア<BR>
+      「この不運は一体どこから呼び込まれたものなんでしょうね……。護ることに関しては役割が果たせたのでそれだけはまだ騎士としての責務を果たせたと言えるでしょう。次で本当の最終話となりますのであと少しだけお付き合いください頂きますようお願いします」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「主に盾としての活躍、お疲れさまでした。ひとまずは生きて帰ってこれて何よりです。めげずに頑張ってください！」　
+「設定上の薄幸度合を更に上回るように絶望的なダイス運で、クスクルＰＬさん以外は大体がＰＣとしてのあり方を体現できた最終話だったと思います」　
+「フォートレスのおかげで、地味ながら大活躍できて良かったですね。主な死因が攻撃を外しまくった事による自爆のようなものというのが何とも…」　
+「ところでものは相談ですが拝み倒したら最後の思い出に鋼鉄の膝枕してくれませんかね？ 腕枕でもいいな…、いっそちちまくrいや何でもないです」　
+「反撃云々は置いといて、皆を守り抜いて命を散らした姿は堂々たる騎士ぶりでした」　
+「えええええ最終戦に限ってその出目ェ！？でもその結果がこの結末であれば、これはこれで主人公っぽい！」　
+「リプレイを読んでいるときは、ロリア…、え…え…？えぇ！？みたいな感じでした…。ダイスの女神様はどうしてそんなにドＳだったんでしょうか…」　「流石に大笑いしたｗ」　
+「生きてて………よかった………」　
+「お疲れさまでした！　最終戦でのダイス目には恵まれなかったですが、ロリアさんはちゃんとみんなの盾になってましたよ！」　
+「今回もまた外し放題でしたが、きっと勇者として活躍できるようマーシュさんにダイスの神様を貸し出したのでしょう。しかしドＭでちょっと嬉しそうな最後(笑)せっかくのシリアスシーンが！」　「自分を犠牲にしてでも仲間を守る！というまさに騎士道！カッコ良かったです！お疲れ様でした！」　
+「自分の火力じゃ力になれないからと、某勇者の不幸ダイス運を全て引き受けるなんて流石です（白目）お疲れ様でした」</small></small></TD>
+    </TR>
+
+    
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">２位</FONT></B><BR>
+      （３１票）</TD>
+      <TD class="white" align="center" nowrap><small>詩人<BR>ワイズ<BR>マン</small><BR>
+      <IMG src="image_newkatamichi/PC_04_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>ワイズマン<BR>
+      「誰でも自分の人生の主人公だとは言ったものだが、我輩もこのような大舞台に立つことがあるとは夢にも思っておらなんだ。皆様！　ここまでお付き合いいただきまことに感謝する！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「仲間を思う正しき心が闇をまとう邪悪を打ち砕きましたね！……シースにとっても自慢の父親だったと思います。……幸せになってくれることを願っています」　
+「薄給騎士とエロイグマの凸凹コンビから始まったこのキャンペーンですが、第２話で不運ーズが思いがけない主人公力を発揮してからあれよあれよという間にズマンさんが主人公になっていく様は、おっさん好きにはたまらないものがありました。追伸：ゴーストドッグさんは……案の定忘れられてしまいましたね……」　
+「ラストの活躍は一番と言っていいほどでしたね。守護で集中攻撃を受け止め、火炎でｽﾍﾟｼｬﾙ!これはもう主人公認定しかない」　
+「安定した火力、しかも意外と堅かった！　最後にクリティカルで決めるし、ロールプレイ的にも本当真の勇者っぽい(いや、職業勇者の人はｾﾞﾇｰﾗだし…ねえ？)」　
+「最後まで渋く戦い仲間を助け、要所は締める。大人の男の渋みを見せてもらいました！ シースのことは残念だったけど、そうですよね、魂が救われ心だけでも人として死んでいけた彼女はきっと幸せだったんですよね。元気出せズマン」　
+「『亡き妻に貞淑を誓っておる』のところが個人的にグッと決ました！最後の闘いもかっこよかったです！(中和とか)エンディングでどうかどうか幸せになってくれ……！ダークワイズマンの杖……？うっ頭が」　
+「かたい、かたすぎる！ロールと能力のぴったりはまり具合、さすがでした！」　
+「ズマンさんのスペシャルのタイミングが完璧すぎて…詩人の時から考えると本当に成長しましたよね……(クラスが変わったので当然と言えば当然ですが、それでも凄い！)」　
+「お疲れさまでした！　渋い。強い。長距離走もできる。やっぱりワイズマンかっこいいよ！！」　
+「波乱万丈！完全に主人公してて、終始かっこよかったです！ンクにゃんの雪辱を晴らす人気ぶりでしたね」　
+「ズマン『力を貸せ！』ダーク『ようやく俺の出番だな！』からの→ズマン『戻れ！』ダーク『えっマジで！？』『ああ～』こんなん笑うしかないじゃないですか！決戦直前にしまらないなあもう！」</small></small></TD>
+    </TR>
+    
+    
+    <TR>
+      <TD class="white" align="center" nowrap rowspan="3"><B><FONT size="+1">同率<BR>３位</FONT></B><BR>
+      （２６票）</TD>
+      <TD class="white" align="center" nowrap>狩人<BR>クスクル<BR>
+      <IMG src="image_newkatamichi/PC_05_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>
+      クスクル<BR>「もうちょと活躍したかったかも～、ＧＭが『２日目･南のイベントは水着のおねぇさんがたくさんいる浜辺でした！』というイベントを配置してくれたら、クスクルもっと自然に活躍できたと思うなぁ。
+『水着のおねぇさんについて語るです』というジャッジだったら『なんてこった！　スクール水着女子いっぱいの学校プールの方が読者のみんなに大人気だよ！』と答えたのにねー！　『あ、ここの挿絵を募集しております』とか言えたのにねー」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「安定のダイス目で決めてくれましたね！妖精としての第２の人生に期待！」　
+「何　し　と　ん　キ　ミ（シースに刺さった矢を回収しつつ）。さながらコンピュータＲＰＧで『よもや本当にそんな事はしないだろう』と選んだ選択肢で取り返しがつかない事態を引き起こしたかの如き台無しさになってしまいましたね……」　
+「今回も変わらず安定の強さでしたが、安定しすぎて早死にできず…。言動に反して、特徴や装備は堅実なチョイスなんですよね。お疲れさまでした!」　
+「安定の射撃力でパーティのダメージを底支え…と思ったら安定しすぎて隠し球の回復発動が間に合わなかっただと!? おまけにシース撃っちゃダメぇぇぇ!! あと、もうこれで最終回なのにセクハラ少ないよ、何やってんの!? ともあれ、シリーズ通してダメージ稼ぎに装備探索にエロ分提供にツッコミにボケにボケにボケにと八面六臂四翼の大活躍をした小動物殿に敬礼(・｀＿´・)ゞ」　
+「相変わらずの安定っぷり、頼れる主砲は決戦でも健在！　でも…ロールが…シリアスシーンに……刺さらない…ッ！」　
+「『目の前にいる仲間が全裸っていうのが一番わからないなぁ～』もうこれで色々持っていかれました。全くその通りですよ！」　
+「お疲れさまでした！　なんて頼りになる妖精…。緑の森の矢は残念でしたね。シースを射た件はあれです。話には聞いてたけど敵対度がわからなかったから正当防衛って事で！」　
+「シース相手に伝説装備で容赦なく攻撃しかける辺り流石ですｗ」　
+「戦闘でもロールでも存在感強すぎぃ！やはりカワイイは最強なのか」　
+「最後までキャラを通すプレイ、素敵でした」　
+「クスクル強い！可愛い！！クスクルが居ると安心感がありました」　
+「やっぱり師匠は強かった！安定のダイス運で最後まで大活躍でしたね。そして初めての死亡…。そんな状態でも自分が先にやられたらロリアを助けられるかもしれないとか考えていたとは、さすが師匠…。一生ついていきます！」　
+「暗くなりそうなシーンをぱっと明るくしてくれたり、ダイス運的にも安心と信頼の師匠でした。お疲れ様でした！　女の子の妖精になったのでセクハラし放題ですね。よかったですね。(棒)」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap>勇者<BR>マーシュ<BR>
+      <IMG src="image_newkatamichi/PC_06_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>マーシュ<BR>
+      「ふふっ、皆、俺の輝かしい活躍に言葉もないようだな！　……安定の不運とか、セクハラとか、今後大丈夫なのか色んな意味でとか、そんなのは聞こえないな！！ 箱を開けられない剣士？　そんなのいたっけかな？（レーヴァテインを握りながら）」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「序盤はダイス目にハラハラしましたが、終盤の『勇者』っぷりにしびれて憧れてしまいました！(でも全裸は勘弁な！)アレンの無念をしっかり晴らしてくれましたね。勇者『マーシュ』の人生に幸あれ！」　
+「サンキュー、ゼヌーラ。フォーエバー、ゼヌーラ」　
+「最後までお疲れ様でした！　ズマンさんと併せていつもの不運ーズかと思いきや、最後のこの決戦のために全力で溜め込んでいただけだったのですね！　……お二人の今後の卓ゲ人生が心配です（やめて）」　
+「今週は凄いぞ、どうしたんだマーシュ!」　
+「クリティカルを見た時は涙が出そうになったり心臓が止まりそうになったりして大変でした」　
+「ロールはちゃんと勇者してるのに・・・常に全裸だから想像できる絵がどうしようもない・・・！　女性ＰＣのイメージが強いＰＬさんでしたが、男性ＰＣでもカッコよく、かつダイスのポンコツ感を活かしたロールが印象的で楽しませてくださいました」　
+「ロリアさんから運を奪い取っ、ゲフン、最終決戦に強いマーシュ！大ダメージソースっていう勇者らしい活躍かっこよかったです！全裸だけど！」　
+「ひたすら溢れ出る主人公力をひたすら見せつけてからの、最後の最後で外す変わらぬ不幸っぷりに感服しました。やっぱりマーシュは不幸でないと！」　
+「マリーの不運＋最強のアレンの(大事な時にその場にいない的な)不運で、普段は不運だけど大事な時にいさえすれば強い、みたいな運に変わったんじゃないでしょうか。元の世界では分離するんですか？それともコリーナの元へ…？エンディング楽しみです！」　
+「このダイス目、完全にニセモノだーっ！？」　「最初は木箱に負けてたのにこんなに強くなって…」　
+「何で逃げるところでスペシャル出るんですか！最終決戦で出してくださいよ！という期待を裏切らないダイス運が素晴らしかったです。全裸に不運！でもイケメン！すごくいいキャラでした」　
+「圧倒的火力、やっぱり勇者ってかっこいい！ラスト、ほんとに良かったです！」　
+「最初の宝箱すらすっ転んで明けられなかったローズマリーが立派な姿になって活躍しましたね！ 壁壊の聖剣、最後の最後で攻撃を外す、全裸……だ、大活躍でしたね！」</small></small></TD>
+    </TR>
+    
+    <TR>
+      <TD class="white" align="center" nowrap>理術士<BR>シース<BR>
+      <IMG src="image_newkatamichi/PC_11_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>シース<BR>
+      “やるだけのことをやれたので私は幸せです……私がどうなったかは、この先を読んでください！”</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「シース……運命は残酷だとわかっていますが…幸せになってほしかったです……」　
+「ありがとう、シース。きっとみんな、君の事は忘れない。きっとみんな、君に感謝しているはずだ……だから、ゆっくり休んで。そしてお父さんを僕にください！」　
+「お疲れ様……」　
+「よく頑張ったね。今はおやすみ。どうか魂だけでも安らかに…。願わくばいつか生まれ変わってズマンともう一度デジャヴを」　
+「どうかこの娘が元の世界で新しい生命に転生出来ますように。あとクスクルお前絶対ゆるさｎ（ｒｙ」　
+「うわあああああああシースゥゥゥゥゥ！　生きていて欲しかった・・・生きていて欲しかった！」　
+「最後まで勇者たちの味方だったシースに敬礼」　
+「ああ…シース…どこまでもやさしくて、哀しい。　よくやったよ。エンディング回で少しでも報われる感じが出たらいいなぁ」　
+「シースゥゥゥゥ（´；ω；｀）。エンディングで元気なシースちゃん出てきますよね？　きますよね！？」　
+「シースちゃん……　君は頑張ったよ……　救われて欲しいキャラクターとしても一票」　
+「シースー！助かって欲しかった！お父さんに会えてこれから世界一幸せにならなきゃいけなかったんだよ！？
+「悲しんだ分いっぱい笑って欲しかったし、ワイズマンにどこの馬の骨とも知らぬ奴に娘はやれんわ！とか言って欲しかったし、花嫁姿に涙して欲しかったし、孫を抱いておじいちゃんでちゅよーとk(←どこまで妄想が進んでるんだ)」　「ワイズマン親子へのGMの温情に期待します！幸せにしてあげてください…！」　
+「メインヒロイン、お疲れ様でした」</small></small></TD>
+    </TR>
+    
+    
+
+
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+1">６位</FONT></B><BR>
+      （２３票）</TD>
+      <TD class="white" align="center" nowrap><small>ＧＭ<BR>（ゲーム<BR>マスター）</small><BR>
+      <IMG src="image_newkatamichi/PC_99_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>ゲームマスター<BR>
+      「しゃべることができるＮＰＣは１人は用意しましょうね！　そうでないとサボテンの肉やアライグマをしゃべらせなくてはいけなくなります！！　ハッピーなエンドが迎えられるかは、これまでとこれからのＰＣの皆さん次第、果たして彼らの運命は……！？」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「全７話に及ぶキャンペーンの進行、本当にお疲れ様でした！」　
+「サボ肉と動物の肉のセリフは反則です。飲み物飲んでなくて良かった…。箱なら原作でもEDでなにかほざいてたんですが」　
+「全員が全員展開熱すぎぃ！それを最大限引き出したGMの進行に尊敬の一票。また新しいリプレイ見せてください！」　
+「とても楽しかったです。皆さんお疲れ様です」　
+「お疲れ様でした！　そしてよかった！エンディング回あるんですね(泣)。カクヨムで最終話読んだ時から『ここで終わりなの？！この物語全員死亡で終了？！』って絶叫してたので、エンディング回楽しみにしてます！」　
+「設定がかなり凝っていて，じっくり楽しめました」　「笑いあり、涙あり、とても面白かったです！」　
+「シースー！シースがー！GMー！温情出せませんか！みんなの魂をちょっぴりずつ分けてもらうとか、足りなければ自分のも持ってっていいんで！　元の世界に戻ったら復活してるとか、ロリアの中にシースの魂の一部があるとか、ワイズマンが急に『う、産まれる…！？』とかいってシースの生まれ変わりが誕生するとかありませんか！？ワイズマン、シース親子には世界一幸せになって欲しいです！」　
+「ちょっと締まらないところもありましたが(主にドＭの特徴と全裸のせい)、笑いあり、熱い展開あり、最後に感動ありと楽しませて頂きました！終わらないで！もっと続いて欲しい！生きる活力を頂きました。編集の仕方が優しさとお笑いを感じます。読みやすいし面白い！どんな展開になるのかドキドキしっぱなしでした」</small></small></TD>
+    </TR>
+
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+2">７位</FONT></B><BR>
+      （１２票）</TD>
+      <TD class="white" align="center" nowrap>薬師<BR>ネムリ<BR>
+      <IMG src="image_newkatamichi/PC_24_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>
+      ネムリ<BR>「いやああ！　皆さんが変な目で見てるぅ！　今回はちょっと残念なことになりましたが、皆さまのプレイでお世話になりますね！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「あぁ、やっぱりこのネムリも駄目だったのか……確かに力持たぬ半獣、というワードにはバッチリ当てはまるんですよねぇ……全体的に本人に自覚がないまま最後には狼として使役される、本当に半ケモは地獄だぜぇ……」　
+「もうだめだ。男性不信になるわロリアにメロメロになるわ、そっちの道に走るしかない…。しゅうまつの狼にはなってません…よね?ね?」　
+「セクハラに抗議（物理）」　
+「最後まで不憫かわいい。尻尾モフりたい」　
+「最多遭遇ＮＰＣですかね。ネムリがいたシーンでシリアスって思い出せないくらい、お笑い面で大活躍でした。男性にいい思い出なさすぎて、これからが心配です。『ロリアお姉様…。』とか百合に走ってもおいしいのでいいかもしれません」　
+「耳の匂い嗅いで、尻尾の長さ測りたいです！」</small></small></TD>
+    </TR>
+    
+    
+    
+    <TR>
+      <TD class="white" align="center" nowrap rowspan="3"><B><FONT size="+1">同率<BR>８位</FONT></B><BR>
+      （５票）</TD>
+      <TD class="white" align="center" nowrap><small>鍛冶屋<BR>ダグド</small><BR>
+      <IMG src="image_newkatamichi/PC_27_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>ダグド<BR>
+      「『俺のオベリスク』って新しい表現だな、ガハハ！　サボテンの肉はそりゃお菓子感覚だよ。みんなも食ってみろ、なかなかいけるぜ」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「おめでとう、ダグドのロングブレイドはオベリスクに進化した！　物づくりなら右に出る者がいないであろう今キャンペーン屈指の働き者ＮＰＣでした。彼あってのヨルムンガンド討伐、元の世界に戻っても良い暮らしをしてほしいものです。サボテンの肉を置いといたのはナイスでしたぞー！」　
+「マーシュ！俺の力作オベリスク、見てくれよな！…こいつをどう思う？」　
+「サボテンの肉は多分、鍛冶で疲れた時のおやつというか水分補給で置いてたんですよね。主食じゃないですよねまさか。マーシュが行ってたらすごく豪華なお弁当セットが置いてあったかもしれませんね。マリーからマーシュと濃いお付き合いでしたからね。今後はマーシュの行く先々に店を構えて待ってそうですね。マーシュの結婚式の式場にも店作ろうとして退場させられたりとか。陰の薄いＮＰＣがちらほらいた中、最後まで存在感ありまくりでした」</small></small></TD>
+    </TR>
+    
+
+    <TR>
+      <TD class="white" align="center" nowrap><small>ドＭな<BR>フリーダ<BR>王女</small><BR>
+      <IMG src="image_newkatamichi/PC_25_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>フリーダ<BR>
+      「実は現世に帰っても私がいるんですよ、ロリア様を困らせずに済ませればいいですけど……ウフフ……」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「そんな傷だらけになって、一体オベリスク建造中何をしていたんでしょうか……彼女が帰った先の世界が心配です……」　
+「紹介コメントがおかしい(誉め言葉)。ドＭ、まさか最後のオチになってしまうとは…」「真面目なロリアが面白キャラに！　おそろしい！　紋章を出したり入れたりのシーンを卑猥な目で見るとヤバいですね。この国の行く末が心配です」</small></small></TD>
+    </TR>
+
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><small>妖精<BR>イーリス</small><BR>
+      <IMG src="image_newkatamichi/PC_10_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>イーリス<BR>
+      「お久しぶり！　せっかくだから戦闘中に回復してみんなに『ああ女神様ぁぁ！』って言われたかったよね……みんなのセッションで会える日を楽しみにしてるからね！　ＴＲＰＧはみんながヒーロー＆ヒロインだよ！」</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「最後の回復て必要だったのかな？なんにしても今までお疲れ様でした！」　「イーリスの底力すっごい。あの小さな体にどれだけの力を秘めていたのだ…」　
+「最後の魂を使ってクスクルを助けるとは…実はヒロインでいいのではと少し思ってしまう…」</small></small></TD>
+    </TR>
+
+
+    <TR>
+      <TD class="white" align="center" nowrap><B><FONT size="+1">11位</FONT></B><BR>
+      （４票）</TD>
+      <TD class="white" align="center" nowrap><small>ゴースト<BR>ドッグ</small><BR>
+      <IMG src="image_newkatamichi/PC_29_icon.png" border="1"></TD>
+      <TD class="white" align="left" width="170"><small>ゴーストドッグ<BR>
+      「こんな私に票を入れてくれるなんて……みんなあ……あったかいよお……グスッ」<BR>（※元ンクＰＣの中の人より）</small></TD>
+      <TD class="white" align="left" colspan="2"><small><small>「そして忘れられるゴーストドッグ…」　
+「なにかと忘れられちゃう、ゴーストドッグさん！」　
+「ゴーストドッグさん(というかンク)に１票！　『あっ』に笑った。名前通りの幽霊ＮＰＣと化してるじゃないですかー！ やだー!! 次こそは…次こそは活躍…できるできない以前に登場する機会があるかが怪しい！」　「ン...ゴーストドッグにゃん、やはり項目すら立ててもらえないとは、この影の薄さがたまりませんな」　
+「ンｋ…ゴーストドッグさんへ　　ノータッチ……　再登場分の人気も合わせて、全部ワイズマンに持っていかれてますね…？　エンディング回にもし登場するなら、ちょっとだけ活躍してくれたらうれしいです」</small></small></TD>
+    </TR>
+    
+<!--★その他のキャラがいた場合はここ★-->
+    <TR>
+      <TD class="white" align="center" nowrap><B>その他</B></TD>
+      <TD class="white" align="left" colspan="4"><small>
+      ●デュークガルツへ「魂の絆はあったのに一言も喋らなかった寡黙な騎士。せっかく防具を届けたのに同僚が死んでしまった悲しい騎士。帰ったら帰ったで問題児（王女）のお守りが待ってますが、今度は発狂しないで頑張って……！」<BR>
+      ●理術士ハキムへ「ＮＰＣ過多でほとんど出番はありませんでしたが、ズマンさんに再び中和の理力を授ける重要な役割を担っていましたな……お師様だけでも生き残って良かったと思います」<BR>
+      ●聖弓ル・アルシャへ「シ　ー　ス　殺　害　の　凶　器」　<BR>
+●ヨルムンガンドへ「原作の闇の竜から臭い竜にランクアップ！」　<BR>
+      ●サボテンの肉へ「セリフ獲得おめでとうございます。いつもお世話になっております」<BR>
+      ●みんなへ「みんなに!!」　「人気投票『みんな大好き過ぎて選べない』に一票。趣旨に反するのはわかっています。でも、みんなみんな好きなんです。全員報われ大円団になると信じて！」　「やっぱり４人揃うと良いですね！掛け合い的な意味で」
+      </small></TD>
+    </TR>
+
+  </TBODY>
+</TABLE></DIV>
+<BR>
+<a name=S2></a><H1 class=gradientA>はじめに</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、前回から休みなしで続行です！
+<BR>エンディングへ移る前に、がんばった皆さまがたにプレゼントです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まず【ヨルムンガンド】撃破による【経験値】２０点を加算してくださーい。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>え、【経験値】……？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>現在のキャラクターシートはまだ使います！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>な、なんだってー！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>エキシビションバトル！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>バトルロイヤルだ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>【経験値】４２→６２、【レベル】１０へ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>わーい、【経験値】４２→６２、【レベル】１０になったー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【経験値】３６→５６、【レベル】１０に。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そしてさらに好きな聖武具を１つ選んで追加で獲得できます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>何がいいか宣言してくださーい。聖武具じゃなくてもいいですよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアとクスクル、マーシュあたりは聖なる装備をもらっておいてくださると面白いと思います。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>３人はまだ演出上の戦いが続きます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>最後に貰った弓は持って帰るよー。【聖弓ル・アルシャ】ゲットだぜー。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>もちろん、【（壁壊の）聖剣レーヴァテイン】を持っていきます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ではズマンはダークワイズマンの杖を……え？　聖武具オンリー？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【頑丈なワイズマンの杖】も持って帰れます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>やった！　次元倉庫にしまっておけばいいんですかね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次に目覚めるときに自動的に持っています！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>了解です。
+<BR>
+<BR>いやなお土産だな。やっぱり捨てようかな。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>＞＞捨てようかな＜＜</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダークワイズマン（杖）「おおおおおおーい！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアさんも新たな聖武器を一本持って帰っていいですよ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>じゃあ【聖槍ヴァルキウス】を持ってかえろう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あとペットの【犬（アライグマ）】も持って帰ろう。他人とは思えないから。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「あれー師匠かわいくなっちゃったねー！？（アライグマを見て）」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「いや、師匠はコッチ、コッチ！」　アライグマの背中で。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>あの、できればでいいんですけど　フレーバーなんですけど。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>最初に持ってた耳長剣（いまの【鋭い耳長の細い剣】）を、こちらで持っておけると、色々助かります。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>今こっちが持ってる奴だ！　こっちの次元倉庫で眠ってますね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、それもＯＫです。最後にＮＰＣたちが次元倉庫の荷物を持ってきてくれたときに回収できたんでしょう。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>やったー！　持ってっちゃいますね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はーいどうぞー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでは、エンディングの始まりです！　全員【レベル】１０スタート！</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Lolia.jpg"></td>
+<td><B>ロリア</B>　騎士　女　　魂Ｐ：０→シースの魂をもらって復活
+<BR>
+<BR>最大ＬＩＦＥ　１９　　最大ＳＴ　１０　　
+<BR>所持金　１００シルバ　　所持重量　１／４
+<BR>能力値　筋力５/敏捷２/生命７/知力４/意志２/魅力３
+<BR>特徴　　【半獣人】　【強そうな】　【ドＭの】　【最強の】
+<BR>
+<BR>装備　【聖槍ヴァルキウス】（攻撃力２Ｄ６＋１）
+<BR>　　　　【大地の鎧】（装甲５＋火炎・理力２防御）
+<BR>　　　　【大気の盾】（装甲４）</td></tr></table><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_CusculNew.jpg"></td>
+<td><B>クスクル</B>　狩人　女　妖精　身長１６ｃｍくらい　　魂Ｐ：２
+<BR>
+<BR>最大ＬＩＦＥ　１８　　最大ＳＴ　１３　　
+<BR>所持金　１７００シルバ　　所持重量　１／２
+<BR>能力値　筋力４/敏捷７/生命３/知力５/意志４/魅力２
+<BR>特徴　　【妖精】　【最強の】　【やたら硬い】　【頼れるペット】
+<BR>
+<BR>装備　【聖弓ル・アルシャ】（攻撃力４Ｄ６）
+<BR>　　　　【堅固な騎士のコート】（装甲２＋１）
+<BR>　　　　【木製の矢】（攻撃力０）</td></tr></table><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Marsh.jpg"></td>
+<td><B>マーシュ</B>　勇者　男　　魂Ｐ：３
+<BR>
+<BR>最大ＬＩＦＥ　２４　　最大ＳＴ　１０　　
+<BR>所持金　１００シルバ　　所持重量　２／４
+<BR>能力値　筋力５/敏捷４/生命５/知力３/意志４/魅力３
+<BR>特徴　　【最強の】　【やたら硬い】　【ドＭの】　【耳長】
+<BR>
+<BR>装備　【聖剣レーヴァテイン】（攻撃力５Ｄ６、火炎属性）
+<BR>　　　　【騎士のコート】（装甲２）
+<BR>　　　　【レザーシールド】（装甲１）</td></tr></table><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Weismann.jpg"></td>
+<td><B>ワイズマン</B>　理術士　男　　魂Ｐ：２
+<BR>
+<BR>最大ＬＩＦＥ　１６　　最大ＳＴ　１１
+<BR>所持金　２００シルバ　　所持重量　１／２
+<BR>能力値　筋力２/敏捷４/生命２/知力1０/意志７/魅力３
+<BR>特徴　【最強の】　【やたら硬い】　【知力+】　【知力+】
+<BR>
+<BR>装備　【頑丈なワイズマンの杖】（攻撃力１Ｄ６、フォース攻撃判定＋２、フォースダメージ＋１Ｄ６） 
+<BR>　　　　【チェインクロス】（装甲３＋火炎１防御）
+<BR>　　　　【レザーシールド】（装甲１）</td></tr></table><div id=com>　</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>エンディング前編</H1>
+<H2 class=gradientAmini>-　マーシュの帰還</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まずはマーシュさんから！
+<BR>マーシュは監獄世界を脱し、魂の世界を越えて元の世界に帰還します……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次にマーシュが目を開けると、そこには忘れもしない、故郷の耳長の里が広がっていました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかしそこでは片目のつぶれたドラゴンが辺りを焼き尽くし、人々を襲っています！　まさかあの美しかった故郷が炎と血にまみれているなんて……！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ん……？　ここは……あの場所、あの時……同じ風景……？！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「今度は……幻覚じゃない！？　これは現実なのか！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>現状の記憶ですが、あなたは修行のために旅に出て、勇者として帰ってきたばかりでした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>途中で人間のコリーナと仲良くなったりと色々なことがありましたがそんなのろけ話は置いといて、ここは緑が美しい懐かしの故郷だったはずです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あなたが見ていると、知り合いだった耳長の少女があなたに駆け寄ってきます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マーシュは全裸ですか？　半裸ですか？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えっ、全裸じゃないですよね？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>着　て　ま　す。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では少女は普通にマーシュに話しかけてきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>耳長少女「お願いですわ、旅の剣士様、父と母を助けてください！　２人ともあの竜を止めるために行ってしまって……えっ、もしかしてマーシュさん！？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……久しぶりだね、マリー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そう、少女をよく見ると……なんとそれは若い頃の（まだ性格的に普通だった）ローズマリーではありませんか！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>性格的には。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>よかった、きれいな頃のマリーさんが、ちゃんと「いた」！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そりゃいますよ！　マリーの性格があんなことになったのは竜に負けたコンプレックスからだそうですから。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリー「お願いですわ、マーシュさん！　父と母を助けてください！　あの竜が来て、里をこんなことに……！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……あぁ、任せろ！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「オレは“この時”のために……人生のすべてを捧げて強くなったんだから！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー的には無茶な願いのつもりだったのに、それに応えてくれたのでマーシュに驚いています！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリー「えっ！？　あっ……！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではドラゴンと戦いますか？　戦いますよね？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>はい、【聖剣レーヴァテイン】を構えて、ドラゴンに立ち向かいます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マーシュが【壁壊の聖剣レーヴァテイン】を抜くと、天を焦がすほどのかがやきを放ちます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>【LIFE】は回復しているのだろうか……ッ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ご安心ください！　【LIFE】と【ST】は全快、【覚醒】も２回分あるものとします！　【レベル】は１０！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【最強のドラゴン】との戦闘です！　</div>
+<div class="box"><B>モンスター【最強のドラゴン】</B>
+<BR>　【LIFE】４７　【防御値】１３　【反撃ダメージ】３＋火炎１２
+<BR>　【経験値】１４　【ドロップ】ランダム宝石表（４/６）</div><div id=com>　</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……よう、久しぶりだな。といっても、分からないか」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>最強のドラゴン「グオオオオオ！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>最強のドラゴンはマーシュの威圧感に気付き、襲いかかってきます！
+<BR>マーシュもといマリーの魂にとって７回の人生を賭けた戦いです！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ふっ……夢みてたぜ、お前を“この時”に倒せること」
+<BR>
+<BR>聖剣レーヴァテインを構えます！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では攻撃判定！　【防御値】は１３！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（やめて、マーシュにサイコロを振らせないで！）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（ハラハラドキドキ）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>まず攻撃判定！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>２Ｄ６＋５＋１>＝１３ 攻撃判定(筋力)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋5) ＋ 6 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うおおおお決めたあああああああ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>＋０成功ｳｳｳｳｳｳｳ！！！！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>怖い怖い怖い。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>肝が冷える！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>やった……やったよオヤジ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで攻撃は成功です！
+<BR>いちおうダメージも出してください、たぶん倒せないけど！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>【強打】します！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>５Ｄ６＋１０ 【壁壊の聖剣レーヴァテイン】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋3＋3＋4＋6) ＋ 10 </B>＝ <B class=dc>32</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>３Ｄ６ 【強打】　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋1＋5) </B>＝ <B class=dc>11</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、そういえば【ゼヌーラ】補正がないのか！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【最強のドラゴン】に与えたのは合計で４３ダメージ！
+<BR>惜しい、あと４点だったのに！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「く、このままでは倒せない、ゼヌーラ！」という酷い未来はなかっ……いや、あるかもしれない。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ひどい。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>【強打】の１を振りなおしてみます……！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>実は【覚醒】で振り直せるのは「判定」だけで、「ダメージ」は振り直せないんですよね。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>だめかー！　くそー！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>しかし【ゼヌーラ】を使えば……【レベル】の１０点だけダメージ増やせるので倒せますよ！？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>この世界での再会時に「やぁ、マーシュ、結局脱いだのか」という酷い会話が生まれてしまう……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>さすがに今生のゼヌーラは重すぎる！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>反撃を受けつつ倒す、という感じでもカッコはつきますよ、ええ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もちろんです。では、マーシュは【最強のドラゴン】から激しい反撃を受けてしまいます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【反撃ダメージ】３＋火炎１２、と【ST】－２を受けてください！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>って全然平気だ！？　【LIFE】がなんと２４もある！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>あ、いま【騎士のコート】着てるのか。装甲は計３で【LIFE】２４→１１へ、【ST】はさっきの【強打】２と、倒しきれなかった【ST】－２を含め１０→６へ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　マーシュはその後も【最強のドラゴン】との戦いを続けます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マーシュはボロボロになりながら死闘を続け……そしてとうとう、【最強のドラゴン】を仕留めることに成功しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>力尽きた【最強のドラゴン】はその巨体を地面に叩きつけ、ちょっとした地響きが起きます。ドォォン……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（遠くにいるクスクル「お？　地震速報？」）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ハァ……ハァ……へへっ、ザマミロ」と笑みを浮かべて、座り込みます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ドラゴンはもう動きませんでした。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マーシュは体中やけどだらけですが、間違いなく耳長の民を守りきったのです！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ついにやりきったのね……マーシュさん……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いやー、今回マーシュさんの出目がマジ主人公でしたね！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ありがとう……ありがとう……！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では安全を悟った耳長の人々が続々と現れ、マーシュは彼らから賞賛されます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ありがとう！　マーシュ、おまえがこんなに強くなって帰ってくるなんてな……！」
+<BR>
+<BR>「キャーマーシュ様ー！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「い、いやあ……」と若干照れます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>マッチョな中年耳長「キャーマーシュ様ー！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>よかった、現世でゼヌーラした勇者はいなかったんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ローズマリーとその父もやってきますね。お父さんって族長っぽい人でしたっけ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>そんなかんじだったはずです！（ふわっ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー父「ありがとう、耳長の同胞マーシュよ。君が戻って来てくれなければ、我々は今頃どうなっていたことか……ん？　その剣……！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>父親はマーシュがぶらさげている耳長の細い剣を見て一瞬驚きますが、何かを理解したような顔になります。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……」　黙って、マリーの父を見つめます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マーシュにとっては懐かしい顔のはずです。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……あぁ、“ただいま”」と、ほほ笑みます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー父「ああ……おかえり」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>と、しみじみしてるとマリーが横から入って来ます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マリー「お願いですわ、マーシュさん。わたくしも鍛えてください！　わたくし、もっと強くなりたいのですわ！　みんなを守れるくらいに！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「オレほど強くなるのはなかなか難しいぞー？　それこそ、人生を７回ぶんくらい繰り返さないとな！」と、笑いながらマリーを抱き上げます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「きゃっ！　も、もちろんその意気でがんばりますわ！」　　</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「厳しいこともツライこともいっぱいある、それでも付いてくるなら止めないさ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー「もちろんですわ！　絶対に離れませんから！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これ恋人コリーナとまずい関係になる流れだ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>幼女だから！！　相手幼女だから！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あれっ今のマリーって幼女だったんですか！　１２歳くらいかと。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>１２歳……は幼女じゃないなうん！！　ＧＭにお任せします！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……そうだな、旅立ちするなら、お父さんから“剣”をもらってきなさい。うちの伝統だから」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー「はい！　ということでお父様、いいですわよね！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>父親はしょうがないなあ、という顔をして剣を渡します。
+<BR>軽い剣はマリーにも持てるものでしたが、まだ不慣れなようですね。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ふふっ、まずそれを満足にふるえるようにならなくちゃな」と暖かく見守ります。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>父「マーシュ、あなたは信用できる。どうか、この子を頼みます」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ああ。安心してくれ。何があっても守り切る」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではそんな感じでよければマーシュとマリーは壮大な冒険へ旅立ちます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「それじゃ、“いってきます”」と、マーシュは、マリー父にむかって言います。マリーと手をつなぎながら。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーは嬉しそうに同行します。
+<BR>初めて会ったはずなのに、初めてじゃないような……そんな気持ちを胸に。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>このシーン見てると脱がなくて良かった……本当に良かった……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>逆になぜ脱がなかったんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>全裸の男性が１２歳耳長少女と手を繋いで旅に出発する図とか危険すぎる！！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>脱いでいるバージョンはＤＬＣですか？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マーシュが脱いでも嬉しくないんですよ！
+<BR>じゃあ誰が脱いだら嬉しいのかというと思いつかないんですけど。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あ、それじゃあ、マリー父も昔は勇者だった。マリー父も既に全裸で……やっぱり嬉しくない。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>誰も得しなさすごいですね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>すごくきたない！　見たくない！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なお、判定で負けた場合は「もう一回挑戦できるよ？　でも今度は完全成功しないと【LIFE】なくなって死ぬよ！？」と言って【ゼヌーラ】を推奨する予定でした。そうならなくてよかったですねー。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>なんというゼヌーラ推奨の神の手……かなしい。</div>
+<BR>
+<H2 class=gradientAmini>-　ワイズマンの目覚め</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次はワイズマンさん！
+<BR>
+<BR>監獄世界を脱し、魂の世界を越え、ワイズマンも元の世界に戻ってきました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ワイズマンが目を開けると、そこは長年の眠りから目覚めたあの瞬間でした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>研究棟の１つで、医療系のフォースを研究している場所です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>近くの看護師さんがあなたに気付きます（なんだかこれ某ステルスアクションゲームのＶを思い出す状況だ）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（それ看護師さんが死んじゃうやつだから！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>看護師「チーフ！　ワイズマンさんが意識を取り戻しました！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「うっ、ううむ……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフがやってきます。ワイズマンが知ってた同僚の顔ですが、だいぶ年老いた顔です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>チーフ「やあ、目覚めたんだな……ワイズマン」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「私は……なるほど“戻れた”のか」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「戻れた？　いや、全然戻れてないぞ……その、非常に言いにくいんだが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そういってチーフはあなたに鏡を渡します。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>キャラメイクがはじまる！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>ではなくて、監獄世界を旅した自分の顔でしょうか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>その通りです！　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>元の歴史通りなら、ワイズマンは知らぬ間に驚くほど年取いた顔になってショックを受けるところでしたが、監獄世界から戻ってきたばかりのワイズマン的にはいつも通りの顔しか映っていませんでした。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（そういえばセッション開始時は、すでに長いこと眠ったあとでしたね）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「状況はわかっています。『闇』はどうなっていますか？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「なに！？　たしかに、西の方で『闇』が現れたとか、勇者を募っているだという噂を聞いたことがあるが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>チーフ「ワイズマン、いちおう説明しておくと、君は１７年前の研究所の大事故で倒れ、それからずっと意識を失ったままだったのだ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう、ワイズマンは１７年前の事故のとき、【守護】を使うことができなくて唯一重傷を負ってしまった人間です。
+<BR>
+<BR>しかし、今のワイズマンは数々のフォースを修得したままの状態です。【中和】の素質も使いこなせますし、望むなら【守護】だって扱えます。使えなくて重傷になったのに！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>すでに事故ったあとの時間に“戻った”から、ということですね……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「すぐに発たねばなりますまい……行かねばならぬ理由があるのです。私はすでに……いえ、なんでもありません。今まで面倒をおかけしました」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「いや、君の体は貴重な研究対象だった。礼を言うのはこちらさ。だが行くなら少し待ってくれ……いくらか渡さねばならないものがある」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>チーフ「君が眠っている間に、何枚か手紙が届いていたんだよ。その……もと奥さんからのも」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「妻から？」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>一応開けてみます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あなたの奥さんからの手紙には「ごめんなさい、もう待てません」とだけ書かれていました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「チーフ、あれ（妻です）はもう亡くなったのですね」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（あ、すみませんその設定を忘れてた！　けど文章的にはまったく問題ない内容だった！）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（さすがです！！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「そこまで察してしまうか……ああ、そうだ。君の奥さんは、もう……」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「私は娘を、シースを探さなければなりません」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「シース？　はて、君の娘さんなんて見せてくれたかな……？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（あっ……魂がなくなって、“戻れなかった”のかな……）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「娘の居場所の見当はついています。そして、昔と違って私は自分を守ることもできます」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>理力の炎を小さく灯してみせます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「まさか、君は……そうか、力に目覚めたのだね。それなら心配いらなさそうだ」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>チーフ「あと、この手紙も君へ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って渡されたのは、理術士ハキムからの手紙でした。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おおっ！　ハキム師！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキムからの手紙には「本当にお疲れ様。変に歴史が変わると困るので詳しいことは書かないが、これを見たら、私のもとへ来てくれないだろうか」と書かれていました。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「これは一層早く旅立たねば！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>チーフ「げ、元気だな……まあ達者でな！　今は席がないが、望むならいつでも戻ってきてくれ！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「チーフもどうかご無事で！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>こうして、ワイズマンはチーフと看護師さんに見送られ、旅立つことになります。
+<BR>周りは知らない人だらけで、あなたが先生なのかと思って学生におじぎされたりします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今度は詩人としてのスタートでなく、理術士としてのスタートです！
+<BR>果たしてワイズマンの運命や、いかに……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>長期間の植物状態により萎えた足腰をやけに頑丈な杖で支えながら、歩けワイズマン！　歩け！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（ワイズマンってハードな人生を歩んでいるよねぇ～）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（ねー）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（知らない間に老いてるのがまた）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あと、ダークワイズマンの杖は特に何も話しかけてきません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さすがに同じ世界に２人の同じ魂は存在できないのかもしれません……という推測くらいはワイズマンもしてもいいでしょう。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（別の可能性に生きた我輩よ。貴様がたしかに生きていたこと、この我輩は忘れんぞ）」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>（あと最終決戦に呼んであげられなくてごめんね……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（ダークワイズマン「ﾌﾞﾜｯ」）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（ｱｯ……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダークワイズマン「（俺の力を使わずして勝った……それも貴様の正義の形だったのだろう……？）」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>必死に歩くワイズマンの耳に、ふとそんな声が聞こえた気がしました……。</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>エンディング中編</H1>
+<H2 class=gradientAmini>-　戦場のロリアとクスクル</H1>
+<div id=com><font id=CC2>※この章には原作ゲームおよび『片道勇者ＴＲＰＧ』公式キャンペーンのネタバレが含まれます。
+<BR>　 見たくない人は「<a href="#S5">エンディング後編</a>」をクリックして次までジャンプしてください。</font></div>
+<BR>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではそろそろロリア＆クスクルチーム！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアとクスクルが次に目覚めたのは、戦場でした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２人は騎士たちに囲まれており、目の前では猛烈な勢いで闇が吹き出しています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>辺りは平野で、ロリア同様に体が変異しつつある者や、闇に侵されて【闇の尖兵】となった者と戦っている騎士もいます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアは先ほどまで意識を失っていたのか、黄金の騎士タクーシに抱えられています。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>すでに黄金だと！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>えらくなったなタクーシ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>隊長より偉そうだなぁ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさんはセクハラされる前に立ち上がってください。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>これは大変な大けがだ、鎧を脱がせて治療しないと！！（棒）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>状況を察知して素早く仰け反り延髄キック！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ドゥフ！　さすがの即応っぷりですぞロリア隊長！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>容赦無い！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ナイスキック！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ロリアは思い出しました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これは旅立つ前、あなたが半獣化してしまった現場の光景です！
+<BR>
+<BR>ロリアは最初の城から西方の街に遠征中だったはずですが、『闇』はすでに、その街を呑み込んだ後のようです。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ここは……なるほど。“ここ”まで戻ってきたのですか」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>で、ここで質問！　ロリアさん半獣化してるほうがいい？　人間のままがいい？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ﾜｸﾜｸ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>どっちのほうがいいんでしょうね。振り返ると半獣化意味なかったなー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>数々の半獣人っ子とストーリー的にキャッキャウフフできたじゃないですか！
+<BR>この世界は幸福な運命をたどる真エンドなので、半獣人か人間かはロリア的に幸せな方でいいですよ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なお、たとえ半獣化しても人々に栄誉を称えられ、いい扱いを受けられます。その点はご安心です。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシは生前（？）ロリアの尻尾の匂いを嗅ぎたがっていたんだよ！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（最後の一枚絵とか発生したときにロリアだけデザイン変えるのめんどいから半獣でいいかなー）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>半獣化してる方がシースの欠片を感じられる気がするので半獣のままいきましょうか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、いい理由！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いい収まり具合！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>カッコイイ……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>くそー、ロリアさんの中の人はなー、こういうところでなー、しっかり主人公ポイントを稼いでくるからなー、ほんとになー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>私のコスト的発言とは大違いの暖かい表現です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>一行前に「面倒臭い」というコスト的な理由が述べられる無慈悲さ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシも喜んでるよ、きっと！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではロリアが自分の頭やお尻のあたりを触ると、監獄世界にいたとき同様、すでに半獣化してしまっていることが分かります！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして、今のロリアならこの状況の意味が分かります。
+<BR>「ここがまさに、『闇』が目覚めてすぐの時間・場所なのだ」ということに！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヨルムンガンドと同じだとすれば、この『闇』の霧の向こうには闇の本体がいるはずです。
+<BR>『闇』はヨルムンガンドのような姿をしているのかもしれませんし、そうでないのかもしれません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>また、ここが元いたロリアの世界だとしたら、この状況で事情が理解できるのはクスクルだけです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ああーこんなときにクスクルがいてくれたらなー！　さあ、みんなでクスクルを呼んでみよう！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クースークール－！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>クースークール―！！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>露骨！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ってクスクルさんが途中で出てこないのでとうとうこのセリフが出ちゃったじゃないですか！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「はーい、ボクがクスクルだよー！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>誰が妖精を出せっていったー！　ケモのほうを出せケモを！　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ケモはちゃんとボクの下にいるよ！（アライグマ）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>毛皮のなかにでも潜んでたのかな！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、実は妖精クスクルは、ロリアの遠征にこっそりついてきていたのです！
+<BR>妖精のステルス力はあなどれない！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマに乗った妖精が援軍にやってきた、なんて心強いんでしょう？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「少し、自分が知っている状況と変わってますね」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>妖精のクスクルを見ながら。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうです、クスクルが妖精化してたり勝手についてきていたりする他にも、ロリアの体は聖なる防具で守られており、ロリアとクスクルの手には聖武器があります。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>これこのまま世界救われるのでは？？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>勇者不在のまま世界が救われる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>一体この世界でどういう経緯で聖なる装備を手に入れたのかは覚えていませんが、これがあれば戦えるかもしれません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>聖なる武器があなたに訴えかけます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>“その聖なる武器を……闇に……（投げるのです）”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>待って、待って。ロリアは槍、ボクは弓。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、持ってる聖武器って槍と弓だっけ。投げる要素ないわ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>槍なら２マス先まで突けるよ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>そのまま倒せる！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>神様はいやがらせで（投げるのです……）とカッコ付きで訴えてきます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>神様……( ´・ω・)</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>神様を狙おう、ｷﾞﾘｷﾞﾘｷﾞﾘ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>神はどこだ（哲学）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>監獄世界では何もしなかったへっぽこ神め！　帰れ！　かーえーれ！　かーえーれ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ズマンさんの神様へのあたりが強い。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マーシュさんと神に対しての扱いは同じくらいですよ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ひっどいじゃん！？！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ロリアさん、クスクルさん、戦っちゃいますか？　戦っちゃいますよね！？
+<BR>ここで勝利できれば世界の大半が救われます！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>え？　神様と？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>戦うのは『闇』とですー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>『闇』だった。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>２人ならいけるよ！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「さて、ここでこの状況。戦わない理由は、ないですね！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>盾を構えて、【グレートウォール】を自分に、【フォートレス】を周囲にばらまきます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ロリアだけだと攻撃が当たらないからねぇ、ボクも戦うしかないよねぇ」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（攻撃が当たらないのは触れないであげて！　）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いい相棒！　ロリアとクスクルは騎士たちの最前線に立ちます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士たち「危ないですぞ、ロリア隊長ー！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「私が『闇』の攻撃を引き受けます！　クスクルさん達はその間に攻撃を！！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>タクーシも記憶継承してるのかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>してますよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「もちろんですとも、ここでやりましょうぞ！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>おおー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>きっと弟子だからレインも一緒にいるはず？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、すみませんレインさんはお城です。そろそろ『闇』の出現を知ったデュークガルツさんが出奔して、それを追いかけて事故に遭うかもしれない頃でしょう！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「闇に抗うすべを持つ者は私と共に！　他の者達は今のうちに避難を！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ずっと盾構えときます、攻撃しない！！！！！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（ロリアさんかっこいいなぁ……！　騎士！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なおロリアさんは守る姿勢ですが戦闘処理自体はやっちゃいますよー！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はーい。防具は【大地の鎧】も着ちゃっていいのかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もちろんです！　２人には【癒しのアンプル】と【スタミナアンプル】が１本ずつ支給されています！　【覚醒】は２回分！　【LIFE】と【ST】は全快！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアさんは守りの構えなので、クスクルさんが一発撃ってください！　聖なる弓で！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>走るアライグマに乗って弓を構えて……目をつぶって精神統一。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（クスクルさんここでいきなりの真面目描写！？）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（たぶんあれだ　馬に乗って弓するあれのイメージだ……なんていうんだっけ）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（サメ映画っぽい名前の……）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（やぶさめ！　流鏑馬っていうのよ！）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（あっそれそれ。完璧な流れだった……）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（ヤブ・サメ！　ヤブ医者がサメと人をドッキングさせた！　さびれた港町がパニックに包まれる！）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（もう、途中で、はやく流鏑馬って言いたくて、何を書いていたか忘れたじゃないかぁー！）</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>すぅっと息を吐いて、カッと見開いた眼には迷いなく、その手から放たれた矢は闇へと吸い込まれていくのであった……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルが聖なる弓で放った矢は、光芒を残して闇に呑み込まれていきます。
+<BR>そして少しの間を空け、突然、激しい勢いで『闇』の霧が晴れていきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>霧の裏にいたのは……山のような巨大さの黒い竜でした！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、ロリアとクスクルには元の世界の【闇の竜】を倒していただきます！
+<BR>【防御値】たった８なので攻撃判定には全部成功した前提で、２人ともスキルを全力で使用した攻撃のダメージ算出だけを５回やってみてください。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>攻撃判定成功ってやさしい……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>よかった、肝心な時に外す騎士は現世にはいなかったんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>攻撃判定振ってもいいですけどロリアさんでも１ゾロ以外で成功ですよ！？
+<BR>ダメージだけは振ってくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>え、ダメージはふるの？　やめて！
+<BR>１ゾロ出しちゃうから、今日のロリアは１ゾロ出しちゃうから！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあーそこも楽しみなところです！
+<BR>ということで処理の円滑化のためにスーパー簡略化ラスボス戦、始めまーす。</div>
+<div class="box"><B>モンスター【闇の竜】</B>
+<BR>　【LIFE】３００　【防御値】８　【反撃ダメージ】０
+<BR>　【経験値】０　　【ドロップ】なし</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひとまずロリアさんとクスクルさんは５回くらい全力のダメージ算出してください。
+<BR>【大激震】なども忘れずに！　相手の【LIFE】は３００です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【ST】は【スタミナアンプル】も使えば全力攻撃でも足りてると思いますので【ST】のカウントは不要です、【LIFE】のカウントだけしていきます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「つらぬけぇぇぇぇ！！」
+<BR>
+<BR>槍を思いっきり前に突き出すと、光で形作られた槍の穂先が【闇の竜】へと飛んでいきます。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１０＋３＋１ 【聖槍ヴァルキウス】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋4) ＋ 15 </B>＝ <B class=dc>21</B>　ダメージ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマの牙と爪が【闇の竜】を切り裂くよ！！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>７Ｄ６＋１０＋１Ｄ６＋１ 【聖弓ル・アルシャ＆アライグマ】で攻撃、【貫通射】！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋3＋5＋1＋1＋3＋4) ＋ ダイス 2 ＋ 11 </B>＝ <B class=dc>35</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アライグマァ！？　しかしこれで５６ダメージ！　【闇の竜】の【LIFE】は残り２４４！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あ、あと【闇の竜】がブレスを吐くかどうかだけ出しておきましょうか。
+<BR>
+<BR>全員の攻撃後に１Ｄ６を振って、「ＰＣの攻撃回数」というかターン数以下の出目なら火炎８ダメージのブレスが発射され、かつ【反撃ダメージ】が５増大します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　１ターン目ブレス、出目１以下なら発射
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　ブレスなし！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>セーフ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで初っぱなのブレスはナシ！
+<BR>
+<BR>２ターン目のダメージ算出どうぞ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「二撃目！　でやぁぁぁぁああ！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１０＋３＋１ 【聖槍ヴァルキウス】で攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) ＋ 15 </B>＝ <B class=dc>24</B>　ダメージ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>がんばれ、がんばれアライグマ！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>７Ｄ６＋１０＋１Ｄ６＋１ 【聖弓ル・アルシャ＆アライグマ】で攻撃、【貫通射】！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋2＋6＋1＋4＋4＋4) ＋ ダイス 1 ＋ 11 </B>＝ <B class=dc>34</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２人の攻撃でさらに５８ダメージ！　【闇の竜】の【LIFE】は残り１８６！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ダメージが６０に達していないので微妙に５ターンで倒し切れなさそうですが果たして！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてブレスはー！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　２ターン目ブレス、出目２以下なら発射
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　ブレス発射！　＆　【反撃ダメージ】０→５！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで無慈悲にも闇のブレスが発射されます！　２人に火炎８ダメージ！　</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さらに【闇の尖兵】がわらわら現れ、【反撃ダメージ】が０から５へ！
+<BR>次攻撃時から反撃ダメージを受けます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２点防いで【LIFE】１９→１３！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「ぐっ、やはり強い、けれど！」
+<BR>ブレスを受けながらも必死に堪えます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【LIFE】１８→１０！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ロリアのスカートの中に隠れていたから８ダメージで済んだよ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はたき落とそうとしたけど小さい妖精なので飛んで逃げられました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>戦闘中にセクハラしてる場合じゃあないッ！　これで３ターン目突入！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ここから毎ターン【フォートレス】使います！　ついでに【グレートウォール】！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　【ST】は足りるはずなので計算不要です！
+<BR>では２人とも３ターン目のダメージ算出してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「三撃目！　はぁぁぁあああ！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１０＋３＋１ 【聖槍ヴァルキウス】で攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 15 </B>＝ <B class=dc>23</B>　ダメージ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマの上でお茶をいただきつつ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>７Ｄ６＋１０＋１Ｄ６＋１ 【聖弓ル・アルシャ＆アライグマ】で攻撃！ 【貫通射】付き！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5＋2＋2＋6＋4＋2) ＋ ダイス 5 ＋ 11 </B>＝ <B class=dc>42</B>　ダメージ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>倍近く違うダメージ！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>アライグマが過労死しそうですがクスクルさん絶好調！　このターンの総ダメージは６５！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これで【闇の竜】の【LIFE】は残り１２１！　だいたい６０以上が２発出れば倒せる！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>お二人は【闇の尖兵】たちから【反撃ダメージ】を５ずつ受けてくださーい、ってロリアさんに１ダメージが２本だけ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【LIFE】１３→１１！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そして恐怖のブレス、このターンも出るのかー！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　３ターン目ブレス、出目３以下なら発射
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　ブレス発射！　＆　【反撃ダメージ】５→１０！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>また出たー！！　これはさすがに【フォートレス】しないですよね。
+<BR>お二人はさらに火炎８ダメージを受けてください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>出過ぎぃ！！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>【LIFE】１１→５へ！　【癒しのアンプル】を飲んで【LIFE】５→１５！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【LIFE】１０→２！　お茶飲んでる場合じゃねぇ！！
+<BR>こっちも【癒しのアンプル】を飲んで【LIFE】２→１２。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さーこれで【LIFE】回復は最後！　ヤバくなってまいりました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では次！　４ターン目！　ダメージを出してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「四撃目！　いい加減倒れてください！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１０＋３＋１ 【聖槍ヴァルキウス】で攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋3) ＋ 15 </B>＝ <B class=dc>22</B>　ダメージ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマが本体っぽくなってきたって？　どっちが本体かわからないって？　それが狙いだったのさー、あっはっはっ！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>７Ｄ６＋１０＋１Ｄ６＋１ 【聖弓ル・アルシャ＆アライグマ】で攻撃！　【貫通射】付き！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5＋1＋5＋3＋6＋2) ＋ ダイス 5 ＋ 11 </B>＝ <B class=dc>43</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>このターンの総ダメージは６５！　ロリアのヴァルキウスとクスクルのル・アルシャによる猛攻！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これで【闇の竜】の【LIFE】は残り５６！　これは次で倒せるかー！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その前にお二人は【反撃ダメージ】１０を受けてください！
+<BR>ってまたロリアさんの【フォートレス】で１×２だけですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>……ってロリアさんいま装甲５＋４＋盾の訓練１＋グレートウォール４で装甲１４！？　壁か！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２ダメージ受けて【LIFE】１５→１３！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そしてブレスが出るか出ないか振りまーす。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　４ターン目ブレス、出目４以下なら発射
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　ブレス発射！　＆　【反撃ダメージ】１０→１５！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>！！？？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ブー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブレスが３回連続で発射だと！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>いやー殺す気満々だなー『闇』、３回連続ダイス目１とか。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリアのスカートがボロボロだ、そろそろヤバイかも？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヨルムンガンドより厳しい！　とにかくお二人は火炎８ダメージを受けてください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【LIFE】１３→７！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【LIFE】１２→４！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ってこれ次で倒しきれずにブレス吐かれたら２人とも死ぬわ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ゴゴゴゴゴ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では泣いても笑ってもたぶん最終５ターン目！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２人で５６ダメージ以上出さないと約８３％（１Ｄ６で５以下）の確率で２人とも死にます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>こ、これ……どうしよう……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ではここで、クエストおーぷん（涙）。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ないよね？！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ないね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあー運命の一打は果たして！？　ダメージを振ってください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「これで……最後です！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１０＋３＋１ 【聖槍ヴァルキウス】で攻撃！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋3) ＋ 15 </B>＝ <B class=dc>20</B>ダメージ！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>肝心なときに出目が悪い！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>酷い出目だったら、次回から神様を殴りに行くセッションが始まるよ！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>７Ｄ６＋１０＋１Ｄ６＋１ 【聖弓ル・アルシャ＆アライグマ】で攻撃！ 【貫通射】付き！</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋6＋4＋6＋6＋1＋4) ＋ ダイス 5 ＋ 11 </B>＝ <B class=dc>46</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おーっとこれはクスクルさんがんばったー！
+<BR>
+<BR>ロリアの槍攻撃とクスクルの弓矢で５ターン目、合計６６ダメージです！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ワーオ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これにより累計ダメージが『３１０』に達したので、【闇の竜】の【LIFE】３００をギリギリ突破です！
+<BR>すっげえ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>２人ともあと一発ブレスと【反撃ダメージ】喰らったら死んでる！　ギリッギリ！！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>なんでこんなギリギリプレイを現世でもやらなきゃいかんのだ！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>それでもたった２人で『闇』を倒せたんだ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>すごい！！　よかった、最後の魂を使い切る隊長はいなかったんだ……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、ロリアとクスクルの最後の一撃を受け、【闇の竜】はその巨体をくねらせながらゆっくりと地面に墜ちていきます……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてしばらくして起きる、すさまじい大地のとどろき。そして衝撃！
+<BR>少し遅れて、強烈な突風が吹き付けます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士たちやあなたがたはみんな吹き飛ばされぬよう、必死で耐えます。
+<BR>ですが、漆黒の竜が残したものは、それが全てでした……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ふっ、いまのボクには全然効かないよ、ゼェハァゼェハァ（ボロボロ）。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はあ……はあ……」　その場に膝をついてますが生きてます。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>生きてます！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>大事なことなので二回言いました！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>生きてる……生きてる……よかった……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>現世で死んだら一巻の終わり！　よかったよかった。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>間違いなく最短で救われた世界……！（最初の城すらのまれてないし）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「……めっちゃ楽勝だったよね……へへっ」（ボロボロ）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ええ、ヨルムンガンドに比べれば、あれぐらい……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>騎士Ａ「た、大変だ……ロリア隊長とクスクル殿がたった２人で暗黒の竜を倒したぞー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士Ｂ「さすが俺たちのロリア隊長だ！！」
+<BR>
+<BR>全員「わぁぁぁあぁぁー！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士Ｃ「いやいや妖精のほうががんばってただろ！！　妖精さーん！！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「はーい、妖精デース。サインが欲しい人は一列に並んでー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>黄金タクーシ「ロリア隊長ー！！　クスクル殿ぉぉぉーご無事ですかぁぁー！！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>タクーシはなにをしてたの！？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>それだ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>タクーシは置いてきた……はっきりいってこの戦いに（略）。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシはボクたちの装備が壊れるのを防いでくれてたんだよ。あと、ロリアの尻尾の匂いを嗅いでたよ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さすがに戦闘中にセクハラしてるヒマはないです！　タクーシは後ろから応援していました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士たち「ワーピピー！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>何はともあれ、こうしてロリアたちの世界の『闇』は死にたえました！
+<BR>これでもう、世界が呑まれることはないのです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかしこの場でそれを理解しているのは、ロリアとクスクルと、そしてタクーシだけです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>黄金タクーシ「いやーさすがですなロリア隊長！　先の決戦に続いてかっこよかったですぞ！　さあ、仕事も終わりましたし帰りましょうぞ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「いえ、既に、満身創痍で、動くのも、つらい、の、ですが……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>黄金タクーシ「了解ですぞ！　ではまず休みを取れるよう手配いたします、ロリア隊長！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というかこれほぼ１日がかりの戦闘だからもう夜ですよね！
+<BR>じゃあロリアさんたちは一晩ゆっくり寝て休んでください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、はっきりいって誰もが世界の終わりだと思った瞬間にたった２人だけで山サイズの竜を倒してしまったので、現場にいた人からすれば大騒ぎです！　他の人が聞いても完全ホラ扱い！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士Ａ「ロリア隊長と狩人クスクルが２人で山みたいなデカさのドラゴンをやっつけたんだぜー」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士Ｅ「うっそだー」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「まじでー？」（なぜかそっち側に加わってる）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そんな感じで、２人は一晩の休息の後、周りの人々から大きな賞賛を受けながら最初の城へ凱旋します……。</div>
+<BR>
+<H2 class=gradientAmini>-　凱旋のロリアとクスクル</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>『闇』を倒して遠征から帰還したロリアとクスクル、そして騎士団が城に凱旋すると、フリーダ王女やヴィクター王、そしてレインが迎えてくれます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>フリーダ「ロリア隊長、クスクル様、このたびの遠征、ご苦労さまでした。聞いた話では『闇』の本体に打ち勝ったとか……痛かったですよね？　ああ、それはもう……ウフフうらやましい……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>レイン「師匠ー！　おかえりなさーい！」　（※お城では召使いなのでメイド服です）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そういえばクスクルの姿は誰も疑問を抱いてないというか、それがもう当たり前の状態なんですよね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うーんと、レインはペットのアライグマを抱いて「おかえりなさーい」とか言ってますね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>おやぁ？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あれぇ！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「あれ、師匠ってそっちだっけ！？」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「こっち、こっち！！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「ごめーんちょっと毛がふさふさしてたような気がしちゃってー」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「しつれいな、ムダ毛の処理くらいしてるよ！」　なんだこれ！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>監獄世界の記憶持ちが天然でボケられるとわかりにくいぞ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>仕方ないな！！　うん！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「でもさすが師匠！　まあヨルムンガンドを倒したんだから楽勝ですよねー」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、ヴィクター王はヨルムンガンドという単語に「えっ？」という顔になります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「ヨルムン……なんじゃそれは？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（えっ王様知らないの……？　ってそういえば監獄世界にいませんでしたね。魔王サラさんも何も知らぬに違いない）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター王「……さて、騎士ロリア、そして狩人クスクルよ、このたびは大儀であったな」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「うん、すごく大儀であったよ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はっ、騎士として当然のことを……ってクスクルさん！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「ご、ゴホン！　まあよい。わしは今の時代の人間をみくびっていたようじゃ……うちの騎士や、遊びに来ておる狩人がまさか尋常ではない強さや倒す手段を持っていたとは……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士団に勇者クラスの人材が混ざっててなにげなく世界の危機が解決してしまったとか本当にどんなんだ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>物語として破綻している！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>聖武器しょっぱな持ってるとかびっくりですよね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「詳しいことは王女に聞いていただければ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「う、うむ？」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ってここの王女ってドＭなんです？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ドＭの気配しかしない！！　うふふっていってたし。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、さっきの発言を見ても分かりますがこの世界の王女は、監獄世界の記憶持ちでドＭバージョンですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに、ヴィクター王は最初に『闇の本体』が討伐されたという報告を聞いてアゴがはずれたそうです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「わしのやってきたことは……いったい……」みたいな顔になってたとかなんとか……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>王様ー？！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「さて、騎士ロリアと狩人クスクルにはそれぞれ名誉騎士と名誉狩人の称号を与えよう！　今後も国のために戦ってもらいたい」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といって何か勲章とか山ほどのボーナスとかもらっちゃえます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ土地を買って住民を住ませて領国経営をしよう。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>おーっとクスクルくん、別のゲームをはじめたぞー？！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>前のピンク妖精の夢みたいになってる！（クスクルの中の人は以前、商人妖精をやっていた）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あれれ？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「我が命は王国と共に」　こちらはそう言って膝をつきます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「うむ、今後の働きにも期待しておるぞ、騎士ロリア」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ロリアさんの騎士っぷりがかっこよい……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>うーん、うーん、じゃぁロリアの真似しておこう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では謁見シーンはこれにて終わりです！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、事情を分かってる王様は、彼にしては非常に珍しく、国を挙げての宴や祭りを開きました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>王様が自ら宴や祭りを開催するという、こんなことは初めてです！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ニセモノだぁぁぁぁぁぁーーーっ！！！！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>事情を分かっている……けどロリアとクスクルの強さの秘密はきっと分かってない。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>王様の中では２人が新たなる脅威としてマークされているに違いない……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>あぁ、リアル……。でもフリーダ王女とかデュークガルツとかがわかってくれてそうだから、そのへんに聞いてもらえれば何とかなりそう、うん！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まあその辺は説明してくれる人がいるので何とかなりそうですね。
+<BR>
+<BR>とりあえず街も城もお祭り状態です！　遠くの国で世界滅亡の原因が絶たれたので国の人達は何が起きたかよく分かってませんが、みんな楽しんでいるようです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>城での晩餐の客をよく見れば、ロリアがかつて出会った魔王と同じ顔の人物もいたとかいなかったとか……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>魔王さんいたんですか！　よかった。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、でも魔王さんはこの世界でまだ一回も出番のないまま終わりました。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>魔王さんいいな！　いいなー！！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ドレスで着飾ってますがロリアさんとクスクルさんから見るとどう見ても魔王です。
+<BR>
+<BR>魔王にあいさつする？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>１回見ているような……と思いましたけど、そういえばその部分無かったことになってるんでしたっけ（１周目）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、魔王と遭遇したことはなかったことになってますね！
+<BR>ロリア的にはまだ起きていないルートの未来を見て来たことになりますから。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>そっかー、１周目の記憶はないのか……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ルールブックの魔王のイラスト通りの姿ではないんだよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうですね、さすがにちょっとまともなドレスを着てますよ。
+<BR>
+<BR>まともってのははいてるかどうか怪しい服ではないというくらいの意味ですが！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あなたは……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「ん？　ああ、あなたが『闇』を倒したという騎士ロリアか」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「このたびの働き、誠に感謝している。私の仕事はなくなったがな……フハハ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「いえ……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そして彼女を見ながら色々考え事を巡らせます。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>魔王さんカミングアウトした。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>まだ魔王とは言ってないからセーフ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それにこれだけだと何のことか分からないから！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「そしてボクが『闇』を倒した狩人のクスクルだよー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「ほう、片方は妖精だったと聞いたがこんなに可憐な少女とはな……２人とも、よければこれからもこの国を守ってやってくれ」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「……この人すごいわかってるじゃない、ボク可憐だよね」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まだ事が起きてないのでぶっちゃけ話も聞けますよ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あなたの『仕事』とは、『闇』を止めようとする者を排除すること、ですか？」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>思い切って聞いてみた。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「……ふ、少し違うな。私の手で『闇』を蘇らせ、そして私が死ぬことによって『闇』を止めること、だよ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「それは……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>予想だにしなかった答えに言葉を詰まらせる。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（真面目な話はロリアに任せて豪勢なお食事をテーブルの上で食べてるよー）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（客「すげえ！あの妖精、自分の体の何倍のメシを食うつもりなんだ！」）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（漫画のようにお腹が大きくなってるよー）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「しかしヴィクターもおしゃべりだな。まあ終わったことだからいいんだが」
+<BR>
+<BR>とクイッとお酒を一飲み。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「いえ、王からは何も聞いていませんよ。私が“知っていた”だけです」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「……ふうん？　ならば『闇』に勝てたのも納得だ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って魔王は笑いました。いちおう原作でも転生とかの知識はあったはずだ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（サラさんいいわぁ……いいわぁ……）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（飲み過ぎて吐いてるよー、ゲボボボボボ）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ああもう、クスクルさん、何やってるんですか！　と、すみません、あちらに行きますね！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「ああ。では、また」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ひとまず用意してたイベントはこんな感じですが、パーティー中のロリアとクスクルの会話シーンを挟んだりしてもいいですよ。
+<BR>
+<BR>夜のパーティー中に２人だけでベランダに出て会話するシーン的なノリで……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>……クスクルじゃダメだあ……（頭を抱える）。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ＧＭー？！　サジ投げないでー？！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お二人になつかし会話とかないんですか！　この！　なにか！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>事情を分かってる同士の２人だけの会話を、夜空が見えるベランダで話したりとかですね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そんなことクスクルさんができるわけないじゃないですかやだなー。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ですよねー、ハハハ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ここは２人だけのリバースを。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではあれです、夜空の下、ロリアさんがクスクルを城のベランダで介抱しているシーンにしましょう。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>クスクルがロリアの背中をさすっているシーン！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>逆でしょ！！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「まあ、色々ありましたけど、終わり良ければ全て良し、って感じですね」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そう誰に聴かせるのではなく、小さくつぶやいたロリアはふと空を見上げた。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（このまとめ力……すばらしい）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「生きて帰ってこれて良かったよね。ゲボボーーーー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（シースさん、私、これからもちゃんと生きていきますから――）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（なんというスルー力……）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではそこに、フリーダ王女とレインとデュークガルツと黄金タクーシがやってきます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>不穏な面子が２人もいる！　まともなのはガルツだけか！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうかも。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>フリーダ「ロリア様、クスクル様、このたびは本当にお疲れ様でした……前の戦いも、今回の戦いも」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「（あ、でも、いま死にそう、いま死にそう……）デロロロロロロロロロロー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>フリーダ「『闇』の脅威は去りましたが、またいずれ新たな脅威が現れるかもしれません。ロリア様、クスクル様、そのときはまた、戦ってくれますか？」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はい、もちろんです」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「謁見の間でも答えましたが、私の命は王国と共にありますから」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>フリーダ「ありがとうございます、ロリア様。またいつか、お話をしましょう。あなたと私は仲間なのですから……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ゲボ、オボボボボ……」　（うん、もちろんだよ、と言ってるつもり）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>フリーダ「ってキャー！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「見た目が妖精になった分、絵面が余計に酷くなったような……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「師匠ー！　もう全部出しちゃえ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「全部って内臓も？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>レイン「カエルみたいにできるならどうぞ」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>来世はカエルかぁ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そんなこんなで、それから２人は報酬がてら山盛りのお金と、しばらくの休暇をもらうことになります。しばらく城下町でゆっくりすることになるでしょう。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士ロリアはケモ耳しっぽになってしまいましたが、前回と違って伝説になったので、その姿は一種の名誉の傷のようなものとして人々に受け入れられています。これ以上の症状の進行もないですし、英雄ですからムコの心配もいらないでしょう。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（でもロリアさんのムコってケモ耳しっぽでもいける変な人しか……まあいいや）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>婿はタクーシだよね？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ないない、それはないです」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさんが必死に否定しそうだけど、こういってるとなぜかあるパターン！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>実際よく見かけるやつだ！</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>エンディング後編</H1>
+<H2 class=gradientAmini>-　マーシュとワイズマンの再会</H1>
+<div id=com><font id=CC2>【中編を飛ばした人へのあらすじ】
+<BR>
+<BR>　ロリアとクスクルは彼らの世界に現れたばかりの闇を倒し、なんと速攻で世界を救ってしまいます。城や城下町では宴や祭りが開かれ、ロリアたちも休暇をもらえることになってシーンが終わりました。ロリアとクスクルはしばらく城下町でゆっくり過ごすことになります。</font></div>
+<BR>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次！　マーシュとローズマリーは最初の城へ向かって草原を歩いています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そろそろ前世でワイズマンと出会った場所に到着しそうですが……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そのとき、ワイズマンが３匹の小鬼に追われているのを発見します！　が、その顔に必死さはありません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>同じ歴史をもう一度繰り返すために同じように行動しているだけとかそんな理由かもしれません。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>小鬼「げっへっへ、小汚いオッサンだぜ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで合流してください！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>さ、さてどうしよう……マリーこっちが動かしていいのかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリーさんも動かしてくださって結構ですよ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>あざーっす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンもマーシュもここで合流することは理解完了しています！
+<BR>「おっ、来たな」みたいな感じで目で通じ合うでしょう。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「あぶなーい！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マーシュ「待て危ないのはお前だ！」とマリーの首ねっこを捕まえて、ワイズマンと目をあわせます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>小鬼×３「ゴブブー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あのときと違うのは、マリーが元のマリーでなくなったことと、ワイズマン自身も戦う力を持っていること！　たぶん、小鬼たちは一蹴されてしまうでしょう。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>見守るズマン。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、ワイズマン１人で勝てるのに守ってもらうつもりだ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……さて、助けはいりますか？」とわざと他人行儀に話しかけてみます。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>小鬼たちは手で捕まえてます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おお―！　なんたる身のこなし、剣の冴え！　あなたこそ命の恩人です！　なんとお礼といったものか！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２人ともなんとわざとらしい！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……ってお前さん、剣を使っとらんではないか。もっと真剣にやらんか」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ハハッ……なつかし！　久しぶりだな、ワイズマン！」と笑いつつ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いきなり仲よさげに話すお二人に、捕まってる小鬼が困惑しています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>小鬼×３「ゴブー！？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「因果なものだ。それ、その哀れな小鬼をとっとと離してやりたまえ」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ほいよ。じゃあな」と小鬼をペイっと放り投げます。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「さすがにここでレーヴァテインは悪目立ちだしな」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>剣も使わない！　まあ【素手】でもダメージ期待値１２とかですもんねーって素手だとちょっと足りないぞ！（小鬼３で【LIFE】１５）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>足りない分はマリーがいます（震え声）。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>じゃあ仕方ないからなんか武器使って追い払います！　初期装備あるはず！　聖剣抜くのはかわいそう。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>細剣の出番だな！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では小鬼はなんだかんだで追い散らされました！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……それで、なんだお前さん。露出癖はもうやめたのか」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「もともと持ってないからそんなクセ！？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マリー「……？？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「というか、そちらのお嬢は……ローズマリーかね？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「そうですわよ？　なんでこのオジサン、わたくしの名前ご存知ですの……人間のくせに……」とマーシュの背中に隠れます。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「はいはいそういうこと言わないの。このおじさんは、マーシュのお友達です」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「そうか、そうか。なるほどそういうことか。いや失敬した。このマーシュから話に聞いていたのだよ」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「我輩はワイズマン。よろしく頼む」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「ふ、ふーん？　まあ、よろしくしてやってもいいですわよ……？」と、おずおずと顔を出します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マーシュが脱いだらマリーもえらそうなこと言えなくなるよ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>はやく脱がないかなあ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>脱がないって。脱がないって！！（強調）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>お酒の出番？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>もうゼヌーラは遠く昔に封印したんだよ！！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>お酒の出番？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>なんで二回いうの？！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>酔っ払った勢いでゼヌーラする勇者とかいたら悲惨だなー。
+<BR>酔ってる間の記憶がないのに気付いたら服を着れないという。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それで二度と服を着られなくなるとか最悪すぎる！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>マーシュの【ゼヌーラ】見てみたいっ♪</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>すっごいネタふりされてる！？　脱がないからね！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>脱がない勇者はただの劣化剣士だ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>脱がないからね！！！！（三回目くらい）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、マーシュとローズマリーは勇者に志願するためにお城に向かっていたはずです。
+<BR>向かっていただきまーす。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>はい、ああだこうだと言い合いながら城へと向かいます。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ま、じゃあ他のメンツにも会いにいきますか」というノリで。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「とはいえ、この世界でどこにいけば彼らに会えるものか……」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「そうだよな、出会ったのはあの冥府でだったもんな……ま、そのうち会える、気がする」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンやマーシュは、元の世界でもＮＰＣロリアたちと会ったことを思い出すかも知れませんね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>そういや２話で避難誘導してたなぁ……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>してましたねえ。懐かしいなあ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ということはこの世界で会えるのもＮＰＣロリアとＮＰＣクスクルかあ……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、３人はお城に到着しました！
+<BR>魔王討伐に志願した勇者だと伝えると、早々に謁見室に呼び出されます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター「よくぞ参った！　マーシュ殿、ローズマリー殿、ワイズマン殿！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>また勇者とマリーとワイズマンの３人でのお城の謁見となります。
+<BR>中身はスライドしていますが、いつか見た光景ですね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「我輩はワイズマン。陛下にお目通りできて光栄です」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「うむ、よく来てくれた！　我々は『問題』を予見して、ことが起きる前から勇者募集をしておった」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「時間が惜しい。さっそくですが本題に入りましょう。魔王討伐の任、引き受けさせていただきます」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「おおっとすまぬ、先に言うべきことがある。遠くからわざわざ来てもらってこういうのも何なのだが……」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「うん……？」と顔をあげます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター王は額をつまみながら、困った顔で言います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター「実はな……うちの騎士と客人が問題の元凶を倒してしまってな……」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「え、それって……」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「もしかして……」とワイズマンと顔をあわせます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「王よ、いま、なんと？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「言い換えると、事の元凶をうちの騎士と客人が倒してしまったので、魔王を討伐する必要がなくなったのだ……」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ひょっとして、その騎士と客人……騎士ロリアと、狩人クスクルではありませんか？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「む、そなたらのもとにもその名が届いておったか！　その通り、ロリアとクスクルじゃ」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「（この世界にいるロリアとクスクルの魂は別なんだよな……と思ったのに、もしかしたら……？！）」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「（バカな、そんな都合のいい話があるわけないだろう）」（マーシュに聞こえるくらいで）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「（だよなぁ、まさか。ハハハ……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「結局、ワシらが思った以上に早く『闇』は倒され、この『ニューワールド』の世界は救われてしまったのだ！　勇者の志願は中止となった、すまぬ！　すまぬ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう……ＰＣのロリアたちの帰り先とは別の世界だと思っていたこの世界ですが、なんと魂は同じ場所に集っていたのです！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「って『ニューワールド』の世界だって？　マジでぇ？！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ズマンは目をぱちくりさせるばかり。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>元の世界の名前はなんだっけ。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>あ、こちらは「ファーストワールド」ですね。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>こっちは「セカンドワールド」の世界でした。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「しかし、次こそそなたらの勇気が必要となるやもしれん。報償金は出すので、よければしばらく我が国で身を休めていってもらいたい。そして何かあれば、また来て欲しいのだ」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター「志願してくれる勇者はみな歓迎しておる！　前も、今もな！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「は、はい……！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「（なあなあワイズマン、もしかして、オレたちの知ってるロリアとクスクルじゃないか……！？）」とワイズマンに小声。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「『闇』を倒したというのなら、間違いなく彼らだろう。なるほど……な」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そんなわけで、お二人は山ほどのお金をもらって城下町へ繰り出します！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……何もしてないのに、もらうだけもらってしまった」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マリー「お金は大事ですわー！　キャーどんなドレスを買おうかしら！」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「これ散財はおやめなさい。……少し探してみるか？　ロリアと、クスクルを」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なおワイズマンの手紙の行き先もこの城下町で、コリーナの居場所もここです。
+<BR>都合よく改ざんされている歴史！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>杖を掲げてこっそりフォースを使います。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「【生命探知】！」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>見知った妖精と半獣の騎士はいないかな。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>わあ便利ー！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>うわーせこい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「（それより先にうちに来てくれんか……頼む……頼む……）」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ハキムさん！！！！　念話が！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「むむっ、これは予想外の人が見つかりおった」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「誰だ？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ハキム師だ。驚いた。マーシュや、君も来るかね？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「お、おう」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マリー「わたくしはお買い物しててよいですの？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「ダメ。ついてきなさい。すぐ迷子になるでしょ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンはハキムのもとへ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして一方のマーシュは、コリーナのもとへ向かうべきではないかと魂の声が聞こえした。
+<BR>
+<BR>もし道ばたで変に遊び回っているところを見つかったらコリーナに殺されます。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ヒッ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ヒッ！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「……っと、オレは先にアイツんとこ顔だしにいかないと」（冷や汗）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もう何年もコリーナに会っていません。真っ先にいなかったらどうなるかアレンの魂が警鐘を鳴らしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アレン「（途中で見つかるとヤバいから！　命に関わるから先に行くんだ！　いいね！）」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「コリーナにオレが殺される……（ゴクッ）」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「というわけで、行ってくるわ……」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「う、うむ。衛兵に捕まるような揉め事は起こすんじゃあないぞ」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「なるべくそうする……」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>後に回すと修羅場、今いっても修羅場な気が……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>勇者を倒せるコリーナが勇者になればいいんじゃないかなぁ。</div>
+<BR>
+<H2 class=gradientAmini>-　マーシュとコリーナ</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では先にマーシュから！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、マーシュは恋人コリーナの家がこの近くにあることを知ってます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>てくてく歩き、とうとうマーシュはコリーナの家の前までやってきてしまいました……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「さて、このへんだったはずだが……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>＜コマンド？＞</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「（マリーのことは話しても怒られ話さなくても怒られるだろうなーアハハハハどうするかなー！！）」
+<BR>
+<BR>冷や汗だらだらで力ない笑みを浮かべつつ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マーシュがそんなことを考えているとドアが開きます。ギイィィィ……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>思わず土下座します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「……きゃっ、え？　え！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>コリーナ「もしかして……マーシュ！？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「すいません、遅くなりました……」（ひれ伏し）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「あ、あんた何年も連絡よこさないで何やってたのよ！　あなたがフラフラしてる間に働いて結婚資金とかいろいろ貯めてたんだからね！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>……脱いでいればよかった。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>だから脱ぎません！！！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「す、すまんかった！　その、オレも色々あって」（わたわた）</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>マリー「……なんで土下座してるんですの？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「ちょっ、何よその女は！？　新しい女連れてきたから別れるってこと！？　キィィーブッ●してやる！！！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ヒィッ！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナは家に入って包丁を取り出してきます！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ﾜｰｵ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>聖なる包丁。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ヨルムンガンドを屠りし者を屠りし者。誕生なるか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もちろんコリーナの狙いはマリーです。マリーは危機を察知して武器を抜くかもしれません。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「なんですのこの粗暴な女は？！」　やべーわ修羅場だわ……。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「待て、話せばわかる！！！　話せばわかるはずだ！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「な、何よ……じゃあ弁解の時間をあげるわ！　３０秒くらいね！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「妹みたいなもんで故郷の子だってば！　ただの弟子だよ！！　恋愛対象じゃないよ！（ああよかった３０秒も話せる！！）」ノンブレス！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「ふうーん？　いいわ、信じてあげる。で､横でニヤニヤしてるおっさんは？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マーシュは後ろから突然声をかけられます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>？？？「よおマーシュ！　ここで待ってりゃ会えると思ったぜ」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>誰だ！？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……え、ま、まさか……おっちゃん？！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>鍛冶屋のおっさん？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>まさかの！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そう、片足がない鍛冶屋のおっちゃんです！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「久しぶりじゃないかー！」とテンションが上がります。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダグド「よお、ちゃんと魂が残ってたんだな！　会えて何よりだぜ！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「おっちゃんこそ、魂残ってたんだな！　へへっ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「なによ！　何なの！？　そんなに顔が広いのアンタ！？　キィィー男にまでもてちゃってー！！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「待ってそれも誤解だ誤解ですコリーナさん、オレはそっちのケはな――」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ダグド「ハッハッハ！　おまえのアレがうるさいが暇ができたらうちに来いよ、おまえの【ロングブレイド】とか鍛えてやるからよ！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ちょっと！！！！　おっちゃん！？　今すごい誤解受けてるから黙ってて？！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（あ、そういえば勇者の初期装備は【ショートブレイド】だ）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ダグド「おっとおまえのは【ショートブレイド】だったか？　ハッハッハー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんかこれすごくひどい意味に聞こえるぞ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>誤解は深まるばかりだー！！　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>南無三。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナ「もうー何なのよーーこの変態どもがー！！！！」　（包丁振り回しながら）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「違うんですコリーナさま信じてください、オレは一途に……ああっ！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コリーナの叫び声をバックに、シーンは徐々に暗転します……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マーシュはこのあと、コリーナに散々弁解したあとワイズマンの行き先に向かいましたとさ……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>はい……。</div>
+<BR>
+<H2 class=gradientAmini>-　ワイズマンの帰還</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そして最後にワイズマンです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>マーシュと別れたワイズマンは、理術士ハキムの家の前までやってきました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今度の住まいは火山ではなく、城下町の隅のほうにある住宅街の一角に家がありました。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>おひっこししてるー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「１０才から始めるフォース塾」みたいな看板が下がっており、どうやら研究の成果をいかしてフォースの先生をやっているようですね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>Knock Knock！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>老人の声「はーい、どなたかな？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といって出てきたのは……理術士ハキムでした！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「師よ。再び参上できてこれほどの喜びがあるでしょうか」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「おお、ワイズマン君！　……私の知ってるワイズマン君じゃよな？　ヨルムン、の後に続くのは？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ガルツ、間違いありません」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ガンドー！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>間違ってるー！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「ガルツは黒い騎士の方じゃろがー！」
+<BR>
+<BR>といいつつ、ハキムはワイズマンとガッチリ握手をかわします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「無事じゃったんじゃな、ワイズマン！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「はっはっはー！　師匠こそ相変わらずボケには甘い！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「ほっほっほ。そうそう、わしはここで塾をやっておるんじゃよ、ワイズマン、とりあえず中に入りなさい」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「はっ。ではお邪魔いたし……んん？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「見せたいものがおる……といえば、もう分かるかの？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「猫でも飼われましたか、師よ」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「いえ、人のものではない毛が少々。探偵の基本ですよ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ハキム「うーん惜しい、それはたぶん獣人の生徒の毛じゃ……」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>そう、なんとそれはゴーストドッグさんで……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>空気を読まないゴーストドッグさん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>が、ワイズマンは毛とは別に、【生命探知】にものすごく懐かしい存在をキャッチします！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>以前同じ対象に使った【生命探知】はあなたに絶望感しか与えませんでしたが、今は違います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>声を聞きつけて、ワイズマンが探知した生命体が二階から降りてきます。
+<BR>ワイズマンの目の前に現れたのは……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>老婆「ワシじゃよ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そっちかよ！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>心の絆：ババア</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>心の絆（盛大に吹き出しながら）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>感動の再会すぎて涙が出るけど違いますー！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>二階から降りてきたのは……なんと、ケモ耳しっぽが生えていないシースでした！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「ああ……やはり勘違いなどでは……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはワイズマンを見て一瞬戸惑いましたが、一息吸って、笑顔で言いました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース「……おかえりなさい、お父さん」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それは、ワイズマンが念話以外で初めて聞いたシースの声でした。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>そういえばシースって喋れなかったもんねぇ～。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>シースよかったね……良かったね……！！</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>そうか、半ケモにならなかったおかげで迫害もされてないのか……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「師よ、これはまやかしでも私を試しているわけでもないのですね？　信じられない。シースの魂はあのとき確かに……」</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「シースよ、“あの”お前なのだな……？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「ロリアさんに魂を分けたときはちょっと危なかったですけれど……お父さんのことを思い出したら、帰る場所が分かったんです」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース「……そんな経緯のシースです、ご満足ですか？」といってシースはふふっと笑います。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>シースからちょっと顔が見えにくいように上を向いて歩み寄り、抱きしめましょう。
+<BR>
+<BR>いまの涙もろもろの情けない顔は娘に見せたくないですからね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「私もずっとこうしたいと思ってました！　“お父さん”！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースもワイズマンに抱きつきます！　ハキム師がニコニコして見守っています。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>しゃべろうとすると嗚咽が出そうなので、黙ったままシースの背中を撫でるのでした。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（いやあ……実にいいですね……）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（ケモ耳しっぽがないなんてタクーシが納得しないと思うよ。実に残念）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（半獣の姿を保ったの無駄になったぞ！！！！）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（ろ、ロリアさんは泣いていいよ！！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（いやー描写中に気付いたけどこの世界情勢だとロリア以外ケモ耳になれないもん！）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（しまった、『闇』を駆逐したのが早すぎた！）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（『闇』出た瞬間仕留めたもんね……）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>（ロリアさんは伝説となったのだ……）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>（全獣人ならいるはずだ！　世界に希望は残っているぞ！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ワイズマンさん、なにかシースと話したいことなどはありますか？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>このシーンが終わると、話を聞きつけた他のＰＣが家に攻め込んできて団欒（だんらん）どころではなくなります。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>少し落ち着いたズマン。</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>「シースよ、今まで放りっぱなしで本当にすまなかったな。これからは欠けてしまった時間を取り返していこう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「それじゃあお父さん……私、ピクニックに行ってみたいんです！　早速明日にでも！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース「あ、でも服を何とかしないと変かも……」 ※もちろんお父さんの服の方です。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「いいだろう！　ピクニックでもクリニックでもどこにでも連れていってやろう！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>クリニック。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「はい、ありがとうお父さん！　っていきなり病院ですかー！？」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「おいしいものを食べて、ゆっくり過ごし、そして平和を楽しもうじゃないか！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「はい！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではその頃……ロリアとクスクルのもとに、怪盗みたいな格好のおじさんが歩いてたという通報が入ります！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>通報。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>通報される見た目なんだ……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>それに疑問視をしていなかったかつてのマリーと今のマーシュどうなの……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ズマンが元いた領地の服飾文化があまりナウくなかったんでしょう。かわいそう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まあ通報というか、軽いヒソヒソ話レベルでしょうけどね。
+<BR>
+<BR>ロリアさんって非番でも街のお気軽な交番的な扱いを受けてそうなので、そういう軽い噂も入ってきます、はい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「そんな姿で昼間から出歩くおじさんって、まさか……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そして合流予定だったマーシュもワイズマンのもとにやってきます、で合流していいですよ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「助けてくれコリーナに殺される！！（シースが見つかっただって？！　よかったな！！）」
+<BR>
+<BR>ﾊﾞｰﾝ！！　と派手に入ってきます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさんとクスクルさんもどうぞ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ごめんくださーい、ここに怪盗姿の怪しい人がいるって話を聞きましてー」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「めでてぇ時は酒だ、酒ー、こっちは迎え酒だー、どりゃー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルまた飲んでる！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ハキム「おや、今日は客が多い１日じゃのう、最初のあの日を思い出すわい」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……シース、本当にシースなんだな……！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「マーシュさん！　ロリアさんにクスクルさんまで……！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……ッ！？　シース……さん？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「よかった……ロリアさん、無事だったんですね……どうなったか分からなくて……」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「良かった、本当に良かった……！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>若干涙ぐんでます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「……はい！」　シースは精一杯の笑顔でこたえます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「え……ロリア？！　それにクスクルまで！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「マーシュさん！？　ワイズマンさんまで！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「その声は……忘れもしない！　ロリア嬢！　クスクル君！　いやクスクル君はどうした！？」※ケモノじゃないのかという意味で</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「……みんなお友達なんですの？」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「うん、ちょっと、昔ね」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「そちらは……ローズマリー、さん？」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>見た目は小さくなったマリーさんって認識でいいんですよね。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「あー、その、なんだ。みんなと旅したのはオレのほうでさ……」とロリアに説明。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……なるほど」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「ローズマリーさん、ここにいる皆さんはね、世界と多くの人々を救ったんです。ね？」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「へ、へー……？　よく存じませんけど、やはり師匠はすごい人なのですわね！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「しかしまさか、みんな記憶を持ったまま同じ世界に戻るなんて……」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「フッ、フッハッハッハ！！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「よーし、再会を祝して朝まで飲むぞーーー」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「うむ、マーシュ！　酒屋からエールとワインをありったけ買ってきてくれたまえ！」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「い、いま外に出るのかっ！？　オレに死ねというのか？！　（コリーナに）見つかる！！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「なんだね。いやなら構わんぞ。そうなったら我輩は“勇者様”がどんな戦い方をしていたのかを克明に語り継ぐだけだ」</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>マリー「えーなにそれ聞きたいききたいですわー！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「理術士にして詩人ワイズマンの仕事はこれからだ！　ワーッハッハッハッハ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、【ゼヌーラ】の件が脅迫に使われてる……！　これはマーシュさん一生下僕ですわ……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「……すいません、いってきます、いきますよ畜生！　マリーやみんなはここにいていいから！　あと話さなくていいから！　というわけでこの子は頼むよ」</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>「（コリーナからつい逃げてしまったけどなんて言い訳しよう……）」と冷や汗ダラダラしながらお金預かって出ていきます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「１ばーん、くすくる、まーしゅがたたかってたばめんの、ものまねしまーす」（ぬぎっ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではそんな感じで、シーンは外へ移ります……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、マーシュが家から出ていく姿を、陰から見ている人がいました。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ま、まさか（ガタガタガタ）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>マーシュさん刺されてまう……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ゲームオーバーイベントかな？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>見てたのはコリーナじゃないです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そしてマーシュさんはそのまま走り抜けてＯＫです！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>セェーフ！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、隣の家の屋根の上から、１つの魂が皆さんの楽しそうな様子を眺めています。
+<BR>それは、妖精イーリスの魂でした。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「私のいない世界になっちゃってちょっと寂しいけど……きっと、これでいいんだよね」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「……みんな、楽しそうでよかった……これが、私たちの守った世界なんだ……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（んー、それはちょっと寂しいなぁ……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>※マーシュさんは何もいない空間に振り向いたりしてもいいんですよ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「（神様仏様精霊様、どうか道中見つかりませんように！！）」
+<BR>
+<BR>と走りぬけようとしたとき、何かの視線を感じた気がして、ふとそちらのほうを見てみます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリスの魂はマーシュに手を振りますが、マーシュには見えません。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「ん……気のせいかな？」と、そのまま走り去ります。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「それじゃ……また、別の世界で会おうね、みんな……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリスは皆さんの様子を見て安心した顔になり、そして別の世界へと飛び立っていきました……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>イーリス、ばいばい……寂しい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>成仏しちゃった？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリスは『闇』が生まれなかった世界には作られていないからね……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>レインも生きてますしね……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「……ん？　いまなにか聞こえたかね？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースも何となく窓の外を見ますが……そこには何も見えません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース「……さようなら、ずっと見守ってくれた人……」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「？　シースさん、どうかしましたか？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「……ううん、何でもありません。さあ、今からパーティーの準備ですよ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>シースがふと窓の外を見ると、そこには口から七色の吐しゃ物を漏らしているクスクルがいたりしますか？　しませんでした。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そんなもの見えてもシースはコメントしません。
+<BR>
+<BR>さて、こうして、ハキムの講義室でパーティーの準備が始まります！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>塾を会場にして叩きだされるかと思ったらそんなことはありませんでした。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そして画面が絵画状になって一枚絵のパステルカラーに。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうそうそんな感じで。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>隅にFin。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「酒ありったけ、もてるだけ買ってきたぞー」（重量４）</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ああ、あと少し遅かったら一枚絵の上の方に窓付きでマーシュさんの笑顔が浮かんでるところでしたよ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>完全に死んだ扱いだー？！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>「よーし、酒の次は【サボテンの肉】と【動物の肉】と【枯れた草】と【焦げた草】を買い込んでくるのだ！　行けマーシュよ！！」 （※【枯れた草】と【焦げた草】はエラッタで購入不能になりました）</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>「それパーティにするメニューの内容か？！　なぁ！？　それがパーティになるの旅の途中だけだぞ？！」</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>みんなはゲテモノだっていうけど、我々からしたらごちそうなんですよ。サボテン以下諸々は！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はーいそろそろ締めに入りますよー。
+<BR>
+<BR>ということで、一度は離ればなれになったように思えた皆さんでしたが、何の因果か再びこうして集まることができ、しばし楽しい思い出話に花を咲かせましたとさ……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>－エピローグ－</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうしてヨルムンガンドとの戦いは、勇者たちとそれに関わった一部の人々だけの、知られざる伝説となりました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヨルムンガンドと戦った絆の仲間たちは、今は同じこの世界に集い、穏やかに暮らしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかしまたいつか、再び世界の危機がおとずれるかもしれません。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そうなったとき、皆さんはまた集い、そして脅威に立ち向かうのでしょう……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして私もまた、第２の人生を送っています。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>明日は、お父さんとピクニックに行くことになりました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そんな夢が叶ったのも、勇者たち皆さんのおかげです。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>本当にありがとうございます、勇者の皆さん……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>楽しみで今夜は眠れるか分かりませんけれど……それでは皆さん、おやすみなさい……。</div>
+<BR>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>片道勇者ＴＲＰＧリプレイ　『灰の少女とヨルムンガンド』　　－　完　－</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>楽屋裏</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということでこれにてハッピーエンドでしたああああぁぁぁおめでとうございます！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>おしまい。　お疲れ様でした！！　なんかマーシュくん皆の奴隷になりましたね！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>お疲れ様でしたー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>おつかれさまでした。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ゴーストドッグ「あっ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そんな者はいない。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>いなかったんだ……ゴーストドックさんなんて……。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>忘却の彼方へ……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>Fin。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>一枚絵の空に小さく笑顔が浮かぶゴーストドッグさん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>パステル調のイラストの右上の○の中にゴーストドッグ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>んで、ロリアの旦那はタクーシなんだよね！？</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>タクーシくらいしか候補が……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>冒険で知り合った人と結婚するなんておとぎ話ぐらいなもんですよ、ええ。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>婿はわからないけどロリア２世は生意気な半獣の騎士なんですよ。私は詳しいんだ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ここから先は想像の余地を残すようなそんな感じに。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あーそれにしても初めてＴＲＰＧ連載がちゃんと終わったー！　大団円だー！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>おつかれさまです！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>いやー、無事に終わった終わった！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>打ち切りになったどっかの自家製リプレイとは違うんだ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>これ以上の自虐は！！！！</div>
+<div class="box"><B>◆自家製リプレイって？</B>
+<BR>
+<BR>　実は冒険企画局さまの『片道勇者ＴＲＰＧ』より前に、２０１３年のエイプリルフール企画で自前で作った『<自家製>片道勇者ＴＲＰＧ』というものが存在し、そのリプレイを連載していたのだが打ち切り風エンドを迎えてしまった。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>第１部 完。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>なんと次は天界編だ！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ロリアさんがＧＭ殺しにきてる。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>え？　●●を倒しに行く第２期なんじゃ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>すみません収録期間だけで５０日以上もかかったのでしばらくはゆっくりしたいです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あっはっはっは。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>そんなに経ってましたか……！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あー、第１部の終わりに、世界の片隅で黒い何かがボゴッボゴゴッってうごめいているシーンで終わるんですよね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>大団円なのに最後の最後で不穏なシーンが出てくるんですよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次回の予定もないのにそんな不穏シーンなんて入れませんからね！！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そしてたいていの場合、不穏なシーンがあっても次は出ないんだからやめて！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>かなしい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ＰＬとしては文句無しに楽しませていただきまして、改めてありがとうございます皆さん。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>こちらこそ。大変楽しませていただきました！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>こちらも本当に楽しかったです！　いやー最初にテストプレイしたときはどうなることかと思いましたがこんな魅力的な内容になるとは！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ＧＭの演出力と、ＰＬの皆さんのキャラクター性と。素晴らしいものになりましたね。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>ズマンさんは文句なしに今回のキャンペーン主人公だったなぁと。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いやー家族系は強かったですね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>２話でＧＭから「シースを実の娘にしない？」と囁かれたときにはどうしようかと思いましたよ、ええ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>え。</div>
+<BR>
+<div id=nm><font class=c6><B></B></font></div><div id=tx class=ct6>それ途中からの設定だったの？！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２話でクエスト渡したときに「あ、これちょうどいいんじゃね」と思って聞きました。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>最初からだと思った……！！　なるほど……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>ですねえ。シースは「ファーストワールド」のほうのキャラクターだと思っていたらまさかの。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>いい流れだわ……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>皆さん甲乙付けがたいですが、クスクルさんのかき回しっぷりが最高に面白かったのでMVＰに他推します（直球下ネタは除く）。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>クスクルから直球下ネタをとったら何が残るんです……？（真剣に悩む）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>以前の妖精ＰＣ以上に制御が効かないキャラになってしまった。すみません。申し訳ない。ごめんなさい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルさんの制御は編集でやるので自由にやってくださってＯＫＯＫ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>いやいやいやいやいやいや、わたしはいつもどおり、とにかく突っ走ってただけなので、みなさんがお話を繋いでくれて本当に良かったですよ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルさんはムードメーカーとして大活躍でしたね！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアさんはまじめキャラとして実にがんばってくださいました。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>前にやったキャラより動かしづらかったのが反省点でした！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ロリアさん、真面目だから……！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ロリアは言動も行動も常に王道で一致しちゃってるので、周りがふざけてくれないと乗れない感じがありましたねー。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そうそう、なのでロリア＆クスクルコンビのハマりっぷりは最強でしたね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「おふざけ系キャラと合う」という性質のせいでロリアさんのまわりに変態が集うハメに！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>部下も知り合いも変態しかいない……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>上司もです……（フリーダ王女）。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ひどい（顔覆い）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>真面目なロリアさん、ふこ……突破力のあるズマリーさん、ムードメーカーなクスクルさんとバランスがよかったですねえ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>不幸って言った！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>マリー＆マーシュさんは時にお笑い、時に出目悪すぎだったりバトル系多めだったりで盛り上げてくださいました。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>マーシュ、最終回のダイス運はすごいと思いません？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>すごいよ！　いきなり最終決戦だけこれ！？　みたいな！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>普段は出目７が出ない人なのに、ずっと攻撃当て続けてるって結構すごいですよね。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>聖剣持ってても多分ダメだろうなーと思って【癒しのアンプル】を渡してたんですが、まさかきっちり仕留めてくれるとは。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>最終決戦だけはちょっと出目的に主人公できたなって気持ちでした、てへ。
+<BR>
+<BR>実はめちゃめちゃ嬉しかったんですよね……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>そしてその分、ロリアさんが……。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>すいませんロリアさん……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ワイズマンさんはひねくれ系っぽく行きつつ、悲しんだり怒ったり表情豊かで楽しかったですねー。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ワイズマンさんは本当に……こう、よかったですよね（語彙力の喪失）。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>色々な意味でオイシイところをおいしくいただかせていただきました！</div>
+<BR>
+<div id=nm><font class=c4><B></B></font></div><div id=tx class=ct4>１話（ロリアとクスクル組）のあまりの面白っぷりに２話開始前かなりプレッシャーがかかってましたよ、ええ。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>あれを超えるのは困難だなと思いました　まる。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>１話見てこれはポップでギャグ多めの冒険になるな！
+<BR>と思ったら第２話でアレでしたから。収録後はちょっと寝付きが悪かったです。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>２話ってなんかありましたっけ……！　すいませんッ……！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>全体的にポップではなくシリアスで血みどろだった件でしたね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>本来公式キャンペーンからしてそっち成分多いですよねえ！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>『闇』が迫ってるというシリアス状況だから普通は血みどろシリアスになるんですよ、普通は！</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>今となっては本当においしい仕込み回でした。ありがとうございますズマリーさん！</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ふえぇ、ありがとうございます……！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ああ、今や第１話が遠い記憶の中に……たしか、わたしとシースの出会いは……水責め……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルさんシースに（無意識に）ひどいことばっかやってるー！？</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>無意識！？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ええ、本当に、お父さん、ごめんなさい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>水責めから始まって聖弓で終わる。</div>
+<div id=nm><font class=c6><B>マーシュ</B></font></div><div id=tx class=ct6>ひどい。</div>
+<div id=nm><font class=c4><B>ワイズマン</B></font></div><div id=tx class=ct4>さすがクスクルさんや……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いやーしかし、本当に全部が面白かったです！
+<BR>これもＰＣの中の人が色々試行錯誤してくださったおかげです、ありがとうございます！
+<BR>
+<BR>次回はおまけ回として、これまでを振り返る「お疲れ様会」をする予定です！
+<BR>皆さま、よろしくお願いしまーす！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>よろしくお願いしまーす！！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_99_icon.png"></td>
+<td><font class="ct0"><B>ＧＭからＣＭコーナー</B>
+<BR>
+<BR>　『灰の少女とヨルムンガンド』、これにてついに物語が終結です！
+<BR>　皆さま、ここまで読んでくださって本当にありがとうございました！
+<BR>
+<BR>　このエンディング回が公開される頃には、新刊『片道勇者ＴＲＰＧプラス』が発売しているはずです！
+<BR>　原作プラス同様に銃使いアルバートや少女ミラなどが登場したり、新たなシステムが用意されていたり、『往復勇者』といったあっと驚く新たなキャンペーンが収録されていたりと追加データ集として盛りだくさんの内容になっています。各キャラの設定や物語、ツイッターゲームの「片道勇者オンライン」を振り返りたい人にもおすすめできます！
+<BR>
+<BR>　なお『片道勇者ＴＲＰＧプラス』を遊ぶためには、一冊目の『片道勇者ＴＲＰＧ』も必要です。気になる方はぜひ、『片道勇者ＴＲＰＧ』と共に『片道勇者ＴＲＰＧプラス』をどうぞ！→
+<BR></font></TD><TD align="center"><DIV class="close" align="center"><a target="_blank" href="https://www.amazon.co.jp/gp/product/4040709454/" class="red"><img border="1" src="image_newkatamichi/banner_katamichi_plus_trpg.jpg" width="150"><FONT size="-2"><BR>片道勇者<BR>ＴＲＰＧプラス</FONT><BR><FONT size="-2" class="close">Amazonページへ</FONT></A><BR><FONT size="-2" class="close">（税込1620円）</font></td></tr></table><div id=com>　</div>
+
+<BR>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>それからさらに二ヶ月経って、ようやくお疲れ様会が開かれました。
+<BR>あんなことやこんなことの振り返りやネタバレ満載の次回、お楽しみに！</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+
+<div id=com_hira>続きはこちらから！ → <a href="Replay_KatamichiTRPG_09.shtml" class=red><font size=+2>おまけ『お疲れ様回』へ</font></a>　</div>
+<div id=com_hira>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com_hira>　</div>

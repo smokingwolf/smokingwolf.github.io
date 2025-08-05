@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+    <title>片道勇者TRPGリプレイ　1話『騎士と狩人』</title>
+    
+<link rel="stylesheet" href="replay2.css" type="text/css">
+
+    <style type="text/css">
+    <!--
+    
+-->
+</style>
+<script src="smoothscroll.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<!--ここはモバイル時のフォント変更用 mobile_ajust内でCOMなんちゃらの初期化も使ってるのでかぶらないように注意-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="mobile_ajust_wolf.js" type="text/javascript"></script>
+
+
+</head><BODY onload="initLightbox()">
+
+<!--<div id="border"></div><div id="border2"></div>-->
+<div id="flowmenu"><a href="../../" class=red><B>←ホームへ戻る</B></a><BR>　
+	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
+	      <TD class="white" nowrap>
+<B>片道勇者TRPG</B><BR>&nbsp;<small><small>灰の少女とﾖﾙﾑﾝｶﾞﾝﾄﾞ</small></small>
+<BR><a href="index.shtml#S0" class=red>◆トップページ</a><BR>
+  <BR><a href="#S0">◆1話『<small>騎士と狩人</small>』</a><BR>
+    　<a href="#S1">- キャラメイク</a><BR>
+  　<a href="#S2">- 冒険の準備</a><BR>
+  　<a href="#S3">- 最初の城</a><BR>
+  　<a href="#S4">- １日目　草原</a><BR>
+  　<a href="#S5">- ２日目　草原</a><BR>
+  　<a href="#S6">- ３日目　遺跡群</a><BR>
+  　<a href="#S7">- ４日目　荒野</a><BR>
+  　<a href="#S8">- 終わりに</a><BR>
+  <BR><a href="Replay_KatamichiTRPG_02.shtml#S0" class=red>◆2話『<small>剣士と詩人</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_03.shtml#S0" class=red>◆3話『<small>闇と勇者</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_04.shtml#S0" class=red>◆4話『<small>王女と獣</small>』</a><BR>
+<a href="Replay_KatamichiTRPG_05.shtml#S0" class=red title="◆5話『転生と邪悪』">◆5</a> 
+<a href="Replay_KatamichiTRPG_06.shtml#S0" class=red title="◆6話『少女と真実』">◆6</a> 
+<a href="Replay_KatamichiTRPG_07.shtml#S0" class=red title="◆7話『ﾖﾙﾑﾝｶﾞﾝﾄﾞ』">◆7</a> 
+<a href="Replay_KatamichiTRPG_08.shtml#S0" class=red title="◆ED話『ｴﾝﾃﾞｨﾝｸﾞ』">◆<small>ED</small></a> 
+<BR><a href="Replay_KatamichiTRPG_09.shtml#S0" class=red title="◆ｵﾏｹ『お疲れ様会』">◆<small>α</small></a> 
+<a href="Replay_KatamichiTRPG_P01.shtml#S0" class=red title="◆外伝『よみがえる闇』">◆<small>外伝</small></a> 
+
+</TD></tr></TABLE><BR>
+	<TABLE class="bgray" cellpadding="1" cellspacing="1">
+<TR>		    
+		    <TD class="white" nowrap align="center"><small class=c1><small class=close><B>騎士<BR>ロリア</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_01_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_01_icon.png border=1 width=50 height=60></a>
+		    </TD>
+		    
+		    <TD class="white" nowrap align="center"><small class=c2><small class=close><B>狩人<BR>クスクル</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_02_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_02_icon.png border=1 width=50 height=60></a>
+		    </TD>
+</TR><TR>		    
+		    <TD class="white" nowrap align="center"><small class=c0><small class=close><B>イーリス<BR>NPC</B></small></small><BR>
+		      <a href=./image_newkatamichi/PC_10_chara.jpg rel="lightbox[A]"><img src=./image_newkatamichi/PC_10_icon.png border=1 width=50 height=60></a>
+		    </TD>
+<TD class=white></TD>	    </TABLE>
+</div></BODY></HTML><div id=com_hira>　</div>
+<div id=com_hira><a name="S0"></a>　</div>
+<a name=TITLE></a><H1 class=gradientTITLE>片道勇者ＴＲＰＧ　第１話　『騎士と狩人』</H1>
+<div id=com_hira>　</div>
+<div id=com_hira>　冒険企画局さんが開発してくださった『片道勇者ＴＲＰＧ』。そのプレイの様子をまとめた「リプレイ」を、『片道勇者』原作者である私、SmokingWOLFが連載させていただくことになりました！　</div>
+<div id=com_hira>　</div>
+<div id=com_hira>　本キャンペーンでは、原作とはちょっと違う片道勇者の冒険が繰り広げられます。これから始まる新たな冒険、よければぜひお付き合いください！　</div>
+<div id=com_hira>　</div>
+<a name=S1></a><H1 class=gradientA>キャラメイク</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ルール来ちゃった！　ということで、お集まりいただきありがとうございまーす！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回はこのメンツで連載用のキャンペーンやっていきます！　よろしくお願いします！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>よろしくお願いしまーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なお、本キャンペーンはテキストチャットのオンラインセッションで行われております！
+<BR>オンラインセッションにも優しい『片道勇者ＴＲＰＧ』、よろしくお願いしまーす！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>【参加者紹介】</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC><B class=c1>ロリアＰＬ</B> ： 不幸ロールがハマる正当派傾向のプレイヤー。</font></div>
+<div id=com><font id=CC>　　　　　　　　真面目だけど貧乏くじを引くキャラクターが似合う印象を受けます。</font></div>
+<div id=com_hira>　</div>
+<div id=com><font id=CC><B class=c2>クスクルＰＬ</B> ： おそらくこの中で一番の熟練プレイヤー、ＧＭ経験もたぶん豊富。</font></div>
+<div id=com><font id=CC>　　　　　　　　　個性の貫きっぷりにこだわりを感じます。</font></div>
+<div id=com_hira>　</div>
+<div id=com><font id=CC><B class=c3>マリーＰＬ</B> ： 耳の長いキャラが好きそうでＧＭ経験もある経験者プレイヤー。</font></div>
+<div id=com><font id=CC>　　　　　　　　プレイングは真面目ですが肝心なところでダイス目がふるわない不幸体質。</font></div>
+<div id=com_hira>　</div>
+<div id=com><font id=CC><B class=c4>ワイズマンＰＬ</B> ： ケモノと溶岩が好きそうな軍師系プレイヤー。</font></div>
+<div id=com><font id=CC>　　　　　　　　　　パーティーの参謀として大活躍、拷問も大好き。</font></div>
+<div id=com_hira>　</div>
+<div id=com><font id=CC><B class=c0>ＧＭ</B> ： 『片道勇者』の開発者、『片道勇者ＴＲＰＧ』の監修も担当させていただきました。</font></div>
+<div id=com><font id=CC>　　　　　ちょっとダークで爽やかなお話が好き。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>で、ひととおりルールを確認したところ、</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　【クラス】　剣士・騎士・狩人・理術士</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　【種族】　人間・半獣人・耳長人・獣人・アンデッド</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>が最初から使えるようです。これを皆さんで振り分けてもらう感じになりますね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>おおざっぱな性能評価は私がまとめますねー。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>おお、ありがたい、おつかれさまです。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>データはまだしも、ルールのほうをまとめるのは大変そうですね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>サマリー読めばルールブックがなくても処理できそうですよ！
+<BR>《某有名ＴＲＰＧ》とか《誰もが知ってるＴＲＰＧ》のルールブックよりも簡単そうです！　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>基本ルール自体も実質５０ページくらいなので何とかなる？　んじゃないかなー？</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>どれどれ……。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>とりあえず「伝説シート」を作ってみよう。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ、「伝説シート」と「キャラクターシート」は別なのか！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、「伝説シート」＝「周回情報シート」と思ってください！　こっちは大事にしてください。
+<BR>一方、「キャラクターシート」は冒険ごとに１回で使い捨てです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というのもキャラシートはクラス別にありましてですね、そいつを毎回コピーして使うんですよ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>変えたければプレイごとにクラスを変えられるシステムですからね。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>ほぅほぅ、なるほど。</div>
+<div class="box"><B>◆「伝説シート」と「キャラクターシート」</B>
+<BR>
+<BR>　『片道勇者ＴＲＰＧ』では２種類のシートを使って遊びます。それぞれ以下の情報を記録しています。
+<BR>　
+<BR><table><tr><td width=60% valign="top">
+<BR><B>・伝説シート：</B>
+<BR>
+<BR>　いわば「周回情報記録シート」のようなもの。キャンペーン用に１枚だけ作る。アンロックした【特徴】や【クラス】、「次元倉庫に保管したアイテム」、【伝説Ｐ】などを記録する。</td><td width=40%><center><a href="image_newkatamichi/01_sheet_legend_big.jpg" rel="lightbox[ch]"><img src="image_newkatamichi/01_sheet_legend.jpg" border=1><BR><small><small>伝説シート</small></small></a></center></td></tr></table>
+<BR>
+<BR><table><tr><td width=60% valign="top"><B>・キャラクターシート：</B>
+<BR>
+<BR>　１回の冒険のキャラデータを記録するシート。基本的にセッションのたびに作り直す。【LIFE】【ST】の現在値、【クラス】、【特徴】、スキル、覚えたフォース、所持品その他を記録する。
+<BR>　ルールブック（<a href="http://katamichitrpg.tumblr.com/download" target=_blank>ダウンロードページ</a>）にはクラスごとのシートが掲載されている、右の画像は【騎士】のもの。
+<BR></td><td width=40%><center><a href="image_newkatamichi/01_sheet_chara_big.jpg" rel="lightbox[ch]"><img src="image_newkatamichi/01_sheet_chara.jpg" border=1><BR><small><small>キャラクターシート</small></small></center></td></tr></table></div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>初期選択特徴に【アンデッド】ありなのか、マジかー。ゾンビ？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>原作の某王女は「ゾンビ」って感じじゃないですから、呼び名は「アンデッド」にしましょう、と編集さんと相談した記憶が……。</div>
+<div id=nm><font class=c3><B>マリーＰＬ</B></font></div><div id=tx class=ct3>「アンデッド」のほうが見た目がきれいそうですね！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>（ルール読みながら）　あれ？　妖精イーリスって各勇者に１人？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ですよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>量産型イーリス「「「「やっほー！　私は人工妖精イーリス！」」」」</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>ずるい、イーリスばっかり出番があってずるいなの！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>開発記を読んだ後にルールブックのリプレイでそれを見たのであまりのギャップに叫びました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>『片道勇者開発記』のノベルでもイーリスが量産されかかってたので無問題です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリスの出自にも詳しい『片道勇者開発記』、好評発売中！（ダイレクトマーケティング）</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>あ、イーリスとも「交流」して【好意】が上げられるって書いてある！</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>【好意】って値がなんか恥ずかしい。よそだと「絆」とか「親密度」とかそんな名前になってそうな。</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>【好意】だと本当に好きっぽくてアブナイですよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>え～……ぜひラブラブしていただきたいと思います！</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>恋愛しとるばあいかーっ！！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>キサマに好意を抱くくらいならイーリスに好意を抱くわアホがーっ！　というプレイも。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>実際、他ＰＣがどこにいようが自分だけは常に有利になるので有りっちゃ有りなんですよね、イーリスと【好意】を結ぶの。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>貴様のイーリスをいただく、貴様のイーリスもいただく、イーリスは全てわたしのものだ！　わははははっ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>こんなに愛される妖精イーリスがかつて存在しただろうか……。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>よし、ざっくりクラスと種族の簡単な評価をまとめました！　これを参考に選んでくださーい。</div>
+<div class="box"><B>【最初に選べるクラス】</B>
+<BR>
+<BR>　剣士：とにかく戦闘、攻撃力特化、ダメージ出すならこれ。特徴で【筋力】特化にするとさらに強い。
+<BR>
+<BR>　騎士：防御特化、初期装備のままでも育てば「装甲」4になる（普通は「装甲」1）。魔王に強い。
+<BR>
+<BR>　狩人：育つまでは戦闘の決め手にかけるが逃走や戦闘以外の行為判定で有利。装備破壊に弱い。
+<BR>
+<BR>　理術士：成長で【フォース修得】できる、修得の判断が難しい。【ST】確保さえできれば限りなく最強。</div><div id=com>　</div>
+<div class="box"><B>【最初に選べる種族】</B>
+<BR>　種族は「特徴」枠を使って選択する。取れる特徴は最初は２個なので、そのうち１つを使う。何も選ばなければ「人間」となる。
+<BR>
+<BR>　人間：種族特徴を選ばない場合はこれ。特徴を自由に２つ選べるので選択の幅は広い。
+<BR>
+<BR>　耳長：【耳長の細い剣】（ロングブレイドより少し強い高額装備）を1つ獲得。
+<BR>
+<BR>　獣人：【筋力】と【敏捷】が＋１、【所持重量】－１。物理戦闘で単純に強くなる。
+<BR>
+<BR>　半獣人：一部の犬っぽい動物からの逃走に失敗しても【反撃ダメージ】を受けない。
+<BR>
+<BR>　アンデッド：【LIFE】と【ST】がどちらも０になるまで死亡しない。どちらかが０になると弱体化。</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>【獣人】の【アンデッド】は！？</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>【獣人】で死ねばいいんじゃないですか？　いや、ダメだそれだとデッドになってしまう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>種族特徴は混ぜてもいいんじゃないですかね。それぞれの種族特徴には「この特徴は複数個選択できない」としか書いてないので、【耳長】の【獣人】とか、【妖精】の【アンデッド】もいける！？</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>半獣人とアンデッドのハーフの「クォーター獣人アンデッド」です。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「ぼくのＰＣは天使と悪魔のハーフです」みたいになってきてる！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>にしても【獣人】が素直に強いですね、最強主義な人が集まったらこれ全員初回【獣人】から始まるコースだ。ケモい！</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>ゲームの片道勇者を踏襲しただけあって、クラスはバトラー寄りがメインなんですね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうですね、原作ゲーム側でも支援職って「詩人」くらいしかいないですしね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>フォース見た感じ、「理術士」なら支援系っぽいこともできそう！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>あ、【クラス】も【特徴】も、死んだら好きに変えられるんですよね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、ルール上はそうです！　が、今回のキャンペーンでは【クラス】と種族だけは少し縛りを設ける予定です。それ以外の特徴入れ替えは自由とします。</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>見た目変えると絵的なコストが！　を解消するため云々。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうそう、あんまり頻繁にキャラが変わるとキャラデザインが大変ですからね。</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>なるほどなるほど。種族特徴は変えたくなるケースがありますかね？　ルールブックのリプレイだとクエストのために種族変えてましたっけ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ええ、あのときはクエストが【半獣人】条件だったので、私が途中で【半獣人】のお姫様になってましたね。でもこのキャンペーンのクエストに種族条件は付けませんので、そこはご安心ください。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>職業の割り振りとかどうしましょうか、最初は４つしかないことですし均等に分けてしまうか被り有りにしてしまうか……。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>というか実質的に全員アタッカーだからあんまり分ける意味ない！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>とりあえずイメージ固めのために選びたい種族だけでも宣言してくださると幸いです！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>別にクラスと種族の向き不向きが一致してなくてもいいんで、やりたいイメージでいきましょう！</div>
+<div id=nm><font class=c3><B>マリーＰＬ</B></font></div><div id=tx class=ct3>私は【耳長】の【剣士】にしようかなあ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【耳長】の【剣士】いいですね！　強めの剣がもらえる【耳長】特徴を活かそうとすると、剣士か、あるいは武器の予備持つ意味で騎士か、ってところなんですよねー。</div>
+<div id=nm><font class=c3><B>マリーＰＬ</B></font></div><div id=tx class=ct3>【騎士】になるひとがいなかったら【騎士】もいいかもですが、一回高火力やってみたいんですよね……！　性別はみんなのを見て考えます。</div>
+<div id=nm><font class=c1><B>ロリアＰＬ</B></font></div><div id=tx class=ct1>ではこっちは【半獣人】の【騎士】、女、あたりかなー。ロリです。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリ！　半獣人の女の子！　いいですね！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>こちらは人間の【理術士】、男にします。中年男性でいきます。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>ば、ばかな、ワイズマンＰＬさんが人間だと！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なんだってー！！　今回も【獣人】だと思ったのに！　中年男性の【理術士】、了解しました！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>ところで、こういうことって可能ですかね（ゴニョゴニョ）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、アツくていいですね！　それならゴニョゴニョしてゴニョゴニョする流れにしましょう。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>ではこっちは【獣人】の【狩人】オスにします。アレを解放したらアレになろうかと思ってます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おっ、そういうのもいいですよ！　ではクエストとして考えておきますね。</div>
+<div id=nm><font class=c3><B>マリーＰＬ</B></font></div><div id=tx class=ct3>みんな女子少なめなので、こっちの【耳長】【剣士】の性別は女子にします！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　ではこれで皆さんの種族、クラス、性別が出そろいましたね！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、各々のＰＣの性格をうかがいつつキャンペーン用のクエストを作っていきます、本番をお楽しみに！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>それはそうと一通り読んでデータシートを見ているんですが、敵の能力値がシビアでネタに走るのが怖いです！</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>ネタに走って死ねばいいのよ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>辛辣（しんらつ）に聞こえるけど、そういう意味じゃなくってよ！</div>
+<div id=nm><font class=c4><B>ワイズマンＰＬ</B></font></div><div id=tx class=ct4>これは濁りきった目のクスクルＰＬさんが見下ろして罵倒してくる難易度です。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>実際、油断するとバリバリ死ぬゲームなので私も楽しみですよ。</div>
+<div id=nm><font class=c2><B>クスクルＰＬ</B></font></div><div id=tx class=ct2>判定の基本目標値も「７＋【日数】」だって！？　あー、マリーＰＬさんはもうダメだぁぁぁーー（失礼）。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>２Ｄ６でまず出目７が出ない人にこれは酷ですね。わたしは、きっと、でる！</div>
+<div id=nm><font class=c3><B>マリーＰＬ</B></font></div><div id=tx class=ct3>私は死ぬのが前提ですから（にこり）。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>公式セッションの初回判定でさえ「出目１１がでなかったら全滅」とか平気でありましたから、死ぬときは出目に関わらず死にますよ、大丈夫！（とか言って私普通に出目１１出しちゃったけど）
+<BR>
+<BR>それではそんなワクワクドキドキのハードコアな冒険、お楽しみに！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>それからしばらくの間、ＰＬたちは幾度ものテストプレイを重ね、ルールに習熟していった……。</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<BR>
+<a name=S2></a><H1 class=gradientA>冒険の準備</H1>
+<H2 class=gradientAmini>-　出発前の準備</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お久しぶりです、いよいよ連載セッションの始まりです！
+<BR>このキャンペーンでは、別々の世界にいる２人ずつの勇者が物語の主人公となります！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、まずは第１世界のお二人のセッションから始めていきます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回のＰＣはロリアさんとクスクルさんでーす！　よろしくお願いします！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>よろしくお願いしまーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なお、【クエスト】のみ事前にＰＣそれぞれにお送りしております。内容をバラしちゃダメですからね。</div>
+<div class="box"><B>◆【クエスト】って？</B>
+<BR>
+<BR>　セッションのたびに各ＰＣがこっそり選ぶ秘密の目的。今回はGMがＰＣに渡しています。
+<BR>　ＰＣは基本的にこの【クエスト】に書かれた目標をこなすために行動します。
+<BR>
+<BR>　クエストをクリアできれば新しい特徴や【クラス】がアンロックされたり、【伝説Ｐ】を入手できますが、公開するための条件がそろうまでは他ＰＣにクエスト内容を見せることができません。
+<BR>　魔王を倒すこととはまったく関係ないクエストもたくさんあります。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではまずお二人とも、名前・クラス・特徴を宣言してください！　軽い自己紹介も！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まずはロリアさんから。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ＰＣ名：ロリア（女）　　クラス：【騎士】　　特徴：【半獣人】【敏捷＋】</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>見た目は１４歳くらいの少女ですが実際は城に十年勤めたアラサー騎士。基本的に真面目キャラ。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>迫害の対象である「半獣人」になってしまった影響で周りから疎まれて退職秒読み間近です。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>もともと遠征部隊の隊長を勤めていました。なので遠征ばっかりなのもあって同じ部隊の人達との絆はありますけど、城の人たちとはあんまり深く知り合っていません。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まさかのアラサーロリ騎士！　ヴィクター王のお城で働いてるんですね。【騎士】は戦闘ではそこまで強くないんですが、初期でもガッチガチの防御力なので魔王と戦いやすいクラスだと思います。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あとルール側ではにおわせる記述だけにとどまってますが、このキャンペーンでは半獣人は明確に「迫害される立場」としていますのでご了承ください。データ的な損はありませんが、ロールプレイ面でそれが反映されます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>騎士Ａ「まぁ、半獣人よ！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>騎士Ｂ「半獣人に触ると感染するわよ！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>騎士Ｃ「離れましょ、無視しましょ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そのようなオープニングもあとにありますよ！　乞うご期待！（できない）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>うわーっ！</div>
+<div class="box"><B>◆【半獣人】って迫害されてるの？</B>
+<BR>
+<BR>　これが原作ゲーム中で明確にされたのは『片道勇者プラス』からです。人々の間で半獣人は「いずれ狂暴な獣になって襲ってくる」と噂されており、半獣人は人々から白い目で見られているか、村から追い出されてしまうことが多いのです。半獣人はたいてい、隠れ里に集まって細々と暮らしていたり、ネムリのように孤独な旅を続けています。
+<BR>　現代でも、いつエイリアンになって襲ってくるか分からない半エイリアン人が隣にいると想像したらちょっと恐いですよね。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次はクスクルさんの自己紹介をどうぞ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ＰＣ名：クスクル（男）　　クラス：【狩人】　　特徴：【獣人】【魅力＋】</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>クスクルだよー。アライグマの里で【狩人】をやってたんだー。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>特徴は【獣人】【魅力＋】、なんといってもクスクルはカワイイから【魅力＋】は外せないんだ。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ロリアとは前々から交流があって友達のような関係。ロリアが闇の影響で半獣になってしまって、さぁ大変。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>以前は王侯貴族を相手に趣味の狩猟の案内人をしてたんだよ～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>能力的に優秀な【狩人】が【獣人】でますます強力に！　特徴はあえての【魅力＋】選択！　アライグマだからしょうがないですね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマだからね、これはもう運命みたいなもんだからね、カワイイからね！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>カワイイからね！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ソ、ソウダネ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（アライグマは本当は凶暴だからね、愛嬌より獰猛なイメージ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、それぞれ自己紹介ありがとうございました！　今回のＰＣはこのお二人でお送りします！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次！　所持金の算出をお願いします！　初期所持金はクラスによって変わります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士ロリアは１Ｄ６×１００シルバ、
+<BR>狩人クスクルは（１Ｄ６＋４）×１００シルバ、
+<BR>で出してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>１Ｄ６ 所持金算出！　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　２００シルバ</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２００シルバです、薄給。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１Ｄ６＋４　クスクルはお金持ち
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 1 ＋ 4 </B>＝ <B class=dc>5</B>　　５００シルバ</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>５００シルバ、闇の影響でお仕事が減ってるんだよ、仕方ないね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うわあ、２人とも出目的に貧しい……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>騎士やめるけど、愛用した鎧含む支給装備だけは買い直した。そんなので通しましょう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いいですね！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>装備と言えば、初期装備はクラスごとに基本のものを与えられます！
+<BR>　
+<BR>【騎士】のロリアなら【ロングブレイド】【騎士のコート】【レザーシールド】です。
+<BR>【狩人】のクスクルなら【狩人の弓】【旅人の服】【木製の矢】ですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それも含めて、それぞれ記入しておいてください！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次、ＰＣ間で【好意】を１ずつ結んでおいてください！　ロリアはクスクルに、クスクルはロリアに１ずつです。</div>
+<div class="box"><B>◆【好意】とは？</B>
+<BR>
+<BR>　仲良し度。このゲームでは行為判定の「協力」時に仲間の能力値を足すことができるのですが、足すことができる数値は最大でもこの【好意】の値までとなっています。
+<BR>
+<BR>　初期はみんな能力が低いので【好意】初期値の１でも十分ですが、【レベル】が高くなるほど【好意】が高い方がお得になります。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>イーリスは【好意】の初期値が０なんでしたっけ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリスは０っぽいです！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【所持金】、【好意】、書いておいたー、さぁ出撃だー、どりゃー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　では、準備の最後に特別ボーナスです！　以下を読んでくださーい。</div>
+<div class="box"><B>【初期ボーナス】</B>
+<BR>
+<BR>　ＰＬの方から要望があったので、このセッションの前にやってたテストプレイの獲得物をキャンペーン内容に影響しない範囲で引き継ぎ可能とすることにしました。
+<BR>　以下の中から欲しいものを１つ選んでください！
+<BR>
+<BR><B>　Ａ.「２０伝説Ｐ」を獲得
+<BR>　Ｂ.「５０伝説Ｐ以下の特徴１つ」を獲得
+<BR>　Ｃ.その他、ＧＭと相談の上で許可が出たものをテストから引き継ぎ</B></div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なおテストプレイで拾ったアイテムは持ち込めませんのでご了承ください、次元倉庫は空になります！　こっちの２人は大したものを拾ってなかったから問題ないと思いますけどね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>だいたい回復アイテムしか引き継げなかったのでまあアイテム持ち込めなくてもだいじょーぶ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>えーと、じゃぁ、カワイイで有名なクスクルは伝説ポイントを２００Ｐ戴きますねー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２００Ｐ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>一気に特徴枠４つ目（計１６０Ｐ）まで取れるぜーヒャッハー！　じゃなくて下１桁削っておいてください。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>もう、お約束じゃないですかー、やだなー（渋々２０Ｐに戻す）。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>じゃあこちらもＡの２００……いえ２０Ｐで。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>Ｂ.「５０伝説Ｐ以下の特徴」って何が有用なんですかＧＭ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>５０伝説Ｐの特徴だと、おすすめは【さらば貯金箱】（初期所持金を増やせる）ですかねー。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「今回お店が３つ出ますよ」なんて予告したら魅力的じゃありません？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あー回復アイテム買えるのわかってたら取りに行きますね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>出るんですかね？（ｿﾜｿﾜ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>予告しておくと今回はお店２つです！　見つかるかどうかは知らない！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして総日数は『４日』のプレイとなります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※片道勇者ＴＲＰＧでは基本的に２～６日間の旅をします</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ出ないと思っておきますねー、ふふふふーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なんて挑発的なＰＣだ！　それがいい！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>挑発的、うん、下半身は何も身に着けてないからねー。ブラブラしてるよー、あ、尻尾のことだよー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【日数】が４日なら回復がないと野垂れ死にする可能性も……まあ草を買えればいいや、魔王の火炎で燃やされそうだけど。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひとまず２人で７００シルバもあったらいろいろ買えますから、ぜひお店を探していただきたいと思います。
+<BR>
+<BR>では、これで準備完了！　物語の始まりです！　お二人の初期パラメータはこんな感じになります。</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Lolia.jpg"></td>
+<td><B>ロリア</B>　騎士　女
+<BR>
+<BR>最大ＬＩＦＥ　１３　　最大ＳＴ　１０
+<BR>所持金　２００シルバ　　所持重量　２／４
+<BR>能力値　筋力１/敏捷１/生命２/知力１/意志０/魅力１
+<BR>特徴　【半獣人】　【敏捷＋】
+<BR>
+<BR>装備　【ロングブレイド】（攻撃力２Ｄ６）
+<BR>　　　　【騎士のコート】（装甲２）
+<BR>　　　　【レザーシールド】（装甲１）</td></tr></table><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_main_Cuscul.jpg"></td>
+<td><B>クスクル</B>　狩人　男　　身長８０ｃｍくらい
+<BR>
+<BR>最大ＬＩＦＥ　９　　最大ＳＴ　１３
+<BR>所持金　５００シルバ　　所持重量　１／１
+<BR>能力値　筋力２/敏捷４/生命１/知力２/意志２/魅力１
+<BR>特徴　【獣人】　【魅力＋】
+<BR>
+<BR>装備　【狩人の弓】（攻撃力１Ｄ６）
+<BR>　　　　【旅人の服】（装甲１）
+<BR>　　　　【木製の矢】（攻撃力０）</td></tr></table><div id=com>　</div>
+<H2 class=gradientAmini>-　オープニング</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次、オープニングフェイズにはいりまーす！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はーい、ぱちぱちぱちー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なおルール通りならオープニングは不要なんですが、今回はキャラ立てのためにあえてシーンを追加しています！　ＧＭが合いの手を挟んだり、要所でＮＰＣのセリフを入れますので自由にどうぞ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まずロリアさんからです！　ロリアさんはヴィクター王のお城の遠征部隊で働いていたということですが！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はーい、じゃあ予め用意してたオープニングを。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリア「はい、なんかやらかしたので左遷されて遠征部隊に配属されていました」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>元から遠征ですよ！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC><B>【オープニング　：　騎士ロリア】</B></font></div>
+<div id=com_hira>　</div>
+<div id=com_hira>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>茶色のセミショートにリボンを通して伸びる少量の１つ結び。見た目１３～４歳ぐらいのまだまだ子供と言っていいほどの幼さを残す少女。城の中にいるにも関わらず現在はフードを深く被り、顔は見えても頭までは見えないようにしていた。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>彼女が普通の少女と違う点は３つ。少女が着けるにはあまりに重厚過ぎる鎧を平然と身にまとっている事。フードで隠れている獣の耳と尻尾。そして彼女の実際の年齢だ。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>彼女ことロリアは既に城で十年勤めており、遠征を得意とする遠方警備部隊の隊長を任されていた。この先もずっと騎士として勤め続けるだろうと考えていたが、この城より遥か西にある街に遠征中、不意の事故で少しだけ闇に飲まれてしまい、半獣化してしまった。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>迫ってくる闇の噂や凶暴化する魔物たちの暗い噂、それと重なるように見かけるようになった人の身なりに獣の特徴という半獣。不吉の象徴として街や国の人達に気味悪がられ、はじめこそ変わらず接していた同僚たちからも、不安なのか、最近はどこかよそよそしい。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そんなある日のことだった、彼女が勤める部隊の詰め所へと向かう道で同僚の会話を聞いてしまったのは――。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>同僚Ａ「隊長、ケモノ病にかかっちまったらしいぜ……」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>同僚Ｂ「ロリア隊長も化け物になっちまうんじゃ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>みたいな感じでしょうか。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ですです、ＧＭには同僚会話のロールをお願いします（ニッコリ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>かしこまりました。「闇の影響で半獣化」とは原作設定に忠実でありがとうございます！　半獣人になっちゃって同僚との距離が開いてしまっている騎士ロリア！　辛い！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>同僚Ｃ「まぁ、獣耳なんか生やしてあざといこと！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>同僚Ｄ「獣耳だけじゃなくてよ奥様、あの尻尾をごらんなさい！」</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>同僚Ｅ「まぁ、あざとい！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あざといの！？　でもたぶん、平均的な人からするとちょっと気持ち悪いと思われるでしょうね。
+<BR>
+<BR>同僚Ａ「聞いた話じゃ、西の村にいたロリア隊長みたいな『半獣人』が、いきなり獣になって村人全員を喰い殺したなんて話だぜ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>同僚達はロリア隊長がそばにいるとも知らずに話をしています。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>同僚Ｇ「俺はロリア隊長と一緒に出撃したくねえなあ……」</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>同僚Ｔ「ロリア隊長を侮辱するとはなんたること！　わたくめが許しませんぞ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんて具合に、色々盛り上がってますよ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（私がこのままこの部隊にいても、隊の雰囲気が悪くなるだけ、か……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ロリアは主であるヴィクター王が魔王討伐の勇者を求めているという話をすでに耳にしています！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（ヴィクター王は魔王を討伐する勇者を求めていたはず、騎士であるどころか普通の生活もままならないならせめて――）」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そうしてロリアはヴィクター王に謁見するため、大臣に取り次ごうと同僚たちに気付かれないままその場を後にします。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>『闇』のせいで半獣人と化し、元部隊にさえ行き場のなくなってしまった騎士ロリア。それでも誰かのために生きようとすべく、彼女は魔王討伐に志願するのでした……！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>いいオープニングですね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>めっちゃ暗い！　自分でやっといてなんですがいいんですかこれ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いやーこれは応援してあげたくなるタイプの展開ですよ！　がんばれロリア！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>さすがロリア、あざとい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あざといの！？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>不幸な半ケモ少女ですよ、しかもロリですよ、どうしてくれるんですか！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>いやいや小ネタの１つも挟めないくらいシリアスですよなんか！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>アライグマさんなんとかしてください！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では次、アライグマ、クスクルのケース！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC><B>【オープニング　：　狩人クスクル】</B></font></div>
+<div id=com_hira>　</div>
+<div id=com_hira>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>クスクルは森の小さな村で生まれ育ったアライグマ獣人です。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>闇が世界を脅かす以前は王侯貴族が趣味で行う狩猟の案内人を生業にしていましたが、</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>その闇によって森に棲む野生動物たちが凶暴になり魔物化しました。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>アライグマ獣人の仕事仲間もそんな魔物に襲われて亡くなったりと大変です。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>これでは王侯貴族も趣味にうつつを抜かすなんてことはできません。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>そうです、このままでは商売が成り立ちません。許すまじ闇！！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>さらには友人ロリアが半獣人になってしまい、</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>他の人間から怖がられたり距離を置かれるようになりました。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>クスクルはそのことを気にしていません。いままで同様の付き合いをしています。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>むしろ獣人っぽくなって仲間意識が強くなったような気がしないでもありません。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>しかしロリアが森の動物たちのように魔物化するのは止めないといけません。</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>本人も困っているようですし……。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>というわけでロリアが魔王討伐の勇者になると聞いたクスクルは</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>その愛らしい姿で颯爽とロリアの前に現れるのです。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>クスクル、カワイイ、これはもう可愛すぎる、どうすればいいんだ！！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>どーん。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>がっつり！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>さぁ、ツッコミなさい、クスクルはカワイイからノーガードだよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>気合入ってる！　クスクルは狩猟の案内人で、ロリアのお友達で、ロリアが半獣化してても気にしないよーという感じなんですね。
+<BR>では、これはシーン的にロリアの続きですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアが魔王討伐の件で取り次いでもらって数日後、クスクルがロリアのところにさっそうと現れます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「クスクル、さん？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>とりあえず会った時刻をダイスで決めましょう。　１Ｄ６×４時で。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><B>午前４時</B>。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ブー！　
+<BR>皆寝てる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではいつの間にかロリアの寝室にクスクルがいます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁベッドで一緒に寝てます。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「そう、一度見たら忘れない可愛らしさ、ロリアの親友、クスクルだよー（ZZzzzz...）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>午前４時に目を醒ましたロリアはベッドの上にいるモコモコに気付きました。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>自然な動作で近くに掛けてある剣を手に持ちます。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そして鞘から抜いてそのままベッドに攻撃！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>刺そうとしても寝返りしまくりです。うまい具合に避けます。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「ロリアの考えていることはお見通しさー、むにゃー（Zzzzz...）」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「このエロダヌキ！　なななななななんで、なんでベッドに！！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「タヌキじゃないにゃー、むにゃー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>騎士「この物音……ロリア隊長、まさか……！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>バァン！　こんな夜中なのに兵士がやってきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もしかしてロリアが獣になってしまったのではないかと疑ってやってきた騎士でしたが、その部屋には真っ二つになったベッドとクスクルがころころ転がっているだけでした。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>真っ二つのクスクルじゃなくて良かったねー、うんうん。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>やってきた騎士に　「あのタヌキを捕まえてください！　いますぐ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「あれはロリア隊長のご友人であります！　存じておりますぞ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「違います！　一方的にセクハラを受けてるだけです！　……本人はそこまで悪気がないのは知っています、余計にたちが悪いですけど！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「とりあえず彼は男部屋に連れていきます！　明日お連れいたしますぞ！」　バタン！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「じゃぁ、捕まってるからねー、ばいばーい」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルは両手を引っ張られて狩りの獲物みたいにずるずる持っていかれました……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ベット、毛だらけだろうなー、大変だなー（他人事）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そもそもベッド真っ二つです、ええ。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「――このベッド、どうしよう……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>とはいえ、ロリアにとってはもう不要なベッドです。魔王討伐への旅は、あとほんの数時間で始まろうとしているのですから……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「よし、兵士諸君、闇に飲まれて死ぬくらいなら酒を飲もうぜ！　ひゃっはー！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>午前４時ですよ！？　クスクルはそのままぐるぐる巻きにされて男部屋の端っこに押し込まれました！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>やったー、ツッコミ、クスクルツッコミだぁい好きー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あの人なりに元気づけようとしてくれたのかな。それでも、はあ……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>（なんか想定していた展開と違うぞ！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（さっきの重いオープニングからいきなり軽くなってしまった！）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして数時間後、太陽が昇り……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さてロリア、いよいよ魔王討伐に出発する日です。クスクルは優秀な狩人だったはずなので連れていってもいいような気がしてきました！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>この展開で！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルは何しに来たのか分からないままですが合流扱いとさせていただきます！
+<BR>
+<BR>このままじゃ始まらないからぁぁぁーッ！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>完全に賑やかし要員だこれ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ルーニーオッケー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ぐるぐる巻きのまま突撃だー、転がった方が速そうだぞー、ゴロゴロゴロー。</div>
+<BR>
+<a name=S3></a><H1 class=gradientA>最初の城</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/01_map00.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　王様からのお言葉</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではいよいよ本編開始です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、この『ファーストワールド』の世界では西の方から闇がせまりつつあります！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（きっと町の名前がファースト村とかセカンドなんだこの世界……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あなたがたはヴィクター王の城で働く人間の１人やその友でしたが、前述の都合により魔王討伐の勇者として志願することになりました！　……クスクルの都合って一体なんだ！！　まあいい！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「よくぞ参った！　騎士ロリアと狩人クスクルよ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>王様から説明があります。王様の話によると、東への旅を続け、その途中で出会うであろう「魔王」を倒せば闇はその進行を止め、世界は救われるだろう、だそうです。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「なるほど……」（ぐるぐる巻きのまま）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……えっと、クスクルさんも魔王討伐に？」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>簀巻き（すまき）を見つつ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（まだ簀巻きにされてるの！？）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ボクがロリアを１人危険な目に合わせると思う？」（ぐるぐる巻きのまま）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（やだ、セリフだけかっこいい……）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「一緒に居る方がある意味色々と危険なような……まあでも、１人で行くより知った人が居たほうが心強いですね、一緒に行きましょう、クスクルさん」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「だよねー、クスクル強い、カワイイ、任せといて！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「私も騎士の端くれ、タヌキの一匹や二匹程度守ってみせます」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「そうだぞ、タヌキ、足手まといになるなよー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「……で、タヌキはどこだろう？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヴィクター「うむ、美しい友情である！　さて、忘れぬうちにこれを授けよう」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王はお二人に、人工妖精イーリスを『それぞれ１人ずつ』渡します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「「やっほー！　私は人工妖精のイーリス！　よろしくね！」」（ハモりつつ）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>えー、ちなみに妖精イーリスはＴＲＰＧ版ではこんな格好です！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Iris.jpg" border="1"></div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「か、かわいい……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「え、私のこと！？　だ、だよねー照れちゃうなー！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ぐぬぬ、カワイイライバルの登場……」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「えっ」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>まずはライバルを蹴落としてからゆっくりカワイイを発揮するんだよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（そして地獄のテストランをこなしてきたＰＬたちにとってはもう妖精イーリスが複数出ることなんて驚くことじゃないんですよね……フフ……）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>（わーイーリスが複数いるー（棒読み））</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（わぁー、なんでイーリスが複数いるんだろう？（棒読み））</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（みなさまの思いやりに涙が出そうです）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「妖精イーリスたちは意識を共有しておる。離れた場所にいても汝らの情報交換を可能とするだろう」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ヴィクター王「そなたらのために物資も用意しておいた、存分に使うがよい！　辛い旅になると思うが、魔王の討伐を頼んだぞ。わしもここを離れる。またどこかで会うこともあろう……では、ゆくのだ！　健闘を祈る！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言うとヴィクター王の周囲に理力がうずまき、彼は消えてしまいました。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>周りの兵は「え？　マジ？　王様だけ行っちゃうの？」という感じで目を丸くしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうして、謁見の間は静かになりました。闇はそろそろ城を呑み込みつつあります！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「これからはここにいるロリアが王となる。以後忠義を尽くせよ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス１「（クスクルに）パコーン！」</div>
+<BR>
+<H2 class=gradientAmini>-　勇者への贈り物</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス２「さあ、勇者同士であいさつする？　それとも贈り物を開ける？　それとも、わ・た・し？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>今回はなんと初期ボーナスがあります！　２人の目の前には箱が用意されています！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ルールにはありませんが、やさしいＧＭはプレゼントするものらしいので今回は特別に【勇者への贈り物】をプレゼントです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>やさ……しい……？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>やさしいよ！（キラキラ）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、さっそくチュートリアルがてら、この箱を開けてもらいましょう！</div>
+<div class="box"><B>◆箱の開け方</B>
+<BR>
+<BR>　箱の開け方は、原作通り、「戦闘で開ける」か「開錠で開ける」かの２通りがあります。『片道勇者プラス』みたいに、戦闘によって箱を壊しても中身が壊れたりはしません。
+<BR>
+<BR>・「戦闘」で開ける場合は失敗すると疲労で【ST】が大幅に減ってしまうが、成功すればノーコストで開けられる。戦闘の解説は後述。
+<BR>
+<BR>・「開錠」は「【敏捷】＋２Ｄ６」で判定して開けるので、人によっては戦闘より開けやすくなるが、必ず判定者の【ST】１を消費する。失敗したときのペナルティはなし。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さあ、【勇者への贈り物】のパラメータは以下の通り、どうしますか！？
+<BR>
+<BR>「戦闘」する場合は【LIFE】と【防御値】が、「開錠」する場合は【開錠難度】が関係してきます。</div>
+<div class="box"><B>宝箱【勇者への贈り物】</B>
+<BR>　【LIFE】１　【防御値】８　【開錠難度】７
+<BR>　【ドロップ】ドロップアイテム表×２</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ、壊す。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【敏捷】高いのに！？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ナイスツッコミ、仕方ないなー「開錠」するよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！（クスクルの能力値なら壊してもよかったんだけど、説明的にちょうどいいや）
+<BR>
+<BR>「開錠」は【ST】１を消費しますので減らしておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>はいはい、まずは【ST】１を消費ーっと。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それと、「協力」も発生します！　【好意】１の分までロリアの【敏捷】を足して判定が可能です！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>こっちはどうしようかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えっ！？　「こっち」って、つまり【勇者への贈り物】をそれぞれ１つずつ欲しいってこと！？
+<BR>（２人で１個のつもりだった）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あ、１個なのか！　（ケチ……）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>しょうがないですねー、じゃあロリアさんの分もあげましょう！　その代わり、今回はそれぞれが「協力」なしで個別に開けるという形で処理します。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クスクルさんは協力による【好意】ボーナスなしで「開錠」判定を振ってくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>はーい、じゃあ【好意】を足さないで「開錠」判定。【敏捷】は４！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>２Ｄ６＋４>＝７ 開錠判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋1) ＋ 4 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+4成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルの「開錠」は余裕で成功です！　おめでとう！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「開錠」しておいてなんだけど、贈り物なのに「開錠」判定が必要ってどういうことなんだろう。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>言われてみるとひどい。開かなかったらどうするの……。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>じゃあこっちの分は「戦闘」でぶん殴って開けましょうか。</div>
+<div class="box"><B>◆「戦闘」のやりかた</B>
+<BR>
+<BR>　『片道勇者ＴＲＰＧ』では、通常戦闘はなんと１回の攻撃で勝敗が決します！
+<BR>　処理の基本的な流れは、以下のようになっています。
+<BR>
+<BR>　「攻撃判定として【筋力】＋２Ｄ６を振り、相手の【防御値】以上の結果を出す」
+<BR>　　※使う能力値は攻撃方法によって異なる
+<BR>　　　　　　↓
+<BR>　「攻撃判定に成功した場合のみ、ダメージを算出して、倒せたかチェックする」
+<BR>
+<BR>　もし攻撃判定に失敗したり倒しきれなかった場合は、【反撃ダメージ】を喰らったり、【ST】減少ペナルティが発生します。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアは「戦闘」で贈り物を開けます！　果たして成功するのか！？
+<BR>
+<BR>木の箱は【防御値】が８なので、攻撃判定の目標値は８です！
+<BR>攻撃判定として【筋力】に２Ｄ６を足して振ってください。一般的な武器は【筋力】で攻撃します。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋１>＝８ まずは狙いを定める攻撃判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 1 </B>＝ <B class=dc>9</B>　<B id=dsuc>　+1成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>セーフ！！　攻撃判定に成功したら、次はダメージ算出です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ダメージは【武器攻撃力＋本人のレベル＋一緒にいるＰＣの好意合計】で出しますが、今回は「協力」なし扱いとするので【好意】分はなしです。【ロングブレイド】の攻撃は２Ｄ６、【レベル】は１！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋１ おおきく振りかぶって箱に【ロングブレイド】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 1 </B>＝ <B class=dc>7</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>バゴォ！　ロリアの強烈な一撃により、【LIFE】１しかない【勇者への贈り物】の箱は真っ二つになりました！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ヒットさえすればどんなダイス目でも絶対にダメージ1通るし、これのダメージ算出いらないのでは！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>説明代わりにやってもらいましたが実際はいらないですね！　兵士がこっそり２人にパチパチ拍手してますよ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「やーやー、どうも、どうもー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「なぜ私達はただ箱を開けるのにこんなことを……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではドロップアイテム表ー！　クスクルとロリア分、合計４個振りますよー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「やったね、クレセントアクスげっとだよー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それ武器ドロップの６ゾロでしか出ませんから！　さすがに出ませんからー！！</div>
+<div class="box">ドロップアイテム表を振った結果、以下のアイテムが手に入りました。
+<BR>
+<BR>　武器　【シルバーランス】
+<BR>　巻物　【火炎付与の巻物】
+<BR>　巻物　【鎧の巻物】
+<BR>　武器　【祈りの杖】</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【シルバーランス】とかいきなりすごいの出たー！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【祈りの杖】は……お、結構高い（価値２０００シルバ）。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ＧＭ、ＧＭ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ボク、持てる量がすっごく少ないのよ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルの所持重量、【　１　】　！？　
+<BR>ゴゴゴゴ……！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そもそもなんで所持重量１なんです？　そんなクラスありましたっけ？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【狩人】がもともと所持重量２で、そこに【獣人】特徴で－１されて【所持重量】１になりました。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ああ、【獣人】にそんなデメリットが！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>うん、なんでこんなに荷物持てないんだろうね。
+<BR>手が小さいから？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ルールブックによると、【獣人】はどうも獣っぽくて自制心がないので荷物持てないっぽいですね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ああ、忍耐力が無くて本能に負けて洗っちゃうんだな、きっと。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（洗っちゃうの……）</div>
+<div class="box"><B>◆クスクルの特徴【獣人】</B>
+<BR>
+<BR>　獣人らしく【筋力】と【敏捷】が１ずつアップするが、【所持重量】が１減ってしまう特徴。もともと【所持重量】が少ない【狩人】だとちょっと大変なことになる。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【祈りの杖】（重量０）はピンチじゃなければとりあえず持っときましょう。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリアってどれくらい持てる？
+<BR>ロリアにほとんど持たせることになるけど。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>がーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２の余裕があるって意味です！（ロリアの所持重量２／４）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ああ、よかった。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>良くない！　誰も重量３の【シルバーランス】持てない！</div>
+<div class="box"><B>武器【シルバーランス】</B>
+<BR>　攻撃力 ３Ｄ６　　重量３　　３０００シルバ
+<BR>　敵の属性のない【反撃ダメージ】を１減少する（最低１）
+<BR>
+<BR>　ＴＲＰＧ版では敵からのダメージを１減らせるのが、うまいこと武器の特徴を表現してて面白い点です。原作だと槍は２マス先に攻撃できる武器になっていて、剣より安全に戦えるのです。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>騎士なのにランス持てないとはこれいかに！！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>全部置いていこう、んでランス持って行けばいいんじゃない？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いきなり過酷な意思決定が要求される片道勇者ＴＲＰＧ。
+<BR>まだ１歩も歩いてないぞ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>じゃあ騎士の初期装備である【ロングブレイド】だけ捨てましょうか。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「うおー、ロングブレイドこっちに投げ捨てないでー、いやーん」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ロングブレイドでクスクルの簀巻きを切ると、ロングブレイドは跡形もなく砕け散りました！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>これでよし。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「なるほど、王様はここまで考えて……」　　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>兵士「……！？！？！？！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、その他は持てるだけ持つか使っておいてくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>今回入手したのは、【シルバーランス】以外は重量０かな。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【火炎付与の巻物】をシルバーランスに使っちゃっていいんじゃないかな？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「【鎧の巻物】も今すぐ使ってもいいかもしれないね。【騎士のコート】はベースとしても十分強いし」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【騎士のコート】、なんだかんだで優秀ですよね。【鎧の巻物】も使っちゃいましょうか。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>どんどん使っちゃっていいよー。ロリアを強化しておこう。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>なんか序盤からこっちにブースト掛かりすぎでは！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（クスクルのクエストがそう望んでいるからなー）　では【鎧の巻物】の付与ランダム！　２Ｄ６振ってください。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６　防具付与　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) </B>＝ <B class=dc>7</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>付与の７は……【鋭い】！
+<BR>じゃない、これは武器付与表だった！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【鋭い騎士のコート】！？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>きっと肩とか尖ってるんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>違う違う！　えーと防具付与の７は【堅固な】！　では【騎士のコート】に【堅固な】が付きます！</div>
+<div class="box"><B>防具付与【堅固な】</B>
+<BR>　「装甲」＋１　装備している間【生命】＋１</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さらに硬くなった！　ロリア絶対死なないマン！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>強いよ、強い！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>もう回復あれば魔王殴れそう。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ところで、簀巻きの分の「装甲」は……は、簀巻きはさっき斬られて無くなってる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これ【グレートウォール】使わなくても魔王の物理ダメージを下限にできるんじゃ。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアさんのおねだりに負けて２つも贈り物出したらエラいことになっちゃったぞ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【火炎付与の巻物】はどうするの？
+<BR>使っちゃおうよ～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>火炎は「装甲」付きの相手にしか意味ないんですよねえ……でもいらなくなったら上書きすればいいのか。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>そうそう、他の巻物が手に入ったら上書きしよう。【祈りの杖】もロリアが持っててください。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>贈り物ぜんぶこっちにきちゃった！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ボクはいい弓矢を手に入れてから強化するからいいのよー。</div>
+<BR>
+<H2 class=gradientAmini>-　移動先の選択</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでは長かった準備が終わり、ようやく城から一歩を踏み出します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まずお城にいた「道に詳しい老婆」から道を教えてもらい、１日目のイベントが判明します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ちなみに各地のイベントが分かるのはこの「１日目だけ」で、２日目以降は「偵察」しない限りイベント不明なまま突っ込むことになります。注意してくださいねー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>どれどれー、この先はーっと。</div>
+<div class="box">【１日目】　地形：草原
+<BR>　北：ランダムイベント
+<BR>　中央：野外遭遇（モンスター）
+<BR>　南：石の小屋</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>です！　現在地は「最初のお城」なので１日目の北、中央、南のどこにでも行けます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「さあ、どこに行こうか！　早く決めないと闇が来ちゃうよ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ここはランダムイベントに決まってるよー、北にいっくよー、あははははっ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「もうークスクルって道化なんだからー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「石の小屋」ってなんだ……っと、ルールブック見たら「村」なんですね。とはいえ、「石の小屋」に行くにはシルバが心許ないなー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「杖！　杖！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>はっ、もう杖を売る機会が。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「きっと村にはこの杖を必要としてくれる人が――」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「杖を転がして進路を決めるんだねー、やっぱ北だよー、あははははっ」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>まてよ、ロリアを強くする方がいいのかな、ボクが杖を持ってお店に行った方がいいかな？　ロリアは戦って経験を積むんだー的な！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でもロリアって１人で戦闘に勝てるスペックじゃありませんぜ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【シルバーランス】でもダメかー！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアの場合、武器じゃカバーできないんですよねー。
+<BR>
+<BR>騎士は【筋力】が低いので、【筋力】基準の攻撃判定では「最低でも」出目７とか要求されてしまうわけで、せめてクスクルが勝たないと完全敗北しちゃうんですよ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そもそもこの世界は群れで敵が来るケース多いからソロじゃきつい！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>しかたない、じゃぁ、一緒に行動しよう。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「もう、ロリアったら、ボクがいないと何もできないんだねー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>中央の「野外遭遇」って戦闘でしたっけ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イエス！　ルールブックの１５５ページに野外遭遇表が書いてあります。この草原だと、どこにでも出る盗賊の群れなどに加えて、【コウモリ】や【野犬】【オオカミ】などが出ますね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>どれどれ……うん、むり。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>騎士は【筋力＋】取らないとまず戦闘が無理ぃ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ダメだこの隊長、モンスターに勝てない。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>盾にはなります（攻撃できるとは言ってない）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でも【野犬】や【オオカミ】が出れば、ロリア１人で挑んでも【半獣人】特徴でノーダメージで逃走できますよ。逃走しても【経験値】は半分入るので、ノーリスクで【経験値】が手に入るチャンス！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【野犬】か【オオカミ】が出る確率って６分の１じゃないですか！</div>
+<div class="box"><B>◆ロリアの特徴【半獣人】</B>
+<BR>
+<BR>　特徴【半獣人】は、敵が【野犬】【オオカミ】【砂漠オオカミ】である場合に限り、逃走失敗したときのペナルティの【反撃ダメージ】を受けなくなるというもの。つまりロリアは、【野犬】と【オオカミ】しか出現しない「犬小屋」なら入っても安全に逃げることができます。
+<BR>　原作で半獣人のネムリが（ピー）になる設定がうまく再解釈されてて、ＴＲＰＧ版の【半獣人】は犬っぽい生き物とちょっと仲良しという感じになっています。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>まあいきなり戦闘はやめといて、ランダムか石の小屋どっちかにしましょう、ええ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>逃げるつもりはないよー、あははははっ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ロリアの尻尾を引っ張っていこう。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ひゃうっ！？　ちょっと触らないでくださいよ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「このあざとさである」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そっちがあざとくさせてきてるのに……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>悩んでも仕方ないから、ほら、小屋いくよ、小屋。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>んじゃ「石の小屋」行きましょうか。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「オッケー！」</div>
+<BR>
+<a name=S4></a><H1 class=gradientA>１日目　草原</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/01_map01.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　１日目南エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では１日目へ移動！　お二人は平穏な道を歩いて行きます……行った先には「石の小屋」がありました。村遭遇表を振って発生したイベントを決めます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　石の小屋　村遭遇表！　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) </B>＝ <B class=dc>8</B></div>
+<div class="box"><B>＜防具屋＞</B>
+<BR>
+<BR>　【防具屋】と遭遇した。ボウグゥー！　ボウグゥー！
+<BR>判定：【敏捷】　ジャッジ：「イェッハァー！」と返す。
+<BR>成功：トゥルトゥルー！　【経験値】１獲得。防具ドロップ表（１６０ページ）を使用する。「防具」と「追加装備：盾」の購入とアイテムの売却ができる。
+<BR>失敗：【経験値】１獲得。「防具」と「追加装備：盾」の購入とアイテムの売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ボウグゥー。
+<BR>って回復アイテム売ってなーい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２人が入った石の小屋には防具屋がいました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「ボウグゥーボウグゥー！！」
+<BR>
+<BR>ジャッジは「イェッハァー！」と返す、です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「イェッハァー！」（ハイタッチ）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ええっと、い、いぇっはぁー？」（ハイタッチ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、ハイタッチの分だけジャッジＯＫです！　って初回のジャッジがこれでいいのか！？　説明になってないぞ！</div>
+<div class="box"><B>◆「ジャッジ」って何？</B>
+<BR>
+<BR>　ＰＣが「ジャッジ」欄に書かれているロールプレイをして、ＧＭが「ジャッジＯＫ！」を出せば<B>判定に＋１</B>の修正を付けることができるシステムです。もちろん、思いつかなかったらそのまま判定すればいいだけなので、ＴＲＰＧに不慣れな初心者の人も安心！
+<BR>
+<BR>　なお、このセッションではプレイヤーさんの入力負荷を下げたり間違いを減らす目的で、ＧＭ側が<B>「目標値を１下げる」</B>ことにして処理しています。厳密な処理ではないので注意してください。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では【敏捷】が高いクスクルさんが判定してください。「協力」も発生します。判定は【敏捷】で、目標値は基本の７＋１（日目）＝８からジャッジ成功分の１を引いて、７です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋４＋１>＝７ 【敏捷】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5) ＋ 5 </B>＝ <B class=dc>15</B>　<B id=dsuc>　+8成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功です！　ってクスクルの【敏捷】４もあるから「協力」なしでも出目３で成功するじゃん！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「イェッハァー！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功したのでお二人は以下の処理を行ってください。</div>
+<div class="box">成功：トゥルトゥルー！　【経験値】１獲得。防具ドロップ表（１６０ページ）を使用する。「防具」と「追加装備：盾」の購入とアイテムの売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「防具ドロップ表（１６０ページ）を使用する」って、これ防具を１個もらえるってことですかね。これはこっちで振っておきます。お二人とも【経験値】＋１しておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>はいはーい、【経験値】たしておきましょー。どーせ防具もらっても持てないんだけどねー、ふふふーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２Ｄ６　では振りまーす、防具ドロップ（Ｄ６６）
+<BR>　 (ｺﾛｺﾛ…)   ダイス <B>(1＋6) → １６</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１６　【騎　士　の　コ　ー　ト】</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「いやーコートがどんどん増えるね！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あ、その【騎士のコート】をボクが着るのはダメかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ほんとだ、重量０じゃないか！　なら問題ないですね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>アライグマ、カワイイ、そして見た目も騎士。クラスは【狩人】だけどな！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>こっちは過剰装甲なので【堅固な騎士のコート】をクスクルに渡してもいいんですよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアは装甲３＋盾２（将来的に）＋槍１　で、魔王戦考えるとオーバー防御なんですよねすでに。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※魔王戦では「装甲」が５点あれば属性なしダメージを最低まで減らせる</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ま、くれるならどっちでもいいよー。じゃぁ【堅固な】ほうをもらっておこうかなー。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「ロリア、【堅固な騎士のコート】もらっていい？」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ああ、確かにクスクルさんの防御が不安ですね……でしたらなぜか奇声をあげながら店員さんがくれた新しい【騎士のコート】を私がもらいましょう」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ、装備変更するるー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>旅人の服は売りましょうか、５０シルバ？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はーい。５０になります。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>回復アイテム買えないし【祈りの杖】はこのままでいいかなー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「だねー。どうせ魔王が出たらお金が溶けるかアイテム溶けるかは博打だしねー」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王に詳しすぎるイーリス。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>メメタァ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では時間です！　闇が迫ってきたので締め切りでーす。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「防御力アップしたから満足ー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ロリア達が立ち去ったあと、ほどなくして防具屋は闇に飲まれました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>防具屋「ボウグゥーーーーッ！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２人はあたふたと石の小屋を脱出します！</div>
+<BR>
+<H2 class=gradientAmini>-　１日目南エリア　昼過ぎ</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では昼行動が終わって、１日目の夜……の前に！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃじゃーん、クエストを公開しちゃうぞー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ここでクスクルのクエスト公開！　クスクルの後ろから１人の騎士が近付いてきます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>おっ。</div>
+<div class="box"><B>クエスト　『エッチな盟友』</B>
+<BR>
+<BR>・公開条件：　１日目の昼行動後に即座に公開（夜行動を上書き）　【経験値】５
+<BR>
+<BR>・イベント：
+<BR>　夕暮れどき、君は城から追ってきたエッチな騎士、タクーシと合流した。彼も君と同じく、ロリアを守りたいと願う身だ。彼と同行し、一緒にロリアを守り抜こう。アイテム【エッチな騎士タクーシ】を獲得する。彼とは交流可能である。話をし、【敏捷】で目標値８の判定に成功すれば【エッチな騎士タクーシ】からの【好意】が１上がる。彼からエッチな情熱について学ぶチャンスだ！
+<BR>　ジャッジ：タクーシと話をする。
+<BR>
+<BR>・クリア条件：　【エッチな騎士タクーシ】からの【好意】を１以上にする。
+<BR>　　　　　　　　ロリアが生存した状態で魔王撃破エンドをむかえる。
+<BR>・報酬：　【伝説Ｐ】４０　＋　特徴【エッチな】をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで夕暮れどきに、ロリアの部下だった【エッチな騎士タクーシ】がクスクルに追いつきました！　お話をして判定に成功すれば彼からの【好意】が１にアップします。ジャッジ開始！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「おお、あなたはクスクル殿ではありませぬか！！　わたくしめはロリア隊長の部下、タクーシであります！　というかさっきクスクル殿をとらえたのがわたくしめであります！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「初乗り運賃はおいくらでしょう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「初乗り６シルバですぞーって私は運び屋ではありませんぞ！　ロリア隊長に乗られるのならわたくしめ大歓迎ですがハァハァ！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>とりあえず鎧の上からでも響く腹パン。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ブホォ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ああ、貴重な仲間が飛んで行ったー、あああ、闇に飲まれたー、あああ、なんということだー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「フフ、わたくしめにとってはロリア隊長の腹パンもごほうびですぞ！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ああ、どうして自分の周りにはこんなのばかり……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「実はわたくしめ、騎士団の洗濯当番になった日にはロリア隊長の脱ぎたての靴下からただようフレグランスを必ずクンカクンカさせていただいております！！！」
+<BR>
+<BR>タクーシ「背徳的で卒倒しそうであります！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>とりあえず昇○拳。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ごはぁっ～～！！（どさっ）　えっ下着！？　いやあ下着はいけません！　このリプレイは全年齢向けですぞ！」　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「下着は自分で洗ってます！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「はあ……貴方はそれさえなければ優秀な騎士なのに……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ジャッジはすでにＯＫです！　クスクルさんは【敏捷】で目標値７を判定してください！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>なにが、どう、オッケーだったのか分からないけど、とりあえず、良かった！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>これ、ロリアがいるから「協力」でもいいんじゃね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クエストって協力ＯＫでしたっけ、ルールルール……クエストの「協力」いけますね！　ではクスクルは、ロリアの【敏捷】を１まで足して判定することができます！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋５＋１>＝７ 【敏捷】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (1＋6) ＋ 6 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+6成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>過剰な成功！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「んんんん！　クスクル殿にも相当なエッチさの才能を感じますぞ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「まぁね、任せておいてよ」（ロリアの尻尾引っ張り）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>慣れてきたので触られる前にはじく。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「しかしエッチ道は果てしなく遠く、繊細で、心を磨かねば達せられませぬ！　共にこの道を歩みましょうぞ！　直近の目標としてはロリア殿を愛で……ではなく守ることでありますな！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あ"あ"あ"あ"ーー他の隊員来てー！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということでクスクルはアイテム【エッチな騎士タクーシ】を入手してください。</div>
+<div class="box"><B>アイテム【エッチな騎士タクーシ】　重さ０　売却不能</B>
+<BR>
+<BR>　装備破壊を無効化できる。「交流」可能、能力値は全て１。戦闘において、特定条件下で自動的にある効果を発揮する。その場合、このアイテムは失われる。受け渡しはできない。次元倉庫には入れられない。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いちおう落書きも用意してまして、タクーシ氏はこんなんでーす。顔見えないマン。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Taxi.jpg" border="1"></div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>モブい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「しまった武器を忘れましたぞ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「騎士が武器を忘れるとは何事ですか！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「こうなったらクスクル殿の装備をお守りいたしますぞ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで彼は【狩人】大喜びの装備守りマンです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>つまりお守り。</div>
+<div class="box"><B>◆解説　クラス【狩人】の弱点</B>
+<BR>
+<BR>　【狩人】は【敏捷】がとても高いのですが、【敏捷】で攻撃するためには武器の「弓」と、追加装備の「矢」の両方を装備しなければなりません。そのうちどちらか１つでも破壊されると、ほかの武器で戦わなくてはならなくなってしまうため、【狩人】は装備破壊にすごく弱いのです。
+<BR>
+<BR>　いま入手した【エッチな騎士タクーシ】は装備破壊を無効化してくれるので、クスクルは安心して冒険できるようになります。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そしていまの判定に成功したのでタクーシの【好意】が１になりました！　クスクルは【好意】の欄に「タクーシ　１」と書いておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシと仲良くなったー（書き書き）</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ、【経験値】足したっけ？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>忘れてた！　クエスト公開の【経験値】５点を足しておいてくださーい。ホントはこれクエスト公開直後に入手しないといけないといけない【経験値】でした！　オンラインセッションだと意外と忘れる気がするのでちょっと工夫しないといけませんね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>エッチな経験を積んで強くなったよー。
+<BR>これで【レベル】４！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「次の目標はロリアの下着を洗う事だね、タクーシ♪」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「今回のクエストはロリア隊長を守りつつ魔王を倒すことであります！　お忘れなく！」</div>
+<BR>
+<H2 class=gradientAmini>-　１日目南エリア　夜</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではクスクルの「夜行動」はクエストで上書きされてなくなりましたので、次、ロリアさんの夜行動ターンです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>夜行動は以下の４つから選択可能です！</div>
+<div class="box"><B>◆取れる夜行動</B>
+<BR>
+<BR>・偵察（【ST】－２・隣のエリアのイベントが判明する）
+<BR>・交流（【ST】－２・同じエリアにいる仲間１人との【好意】を１アップさせる）
+<BR>・探索（【ST】－２・ランダムイベントを発生させる、やると次は全員「進行」）
+<BR>・進行（実質的にパスする選択肢、上の夜行動を行わずに次の日に行く）</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「偵察」しましょうか、でも【ST】的にどうかなー。長い旅だから温存しないとつらいかも。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>いいや、節約しよう。「進行」で！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　では、これで夜が明けます！</div>
+<BR>
+<H2 class=gradientAmini>-　１日目南エリア　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お二人とも２日目へと「進行」します！　移動前に、「進行ルート表」だけ振りますので、各々【ST】処理してください。これはどんな道を歩いて、どれだけ疲れたかを出す表ですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※厳密には「進行ルート表」は移動先を決めた後に振るのですが、行き先を宣言したログが流れてしまうのでこのセッションでは先に振ってます。</FONT></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ロリア　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　１：少し荒れた地形が続く。【日数】から【筋力】を引いただけ【ＳＴ】が減少する（最低０）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　クスクル　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　６：広い川を船で渡る。【日数】に２を足して【魅力】を引いただけ【ＳＴ】が減少する（最低０）「水泳」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】＝１　です。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>これまた極端な目が……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルさんは船で渡るということで、船守さんと出会いました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>船守「ああーん？アライグマがなんでこんなところに！？」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「お前を洗うためだよ、うはははは」（じゃばじゃばー）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>船守「アーッ！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで各々【ST】を減らしておいてくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ホラーだ。こっちは【筋力】１あるので【ST】減らない！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【魅力】が２だから、【ST】１減りましたー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルは【魅力】があったので多少許された！　さっそく【魅力＋】役に立ってますねー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>カワイイからね、クスクルカワイイからね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２日目のどこへ行きますか？　お二人の現在地は「１日目」の「南」地点なので、そこからだと中央か南に移動できます。北には行けません。</div>
+<div class="box"><B>◆移動先について</B>
+<BR>
+<BR>　ＰＣたちは、今いるエリアから次の日に移動する際、上下１マスだけ列を変えることができます。
+<BR>
+<BR>　たとえば「北」エリアにいる状態から次の日の「北」「中央」エリアに移動することは可能ですが、直接「南」エリアに行くことはできません。
+<BR>　「中央」エリアにいれば、次の日の「北」「中央」「南」のどのエリアにも移動できます。</div><div id=com>　</div>
+<div class="box">【２日目】　地形：草原
+<BR>　北：？？？
+<BR>　中央：？？？
+<BR>　南：？？？</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>どーせイベントの内容が分からないから真ん中でいいんじゃないかなー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>次に選べる行き先の幅を考えると真ん中ですよねー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「上にも下にも行きやすいしね！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>それで、次は魔王が出てくるから一緒の方が良い？　それともあえて別れる？</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ、でもタクーシがロリアと一緒にいたいと思うからロリアについていくのもありかなー。ねー、タクーシー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「もちろんですぞ！　それにクスクル殿の装備も守りますぞ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「よし、ど真ん中に突撃だー、うぉー、みんなついてこーい」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「では中央へと歩を進めましょうか」</div>
+<BR>
+<a name=S5></a><H1 class=gradientA>２日目　草原</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/01_map02.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　２日目中央エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２日目です、お二人は中央地点にやってきました！　ラッキーなことにここは……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>黒タイツの泉？　エッチな森？　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>HはHでもHELLの森。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ロリア隊長の新しく生えた獣くさい耳のにおいをかぎほうだいのハウスですな！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>タクーシにタイキック。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ドゥフ！　最終的にはロリア隊長の尻尾の匂いをかぎたいですぞ！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシ強いな、強い。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、ロリアは荒れ地をこえ、クスクルが船に乗ったりして２日目の中央地点に２人がやってくると……そこにいたのは「料理屋」でした！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なぜ２人が違う道をたどっているんだ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>一緒に行動してるはずなのに……一緒に行動してるのに別の道ってこれテストプレイでもあった気がするぞ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、イベントを展開っ！　バーン！</div>
+<div class="box"><B>＜料理屋＞</B>
+<BR>
+<BR>　【料理屋】と遭遇した。腹は減っている。
+<BR>判定：【生命】　ジャッジ：空腹アピール。
+<BR>成功：【経験値】２獲得。【おいしいお弁当】の購入とアイテムの売却ができる。
+<BR>失敗：【経験値】２獲得。【おいしいお弁当】の購入とアイテムの売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>料理屋「やあ、君も旅の人みたいだね……んっ、半獣？　うーん、そういう人にはあんまり近寄ってほしくないんだが……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジ：空腹アピール！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「おのれ、半獣で何がわるい、ボクなんか全獣だぞ！」カメラはなにも身に着けていない下半身にアップ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「そういえば昨日から何も食べてませんね――って、２人はともかくイーリスちゃんは何を食べるの？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「実は最初は３人いたイーリスがいつのまにか道中で２人になったんだよ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ざわ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「おいしかった！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>イーリスを捨てますか？</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　＝> はい</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　　  いいえ</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「ぎゃー冗談！冗談！」　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>（ＧＭが変な流れにしちゃったので）ジャッジはＯＫです！　ロリアさん【生命】で振ってください。
+<BR>目標値は７＋２（日目）からジャッジの１引いて、８！
+<BR>　クスクルの【生命】１で「協力」できそうですね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ところで、そのクスクルさんに寄生してる騎士のほうは「協力」してくれないんですよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、騎士タクーシはクスクルが判定する場合だけ「協力」してくれます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>この同僚役に立たないな！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ氏にとってロリアさんはいまのところただの愛でる対象です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あれか、失敗する姿も可愛いとか言い出すタイプか！　面倒くさい！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで【生命】で目標値８、どうぞ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋３＋１>＝８ 【生命】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋3) ＋ 4 </B>＝ <B class=dc>10</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ヒュー！　セーフ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>料理屋「なんてね……たとえ姿が普通と違っても、腹をすかせているならみんなお客さんさ♪」（キラーン）</div>
+<div class="box">成功：【経験値】２獲得。【おいしいお弁当】の購入とアイテムの売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで忘れないうちにお二人は【経験値】２ずつ足してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【経験値】１→３。【レベル】３になり【盾の訓練】覚えました。これで盾の「装甲」が１上がる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【おいしいお弁当】のスペックは以下の通りでーす。</div>
+<div class="box"><B>アイテム【おいしいお弁当】　重量０　７００シルバ
+<BR></B>
+<BR>　いつでも使用でき、使用すると消費される
+<BR>　自分の【LIFE】４回復、【ST】１０回復</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>お？　【おいしいお弁当】は重量０。なら５つほど戴こう、って７００シルバ、高い！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>弁当たかーい！　クスクルさんと所持金を合わせれば１個は買えますね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>なんか、すごい貧乏くさいねー、仕方ないねー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「売れるもの売ればもう１個くらい買えない？」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あ、そうだ【祈りの杖】、売る？　さようなら、杖……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「食べ物がないとこの先は厳しいでしょうし、売りますか、杖」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「売る、売るるー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では【祈りの杖】は半値の……１０００シルバ！　で売れました！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>これでお二人の総所持金が１７５０シルバになりましたね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>これで【おいしいお弁当】を２つ買います。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>料理屋「いいとも！　お腹が減っているならおいしくたべてくれるだろう！　１４００シルバになりまーす」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>残高３５０シルバは１７５シルバずつ分けよう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では所持金を１７５ずつにしておいしいお弁当を１つずつ持っておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシはご飯たべなくていいのかな。しかたない、ロリアの匂いで我慢して貰おう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「畜生風情が気をつかってくれるですと！？　ありがとうございます！　ありがとうございます！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんだこのキャラ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「バカだな、タクーシとボクはエロ仲間じゃないか……あ、畜生的な扱いの方が嬉しいのかな」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はいはい、食べる時になったらタクーシにも少し分けてあげますから」（緊急時を除く）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>買い物が終わりでしたら、これで昼イベント終了でーす。</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　夕暮れ</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２日目の昼行動が終わった頃……ここでロリアさんのクエスト公開です！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ばばーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさん、クエストの伏線はっててもよかったんですよ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そういえば公開条件だけ気にしてて声について描写するのすっかり忘れてました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そう、実はロリアは城を出たときからずっと、“誰か……助けてください……！”という、助けを求める不思議な声を聞いていました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その声をたどってきた結果、ロリアは１つの枯れ井戸にたどり着きます。その中には……！？</div>
+<div class="box"><B>クエスト　『弱者を守る力』</B>
+<BR>
+<BR>・公開条件：　２日目の昼行動後に即座に公開（夜行動を上書き）　【経験値】５
+<BR>
+<BR>・イベント
+<BR>　“誰か……助けてください……！”　城を出たときから響いていた、ロリアの頭に届く声。２日目の夕暮れ、君が声をたどっていくと１つの枯れ井戸にたどりついた。覗いてみると、なんと井戸の底には縛られている半獣人の娘が！　この者を守りながら魔王を倒せたなら、きっと強さの真の意味に気付けるはずだ。アイテム【半獣の理術士シース】を得る。彼女とは交流可能である。【筋力】で目標値７に成功すればシースは君の力強さに感激し、【好意】が１上がる。
+<BR>　ジャッジ：シースを井戸から救い出す描写。
+<BR>
+<BR>・クリア条件：【半獣の理術士シース】を所有したまま魔王を倒す
+<BR>・報酬：　【伝説Ｐ】３０　＋　特徴【強そうな】をアンロック　</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>枯れた井戸だと洗えない、水を投入しろー、ざばー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ざばばー！　井戸の中の少女がびしょ濡れになります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアは井戸の中に、縛られて転がされている灰色の髪の半獣人の娘がいることに気付きました！
+<BR>すでに疲れ果てているのかぐったりしていますが、彼女はロリアに気付きます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>“お願いです、水責めはゆるしてください……助けてください……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>彼女はロリアの頭の中に直接話しかけてきています。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「そして、濡れ濡れ少女を洗うぞ。タクーシ手伝え！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ちょっ、何をしているんですか！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これむしろ判定目標値が上がりそうだな！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「大丈夫ですか！　今引き上げますから！　クスクルさんは正座！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「正座……」（ちょーん）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、この少女を上手に助けられるかロリアは【筋力】で目標値７判定してください！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジとして、彼女を井戸から救い出す描写をすれば目標値－１です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>失敗しても助けられますが、途中で彼女の頭をゴツゴツぶつけたりします。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まず井戸に降りていきますか？　ロープなど小道具は用意されています！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>正座しているから「協力」できないにゃーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あ、忘れないうちにロリアさんはクエスト公開による【経験値】５を足してください。これで能力アップする、かも！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【経験値】３→８になりました。【レベル】３→４！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「ここにロープがありますけど固定しただけで登ってこれますかー！　無理ならタクーシ……同僚の騎士に固定させて私が井戸の中へ行きます！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>少女はしばられてるので、芋虫のように這ってロープのところまで来るものの、ダメですーという風に首を振ります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ついでにロリアは気付きました。この少女、なんとなく声を出せないような気がします。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（そんな！？　聞こえてないのに超反応してしまったボク……）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「怯えてるのか、声が出せないのか……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ならばわたくしめがロープを持っておきますぞ！　ロリア隊長は下へ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ええ、行ってきます。ここは頼みました」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではジャッジＯＫ！　続きは成功後！　【筋力】で目標値６を判定して下さい！　クスクルとの協力で【筋力】に＋１されます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋１＋１>＝６ 【筋力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋2) ＋ 2 </B>＝ <B class=dc>9</B>　<B id=dsuc>　+3成功！</B></div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>正座しながらクスクルもロープ固定に手伝ってくれました。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「器用だなー、ボクって」（正座でロープ固定しつつ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではロリアは半獣の少女をかかえ、井戸から無事、救出することに成功しました！　ずぶ濡れです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「よっよっはっ……はい、着きましたよ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、この少女はロリアの頭に直接話しかけてきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “ああ、ありがとうございます。私はシースといいます……私が半獣になったせいで、村の人達にこんなことを……”</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あなた……もしかして喋れない？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースはうなずきます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「？？？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、力強く救出して信頼を勝ち取ることに成功したのでちょっとした情報を教えてくれます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>実は彼女、近くの村で理力を研究してましたが、半獣化したせいで村人にこんな仕打ちを受けてしまったというのです。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「闇に侵されて人を襲う獣になってしまった半獣人」の話はこの辺りの村にまで届いており、半獣人となった彼女がいずれ獣化することを恐れた村人たちは、彼女ののどを焼き、縛り、助けさえ呼べない状態にして枯れ井戸の底に放置した……という顛末（てんまつ）をシースが教えてくれます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「そう……私はロリア。一応騎士だけど、この通り半獣化しちゃってるの」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “はい、あなたもなんですね……私、こんな耳や尻尾になってしまった人って身近にいなくて……その……”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「？？？　説明して、通訳して、ねぇねぇ、ロリアー」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「えっと、この子はシースと言って――」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>理力を研究していたこと、半獣化したこと、喉を焼かれ井戸の底に縛られた状態で放置されたことを話した。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「村の連中も酷い事しやがるぜー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>彼女は言うのを一瞬ためらいましたが、決意したのか、申し訳なさげに言ってきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “ロリアさん、い、一緒に行ってもいいでしょうか……？　やっぱり、旅のお邪魔、でしょうか……”</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「騎士は戦えない者達の味方です、一緒に行きましょう、シースさん」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ロリアさん……ありがとうございます……！”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースは笑顔を浮かべてついつい尻尾を振りながらついてきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “私は時空の理力の研究をしていまして、念話や収納のフォースを使うことができます……ロリアさんのお荷物を守ることができる……と思います”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>おお？　これは次元倉庫とは違うんですね。タクーシを収納します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “すみません、亜空間に人間は入れられないんです……”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ちっ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>おっと、ボクはカワイイ、カワイイんだった。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「怒るクスクル殿もかわいいですな！　わたくしめには及びませぬが！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「タクーシはカワイイキャラじゃないでしょ！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで、判定に成功したのでロリアさんはシースの【好意】を１にしておいてくださーい！　</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>アイテムとしての【半獣の理術士シース】の性能は以下の通りです。追加しておいてください。</div>
+<div class="box"><B>アイテム【半獣の理術士シース】　重さ０　売却不能</B>
+<BR>
+<BR>　時空の理力使い。装備中のもの以外のアイテム破壊を無効化できる。魔王戦が始まったとき、別ＰＣを同じエリアに呼ぶことができる。「交流」可能、能力値は全て１。受け渡しはできない。次元倉庫には入れられない。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “それでは、ロリアさんのお荷物、私が守りますね……使うときは言ってください”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言ってシースはロリアの荷物を不思議空間に収納してくれました。ゲーム的にはアイテム破壊されなくなるだけで、何の制限もなくアイテムを使用可能です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ところでこの声はなぜ私だけに？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “その……私の力で見えた人の中で助けてくれそうな人が、あなたしかいなくて……”</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「そう……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>はーい、助けてくれなさそうな人でーす！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>まあ「戦闘能力のある半獣人」で検索するとロリアしかヒットしなかった的な表現です。伝えようと思えば普通に他の人にも念話を届けられるっぽいですね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あ、そういえばシースの落書きもあったの忘れてました。これでーす！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0><img src="image_newkatamichi/NPC_main_Sheath.jpg" border="1"></div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>なんか神秘的だ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースは灰色の髪の半ケモ理術士です！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>横獣耳！　横獣耳！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリア、ごめん、シースさんの尻尾の匂い嗅ぐわーーー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>膝蹴り。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>おうっ！　ボク、魔王より味方に殺されそう……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では４人になったパーティは旅を続けます！</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　魔王遭遇</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、２日目の日が暮れようとしているこのタイミングで、強烈な威圧感が辺りを支配します！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ああ、やっぱり魔王来るのね！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>です！　皆さんの目の前で、空中に理力が渦巻き、長い金髪の若い女性が突然現れます！　黒い衣装をまとい、圧倒的な力のオーラを放つ彼女こそ、ヴィクターの言っていた「魔王」に違いありません！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「貴様らが『勇者』か……ずいぶん多いな」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王は空中から君たちを見下ろしています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「だが何人で来ようと同じこと。力をつける前に、ここで倒しておくとしよう！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シースの顔がみるみるまに青ざめます。（すごく危ない人に助けてもらっちゃったー！？）と思ってます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ボクは通りすがりのアライグマだよ、勇者じゃないよ」（うきゅぅ？）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「そんなデカいアライグマがいるかっ！？」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「タヌキですよね」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「おい、タヌキ、頑張れ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「ええい、誰であろうが勇者っぽいものは全て倒す！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、魔王との戦闘開始です！　全員で「戦闘」するか「逃走」するか選んでください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>魔王の【LIFE】いくつでしたっけ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>えーと現時点の魔王の性能は……２日目なので【LIFE】１２０です！</div>
+<div class="box"><B>モンスター【魔王】</B>
+<BR>　【LIFE】１２０　【防御値】８　【反撃ダメージ】６＋火炎３
+<BR>　【経験値】０</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>まだ早いかな、行けるかな。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王は４日目にも出現するんですが、４日目なら魔王の【LIFE】は８０になります。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「いまおおざっぱに計算してみたけど微妙にダメージレースで勝てない気がする！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>うーん、そうだよねー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>いけそうでぎりぎり負けそう。絶対に勝てないってわけじゃなさそうなのがもどかしい。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「まだ今日のリアルプレイ時間は９０分あるよ！　４日目まで行けるかも！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>メメタァ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>逃げるかー、いや逃げるんじゃない、戦術的撤退ー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ロリアさん、どうすれば……！？”</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「まだこちらは満足に戦える状態じゃありません。皆さん、ここは引きましょう！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「隊長の命令は絶対であります！　うおおー！！（逃げ）」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「そうと決まれば、」シースとロリアの尻尾をひっぱって逃げよう、あはははっ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ひうっ！」　“ひゃあっ！”</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>とりあえずタヌキをしばきます。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タヌキなどいない！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では逃走判定に移ります！　能力値決めますねー。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　逃走表　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　５：背中を向ける勇気が出るか？　【意志】を使用する。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【意志】で判定したい人！　能力値的にクスクルさん一択ですかね！
+<BR>逃走目標値は【防御値】と同じなので８です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ボクだなぁー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「遊んでないで逃げますよ！　クスクルさん先行をお願いします！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアは【意志】０なので「協力」できませんが、タクーシは【意志】１あるので「協力」できます！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>おお、タクーシ優秀！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「魔王よ、こちらですぞワッホー！　クスクル殿はやく退路を！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋２＋１>＝８ 【意志】判定！  逃げちゃうよー
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 3 </B>＝ <B class=dc>8</B>　<B id=dsuc>　+0成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひゅううう！　ギリギリ成功！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ひー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あぶない、あぶない、でも逃げちゃうもんねー、あっはっはっは。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王の火弾があやうくクスクルのマントを焦がしそうになったりしましたが、全員逃走に成功しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>が、逃げても魔王は攻撃してきます！　夜行動の前に「魔王追撃表」が発生するのでご注意くださーい。</div>
+<div class="box"><B>◆「魔王追撃表」って？</B>
+<BR>
+<BR>　無事に戦闘から逃走できても、魔王はしつこく追いかけて攻撃してきます。その被害の結果を出すのが「魔王追撃表」で、アイテムが破壊されたり、装備を失ったり、【LIFE】が減ったりしてしまいます。
+<BR>　この表は、なんらかの「夜行動」をする前に１回振ります（次の日への「進行」前も含む）。</div><div id=com>　</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　夜</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、２日目の夜になりました！　まだ魔王に追われている最中です！　【ST】を消費する夜行動をするとさらに魔王に「追撃」されてしまいます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「進行」！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさん、「進行」了解！　「進行」は全員の処理が終わった段階でまとめて実行しまーす。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>て、「偵察」……は無理だよね。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「タクーシの装備破壊無効化を活かせるチャンスってあとここくらいだけだから、リスク覚悟で夜行動やってもいいと思うよ？」　<FONT class="cc">※意訳：もうちょっとピンチになってほしいなー</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>そう？　じゃぁ、「偵察」するるるー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>するか！　立派だ！　では「偵察」の前に「魔王追撃表」が発生します！　さあ、恐怖の「魔王追撃表」の結果は……！？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>恨まれるのはイヤなので自分で１Ｄ６振ってくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１Ｄ６　魔王追撃ー　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　１：装備以外のアイテムのうちＧＭ指定の１つを失う</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「タクーシ、アイテムを守ってー！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「わたくしは装備しか守れませぬうううグオオ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クスクル、装備以外のアイテム破壊！　【覚醒】で振り直しも可能ですがいかがいたしますか？（※）</div>
+<div class="box"><B class=red>※実はここの【覚醒】処理でルールミスしてました！</B>
+<BR>
+<BR>　【覚醒】は説明文によると「“判定”のサイコロを１つ振り直す」スキルですが、実はここで言ってるような「ランダム表の振り直し」には使えなかったのです！（ランダム表を振るのは“判定”ではないため）　プレイ後に編集部の人にツッコまれてしまったので、みんなも気をつけよう！
+<BR>　次回からは正しいルールで運用していますが、うっかり今回だけ【覚醒】で表の振り直しを許可してしまっています。
+<BR>
+<BR>　【覚醒】が使えるケースと使えないケースをまとめると、以下のようになります。
+<BR>
+<BR><B>＜【覚醒】が使えるケース＞</B>
+<BR>　・判定 ＝ 目標値が設定されているダイス処理
+<BR>　
+<BR><B>＜【覚醒】が使えないケース＞</B>
+<BR>　・ランダム表を振るダイス処理
+<BR>　・ダメージや効果量・出現数などを算出するダイス処理（※目標値がないので判定ではない）</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ、【覚醒】するかなー。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>１Ｄ６　もう一度、追撃表　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　１：装備以外のアイテムのうちＧＭ指定の１つを失う</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>同じだったーー！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残念、クスクルの運命は変わらなかった！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシ、お前が壊れろ！！（怒）</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>おっと、ボクはカワイイんだった、カワイイ、カワイ……タクーシお前が壊れろー！！（激怒）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「わたしめは壊れませんぞー！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ん？　待って、タクーシってアイテム的に壊れる？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ざわ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あっ！　【エッチな騎士タクーシ】のアイテム説明には「破壊されない」とは書いてない！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「もう壊れてるよーーーーー」（激怒）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>わあい！　じゃあ失うアイテムどちらにしようかなー、壊すアイテムはＧＭが好きに選んでいいらしいのでダイスで決めましょう。１ならタクーシ、２ならお弁当。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>いや、まって、ここで魔王の追撃をタクーシが身を挺して守ったらカッコよすぎ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ２　１タクーシ・２お弁当　破壊
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　　【おいしいお弁当】！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ってやっぱタクーシおまえが壊れろー！！（激怒）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残念！　クスクルの【おいしいお弁当】　が魔王の火弾で燃やし尽くされました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「どうだ、おまえたちの生きる糧を奪ってやったぞ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「私とタクーシは三日三晩飲まず食わずでも走れますので！！　ダテに遠征部隊やってませんよ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王「なら４日ならどうかな？　フフ……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということでクスクルさんは【おいしいお弁当】を消滅させておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【おいしいお弁当】は【あたたかいお弁当】になりませんか？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>コンビニじゃないのでそういうサービスはありません。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>うみゅぅ、７００シルバがぁぁぁぁぁー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ふぅぅぅー生き延びましたぞぉぉー！！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということで夜行動の前に大変なことがありましたが、ひとまず「偵察」ということで【ST】を－２しておいてくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【ST】１１→９！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なお「偵察」は【ST】－２して判定に成功すると右隣のエリアのイベントが判明する夜行動です、重要！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　偵察表振りまーす　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　３:広い湖だ……　【水泳】　　判定：【生命】　ジャッジ：湖面を泳ぐ描写</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>湖面を泳いで行く描写！　クスクルさんジャッジ、ゴー！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【生命】で基本目標値は９！　ジャッジOKなら判定＋１で８になります。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>湖面、ふむ、タクーシに乗っていきます。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「うおおおお（ざばざば！）」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ノリが軽いからきっと水に浮くハズだよねー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>水に浮くフルプレートとは一体。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシはだんだん沈んでいきます……さあこのピンチを乗り越えられるのか！
+<BR>ジャッジはＯＫです！　目標値８で【生命】判定して下さい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「協力」使えない上に【生命】とか……。　<FONT class="cc">※【狩人】は【生命】が弱い</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ん、タクーシの協力は得られないのか！？　一緒にいるのに！！　……あ、「偵察」は「協力」が発生しないって書いてある。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>なに！　あー残念ですね。タクーシは沈んでいきました。シースはおろおろしながら見守っています。目標値は８です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋１>＝８ 【生命】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋4) ＋ 1 </B>＝ <B class=dc>10</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ウヒョー出目９！　つええー！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>今日のクスクルさん全体的にダイス目良いような……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>どりゃー、浮け、浮くんだタクーシ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「ぶはあっ！　クスクル殿はなかなかハードコアでありますな！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ダイス目がいいので、やっぱりさっきのは【あたたかいお弁当】にしましょう、それがいい、それが――。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>焼け焦げた弁当を見つめるアライグマ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残念だけどお弁当は戻ってこないんだ……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では「偵察」の結果、３日目の中央は「道具屋」だと判明しました！　おめでとう！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>道具屋……どうしよう、お金が無いよ……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>売るものないし、別の道かなー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリアの下着を売る？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>めり込むような顔面パンチ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（ひらり）「タクーシの鎧を売ろう」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>冗談はさておき、どこでもいいやー。ロリア、行き先はてきとーに決めてー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>うーん、道具屋で草でも買う？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひとまずご相談は次の「進行」フェイズでお願いします！　次行きますよー。</div>
+<BR>
+<H2 class=gradientAmini>-　２日目中央エリア　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、夜行動を終え、お二人は「進行」します！　が、「進行」の前に「魔王追撃表」が発生します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということで、それぞれ１Ｄ６振ってくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>１Ｄ６ 魔王追撃　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　２：装備のうちＧＭ指定の１つが壊れる。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>装備破壊！　さっきからあげたＮＰＣとの防御機能が絶妙にかみ合わないいいぃぃ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>装備ぃー！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “すみません……私は所持アイテムしか守れなくて……！”</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>装備も突き詰めればアイテムではー！！（ゴネる）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>もっと正確には、シースが守れるのは「装備中以外のアイテム」だけですね。切ない！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【覚醒】もできますが使いますか？　<FONT class="cc">※さっきも言いましたが判定ではないので使えません</FONT></div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>なら【覚醒】使いましょう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>了解しました！　では振り直しどうぞ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>１Ｄ６ 追撃表２回目　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　１：装備以外のアイテムのうちＧＭ指定の１つを失う</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>よしよしよしよし！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>これなら守れる！　ではロリアは気合で装備破壊を逃れた代わりに、魔王から所持アイテムを破壊されそうになります！　が、シースがうまいことアイテムを次元なにかに収納していたので破壊はありません！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “ロリアさんのためなら！”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次、クスクルさん！　魔王追撃表を振ってくださーい。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１Ｄ６　追撃表　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あれ、１って……。　 → <B>１：装備以外のアイテムのうちＧＭ指定の１つを失う。</B></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシーーーーーーー！！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルさん合計３回も出目１振るって！！　そんなにタクーシさん燃やしたいのか！　ああ分かったよ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王の執拗な火弾攻撃は、ついにタクーシに直撃してしまいます！　激しく燃え上がるタクーシ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「ぐあああああクスクル殿ぉぉぉーーロリア隊長を頼みますぞーーーーッ！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「タクーシ！！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【あたたかいタクーシ】を手に入れました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そんな生ぬるい結果ではありません！　【ただ焼いたタクーシ】です！　ってそう言うとなんかまだ生きてそうだぞ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシは魔王に焼かれて倒れ、そのままぶすぶす燃えています。あの炎の直撃では、タクーシはもう助からないでしょう……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「フフフどうだ、勇者が１人減ったぞ？　まだあらがうか！？」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「くっ！　彼は……彼は勇者じゃないのに！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「おのれ、まおう、面白いことしやがって、おいしいじゃないか、おいしすぎるよ！」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「だが、４日目に倒してやるから、まってろよー、まってろよー、てろよー、ろよー、よー」（スタタタタタタ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースも涙をのんで皆さんと共に逃走します。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>振り返ることも許されずにみんなで逃走しました。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「惜しい変態を亡くしてしまった……」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシの爽やかな顔が夜空に浮かんでいます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「代わりにロリア隊長の尻尾の臭い、かいでおいてくださいであります……！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>しまらねぇぇぇ！！！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>クンカクンカ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>回し蹴り。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>おおうせっかく逃げたのに魔王の前に戻っちゃうぅぅぅー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そろそろクスクルがへこんできちゃう！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さて、夜明けと共に、魔王の顔に疲れが出てきました。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「くっ、この勝負、あずけておくぞ……！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って魔王は去っていきました！　おめでとう、皆さんは生き残りました！　残念なことに、１人の犠牲が出てしまいましたが……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あ、もし【覚醒】使ってたらどうなるか、試してみてもいいですか？　いいですよね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>いいですよ。要するに結果反映なしにただ１Ｄ６振るだけってことですね。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※注：さっきも注釈で述べましたが魔王追撃表などでは【覚醒】は使えません。</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ほら、なんか１が出そうじゃないですか？</div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>１Ｄ６　もし覚醒したら</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　 (ｺﾛｺﾛ…)   ダイス 1 ＝ 1
+<BR>　 → <B>１：装備以外のアイテムのうちＧＭ指定の１つを失う。</B></div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ほらね！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブッ、コーヒーこぼれたじゃないですか！！　どれだけタクーシ殺したいんだ魔王！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>魔王は変態に容赦がない……もしかして魔王はいい人なのでは。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>魔王「女の敵、許さない！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブワッ。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、次の日への「進行」前に「進行ルート表」だけ振りますので各々【ST】処理してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ロリア　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　１：少し荒れた地形が続く。【日数】から【筋力】を引いただけ【ＳＴ】が減少する（最低０）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　クスクル　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　６：広い川を船で渡る。【日数】に２を足して【魅力】を引いただけ【ＳＴ】が減少する（最低０）「水泳」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】＝２　です。なんかデジャブを感じる進行ルートが……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>さっきと同じじゃないかー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>凄く……同じです……。でも【日数】増えた影響で【ST】が減るように。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>本当だロリアさん【ST】ちょっと減ってる！！　（ロリアの【筋力】１）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【ST】が１０→９になりました。体力自慢だけど力はないんですー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【魅力】２だからー、４－２で【ST】９→７に。船守さんを洗って疲れちゃった。ざばばばー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>船守「ああ～！！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかし同じ【レベル】４なのに、比べると能力値格差がすごいなー。【狩人】はそのぶんもろいんですけどね（他にもクスクルは【獣人】や装備補正の【生命】＋１もある）。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>次やるときは特徴で【筋力＋】を取ろうと思いました。</div>
+<div class="box"><B>◆ちなみに現在の能力値は以下の通りです</B>
+<BR>　ロリア→　筋力１ /敏捷２ /生命３ /知力２ /意志０ /魅力１     
+<BR>　クスクル→　筋力２ /敏捷５ /生命１ /知力３ /意志２ /魅力２</div><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではタクーシとの悲しい別れがありつつも、お二人とも３日目へ「進行」します！　現在地は２日目の「中央」なので、どこにでも行くことができますよ。</div>
+<div class="box">【３日目】　地形：遺跡群
+<BR>　北：？？？
+<BR>　中央：道具屋
+<BR>　南：？？？</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>とりあえず「進行」で道具屋に行きたいですね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ボク、お弁当も無くなっちゃって【ST】回復できないんだよねー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ええ、お金がないので道具屋でアンプルは買えないけど、【ST】回復用の草だけでも買ってもいいかなーって。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では３日目の移動先を選択してください！　中央の「道具屋」でいいんです？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>３日目は魔王が来ないし、別行動でもいいのよ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃあロリアにお金を全部わたして、ボクは南に行く！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ざわ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お、面白いですね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>では私の所持金を１７５→３５０シルバにして道具屋いきましょう。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアはお金を３５０シルバ持って中央の「道具屋」へ、クスクルは南の「？？？」へ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>膝蹴りされて南へ飛んで行くのさー、あはははははっ。</div>
+<BR>
+<a name=S6></a><H1 class=gradientA>３日目　遺跡群</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/01_map03.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　３日目中央エリア　昼（ロリア）</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではいよいよ３日目！　中央へ向かったロリアから処理していきます！　中央、「道具屋」のイベントは……。</div>
+<div class="box"><B>＜道具屋＞</B>
+<BR>
+<BR>　【道具屋】と遭遇した。すべてを悟ったような人物だ。
+<BR>判定：【知力】　ジャッジ：旅の思い出を語る。
+<BR>成功：【経験値】１獲得。アイテムを贈られ、その他ドロップ表（１６０ページ）を使用する。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。
+<BR>失敗：【経験値】１獲得。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアが荒れ地を歩いていると、ぽつんと立った柱の横に道具屋が立っています。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道具屋「君も旅の人か……自分はもう歩けそうにない。最後に君の旅の思い出を教えてくれないか」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジスタート！　旅の思い出を語ってください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「旅の思い出、旅の思い出ですか……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　～～</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　タクーシからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　シースを助ける</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　タクーシからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　クスクルからセクハラ</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　～～</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「フフフ……私ほんとうに勇者やっていけてるんですかね……」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ロリアから殺気がモヤッと。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>「若い少女が旅をしているとそういうこともあるのだろう……大変なんだな……！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>（まって、ああ、だれもつっこめない、若い少女じゃないんだ、道具屋さん！！）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “ロリアさん、ご苦労されてるんですね……私もいろいろありましたから、わかります……”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>その頃のクスクルは……「あれー？　なんか冷たい空気を感じるるー！？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ジャッジはＯＫです！　続きは判定後！　【知力】で目標値７＋３－１で９を判定してください。あ、シースも協力しますので【知力】＋１です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋２＋１>＝９ 【知力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋5) ＋ 3 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>道具屋「そんな大変な話をしてくれるとは、君はいい人なのだろうな。私は死ぬ前にたった１人でよいから、ひとを信用して死にたいと思っている。君を信じよう。これをあげるよ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「店主さん……」</div>
+<div class="box">成功：【経験値】１獲得。アイテムを贈られ、その他ドロップ表（１６０ページ）を使用する。「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【経験値】を＋１してください、アイテムドロップ振りますねー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【経験値】８→９に。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２Ｄ６　その他ドロップＤ６６　 (ｺﾛｺﾛ…)   ダイス <B>(1＋1)  → １１</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１１　：　<B>大きな石</B></div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>( ﾟдﾟ )</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>君を信じよう → 【　大　き　な　石　】　バーン！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１１だからね、ファンブルじゃないからね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（こ、これは試されてる！？）」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「あ、ありがとう、ご、ございます」　引きつりつつニッコリ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>道具屋はその暖かい視線が痛くて目をそらします。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>「追加装備：装飾品」とすべての「消費アイテム」の購入とアイテムの売却ができる。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ということなのでこの範囲でご検討くださーい。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>お買い物内容を考えておられる間に次のクスクルさんの処理いきまーす。</div>
+<BR>
+<H2 class=gradientAmini>-　３日目南エリア　昼（クスクル）</H1>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>その頃、膝蹴りによって南マスに到達したクスクルは……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さーて、３日目の南には何があったのか？！　ドゥルルルルル。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>じゃーん！　「ランダムイベント」です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>タクーシ！　タクーシじゃないか！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではランダムイベント振りまーす。ダンジョンが出たら【狩人の感覚】で２回振っていいですよ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>サラッとスルーされた……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシはもういないんだ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ランダムイベント表。　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　世界の旅Ｄ６６　 (ｺﾛｺﾛ…)   ダイス <B>(1＋3) → １３</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１３！　「大荷物の商人」が出てきました！</div>
+<div class="box"><B>＜大荷物の大商人＞</B>
+<BR>
+<BR>　大荷物の商人と遭遇した。あなたを盗賊ではないかと疑っている。
+<BR>判定：【魅力】　ジャッジ：盗賊ではないと説得する。
+<BR>成功：【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。
+<BR>失敗：どうも信用してもらえない。【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。「倍額」</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>えーっと。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>どうしてお金を他の人に渡して所持金０シルバになった直後の人にばっかり「大荷物の商人」がこんなに出るんですかねええ！！　（全く同じ状況がルールブックのリプレイやテストプレイも合わせてこれで３回目）</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>大荷物の商人はクスクルがお金を持っていないのを感じ取って、いやみったらしくダッシュで近付いてきたよ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ちょっとー商人！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>えーっと。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>「盗賊デース」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ぶー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「お前の荷物を置いていけー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ジャッジ：盗賊ではないと説得する　←</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>商人「な、なんだきみは！　盗賊か！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「盗賊デス」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>商人「だが盗賊にしてはかわいいな！？」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「カワイイ盗賊デス」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>商人「そうかそうか、で、何が欲しいんだ？　おじさんに言ってごらんなさい」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「オ金ヲクダサイ」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ちなみにマジで強盗する場合に備えて、いま「大荷物の商人」の戦闘データを探してるんですけど、ないっぽいですね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>能力値としては普通の店員さんと一緒かなぁ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ジャッジ失敗、買い物しません！　うあああああああーーーーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ジャッジは失敗でもいいですけど【魅力】判定だけは振ってええええ目標値１０です！　ファンブルしたら【経験値】増えるかもですよ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋２>＝１０ 【魅力】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋6) ＋ 2 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+1成功！</B></div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>無駄に成功しているー、うあああああああああーーーーーーーーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>普通に成功してるし！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>商人「ほらほら、かわいい姿して盗賊なんていっちゃダメだぞ？」</div>
+<div class="box">成功：【経験値】２獲得。あらゆる種類のアイテムの購入と、売却ができる。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということなので【経験値】増やしておいてくださーい。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかも！　なんとあらゆる種類のアイテムのお買い物ができます！（かがやく笑顔）</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>売るモノすらないよーーーー、うああああああああああーーーーーーーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、切ない……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>というかデータ見てて思ったんですが、ショップ系の人ってアイテム必ず落とすなら襲う選択肢のほうが有利じゃ？　襲えるならだけど！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>でも襲う選択肢がない！　「野営中の兵士」なら公式で襲えるのに！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>兵士さん……。
+<BR>
+<BR>では、クスクルは商人に別れを告げてとぼとぼと先へ進みました……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あ、こちらは買い物終わりました。
+<BR>
+<BR>　・【大きな石】売却（＋１シルバ）　←※もらったそばから売ってる！</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　・【癒しのアンプル】１つ購入（－２５０シルバ）</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　・【スタミナ草】２つ購入（－１００シルバ）</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫです！　アイテム振り分けは合流後にお願いしますね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では３日目の昼イベント、これにて完了！</div>
+<BR>
+<H2 class=gradientAmini>-　３日目中央エリア　夜（ロリア）</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>さて、３日目の夜、魔王に追われたりしない平和な夜です。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ＰＣがバラバラのエリアにいる場合は上から処理していくそうなので、まず中央にいるロリアさん、夜行動を選んでください！　夜行動は「偵察」「交流」「探索」「進行（パス）」の４つです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「探索」しようかな……じゃあ「探索」で。【経験値】が足りない。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　えーと「探索」処理は……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>まず【ST】２減らしてくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【ST】９→７になりました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ６　んでランダムイベント！　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　さらに１Ｄ６を振り３以下なら世界の旅、３超なら野外遭遇。
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B>　　野外遭遇！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　野外遭遇！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B>　　地形ごとの野外モンスター</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>戦闘だぁぁぁ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ６　遺跡群野外モンスター！　 　<B>(ｺﾛｺﾛ…)   ダイス 3 </B>＝ <B class=dc>3</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【鳥人】３体との戦闘が発生する！　ダラリラリーン！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ええっと、敵のステータスはどうかなー。</div>
+<div class="box"><B>モンスター【鳥人×３】</B>
+<BR>　【LIFE】１５　【防御値】１０　【反撃ダメージ】１２　【経験値】９
+<BR>　【ドロップ】（１Ｄ６×１００シルバ（４/６）＋ランダム宝石表（１/６））×３</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「ロリアの能力値なら、逃げても倒そうとしても似た感じかなー！？」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なおロリアさんの【筋力】１なので出目９以上が要求されます！　
+<BR>が、逃げても【経験値】は半分もらえますよ！　さあいかがなさいます？</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>戦う！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お、いいですね。今回初めてのまともな戦闘！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「あれは……鳥人！　シースさん、少し下がっててください！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “はい……！”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>『イーリス、向こうでは何が起こっているんだい？　ああ、鳥人かー、焼くとおいしいってお婆ちゃんが言ってたなぁー』</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス『マジで？！』</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではロリアvs鳥人×３、バトルスタート！
+<BR>ロリアさんは【防御値】１０を目標値として攻撃判定！　【筋力】で判定してください！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>温情ジャッジ：【鳥人】３体と戦うための作戦を提案する！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（あいつらは素早い行動を得意とするけど、その分混戦はあまり得意ではないはず、懐に潜り込んで、耐久を活かした防御でぶつかるのが得策かな）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おお、騎士っぽい発想！　ジャッジＯＫ！　では目標値９で攻撃判定してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はああああ！！　騎士ロリア、行きます！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋１>＝９ 攻撃判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) ＋ 1 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>お、ジャッジいらなかった。すごい主人公力だ！　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>この主人公力、あざとい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>槍を後ろに回すように構えてそのまま姿勢を低くしたままダッシュ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次、ダメージ算出！　シースの【好意】１だけ加算できます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さあ、ロリアの【シルバーランス】は【鳥人】３体を串刺しにできるのかーっ！？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【火炎の】付きだし、焼き鳥人だねぇ～。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>そのまま一旦鳥人を通り過ぎるように駆け抜け、そのまま振り向きざまに――</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>３Ｄ６＋４＋１ 【火炎のシルバーランス】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋5＋5) ＋ 5 </B>＝ <B class=dc>19</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でかい！　１９ダメージ！　【鳥人】３体の【LIFE】１５を容易に粉砕ーッ！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>この主人公力！　あざとい！！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「つら……ぬけぇぇぇぇ！！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【鳥人】はそのまま３体一気に貫かれます！　「ギエエーッ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>完全勝利したロリアは【経験値】９を入手です！　私がアイテムドロップ処理をしている間、自由にかっこいい描写しておいてください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>描写しようとしたらソードマスターヤ○トが浮かんできたので中断されました。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>【経験値】９→１８、【レベル】４→６！</div>
+<div class="box">　【ドロップ】（１Ｄ６×１００シルバ（４/６）＋ランダム宝石表（１/６））×３
+<BR>
+<BR>　※ドロップアイテムは、たとえば（４/６）なら「１Ｄ６で４以下」なら入手できたことになる</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ６<＝４　シルバドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 5　　<B id=dmis>失敗！</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６<＝４　シルバドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 4　　<B id=dsuc>成功！</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６<＝４　シルバドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 2　　<B id=dsuc>成功！</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６<＝１　宝石ドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 5　　<B id=dmis>失敗！</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６<＝１　宝石ドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 2　　<B id=dmis>失敗！</B></B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６<＝１　宝石ドロップ判定　 　<B>(ｺﾛｺﾛ…)   ダイス 3　　<B id=dmis>失敗！</B></B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シルバドロップ成功、２つ！　宝石ドロップ、なし！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　×１００シルバ！　 　<B>(ｺﾛｺﾛ…)   ダイス 6 </B>＝ <B class=dc>6</B>　　６００シルバ</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　×１００シルバ！　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B>　　５００シルバ</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>６００と５００！　ということでロリアは「１１００シルバ」をゲットです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>わーい。シルバ１→１１０１シルバに。端数ぅー！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>なんか、お金を手に入れるタイミングとお店に遭遇するタイミングが酷いねぇー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>だから【さらば貯金箱】を取っておくといいかもねって最初に言ったじゃないですか！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「ふぅ、シースさん、もう大丈夫ですよ。戦利品を回収したら行きましょう」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “あ、はい……ロリアさん、お強いんですね……あなたに救われてよかった……”（ポッ）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>まさかの百合展開。</div>
+<BR>
+<H2 class=gradientAmini>-　３日目南エリア　夜（クスクル）</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次、南のクスクルさん！　夜行動はー？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「探索」！　カワイイから「探索」します！　ボクもお宝ゲットだぜー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ！　【ST】を－２しておいてください。ではランダムイベント！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　ランダムイベント　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B></div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>１Ｄ６　【日数】（今は３）以下なら施設、超えていればダンジョン
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 1 </B>＝ <B class=dc>1</B>　　施設</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　施設ランダム！　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋4) </B>＝ <B class=dc>10</B></div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クスクルがやってきたのは「滅びた石の小屋」ですね！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>出てくるのはスケルトンかな？</div>
+<div class="box"><B>＜滅びた石の小屋＞</B>
+<BR>
+<BR>　小屋は魔物に襲われたようだ。物陰から【かつての住人】が姿を現す！
+<BR>判定：【敏捷】　ジャッジ：警戒しながら廃墟に入る様子の描写。
+<BR>成功：【経験値】２獲得。【かつての住人】１体との戦闘が発生する。勝利すると【木の箱】１個が出現する。
+<BR>失敗：【経験値】２獲得。油断してもう一体いるのに気づかなかった！　【かつての住人】２体との戦闘が発生する。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>クスクルは夜の小屋に入ります……そこは「滅びた石の小屋」でした！　警戒しながら入るジャッジがＯＫなら目標値が１０→９です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ボクは通りすがりのアライグマですよー、と、四足歩行でこっそり接近します。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>動物擬態。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>靴も履いてないし、足音しないよね！？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ガイコツ「服きとるがなー！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>がーん！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「（弓も背負ってるし……）」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でもジャッジはＯＫ！　【敏捷】で９で判定してください！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>２Ｄ６＋６>＝９ 【敏捷】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋4) ＋ 6 </B>＝ <B class=dc>12</B>　<B id=dsuc>　+3成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うーん余裕！　ではそろりそろりと入り……。</div>
+<div class="box">成功：【経験値】２獲得。【かつての住人】１体との戦闘が発生する。勝利すると【木の箱】１個が出現する。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【経験値】とりあえず２点貰ってとー。</div>
+<div class="box"><B>モンスター【かつての住人】</B>　※見た目はガイコツです
+<BR>　【LIFE】物体１０　【防御値】８　【反撃ダメージ】６ 　【経験値】４　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「【防御値】８！　戦う、よね！？」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>もちろん、粉砕しちゃうよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では攻撃判定してください！　クスクルは弓矢を装備中なので【敏捷】で判定可能です！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ファンブル以外ほぼ大丈夫そうだなー。　　<FONT class="cc">※クスクルの【敏捷】は６もある</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>まず、攻撃判定ー。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>２Ｄ６＋６>＝８ 攻撃判定(敏捷・弓)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋1) ＋ 6 </B>＝ <B class=dc>10</B>　<B id=dsuc>　+2成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あぶな！　ってファンブル以外で成功だった！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ほーら当たったー</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>次、ダメージ算出！　タクーシはもういませんので【好意】０です！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１Ｄ６＋５ 【狩人の弓】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス 5 ＋ 5 </B>＝ <B class=dc>10</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>あれ、ダメージ１Ｄ６？　こんなもんでしたっけ。けっこう危うかった！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>むしろ【シルバーランス】が強すぎる！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では１０のダメージ！　【かつての住人】の【LIFE】１０に達したので反撃受けず！
+<BR>
+<BR>クスクルの矢は、骨となっても動き続ける【かつての住人】をぎりぎり粉砕しました！　これでこの住人も安らかに眠れることでしょう！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「成仏せいよー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【経験値】４を獲得しておいてくださーい。住人ってけっこう強い方のモンスターですね、これ。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そして勝利したので【木の箱】が出現します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>イーリス「殴る？　開錠する？　どっちにしてもファンブル以外なら開きそうだよ」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>殴る（弓で粉砕する）。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ではなぐりますー。</div>
+<div class="box">クスクルは<B>宝箱【木の箱】</B>を攻撃で破壊し、【旅人の服】を入手しました。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「ヴァー」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>いらなーい、しくしくしく……とりあえず重くないから持っておくけどさぁー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「まあ冒険なんてこんなもんだよ……タクーシも死んじゃうし、悲しいことばっかりだよね……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではこれで夜行動、終了！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>次は合流すべきだなー、クスクルさんに買った【スタミナ草】たべさせないと。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>そろそろ【ST】がやばいよ～。</div>
+<H2 class=gradientAmini>-　３日目中央/南エリア　夜明けの進行</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではお二人とも４日目へ「進行」します！　移動前に進行ルートだけ振って各々【ST】処理してください。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>【日数】＝３　です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>１Ｄ６ ルート表　 　<B>(ｺﾛｺﾛ…)   ダイス 5 </B>＝ <B class=dc>5</B></div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　５：川を泳ぐ。【日数】に１を足して【意志】を引いただけ【ＳＴ】が減少する（最低０）「水泳」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>１Ｄ６　ルート表　 　<B>(ｺﾛｺﾛ…)   ダイス 4 </B>＝ <B class=dc>4</B></div>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>　４：山で迷った。【日数】に２を足して【知力】を引いただけ【ＳＴ】が減少する（最低０）「登山」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【意志】なんてないよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>２人とも厳しいな！　ロリアとシースは必死に川を泳ぎます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【ST】７→３になりました。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>フルプレートで泳ぐ見た目少女とは。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>恐ろしい！　まあ今回は装備自体はまだ【騎士のコート】ですけど。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース “はあ、はあ……旅って、思った以上に大変なんですね……ロリアさんのたくましい体がうらやましいです……（そしてまたびしょ濡れです……）”</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>クスクル賢い、【知力】３もあるる～。【ST】４→２！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ひっ。こっちもいい感じにヤバくなってきましたね！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「アライグマが山で迷うハズがない……うあ、崖だーうあーーーーーーー」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>あ！！！　単独進行したので【経験値】４もらいー。【レベル】は６のままです。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>おおっとそうだった【経験値】４！　忘れてました。足しておいてくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あ、ほんとだ。【経験値】１８→２２、【レベル】７になり【大激震】を覚えたのでもう準備万端です。</div>
+<div class="box"><B>◆「単独進行で【経験値】４」って？</B>
+<BR>
+<BR>　今のエリアに「昼夜通してＰＣが１人しかいなかった」場合、次の日への移動時に【経験値】４を得ることができます！　たった１人の冒険をして鍛えられるという感じで、このボーナスを期待して別行動をする、というのも作戦のうちに入ります。
+<BR>　ＧＭさんはこの処理を意外と忘れやすい気がするので、１日の終わりの列あたりに「経験値４確認」などメモを入れておくといいかもしれません。</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ボクはあと【経験値】１欲しいにゃー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「イベントが起きれば１はもらえるから大丈夫だよ！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では、４日目はどこへいきますか？</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>といっても「偵察」してなくて情報がないので、一緒に行くか分散するか以外の判断はない！　これで最終日ですしね。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>中央にいるロリアさんは「北」「中央」「南」の好きな場所へ、南にいるクスクルさんは「中央」か「南」に移動可能です。</div>
+<div class="box">【４日目】　地形：荒野
+<BR>　　　　 北：？？？
+<BR>ロリ　　中央：？？？
+<BR>クス　　南：？？？</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>どうしよう、【スタミナ草】ふたつともクスクルさんに食べさせたほうがいいかな、自分は【おいしいお弁当】食べるとして。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>シースの特殊能力で魔王の時だけ呼び出して貰うのはどうでしょうか？　そのときに【スタミナ草】食わせて貰えば……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “呼び出しはできますけれど……それまで大丈夫でしょうか……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あ、でも魔王戦で呼ばれても１ダイス処理で１個ずつしか食べられないのかな？</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あー、そっか、同じ道具は１個まででしたねー。じゃぁ、素直に合流するるるる～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでは行き先決定！　どこに行くにしてもイベントは不明です。　真ん中？　それとも下？</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あと６０秒で決まらなかったら１Ｄ２のダイスできめまーす。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>どっちでも変わらないからダイスでいいです！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>１Ｄ２　じゃあ振ります。　１：中央　２：南　 　<B>(ｺﾛｺﾛ…)   ダイス 2 </B>＝ <B class=dc>2</B>　　南！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ではお二人は南で合流します！</div>
+<BR>
+<a name=S7></a><H1 class=gradientA>４日目　荒野</H1>
+<div id=com><font id=CC2><img src="image_newkatamichi/01_map04.jpg" border="1"></font></div>
+<H2 class=gradientAmini>-　４日目南エリア　昼</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>４日目に到達した２人、南にあったイベントは……「世界の旅」ですね！　準備があるなら今のうちにどうぞー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁズンドコズンドコ進みましょうー。草たべるー。草くれー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>クスクルさんに【スタミナ草】ふたつとも譲渡します。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ああ、同じ種類のアイテムを使えるのは１処理内で最大１個ずつまでですけど、もうこのタイミングで２個まで食べていいですよ。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【癒しのアンプル】も渡しておいたほうがいいかな。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ【スタミナ草】をむしゃむしゃ×２、【癒しのアンプル】受け取ります。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではイベント出しまーす。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２Ｄ６　世界の旅Ｄ６６　 (ｺﾛｺﾛ…)   ダイス <B>(2＋2) → ２２　！</B></div>
+<div class="box"><B>＜耳長のあるじ＞</B>
+<BR>
+<BR>　木の陰から威厳のある【耳長のあるじ】が出てきて、あなたを見つめている。
+<BR>判定：【生命】　ジャッジ：挨拶する。
+<BR>成功：【経験値】２獲得。彼はなぜか納得すると村の場所を教えてくれた。イベント「耳長の村」を好きなエリアに配置する。
+<BR>失敗：【経験値】２獲得。ふと目を離すと彼は消えていた。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【耳長のあるじ】が出て来ました！　これはロリアさんにやってもらいましょうか。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアさん的なあいさつするとジャッジで目標値が７＋４（日目）＝１１ → １０に減ります！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>耳長のあるじはじっとロリアを見つめています。ジー。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「いやん、エッチ！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース「……」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「こんにちは、私は騎士のロリアといいます。現在西の方から闇が迫ってきており大変危険です。今すぐ東の方へと避難したほうがよろしいかと思います」
+<BR>
+<BR>「我々は別の目的があり行動を共にすることはできませんが、途中までなら比較的安全に同行できます」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>耳長のあるじ「……すばらしいご提案をありがとうございます。でも行く場所はもう……」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ジャッジＯＫ！　【生命】で目標値１０を振ってください。シースががんばってジェスチャーで「協力」してます（【生命】＋１）。あとクスクルさんの【生命】も＋１できます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>２Ｄ６＋４＋２>＝１０ 【生命】判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋5) ＋ 6 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+3成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功！　おかしい、判定が全部成功している……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>よしよし。</div>
+<div class="box">成功：【経験値】２獲得。彼はなぜか納得すると村の場所を教えてくれた。イベント「耳長の村」を好きなエリアに配置する。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>【経験値】２を２人とも増やしておいてくださーい！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【経験値】２２→２４に。レベルアップなし。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【経験値】２０→２２、【レベル】６→７！　【貫通射】を修得！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>それで、イベント「耳長の村」を好きなエリアに配置……って、次が「世界の果て」ですがな！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「あの耳長の人、ボケてたのかなー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では実は耳長の村は東にあり、すでに「世界の果て」として闇に呑まれた後でした！
+<BR>そしていよいよ西側からも闇が来て、彼は両側から破滅に挟まれているのです！
+<BR>かわいそうな【耳長のあるじ】……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>では、これで４日目の昼行動は終わりです。</div>
+<BR>
+<H2 class=gradientAmini>-　４日目南エリア　夕暮れ</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２人の昼行動が終わったところでお楽しみ！　突然、場の空気が重くなります。
+<BR>そう、どこからともなく魔王がやってたのです！　ゴゴゴゴ……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「さあ、貴様たち、少しは成長したのか？　私を倒さねば、残りわずかな世界も全て闇に呑まれてしまうぞ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>そう言って魔王は剣を抜きました、決戦です！　もしアイテム交換などが必要でしたらいまが最後のタイミングです！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>準備万端！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>さっき【スタミナ草】たべたし、戦うよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「タクーシは魔王との戦いに参戦できなかった！　隠し効果も発揮できなかった！　仇を討ってあげて！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王のスペックは以下の通り！　日が経過したので少し【LIFE】が下がっています！</div>
+<div class="box"><B>モンスター【魔王】</B>
+<BR>　【LIFE】８０　【防御値】８　【反撃ダメージ】６＋火炎３
+<BR>　（※毎ターン【ST】－１される）</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「タクーシの仇ー！　ボクのダイスが腐っていたのもあるけどー、魔王め、許せん！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>魔王の【LIFE】８０……もしかして消化試合なのでは。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それくらいでなければ困ります！　ではお二人、攻撃判定をどうぞ！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>騎士の【大激震】のダメージなどもろもろ忘れずにやってくださーい。狩人の【貫通射】は攻撃判定前に宣言してね。</div>
+<div class="box"><B>スキル【大激震】</B>　常駐
+<BR>　常に武器によるダメージ＋３。[敵の数－１]だけ攻撃判定の目標値を下げられる。つまり対複数戦で有利になる。</div><div id=com>　</div>
+<div class="box"><B>スキル【貫通射】</B>　【ST】消費３
+<BR>　弓攻撃でのみ使用可。ダメージ＋３Ｄ６、物体へのダメージはさらに＋２Ｄ６される。片道勇者ＴＲＰＧでは狩人が最後に覚える唯一の戦闘系の技。</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では攻撃判定、バリバリ振ってくださいよ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「行きますよ、魔王！」</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋２>＝８ 攻撃判定！（筋力）
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋4) ＋ 2 </B>＝ <B class=dc>9</B>　<B id=dsuc>　+1成功！</B></div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>セーフ！　「まずは一撃！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>成功！　基本値２だとなかなか危うい！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>じゃぁ、こっちも攻撃するね～。こっちは【貫通射】を使いますー。【ST】８→５</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>２Ｄ６＋６>＝８ 攻撃判定(敏捷・弓)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (4＋4) ＋ 6 </B>＝ <B class=dc>14</B>　<B id=dsuc>　+6成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ＯＫ、２人とも攻撃成功！　次はダメージ算出フェイズです、出してくださーい。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>３Ｄ６＋７＋２＋３ 【火炎のシルバーランス】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋5＋4) ＋ 12 </B>＝ <B class=dc>26</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>えぐいダメージ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>でっか！　ロリアの【火炎のシルバーランス】は炎の尾を引きながら魔王の結界を激しく削り取っていきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「ぬうううううなんという一撃！　騎士とは思えん！！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「タクーシや同僚たちの仇です！」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>うーん、ホントに余裕！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>完全に消化試合の流れ。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>４Ｄ６＋７＋１ 【狩人の弓】で攻撃！　【貫通射】付き
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋6＋1＋3) ＋ 8 </B>＝ <B class=dc>21</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>こっちも大きい！　クスクルの【貫通射】は魔王の結界を何層も一気に削っていきます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王「これが……勇者の力だというのか……！！」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>あんまりダイスが走らなかったにゅぅ～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それでも両者あわせて４７ダメージ！　魔王の残り【LIFE】は３３です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王の【LIFE】算出ほんとにこれで合ってんの！？　って４日目は勇者数×４０だから合ってるなあ……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>反撃かもーん。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ではお二人は、魔王からの反撃として　【反撃ダメージ】　６＋火炎３　　毎ターン【ST】－１　を受けてください！　１人ずつやると忘れるので、今後も攻撃処理終了時に一斉にやりますね。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【反撃ダメージ】は６で、「装甲」で－３　弓矢の効果で－２の、火炎分の３が素通しで、結局【LIFE】４しか減らないー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>つよ！</div>
+<div class="box"><B>◆【反撃ダメージ】の属性</B>
+<BR>
+<BR>　敵の【反撃ダメージ】には属性ダメージが設定されている場合があります。魔王は６点分の「属性なしダメージ」と、３点分の「火炎属性ダメージ」を放ってくるのですが、「装甲」で防げるのは「属性なしダメージ」の分だけで、「火炎属性ダメージ」は特殊な装備でないと防げません。
+<BR>
+<BR>　ちなみに、ロリアの【火炎のシルバーランス】も「装甲」無視の火炎属性ダメージになっているのですが、「装甲」を持っている敵が出てきていないので、今のところ有効活用されていません。</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ＧＭ、【シルバーランス】のダメージ減少でも１は残るんですよね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>はい、【シルバーランス】は属性なしダメージ分を減らせますが、最低１残ります！　火炎ダメージは減らせません。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>じゃあほぼ「装甲」＋１って考えたらいいんですね。「装甲」が２＋１＋１＋１なのでダメージは１＋火炎３の【LIFE】４減りました。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>忘れず【ST】も１減らしておいてくださいねー。魔王との戦いでは、疲れて１攻撃ごとに【ST】が１ずつ減っていきます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【LIFE】１５→１１、【ST】３→２！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【LIFE】１３→９、【ST】５→４！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ううーん非常に優勢なこの状況！　シースのテンションがちょっと上がっています！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>これ【おいしいお弁当】を食べなくても良いのでは。【グレートウォール】使うまでもなくダメージ下限だし……。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>せーの、で殴ったらこのターンで終わりそうだね～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「でも攻撃判定に失敗するとダメージは与えられずに一方的にこっちがダメージ受けちゃうから、戦闘が長引くよ！　気を引き締めて！」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>では２攻撃目です！　攻撃判定して下さい！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>というわけでこのまま殴りましょう、【覚醒】も残ってますし。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ロリア、どうぞー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「一気に片をつけます！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>２Ｄ６＋２>＝８ 攻撃判定！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (5＋6) ＋ 2 </B>＝ <B class=dc>13</B>　<B id=dsuc>　+5成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ブフー！　出目１１って無駄な主人公力！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>にゃふふー【貫通射】を使いますー。【ST】４→【ST】１！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>２Ｄ６＋６>＝８ 攻撃判定(敏捷・弓)！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (3＋2) ＋ 6 </B>＝ <B class=dc>11</B>　<B id=dsuc>　+3成功！</B></div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>今回もお二人とも攻撃成功！　ダメージ算出してください！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はあああああ！！」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>３Ｄ６＋７＋２＋３ 【火炎のシルバーランス】で攻撃！
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (6＋1＋3) ＋ 12 </B>＝ <B class=dc>22</B>　ダメージ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアの燃えさかる槍の一撃が魔王の結界を破っていきます！　あと少し！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>魔王の【LIFE】、残り１１点！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>４Ｄ６＋７＋１ 【狩人の弓】で攻撃！　貫通射付き
+<BR>　 　<B>(ｺﾛｺﾛ…)   ダイス (2＋2＋1＋2) ＋ 8 </B>＝ <B class=dc>15</B>　ダメージ！</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>ダメージが酷いダイス目だけどたぶん倒したよー、あはははは～。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>十分！　狙い澄ましたクスクルの矢が魔王の胸に飛翔します！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>その矢は最後の結界を突き破り……魔王の体ごと貫通しました！
+<BR>魔王の残り【LIFE】は１１→－４へ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ﾊﾟﾘｰﾝ。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>魔王は最後に少し笑ったような表情を見せると、そのまま大地に落ち、地面に伏しました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>辺りに、静寂が訪れます。</div>
+<BR>
+<H2 class=gradientAmini>-　４日目南エリア　勝利後</H1>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ということでおめでとうございます、お二人は魔王を討伐しました！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>背後を振り返ると、これまで追いかけ続けてきていた『闇』も動きを止めているように見えます！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>世界は救われたのです！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>さあ喜びのロールプレイをどうぞ！　（ここから落としますので）それはもう大喜びで！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「はあ、はあ……おわった、の……？」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シースの顔に笑顔が浮かんでいます。安全であることが分かったら、ロリアに抱きついたりしてきますね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「うわ、ちょ、シースさん」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「タクーシ、ボクはやったよ。タクーシの代わりに魔王をクンカクンカしておくからね、成仏してね」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>夕暮れにサムズアップしているタクーシの顔が浮かんでいます！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>タクーシ「ああ、ロリア隊長の尻尾のにおいも……頼むであります……！（白い歯を見せながら）」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「タクーシの遺言だからロリアの尻尾もクンカクンカしておかなきゃ！」</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>剣の鞘をクスクルに投げる。</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>炎をまとったランスをタクーシに当てる。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>剣を持っていないけど鞘は持っているのかー。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>なんで鞘だけあるんだ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>イーリス「鞘を捨てるとは勝負をすてたも同然よ！」 ※剣がない</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>あ、さっき出会った耳長のＮＰＣっておじいさんですか？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>特に決めてませんのでおじいさんでいいですよ。彼もやってきて何か言うのかもしれません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>耳長のあるじ「世界は……救われたのですね……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ボクが救いました！　カワイイから仕方ない！」</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>とりあえず、救った世界を旅して歩こう、って狭っ！！！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>残り１０ｋｍくらいの縦に長い世界が残されたのみ！　街もなし！　切ない！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「とりあえず、生存者を集めましょう。何をするにもこれからです」</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「……ですが今は、少し、休みましょうか。張り詰めていたせいか、かなり、疲れました……はぁー」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>シース “そうですね……私もこんな偉大なことを目の当たりにできたなんて幸せです……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>空に浮かぶタクーシ「（クスクル殿……ロリア隊長を守りぬいてくれてありがとうであります！）」</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>……さて、そのときです。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ざわざわ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>突然、２人の頭の中におぞましい声が聞こえます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>“ミツケタゾ……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>それは『闇』の中から聞こえてきたような気がしました。あなたがたがもう一度『闇』の方を見ると……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>なんと！　『闇』はこれまでより激しい勢いで大地を呑み込み始めているではありませんか！　まるで漆黒の壁のような闇の嵐は、みるみるうちにあなたがたの場所へ迫ってきます！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「な、そん……」</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>わーん、このキャンペーン、バグってるよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>（最期に、ＮＰＣあるいはＰＣに対して何か一言ありますか？　一言二言くらいなら言い残せますよ！）</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>「みんな逃げ――」　言い残せなかった！</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>「ボクは通りすがりのアライグ――」</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ゴォォォォォ─── ッ！！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアたちが何かを言い切る前に、その場にいた全員は、魔王の遺体ごとあっけなく闇の嵐に呑まれてしまいました……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>こうして、この『ファーストワールド』の世界は完全に闇に包まれてしまいます。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>もはや人間もまともな動物も存在することのない、寂しくて悲しい世界……。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>次元全体を俯瞰してみれば、そうなってしまった世界は特に珍しくないのかもしれません。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>でもこの世界は、なぜか魔王を倒したのに救われることのなかった世界でした。</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>２人の勇者の『魂』は謎の強い力に引きずられ、次元を越えてどこか別の世界へと吸い寄せられていきます。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>果たして、ロリアとクスクルの運命は……。</div>
+<BR>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>－　第１話　『騎士と狩人』　終　－</div>
+<BR>
+<a name=S8></a><H1 class=gradientA>終わりに</H1>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>お疲れ様でしたー！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>と、いうことで第１話、無事終了でーす！　ワーワーピピー！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>想定よりちょっと長くなっちゃいましたね、お疲れ様でした！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>夜行動もがっつりやりましたからねー、慣れた人達の４日の旅で４時間半かー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>そうですねー。テキストのオンラインセッションで１日あたり１時間くらいかなと思ってましたが、夜行動の探索の分だけ伸びる感じですね。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>今回描写もちゃんとしたから普段は１日１時間見積もりで良さそうです。</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>ちゃんとした描写ってログのどこにありますか？　←主にちゃんとしていない人</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それＴＲＰＧの全ての卓で使える痛い一言になりそう！　ガハハ！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>プロローグからの描写とかそれなりにやりましたよ！</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ですねー。テストではやらなかったオープニングも入れましたので、よくあるＴＲＰＧっぽい感じになったかもしれません。ルール通りにやるならばオープニングは不要なので、「えっここまで準備しないとダメなの？」とお思いの読者の方はご安心ください！　片道勇者ＴＲＰＧはお手軽です！</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>しかし、ＰＣが誰か死ぬとドラマチックかなーと思ってたら、まさか執拗な魔王の攻撃でタクーシが燃えるとは！！　あっけなかった……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>あと、今回個人的にありえなかったのは２人が一回も判定でミスらなかったところ！！　どんな豪運！！</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ねー自分でもびっくりです。</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【伝説Ｐ】算出とかは次回プレイ開始時にやるんですかね？</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>データが残っているうちにやっちゃいましょう！　えーと……。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>クエストはふたりとも達成、と。</div>
+<div class="box">ロリアの報酬：　【伝説Ｐ】４０Ｐ　＋　特徴【強そうな】をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアさんはシースを守り抜いたことにより、ロリアの中で「強くあることの意味」を見いだし、次から少し強くなれます！　おめでとう！</div>
+<div class="box">クスクルの報酬：　【伝説Ｐ】３０点　＋　特徴【エッチな】をアンロック</div><div id=com>　</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>タクーシ「わたくしめのエッチ力……あなたに預けましたぞ、クスクル殿ーーーーーッ！」</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>クエストボーナスの【伝説Ｐ】は公式よりもかなり増し増しにしてます。どんどん強くなってどんどんインフレしながら終わりましょう。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>んで今回の伝説ポイントは……。</div>
+<div class="box"><B>【クスクルの伝説Ｐ】</B>　計９６Ｐ
+<BR>　レベル：７　　　　→２０Ｐ
+<BR>　所持金：０シルバ　→ ０Ｐ
+<BR>　経過日数：４日　　→４Ｐ
+<BR>　獲得好意：２Ｐ　　　→２Ｐ　（タクーシの分も込み）
+<BR>　世界の果て：×
+<BR>　魔王を倒した：○　　→３０Ｐ
+<BR>　クエスト達成：○　　→４０Ｐ</div><div id=com>　</div>
+<div class="box"><B>【ロリアの伝説Ｐ】</B>　計９６Ｐ
+<BR>　レベル：７　　　　→２０Ｐ
+<BR>　所持金：１１０１シルバ　→ １０Ｐ
+<BR>　経過日数：４日　　→４Ｐ
+<BR>　獲得好意：２Ｐ　　　→２Ｐ　（シースの分も込み）
+<BR>　世界の果て：×
+<BR>　魔王を倒した：○　　→３０Ｐ
+<BR>　クエスト達成：○　　→３０Ｐ</div><div id=com>　</div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>【伝説Ｐ】は初期２０＋獲得９６点の１１６点です。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>【伝説Ｐ】は９６Ｐ＋初期ボーナスの２０Ｐで１１６Ｐ！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>ＧＭー、【半獣の理術士シース】は次元倉庫に入りますかー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>入りません！　アイテム説明には「次元倉庫に入らない」って書いてます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>ほんとだ！　闇に呑まれてしまった。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>しかしシースはこのキャンペーンで次元倉庫を使えるようにしてくれる重要人物ですので、次元倉庫に入れなくても存在し続けます。ご安心ください。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>了解しました。アンロックするのは以下の通りです。</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>「特徴枠３つ」へ拡張：８０点消費</div>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>　【伝説Ｐ】は１１６→３６Ｐへ！</div>
+<BR>
+<div id=nm><font class=c1><B></B></font></div><div id=tx class=ct1>そして【火炎のシルバーランス】と【おいしいお弁当】を次元倉庫に。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>ロリアが「これは残しておきたい……！」と願ったアイテムが、誰かの手によって守られるのを感じます。それはシースの魂でした……。</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>シース“ロリアさんたちの大切なものは……私が守りますから……”</div>
+<BR>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>ロリアにはそんな声が聞こえたような気がしました……アイテムは彼女の手によって無事守られます。</div>
+<div id=nm><font class=c1><B>ロリア</B></font></div><div id=tx class=ct1>よかった、【大きな石】や【癒しの草】を守る女性はいなかったんだ……。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>それテスト時のクスクルさんじゃないですか！</div>
+<div id=nm><font class=c0><B></B></font></div><div id=tx class=ct0>　<FONT class="cc">※テストだからといってクスクル氏は【大きな石】を次元倉庫に入れていた。</FONT></div>
+<div id=nm><font class=c2><B>クスクル</B></font></div><div id=tx class=ct2>特徴【荷物整理術】をアンロック：８０点消費
+<BR>　【伝説Ｐ】は１１６→３６Ｐへ。</div>
+<BR>
+<div id=nm><font class=c2><B></B></font></div><div id=tx class=ct2>次元倉庫には【堅固な騎士のコート】【癒しのアンプル】を預けますよー。</div>
+<div id=nm><font class=c0><B>ＧＭ</B></font></div><div id=tx class=ct0>かしこまりました！　お二人は次回お休みとなりますので、出番は少々先となります。ご容赦ください。
+<BR>
+<BR>それでは、長くなってしまいましたが、本日もありがとうございましたー！</div>
+<div id=nm><font class=c5><B>一同</B></font></div><div id=tx class=ct5>ありがとうございましたー！</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com><font id=CC2>　理不尽な死を遂げたロリアとクスクル。彼らは一体何に『見つかって』しまったのでしょうか？　それが語られるのは、次のお話が終わってから……。</font></div>
+<div id=com_hira>　</div>
+<div id=com><font id=CC2>　次回は別世界『セカンドワールド』にいる２人の主人公、『剣士』ともう１人の物語が語られます。お楽しみに！</font></div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<table class="box"><tr><td><img src="image_newkatamichi/PC_99_icon.png"></td>
+<td><font class="ct0"><B>ＧＭからＣＭコーナー</B>
+<BR>
+<BR>　ここまで読んでくださってありがとうございます！
+<BR>　今回から遊んでいく『片道勇者ＴＲＰＧ』は、原作フリーゲーム『片道勇者』のエッセンスをそのままに、初心者様にも遊びやすいものに仕上げられたＴＲＰＧルールです！
+<BR>　私が参加したリプレイも収録されており、さらにキャンペーン部分は設定資料集的な読み物としても楽しめる一冊！　無印版の仲間キャラたちも勢揃い！　ということで、興味がある方はぜひどうぞ！　→</font></TD><TD align="center"><A href="http://amzn.to/2aZMev0" target="_blank" class="red"><IMG border="1" src="image_newkatamichi/banner_katamichi_trpg.jpg"><BR><small><small>片道勇者ＴＲＰＧ
+<BR>（Amazonペ－ジ） </small></small></td></tr></table><div id=com>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<BR><!-- FC2拍手タグここまで -->　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com_hira>　</div>
+<div id=com_hira>続きはこちら！ → <a href="Replay_KatamichiTRPG_02.shtml" class=red><font size=+2>第２話『剣士と詩人』へ</font></a>　</div>
+<div id=com_hira>　</div>
+<HR class=line><div id=com>　</div><div id=com>　</div>
+<div id=com_hira>　</div>
