@@ -6,12 +6,22 @@
 <TITLE>Silver Second 思い出の部屋　- SmokingWOLFのアーカイブサイト -</TITLE>
 <script src="./smoothscroll_up.js" type="text/javascript"></script> 
 
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+<meta property="og:title" content="Silver Second 思い出の部屋　- SmokingWOLFのアーカイブサイト -" />
+<meta property="og:description" content="ここはゲーム開発者 SmokingWOLFが作成したコンテンツをアーカイブしたページです。ゲーム作品、制作の軌跡、イラストやテキストコンテンツが保存されています。" />
+<meta property="og:image" content="https://smokingwolf.github.io/ogp_image.jpg" />
+<meta property="og:url" content="https://smokingwolf.github.io/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary">
+
+
 <link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
 <script type="text/javascript" src="./litebox/js/prototype.js"></script>
 <script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
 <script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
-
-<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 <style>
 html {
@@ -43,12 +53,12 @@ body {
   width: 200px;
   border-radius: 120px 120px 9px 9px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
   background: #ffffff;
   position: relative;
   flex-shrink: 0;
   align-self: flex-start; 
-  border: 1px solid #999;
+  border: 1px solid #ccf;
 }
 
 
@@ -66,10 +76,12 @@ body {
 
 
 .screenshot-wrapper {
+  border-radius: 119px 119px 4px 4px;
   position: relative;
   height: 144px;
   overflow: hidden;
   cursor: pointer;
+  border:3px solid #55f;
 }
 
 .screenshot-wrapper img.screenshot {
@@ -87,12 +99,47 @@ body {
 .screenshot-wrapper img.active {
   opacity: 1;
 }
+.screenshot-wrapper:HOVER,.screenshot-wrapper:ACTIVE {
+  opacity: 0.8;
+}
 
 
+
+
+.screenshot-wrapper_nolink {
+  border-radius: 119px 119px 4px 4px;
+  position: relative;
+  height: 144px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.screenshot-wrapper_nolink img.screenshot {
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.screenshot-wrapper_nolink img.active {
+  opacity: 1;
+}
+.screenshot-wrapper_nolink:HOVER,.screenshot-wrapper_nolink:ACTIVE {
+  opacity: 1;
+}
+
+
+/*
 .screenshot-wrapper:hover{
-  outline: 2px solid #20c997; /* 青緑のアウトライン */
+  outline: 2px solid #20c997;
 
 }
+*/
 
 
 .logo-overlay {
@@ -876,7 +923,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <span class="backlight">
 <span style="color:#55a;">　SmokingWOLFが開発した、フリーゲーム(無料ゲーム)、有料作品を含む主要なゲーム作品です。<BR>　ダウンロード版はすべてWindows用ですが、一部はブラウザ版もあります。</span><BR><BR>
 　←↑ New (代表作/人気作優先)　　↓→ Old<BR>
-　　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[ゲーム名]クリックで詳細ページに移動します。</span>
+　　　<span style="color:#aaf;">[画面写真]か[ゲーム名]クリックで詳細ページに移動します。</span>
 </span>　　　
 <BR><BR>
 　
@@ -885,6 +932,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="./game_one_way_heroics_plus/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/oneway_hecoics_plus_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_plus_sc02.jpg" alt="SS2">
@@ -894,6 +942,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">人気作！ / 有料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title-red">
       <a href="./game_one_way_heroics_plus/" style="line-height:1em;">片道勇者プラス<BR><span style="font-size:0.7em" class="game-title-mini">[ 強制スクロールRPG ]</span></a>
     </div>
@@ -910,6 +959,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+    <a href="./game_one_way_heroics/" >
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/oneway_hecoics_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/oneway_hecoics_sc02.jpg" alt="SS2">
@@ -920,6 +970,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">代表作！ / </B><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="./game_one_way_heroics/" style="line-height:1em;">片道勇者<BR><span style="font-size:0.7em" class="game-title-mini">[ 強制スクロールRPG ]</span></a>
     </div>
@@ -937,6 +988,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="./game_silfade_gensoutan/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/silfade_gensou_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/silfade_gensou_sc02.jpg" alt="SS2">
@@ -945,6 +997,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="screenshot-indicator"></div>
       <div class="logo-overlay" style="color:#fff;left:-20px;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">代表作！ / </B><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="./game_silfade_gensoutan/" style="line-height:1em;">シルフェイド<ruby>幻想譚<rt>げんそうたん</rt></ruby><BR><span style="font-size:0.7em" class="game-title-mini">[ 半フリーシナリオRPG ]</span></a>
     </div>
@@ -964,6 +1017,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="./game_planet_howl/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/planethowl_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/planethowl_sc02.jpg" alt="SS2">
@@ -973,6 +1027,8 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
+   
     <div class="game-title">
       <a href="./game_planet_howl/" style="line-height:1em;">プラネットハウル<BR><span style="font-size:0.7em" class="game-title-mini">[ 変則操作マウスアクション ]</span></a>
     </div>
@@ -990,6 +1046,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
   <div class="game-card">
+   <a href="game_silfade_gakuin/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/silfade_gakuin_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/silfade_gakuin_sc02.jpg" alt="SS2">
@@ -1000,6 +1057,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">有料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title-red">
       <a href="game_silfade_gakuin/" style="line-height:1em;">シルフェイド<ruby>学院<rt>がくいん</rt></ruby>物語<BR><span style="font-size:0.7em" class="game-title-mini">[ 育成シミュレーション ]</span></a>
     </div>
@@ -1016,6 +1074,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
   <div class="game-card">
+   <a href="./game_sylph_dragoon_zero/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/sylph_dragoon_zero_sc01.gif" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/sylph_dragoon_zero_sc02.gif" alt="SS2">
@@ -1023,6 +1082,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="./game_sylph_dragoon_zero/" style="line-height:1em;">シルフドラグーンゼロ<BR><span style="font-size:0.6em" class="game-title-mini">[ マウス+キーボード全方位STG ]</span></a>
     </div>
@@ -1043,6 +1103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="./game_monolith_sphere/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/monolith_sphere_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/monolith_sphere_sc02.jpg" alt="SS2">
@@ -1051,6 +1112,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="./game_monolith_sphere/" style="line-height:1em;">モノリスフィア<BR><span style="font-size:0.7em" class="game-title-mini">[ マウスアクションゲーム ]</span></a>
     </div>
@@ -1068,6 +1130,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="game_silhouette_note/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/silhouette_note_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/silhouette_note_sc02.jpg" alt="SS2">
@@ -1078,6 +1141,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #f11,0 0 10px #f11,0 0 10px #f11;">有料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title-red">
       <a href="game_silhouette_note/" style="line-height:1em;">シルエットノート<BR><span style="font-size:0.7em" class="game-title-mini">[ コマンド選択ADV ]</span></a>
     </div>
@@ -1095,6 +1159,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   <div class="game-card">
+   <a href="./game_silfade_kenbunroku/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/silfade_kenbun_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/silfade_kenbun_sc02.jpg" alt="SS2">
@@ -1103,6 +1168,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="logo-overlay" style="color:#fff;"><B style="text-shadow:0 0 10px #11f,0 0 10px #11f,0 0 10px #11f;">無料ゲーム</B></div>
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="./game_silfade_kenbunroku/" style="line-height:1em;">シルフェイド<ruby>見聞録<rt>けんぶんろく</rt></ruby><BR><span style="font-size:0.7em" class="game-title-mini">[ コマンド選択式ADV ]</span></a>
     </div>
@@ -1133,7 +1199,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 <h1>　ゲーム開発ツール　- Game Development Software -</h1>
 <span class="backlight">SmokingWOLFが開発した、ゲーム開発ツールや支援ツール、その関連コンテンツです。<BR><BR>
 　←↑ New　　↓→ Old　<BR>
-　　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。</span>
+　　　<span style="color:#aaf;">[画面写真]か[タイトル]クリックで詳細ページに移動します。</span>
 </span>　　　
 <BR><BR>
 
@@ -1143,6 +1209,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   
 
 <div class="game-card">
+<a href="./tool_wolf_rpg_editor/">
 <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
   <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_sc01.jpg" alt="SS1">
   <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_sc02.jpg" alt="SS2">
@@ -1151,6 +1218,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
   <div class="screenshot-indicator"></div>
 </div>
+</a>
 <div class="game-title">
   <a href="./tool_wolf_rpg_editor/" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR><span style="font-size:0.6em" class="game-title-mini">[ ゲーム開発ツール ] ｱｰｶｲﾌﾞﾍﾟｰｼﾞへ</span></a>
 </div>
@@ -1167,12 +1235,15 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
 <div class="game-card">
+<a href="./tool_wolf_rpg_editor_translation/">
 <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
   <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_translation_tool_sc01.jpg" alt="SS1">
   <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_translation_tool_sc02.jpg" alt="SS2">
   <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
   <div class="screenshot-indicator"></div>
 </div>
+</a>
+
 <div class="game-title-redred">
   <a href="./tool_wolf_rpg_editor_translation/" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR>翻訳サポートツール<BR><span style="font-size:0.7em" class="game-title-mini">[ ウディタ支援ツール ] 説明書へ</span></a>
 </div>
@@ -1190,6 +1261,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
 <div class="game-card">
+<a href="./wolf_rpg_editor_contest">
 <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
   <img loading="lazy" class="screenshot active" src="top_image/wolf_rpg_editor_contest_sc01.jpg" alt="SS1">
   <img loading="lazy" class="screenshot" src="top_image/wolf_rpg_editor_contest_sc02.jpg" alt="SS2">
@@ -1199,6 +1271,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
   <div class="screenshot-indicator"></div>
 </div>
+</a>
 <div class="game-title">
   <a href="./wolf_rpg_editor_contest" style="line-height:1em;font-size:16px;">WOLF RPGエディター<BR>コンテスト歴史資料館<BR><span style="font-size:0.7em" class="game-title-mini">[ ウディタ作品コンテストの記録 ]</span></a>
 </div>
@@ -1224,21 +1297,22 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 <span class="backlight">SmokingWOLFが執筆した、ゲーム開発にかかわる電子書籍です。<BR>どれもAmazon Kindleで販売されています。<BR><BR>
 　←↑ New　　↓→ Old　<BR>
-　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。</span>
+　　<span style="color:#aaf;">[画面写真]か[タイトル]クリックで詳細ページに移動します。</span>
 </span>
 <BR>
 　
 <div class="container">
 
   
-  <div class="game-card">
-    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+  <div class="game-card"><a href="./ebook_map_of_game_dev/"><div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/map_of_game_dev_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/map_of_game_dev_sc02.jpg" alt="SS2">
       <img loading="lazy" class="screenshot" src="top_image/map_of_game_dev_sc03.jpg" alt="SS3">
       <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
+   
     <div class="game-title-red">
       <a href="./ebook_map_of_game_dev/" style="line-height:1em;">ゲーム開発者の地図 <BR><span style="font-size:0.6em">～20年の個人開発から学んだこと～</span><BR><span style="font-size:0.6em" class="game-title-mini">[ ゲーム開発ノウハウ本 ] 紹介へ</span></a>
     </div>
@@ -1255,6 +1329,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   
   
   <div class="game-card">
+   <a href="./ebook_one_way_heroics_making/">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/oneway_heroic_making_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/oneway_heroic_making_sc02.jpg" alt="SS2">
@@ -1263,6 +1338,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
       <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title-red">
       <a href="./ebook_one_way_heroics_making/" style="line-height:1em;">片道勇者 開発記<BR><span style="font-size:0.8em">～四年の<ruby>旅<rt>たび</rt></ruby><ruby>路<rt>じ</rt></ruby>～</span><BR><span style="font-size:0.6em" class="game-title-mini">[ 片道勇者に関わる記録集 ] 紹介へ</span></a>
     </div>
@@ -1293,13 +1369,14 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 <span class="backlight">SmokingWOLFが開発した小さなゲームや、Windows以外の作品です。公開終了作品も含みます。<BR><BR>
 　←↑ New　　↓→ Old<BR>
-　　<span style="color:#aaf;">[画面写真]クリックで次の画像に。中段の[タイトル]クリックで詳細ページに移動します。<BR>
+　　<span style="color:#aaf;">[画面写真]か[タイトル]クリックで詳細ページに移動します。<BR>
 　　「直接ダウンロード」の作品はすべてWindows用ゲームです。<BR>　</span>
 </span>　
 <div class="container">
 
   
   <div class="game-card2">
+   <a href="etc_games/Cliff_Abyss.html">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/cliff_abyss_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/cliff_abyss_sc02.gif" alt="SS2">
@@ -1307,6 +1384,8 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
       <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
+   
     <div class="game-title">
       <a href="etc_games/Cliff_Abyss.html" style="line-height:1em;">クリフ深淵録 <BR><span style="font-size:0.6em" class="game-title-mini">携帯アプリ[公開終了] / 紹介へ</span></a>
     </div>
@@ -1320,12 +1399,14 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   
   
   <div class="game-card2">
+   <a href="etc_games/shephard.html">
     <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/shephard_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/shephard_sc02.jpg" alt="SS2">
       <!--<img loading="lazy" class="logo-overlay" src="logo.png" alt="ロゴ">-->
       <div class="screenshot-indicator"></div>
     </div>
+   </a>
     <div class="game-title">
       <a href="etc_games/shephard.html" style="line-height:1em;font-size:0.9em;">シェパード捜査録<BR><span style="font-size:0.65em" class="game-title-mini">携帯アプリ[公開終了] / 紹介へ</span></a>
     </div>
@@ -1337,7 +1418,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
   <div class="game-card2">
-    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+    <div class="screenshot-wrapper nolink" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/cliff_dungeon_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc02.jpg" alt="SS2">
       <img loading="lazy" class="screenshot" src="top_image/cliff_dungeon_sc03.jpg" alt="SS3">
@@ -1369,7 +1450,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
   <div class="game-card2">
-    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+    <div class="screenshot-wrapper nolink" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/legend_of_restor2_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/legend_of_restor2_sc02.jpg" alt="SS2">
       <img loading="lazy" class="screenshot" src="top_image/legend_of_restor2_sc03.jpg" alt="SS3">
@@ -1395,7 +1476,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   
   
   <div class="game-card2">
-    <div class="screenshot-wrapper" onclick="advanceScreenshot(this)">
+    <div class="screenshot-wrapper　nolink" onclick="advanceScreenshot(this)">
       <img loading="lazy" class="screenshot active" src="top_image/legend_of_restor1_sc01.jpg" alt="SS1">
       <img loading="lazy" class="screenshot" src="top_image/legend_of_restor1_sc02.jpg" alt="SS2">
       <img loading="lazy" class="screenshot" src="top_image/legend_of_restor1_sc03.jpg" alt="SS3">
@@ -1586,7 +1667,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 </div>
 
 <div class="content-card2">
-<a href="etc_data/chara_reference.html">
+<a href="etc_data/chara_reference.html" target="_blank">
  <div class="name-overlay"><B>キャライラスト資料集<BR>(全作品/二次創作用)</B></div>
 <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
   <img loading="lazy" class="content-screenshot" src="etc_data/reference/reference.jpg">
@@ -1597,7 +1678,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
 <div class="content-card2">
-<a href="illust_image/illust_junk3.htm">
+<a href="illust_image/illust_junk3.htm" target="_blank">
  <div class="name-overlay"><B>落書きｲﾗｽﾄ集3(50枚)</B><BR>2013～2016年分</div>
 <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
   <img loading="lazy" class="content-screenshot" src="illust_image/junk3/illust_junk3.jpg">
@@ -1607,7 +1688,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 </div>
 
 <div class="content-card2">
-<a href="illust_image/illust_junk2.htm">
+<a href="illust_image/illust_junk2.htm" target="_blank">
  <div class="name-overlay"><B>落書きｲﾗｽﾄ集2(32枚)</B><BR>2009～2013年分</div>
 <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
   <img loading="lazy" class="content-screenshot" src="illust_image/junk2/illust_junk2.jpg">
@@ -1618,7 +1699,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 
 <div class="content-card2">
-<a href="illust_image/illust_junk.htm">
+<a href="illust_image/illust_junk.htm" target="_blank">
  <div class="name-overlay"><B>落書きｲﾗｽﾄ集1(46枚)</B><BR>2003～2009年分</div>
 <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
   <img loading="lazy" class="content-screenshot" src="illust_image/junk1/illust_junk1.jpg">
@@ -2166,7 +2247,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">Youtube<BR>チャンネル</B><BR>(常に更新)</div>
   <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f00;">
     <a href="https://www.youtube.com/@SilSecCh/featured">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_youtube.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_youtube.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2179,7 +2260,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">ニコニコ動画<BR>全作品</B><BR>(常に更新)</div>
   <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
     <a href="https://www.nicovideo.jp/user/82686/video" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_niconico.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_niconico.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2191,7 +2272,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">片道勇者ノベライズ 裏資料<BR>(全8話ﾘｽﾄへ)</B><BR>2020/09/25</div>
   <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f00;">
     <a href="https://www.youtube.com/playlist?list=PLZdkTZhyqNddwBf0DUAhfMy35nmNRWg--" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2203,7 +2284,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">片道勇者ノベライズ 裏資料<BR>(全8話ﾘｽﾄへ)</B><BR>2020/09/25</div>
   <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
     <a href="https://www.nicovideo.jp/user/82686/mylist/68392787" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2217,7 +2298,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">開発者が遊ぶ<BR>Switch版<BR>片道勇者プラス<BR>(全2回)</B><BR>2020/07/03</div>
   <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
     <a href="https://www.youtube.com/watch?v=RFYK-im1Pcs" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2229,7 +2310,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">開発者が遊ぶ<BR>Switch版<BR>片道勇者プラス<BR>(全2回)</B><BR>2020/07/03</div>
   <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
     <a href="https://www.nicovideo.jp/watch/sm37124790" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202007.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2245,7 +2326,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">原作者が遊ぶ<BR>『振リ返リマセン勝ツマデハ』<BR>(全3回)</B><BR>2015/07/26</div>
   <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
     <a href="https://www.youtube.com/watch?v=hPU82rk68FI" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2258,7 +2339,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">原作者が遊ぶ<BR>『振リ返リマセン勝ツマデハ』<BR>(全3回)</B><BR>2015/07/26</div>
   <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
     <a href="https://www.nicovideo.jp/watch/sm26794526" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_201507.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2273,7 +2354,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">隠しボス攻略動画 『モノリス様ブチ切れ物語』</B><BR>2009/05/14</div>
   <div class="illust-wrapper" style="border:2px solid #f55; box-shadow:0 0 8px #f55;">
     <a href="https://www.youtube.com/watch?v=lOQ-b0xtnYI" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2286,7 +2367,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B style="display: block; margin-bottom:-8px;">隠しボス攻略動画 『モノリス様ブチ切れ物語』</B><BR>2009/05/14</div>
   <div class="illust-wrapper2" style="border:2px solid #fa5; box-shadow:0 0 8px #f85;">
     <a href="http://www.nicovideo.jp/watch/sm6921898" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_200905.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2491,9 +2572,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 <div class="container">
 
 
-<div class="content-card-red" style="width:130px;">
-   <a href="https://www.amazon.co.jp/dp/B0977PKMPW" target="_blank" style="text-decoration:none;">
-   <div class="screenshot-wrapper" onclick="advancecontent-screenshot(this)" style="height:130px;">
+<div class="content-card-red" style="width:130px;"><a href="https://www.amazon.co.jp/dp/B0977PKMPW" target="_blank" style="text-decoration:none;"><div class="screenshot-wrapper" onclick="advancecontent-screenshot(this)" style="height:130px; border:0px solid #000;">
       <img loading="lazy" class="screenshot active" src="etc_data/ryodan_replay_sc01.jpg" alt="SS1" style="height:130px;">
       <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc02.jpg" alt="SS2"style="height:130px;">
       <img loading="lazy" class="screenshot" src="etc_data/ryodan_replay_sc03.jpg" alt="SS3"style="height:130px;">
@@ -2578,7 +2657,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
   <B>旅団世界ﾘﾌﾟﾚｲ 『見習いたちの旅団講習』</B><BR>(動画/全2回)<BR>2022/08/20～</div>
   <div class="illust-wrapper" style="border:2px solid #f00; box-shadow:0 0 8px #f85;">
     <a href="https://www.youtube.com/watch?v=vHI5hz1L15s" target="_blank">
-      <img loading="lazy" class="illust_image" src="etc_data/movie_202009_trpg.jpg">
+      <img loading="lazy" class="illust_image" src="etc_data/movie_202009_trpg.jpg" target="_blank">
     </a>
   </div>
 </div>
@@ -2627,7 +2706,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 <div class="content-card2">
    <a href="gift_illust/illust_gallery2019_05/" style="text-decoration:none;">
-   <div class="name-overlay" style="top:60px;"><B>2011/11～2019/05</B><BR>お絵かき掲示板集 [18]<BR>(99枚/最終回)</div>
+   <div class="name-overlay" style="top:60px;"><B>2011/11～2019/05</B><BR>お絵かき掲示板集 [18]<BR>(98枚/最終回)</div>
    <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
    <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2019_05/thumb.jpg">
    </div>
@@ -2737,7 +2816,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 <div class="content-card2">
    <a href="gift_illust/illust_gallery2007_05/" style="text-decoration:none;">
-   <div class="name-overlay" style="top:60px;"><B>2007/03～2007/05</B><BR>お絵かき掲示板集 [11]<BR>(100枚)</div>
+   <div class="name-overlay" style="top:60px;"><B>2007/03～2007/05</B><BR>お絵かき掲示板集 [11]<BR>(99枚)</div>
    <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
    <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2007_05/thumb.jpg">
    </div>
@@ -2800,7 +2879,7 @@ RPGツクール2000作品(RTP不要)<BR>プレイ時間：<B>3時間ほど</B>
 
 <div class="content-card2">
    <a href="gift_illust/illust_gallery2005_12/" style="text-decoration:none;">
-   <div class="name-overlay" style="top:60px;"><B>2005/10～2005/12</B><BR>お絵かき掲示板集 [6]<BR>(100枚)</div>
+   <div class="name-overlay" style="top:60px;"><B>2005/10～2005/12</B><BR>お絵かき掲示板集 [6]<BR>(99枚)</div>
    <div class="content-screenshot-wrapper" onclick="advancecontent-screenshot(this)">
    <img loading="lazy" class="content-screenshot" src="gift_illust/illust_gallery2005_12/thumb.jpg">
    </div>
@@ -3055,7 +3134,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function resetScreenshotInterval() {
   clearInterval(screenshotInterval);
-  screenshotInterval = setInterval(changeAllScreenshots, 3000);
+  screenshotInterval = setInterval(changeAllScreenshots, 2000);
 }
 
 // スクリーンショットを次に切り替える関数（クリック時）
@@ -3083,7 +3162,7 @@ function advanceScreenshot(wrapper) {
   // クリックや自動切り替え時にも “独自タイマー” をリスタートさせたい場合は以下を追加
   if (!wrapper.matches(':hover')) {
     clearInterval(wrapper._intervalId);
-    wrapper._intervalId = setInterval(() => advanceScreenshot(wrapper), 3000);
+    wrapper._intervalId = setInterval(() => advanceScreenshot(wrapper), 2000);
   }
   // グローバルリセットは不要なのでコメントアウト or 削除
   // resetScreenshotInterval();
