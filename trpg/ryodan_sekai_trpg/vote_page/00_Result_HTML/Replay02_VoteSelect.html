@@ -90,7 +90,7 @@ function all_redraw(){
     })
     .then(text => {
       if (text.trim() === 'SILVERSECOND_ALIVE!') {
-        statusDiv.innerHTML = '<a href="https://silversecond.net/contents/game/TRPG/ryodan_sekai_trpg/vote_page/ninki_vote.cgi?VOTE=Replay02_U7T4AVNJ1TQVZG"><B style="font-size:24px;">【投票ページへ】</B></a><BR><span style="color:#a99;font-size:14px;">現在でも受付可能です！　投票コメントはプレイヤーたちに届けられます。</span';
+        statusDiv.innerHTML = '<a href="https://silversecond.net/contents/game/TRPG/ryodan_sekai_trpg/vote_page/ninki_vote.cgi?VOTE=Replay02_U7T4AVNJ1TQVZG"><B style="font-size:24px;">【投票ページへ】</B></a><BR><span style="color:#a99;font-size:14px;">現在でも受付可能です！<BR>投票コメントはプレイヤーたちに届けられます。</span';
       } else {
         statusDiv.innerHTML = '<S><B style="font-size:24px;">【投票ページへ】</B></S><BR><span style="color:#a99;font-size:14px;">サーバー閉鎖につき、投票は終了いたしました。<BR>これまでの温かいコメント、誠にありがとうございました！</span>';
       }
