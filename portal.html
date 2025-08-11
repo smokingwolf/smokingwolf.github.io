@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Silver Second  Link Relay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- JS無効時はアーカイブへ即転送 -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://smokingwolf.github.io/">
+  </noscript>
+
+  <script>
+    (function () {
+      const CHECK_URL = 'https://silversecond.net/SILVERSECOND_SITE_ALIVE_FLAG.txt';
+      const ALIVE_TOKEN = 'SILVERSECOND_ALIVE!';
+      const DEST_ALIVE = 'https://silversecond.net/';
+      const DEST_ARCHIVE = 'https://smokingwolf.github.io/';
+
+      // 即時置換用
+      function go(url) { window.location.replace(url); }
+
+      // タイムアウト付きfetch（ハング防止）
+      function fetchWithTimeout(url, ms) {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), ms);
+        return fetch(url, { cache: 'no-store', signal: controller.signal })
+          .finally(() => clearTimeout(id));
+      }
+
+      // DOM準備後に実行
+      function start() {
+        const status = document.getElementById('silsec-status');
+        if (status) status.textContent = '接続先を自動判定中…';
+
+        fetchWithTimeout(CHECK_URL, 2500)
+          .then(res => {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            return res.text();
+          })
+          .then(txt => {
+            if (txt.trim() === ALIVE_TOKEN) {
+              go(DEST_ALIVE);
+            } else {
+              go(DEST_ARCHIVE);
+            }
+          })
+          .catch(() => {
+            // ネットワーク/タイムアウト/読み取り失敗時はアーカイブへ
+            go(DEST_ARCHIVE);
+          });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', start);
+      } else {
+        start();
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div id="silsec-status" style="font:14px/1.6 system-ui, sans-serif; padding:16px;">
+    接続先チェック中です… 数秒たっても切り替わらない場合は
+    <a href="https://silversecond.net/">本サイト</a> /
+    <a href="https://smokingwolf.github.io/">アーカイブ</a>
+    から直接アクセスしてください。
+  </div>
+</body>
+</html>
