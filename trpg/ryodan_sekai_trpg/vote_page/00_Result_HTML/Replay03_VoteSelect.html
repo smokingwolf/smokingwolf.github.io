@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Pragma" content="no-cache">
+
+<TITLE>旅団世界TRPGリプレイ第3巻 人気投票</TITLE>
+<LINK REL="stylesheet" HREF="ryodan_ninki.css" TYPE="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<STYLE TYPE="text/css">
+<!--
+	body{
+		
+		margin-left:1em;
+		margin-right:1em;
+	}
+-->
+</STYLE>
+
+<SCRIPT language="JavaScript">
+<!--
+// ●描画更新
+function all_redraw(){
+	// 全て表示する処理
+	$('#baseform').css('display', 'block');
+	$('#noform').css('display', 'none');
+
+	if( window.parent.screen.width >= 1024 ){
+		// 画面サイズが横1024以上なら「PC版」を初期値にする
+			$('body').css('font-size', '10px');
+			$('body').css('font-size', '1em');
+	}else{
+			$('body').css('font-size', '19px');
+			$('body').css('font-size', '1.9em');
+	}
+}
+// -->
+</SCRIPT>
+</HEAD>
+<BODY onLoad="all_redraw()">
+<BR><BR>
+<TABLE class="gradientAA" cellpadding="3" cellspacing="1" width="100%" style="min-height:2em;">
+<TBODY><TR>
+<TD colspan="1" align="center" style="vertical-align:middle;">
+<span style=" text-shadow: 0 0 7px #522, 0 0 7px #522; line-height:170%;color:#FFF;"><B>旅団世界TRPG 第3巻『夏の旅団と神秘のカード』<BR>人気投票ページご案内</B></FONT> </TD>
+</TR>
+</TBODY></TABLE>
+<BR><BR>
+<CENTER>
+<TABLE><TR><TD cellspacing="8">
+<img src="./face_image/cover_03.jpg" width="160"></CENTER>
+</TD>
+<TD align="center">
+<div id="silsec-status"><S style="font-size:24px;">【投票ページへ！】</S><BR>
+　<span style="color:#a99;font-size:0.7rem;">JavaScriptがオフなので投票ページに移動できません。</span></div>
+
+<BR>
+<BR>
+<BR>
+
+<B style="color:#f55;">[2023/9/16発表！]</B><BR><BR>
+<a href="Replay03_BT8R0PLQZX.html"><B style="font-size:24px;">【結果発表ページへ！】</B></a><BR>
+　<span style="color:#a99;font-size:14px;">みなさまからの投票コメントも見られます！</span><BR>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR><BR>　
+<BR><BR>　
+<BR><BR>　
+<BR><BR>　
+<BR><BR>　
+
+
+
+<script>
+  // シルバーセカンド公式のドメインに接続し、サイト存在確認用のTXT(SILVERSECOND_ALIVE!と書かれている)があれば存在する扱いにする
+  const statusDiv = document.getElementById('silsec-status');
+  const checkUrl = 'https://silversecond.net/SILVERSECOND_SITE_ALIVE_FLAG.txt';
+
+  fetch(checkUrl, { cache: 'no-store' })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('ネットワークエラー');
+      }
+      return response.text();
+    })
+    .then(text => {
+      if (text.trim() === 'SILVERSECOND_ALIVE!') {
+        statusDiv.innerHTML = '<a href="https://silversecond.net/contents/game/TRPG/ryodan_sekai_trpg/vote_page/ninki_vote.cgi?VOTE=Replay03_BT8R0PLQZX"><B style="font-size:24px;">【投票ページへ】</B></a><BR><span style="color:#a99;font-size:14px;">現在でも受付可能です！　投票コメントはプレイヤーたちに届けられます。</span';
+      } else {
+        statusDiv.innerHTML = '<S><B style="font-size:24px;">【投票ページへ】</B></S><BR><span style="color:#a99;font-size:14px;">サーバー閉鎖につき、投票は終了いたしました。<BR>これまでの温かいコメント、誠にありがとうございました！</span>';
+      }
+    })
+    .catch(error => {
+        statusDiv.innerHTML = '<S><B style="font-size:24px;">【投票ページへ】</B></S><BR><span style="color:#a99;font-size:14px;">サーバー閉鎖につき、投票は終了いたしました。<BR>これまでの温かいコメント、誠にありがとうございました！</span>';
+      console.error('シルバーセカンド公式サイトチェック失敗:', error);
+    });
+</script>
+
+
+
+</BODY>
+</HTML>
