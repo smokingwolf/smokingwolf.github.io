@@ -30,7 +30,7 @@
 	<TABLE class="bgray" cellpadding="3" cellspacing="1"><TR>
 	      <TD class="white" nowrap>
 <B>片道勇者TRPG</B><BR>&nbsp;<small><small>灰の少女とﾖﾙﾑﾝｶﾞﾝﾄﾞ</small></small>
-<BR><a href="index.shtml#S0" class=red>◆トップページ</a><BR>
+<BR><a href="./#S0" class=red>◆トップページ</a><BR>
   <BR><a href="#S0">◆1話『<small>騎士と狩人</small>』</a><BR>
     　<a href="#S1">- キャラメイク</a><BR>
   　<a href="#S2">- 冒険の準備</a><BR>
