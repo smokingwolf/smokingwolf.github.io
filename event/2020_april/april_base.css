@@ -328,7 +328,7 @@ table#undermenu{
 
 
 a.undermenu1{
-	background:url(https://silversecond.net/contents/library/event/2020_april/image/menu1_icon.png) #88F;
+	background:url(../2020_april/image/menu1_icon.png) #88F;
     background-size:auto 100% ;
     background-repeat:no-repeat;
     background-position: center bottom;
@@ -337,7 +337,7 @@ a.undermenu1{
     text-decoration: none;
 }
 a.undermenu2{
-	background:url(https://silversecond.net/contents/library/event/2020_april/image/menu3_icon.png) #88F;
+	background:url(../2020_april/image/menu3_icon.png) #88F;
     background-size:auto 100% ;
     background-repeat:no-repeat;
     background-position: center bottom;
@@ -347,7 +347,7 @@ a.undermenu2{
 }
 
 a.undermenu3{
-	background:url(https://silversecond.net/contents/library/event/2020_april/image/menu3_icon.png) #88F;
+	background:url(../2020_april/image/menu3_icon.png) #88F;
     background-size:auto 100% ;
     background-repeat:no-repeat;
     background-position: center bottom;
@@ -357,7 +357,7 @@ a.undermenu3{
 }
 
 a.undermenu4{
-	background:url(https://silversecond.net/contents/library/event/2020_april/image/menu4_icon.png) #88F;
+	background:url(../2020_april/image/menu4_icon.png) #88F;
     background-size:auto 100% ;
     background-repeat:no-repeat;
     background-position: center bottom;
@@ -367,7 +367,7 @@ a.undermenu4{
 }
 
 a.undermenu5{
-	background:url(https://silversecond.net/contents/library/event/2020_april/image/menu5_icon.png) #88F;
+	background:url(../2020_april/image/menu5_icon.png) #88F;
     background-size:auto 100% ;
     background-repeat:no-repeat;
     background-position: center bottom;
